@@ -7,33 +7,29 @@ how it is built.
 
 The project builds one APK that runs Magic 2015 (32-bit ARM, NativeActivity, 2015) on
 64-bit-only Android 16. It is ZettaBridge, an ARM32→ARM64 translator app, plus our fixes, with
-the game and its OBB bundled inside. What is tracked here is only what we wrote: `port/`. Everything else is
-generated, third-party or private, and git-ignored:
+the game and its OBB bundled inside. What is tracked is what we wrote: `zettabridge/` (the
+translator, including all the Magic 2015 fixes) and `port/` (game patches and build scripts).
+Everything else is generated, third-party or private, and git-ignored:
 
-- `vendor/` comes from `port/setup.sh`.
-- `build/` and `dist/` come from `port/build.sh`.
+- `zettabridge/third_party/dynarmic/` and `zettabridge/sysroot/` come from `port/setup.sh`.
+- `build/` and `dist/` come from `port/build.sh`; `zettabridge/build/` holds the native build.
 - `input/` holds the game files.
 - `keys/` holds the signing key.
 
 ## Commands
 
 ```
-port/setup.sh [--force]        # vendor/ZettaBridge = upstream d6066b9 + port/zettabridge.patch + sysroot
+port/setup.sh [--force]        # fetch dynarmic (pinned + zettabridge/third_party/patches) and the sysroot
 SKIP_GUEST=1 port/build.sh     # dist/Magic2015-Android16.apk (drop SKIP_GUEST after guest/ changes)
 port/java-truststore.sh        # once, when Gradle/sdkmanager fail with PKIX errors (TLS inspection)
 ```
 
 ### Changing ZettaBridge
 
-1. Edit `vendor/ZettaBridge`.
-2. Rebuild and test.
-3. Regenerate the patch. The vendor tree stays uncommitted on top of d6066b9; `add -A` picks up new files, and `.gitignore` there keeps out `sysroot/`, `build/` and `local.properties`:
-
-```
-git -C vendor/ZettaBridge add -A && git -C vendor/ZettaBridge diff --cached --binary > port/zettabridge.patch
-```
-
-Never commit inside `vendor/`. The patch is the source of truth.
+Edit `zettabridge/` directly, rebuild and test, and commit it like any other code. Its own
+`CLAUDE.md` and `AGENTS.md` describe the architecture and gotchas; they predate this project.
+Changes to Dynarmic go into a new patch under `zettabridge/third_party/patches/` and the
+`git apply` list in `port/setup.sh`, because the Dynarmic checkout is not tracked.
 
 ### Testing on the emulator
 
@@ -86,7 +82,9 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 
 ## Rules
 
-- Never commit `input/`, `keys/`, `vendor/`, `build/`, `dist/` or any APK, OBB or keystore.
+- Never commit `input/`, `keys/`, `build/`, `dist/`, `zettabridge/build/`, Dynarmic, the sysroot,
+  or any APK, OBB or keystore.
 - Keep the signing key: updates signed with a different key need an uninstall, which loses the
   user's progress.
-- ZettaBridge is PolyForm Noncommercial. Personal use only; do not publish builds.
+- ZettaBridge is the user's own code. Builds contain the copyrighted game: personal use only; do
+  not publish them. Dynarmic and its externals keep their own licences.

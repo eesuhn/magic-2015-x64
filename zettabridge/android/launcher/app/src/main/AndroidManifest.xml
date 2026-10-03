@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Common needs of plugin apps; the plugin's own permissions are not granted in Phase 0. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".ZbApplication"
+        android:allowBackup="false"
+        android:enableOnBackInvokedCallback="false"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@android:style/Theme.Material.Light.DarkActionBar">
+
+        <!-- Home-screen entry: installs the bundled game on first launch, then starts it. A build
+             without a bundled game forwards to the library. -->
+        <activity
+            android:name=".BundleActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- The plugin library, kept for diagnostics (run report, settings): adb shell am start -n
+             PACKAGE/com.zettabridge.launcher.LibraryActivity -->
+        <activity
+            android:name=".LibraryActivity"
+            android:exported="true" />
+
+        <!-- Target of pinned shortcuts: loads the plugin in :guest and starts its launcher activity. -->
+        <!-- Runs in the launcher's own process: it ends the :guest process so another plugin can
+             start in a fresh one. -->
+        <activity
+            android:name=".PluginSwitchActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:taskAffinity="${applicationId}.switch"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name=".GuestLaunchActivity"
+            android:exported="true"
+            android:process=":guest"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <!-- Stub pool. GuestInstrumentation replaces each with the plugin activity named in the intent.
+             Predictive back is off: guests predate it, so a back gesture must reach them the old way,
+             as KEYCODE_BACK through onKeyDown (Magic 2015 ignores onBackPressed). -->
+        <activity
+            android:name=".Stubs$Standard"
+            android:enableOnBackInvokedCallback="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:process=":guest"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name=".Stubs$Landscape"
+            android:enableOnBackInvokedCallback="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:process=":guest"
+            android:screenOrientation="sensorLandscape"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name=".Stubs$Portrait"
+            android:enableOnBackInvokedCallback="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:process=":guest"
+            android:screenOrientation="sensorPortrait"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name=".Stubs$SingleTop"
+            android:enableOnBackInvokedCallback="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:process=":guest"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name=".Stubs$SingleTask"
+            android:enableOnBackInvokedCallback="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:process=":guest"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <activity
+            android:name=".Stubs$SingleInstance"
+            android:enableOnBackInvokedCallback="false"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleInstance"
+            android:process=":guest"
+            android:taskAffinity="${applicationId}.guest"
+            android:theme="@android:style/Theme.Material.NoActionBar" />
+        <!-- AndroidIDE injects the Kotlin-based LogWire logger into debug builds. This app has no
+             Kotlin stdlib, so its init provider crashes the main process. Drop it. -->
+        <provider
+            android:name="io.github.mohammedbaqernull.logger.logwire.LogWireInitializer"
+            tools:node="remove" />
+    </application>
+</manifest>

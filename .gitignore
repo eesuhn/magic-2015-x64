@@ -3,9 +3,6 @@
 /dist/
 *.apk
 
-# Recreated by port/setup.sh (upstream ZettaBridge + port/zettabridge.patch)
-/vendor/
-
 # The game itself (copyrighted, ~1.6 GB): supply your own, see README
 /input/
 

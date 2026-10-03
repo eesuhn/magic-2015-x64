@@ -16,7 +16,7 @@ seconds.
 | Area | Problem | Fix |
 | --- | --- | --- |
 | Runtime | 32-bit-only game on a 64-bit-only CPU | ZettaBridge (Dynarmic ARM32 → ARM64 translation) |
-| ZettaBridge | NativeActivity start, looper idents, `AInputQueue_attachLooper` 5th argument, EGL handle maps, AAssetDir, `sched_*` syscalls, report writer stalls | `port/zettabridge.patch` |
+| ZettaBridge | NativeActivity start, looper idents, `AInputQueue_attachLooper` 5th argument, EGL handle maps, AAssetDir, `sched_*` syscalls, report writer stalls | `zettabridge/` |
 | Audio | No `libOpenSLES.so` for 32-bit guests | Silent stub (`port/sles/`); only the intro videos use it, music and effects play |
 | Graphics | Game uses a pointer as an EGL config when the GPU lacks RGB565 | 1-byte patch in `libDuels.so` |
 | Size | A 1.5 GB OBB copy doubled the install size | OBB served from inside the APK through a file window; a sparse placeholder satisfies the game's size check |
@@ -48,7 +48,7 @@ different key, and Google+ no longer exists. The intro videos are silent.
 ## Build
 
 ```
-port/setup.sh            # once: vendor/ZettaBridge = upstream @ d6066b9 + our patch + sysroot
+port/setup.sh            # once: fetch Dynarmic (pinned, patched) and the arm32 sysroot into zettabridge/
 port/java-truststore.sh  # only behind TLS inspection (e.g. Cloudflare Gateway), see below
 port/build.sh            # → dist/Magic2015-Android16.apk  (SKIP_GUEST=1 to reuse the guest build)
 ```
@@ -69,22 +69,23 @@ install needs about 1.6 GB free while it runs.
 ## Layout
 
 ```
+zettabridge/         ZettaBridge itself (from upstream d6066b9) with all the fixes above
+  third_party/dynarmic, sysroot   (ignored) fetched by port/setup.sh
+  build/             (ignored) native build
 port/
-  setup.sh           creates vendor/ZettaBridge
+  setup.sh           fetches Dynarmic and the sysroot
   build.sh           builds dist/Magic2015-Android16.apk
   tools.py           game APK patches (libDuels, classes.dex) and APK packaging/alignment
   sles/sles_stub.c   silent OpenSL ES for the 32-bit guest
-  zettabridge.patch  all changes to ZettaBridge, against upstream d6066b9
   java-truststore.sh optional, for TLS-inspecting networks
 input/   (ignored)   the game APK and OBB
 keys/    (ignored)   signing key
-vendor/  (ignored)   ZettaBridge checkout
 build/, dist/ (ignored) intermediates and the final APK
 tools/   (ignored)   AXML-Editor, used for the first manifest experiment
 ```
 
 ## Licences
 
-ZettaBridge is source-available under PolyForm Noncommercial 1.0.0 and PolyForm Perimeter 1.0.1,
-so this project is for personal, noncommercial use. Magic 2015 belongs to Wizards of the Coast
-and Stainless Games; no game files are included here.
+ZettaBridge is the project owner's own code. Dynarmic and its bundled libraries keep their own
+licences (fetched with them). Magic 2015 belongs to Wizards of the Coast and Stainless Games; no
+game files are included here, and builds are for personal use only.

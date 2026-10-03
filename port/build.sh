@@ -6,12 +6,12 @@
 #
 # Inputs: input/magic-2015.apk, input/com.stainlessgames.D15/main.4959.*.obb,
 # keys/magic-2015-mod.keystore with its password in keys/magic-2015-mod.keystore.pass (or
-# KEYSTORE_PASS), and vendor/ZettaBridge (port/setup.sh). Intermediates go to build/.
+# KEYSTORE_PASS), and zettabridge/ with its fetched parts (port/setup.sh). Intermediates go to build/.
 set -euo pipefail
 
 HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(dirname "$HERE")
-ZB=$ROOT/vendor/ZettaBridge
+ZB=$ROOT/zettabridge
 OUT=$ROOT/build
 SDK=${ANDROID_HOME:-$HOME/.android-sdk}
 NDK=${NDK:-$SDK/ndk/29.0.14206865}
@@ -24,9 +24,8 @@ KEYSTORE_PASS_FILE=$KEYSTORE.pass
 FINAL=$ROOT/dist/Magic2015-Android16.apk
 OBB_VERSION=4959
 
-[ -d "$ZB" ] || { echo "missing $ZB: run port/setup.sh first" >&2; exit 1; }
-for f in "$GAME_APK" "$OBB" "$KEYSTORE" "$ZB/CMakeLists.txt" "$ZB/sysroot/system/bin/linker" "$LLVM/clang" "$BT/apksigner"; do
-    [ -e "$f" ] || { echo "missing $f" >&2; exit 1; }
+for f in "$GAME_APK" "$OBB" "$KEYSTORE" "$ZB/third_party/dynarmic/CMakeLists.txt" "$ZB/sysroot/system/bin/linker" "$LLVM/clang" "$BT/apksigner"; do
+    [ -e "$f" ] || { echo "missing $f (port/setup.sh fetches dynarmic and the sysroot)" >&2; exit 1; }
 done
 command -v brew >/dev/null || { echo "Homebrew is needed for the Boost headers" >&2; exit 1; }
 if [ -z "${KEYSTORE_PASS:-}" ]; then
