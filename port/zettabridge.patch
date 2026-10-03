@@ -1,0 +1,3017 @@
+diff --git a/android/launcher/app/build.gradle.kts b/android/launcher/app/build.gradle.kts
+index 4d8f09d..bad5483 100644
+--- a/android/launcher/app/build.gradle.kts
++++ b/android/launcher/app/build.gradle.kts
+@@ -23,11 +23,14 @@ android {
+     compileSdk = 35
+ 
+     defaultConfig {
+-        applicationId = "com.zettabridge.launcher"
++        // A single-game build: its own package, so it installs next to a stock ZettaBridge.
++        applicationId = "com.zettabridge.magic2015"
+         minSdk = 26
+         targetSdk = 35
+-        versionCode = 1
+-        versionName = "0.1.0"
++        // Must equal the bundled OBB's version: the game names its OBB main.<versionCode>.<package>.obb
++        // from the host package's PackageInfo (magic2015-port/build.sh checks this).
++        versionCode = 4959
++        versionName = "1.4.4959-zb"
+         ndk { abiFilters += "arm64-v8a" }
+     }
+ 
+diff --git a/android/launcher/app/src/main/AndroidManifest.xml b/android/launcher/app/src/main/AndroidManifest.xml
+index b00d147..320160b 100644
+--- a/android/launcher/app/src/main/AndroidManifest.xml
++++ b/android/launcher/app/src/main/AndroidManifest.xml
+@@ -11,19 +11,32 @@
+     <application
+         android:name=".ZbApplication"
+         android:allowBackup="false"
+-        android:label="ZettaBridge"
+-        android:icon="@android:drawable/sym_def_app_icon"
++        android:enableOnBackInvokedCallback="false"
++        android:label="@string/app_name"
++        android:icon="@mipmap/ic_launcher"
+         android:theme="@android:style/Theme.Material.Light.DarkActionBar">
+ 
++        <!-- Home-screen entry: installs the bundled game on first launch, then starts it. A build
++             without a bundled game forwards to the library. -->
+         <activity
+-            android:name=".LibraryActivity"
+-            android:exported="true">
++            android:name=".BundleActivity"
++            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden"
++            android:exported="true"
++            android:launchMode="singleTask"
++            android:screenOrientation="sensorLandscape"
++            android:theme="@android:style/Theme.Material.NoActionBar.Fullscreen">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+             </intent-filter>
+         </activity>
+ 
++        <!-- The plugin library, kept for diagnostics (run report, settings): adb shell am start -n
++             PACKAGE/com.zettabridge.launcher.LibraryActivity -->
++        <activity
++            android:name=".LibraryActivity"
++            android:exported="true" />
++
+         <!-- Target of pinned shortcuts: loads the plugin in :guest and starts its launcher activity. -->
+         <!-- Runs in the launcher's own process: it ends the :guest process so another plugin can
+              start in a fresh one. -->
+@@ -31,72 +44,80 @@
+             android:name=".PluginSwitchActivity"
+             android:exported="true"
+             android:excludeFromRecents="true"
+-            android:taskAffinity="com.zettabridge.launcher.switch"
++            android:taskAffinity="${applicationId}.switch"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+ 
+         <activity
+             android:name=".GuestLaunchActivity"
+             android:exported="true"
+             android:process=":guest"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.NoDisplay" />
+ 
+-        <!-- Stub pool. GuestInstrumentation replaces each with the plugin activity named in the intent. -->
++        <!-- Stub pool. GuestInstrumentation replaces each with the plugin activity named in the intent.
++             Predictive back is off: guests predate it, so a back gesture must reach them the old way,
++             as KEYCODE_BACK through onKeyDown (Magic 2015 ignores onBackPressed). -->
+         <activity
+             android:name=".Stubs$Standard"
++            android:enableOnBackInvokedCallback="false"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+             android:exported="false"
+             android:hardwareAccelerated="true"
+             android:launchMode="standard"
+             android:process=":guest"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.Material.NoActionBar" />
+         <activity
+             android:name=".Stubs$Landscape"
++            android:enableOnBackInvokedCallback="false"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+             android:exported="false"
+             android:hardwareAccelerated="true"
+             android:launchMode="standard"
+             android:process=":guest"
+             android:screenOrientation="sensorLandscape"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.Material.NoActionBar" />
+         <activity
+             android:name=".Stubs$Portrait"
++            android:enableOnBackInvokedCallback="false"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+             android:exported="false"
+             android:hardwareAccelerated="true"
+             android:launchMode="standard"
+             android:process=":guest"
+             android:screenOrientation="sensorPortrait"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.Material.NoActionBar" />
+         <activity
+             android:name=".Stubs$SingleTop"
++            android:enableOnBackInvokedCallback="false"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+             android:exported="false"
+             android:hardwareAccelerated="true"
+             android:launchMode="singleTop"
+             android:process=":guest"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.Material.NoActionBar" />
+         <activity
+             android:name=".Stubs$SingleTask"
++            android:enableOnBackInvokedCallback="false"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+             android:exported="false"
+             android:hardwareAccelerated="true"
+             android:launchMode="singleTask"
+             android:process=":guest"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.Material.NoActionBar" />
+         <activity
+             android:name=".Stubs$SingleInstance"
++            android:enableOnBackInvokedCallback="false"
+             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|density|screenSize|smallestScreenSize|layoutDirection|colorMode"
+             android:exported="false"
+             android:hardwareAccelerated="true"
+             android:launchMode="singleInstance"
+             android:process=":guest"
+-            android:taskAffinity="com.zettabridge.launcher.guest"
++            android:taskAffinity="${applicationId}.guest"
+             android:theme="@android:style/Theme.Material.NoActionBar" />
+         <!-- AndroidIDE injects the Kotlin-based LogWire logger into debug builds. This app has no
+              Kotlin stdlib, so its init provider crashes the main process. Drop it. -->
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/core/ZBridge.java b/android/launcher/app/src/main/java/com/zettabridge/core/ZBridge.java
+index b637f22..bf3b2c3 100644
+--- a/android/launcher/app/src/main/java/com/zettabridge/core/ZBridge.java
++++ b/android/launcher/app/src/main/java/com/zettabridge/core/ZBridge.java
+@@ -104,6 +104,12 @@ public final class ZBridge {
+      */
+     public static native String runtimeReport();
+ 
++    /**
++     * Serves {@code guestPath} to guest native code from {@code [offset, offset + length)} of
++     * {@code backingPath}, read-only and without a copy. Call before the guest opens the path.
++     */
++    public static native void addFileWindow(String guestPath, String backingPath, long offset, long length);
++
+     /**
+      * Applies the arm32 import fixups (absolute DT_NEEDED to basename, DT_TEXTREL marker) in place.
+      *
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/BundleActivity.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/BundleActivity.java
+new file mode 100644
+index 0000000..8d9a446
+--- /dev/null
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/BundleActivity.java
+@@ -0,0 +1,186 @@
++package com.zettabridge.launcher;
++
++import android.app.Activity;
++import android.content.Context;
++import android.content.Intent;
++import android.graphics.Color;
++import android.os.Bundle;
++import android.util.Log;
++import android.util.TypedValue;
++import android.view.Gravity;
++import android.view.View;
++import android.view.WindowManager;
++import android.widget.Button;
++import android.widget.LinearLayout;
++import android.widget.ProgressBar;
++import android.widget.TextView;
++
++/**
++ * Home-screen entry of a single-game build. When this APK carries a bundled game it is installed
++ * on first launch (BundledGame) and then started directly; later launches go straight to the
++ * game. A build without a bundled game opens the ordinary library.
++ *
++ * Preparation runs once per process, whatever happens to the activity: a recreated or relaunched
++ * instance attaches to the run in progress instead of starting a second import.
++ */
++public class BundleActivity extends Activity {
++    private static final String TAG = "zb-bundle";
++
++    // Process-wide preparation state, guarded by LOCK.
++    private static final Object LOCK = new Object();
++    private static Thread worker;
++    private static BundleActivity shown;
++    private static String lastMessage = "Setting up the game for the first time...";
++    private static long lastDone;
++    private static long lastTotal;
++
++    private TextView status;
++    private ProgressBar bar;
++    private Button retry;
++
++    @Override
++    protected void onCreate(Bundle state) {
++        super.onCreate(state);
++        if (!BundledGame.isBundled(this)) {
++            startActivity(new Intent(this, LibraryActivity.class));
++            finishAndRemoveTask();
++            return;
++        }
++        boolean running;
++        synchronized (LOCK) {
++            running = worker != null;
++        }
++        String ready = running ? null : BundledGame.readyPackage(this);
++        if (ready != null) {
++            launch(ready);
++            return;
++        }
++        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
++        setContentView(buildUi());
++        synchronized (LOCK) {
++            shown = this;
++            showProgress(lastMessage, lastDone, lastTotal);
++        }
++        start(getApplicationContext());
++    }
++
++    @Override
++    protected void onDestroy() {
++        synchronized (LOCK) {
++            if (shown == this) shown = null;
++        }
++        super.onDestroy();
++    }
++
++    private View buildUi() {
++        int pad = dp(32);
++        LinearLayout root = new LinearLayout(this);
++        root.setOrientation(LinearLayout.VERTICAL);
++        root.setGravity(Gravity.CENTER);
++        root.setPadding(pad, pad, pad, pad);
++        root.setBackgroundColor(Color.BLACK);
++
++        status = new TextView(this);
++        status.setTextColor(Color.WHITE);
++        status.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
++        status.setGravity(Gravity.CENTER);
++        root.addView(status);
++
++        bar = new ProgressBar(this, null, android.R.attr.progressBarStyleHorizontal);
++        bar.setMax(1000);
++        bar.setIndeterminate(true);
++        LinearLayout.LayoutParams barParams = new LinearLayout.LayoutParams(dp(360), LinearLayout.LayoutParams.WRAP_CONTENT);
++        barParams.topMargin = dp(16);
++        root.addView(bar, barParams);
++
++        retry = new Button(this);
++        retry.setText("Retry");
++        retry.setVisibility(View.GONE);
++        retry.setOnClickListener(v -> {
++            retry.setVisibility(View.GONE);
++            bar.setVisibility(View.VISIBLE);
++            start(getApplicationContext());
++        });
++        LinearLayout.LayoutParams retryParams = new LinearLayout.LayoutParams(
++                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
++        retryParams.topMargin = dp(16);
++        root.addView(retry, retryParams);
++        return root;
++    }
++
++    /** Starts the process-wide preparation unless it is already running. */
++    private static void start(Context app) {
++        synchronized (LOCK) {
++            if (worker != null) return;
++            lastMessage = "Setting up the game for the first time...";
++            lastDone = 0;
++            lastTotal = 0;
++            worker = new Thread(() -> run(app), "zb-bundle");
++            worker.start();
++        }
++    }
++
++    private static void run(Context app) {
++        String pkg = null;
++        String failure = null;
++        try {
++            pkg = BundledGame.prepare(app, (message, done, total) -> {
++                BundleActivity target;
++                synchronized (LOCK) {
++                    lastMessage = message;
++                    lastDone = done;
++                    lastTotal = total;
++                    target = shown;
++                }
++                if (target != null) target.runOnUiThread(() -> target.showProgress(message, done, total));
++            });
++        } catch (Exception e) {
++            Log.e(TAG, "cannot prepare the bundled game", e);
++            failure = e.getMessage() != null ? e.getMessage() : e.toString();
++        }
++        BundleActivity target;
++        synchronized (LOCK) {
++            worker = null;
++            target = shown;
++        }
++        // Nobody watching (the user left): the next launch finds the game ready and starts it.
++        if (target == null) return;
++        final String done = pkg;
++        final String error = failure;
++        target.runOnUiThread(() -> {
++            if (error != null) target.showFailure(error);
++            else target.launch(done);
++        });
++    }
++
++    private void showProgress(String message, long done, long total) {
++        if (isFinishing() || isDestroyed() || status == null) return;
++        if (total > 0) {
++            bar.setIndeterminate(false);
++            bar.setProgress((int) (done * 1000 / total));
++            status.setText(String.format("%s %d%%", message, done * 100 / total));
++        } else {
++            bar.setIndeterminate(true);
++            status.setText(message);
++        }
++    }
++
++    private void showFailure(String message) {
++        if (isFinishing() || isDestroyed() || status == null) return;
++        bar.setVisibility(View.GONE);
++        status.setText("Setup failed: " + message);
++        retry.setVisibility(View.VISIBLE);
++    }
++
++    private void launch(String pkg) {
++        if (isFinishing() || isDestroyed()) return;
++        startActivity(PluginSwitchActivity.intent(this, pkg));
++        // The game runs in its own (guest) task; leaving this one behind would show the app twice
++        // in Recents.
++        finishAndRemoveTask();
++    }
++
++    private int dp(int value) {
++        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, value, getResources().getDisplayMetrics());
++    }
++}
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/BundledGame.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/BundledGame.java
+new file mode 100644
+index 0000000..8af6bf4
+--- /dev/null
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/BundledGame.java
+@@ -0,0 +1,272 @@
++package com.zettabridge.launcher;
++
++import android.content.Context;
++import android.content.pm.PackageInfo;
++import android.content.pm.PackageManager;
++import android.content.res.AssetFileDescriptor;
++import android.database.sqlite.SQLiteDatabase;
++import android.util.Log;
++
++import java.io.File;
++import java.io.FileOutputStream;
++import java.io.IOException;
++import java.io.InputStream;
++import java.io.OutputStream;
++import java.io.RandomAccessFile;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.Files;
++import java.util.zip.ZipEntry;
++import java.util.zip.ZipFile;
++import java.util.zip.ZipInputStream;
++
++import com.zettabridge.core.ZBridge;
++
++/**
++ * The game this APK ships with: assets/bundle/game.apk, plus its expansion files under
++ * assets/bundle/obb/, all stored uncompressed (magic2015-port/tools.py), the OBB page-aligned.
++ *
++ * The expansion files are never copied. The game's Java side only checks that its OBB exists with
++ * the right size, so a sparse placeholder of that size (no data blocks) stands at the path it
++ * expects; its native side reads the OBB, and in the :guest process that path is a file window
++ * (ZBridge.addFileWindow) onto the OBB's bytes inside this installed APK. Disk use is the APK.
++ *
++ * The OBB path is the one the game derives from the host package: main.VERSION.HOST_PACKAGE.obb
++ * in the host's OBB directory. First launch imports the game as a plugin and creates the
++ * placeholders; an app update re-imports the game, keeping its saved data.
++ */
++final class BundledGame {
++    private static final String TAG = "zb-bundle";
++    static final String GAME_ASSET = "bundle/game.apk";
++    private static final String OBB_ASSET_DIR = "bundle/obb";
++    private static final String STAMP_FILE = "bundle-stamp";
++    private static final String PACKAGE_FILE = "bundle-package";
++    // Identity prefix of a placeholder; earlier builds recorded full copies without it.
++    private static final String PLACEHOLDER = "window:";
++    // The game APK's unlock snapshot (see seedUnlocks) and the marker that it has been applied.
++    private static final String UNLOCK_ASSET = "assets/opera-fan";
++    private static final String UNLOCK_MARKER = "bundle-unlocks-v1";
++
++    interface Progress {
++        void update(String message, long done, long total);
++    }
++
++    private BundledGame() {}
++
++    static boolean isBundled(Context c) {
++        try (InputStream ignored = c.getAssets().open(GAME_ASSET)) {
++            return true;
++        } catch (IOException e) {
++            return false;
++        }
++    }
++
++    /** The imported game's package, when the plugin and every OBB placeholder are in place. */
++    static String readyPackage(Context c) {
++        String pkg = read(new File(c.getFilesDir(), PACKAGE_FILE));
++        if (pkg == null || !stamp(c).equals(read(new File(c.getFilesDir(), STAMP_FILE)))) return null;
++        PluginRecord r = PluginStore.find(c, pkg);
++        if (r == null || !r.isLaunchable()) return null;
++        if (!new File(c.getFilesDir(), UNLOCK_MARKER).exists()) return null;
++        try {
++            for (String name : obbAssets(c)) {
++                if (!placeholderReady(c, name)) return null;
++            }
++        } catch (IOException e) {
++            return null;
++        }
++        return pkg;
++    }
++
++    /** Imports the game and lays down its OBB placeholders as needed. Returns the game's package. */
++    static String prepare(Context c, Progress progress) throws IOException {
++        String stamp = stamp(c);
++        File stampFile = new File(c.getFilesDir(), STAMP_FILE);
++        File packageFile = new File(c.getFilesDir(), PACKAGE_FILE);
++        String pkg = read(packageFile);
++        PluginRecord existing = pkg != null ? PluginStore.find(c, pkg) : null;
++        if (existing == null || !stamp.equals(read(stampFile))) {
++            progress.update("Installing the game...", 0, 0);
++            PluginRecord r;
++            try (InputStream in = c.getAssets().open(GAME_ASSET)) {
++                r = PluginStore.importApk(c, in);
++            }
++            if (!r.isLaunchable()) throw new IOException(r.label + ": " + r.status());
++            pkg = r.packageName;
++            write(packageFile, pkg);
++        }
++        for (String name : obbAssets(c)) writePlaceholder(c, name);
++        PluginRecord r = PluginStore.find(c, pkg);
++        if (r == null) throw new IOException("the imported game is missing");
++        seedUnlocks(c, r);
++        write(stampFile, stamp);
++        return pkg;
++    }
++
++    /**
++     * The bundled game is an androeed.ru repack whose unlock is a data snapshot, assets/opera-fan
++     * (a zip of databases/purchase.db, files/p1.profile, shared_prefs/DuelsLoader.xml), which its
++     * DuelsLoader.SmartDataRestoreForYou unzips into /data/data/<getPackageName()>/. Under
++     * ZettaBridge that is the host's data directory, not the plugin's, so the game never sees it
++     * and the purchases (all chapters, the expansion, every collection) stay locked.
++     *
++     * So it is applied here, to the plugin's own data directory: purchase.db is merged into the
++     * game's database (which the game may already have created empty), files are added only when
++     * missing so a player's progress is never overwritten, and the preferences, an empty Facebook
++     * user name, are skipped. Runs once per install; a failure is logged and the game still runs.
++     */
++    private static void seedUnlocks(Context c, PluginRecord r) {
++        File marker = new File(c.getFilesDir(), UNLOCK_MARKER);
++        if (marker.exists()) return;
++        File data = r.dataDir();
++        try (ZipFile apk = new ZipFile(r.apk())) {
++            ZipEntry snapshot = apk.getEntry(UNLOCK_ASSET);
++            if (snapshot != null) {
++                try (ZipInputStream zip = new ZipInputStream(apk.getInputStream(snapshot))) {
++                    for (ZipEntry e; (e = zip.getNextEntry()) != null; ) {
++                        String name = e.getName();
++                        if (e.isDirectory() || name.contains("..") || name.startsWith("shared_prefs/")) continue;
++                        File target = new File(data, name);
++                        if (name.equals("databases/purchase.db") && target.exists()) {
++                            File incoming = new File(c.getCacheDir(), "unlock-purchase.db");
++                            copy(zip, incoming);
++                            mergePurchases(target, incoming);
++                            incoming.delete();
++                        } else if (!target.exists()) {
++                            File dir = target.getParentFile();
++                            if (dir != null && !dir.isDirectory() && !dir.mkdirs()) throw new IOException("cannot create " + dir);
++                            copy(zip, target);
++                        }
++                    }
++                }
++                Log.i(TAG, "unlock snapshot applied to " + data);
++            }
++            write(marker, "1");
++        } catch (IOException | RuntimeException e) {
++            Log.e(TAG, "cannot apply the unlock snapshot", e);
++        }
++    }
++
++    /** Adds the snapshot's purchase records to the game's own purchase database. */
++    private static void mergePurchases(File target, File incoming) {
++        SQLiteDatabase db = SQLiteDatabase.openDatabase(target.getPath(), null, SQLiteDatabase.OPEN_READWRITE);
++        try {
++            db.execSQL("ATTACH DATABASE ? AS snap", new Object[] {incoming.getPath()});
++            db.beginTransaction();
++            try {
++                db.execSQL("INSERT OR REPLACE INTO purchased SELECT * FROM snap.purchased");
++                db.execSQL("INSERT OR IGNORE INTO history SELECT * FROM snap.history");
++                db.setTransactionSuccessful();
++            } finally {
++                db.endTransaction();
++            }
++            db.execSQL("DETACH DATABASE snap");
++        } finally {
++            db.close();
++        }
++    }
++
++    private static void copy(InputStream in, File out) throws IOException {
++        try (OutputStream o = new FileOutputStream(out)) {
++            byte[] buf = new byte[1 << 16];
++            for (int n; (n = in.read(buf)) > 0; ) o.write(buf, 0, n);
++        }
++    }
++
++    /**
++     * In the :guest process, before plugin code runs: maps each OBB path onto its entry in this
++     * APK. Failures are logged; the game then reads the placeholder and reports missing data.
++     */
++    static void registerFileWindows(Context c) {
++        try {
++            for (String name : obbAssets(c)) {
++                try (AssetFileDescriptor afd = c.getAssets().openFd(OBB_ASSET_DIR + "/" + name)) {
++                    File target = obbTarget(c, name);
++                    String apk = c.getPackageCodePath();
++                    ZBridge.addFileWindow(target.getPath(), apk, afd.getStartOffset(), afd.getLength());
++                    String canonical = target.getCanonicalPath();
++                    if (!canonical.equals(target.getPath())) {
++                        ZBridge.addFileWindow(canonical, apk, afd.getStartOffset(), afd.getLength());
++                    }
++                }
++            }
++        } catch (IOException | RuntimeException e) {
++            Log.e(TAG, "cannot map the bundled OBB", e);
++        }
++    }
++
++    /** A sparse file of the OBB's size: what the game's existence and size checks look at. */
++    private static void writePlaceholder(Context c, String name) throws IOException {
++        if (placeholderReady(c, name)) return;
++        File target = obbTarget(c, name);
++        File dir = target.getParentFile();
++        if (dir == null || (!dir.isDirectory() && !dir.mkdirs())) throw new IOException("cannot create " + dir);
++        // Replaces a full copy from an earlier build, which frees its space.
++        if (target.exists() && !target.delete()) throw new IOException("cannot replace " + target);
++        long length = assetLength(c, OBB_ASSET_DIR + "/" + name);
++        try (RandomAccessFile file = new RandomAccessFile(target, "rw")) {
++            file.setLength(length);  // extends without writing: no data blocks are allocated
++        }
++        if (target.length() != length) throw new IOException("cannot size " + target);
++        write(identityFile(c, name), PLACEHOLDER + assetIdentity(c, name));
++        Log.i(TAG, "OBB placeholder " + target + " (" + length + " bytes, served from the APK)");
++    }
++
++    private static boolean placeholderReady(Context c, String name) throws IOException {
++        return obbTarget(c, name).length() == assetLength(c, OBB_ASSET_DIR + "/" + name)
++                && (PLACEHOLDER + assetIdentity(c, name)).equals(read(identityFile(c, name)));
++    }
++
++    private static File identityFile(Context c, String name) {
++        return new File(c.getFilesDir(), "obb-" + name + ".id");
++    }
++
++    /** CRC and size of the bundled entry, read from the APK's central directory (cheap). */
++    private static String assetIdentity(Context c, String name) throws IOException {
++        try (ZipFile apk = new ZipFile(c.getPackageCodePath())) {
++            ZipEntry entry = apk.getEntry("assets/" + OBB_ASSET_DIR + "/" + name);
++            if (entry == null) throw new IOException("bundled " + name + " is missing");
++            return Long.toHexString(entry.getCrc()) + ":" + entry.getSize();
++        }
++    }
++
++    /** main.4959.obb becomes OBB_DIR/main.4959.HOST_PACKAGE.obb. */
++    private static File obbTarget(Context c, String assetName) {
++        String base = assetName.endsWith(".obb") ? assetName.substring(0, assetName.length() - 4) : assetName;
++        return new File(c.getObbDir(), base + "." + c.getPackageName() + ".obb");
++    }
++
++    private static String[] obbAssets(Context c) throws IOException {
++        String[] names = c.getAssets().list(OBB_ASSET_DIR);
++        return names != null ? names : new String[0];
++    }
++
++    private static long assetLength(Context c, String asset) throws IOException {
++        try (AssetFileDescriptor afd = c.getAssets().openFd(asset)) {
++            return afd.getLength();
++        }
++    }
++
++    /** Changes whenever this APK is reinstalled or updated, which is when the bundle may differ. */
++    private static String stamp(Context c) {
++        try {
++            PackageInfo info = c.getPackageManager().getPackageInfo(c.getPackageName(), 0);
++            return info.getLongVersionCode() + ":" + info.lastUpdateTime;
++        } catch (PackageManager.NameNotFoundException e) {
++            return "unknown";
++        }
++    }
++
++    private static String read(File f) {
++        try {
++            return new String(Files.readAllBytes(f.toPath()), StandardCharsets.UTF_8).trim();
++        } catch (IOException e) {
++            return null;
++        }
++    }
++
++    private static void write(File f, String value) throws IOException {
++        File tmp = new File(f.getPath() + ".tmp");
++        Files.write(tmp.toPath(), value.getBytes(StandardCharsets.UTF_8));
++        if (!tmp.renameTo(f)) throw new IOException("cannot write " + f);
++    }
++}
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestBackKeys.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestBackKeys.java
+new file mode 100644
+index 0000000..001460f
+--- /dev/null
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestBackKeys.java
+@@ -0,0 +1,75 @@
++package com.zettabridge.launcher;
++
++import android.app.Activity;
++import android.os.Handler;
++import android.os.Looper;
++import android.os.SystemClock;
++import android.view.KeyEvent;
++import android.view.Window;
++
++import java.lang.reflect.InvocationTargetException;
++import java.lang.reflect.Proxy;
++
++/**
++ * Gives a guest's Back press a real duration.
++ *
++ * Under gesture navigation the framework turns a back swipe into KEYCODE_BACK down and up
++ * synthesized in the same instant (ViewRootImpl's compat back callback). Games that keep Back as
++ * a button state and sample it once per frame, as Magic 2015 does from onKeyDown/onKeyUp, see it
++ * pressed and released between two frames and never act on it. A hardware or injected Back key
++ * arrives with ~100 ms between down and up, and works.
++ *
++ * So a Back release that follows its press by less than {@link #MIN_PRESS_MS} is held back until
++ * the press has lasted that long. Every other key, and every Back press that already lasts long
++ * enough, goes through untouched.
++ */
++final class GuestBackKeys {
++    static final long MIN_PRESS_MS = 100;
++
++    private GuestBackKeys() {}
++
++    static void install(Activity activity) {
++        Window window = activity.getWindow();
++        if (window == null) return;
++        final Window.Callback original = window.getCallback();
++        if (original == null || Proxy.isProxyClass(original.getClass())) return;
++        final Handler main = new Handler(Looper.getMainLooper());
++        final long[] downAt = {0};
++        final KeyEvent[] pendingUp = {null};
++        final Runnable releaseUp = () -> {
++            KeyEvent up = pendingUp[0];
++            pendingUp[0] = null;
++            if (up != null) original.dispatchKeyEvent(up);
++        };
++        window.setCallback((Window.Callback) Proxy.newProxyInstance(
++                Window.Callback.class.getClassLoader(), new Class<?>[] {Window.Callback.class},
++                (proxy, method, args) -> {
++                    if ("dispatchKeyEvent".equals(method.getName()) && args != null && args.length == 1
++                            && args[0] instanceof KeyEvent) {
++                        KeyEvent event = (KeyEvent) args[0];
++                        if (event.getKeyCode() == KeyEvent.KEYCODE_BACK) {
++                            if (event.getAction() == KeyEvent.ACTION_DOWN) {
++                                // A new press first ends one whose release is still held back.
++                                if (pendingUp[0] != null) {
++                                    main.removeCallbacks(releaseUp);
++                                    releaseUp.run();
++                                }
++                                downAt[0] = SystemClock.uptimeMillis();
++                            } else if (event.getAction() == KeyEvent.ACTION_UP) {
++                                long held = SystemClock.uptimeMillis() - downAt[0];
++                                if (held < MIN_PRESS_MS) {
++                                    pendingUp[0] = new KeyEvent(event);
++                                    main.postDelayed(releaseUp, MIN_PRESS_MS - held);
++                                    return true;
++                                }
++                            }
++                        }
++                    }
++                    try {
++                        return method.invoke(original, args);
++                    } catch (InvocationTargetException e) {
++                        throw e.getCause();
++                    }
++                }));
++    }
++}
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestInstrumentation.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestInstrumentation.java
+index bc7723d..5ac253d 100644
+--- a/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestInstrumentation.java
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestInstrumentation.java
+@@ -46,6 +46,7 @@ final class GuestInstrumentation extends Instrumentation {
+         runtime.prepareActivity(activity, icicle);
+         base.callActivityOnCreate(activity, icicle);
+         GuestWindowStyle.afterCreate(activity);
++        GuestBackKeys.install(activity);
+     }
+ 
+     @Override
+@@ -53,6 +54,7 @@ final class GuestInstrumentation extends Instrumentation {
+         runtime.prepareActivity(activity, icicle);
+         base.callActivityOnCreate(activity, icicle, persistentState);
+         GuestWindowStyle.afterCreate(activity);
++        GuestBackKeys.install(activity);
+     }
+ 
+     @Override
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestWindowStyle.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestWindowStyle.java
+index 1915e5d..abbedc3 100644
+--- a/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestWindowStyle.java
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/GuestWindowStyle.java
+@@ -96,18 +96,53 @@ final class GuestWindowStyle {
+         });
+     }
+ 
++    /**
++     * With BEHAVIOR_DEFAULT a system gesture (an edge back swipe) also brings the bars back, and
++     * unlike sticky immersive they stay. Android offers no way to keep them away during the
++     * gesture while keeping the gesture itself, so they are hidden again on the next frame and
++     * made transparent: at most the status icons blink. Installed once per window.
++     */
++    @SuppressWarnings("deprecation")
++    private static void keepBarsHidden(Activity activity, Window window) {
++        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.S) return;
++        final View decor = window.getDecorView();
++        if (decor.getTag(R.id.zb_bars_rehide) != null) return;
++        final Runnable rehide = () -> hideSystemBars(activity);
++        decor.setTag(R.id.zb_bars_rehide, rehide);
++        // No black strips over the game while the bars are briefly in.
++        window.setStatusBarColor(android.graphics.Color.TRANSPARENT);
++        window.setNavigationBarColor(android.graphics.Color.TRANSPARENT);
++        window.setNavigationBarContrastEnforced(false);
++        window.setStatusBarContrastEnforced(false);
++        decor.setOnApplyWindowInsetsListener((v, insets) -> {
++            if (insets.isVisible(WindowInsets.Type.statusBars())
++                    || insets.isVisible(WindowInsets.Type.navigationBars())) {
++                v.removeCallbacks(rehide);
++                v.post(rehide);
++            }
++            return v.onApplyWindowInsets(insets);
++        });
++    }
++
+     @SuppressWarnings("deprecation")
+     private static void hideSystemBars(Activity activity) {
+         Window window = activity.getWindow();
+         if (window == null) return;
+         try {
++            keepBarsHidden(activity, window);
+             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+                 window.setDecorFitsSystemWindows(false);
+                 WindowInsetsController controller = window.getInsetsController();
+                 if (controller != null) {
+                     controller.hide(WindowInsets.Type.systemBars());
+-                    controller.setSystemBarsBehavior(
+-                            WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
++                    // From Android 12, BEHAVIOR_DEFAULT keeps system gestures (edge back) working
++                    // while the bars are hidden. SHOW_TRANSIENT_BARS_BY_SWIPE (sticky immersive)
++                    // disables them until the bars are swiped in, so under gesture navigation a
++                    // back swipe did nothing. On Android 11, DEFAULT still meant "any touch shows
++                    // the bars", which a game cannot live with.
++                    controller.setSystemBarsBehavior(Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
++                            ? WindowInsetsController.BEHAVIOR_DEFAULT
++                            : WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
+                 }
+             } else {
+                 window.getDecorView().setSystemUiVisibility(
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/PluginStore.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/PluginStore.java
+index 4dce9b1..ffd23d3 100644
+--- a/android/launcher/app/src/main/java/com/zettabridge/launcher/PluginStore.java
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/PluginStore.java
+@@ -58,19 +58,35 @@ final class PluginStore {
+     }
+ 
+     static PluginRecord importApk(Context c, Uri uri) throws IOException {
+-        File tmp = File.createTempFile("zb-import-", ".apk", c.getCacheDir());
+         try (InputStream in = c.getContentResolver().openInputStream(uri)) {
+             if (in == null) throw new IOException("cannot open " + uri);
++            return importApk(c, in);
++        }
++    }
++
++    /** Imports an APK read from {@code in}; the caller closes the stream. */
++    static PluginRecord importApk(Context c, InputStream in) throws IOException {
++        File tmp = File.createTempFile("zb-import-", ".apk", c.getCacheDir());
++        try {
+             copy(in, tmp);
++        } catch (IOException e) {
++            tmp.delete();
++            throw e;
++        }
++        try {
++            return importStaged(c, tmp);
++        } finally {
++            tmp.delete();
+         }
++    }
++
++    private static PluginRecord importStaged(Context c, File tmp) throws IOException {
+         PackageManager pm = c.getPackageManager();
+         PackageInfo info = pm.getPackageArchiveInfo(tmp.getPath(), ARCHIVE_FLAGS);
+         if (info == null || info.applicationInfo == null) {
+-            tmp.delete();
+             throw new IOException("not an installable APK (split bundles are not supported)");
+         }
+         if (info.packageName.equals(c.getPackageName()) || info.packageName.contains("/")) {
+-            tmp.delete();
+             throw new IOException("refusing to import " + info.packageName);
+         }
+ 
+@@ -83,8 +99,8 @@ final class PluginStore {
+         try {
+             PluginRecord r = new PluginRecord(staging);
+             File apk = r.apk();
+-            try (InputStream in = new java.io.FileInputStream(tmp)) {
+-                PluginFiles.copyAtomic(in, apk);
++            try (InputStream staged = new java.io.FileInputStream(tmp)) {
++                PluginFiles.copyAtomic(staged, apk);
+             }
+             // Android 14+ refuses to load dex code from writable files.
+             if (!apk.setReadOnly()) throw new IOException("cannot make APK read-only: " + apk);
+@@ -123,7 +139,6 @@ final class PluginStore {
+             if (published == null) throw new IOException("cannot read published metadata for " + info.packageName);
+             return published;
+         } finally {
+-            tmp.delete();
+             PluginFiles.deleteRecursive(staging);
+         }
+     }
+diff --git a/android/launcher/app/src/main/java/com/zettabridge/launcher/ZbApplication.java b/android/launcher/app/src/main/java/com/zettabridge/launcher/ZbApplication.java
+index b091989..96decda 100644
+--- a/android/launcher/app/src/main/java/com/zettabridge/launcher/ZbApplication.java
++++ b/android/launcher/app/src/main/java/com/zettabridge/launcher/ZbApplication.java
+@@ -21,6 +21,9 @@ public class ZbApplication extends Application {
+             // its runtime report on disk.
+             Diagnostics.startRuntimeReport(this);
+             GuestRuntime.get().install(this);
++            // A single-game build serves the game's OBB from inside this APK; the paths must be
++            // mapped before the game opens them.
++            if (BundledGame.isBundled(this)) BundledGame.registerFileWindows(this);
+         }
+     }
+ 
+diff --git a/android/launcher/app/src/main/res/mipmap-hdpi/ic_launcher.png b/android/launcher/app/src/main/res/mipmap-hdpi/ic_launcher.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..3ad7c03423c3aa0174789f4dd76ea7af22692799
+GIT binary patch
+literal 12080
+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
+a`2Pi>tD|MGx8^7S0000<MNUMnLSTX%(y|Ny
+
+literal 0
+HcmV?d00001
+
+diff --git a/android/launcher/app/src/main/res/mipmap-ldpi/ic_launcher.png b/android/launcher/app/src/main/res/mipmap-ldpi/ic_launcher.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..01e2b589dcc913cb7041c3e92bad49736228ef9b
+GIT binary patch
+literal 3164
+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
+CGbW7y
+
+literal 0
+HcmV?d00001
+
+diff --git a/android/launcher/app/src/main/res/mipmap-mdpi/ic_launcher.png b/android/launcher/app/src/main/res/mipmap-mdpi/ic_launcher.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..ad7b5b5ea0f3ea2571a27fae882e6df0e03c1f46
+GIT binary patch
+literal 5311
+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
+R2f6?N002ovPDHLkV1nnHk2L@Q
+
+literal 0
+HcmV?d00001
+
+diff --git a/android/launcher/app/src/main/res/mipmap-xhdpi/ic_launcher.png b/android/launcher/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+new file mode 100644
+index 0000000000000000000000000000000000000000..16b8116860e57ab0b3b2fa1f0c590599422fead9
+GIT binary patch
+literal 18866
+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
+Bg*pHL
+
+literal 0
+HcmV?d00001
+
+diff --git a/android/launcher/app/src/main/res/values/ids.xml b/android/launcher/app/src/main/res/values/ids.xml
+new file mode 100644
+index 0000000..7494eda
+--- /dev/null
++++ b/android/launcher/app/src/main/res/values/ids.xml
+@@ -0,0 +1,5 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <!-- View tag on a guest's decor view: its bar re-hide task is installed. -->
++    <item name="zb_bars_rehide" type="id" />
++</resources>
+diff --git a/android/launcher/app/src/main/res/values/strings.xml b/android/launcher/app/src/main/res/values/strings.xml
+new file mode 100644
+index 0000000..a7a2fb6
+--- /dev/null
++++ b/android/launcher/app/src/main/res/values/strings.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <string name="app_name">Magic 2015</string>
++</resources>
+diff --git a/core/CMakeLists.txt b/core/CMakeLists.txt
+index 5631fed..9ad0f0f 100644
+--- a/core/CMakeLists.txt
++++ b/core/CMakeLists.txt
+@@ -39,6 +39,7 @@ add_library(zbcore STATIC
+     src/log.cpp
+     src/proc_files.cpp
+     src/process.cpp
++    src/file_windows.cpp
+     src/runtime_report.cpp
+     src/signals.cpp
+     src/syscalls.cpp
+diff --git a/core/android/asset_driver_backend.cpp b/core/android/asset_driver_backend.cpp
+index 8b3dbfd..311085f 100644
+--- a/core/android/asset_driver_backend.cpp
++++ b/core/android/asset_driver_backend.cpp
+@@ -63,4 +63,14 @@ AssetBackend::FileDescriptor AndroidAssetBackend::open_file_descriptor(std::uint
+     return result;
+ }
+ 
++std::vector<std::string> AndroidAssetBackend::list_dir(std::uint64_t manager, const std::string& dirname) {
++    std::vector<std::string> names;
++    if (manager == 0) return names;
++    AAssetDir* dir = AAssetManager_openDir(M(manager), dirname.c_str());
++    if (dir == nullptr) return names;
++    while (const char* name = AAssetDir_getNextFileName(dir)) names.emplace_back(name);
++    AAssetDir_close(dir);
++    return names;
++}
++
+ }  // namespace zb
+diff --git a/core/android/asset_driver_backend.h b/core/android/asset_driver_backend.h
+index e19a737..8976ec6 100644
+--- a/core/android/asset_driver_backend.h
++++ b/core/android/asset_driver_backend.h
+@@ -17,6 +17,7 @@ public:
+     std::int64_t read(std::uint64_t asset, void* buffer, std::size_t count) override;
+     void close(std::uint64_t asset) override;
+     FileDescriptor open_file_descriptor(std::uint64_t asset) override;
++    std::vector<std::string> list_dir(std::uint64_t manager, const std::string& dirname) override;
+ };
+ 
+ }  // namespace zb
+diff --git a/core/android/looper_driver_backend.cpp b/core/android/looper_driver_backend.cpp
+index 68066b8..4d8d64e 100644
+--- a/core/android/looper_driver_backend.cpp
++++ b/core/android/looper_driver_backend.cpp
+@@ -36,10 +36,12 @@ void AndroidLooperDriverBackend::release(std::uint64_t looper) {
+ 
+ int AndroidLooperDriverBackend::add_fd(std::uint64_t looper, int fd, int ident, int events,
+                                        Callback callback, void* data) {
+-    if (looper == 0 || callback == nullptr) return -1;
+-    // The guest's identifier is meaningless here: nothing polls this looper for us, so the fd is
+-    // always registered with a callback, and ALooper requires ALOOPER_POLL_CALLBACK for those.
+-    (void)ident;
++    if (looper == 0) return -1;
++    // No callback: an ident registration on a real looper the guest thread polls itself
++    // (real-backed). Its pollOnce returns the ident and hands `data` back through out_data.
++    if (callback == nullptr) return ALooper_addFd(L(looper), fd, ident, events, nullptr, data);
++    // With a callback the guest's identifier is meaningless: ALooper requires
++    // ALOOPER_POLL_CALLBACK for those.
+     return ALooper_addFd(L(looper), fd, ALOOPER_POLL_CALLBACK, events, callback, data);
+ }
+ 
+diff --git a/core/android/zbproxy.c b/core/android/zbproxy.c
+index 791c9bf..c1ebffa 100644
+--- a/core/android/zbproxy.c
++++ b/core/android/zbproxy.c
+@@ -81,10 +81,14 @@ static jclass find_bridge(JNIEnv* env, jobject activity) {
+     bridge = (jclass)(*env)->CallObjectMethod(env, loader, load_class, name);
+ 
+ done:
++    // Any lookup failure above may leave ClassNotFoundException/NoSuchMethodError pending; clear
++    // it and fall back to FindClass, which sees the bridge when JNI_OnLoad's loader is in effect.
++    if (bridge == NULL && (*env)->ExceptionCheck(env)) (*env)->ExceptionClear(env);
+     if (name != NULL) (*env)->DeleteLocalRef(env, name);
+     if (loader_class != NULL) (*env)->DeleteLocalRef(env, loader_class);
+     if (loader != NULL) (*env)->DeleteLocalRef(env, loader);
+     if (activity_class != NULL) (*env)->DeleteLocalRef(env, activity_class);
++    if (bridge == NULL) bridge = (*env)->FindClass(env, kBridgeClass);
+     return bridge;
+ }
+ 
+@@ -168,23 +172,27 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved) {
+ // activity the guest sees. A void* first parameter is ABI-identical to the real signature, and
+ // keeps the proxy free of NDK headers so the host unit test can load it.
+ JNIEXPORT void JNICALL ANativeActivity_onCreate(void* activity, void* saved_state, size_t saved_state_size) {
++    // ANativeActivity starts with callbacks, JavaVM, JNIEnv and the activity object.
++    struct ActivityPrefix {
++        void* callbacks;
++        JavaVM* vm;
++        JNIEnv* env;
++        jobject clazz;
++    };
++    struct ActivityPrefix* native = (struct ActivityPrefix*)activity;
+     JNIEnv* env = NULL;
+-    jobject activity_object = NULL;
++    // The caller is android.app.NativeActivity, a boot class, so a bare FindClass here only
++    // sees the boot class loader. Resolve the bridge through the activity's loader instead,
++    // also when JNI_OnLoad already ran (System.loadLibrary from the guest's own code).
++    jobject activity_object = native != NULL ? native->clazz : NULL;
+     if (g_vm != NULL && g_proxy_path[0] != 0) {
+         if ((*g_vm)->GetEnv(g_vm, (void**)&env, JNI_VERSION_1_6) != JNI_OK || env == NULL) {
+             log_error("%s: GetEnv(JNI_VERSION_1_6) failed in ANativeActivity_onCreate", g_proxy_path);
+             return;
+         }
+     } else {
+-        // ANativeActivity starts with callbacks, JavaVM and JNIEnv. Android can call this entry
+-        // point without calling JNI_OnLoad, so bootstrap the same proxy load from those fields.
+-        struct ActivityPrefix {
+-            void* callbacks;
+-            JavaVM* vm;
+-            JNIEnv* env;
+-            jobject clazz;
+-        };
+-        struct ActivityPrefix* native = (struct ActivityPrefix*)activity;
++        // Android can call this entry point without calling JNI_OnLoad, so bootstrap the same
++        // proxy load from the activity fields.
+         if (native == NULL || native->vm == NULL || native->env == NULL ||
+             !proxy_path(g_proxy_path, sizeof g_proxy_path)) {
+             log_error("ANativeActivity_onCreate has no VM, JNIEnv or proxy path");
+@@ -192,7 +200,6 @@ JNIEXPORT void JNICALL ANativeActivity_onCreate(void* activity, void* saved_stat
+         }
+         g_vm = native->vm;
+         env = native->env;
+-        activity_object = native->clazz;
+         if ((*env)->ExceptionCheck(env)) {
+             log_error("%s: exception already pending in ANativeActivity_onCreate", g_proxy_path);
+             return;
+@@ -211,6 +218,8 @@ JNIEXPORT void JNICALL ANativeActivity_onCreate(void* activity, void* saved_stat
+     jclass bridge = find_bridge(env, activity_object);
+     if (bridge == NULL) {
+         log_error("%s: class %s not found", g_proxy_path, kBridgeClass);
++        // Never return to NativeActivity with the lookup's exception still pending.
++        if ((*env)->ExceptionCheck(env)) (*env)->ExceptionClear(env);
+         return;
+     }
+     jstring path = NULL;
+diff --git a/core/android/zbridge_jni.cpp b/core/android/zbridge_jni.cpp
+index 68c4cc6..95ce134 100644
+--- a/core/android/zbridge_jni.cpp
++++ b/core/android/zbridge_jni.cpp
+@@ -9,6 +9,7 @@
+ #include "guest_jni_runtime.h"
+ #include "zb/elf_fixups.h"
+ #include "zb/log.h"
++#include "zb/file_windows.h"
+ #include "zb/runtime_report.h"
+ #include "zb/zbridge.h"
+ 
+@@ -180,6 +181,25 @@ JNIEXPORT jboolean JNICALL Java_com_zettabridge_core_ZBridge_setReportFile(JNIEn
+     return zb::write_runtime_report_to(zb::runtime_report(), *file) ? JNI_TRUE : JNI_FALSE;
+ }
+ 
++// static native void addFileWindow(String guestPath, String backingPath, long offset, long length)
++// Serves guestPath to the guest from [offset, offset + length) of backingPath, read-only (see
++// zb/file_windows.h). The single-game build maps the game's OBB onto its entry in our own APK.
++JNIEXPORT void JNICALL Java_com_zettabridge_core_ZBridge_addFileWindow(JNIEnv* env, jclass, jstring guest_path,
++                                                                       jstring backing_path, jlong offset,
++                                                                       jlong length) {
++    const std::optional<std::string> guest = to_string(env, guest_path);
++    const std::optional<std::string> backing = to_string(env, backing_path);
++    if (!guest || !backing) {
++        throw_new(env, "java/lang/NullPointerException", !guest ? "guestPath" : "backingPath");
++        return;
++    }
++    if (offset < 0 || length < 0) {
++        throw_new(env, "java/lang/IllegalArgumentException", "negative offset or length");
++        return;
++    }
++    zb::register_file_window(*guest, *backing, static_cast<std::uint64_t>(offset), static_cast<std::uint64_t>(length));
++}
++
+ // static native String runtimeReport(): the same text that setReportFile persists.
+ JNIEXPORT jstring JNICALL Java_com_zettabridge_core_ZBridge_runtimeReport(JNIEnv* env, jclass) {
+     return env->NewStringUTF(zb::runtime_report().text().c_str());
+diff --git a/core/include/zb/asset_backend.h b/core/include/zb/asset_backend.h
+index 7d704d1..1ff186a 100644
+--- a/core/include/zb/asset_backend.h
++++ b/core/include/zb/asset_backend.h
+@@ -3,6 +3,7 @@
+ #include <cstddef>
+ #include <cstdint>
+ #include <string>
++#include <vector>
+ 
+ #include "zb/jni_backend.h"
+ 
+@@ -46,6 +47,14 @@ public:
+     // AAsset_getBuffer: the whole asset in host memory, or nullptr. HostAssets copies it into
+     // guest memory; the pointer itself can never cross, being outside the guest's 4 GiB space.
+     virtual const void* buffer(std::uint64_t asset) = 0;
++
++    // AAssetManager_openDir + AAssetDir_getNextFileName: the file names (not subdirectories) in
++    // one asset directory, in the platform's order. Empty for an invalid manager or directory.
++    virtual std::vector<std::string> list_dir(std::uint64_t manager, const std::string& dirname) {
++        (void)manager;
++        (void)dirname;
++        return {};
++    }
+ };
+ 
+ }  // namespace zb
+diff --git a/core/include/zb/asset_hostcalls.h b/core/include/zb/asset_hostcalls.h
+index 5524622..c2b9669 100644
+--- a/core/include/zb/asset_hostcalls.h
++++ b/core/include/zb/asset_hostcalls.h
+@@ -10,8 +10,12 @@ namespace zb {
+ // match. The comment in core/include/zb/host_gl.h ("Serves the GLES range 0-141 and leaves 142-160
+ // for HostAssets") documents the reserved range; only these six of the ~18 AAsset* stubs in that
+ // range are implemented so far.
++inline constexpr std::uint32_t ZB_ASSET_HC_AAssetDir_close = 142u;
++inline constexpr std::uint32_t ZB_ASSET_HC_AAssetDir_getNextFileName = 143u;
++inline constexpr std::uint32_t ZB_ASSET_HC_AAssetDir_rewind = 144u;
+ inline constexpr std::uint32_t ZB_ASSET_HC_AAssetManager_fromJava = 145u;
+ inline constexpr std::uint32_t ZB_ASSET_HC_AAssetManager_open = 146u;
++inline constexpr std::uint32_t ZB_ASSET_HC_AAssetManager_openDir = 147u;
+ inline constexpr std::uint32_t ZB_ASSET_HC_AAsset_close = 148u;
+ inline constexpr std::uint32_t ZB_ASSET_HC_AAsset_getBuffer = 149u;
+ inline constexpr std::uint32_t ZB_ASSET_HC_AAsset_getLength = 150u;
+diff --git a/core/include/zb/file_windows.h b/core/include/zb/file_windows.h
+new file mode 100644
+index 0000000..0baaac8
+--- /dev/null
++++ b/core/include/zb/file_windows.h
+@@ -0,0 +1,40 @@
++#pragma once
++
++#include <cstdint>
++#include <optional>
++#include <string>
++
++namespace zb {
++
++// File windows: a guest path served from a byte range of another host file, read-only, so a
++// guest can read data that lives inside an APK without a copy on disk. The single-game build
++// uses it for the game's OBB, which is stored uncompressed in the launcher APK: the guest opens
++// the OBB path it expects, and gets the APK with its offsets shifted and its size cut to the
++// entry.
++//
++// A guest descriptor opened through a window keeps the host file's own file offset, positioned
++// inside the range; read/pread/readv/lseek/fstat/mmap on it are translated by the syscall layer
++// (core/src/syscalls.cpp), and dup/close keep the table in step.
++struct FileWindow {
++    std::uint64_t offset = 0;  // where the guest's byte 0 lives in the backing file
++    std::uint64_t length = 0;  // the guest-visible file size
++};
++
++// Registers `guest_path` (absolute, exact match) as a window into [offset, offset + length) of
++// `backing_path`. Replaces an earlier registration of the same path.
++void register_file_window(const std::string& guest_path, const std::string& backing_path,
++                          std::uint64_t offset, std::uint64_t length);
++
++// openat of a windowed path. Returns false when `guest_path` is not windowed; otherwise fills
++// `result` with the new descriptor or a negative errno (writes are refused with -EROFS).
++bool open_file_window(const char* guest_path, int flags, std::int32_t& result);
++
++// The window behind a host descriptor, if it was opened through one. Cheap when no window is
++// registered at all, which is every guest but a bundled game.
++std::optional<FileWindow> file_window_for(int fd);
++
++// Keep the descriptor table in step with close and dup.
++void forget_file_window(int fd);
++void copy_file_window(int from, int to);
++
++}  // namespace zb
+diff --git a/core/include/zb/host_assets.h b/core/include/zb/host_assets.h
+index 2afc6c0..b26f924 100644
+--- a/core/include/zb/host_assets.h
++++ b/core/include/zb/host_assets.h
+@@ -1,7 +1,10 @@
+ #pragma once
+ 
+ #include <cstdint>
++#include <mutex>
++#include <string>
+ #include <unordered_map>
++#include <vector>
+ 
+ #include "zb/asset_backend.h"
+ #include "zb/guest_thread.h"
+@@ -55,6 +58,25 @@ private:
+     static constexpr std::uint64_t kMaxBufferedBytes = 64ull << 20;
+     std::unordered_map<std::uint64_t, std::uint32_t> asset_buffers_;
+     std::uint64_t buffered_bytes_ = 0;
++
++    // AAssetDir: the listing is taken once at openDir; getNextFileName hands out a guest copy of
++    // each name in one per-directory guest buffer, valid until the next call on that directory,
++    // which is the NDK's own lifetime rule.
++    struct Dir {
++        std::vector<std::string> names;
++        std::size_t next = 0;
++        std::uint32_t guest_name = 0;  // guest malloc'd buffer, 0 until the first name
++        std::uint32_t guest_capacity = 0;
++    };
++    std::uint32_t open_dir(std::uint64_t manager, const std::string& dirname);
++    std::uint32_t next_dir_name(std::uint32_t handle);
++    void close_dir(std::uint32_t handle);
++    std::uint32_t guest_malloc(std::uint32_t size);
++    void guest_free(std::uint32_t address);
++
++    std::mutex dirs_mutex_;
++    std::unordered_map<std::uint32_t, Dir> dirs_;
++    std::uint32_t next_dir_handle_ = 1;
+ };
+ 
+ }  // namespace zb
+diff --git a/core/include/zb/host_egl.h b/core/include/zb/host_egl.h
+index 0a50c2a..cf9a947 100644
+--- a/core/include/zb/host_egl.h
++++ b/core/include/zb/host_egl.h
+@@ -163,7 +163,10 @@ private:
+     StubResolver stubs_;
+     GlobalHandles objects_{HandleKind::Global};
+     mutable std::mutex mutex_;
+-    std::unordered_map<const void*, std::uint32_t> by_value_;
++    // One map per EglObject kind: drivers may hand out the same value for objects of different
++    // kinds (the emulator's EGLConfigs are small indices), and a shared map would give a config
++    // the handle of whatever else had that value first.
++    std::unordered_map<const void*, std::uint32_t> by_value_[4];
+     std::unordered_map<std::uint32_t, EglObject> kinds_;
+     std::uint32_t libegl_ = 0;
+     std::uint32_t libgles_ = 0;
+diff --git a/core/include/zb/host_input.h b/core/include/zb/host_input.h
+index a660f95..58e9642 100644
+--- a/core/include/zb/host_input.h
++++ b/core/include/zb/host_input.h
+@@ -87,6 +87,9 @@ private:
+     };
+     std::unordered_map<std::uint32_t, Attachment> attachments_;  // by queue handle
+     std::size_t rejections_ = 0;
++    // The call's first two arguments as the guest passed them: the generated cases zero regs
++    // before calling reject(), so its `handle` parameter no longer says which handle was refused.
++    static thread_local std::uint32_t t_call_args_[2];
+     std::size_t events_gotten_ = 0;
+     std::size_t events_pre_dispatched_ = 0;
+     std::size_t events_finished_ = 0;
+diff --git a/core/include/zb/runtime_report.h b/core/include/zb/runtime_report.h
+index f1c1d89..af115f0 100644
+--- a/core/include/zb/runtime_report.h
++++ b/core/include/zb/runtime_report.h
+@@ -29,6 +29,13 @@ struct NativeCallCounter {
+ // kMaxLibraries.
+ class RuntimeReport {
+ public:
++    RuntimeReport() = default;
++    // Drops the observer first: a persisting observer may run a writer thread that reads this
++    // report, and it must stop before any member goes away.
++    ~RuntimeReport();
++    RuntimeReport(const RuntimeReport&) = delete;
++    RuntimeReport& operator=(const RuntimeReport&) = delete;
++
+     static constexpr std::size_t kMaxDistinctHostCalls = 16;
+     static constexpr std::size_t kMaxLibraries = 32;
+     // Recorded error and exit texts are folded to one line and cut to this length.
+@@ -210,7 +217,7 @@ private:
+ 
+     static constexpr std::size_t kMaxCrashDetails = 32;
+     std::vector<std::pair<std::string, std::string>> crash_details_;
+-    static constexpr std::size_t kMaxJniDetails = 16;
++    static constexpr std::size_t kMaxJniDetails = 48;
+     std::vector<std::pair<std::string, std::string>> jni_details_;
+     static constexpr std::size_t kMaxWatchDetails = 8;
+     std::vector<std::pair<std::string, std::string>> watch_details_;
+diff --git a/core/src/android/host_input.cpp b/core/src/android/host_input.cpp
+index 3fde0f5..30b8e19 100644
+--- a/core/src/android/host_input.cpp
++++ b/core/src/android/host_input.cpp
+@@ -107,32 +107,47 @@ std::optional<HostInput::Ready> HostInput::ready_on(std::uint64_t real_looper) {
+     return std::nullopt;
+ }
+ 
++thread_local std::uint32_t HostInput::t_call_args_[2] = {0, 0};
++
+ bool HostInput::reject(const char* function, std::uint32_t handle) {
++    (void)handle;  // already zeroed by the caller; the incoming arguments are in t_call_args_
++    std::size_t count;
+     {
+         std::lock_guard<std::mutex> lock(mutex_);
+-        ++rejections_;
++        count = ++rejections_;
+         if (first_rejection_.empty()) {
+-            first_rejection_ = std::string(function) + " handle " + std::to_string(handle);
++            first_rejection_ = std::string(function) + " args " + std::to_string(t_call_args_[0]) + "," +
++                               std::to_string(t_call_args_[1]);
+             runtime_report().note_jni_detail("input-rejected", first_rejection_, true);
+         }
+     }
+-    log("input call %s rejected: handle %u is not live", function, handle);
++    // A guest that loops on a dead handle would otherwise flood logcat and push out everything
++    // that led up to it.
++    if (count <= 20 || count % 100000 == 0) {
++        log("input call %s rejected (#%zu): args 0x%x 0x%x are not live", function, count, t_call_args_[0],
++            t_call_args_[1]);
++    }
+     return true;
+ }
+ 
+ bool HostInput::handle_host_call(std::uint32_t index, GuestThread& thread) {
+     if (index < ZB_INPUT_HC_FIRST || index > ZB_INPUT_HC_LAST) return false;
+     auto& regs = thread.regs();
++    t_call_args_[0] = regs[0];
++    t_call_args_[1] = regs[1];
+     switch (index) {
+     case ZB_INPUT_HC_AInputQueue_hasEvents: {
+         void* queue = live_queue(regs[0]);
+-        if (queue == nullptr) { regs[0] = 0; return reject("AInputQueue_hasEvents", regs[0]); }
++        // Negative is the NDK's error answer; 0 would read as "no events" forever.
++        if (queue == nullptr) { regs[0] = static_cast<std::uint32_t>(-1); return reject("AInputQueue_hasEvents", 0); }
+         regs[0] = static_cast<std::uint32_t>(backend_.queue_has_events(queue));
+         return true;
+     }
+     case ZB_INPUT_HC_AInputQueue_getEvent: {
+         void* queue = live_queue(regs[0]);
+-        if (queue == nullptr) { regs[0] = 0; return reject("AInputQueue_getEvent", regs[0]); }
++        // 0 would mean "got an event": the NDK glue loops while getEvent() >= 0, so a dead queue
++        // must answer an error, or the guest spins on an event that never existed.
++        if (queue == nullptr) { regs[0] = static_cast<std::uint32_t>(-1); return reject("AInputQueue_getEvent", 0); }
+         // The guest gets the event as a handle written through its own pointer, which must be
+         // writable before the backend is asked for an event we would then have to drop.
+         std::uint8_t* out = runtime_.memory().host_ptr(regs[1], 4, kPageRead | kPageWrite);
+@@ -206,9 +221,15 @@ bool HostInput::handle_host_call(std::uint32_t index, GuestThread& thread) {
+     case ZB_INPUT_HC_AInputQueue_attachLooper: {
+         void* queue = live_queue(regs[0]);
+         if (queue == nullptr) { regs[0] = 0; return reject("AInputQueue_attachLooper", regs[0]); }
+-        // regs[1] is the guest's looper, regs[3] and regs[4] its callback and data. A host
++        // regs[1] is the guest's looper and regs[3] its callback. The data pointer is the fifth
++        // argument, so AAPCS32 puts it on the guest stack at sp, not in r4 (r4 is whatever the
++        // caller kept there, e.g. the NDK glue's android_app). A host
+         // AInputQueue has no descriptor we could poll, so this thread must first have a real
+         // Android looper; the queue then goes to it and the guest's own poll picks it up.
++        std::uint32_t data = 0;
++        if (const std::uint8_t* stack = runtime_.memory().host_ptr(regs[13], 4, kPageRead)) {
++            std::memcpy(&data, stack, sizeof data);
++        }
+         std::uint64_t real_looper = 0;
+         const bool ready = real_looper_ ? real_looper_(thread, regs[1], real_looper) : false;
+         if (!ready) {
+@@ -225,10 +246,10 @@ bool HostInput::handle_host_call(std::uint32_t index, GuestThread& thread) {
+         // The guest's data travels as an opaque value and comes back from the poll unchanged, so
+         // the guest recognizes its own source. Nothing of the host crosses here.
+         backend_.queue_attach_looper(queue, static_cast<std::int32_t>(regs[2]),
+-                                     reinterpret_cast<void*>(static_cast<std::uintptr_t>(regs[4])), real_looper);
++                                     reinterpret_cast<void*>(static_cast<std::uintptr_t>(data)), real_looper);
+         {
+             std::lock_guard<std::mutex> lock(mutex_);
+-            attachments_[regs[0]] = Attachment{real_looper, static_cast<std::int32_t>(regs[2]), regs[4]};
++            attachments_[regs[0]] = Attachment{real_looper, static_cast<std::int32_t>(regs[2]), data};
+         }
+         char detail[160];
+         std::snprintf(detail, sizeof detail, "ident %u looper 0x%08x owner-tid %d caller-tid %d%s",
+diff --git a/core/src/android/host_looper.cpp b/core/src/android/host_looper.cpp
+index de42e5d..b3b65c1 100644
+--- a/core/src/android/host_looper.cpp
++++ b/core/src/android/host_looper.cpp
+@@ -435,6 +435,7 @@ struct HostLooper::Impl {
+         std::uint64_t real = 0;
+         Binding* binding = nullptr;
+         std::uint64_t serial = 0;
++        bool ident_on_real = false;
+         {
+             std::lock_guard<std::mutex> lock(mutex);
+             const auto it = loopers.find(handle);
+@@ -451,12 +452,25 @@ struct HostLooper::Impl {
+             looper.registrations[fd] = Registration{fd, ident, events, callback, data, serial};
+             if (looper.attached || looper.real_backed) {
+                 real = looper.real;
+-                binding = bind_locked(handle, fd, callback, data, serial);
++                ident_on_real = looper.real_backed && !looper.attached && callback == 0;
++                if (ident_on_real) {
++                    retire_locked(handle, fd);  // a callback registration it replaces is dead now
++                } else {
++                    binding = bind_locked(handle, fd, callback, data, serial);
++                }
+             } else {
+                 wake_fd = looper.wake_fd;
+             }
+         }
+-        if (real != 0) {
++        if (real != 0 && ident_on_real) {
++            // The guest polls this real looper itself, so an ident registration stays an ident.
++            if (backend->add_fd(real, fd, ident, events, nullptr,
++                                reinterpret_cast<void*>(static_cast<std::uintptr_t>(data))) != 1) {
++                std::lock_guard<std::mutex> lock(mutex);
++                drop_registration_locked(handle, fd, serial);
++                return -1;
++            }
++        } else if (real != 0) {
+             // The real looper needs a host callback even for a guest ident registration: only a
+             // callback gets control on the host thread, and nothing here ever calls pollOnce.
+             if (backend->add_fd(real, fd, ident, events, &Impl::attached_callback, binding) != 1) {
+@@ -537,6 +551,14 @@ struct HostLooper::Impl {
+             return false;
+         }
+         for (const Registration& registration : registrations) {
++            if (registration.callback == 0) {
++                // An ident registration (the NDK glue's command pipe): this thread polls the real
++                // looper itself, so it can stay an ident there. Wrapping it in a host callback
++                // would make the real looper call guest address 0.
++                backend->add_fd(real, registration.fd, registration.ident, registration.events, nullptr,
++                                reinterpret_cast<void*>(static_cast<std::uintptr_t>(registration.data)));
++                continue;
++            }
+             Binding* binding = nullptr;
+             {
+                 std::lock_guard<std::mutex> lock(mutex);
+diff --git a/core/src/assets/host_assets.cpp b/core/src/assets/host_assets.cpp
+index 0845597..ad70ef3 100644
+--- a/core/src/assets/host_assets.cpp
++++ b/core/src/assets/host_assets.cpp
+@@ -86,6 +86,86 @@ std::uint32_t HostAssets::asset_buffer(std::uint64_t asset) {
+     return allocated->r0;
+ }
+ 
++std::uint32_t HostAssets::guest_malloc(std::uint32_t size) {
++    GuestCall args;
++    args.regs = {size, 0, 0, 0};
++    const auto result = runtime_.call_on_current(runtime_.service_api().malloc_fn, args);
++    return result ? result->r0 : 0;
++}
++
++void HostAssets::guest_free(std::uint32_t address) {
++    if (address == 0) return;
++    GuestCall args;
++    args.regs = {address, 0, 0, 0};
++    runtime_.call_on_current(runtime_.service_api().free_fn, args);
++}
++
++std::uint32_t HostAssets::open_dir(std::uint64_t manager, const std::string& dirname) {
++    // Like the NDK, a directory that does not exist opens as an empty listing; only an invalid
++    // manager fails. The guest's glue may call rewind/getNextFileName without a NULL check.
++    if (manager == 0) return 0;
++    Dir dir;
++    dir.names = backend_.list_dir(manager, dirname);
++    std::lock_guard<std::mutex> lock(dirs_mutex_);
++    std::uint32_t handle = next_dir_handle_;
++    while (handle == 0 || dirs_.count(handle) != 0) ++handle;
++    next_dir_handle_ = handle + 1;
++    dirs_.emplace(handle, std::move(dir));
++    return handle;
++}
++
++std::uint32_t HostAssets::next_dir_name(std::uint32_t handle) {
++    std::string name;
++    std::uint32_t buffer = 0;
++    std::uint32_t capacity = 0;
++    {
++        std::lock_guard<std::mutex> lock(dirs_mutex_);
++        const auto it = dirs_.find(handle);
++        if (it == dirs_.end() || it->second.next >= it->second.names.size()) return 0;
++        name = it->second.names[it->second.next++];
++        buffer = it->second.guest_name;
++        capacity = it->second.guest_capacity;
++        if (name.size() + 1 > capacity) {
++            // Ours to free from here on: a concurrent close must not free it a second time.
++            it->second.guest_name = 0;
++            it->second.guest_capacity = 0;
++        }
++    }
++    const auto needed = static_cast<std::uint32_t>(name.size() + 1);
++    if (needed > capacity) {
++        // Guest malloc/free run guest code on this thread, so no lock is held across them.
++        guest_free(buffer);
++        capacity = needed < 256 ? 256 : needed;
++        buffer = guest_malloc(capacity);
++        if (buffer == 0) capacity = 0;
++        std::lock_guard<std::mutex> lock(dirs_mutex_);
++        const auto it = dirs_.find(handle);
++        if (it == dirs_.end()) {  // closed by another thread meanwhile
++            guest_free(buffer);
++            return 0;
++        }
++        it->second.guest_name = buffer;
++        it->second.guest_capacity = capacity;
++    }
++    if (buffer == 0) return 0;
++    std::uint8_t* destination = runtime_.memory().host_ptr(buffer, needed, kPageWrite);
++    if (destination == nullptr) return 0;
++    std::memcpy(destination, name.c_str(), needed);
++    return buffer;
++}
++
++void HostAssets::close_dir(std::uint32_t handle) {
++    std::uint32_t buffer = 0;
++    {
++        std::lock_guard<std::mutex> lock(dirs_mutex_);
++        const auto it = dirs_.find(handle);
++        if (it == dirs_.end()) return;
++        buffer = it->second.guest_name;
++        dirs_.erase(it);
++    }
++    guest_free(buffer);
++}
++
+ bool HostAssets::handle_host_call(std::uint32_t index, GuestThread& thread) {
+     auto& regs = thread.regs();
+     switch (index) {
+@@ -108,6 +188,28 @@ bool HostAssets::handle_host_call(std::uint32_t index, GuestThread& thread) {
+         regs[0] = asset == 0 ? 0 : assets_.add(asset);
+         return true;
+     }
++    case ZB_ASSET_HC_AAssetManager_openDir: {
++        const std::uint64_t manager = require_manager(regs[0]);
++        bool ok = false;
++        std::string dirname;
++        if (manager != 0) dirname = read_guest_string(runtime_.memory(), regs[1], ok);
++        regs[0] = manager != 0 && ok ? open_dir(manager, dirname) : 0;
++        return true;
++    }
++    case ZB_ASSET_HC_AAssetDir_getNextFileName:
++        regs[0] = next_dir_name(regs[0]);
++        return true;
++    case ZB_ASSET_HC_AAssetDir_rewind: {
++        std::lock_guard<std::mutex> lock(dirs_mutex_);
++        const auto it = dirs_.find(regs[0]);
++        if (it != dirs_.end()) it->second.next = 0;
++        regs[0] = 0;
++        return true;
++    }
++    case ZB_ASSET_HC_AAssetDir_close:
++        close_dir(regs[0]);
++        regs[0] = 0;
++        return true;
+     case ZB_ASSET_HC_AAsset_close: {
+         const std::optional<std::uint64_t> asset = assets_.remove(regs[0]);
+         if (asset && *asset != 0) backend_.close(*asset);
+diff --git a/core/src/file_windows.cpp b/core/src/file_windows.cpp
+new file mode 100644
+index 0000000..fe9b7e2
+--- /dev/null
++++ b/core/src/file_windows.cpp
+@@ -0,0 +1,100 @@
++#include "zb/file_windows.h"
++
++#include <fcntl.h>
++#include <unistd.h>
++
++#include <atomic>
++#include <cerrno>
++#include <mutex>
++#include <unordered_map>
++
++#include "zb/log.h"
++
++namespace zb {
++
++namespace {
++
++struct Registration {
++    std::string backing;
++    FileWindow window;
++};
++
++std::mutex g_mutex;
++std::unordered_map<std::string, Registration> g_paths;  // guarded by g_mutex
++std::unordered_map<int, FileWindow> g_fds;              // guarded by g_mutex
++// Set once anything is registered: until then every fd lookup is one relaxed load.
++std::atomic<bool> g_any{false};
++
++}  // namespace
++
++void register_file_window(const std::string& guest_path, const std::string& backing_path,
++                          std::uint64_t offset, std::uint64_t length) {
++    {
++        std::lock_guard<std::mutex> lock(g_mutex);
++        g_paths[guest_path] = Registration{backing_path, FileWindow{offset, length}};
++    }
++    g_any.store(true, std::memory_order_release);
++    log("file window: %s -> %s @%llu +%llu", guest_path.c_str(), backing_path.c_str(),
++        static_cast<unsigned long long>(offset), static_cast<unsigned long long>(length));
++}
++
++bool open_file_window(const char* guest_path, int flags, std::int32_t& result) {
++    if (guest_path == nullptr || !g_any.load(std::memory_order_acquire)) return false;
++    Registration found;
++    {
++        std::lock_guard<std::mutex> lock(g_mutex);
++        const auto it = g_paths.find(guest_path);
++        if (it == g_paths.end()) return false;
++        found = it->second;
++    }
++    if ((flags & O_ACCMODE) != O_RDONLY || (flags & (O_TRUNC | O_CREAT)) != 0) {
++        result = -EROFS;  // the data lives inside a signed APK
++        return true;
++    }
++    // Guest flags are arm32 values; O_CLOEXEC and O_NONBLOCK are the same bits on arm64, the
++    // rest (O_LARGEFILE, O_DIRECTORY...) differ or do not apply to a read-only window.
++    const int fd = ::open(found.backing.c_str(), O_RDONLY | (flags & (O_CLOEXEC | O_NONBLOCK)));
++    if (fd < 0) {
++        result = -errno;
++        log("file window: cannot open %s for %s: errno %d", found.backing.c_str(), guest_path, errno);
++        return true;
++    }
++    if (::lseek(fd, static_cast<off_t>(found.window.offset), SEEK_SET) < 0) {
++        result = -errno;
++        ::close(fd);
++        return true;
++    }
++    {
++        std::lock_guard<std::mutex> lock(g_mutex);
++        g_fds[fd] = found.window;
++    }
++    result = fd;
++    return true;
++}
++
++std::optional<FileWindow> file_window_for(int fd) {
++    if (!g_any.load(std::memory_order_acquire)) return std::nullopt;
++    std::lock_guard<std::mutex> lock(g_mutex);
++    const auto it = g_fds.find(fd);
++    if (it == g_fds.end()) return std::nullopt;
++    return it->second;
++}
++
++void forget_file_window(int fd) {
++    if (!g_any.load(std::memory_order_acquire)) return;
++    std::lock_guard<std::mutex> lock(g_mutex);
++    g_fds.erase(fd);
++}
++
++void copy_file_window(int from, int to) {
++    if (!g_any.load(std::memory_order_acquire) || from == to) return;
++    std::lock_guard<std::mutex> lock(g_mutex);
++    const auto it = g_fds.find(from);
++    if (it == g_fds.end()) {
++        g_fds.erase(to);  // dup2 onto a windowed fd replaces it with an ordinary one
++    } else {
++        g_fds[to] = it->second;
++    }
++}
++
++}  // namespace zb
+diff --git a/core/src/gl/host_egl.cpp b/core/src/gl/host_egl.cpp
+index 686ed0c..4eb4efc 100644
+--- a/core/src/gl/host_egl.cpp
++++ b/core/src/gl/host_egl.cpp
+@@ -93,8 +93,9 @@ const void* HostEgl::Call::handle_of(unsigned position, EglObject kind) {
+     if (handle == 0) return nullptr;  // EGL_NO_DISPLAY / EGL_NO_CONTEXT / EGL_NO_SURFACE
+     const std::optional<const void*> value = host_.lookup(handle, kind);
+     if (!value) {
+-        char reason[64];
+-        std::snprintf(reason, sizeof reason, "unknown %s handle", kind_name(kind));
++        char reason[96];
++        std::snprintf(reason, sizeof reason, "unknown %s handle 0x%x (arg %u)", kind_name(kind), handle,
++                      position);
+         fail(egl_object_error(kind), reason);
+         return nullptr;
+     }
+@@ -130,11 +131,12 @@ void HostEgl::reject(Call& call, EGLint error, const char* reason) {
+ std::uint32_t HostEgl::handle_for(const void* value, EglObject kind) {
+     if (value == nullptr) return 0;
+     std::lock_guard<std::mutex> lock(mutex_);
+-    const auto found = by_value_.find(value);
+-    if (found != by_value_.end()) return found->second;
++    auto& by_value = by_value_[static_cast<std::size_t>(kind)];
++    const auto found = by_value.find(value);
++    if (found != by_value.end()) return found->second;
+     const std::uint32_t handle = objects_.add(reinterpret_cast<std::uint64_t>(value));
+     if (handle == 0) return 0;
+-    by_value_.emplace(value, handle);
++    by_value.emplace(value, handle);
+     kinds_.emplace(handle, kind);
+     return handle;
+ }
+diff --git a/core/src/runtime_report.cpp b/core/src/runtime_report.cpp
+index 81ba276..bc8c186 100644
+--- a/core/src/runtime_report.cpp
++++ b/core/src/runtime_report.cpp
+@@ -6,8 +6,10 @@
+ #include <unistd.h>
+ 
+ #include <cerrno>
++#include <condition_variable>
+ #include <cstdio>
+ #include <cstring>
++#include <thread>
+ #include <utility>
+ 
+ #include "zb/log.h"
+@@ -52,10 +54,19 @@ std::shared_ptr<RuntimeReport::Observer> RuntimeReport::take_observer() const {
+ }
+ 
+ void RuntimeReport::set_observer(Observer observer) {
+-    std::lock_guard<std::mutex> lock(mutex_);
+-    observer_ = observer ? std::make_shared<Observer>(std::move(observer)) : nullptr;
++    std::shared_ptr<Observer> previous;
++    {
++        std::lock_guard<std::mutex> lock(mutex_);
++        previous = std::move(observer_);
++        observer_ = observer ? std::make_shared<Observer>(std::move(observer)) : nullptr;
++    }
++    // Released unlocked: destroying a persisting observer joins its writer thread, which may be
++    // waiting for this report's mutex inside text().
++    previous.reset();
+ }
+ 
++RuntimeReport::~RuntimeReport() { set_observer(nullptr); }
++
+ void RuntimeReport::note_plugin(const std::string& plugin_root, std::uint32_t target_sdk) {
+     std::shared_ptr<Observer> observer;
+     {
+@@ -162,8 +173,10 @@ void RuntimeReport::note_guest_open(const std::string& path) {
+         std::lock_guard<std::mutex> lock(mutex_);
+         const std::string line = one_line(path, kMaxDetail);
+         auto found = std::find(opened_paths_.begin(), opened_paths_.end(), line);
++        // Not structural: a game opens hundreds of files while it loads, and a synchronous
++        // rewrite with fsync per new path stalls that loading thread. The writer thread
++        // persists the list within min_interval.
+         if (found != opened_paths_.end()) opened_paths_.erase(found);
+-        else structural = true;
+         opened_paths_.push_back(line);
+         if (opened_paths_.size() > kMaxOpenedPaths) opened_paths_.erase(opened_paths_.begin());
+         observer = take_observer();
+@@ -702,7 +715,8 @@ RuntimeReport& runtime_report() {
+ 
+ namespace {
+ 
+-// Rewrites one file from a RuntimeReport. Shared by the observer and owned by it.
++// Rewrites one file from a RuntimeReport. Owned by the report's observer: destroying it (the
++// observer was replaced, or the report is going away) stops and joins its writer thread.
+ class ReportWriter {
+ public:
+     using Clock = std::chrono::steady_clock;
+@@ -710,6 +724,20 @@ public:
+     ReportWriter(RuntimeReport& report, std::string path, std::chrono::milliseconds min_interval)
+         : report_(report), path_(std::move(path)), temporary_(path_ + ".tmp"), min_interval_(min_interval) {}
+ 
++    ~ReportWriter() {
++        {
++            std::lock_guard<std::mutex> lock(wake_mutex_);
++            retired_ = true;
++        }
++        wake_.notify_one();
++        if (worker_.joinable()) worker_.join();
++    }
++
++    ReportWriter(const ReportWriter&) = delete;
++    ReportWriter& operator=(const ReportWriter&) = delete;
++
++    void start() { worker_ = std::thread([this] { run(); }); }
++
+     bool write_now() {
+         const std::string text = report_.text();
+         const int fd = ::open(temporary_.c_str(), O_WRONLY | O_CREAT | O_TRUNC, 0600);
+@@ -734,21 +762,61 @@ public:
+         return true;
+     }
+ 
++    // Structural changes are written at once on the calling thread: they are rare, and they are
++    // the evidence a process that is about to die must leave behind. Counter-only changes arrive
++    // from hot guest paths (every poll, swap and input event), so they only mark the report dirty;
++    // the writer thread rebuilds and fsyncs it at most once per min_interval, off those threads.
+     void operator()(bool structural) {
+-        std::lock_guard<std::mutex> lock(mutex_);
+-        const Clock::time_point now = Clock::now();
+-        if (!structural && now - last_ < min_interval_) return;
+-        last_ = now;
+-        write_now();
++        if (structural) {
++            std::lock_guard<std::mutex> lock(write_mutex_);
++            dirty_.store(false, std::memory_order_release);
++            last_ = Clock::now();
++            write_now();
++            return;
++        }
++        if (dirty_.exchange(true, std::memory_order_acq_rel)) return;
++        {
++            std::lock_guard<std::mutex> lock(wake_mutex_);
++        }
++        wake_.notify_one();
+     }
+ 
+ private:
++    void run() {
++        std::unique_lock<std::mutex> lock(wake_mutex_);
++        for (;;) {
++            wake_.wait(lock, [this] { return retired_ || dirty_.load(std::memory_order_acquire); });
++            if (retired_) return;
++            // Keep min_interval since the last write; retiring cuts the wait short.
++            Clock::time_point due;
++            {
++                std::lock_guard<std::mutex> write_lock(write_mutex_);
++                due = last_ == Clock::time_point::min() ? Clock::now() : last_ + min_interval_;
++            }
++            if (wake_.wait_until(lock, due, [this] { return retired_; })) return;
++            lock.unlock();
++            {
++                std::lock_guard<std::mutex> write_lock(write_mutex_);
++                if (dirty_.exchange(false, std::memory_order_acq_rel)) {
++                    last_ = Clock::now();
++                    write_now();
++                }
++            }
++            lock.lock();
++        }
++    }
++
+     RuntimeReport& report_;
+     std::string path_;
+     std::string temporary_;
+     std::chrono::milliseconds min_interval_;
+-    std::mutex mutex_;
++    std::mutex write_mutex_;  // serializes writes; guards last_
+     Clock::time_point last_ = Clock::time_point::min();
++    std::atomic<bool> dirty_{false};
++    std::mutex wake_mutex_;  // guards retired_ and pairs with wake_
++    std::condition_variable wake_;
++    bool retired_ = false;
++    std::thread worker_;
+ };
+ 
+ }  // namespace
+@@ -760,6 +828,7 @@ bool write_runtime_report_to(RuntimeReport& report, const std::string& path,
+         log("cannot write the runtime report to %s: %s", path.c_str(), std::strerror(errno));
+         return false;
+     }
++    writer->start();
+     report.set_observer([writer](bool structural) { (*writer)(structural); });
+     return true;
+ }
+diff --git a/core/src/syscalls.cpp b/core/src/syscalls.cpp
+index b638903..4de2136 100644
+--- a/core/src/syscalls.cpp
++++ b/core/src/syscalls.cpp
+@@ -26,6 +26,7 @@
+ #include <unistd.h>
+ 
+ #include <algorithm>
++#include <optional>
+ #include <cerrno>
+ #include <climits>
+ #include <csignal>
+@@ -40,6 +41,7 @@
+ 
+ #include "gen/syscall_nrs_arm.h"
+ #include "zb/elf_fixups.h"
++#include "zb/file_windows.h"
+ #include "zb/guest_abi.h"
+ #include "zb/guest_memory.h"
+ #include "zb/guest_thread.h"
+@@ -212,11 +214,24 @@ bool write_timespec(GuestMemory& m, std::uint32_t addr, bool time64, const times
+     return write_guest(m, addr, g::timespec32{static_cast<std::int32_t>(ts.tv_sec), static_cast<std::int32_t>(ts.tv_nsec)});
+ }
+ 
++// Bytes a read at the descriptor's current offset may return without leaving its window.
++std::uint64_t window_remaining(int fd, const FileWindow& w) {
++    const off_t at = ::lseek(fd, 0, SEEK_CUR);
++    const std::uint64_t end = w.offset + w.length;
++    if (at < 0 || static_cast<std::uint64_t>(at) >= end) return 0;
++    return end - static_cast<std::uint64_t>(at);
++}
++
+ std::int32_t sys_read_write(Ctx& c, bool is_write) {
+-    const std::uint32_t len = c.a[2];
++    std::uint32_t len = c.a[2];
+     std::uint8_t* buf = c.mem.host_ptr(c.a[1], len, is_write ? kPageRead : kPageWrite);
+     if (len != 0 && buf == nullptr) return -EFAULT;
+     const int fd = static_cast<int>(c.a[0]);
++    if (!is_write) {
++        if (const std::optional<FileWindow> w = file_window_for(fd)) {
++            len = static_cast<std::uint32_t>(std::min<std::uint64_t>(len, window_remaining(fd, *w)));
++        }
++    }
+     return result_of(is_write ? ::write(fd, buf, len) : ::read(fd, buf, len));
+ }
+ 
+@@ -224,9 +239,16 @@ std::int32_t sys_pread_pwrite(Ctx& c, bool is_write) {
+     const std::uint32_t len = c.a[2];
+     std::uint8_t* buf = c.mem.host_ptr(c.a[1], len, is_write ? kPageRead : kPageWrite);
+     if (len != 0 && buf == nullptr) return -EFAULT;
+-    const off_t offset = static_cast<off_t>(static_cast<std::uint64_t>(c.a[4]) | (static_cast<std::uint64_t>(c.a[5]) << 32));
++    off_t offset = static_cast<off_t>(static_cast<std::uint64_t>(c.a[4]) | (static_cast<std::uint64_t>(c.a[5]) << 32));
+     const int fd = static_cast<int>(c.a[0]);
+-    return result_of(is_write ? ::pwrite(fd, buf, len, offset) : ::pread(fd, buf, len, offset));
++    std::uint32_t count = len;
++    if (const std::optional<FileWindow> w = file_window_for(fd)) {
++        if (offset < 0) return -EINVAL;
++        const std::uint64_t at = static_cast<std::uint64_t>(offset);
++        count = at >= w->length ? 0 : static_cast<std::uint32_t>(std::min<std::uint64_t>(len, w->length - at));
++        offset = static_cast<off_t>(w->offset + at);
++    }
++    return result_of(is_write ? ::pwrite(fd, buf, count, offset) : ::pread(fd, buf, count, offset));
+ }
+ 
+ std::int32_t sys_readv_writev(Ctx& c, bool is_write) {
+@@ -241,6 +263,16 @@ std::int32_t sys_readv_writev(Ctx& c, bool is_write) {
+         iov[i] = {base, v.iov_len};
+     }
+     const int fd = static_cast<int>(c.a[0]);
++    if (!is_write) {
++        if (const std::optional<FileWindow> w = file_window_for(fd)) {
++            // Trim the vector so the read stops at the window's end.
++            std::uint64_t left = window_remaining(fd, *w);
++            for (iovec& v : iov) {
++                v.iov_len = static_cast<std::size_t>(std::min<std::uint64_t>(v.iov_len, left));
++                left -= v.iov_len;
++            }
++        }
++    }
+     return result_of(is_write ? ::writev(fd, iov.data(), static_cast<int>(count)) : ::readv(fd, iov.data(), static_cast<int>(count)));
+ }
+ 
+@@ -270,6 +302,14 @@ std::int32_t sys_mmap2(Ctx& c) {
+     const int prot = static_cast<int>(c.a[2]);
+     const int flags = static_cast<int>(c.a[3]);
+     const int fd = static_cast<int>(c.a[4]);
++    if ((flags & MAP_ANONYMOUS) == 0) {
++        if (const std::optional<FileWindow> w = file_window_for(fd)) {
++            // The window must start on a guest page for its pages to line up (the bundle tool
++            // aligns the OBB entry to 16 KiB).
++            if (w->offset % kPageSize != 0) return -EINVAL;
++            c.a[5] += static_cast<std::uint32_t>(w->offset / kPageSize);
++        }
++    }
+     const std::uint64_t offset = static_cast<std::uint64_t>(c.a[5]) * kPageSize;
+ 
+     if (len == 0) return -EINVAL;
+@@ -601,11 +641,20 @@ std::int32_t sys_statfs_common(Ctx& c, int rc, const struct statfs& st, std::uin
+     return write_guest(c.mem, out_addr, out) ? 0 : -EFAULT;
+ }
+ 
++// A windowed descriptor reports its window's size, not the backing file's.
++void apply_window_size(int fd, struct stat& st) {
++    if (const std::optional<FileWindow> w = file_window_for(fd)) {
++        st.st_size = static_cast<off_t>(w->length);
++        st.st_blocks = static_cast<blkcnt_t>((w->length + 511) / 512);
++    }
++}
++
+ std::int32_t sys_fstatat64(Ctx& c) {
+     const char* path = guest_cstr(c.mem, c.a[1]);
+     if (!path) return -EFAULT;
+     struct stat st;
+     const int rc = ::fstatat(static_cast<int>(c.a[0]), c.proc.translate_path(path).c_str(), &st, static_cast<int>(c.a[3]));
++    if (rc == 0 && path[0] == '\0' && (c.a[3] & AT_EMPTY_PATH) != 0) apply_window_size(static_cast<int>(c.a[0]), st);
+     return sys_stat_common(c, rc, st, c.a[2]);
+ }
+ 
+@@ -614,7 +663,16 @@ std::int32_t sys_statx(Ctx& c) {
+     std::uint8_t* buf = c.mem.host_ptr(c.a[4], 256, kPageWrite);
+     if (!path || !buf) return -EFAULT;
+     const std::string host_path = c.proc.translate_path(path);
+-    return result_of(::syscall(SYS_statx, static_cast<int>(c.a[0]), host_path.c_str(), static_cast<int>(c.a[2]), c.a[3], buf));
++    const std::int32_t rc = result_of(::syscall(SYS_statx, static_cast<int>(c.a[0]), host_path.c_str(), static_cast<int>(c.a[2]), c.a[3], buf));
++    if (rc == 0 && path[0] == '\0' && (c.a[2] & AT_EMPTY_PATH) != 0) {
++        if (const std::optional<FileWindow> w = file_window_for(static_cast<int>(c.a[0]))) {
++            const std::uint64_t size = w->length;           // struct statx: stx_size at 40
++            const std::uint64_t blocks = (w->length + 511) / 512;  // stx_blocks at 48
++            std::memcpy(buf + 40, &size, sizeof size);
++            std::memcpy(buf + 48, &blocks, sizeof blocks);
++        }
++    }
++    return rc;
+ }
+ 
+ std::int32_t sys_ioctl(Ctx& c) {
+@@ -639,11 +697,15 @@ std::int32_t sys_fcntl64(Ctx& c) {
+     const int cmd = static_cast<int>(c.a[1]);
+     switch (cmd) {
+     case F_DUPFD:
++    case F_DUPFD_CLOEXEC: {
++        const std::int32_t fd = result_of(::fcntl(static_cast<int>(c.a[0]), cmd, static_cast<long>(c.a[2])));
++        if (fd >= 0) copy_file_window(static_cast<int>(c.a[0]), fd);
++        return fd;
++    }
+     case F_GETFD:
+     case F_SETFD:
+     case F_GETFL:
+     case F_SETFL:
+-    case F_DUPFD_CLOEXEC:
+         return result_of(::fcntl(static_cast<int>(c.a[0]), cmd, static_cast<long>(c.a[2])));
+     default:
+         if (c.proc.first_time(kSeenFcntl | static_cast<std::uint32_t>(cmd))) log("unsupported fcntl command %d", cmd);
+@@ -731,15 +793,41 @@ std::int32_t sys_prlimit64(Ctx& c) {
+     return result_of(::syscall(SYS_prlimit64, static_cast<pid_t>(c.a[0]), static_cast<int>(c.a[1]), new_limit, old_limit));
+ }
+ 
++// lseek, with a windowed descriptor's positions moved into and out of its window.
++off_t guest_lseek(int fd, off_t offset, int whence) {
++    const std::optional<FileWindow> w = file_window_for(fd);
++    if (!w) return ::lseek(fd, offset, whence);
++    off_t target;
++    switch (whence) {
++    case SEEK_SET: target = offset; break;
++    case SEEK_CUR: {
++        const off_t at = ::lseek(fd, 0, SEEK_CUR);
++        if (at < 0) return -1;
++        target = at - static_cast<off_t>(w->offset) + offset;
++        break;
++    }
++    case SEEK_END: target = static_cast<off_t>(w->length) + offset; break;
++    default:
++        errno = EINVAL;  // SEEK_DATA/SEEK_HOLE would report the backing file's layout
++        return -1;
++    }
++    if (target < 0) {
++        errno = EINVAL;
++        return -1;
++    }
++    const off_t r = ::lseek(fd, static_cast<off_t>(w->offset) + target, SEEK_SET);
++    return r < 0 ? r : r - static_cast<off_t>(w->offset);
++}
++
+ std::int32_t sys_llseek(Ctx& c) {
+     const off_t offset = static_cast<off_t>((static_cast<std::uint64_t>(c.a[1]) << 32) | c.a[2]);
+-    const off_t r = ::lseek(static_cast<int>(c.a[0]), offset, static_cast<int>(c.a[4]));
++    const off_t r = guest_lseek(static_cast<int>(c.a[0]), offset, static_cast<int>(c.a[4]));
+     if (r == -1) return -errno;
+     return write_guest(c.mem, c.a[3], static_cast<std::int64_t>(r)) ? 0 : -EFAULT;
+ }
+ 
+ std::int32_t sys_lseek(Ctx& c) {
+-    const off_t r = ::lseek(static_cast<int>(c.a[0]), static_cast<std::int32_t>(c.a[1]), static_cast<int>(c.a[2]));
++    const off_t r = guest_lseek(static_cast<int>(c.a[0]), static_cast<std::int32_t>(c.a[1]), static_cast<int>(c.a[2]));
+     if (r == -1) return -errno;
+     if (r > INT32_MAX) return -EOVERFLOW;
+     return static_cast<std::int32_t>(r);
+@@ -1226,9 +1314,18 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+     case NR_pwrite64: res = sys_pread_pwrite(c, true); break;
+     case NR_readv: res = sys_readv_writev(c, false); break;
+     case NR_writev: res = sys_readv_writev(c, true); break;
+-    case NR_close: res = result_of(::close(static_cast<int>(c.a[0]))); break;
+-    case NR_dup: res = result_of(::dup(static_cast<int>(c.a[0]))); break;
+-    case NR_dup3: res = result_of(::dup3(static_cast<int>(c.a[0]), static_cast<int>(c.a[1]), static_cast<int>(c.a[2]))); break;
++    case NR_close:
++        res = result_of(::close(static_cast<int>(c.a[0])));
++        if (res == 0) forget_file_window(static_cast<int>(c.a[0]));
++        break;
++    case NR_dup:
++        res = result_of(::dup(static_cast<int>(c.a[0])));
++        if (res >= 0) copy_file_window(static_cast<int>(c.a[0]), res);
++        break;
++    case NR_dup3:
++        res = result_of(::dup3(static_cast<int>(c.a[0]), static_cast<int>(c.a[1]), static_cast<int>(c.a[2])));
++        if (res >= 0) copy_file_window(static_cast<int>(c.a[0]), res);
++        break;
+     case NR_pipe2: res = sys_pipe2(c); break;
+     case NR_lseek: res = sys_lseek(c); break;
+     case NR__llseek: res = sys_llseek(c); break;
+@@ -1242,6 +1339,10 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+             if (watched) note_watched_open(guest_path, res);
+             break;
+         }
++        if (open_file_window(guest_path, static_cast<int>(c.a[2]), res)) {
++            if (watched) note_watched_open(guest_path, res);
++            break;
++        }
+         res = sys_path_call(c, 1, [](Ctx& x, const char* p) -> long {
+             return ::syscall(SYS_openat, static_cast<int>(x.a[0]), p, static_cast<int>(x.a[2]), static_cast<mode_t>(x.a[3]));
+         });
+@@ -1294,6 +1395,7 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+     case NR_fstat64: {
+         struct stat st;
+         const int rc = ::fstat(static_cast<int>(c.a[0]), &st);
++        if (rc == 0) apply_window_size(static_cast<int>(c.a[0]), st);
+         res = sys_stat_common(c, rc, st, c.a[1]);
+         break;
+     }
+@@ -1435,6 +1537,27 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+         break;
+     }
+     case NR_sched_getscheduler: res = result_of(::sched_getscheduler(static_cast<pid_t>(c.a[0]))); break;
++    // struct sched_param is one int on both ABIs, so these pass straight through. An app may not
++    // raise itself to a real-time policy; the kernel answers EPERM exactly as on a 32-bit device.
++    case NR_sched_getparam: {
++        std::uint8_t* param = c.mem.host_ptr(c.a[1], sizeof(int), kPageWrite);
++        res = !param ? -EFAULT : result_of(::syscall(SYS_sched_getparam, static_cast<pid_t>(c.a[0]), param));
++        break;
++    }
++    case NR_sched_setparam: {
++        const std::uint8_t* param = c.mem.host_ptr(c.a[1], sizeof(int), kPageRead);
++        res = !param ? -EFAULT : result_of(::syscall(SYS_sched_setparam, static_cast<pid_t>(c.a[0]), param));
++        break;
++    }
++    case NR_sched_setscheduler: {
++        const std::uint8_t* param = c.mem.host_ptr(c.a[2], sizeof(int), kPageRead);
++        res = !param ? -EFAULT
++                     : result_of(::syscall(SYS_sched_setscheduler, static_cast<pid_t>(c.a[0]),
++                                           static_cast<int>(c.a[1]), param));
++        break;
++    }
++    case NR_sched_get_priority_max: res = result_of(::sched_get_priority_max(static_cast<int>(c.a[0]))); break;
++    case NR_sched_get_priority_min: res = result_of(::sched_get_priority_min(static_cast<int>(c.a[0]))); break;
+     case NR_socket:
+         res = result_of(::syscall(SYS_socket, static_cast<int>(c.a[0]), static_cast<int>(c.a[1]), static_cast<int>(c.a[2])));
+         break;
+@@ -1516,7 +1639,10 @@ bool handle_syscall(Process& proc, GuestThread& thread) {
+     case NR_flock: res = result_of(::flock(static_cast<int>(c.a[0]), static_cast<int>(c.a[1]))); break;
+     case NR_umask: res = static_cast<std::int32_t>(::umask(static_cast<mode_t>(c.a[0]))); break;
+     case NR_fchdir: res = result_of(::fchdir(static_cast<int>(c.a[0]))); break;
+-    case NR_dup2: res = result_of(::dup2(static_cast<int>(c.a[0]), static_cast<int>(c.a[1]))); break;
++    case NR_dup2:
++        res = result_of(::dup2(static_cast<int>(c.a[0]), static_cast<int>(c.a[1])));
++        if (res >= 0) copy_file_window(static_cast<int>(c.a[0]), res);
++        break;
+     case NR_pipe: {
+         std::uint8_t* out = c.mem.host_ptr(c.a[0], 8, kPageWrite);
+         int fds[2];
+diff --git a/tests/host/mock_looper.h b/tests/host/mock_looper.h
+index 1161f94..c40d028 100644
+--- a/tests/host/mock_looper.h
++++ b/tests/host/mock_looper.h
+@@ -33,7 +33,9 @@ public:
+ 
+     int add_fd(std::uint64_t looper, int fd, int ident, int events, Callback callback,
+                void* data) override {
+-        if (looper == 0 || looper != current_ || fd < 0 || callback == nullptr) return -1;
++        // A null callback is an ident registration, as ALooper_addFd allows on a looper prepared
++        // with ALOOPER_PREPARE_ALLOW_NON_CALLBACKS.
++        if (looper == 0 || looper != current_ || fd < 0) return -1;
+         if (fail_add_fd) return -1;
+         fds_[std::make_pair(looper, fd)] = Entry{ident, events, callback, data};
+         return 1;
+@@ -52,6 +54,13 @@ public:
+         for (int fd : ready_) {
+             const auto entry = fds_.find(std::make_pair(current_, fd));
+             if (entry == fds_.end()) continue;
++            if (entry->second.callback == nullptr) {  // ident registration: report it, as the NDK does
++                if (out_fd != nullptr) *out_fd = fd;
++                if (out_events != nullptr) *out_events = 1;
++                if (out_data != nullptr) *out_data = entry->second.data;
++                ready_.clear();
++                return entry->second.ident;
++            }
+             entry->second.callback(fd, 1 /* ALOOPER_EVENT_INPUT */, entry->second.data);
+             result = -2;  // ALOOPER_POLL_CALLBACK
+         }
+@@ -79,7 +88,7 @@ public:
+     // callback's value, or -1 when the fd is not registered.
+     int deliver(std::uint64_t looper, int fd, int events) {
+         const auto it = fds_.find(std::make_pair(looper, fd));
+-        if (it == fds_.end()) return -1;
++        if (it == fds_.end() || it->second.callback == nullptr) return -1;
+         const Entry entry = it->second;
+         const int keep = entry.callback(fd, events, entry.data);
+         if (keep == 0) fds_.erase(std::make_pair(looper, fd));
+diff --git a/tests/host/runtime_report_test.cpp b/tests/host/runtime_report_test.cpp
+index 9551930..4f2bc84 100644
+--- a/tests/host/runtime_report_test.cpp
++++ b/tests/host/runtime_report_test.cpp
+@@ -383,7 +383,14 @@ void check_throttle(const fs::path& dir) {
+     CHECK(report.unimplemented_host_calls() == 200);
+     std::this_thread::sleep_for(std::chrono::milliseconds(40));
+     report.note_unimplemented_host_call(7, "libGLESv2.so", "glDrawArrays");
+-    CHECK(contains(read_file(path), "unimplemented-host-calls: 201"));
++    // Counter-only changes are persisted by the writer thread, not by the noting thread, so the
++    // file catches up within the interval rather than at once.
++    bool written = false;
++    for (int i = 0; i < 200 && !written; ++i) {
++        written = contains(read_file(path), "unimplemented-host-calls: 201");
++        if (!written) std::this_thread::sleep_for(std::chrono::milliseconds(10));
++    }
++    CHECK(written);
+ }
+ 
+ void check_process_wide_instance() {
+diff --git a/tests/proxy/fake_jni.c b/tests/proxy/fake_jni.c
+index a58e62f..a00db28 100644
+--- a/tests/proxy/fake_jni.c
++++ b/tests/proxy/fake_jni.c
+@@ -389,45 +389,54 @@ static void test_native_activity_before_onload(void) {
+ // ANativeActivity_onCreate is the one export android.app.NativeActivity looks for. It arrives
+ // with no JavaVM of its own, so the proxy must have kept the one JNI_OnLoad was given.
+ static void test_native_activity(void) {
++    // A real ANativeActivity prefix: the proxy reads its activity object to pick a class loader.
++    // With no activity object it resolves the bridge with FindClass, as JNI_OnLoad did.
++    struct ActivityPrefix {
++        void* callbacks;
++        JavaVM* vm;
++        JNIEnv* env;
++        jobject clazz;
++    } activity = {NULL, (JavaVM*)&vm_ptr, (JNIEnv*)&env_ptr, NULL};
++
+     reset("JNI_OnLoad before ANativeActivity_onCreate");
+     fake.call_result = JNI_VERSION_1_6;
+     CHECK(run() == JNI_VERSION_1_6);
+ 
+     reset("native activity accepted");
+     fake.boolean_result = JNI_TRUE;
+-    on_create((void*)0x1234, (void*)0x5678, 9);
++    on_create(&activity, (void*)0x5678, 9);
+     CHECK(fake.getenv_version == JNI_VERSION_1_6);
+     CHECK(strcmp(fake.class_name, "com/zettabridge/core/ZBridge") == 0);
+     CHECK(strcmp(fake.method_name, "onNativeActivityCreated") == 0);
+     CHECK(strcmp(fake.method_sig, "(JJJLjava/lang/String;)Z") == 0);
+     CHECK(fake.static_boolean_calls == 1);
+-    CHECK(fake.activity == 0x1234 && fake.saved_state == 0x5678 && fake.saved_state_size == 9);
++    CHECK(fake.activity == (jlong)(uintptr_t)&activity && fake.saved_state == 0x5678 && fake.saved_state_size == 9);
+     CHECK(strcmp(fake.string_value, proxy_path) == 0);
+     CHECK(fake.live_refs == 0 && fake.violations == 0);
+ 
+     // A refusal is reported, not thrown: the framework then fails the activity its own way.
+     reset("native activity refused");
+     fake.boolean_result = JNI_FALSE;
+-    on_create((void*)0x1000, NULL, 0);
++    on_create(&activity, NULL, 0);
+     CHECK(fake.static_boolean_calls == 1 && fake.live_refs == 0 && !fake.exception_pending);
+ 
+     // An exception from the bridge is cleared here; leaving it pending would surface at an
+     // unrelated JNI call much later.
+     reset("native activity throws");
+     fake.call_throws = 1;
+-    on_create((void*)0x1000, NULL, 0);
++    on_create(&activity, NULL, 0);
+     CHECK(fake.static_boolean_calls == 1 && !fake.exception_pending);
+     CHECK(fake.live_refs == 0 && fake.violations == 0);
+ 
+     reset("native activity with GetEnv failing");
+     fake.getenv_fails = 1;
+-    on_create((void*)0x1000, NULL, 0);
++    on_create(&activity, NULL, 0);
+     CHECK(fake.static_boolean_calls == 0 && fake.find_class_calls == 0);
+ 
+     reset("native activity with an exception already pending");
+     fake.pending_on_entry = 1;
+     fake.exception_pending = 1;
+-    on_create((void*)0x1000, NULL, 0);
++    on_create(&activity, NULL, 0);
+     CHECK(fake.find_class_calls == 0 && fake.static_boolean_calls == 0);
+ }
+ 

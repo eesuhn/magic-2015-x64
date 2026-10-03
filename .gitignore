@@ -1,0 +1,24 @@
+# Generated: rebuild with port/build.sh
+/build/
+/dist/
+*.apk
+
+# Recreated by port/setup.sh (upstream ZettaBridge + port/zettabridge.patch)
+/vendor/
+
+# The game itself (copyrighted, ~1.6 GB): supply your own, see README
+/input/
+
+# Signing key and its password: secret, back them up outside the repo
+/keys/
+*.keystore
+*.keystore.pass
+*.jks
+
+# Third-party tools used once during the investigation
+/tools/
+
+# Local
+.claude/
+__pycache__/
+.DS_Store
