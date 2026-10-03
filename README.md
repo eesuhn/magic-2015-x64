@@ -1,15 +1,13 @@
 # Magic 2015 on 64-bit-only Android 16
 
 Runs **Magic 2015 – Duels of the Planeswalkers** (v1.4.4959, `com.stainlessgames.D15`) on phones
-whose CPUs cannot run 32-bit code at all, such as the OnePlus 15 or Pixel 7 and later on
-Android 16. The game ships only `armeabi-v7a`/`x86` native code, so it cannot be installed there
+whose CPUs cannot run 32-bit code at all. The game ships only `armeabi-v7a`/`x86` native code, so it cannot be installed there
 (`INSTALL_FAILED_NO_MATCHING_ABIS`); raising its `targetSdkVersion` is not enough.
 
 The build produces **one APK** (`dist/Magic2015-Android16.apk`, ~1.6 GB). It is
 [ZettaBridge](https://github.com/ZailoxTT/ZettaBridge), which translates the game's 32-bit ARM
 code to 64-bit at run time, with the game and its OBB bundled inside and a set of fixes so this
-particular game works. Install it like any APK; the first launch sets the game up in a few
-seconds.
+particular game works.
 
 ## What is fixed
 
@@ -83,9 +81,3 @@ keys/    (ignored)   signing key
 build/, dist/ (ignored) intermediates and the final APK
 tools/   (ignored)   AXML-Editor, used for the first manifest experiment
 ```
-
-## Licences
-
-ZettaBridge is the project owner's own code. Dynarmic and its bundled libraries keep their own
-licences (fetched with them). Magic 2015 belongs to Wizards of the Coast and Stainless Games; no
-game files are included here, and builds are for personal use only.
