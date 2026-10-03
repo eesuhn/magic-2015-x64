@@ -1,10 +1,10 @@
-# Magic 2015 on 64-bit-only Android 16
+# Magic 2015 on 64-bit
 
 Runs **Magic 2015 – Duels of the Planeswalkers** (v1.4.4959, `com.stainlessgames.D15`) on phones
 whose CPUs cannot run 32-bit code at all. The game ships only `armeabi-v7a`/`x86` native code, so it cannot be installed there
 (`INSTALL_FAILED_NO_MATCHING_ABIS`); raising its `targetSdkVersion` is not enough.
 
-The build produces **one APK** (`dist/Magic2015-Android16.apk`, ~1.6 GB). It is
+The build produces **one APK** (`dist/Magic2015-64-bit.apk`, ~1.6 GB). It is
 [ZettaBridge](https://github.com/ZailoxTT/ZettaBridge), which translates the game's 32-bit ARM
 code to 64-bit at run time, with the game and its OBB bundled inside and a set of fixes so this
 particular game works.
@@ -21,9 +21,6 @@ particular game works.
 | Expansions | The repack's unlock snapshot was restored into the wrong data folder | Applied to the game's own data on first launch (purchases merged, progress kept) |
 | Promo | The source APK (an androeed.ru repack) shows the site's dialog and toast | Disabled in `classes.dex` |
 | Navigation | Back gesture ignored; bars blocked gestures; two Recents entries | Back events paced, gesture-friendly fullscreen, single task |
-
-**Not fixable:** Google sign-in, Google+ and Facebook login. The APK is a repack signed with a
-different key, and Google+ no longer exists. The intro videos are silent.
 
 ## Requirements
 
@@ -49,7 +46,7 @@ different key, and Google+ no longer exists. The intro videos are silent.
 ```
 port/setup.sh            # once: fetch Dynarmic (pinned, patched) and the arm32 sysroot into zettabridge/
 port/java-truststore.sh  # only behind TLS inspection (e.g. Cloudflare Gateway), see below
-port/build.sh            # → dist/Magic2015-Android16.apk  (SKIP_GUEST=1 to reuse the guest build)
+port/build.sh            # → dist/Magic2015-64-bit.apk  (SKIP_GUEST=1 to reuse the guest build)
 ```
 
 A full build takes a few minutes. Gradle downloads its plugins on the first run. On a network that
@@ -59,7 +56,7 @@ store from the macOS System keychain, and `build.sh` uses it automatically.
 ## Install
 
 ```
-adb install -r dist/Magic2015-Android16.apk
+adb install -r dist/Magic2015-64-bit.apk
 ```
 
 The app appears as **Magic 2015**. Updating over an earlier build keeps your progress; the
@@ -73,7 +70,7 @@ zettabridge/         ZettaBridge itself (from upstream d6066b9) with all the fix
   build/             (ignored) native build
 port/
   setup.sh           fetches Dynarmic and the sysroot
-  build.sh           builds dist/Magic2015-Android16.apk
+  build.sh           builds dist/Magic2015-64-bit.apk
   tools.py           game APK patches (libDuels, classes.dex) and APK packaging/alignment
   sles/sles_stub.c   silent OpenSL ES for the 32-bit guest
   java-truststore.sh optional, for TLS-inspecting networks

@@ -21,7 +21,7 @@ Everything else is generated, third-party or private, and git-ignored:
 
 ```
 port/setup.sh [--force]        # fetch dynarmic (pinned + zettabridge/third_party/patches) and the sysroot
-SKIP_GUEST=1 port/build.sh     # dist/Magic2015-Android16.apk (drop SKIP_GUEST after guest/ changes)
+SKIP_GUEST=1 port/build.sh     # dist/Magic2015-64-bit.apk (drop SKIP_GUEST after guest/ changes)
 port/java-truststore.sh        # once, when Gradle/sdkmanager fail with PKIX errors (TLS inspection)
 ```
 
@@ -40,7 +40,7 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 - Start it with `~/.android-sdk/emulator/emulator -avd android16 -no-snapshot-save -no-boot-anim`, run in the background.
 - Stop it with `adb -e emu kill`.
 - Commands that start the emulator or talk to adb need the sandbox disabled.
-- Install with `adb -e install -r dist/Magic2015-Android16.apk`. Space is tight: about 1.6 GB per install, and an update needs another 1.6 GB while it runs.
+- Install with `adb -e install -r dist/Magic2015-64-bit.apk`. Space is tight: about 1.6 GB per install, and an update needs another 1.6 GB while it runs.
 - The first launch shows the game's "Unknown issue with Google Play services" dialog. Tap OK. The intro video needs taps to skip.
 - The user often drives the game UI. Ask them to navigate (for example to the Tutorial screen) rather than scripting long tap sequences. A badly timed tap during loading can trigger an ANR.
 - The back gesture can't be faked with `input swipe`; SystemUI ignores it. Use stepwise `input motionevent DOWN/MOVE/UP` from the screen edge.

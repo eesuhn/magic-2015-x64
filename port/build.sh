@@ -1,5 +1,5 @@
 #!/bin/bash
-# Builds dist/Magic2015-Android16.apk: ZettaBridge with Magic 2015 and its OBB bundled, one install.
+# Builds dist/Magic2015-64-bit.apk: ZettaBridge with Magic 2015 and its OBB bundled, one install.
 #
 #   port/build.sh                full build
 #   SKIP_GUEST=1 port/build.sh   reuse the arm32 guest build (tools/build_guest.sh is slow-ish)
@@ -21,7 +21,7 @@ GAME_APK=$ROOT/input/magic-2015.apk
 OBB=$ROOT/input/com.stainlessgames.D15/main.4959.com.stainlessgames.D15.obb
 KEYSTORE=$ROOT/keys/magic-2015-mod.keystore
 KEYSTORE_PASS_FILE=$KEYSTORE.pass
-FINAL=$ROOT/dist/Magic2015-Android16.apk
+FINAL=$ROOT/dist/Magic2015-64-bit.apk
 OBB_VERSION=4959
 
 for f in "$GAME_APK" "$OBB" "$KEYSTORE" "$ZB/third_party/dynarmic/CMakeLists.txt" "$ZB/sysroot/system/bin/linker" "$LLVM/clang" "$BT/apksigner"; do
