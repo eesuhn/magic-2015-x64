@@ -6,7 +6,7 @@ how it is built.
 ## The short version
 
 The project builds one APK that runs Magic 2015 (32-bit ARM, NativeActivity, 2015) on
-64-bit-only Android 16. It is ZettaBridge, an ARM32→ARM64 translator app, plus our fixes, with
+64-bit-only devices, which cannot run 32-bit code at all. It is ZettaBridge, an ARM32→ARM64 translator app, plus our fixes, with
 the game and its OBB bundled inside. What is tracked is what we wrote: `zettabridge/` (the
 translator, including all the Magic 2015 fixes) and `port/` (game patches and build scripts).
 `input/` holds the game files (APK and OBB) in Git LFS: `.gitattributes` routes `input/**` to
