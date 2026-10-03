@@ -1,0 +1,2 @@
+# Game inputs live in Git LFS: the repo holds small pointer files, the bytes go to the LFS store.
+input/** filter=lfs diff=lfs merge=lfs -text

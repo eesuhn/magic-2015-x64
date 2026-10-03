@@ -30,8 +30,9 @@ different key, and Google+ no longer exists. The intro videos are silent.
 - macOS on Apple Silicon (the scripts use the macOS NDK and Homebrew).
 - Android SDK at `~/.android-sdk` (or `ANDROID_HOME`) with build-tools 36.0.0, platform
   `android-35` and NDK `29.0.14206865`. Java 17+ is also needed.
-- Homebrew packages: `cmake`, `ninja`, `boost`.
-- The game files, which are **not** in this repository:
+- Homebrew packages: `cmake`, `ninja`, `boost`, `git-lfs`.
+- The game files, stored in **Git LFS** (`.gitattributes` tracks `input/**`; git holds only
+  pointers). After cloning, `git lfs pull` fetches them:
   - `input/magic-2015.apk`: the androeed.ru build of v1.4.4959. The patches check its exact
     bytes and refuse anything else.
   - `input/com.stainlessgames.D15/main.4959.com.stainlessgames.D15.obb`
@@ -76,7 +77,7 @@ port/
   tools.py           game APK patches (libDuels, classes.dex) and APK packaging/alignment
   sles/sles_stub.c   silent OpenSL ES for the 32-bit guest
   java-truststore.sh optional, for TLS-inspecting networks
-input/   (ignored)   the game APK and OBB
+input/   (Git LFS)   the game APK and OBB
 keys/    (ignored)   signing key
 build/, dist/ (ignored) intermediates and the final APK
 tools/   (ignored)   AXML-Editor, used for the first manifest experiment

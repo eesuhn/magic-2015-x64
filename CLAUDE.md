@@ -9,11 +9,12 @@ The project builds one APK that runs Magic 2015 (32-bit ARM, NativeActivity, 201
 64-bit-only Android 16. It is ZettaBridge, an ARM32→ARM64 translator app, plus our fixes, with
 the game and its OBB bundled inside. What is tracked is what we wrote: `zettabridge/` (the
 translator, including all the Magic 2015 fixes) and `port/` (game patches and build scripts).
+`input/` holds the game files (APK and OBB) in Git LFS: `.gitattributes` routes `input/**` to
+LFS, so git stores only pointers, and `.gitignore` re-allows `input/*.apk` past its `*.apk` rule.
 Everything else is generated, third-party or private, and git-ignored:
 
 - `zettabridge/third_party/dynarmic/` and `zettabridge/sysroot/` come from `port/setup.sh`.
 - `build/` and `dist/` come from `port/build.sh`; `zettabridge/build/` holds the native build.
-- `input/` holds the game files.
 - `keys/` holds the signing key.
 
 ## Commands
@@ -82,8 +83,9 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 
 ## Rules
 
-- Never commit `input/`, `keys/`, `build/`, `dist/`, `zettabridge/build/`, Dynarmic, the sysroot,
-  or any APK, OBB or keystore.
+- Never commit `keys/`, `build/`, `dist/`, `zettabridge/build/`, Dynarmic, the sysroot,
+  or any APK, OBB or keystore outside `input/`. Anything added under `input/` must go through
+  LFS: check `git lfs status` shows it as `LFS`, not `Git`.
 - Keep the signing key: updates signed with a different key need an uninstall, which loses the
   user's progress.
 - ZettaBridge is the user's own code. Builds contain the copyrighted game: personal use only; do

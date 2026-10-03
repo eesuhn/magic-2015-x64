@@ -2,9 +2,8 @@
 /build/
 /dist/
 *.apk
-
-# The game itself (copyrighted, ~1.6 GB): supply your own, see README
-/input/
+# ...except the game inputs, which are tracked in Git LFS (see .gitattributes)
+!/input/*.apk
 
 # Signing key and its password: secret, back them up outside the repo
 /keys/
