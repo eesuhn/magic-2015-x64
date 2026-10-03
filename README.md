@@ -11,18 +11,17 @@ The build produces **one APK** (`dist/Magic2015-64-bit.apk`, ~1.6 GB). It is
 code to 64-bit at run time, with the game and its OBB bundled inside and a set of fixes so this
 particular game works.
 
+> **[Latest release: v1.0.0](https://github.com/eesuhn/magic-2015-x64/releases/latest)**
+>
+> Releases are **source only**. The APK contains the copyrighted game, so it is not distributed:
+> build it yourself as described below, for personal use.
+
 ## What is fixed
 
-| Area | Problem | Fix |
-| --- | --- | --- |
-| Runtime | 32-bit-only game on a 64-bit-only CPU | ZettaBridge (Dynarmic ARM32 → ARM64 translation) |
-| ZettaBridge | NativeActivity start, looper idents, `AInputQueue_attachLooper` 5th argument, EGL handle maps, AAssetDir, `sched_*` syscalls, report writer stalls | `zettabridge/` |
-| Audio | No `libOpenSLES.so` for 32-bit guests | Silent stub (`port/sles/`); only the intro videos use it, music and effects play |
-| Graphics | Game uses a pointer as an EGL config when the GPU lacks RGB565 | 1-byte patch in `libDuels.so` |
-| Size | A 1.5 GB OBB copy doubled the install size | OBB served from inside the APK through a file window; a sparse placeholder satisfies the game's size check |
-| Expansions | The repack's unlock snapshot was restored into the wrong data folder | Applied to the game's own data on first launch (purchases merged, progress kept) |
-| Promo | The source APK (an androeed.ru repack) shows the site's dialog and toast | Disabled in `classes.dex` |
-| Navigation | Back gesture ignored; bars blocked gestures; two Recents entries | Back events paced, gesture-friendly fullscreen, single task |
+ZettaBridge runs the game's 32-bit code, and the port fixes what broke on top of that: NativeActivity
+and EGL support in ZettaBridge, missing OpenSL audio, a bad EGL config, the doubled install
+size, locked expansions, the repack's promo dialog and back navigation. See
+[CHANGELOG.md](CHANGELOG.md) for each fix.
 
 ## Requirements
 
@@ -67,7 +66,7 @@ install needs about 1.6 GB free while it runs.
 ## Layout
 
 ```
-zettabridge/         ZettaBridge itself (from upstream d6066b9) with all the fixes above
+zettabridge/         ZettaBridge itself (from upstream d6066b9) with the fixes in CHANGELOG.md
   third_party/dynarmic, sysroot   (ignored) fetched by port/setup.sh
   build/             (ignored) native build
 port/
@@ -79,5 +78,4 @@ port/
 input/   (Git LFS)   the game APK and OBB
 keys/    (ignored)   signing key
 build/, dist/ (ignored) intermediates and the final APK
-tools/   (ignored)   AXML-Editor, used for the first manifest experiment
 ```
