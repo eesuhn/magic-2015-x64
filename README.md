@@ -1,5 +1,7 @@
 # Magic 2015 on 64-bit
 
+<img src="https://github.com/user-attachments/assets/b723098b-d015-430f-a0fd-9db558a3576b" alt="screenshot" width="800">
+
 Runs **Magic 2015 – Duels of the Planeswalkers** (v1.4.4959, `com.stainlessgames.D15`) on phones
 whose CPUs cannot run 32-bit code at all. The game ships only `armeabi-v7a`/`x86` native code, so it cannot be installed there
 (`INSTALL_FAILED_NO_MATCHING_ABIS`); raising its `targetSdkVersion` is not enough.
