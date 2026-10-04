@@ -11,7 +11,7 @@ The build produces **one APK** (`dist/Magic2015-64-bit.apk`, ~1.6 GB). It is
 code to 64-bit at run time, with the game and its OBB bundled inside and a set of fixes so this
 particular game works.
 
-> **[Latest release: v1.1.0](https://github.com/eesuhn/magic-2015-x64/releases/latest)**
+> **[Latest release: v1.1.1](https://github.com/eesuhn/magic-2015-x64/releases/latest)**
 >
 > Releases are **source only**. The APK contains the copyrighted game, so it is not distributed:
 > build it yourself as described below, for personal use.
@@ -73,7 +73,8 @@ The app appears as **Magic 2015**. Updating over an earlier build keeps your pro
 install needs about 1.6 GB free while it runs.
 
 On first launch the app asks for **Nearby devices**, which ad-hoc (Bluetooth) multiplayer needs.
-Allow it on every phone taking part. A new install starts with:
+Allow it on every phone taking part, and install the same build on each of them. A new install
+starts with:
 - a profile named "Planewalker";
 - every card at its copy limit;
 - two decks, "Started" and "Dragonfire".
@@ -107,6 +108,7 @@ port/
   tools.py           game APK patches (libDuels, classes.dex, starting profile), save
                      editing (GameProfile) and APK packaging/alignment
   sles/sles_stub.c   silent OpenSL ES for the 32-bit guest
+  overrides/         Java classes that replace the game's own (Bluetooth multiplayer)
   java-truststore.sh optional, for TLS-inspecting networks
 build/cards/         card catalog decrypted from the OBB, with its extractor
 decks/               decks: a .txt list and a .md write-up each

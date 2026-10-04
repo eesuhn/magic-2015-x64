@@ -1,6 +1,9 @@
 # Changelog
 
-## Unreleased
+## v1.1.1 (2026-10-05)
+
+Ad-hoc multiplayer now gets past joining. Source only. Update both phones: a v1.1.0 phone cannot
+join or host a match with a v1.1.1 phone.
 
 ### Multiplayer
 
