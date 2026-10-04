@@ -7,6 +7,10 @@
 - Ad-hoc (Bluetooth) multiplayer was blocked: the app targets Android 15 but declared no
   Bluetooth permissions, and the game predates runtime permissions. The app now declares them and
   asks for "Nearby devices" once, before the game starts.
+- Multiplayer no longer waits for the Innistrad boss (the campaign's first plane): a 2-byte patch
+  in `libDuels.so` makes that check pass. The same check gated the expansion content in the deck
+  builder and collection, which is now available from the start. Multiplayer still needs the
+  tutorial, which gives the starter deck.
 
 ## v1.0.0 (2026-10-04)
 

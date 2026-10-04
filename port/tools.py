@@ -2,9 +2,7 @@
 """Build helpers for the Magic 2015 single-APK port (called by build.sh).
 
   tools.py patch-libduels SRC DST
-      The EGL config fallback fix: in __android_init_display, `mov r7, r6` (r7 = the config
-      array itself) becomes `ldr r7, [r6]` (r7 = its first config), so a GPU without an RGB565
-      config (the Android emulator) still gets a valid config. Devices with one are unaffected.
+      Applies LIBDUELS_PATCHES: the EGL config fallback fix and the multiplayer unlock.
 
   tools.py game-apk ORIG_APK OUT_APK LIB_DIR
       The game APK as ZettaBridge runs it: the original (targetSdk 17, which the guest linker
@@ -29,22 +27,34 @@ import shutil
 import sys
 import zipfile
 
-LIBDUELS_FIX_OFFSET = 0x736490
-LIBDUELS_FIX_OLD = bytes.fromhex("3746")  # mov r7, r6
-LIBDUELS_FIX_NEW = bytes.fromhex("3768")  # ldr r7, [r6]
+# Thumb code in libDuels.so, whose file offsets equal its addresses. Each patch is (file offset,
+# original bytes, replacement, what it does).
+LIBDUELS_PATCHES = [
+    # __android_init_display: `mov r7, r6` (r7 = the config array itself) becomes `ldr r7, [r6]`
+    # (r7 = its first config), so a GPU without an RGB565 config (the Android emulator) still gets
+    # a valid config. Devices with one are unaffected.
+    (0x736490, "3746", "3768", "EGL config fallback"),
+    # CPlayerCallBack::lua_HasPlayerBeatenInnistradBoss: the campaign's first plane gates
+    # multiplayer (main menu, phud) and the expansion content in the deck builder and collection.
+    # The `blt` that answers false when its boss match is not completed becomes a nop, so any
+    # loaded profile counts as having beaten it. With no profile it still answers false.
+    (0x42BC84, "13db", "00bf", "multiplayer unlocked (Innistrad boss check)"),
+]
 SIGNATURE_FILE = re.compile(r"META-INF/(MANIFEST\.MF|[^/]*\.(SF|RSA|DSA|EC))$")
 
 
 def patch_libduels(src, dst):
     data = bytearray(open(src, "rb").read())
-    at = data[LIBDUELS_FIX_OFFSET:LIBDUELS_FIX_OFFSET + 2]
-    if at == LIBDUELS_FIX_NEW:
-        print("libDuels.so: already patched")
-    elif at == LIBDUELS_FIX_OLD:
-        data[LIBDUELS_FIX_OFFSET:LIBDUELS_FIX_OFFSET + 2] = LIBDUELS_FIX_NEW
-        print("libDuels.so: EGL config fallback patched at 0x%x" % LIBDUELS_FIX_OFFSET)
-    else:
-        sys.exit("libDuels.so: unexpected bytes %s at 0x%x (not v1.4.4959?)" % (at.hex(), LIBDUELS_FIX_OFFSET))
+    for offset, old_hex, new_hex, what in LIBDUELS_PATCHES:
+        old, new = bytes.fromhex(old_hex), bytes.fromhex(new_hex)
+        at = bytes(data[offset:offset + len(old)])
+        if at == new:
+            print("libDuels.so: %s: already patched" % what)
+        elif at == old:
+            data[offset:offset + len(new)] = new
+            print("libDuels.so: %s patched at 0x%x" % (what, offset))
+        else:
+            sys.exit("libDuels.so: unexpected bytes %s at 0x%x (not v1.4.4959?)" % (at.hex(), offset))
     open(dst, "wb").write(data)
 
 
