@@ -14,7 +14,12 @@ OBB layout (reverse-engineered from the x86 libDuels.so, which keeps its symbols
     with a 256-byte RSA-2048 PSS-R signature (Crypto++ PSSR, SHA-1, e=17; key embedded in the
     library, WrappingXOR'ed). The recovered message plus the rest of the chunk are RollingXOR'ed
     with seed 0x53; later chunks continue the chain from the previous ciphertext byte. The result
-    is raw deflate (method 8) or stored (method 0). Entries under 256 bytes are not signed.
+    is raw deflate (method 8) or stored (method 0). Entries under 256 bytes are stored as is.
+
+Copy limits (CRuntimeCollection::_InterrogateData and ::AddCard): the collection holds only cards
+listed in a card pool, at most 4 copies of a common, 3 of an uncommon, 2 of a rare and 1 of a
+mythic (CCardSpec::GetRarity; C, T and L parse to the common slot). A deck can use only owned
+copies, basic lands are unlimited, and CRuntimeDeckConfiguration::AddCard caps a deck at 100.
 """
 import csv, hashlib, json, mmap, os, re, struct, sys, zlib
 import xml.etree.ElementTree as ET
@@ -69,7 +74,7 @@ def pssr_recover(sig):
 
 def decrypt_entry(raw):
     if len(raw) < 256:
-        return unchain(raw, 0x53)
+        return raw  # too short to hold a signature: stored as is (CRC-checked)
     first = raw[:CHUNK]
     out = unchain(pssr_recover(first[:256]) + first[256:], 0x53)
     if len(raw) > CHUNK:
@@ -120,6 +125,7 @@ LANG = "en-US"
 ABILITY_TAGS = ("STATIC_ABILITY", "TRIGGERED_ABILITY", "ACTIVATED_ABILITY", "SPELL_ABILITY",
                 "MANA_ABILITY", "UTILITY_ABILITY")
 COLOURS = "WUBRG"
+MAX_COPIES = {"C": 4, "T": 4, "L": 4, "U": 3, "R": 2, "M": 1}
 
 
 def en(el):
@@ -181,6 +187,7 @@ def parse_card(el):
         "artist": g("ARTIST", "name"),
         "is_token": el.find("TOKEN") is not None,
         "ai_base_score": g("AI_BASE_SCORE", "score"),
+        "creates_tokens": sorted({x.get("type") for x in el.findall("TOKEN_REGISTRATION")}),
     }
 
 
@@ -188,13 +195,190 @@ def xml_root(data):
     return ET.fromstring(data.decode("utf-8-sig"))
 
 
+# ---------------------------------------------------------------- canonical JSON
+
+# MTG::CDataLoader::ParseRarity: RARITY metaname -> engine value. CRuntimeCollection::AddCard
+# maps engine values 0..3 to 4/3/2/1 copies; anything else can't be added (0).
+RARITIES = [("C", "Common", 0), ("T", "Token", 0), ("L", "Land", 0), ("U", "Uncommon", 1),
+            ("R", "Rare", 2), ("M", "Mythic", 3), ("S", "Special", 4)]
+ENGINE_COPIES = {0: 4, 1: 3, 2: 2, 3: 1}
+COLOUR_NAMES = {"W": "White", "U": "Blue", "B": "Black", "R": "Red", "G": "Green"}
+# Specs/*_Types.txt: which card types each subtype list belongs to.
+SUBTYPE_SPECS = {"Artifact_Types.txt": ["ARTIFACT"], "Creature_Types.txt": ["CREATURE", "TRIBAL"],
+                 "Enchantment_Types.txt": ["ENCHANTMENT"], "Land_Types.txt": ["LAND"],
+                 "Planeswalker_Types.txt": ["PLANESWALKER"],
+                 "Spell_Types.txt": ["INSTANT", "SORCERY"], "Plane_Types.txt": ["PLANE"],
+                 "Scheme_Types.txt": ["SCHEME"]}
+
+
+def spec_list(text):
+    return [l.strip() for l in text.splitlines() if l.strip() and not l.strip().startswith("//")]
+
+
+def type_key(name):
+    """Card XML metaname -> Specs spelling: "Assembly-Worker" -> ASSEMBLY_WORKER, "Urza's" -> URZAS."""
+    return re.sub(r"[^A-Z0-9]+", "_", name.upper().replace("'", "").replace("’", "")).strip("_")
+
+
+def as_int(v):
+    return int(v) if v is not None and re.fullmatch(r"-?\d+", str(v)) else None
+
+
+def deck_entry(root):
+    return {
+        "uid": as_int(root.get("uid")),
+        "booster_id": as_int(root.get("booster_id")),
+        "content_pack": as_int(root.get("content_pack")),
+        "personality": root.get("personality") or None,
+        "datapool": root.get("cheat_menu_filter_datapool") or None,
+        "deck_type": root.get("cheat_menu_filter_deck_type") or None,
+        "colours": [c for c, n in (("W", "white"), ("U", "blue"), ("B", "black"), ("R", "red"),
+                                   ("G", "green")) if root.get("is_" + n) == "true"],
+        "basic_lands": {x.get("name"): int(x.get("quantity")) for x in root.iter("BASICLAND")},
+        "cards": [{"card": card, "difficulty": diff, "count": n}
+                  for (card, diff), n in sorted(Counter_(deck_card(x.get("name"))
+                                                         for x in root.iter("CARD")).items(),
+                                                key=lambda kv: (kv[0][0], kv[0][1] or 0))],
+    }
+
+
+def deck_card(ref):
+    """"NAME@3" -> (NAME, 3): the card is only in the deck at AI difficulty 3
+    (CDeckSpec::CardValidForThisDifficulty); a plain name is in it at every difficulty."""
+    card, _, diff = ref.partition("@")
+    return card, as_int(diff)
+
+
+def Counter_(it):
+    out = {}
+    for k in it:
+        out[k] = out.get(k, 0) + 1
+    return out
+
+
+def write_canonical(path, rows, pools, decks, boosters, specs, store):
+    card_types = spec_list(specs["Card_Types.txt"])
+    supertypes = spec_list(specs["Supertypes.txt"])
+    subtypes = {}
+    for f, parents in SUBTYPE_SPECS.items():
+        for st in spec_list(specs.get(f, "")):
+            subtypes.setdefault(st, {"card_types": []})["card_types"] += parents
+    store_items = {}
+    if store is not None:
+        for it in store.iter("ITEM"):
+            uid = as_int((it.get("CONTENT_PACK_UID") or "").strip())
+            if uid is not None:
+                store_items[uid] = it.get("ITEMTYPE").strip()
+
+    problems = []
+    cards = {}
+    for c in rows:
+        for kind, vals, vocab in (("type", c["types"], card_types),
+                                  ("supertype", c["supertypes"], supertypes),
+                                  ("subtype", c["subtypes"], subtypes)):
+            problems += [f"{c['id']}: unknown {kind} {v}" for v in vals if type_key(v) not in vocab]
+        for st in c["subtypes"]:  # subtype must belong to one of the card's types
+            parents = subtypes.get(type_key(st), {}).get("card_types", [])
+            if parents and not set(parents) & {type_key(t) for t in c["types"]}:
+                problems.append(f"{c['id']}: subtype {st} doesn't fit types {c['types']}")
+        cards[c["id"]] = {
+            "name": c["name"],
+            "mana_cost": c["mana_cost"] or None,
+            "cmc": c["cmc"],
+            "colours": list(c["colors"]),
+            "supertypes": [type_key(t) for t in c["supertypes"]],
+            "types": [type_key(t) for t in c["types"]],
+            "subtypes": [type_key(t) for t in c["subtypes"]],
+            "power": c["power"],
+            "toughness": c["toughness"],
+            "rules_text": c["rules_text"] or None,
+            "flavour_text": c["flavour_text"] or None,
+            "rarity": c["rarity"],
+            "collectible": bool(c["card_pools"]),
+            "max_copies": c["max_copies"],
+            "is_token": c["is_token"],
+            "creates_tokens": c["creates_tokens"],
+            "expansion": c["expansion"],
+            "multiverse_id": as_int(c["multiverse_id"]),
+            "art_id": as_int(c["art_id"]),
+            "artist": c["artist"],
+            "ai_base_score": as_int(c["ai_base_score"]),
+            "content_pack": c["content_pack"],
+        }
+        problems += [f"{c['id']}: token {t} not defined" for t in c["creates_tokens"]
+                     if t not in {r["id"] for r in rows}]
+
+    def refs(owner, ids):
+        return [f"{owner}: card {i} not defined" for i in ids if i not in cards]
+
+    card_pools = {}
+    for name, root in sorted(pools.items()):
+        a = root["attrs"]
+        uid = as_int(a.get("content_booster_uid"))
+        card_pools[name] = {
+            "id": as_int(a.get("id")),
+            "plane_id": as_int(a.get("plane_id")),
+            "content_id": as_int(a.get("content_id")),
+            "content_booster_uid": uid,
+            "store_item": store_items.get(uid),
+            "cards": sorted(({"card": n, "uid": as_int(u)} for n, u in root["cards"]),
+                            key=lambda x: (x["uid"] is None, x["uid"], x["card"])),
+        }
+        problems += refs("pool " + name, [n for n, _ in root["cards"]])
+    deck_map = {k: deck_entry(v) for k, v in sorted(decks.items())}
+    booster_map = {k: deck_entry(v) for k, v in sorted(boosters.items())}
+    for owner, m in (("deck", deck_map), ("booster", booster_map)):
+        for k, d in m.items():
+            problems += refs(f"{owner} {k}", [x["card"] for x in d["cards"]])
+
+    doc = {
+        "schema": "magic2015-card-catalog/1",
+        "generator": "build/cards/extract_cards.py",
+        "rules": {
+            "deck_size": {"min": 60, "max": 100},
+            "copies_by_engine_rarity": {str(k): v for k, v in ENGINE_COPIES.items()},
+            "basic_lands_limited": False,
+            "collectible_cards": "cards listed in a card pool",
+            "sources": {
+                "deck_size.min": "game text: 'Decks must contain no less than 60 and no more "
+                                 "than 100 cards in Duels of the Planeswalkers.'",
+                "deck_size.max": "CRuntimeDeckConfiguration::AddCard refuses card 101",
+                "copies": "CRuntimeCollection::AddCard, limit by CCardSpec::GetRarity",
+                "collectible": "CRuntimeCollection::_InterrogateData iterates the card pools",
+                "rarity": "MTG::CDataLoader::ParseRarity",
+                "types": "Specs/*_Types.txt (Card_Types and Supertypes in engine enum order)",
+            },
+        },
+        "enums": {
+            "rarities": {code: {"label": label, "engine_value": v,
+                                "max_copies": ENGINE_COPIES.get(v, 0)}
+                         for code, label, v in RARITIES},
+            "colours": COLOUR_NAMES,
+            "card_types": {t: {"engine_value": i} for i, t in enumerate(card_types)},
+            "supertypes": {t: {"engine_value": i} for i, t in enumerate(supertypes)},
+            "subtypes": {k: {"card_types": sorted(set(v["card_types"]))}
+                         for k, v in sorted(subtypes.items())},
+        },
+        "cards": cards,
+        "card_pools": card_pools,
+        "decks": deck_map,
+        "booster_definitions": booster_map,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(doc, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+    for p in problems:
+        print("canonical:", p)
+
+
 def main():
     obb_path = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_OBB
     out = sys.argv[2] if len(sys.argv) > 2 else HERE
     obb = Obb(obb_path)
-    want = ("/Cards/", "/CardPools/", "/Decks/", "/BoosterDefinitions/")
+    want = ("/Cards/", "/CardPools/", "/Decks/", "/BoosterDefinitions/", "/Specs/",
+            "/Store/store_items.xml")
 
-    cards, card_src, pools, decks, boosters = {}, {}, {}, {}, {}
+    cards, pools, decks, boosters, specs, store = {}, {}, {}, {}, {}, None
     conflicts = []
     for zed in sorted(obb.zeds):
         if not zed.startswith("DATA"):
@@ -208,9 +392,14 @@ def main():
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             with open(dst, "wb") as f:
                 f.write(data)
-            root = xml_root(data)
             base = os.path.splitext(os.path.basename(rel))[0]
-            if "/Cards/" in e["name"]:
+            if "/Specs/" in e["name"]:
+                specs[os.path.basename(rel)] = data.decode("utf-8-sig")  # later packs override
+                continue
+            root = xml_root(data)
+            if "/Store/" in e["name"]:
+                store = root
+            elif "/Cards/" in e["name"]:
                 for el in ([root] if root.tag == "CARD_V2" else root.findall("CARD_V2")):
                     c = parse_card(el)
                     c["content_pack"] = zed[:-4]
@@ -222,7 +411,7 @@ def main():
                         cards[c["id"]] = c
             elif "/CardPools/" in e["name"]:
                 pools[base] = dict(attrs=root.attrib,
-                                   cards=[x.get("name") for x in root.findall("card")])
+                                   cards=[(x.get("name"), x.get("id")) for x in root.findall("card")])
             elif "/Decks/" in e["name"]:
                 decks[base] = root
             else:
@@ -230,12 +419,12 @@ def main():
 
     in_pools = defaultdict(list)
     for p, v in sorted(pools.items()):
-        for n in v["cards"]:
+        for n, _ in v["cards"]:
             in_pools[n].append(p)
     in_decks = defaultdict(set)
     for d, root in decks.items():
         for x in root.iter("CARD"):
-            in_decks[x.get("name")].add(d)
+            in_decks[deck_card(x.get("name"))[0]].add(d)
     in_boosters = defaultdict(set)
     for b, root in boosters.items():
         for x in root.iter():
@@ -246,6 +435,8 @@ def main():
     rows = sorted(cards.values(), key=lambda c: (c["is_token"], c["name"].lower(), c["id"]))
     for c in rows:
         c["card_pools"] = in_pools.get(c["id"], [])
+        # Collectible cards only; None means the card can't be in a player's collection.
+        c["max_copies"] = MAX_COPIES.get(c["rarity"]) if c["card_pools"] else None
         c["decks"] = sorted(in_decks.get(c["id"], ()))
         c["booster_definitions"] = sorted(in_boosters.get(c["id"], ()))
 
@@ -254,13 +445,16 @@ def main():
     cols = ["id", "name", "mana_cost", "cmc", "colors", "supertypes", "types", "subtypes", "power",
             "toughness", "rules_text", "flavour_text", "rarity", "expansion", "multiverse_id",
             "art_id", "artist", "is_token", "ai_base_score", "content_pack", "card_pools",
-            "decks", "booster_definitions"]
+            "max_copies", "decks", "booster_definitions"]
     with open(os.path.join(out, "cards.csv"), "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
         w.writerow(cols)
         for c in rows:
             w.writerow([" ".join(c[k]) if k in ("supertypes", "types", "subtypes") else
                         "; ".join(c[k]) if isinstance(c[k], list) else c[k] for k in cols])
+
+    write_canonical(os.path.join(out, "cards.canonical.json"), rows, pools, decks, boosters,
+                    specs, store)
 
     n_tok = sum(c["is_token"] for c in rows)
     print(f"{len(rows)} cards ({len(rows) - n_tok} + {n_tok} tokens), {len(pools)} pools, "

@@ -1,0 +1,8 @@
+// The following types are built into Xylophone and thus this order
+// must match the order of the enums in MTG_Types.h
+
+BASIC
+LEGENDARY
+WORLD
+SNOW
+ONGOING

@@ -23,7 +23,7 @@ Everything else is generated, third-party or private, and git-ignored:
 ```
 port/setup.sh [--force]        # fetch dynarmic (pinned + zettabridge/third_party/patches) and the sysroot
 SKIP_GUEST=1 port/build.sh     # dist/Magic2015-64-bit.apk (drop SKIP_GUEST after guest/ changes)
-build/cards/extract_cards.py   # decrypt the OBB's card XMLs into build/cards/ (cards.json, cards.csv, xml/)
+build/cards/extract_cards.py   # decrypt the OBB's card data into build/cards/ (cards.canonical.json, cards.json, cards.csv, xml/)
 port/java-truststore.sh        # once, when Gradle/sdkmanager fail with PKIX errors (TLS inspection)
 ```
 
