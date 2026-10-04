@@ -17,6 +17,8 @@
 /tools/
 
 # Local
-.claude/
+**/.claude/*
+# ...except project skills, which are shared
+!/.claude/skills/
 __pycache__/
 .DS_Store

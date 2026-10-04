@@ -9,7 +9,9 @@ The project builds one APK that runs Magic 2015 (32-bit ARM, NativeActivity, 201
 64-bit-only devices, which cannot run 32-bit code at all. It is ZettaBridge, an ARM32→ARM64 translator app, plus our fixes, with
 the game and its OBB bundled inside. What is tracked is what we wrote: `zettabridge/` (the
 translator, including all the Magic 2015 fixes), `port/` (game patches and build scripts) and
-`build/cards/` (the card list extracted from the OBB, with its extractor).
+`build/cards/` (the card list extracted from the OBB, with its extractor), `decks/` (decks built
+from it, each a `.txt` list plus a `.md` write-up) and `.claude/skills/m15-deck-builder/` (the
+skill for building and checking those decks).
 `input/` holds the game files (APK and OBB) in Git LFS: `.gitattributes` routes `input/**` to
 LFS, so git stores only pointers, and `.gitignore` re-allows `input/*.apk` past its `*.apk` rule.
 Everything else is generated, third-party or private, and git-ignored:
