@@ -157,92 +157,134 @@ def put_profile_name(plain, offset, name):
     plain[offset:offset + PROFILE_NAME_SLOT] = name.encode("utf-32-le").ljust(PROFILE_NAME_SLOT, b"\0")
 
 
-def load_cards():
-    """uid -> card from the extracted catalog (build/cards/extract_cards.py)."""
+def load_cards(keys=False):
+    """uid -> card from the extracted catalog (build/cards/extract_cards.py); with keys, uid -> ID."""
     import json
     catalog = json.load(open(CARD_CATALOG, encoding="utf-8"))
-    return {e["uid"]: catalog["cards"][e["card"]]
+    return {e["uid"]: e["card"] if keys else catalog["cards"][e["card"]]
             for pool in catalog["card_pools"].values() for e in pool["cards"]}
 
 
-def read_deck_list(name):
-    """decks/<name> as ([(uid, count)], [count per basic land type])."""
-    by_name = {card["name"]: uid for uid, card in load_cards().items()}
+def card_key(name):
+    """Name as .claude/skills/m15-deck-builder/scripts/catalog.py compares it."""
+    return re.sub(r"\s+", " ", name.replace("’", "'").strip().lower())
+
+
+def read_deck_list(path):
+    """A deck list as deck_check.py reads it (`<count> <card name or ID>`, # comments), as
+    ([(uid, count)], [count per basic land type])."""
+    cards_by_uid, ids = load_cards(), load_cards(keys=True)
+    uid_of = {card_key(card["name"]): uid for uid, card in cards_by_uid.items()}
+    uid_of.update({card_id: uid for uid, card_id in ids.items()})
+    basics = {card_key(name): land for name, land in BASIC_LANDS.items()}
     cards, lands = [], [0] * 5
-    for line in open(os.path.join(ROOT, "decks", name), encoding="utf-8"):
-        m = re.match(r"(\d+) (.+)", line.strip())
-        if not m:
+    for line in open(path, encoding="utf-8"):
+        line = line.strip()
+        if not line or line.startswith("#"):
             continue
-        count, card = int(m.group(1)), m.group(2)
-        if card in BASIC_LANDS:
-            lands[BASIC_LANDS[card]] += count
-        elif card in by_name:
-            cards.append((by_name[card], count))
+        m = re.fullmatch(r"(\d+)\s*x?\s+(.+)", line)
+        if not m:
+            sys.exit("%s: expected '<count> <card>', got %r" % (path, line))
+        count, ref = int(m.group(1)), m.group(2).strip()
+        if card_key(ref) in basics:
+            lands[basics[card_key(ref)]] += count
+        elif ref in uid_of or card_key(ref) in uid_of:
+            cards.append((uid_of.get(ref, uid_of.get(card_key(ref))), count))
         else:
-            sys.exit("decks/%s: unknown card %r" % (name, card))
+            sys.exit("%s: %r is not a card the player can own" % (path, ref))
     if len(cards) > 100 or any(n > 7 for _, n in cards) or any(n > 255 for n in lands):
-        sys.exit("decks/%s: does not fit a deck slot" % name)
+        sys.exit("%s: does not fit a deck slot" % path)
     return cards, lands
 
 
-def patch_profile(data):
-    outer = wx_back(data)
-    # Player name and the existing deck's name.
-    for offset, old, new, what in PROFILE_PATCHES:
-        at = profile_name(outer, offset)
-        if at == new:
-            continue
-        if at != old:
-            sys.exit("p1.profile: unexpected %s %r at 0x%x (not the v1.4.4959 androeed build?)" % (what, at, offset))
-        put_profile_name(outer, offset, new)
-        print("p1.profile: %s set to %r" % (what, new))
+class GameProfile:
+    """A decoded p1.profile (layout above). Edit, then encode()."""
 
-    # Every card at its copy limit.
-    lengths = [struct.unpack_from("<I", outer, at)[0] for _, at in PROFILE_CHUNKS]
-    if any(n > 0x400 for n in lengths) or sum(lengths) > PROFILE_INNER_LEN:
-        sys.exit("p1.profile: unexpected chunk lengths %s" % lengths)
-    cipher = b"".join(bytes(outer[d:d + n]) for (d, _), n in zip(PROFILE_CHUNKS, lengths))
-    inner = wx_back(cipher.ljust(PROFILE_INNER_LEN, b"\0"))
-    first = struct.unpack_from("<I", inner, 4)[0]
-    block = 8 + ((first + 3) & ~3) + 4
-    if struct.unpack_from("<I", inner, 0)[0] != sum(lengths) or struct.unpack_from("<I", inner, block - 4)[0] != 0x470:
-        sys.exit("p1.profile: unexpected profile block layout")
-    collection = block + 0x4F
-    raised = 0
-    for uid, card in load_cards().items():
-        at = collection + uid // 2
-        shift = 0 if uid % 2 == 0 else 4
-        nibble = (inner[at] >> shift) & 0xF
-        if nibble & 7 < card["max_copies"]:
-            inner[at] = (inner[at] & ~(0xF << shift) & 0xFF) | (((nibble & 8) | card["max_copies"]) << shift)
-            raised += 1
-    if raised:
-        cipher = wx_fwd(inner)
-        pos = 0
-        for (d, _), n in zip(PROFILE_CHUNKS, lengths):
-            outer[d:d + n] = cipher[pos:pos + n]
-            pos += n
-        print("p1.profile: %d cards raised to their copy limit" % raised)
+    def __init__(self, data):
+        self.outer = wx_back(data)
+        self.lengths = [struct.unpack_from("<I", self.outer, at)[0] for _, at in PROFILE_CHUNKS]
+        if any(n > 0x400 for n in self.lengths) or sum(self.lengths) > PROFILE_INNER_LEN:
+            sys.exit("p1.profile: unexpected chunk lengths %s" % self.lengths)
+        cipher = b"".join(bytes(self.outer[d:d + n]) for (d, _), n in zip(PROFILE_CHUNKS, self.lengths))
+        self.inner = wx_back(cipher.ljust(PROFILE_INNER_LEN, b"\0"))
+        first = struct.unpack_from("<I", self.inner, 4)[0]
+        block = 8 + ((first + 3) & ~3) + 4
+        if (struct.unpack_from("<I", self.inner, 0)[0] != sum(self.lengths)
+                or struct.unpack_from("<I", self.inner, block - 4)[0] != 0x470):
+            sys.exit("p1.profile: unexpected profile block layout")
+        self.collection = block + 0x4F
+        self.inner_changed = False
 
-    # Starting decks.
-    slots = [PROFILE_DECKS + i * 0x120 for i in range(32)]
-    names = [profile_name(outer, at) for at in slots if outer[at + 0x11C] != 0xFF]
-    for name, list_file in STARTING_DECKS:
-        if name in names:
-            continue
-        free = next((at for at in slots if outer[at + 0x11C] == 0xFF), None)
-        if free is None:
-            sys.exit("p1.profile: no free deck slot for %r" % name)
-        cards, lands = read_deck_list(list_file)
+    def encode(self):
+        if self.inner_changed:
+            cipher = wx_fwd(self.inner)
+            pos = 0
+            for (d, _), n in zip(PROFILE_CHUNKS, self.lengths):
+                self.outer[d:d + n] = cipher[pos:pos + n]
+                pos += n
+        return bytes(wx_fwd(self.outer))
+
+    def owned(self, uid):
+        """Copies of card uid in the collection."""
+        return (self.inner[self.collection + uid // 2] >> (0 if uid % 2 == 0 else 4)) & 7
+
+    def set_owned(self, uid, copies):
+        at, shift = self.collection + uid // 2, 0 if uid % 2 == 0 else 4
+        flag = (self.inner[at] >> shift) & 8
+        self.inner[at] = (self.inner[at] & ~(0xF << shift) & 0xFF) | ((flag | copies) << shift)
+        self.inner_changed = True
+
+    def unlock_all(self, cards):
+        """Raises every card to its copy limit; returns how many were raised."""
+        raised = 0
+        for uid, card in cards.items():
+            if self.owned(uid) < card["max_copies"]:
+                self.set_owned(uid, card["max_copies"])
+                raised += 1
+        return raised
+
+    def decks(self):
+        """{name: slot offset} of the used deck slots."""
+        slots = (PROFILE_DECKS + i * 0x120 for i in range(32))
+        return {profile_name(self.outer, at): at for at in slots if self.outer[at + 0x11C] != 0xFF}
+
+    def put_deck(self, name, cards, lands, replace=False):
+        """Writes a deck into its own slot (with replace) or the first free one."""
+        at = self.decks().get(name)
+        if at is not None and not replace:
+            sys.exit("p1.profile: a deck named %r already exists" % name)
+        if at is None:
+            at = next((PROFILE_DECKS + i * 0x120 for i in range(32)
+                       if self.outer[PROFILE_DECKS + i * 0x120 + 0x11C] == 0xFF), None)
+            if at is None:
+                sys.exit("p1.profile: no free deck slot for %r" % name)
         slot = bytearray(0x120)
         put_profile_name(slot, 0, name)
         struct.pack_into("<100H", slot, 0x40, *([uid << 3 | n for uid, n in cards] + [0] * (100 - len(cards))))
         for land, n in enumerate(lands):
             slot[0x108 + land * 4] = n
         slot[0x11C] = 0  # icon, as the repack's deck
-        outer[free:free + 0x120] = slot
-        print("p1.profile: deck %r added from decks/%s" % (name, list_file))
-    return bytes(wx_fwd(outer))
+        self.outer[at:at + 0x120] = slot
+
+
+def patch_profile(data):
+    profile = GameProfile(data)
+    for offset, old, new, what in PROFILE_PATCHES:
+        at = profile_name(profile.outer, offset)
+        if at == new:
+            continue
+        if at != old:
+            sys.exit("p1.profile: unexpected %s %r at 0x%x (not the v1.4.4959 androeed build?)" % (what, at, offset))
+        put_profile_name(profile.outer, offset, new)
+        print("p1.profile: %s set to %r" % (what, new))
+    raised = profile.unlock_all(load_cards())
+    if raised:
+        print("p1.profile: %d cards raised to their copy limit" % raised)
+    for name, list_file in STARTING_DECKS:
+        if name not in profile.decks():
+            profile.put_deck(name, *read_deck_list(os.path.join(ROOT, "decks", list_file)))
+            print("p1.profile: deck %r added from decks/%s" % (name, list_file))
+    return profile.encode()
 
 
 def patch_unlock_snapshot(data):

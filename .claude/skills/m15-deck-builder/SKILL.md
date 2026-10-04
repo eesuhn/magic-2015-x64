@@ -1,6 +1,6 @@
 ---
 name: m15-deck-builder
-description: Build, tune or review Magic 2015 (Duels of the Planeswalkers 2015) decks from this repo's extracted card data, following the game's real deck rules (deck size, per-rarity copy limits, collectible cards only) and balancing the lands against the spells' mana costs, then write the deck to decks/<name>.md. Use this whenever the user asks for a deck, a "best deck", a decklist, a mana base or land count, card choices for a colour or archetype, or whether a deck is legal in Magic 2015, even if they don't say "skill" or name the files.
+description: Build, tune or review Magic 2015 (Duels of the Planeswalkers 2015) decks from this repo's extracted card data, following the game's real deck rules (deck size, per-rarity copy limits, collectible cards only) and balancing the lands against the spells' mana costs, then write the deck to decks/<name>.md, and put a decks/*.txt list into the game itself (a starting deck in every build, or a deck in an existing save). Use this whenever the user asks for a deck, a "best deck", a decklist, a mana base or land count, card choices for a colour or archetype, whether a deck is legal in Magic 2015, or to add, install or update a deck in the game or app, even if they don't say "skill" or name the files.
 ---
 
 # Magic 2015 deck builder
@@ -70,6 +70,45 @@ consistent deck is commons and uncommons. Rares and mythics are 1–2-copy upgra
 5. **Write `decks/<slug>.md`.** Run the checker with `--markdown` to get the decklist, curve,
    mana base, odds and card-origin tables, then add the prose around them (structure below).
    `decks/rakdos-dragonfire.md` is a finished example of the expected depth and tone.
+
+6. **Put it in the game**, if the user wants to play it. See the next section.
+
+## Putting a deck into the game
+
+The `.txt` list becomes a real deck in the save file, `p1.profile`. The format and codec are in
+`port/tools.py` (`GameProfile`); never edit a save by hand. Both routes below read the list the
+same way `deck_check.py` does, so check the deck first.
+
+- **The in-game name holds at most 15 characters.** The game cuts longer names, so pick a short
+  name ("Dragonfire" for Rakdos Dragonfire). The `.md` title can stay long.
+- **A deck can only use cards the save owns.** New installs start with every card at its copy
+  limit. An older save may lack the booster-pack cards.
+
+**Starting deck for every new install.**
+1. Add `("<Name>", "<slug>.txt")` to `STARTING_DECKS` in `port/tools.py`.
+2. Rebuild with `SKIP_GUEST=1 port/build.sh`. The build log prints
+   `p1.profile: deck '<Name>' added from decks/<slug>.txt`.
+
+This only reaches installs that don't have a profile yet. Existing saves are never overwritten.
+
+**Into an existing save** (the emulator, or a rooted phone):
+
+```
+python3 .claude/skills/m15-deck-builder/scripts/install_deck.py decks/<slug>.txt --name "<Name>" --adb
+python3 .claude/skills/m15-deck-builder/scripts/install_deck.py decks/<slug>.txt --name "<Name>" --save p1.profile --out p1.new.profile
+```
+
+- `--adb` force-stops the game, edits the live save, and keeps the old one on the device as
+  `p1.profile.before-<Name>`.
+- `--replace` updates a deck that already has that name.
+- `--unlock` raises any card the save owns too few copies of to its copy limit. Without it, the
+  script stops and lists them.
+- Commands that talk to adb need the sandbox disabled.
+- A non-rooted phone can't be edited this way. It gets decks through a new install.
+
+After installing, ask the user to open the deck in the game and confirm it before going further.
+If a save is ever corrupted, the game silently replaces it with a new, empty profile. A blank
+collection or a reset player name means the edit went wrong, so restore the backup.
 
 ## Balancing lands to the mana costs
 

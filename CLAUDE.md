@@ -94,6 +94,9 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 
   The live save is `files/p1.profile` in the plugin data folder. Force-stop the game before
   editing it, keep a backup, and decode it again with a strict parser before pushing it.
+  - Edit saves through `GameProfile` in `tools.py`. The deck-builder skill's
+    `scripts/install_deck.py` uses it to put a `decks/*.txt` list into a save (`--adb` for the
+    emulator).
 - **Change game logic in `libDuels.so`, not the OBB.** The UI logic is compiled Lua 5.1 (`.lol`)
   inside the OBB, and every entry is RSA-signed, so it cannot be edited. Its string constants are
   readable, and the `Obb` class in `build/cards/extract_cards.py` decrypts any entry. The Lua calls
