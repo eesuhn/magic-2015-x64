@@ -16,6 +16,8 @@
 
 - New installs start with the player named "Planewalker" and the equipped deck named "Started"
   instead of the repack's "user" and "Колода". Existing saves are not changed.
+- New installs start with every card at its copy limit, including the 34 cards that came only
+  from booster packs, and with the Dragonfire deck (`decks/rakdos-dragonfire.txt`).
 
 ## v1.0.0 (2026-10-04)
 

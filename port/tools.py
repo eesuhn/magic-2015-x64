@@ -8,7 +8,7 @@
       The game APK as ZettaBridge runs it: the original (targetSdk 17, which the guest linker
       relies on), its v1 signature removed, with every lib/armeabi-v7a/*.so from LIB_DIR replacing
       or joining the original libraries, classes.dex patched (see patch_dex) and the starting
-      profile renamed (see PROFILE_PATCHES).
+      profile renamed, fully unlocked and given STARTING_DECKS (see patch_profile).
 
   tools.py inject APK OUT_APK ARCNAME=FILE ...
       Copies APK and adds each FILE uncompressed at ARCNAME, streamed (the OBB is 1.5 GB). Does
@@ -28,6 +28,8 @@ import re
 import shutil
 import sys
 import zipfile
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Thumb code in libDuels.so, whose file offsets equal its addresses. Each patch is (file offset,
 # original bytes, replacement, what it does).
@@ -99,33 +101,148 @@ def patch_dex(data):
 
 
 # The repack's unlock snapshot, assets/opera-fan (a zip), carries the starting profile,
-# files/p1.profile, which BundledGame.seedUnlocks installs only when the game has none yet. The
-# profile is RollingXOR'ed (plain[i] = c[i] ^ c[i-1], first byte as is); its names are wchar_t
-# (UTF-32LE) in fixed 16-character slots. Each patch is (offset in the decoded profile, original
-# name, new name, what it is).
-PROFILE_SLOT = 64
+# files/p1.profile, which BundledGame.seedUnlocks installs only when the game has none yet.
+# patch_profile renames it (PROFILE_PATCHES), gives it every card at its copy limit and adds
+# STARTING_DECKS. Layout, from libDuels.so (BZ::Player::PD_*, CSaveGameManager, UserOptions):
+# - The whole file is WrappingXOR'ed (see wx_back). After the u32 size come the player block
+#   (0x1464 bytes), the save block (0x2c78: player name at 0x1694, decks at 0x16d4) and a tail.
+# - Names are wchar_t (UTF-32LE) in 16-character slots; the game keeps at most 15 characters.
+# - Decks: 32 slots of 0x120 bytes: name, 100 u16 (uid << 3 | count), basic lands as 5 x 4 bytes
+#   (count per land type, then art variant), icon byte (0xff = empty slot).
+# - Profile settings 0x18-0x1a are 0x400-byte chunks in the player block, each followed by its used
+#   length. Their used parts, joined and padded to 0xbb8 bytes, are WrappingXOR'ed again:
+#   [u32 used][u32 len][entry]..., the second entry being the UserOptions profile block, whose
+#   collection at +0x4f holds a nibble per card uid: copies (0-7), bit 3 a flag. Editing the
+#   chunks as one run corrupts their lengths, and the game then discards the whole profile.
+# Each name patch is (offset in the decoded file, original name, new name, what it is).
 PROFILE_PATCHES = [
     (0x1694, "user", "Planewalker", "player name"),
     (0x16D4, "\u041a\u043e\u043b\u043e\u0434\u0430", "Started", "equipped deck name"),  # "Koloda"
 ]
+# (deck name, list in decks/): added to the first free deck slot.
+STARTING_DECKS = [("Dragonfire", "rakdos-dragonfire.txt")]
+CARD_CATALOG = os.path.join(ROOT, "build", "cards", "cards.canonical.json")
+PROFILE_NAME_SLOT = 0x40
+PROFILE_CHUNKS = [(0x85C, 0xC5C), (0xC60, 0x1060), (0x1064, 0x1464)]  # (data, u32 used length)
+PROFILE_INNER_LEN = 0xBB8
+PROFILE_DECKS = 0x16D4
+BASIC_LANDS = {"Plains": 0, "Island": 1, "Swamp": 2, "Mountain": 3, "Forest": 4}
+
+
+def wx_back(buf):
+    """Obfuscation::WrappingXOR_Backwards."""
+    out = bytearray(buf)
+    for i in range(len(buf) - 1, 0, -1):
+        out[i] = buf[i] ^ buf[i - 1]
+    out[0] = buf[0] ^ out[-1]
+    return out
+
+
+def wx_fwd(buf):
+    """Obfuscation::WrappingXOR_Forward."""
+    out = bytearray(buf)
+    out[0] = buf[0] ^ buf[-1]
+    for i in range(1, len(buf)):
+        out[i] = buf[i] ^ out[i - 1]
+    return out
+
+
+def profile_name(plain, offset):
+    return bytes(plain[offset:offset + PROFILE_NAME_SLOT]).decode("utf-32-le").rstrip("\0")
+
+
+def put_profile_name(plain, offset, name):
+    if len(name) > 15:
+        sys.exit("p1.profile: %r is longer than 15 characters" % name)
+    plain[offset:offset + PROFILE_NAME_SLOT] = name.encode("utf-32-le").ljust(PROFILE_NAME_SLOT, b"\0")
+
+
+def load_cards():
+    """uid -> card from the extracted catalog (build/cards/extract_cards.py)."""
+    import json
+    catalog = json.load(open(CARD_CATALOG, encoding="utf-8"))
+    return {e["uid"]: catalog["cards"][e["card"]]
+            for pool in catalog["card_pools"].values() for e in pool["cards"]}
+
+
+def read_deck_list(name):
+    """decks/<name> as ([(uid, count)], [count per basic land type])."""
+    by_name = {card["name"]: uid for uid, card in load_cards().items()}
+    cards, lands = [], [0] * 5
+    for line in open(os.path.join(ROOT, "decks", name), encoding="utf-8"):
+        m = re.match(r"(\d+) (.+)", line.strip())
+        if not m:
+            continue
+        count, card = int(m.group(1)), m.group(2)
+        if card in BASIC_LANDS:
+            lands[BASIC_LANDS[card]] += count
+        elif card in by_name:
+            cards.append((by_name[card], count))
+        else:
+            sys.exit("decks/%s: unknown card %r" % (name, card))
+    if len(cards) > 100 or any(n > 7 for _, n in cards) or any(n > 255 for n in lands):
+        sys.exit("decks/%s: does not fit a deck slot" % name)
+    return cards, lands
 
 
 def patch_profile(data):
-    plain = bytearray(data[:1]) + bytearray(data[i] ^ data[i - 1] for i in range(1, len(data)))
+    outer = wx_back(data)
+    # Player name and the existing deck's name.
     for offset, old, new, what in PROFILE_PATCHES:
-        if len(new) >= PROFILE_SLOT // 4:
-            sys.exit("p1.profile: %s %r is longer than %d characters" % (what, new, PROFILE_SLOT // 4 - 1))
-        at = bytes(plain[offset:offset + PROFILE_SLOT]).decode("utf-32-le").rstrip("\0")
+        at = profile_name(outer, offset)
         if at == new:
             continue
         if at != old:
             sys.exit("p1.profile: unexpected %s %r at 0x%x (not the v1.4.4959 androeed build?)" % (what, at, offset))
-        plain[offset:offset + PROFILE_SLOT] = new.encode("utf-32-le").ljust(PROFILE_SLOT, b"\0")
+        put_profile_name(outer, offset, new)
         print("p1.profile: %s set to %r" % (what, new))
-    out = bytearray(plain[:1])
-    for i in range(1, len(plain)):
-        out.append(plain[i] ^ out[i - 1])
-    return bytes(out)
+
+    # Every card at its copy limit.
+    lengths = [struct.unpack_from("<I", outer, at)[0] for _, at in PROFILE_CHUNKS]
+    if any(n > 0x400 for n in lengths) or sum(lengths) > PROFILE_INNER_LEN:
+        sys.exit("p1.profile: unexpected chunk lengths %s" % lengths)
+    cipher = b"".join(bytes(outer[d:d + n]) for (d, _), n in zip(PROFILE_CHUNKS, lengths))
+    inner = wx_back(cipher.ljust(PROFILE_INNER_LEN, b"\0"))
+    first = struct.unpack_from("<I", inner, 4)[0]
+    block = 8 + ((first + 3) & ~3) + 4
+    if struct.unpack_from("<I", inner, 0)[0] != sum(lengths) or struct.unpack_from("<I", inner, block - 4)[0] != 0x470:
+        sys.exit("p1.profile: unexpected profile block layout")
+    collection = block + 0x4F
+    raised = 0
+    for uid, card in load_cards().items():
+        at = collection + uid // 2
+        shift = 0 if uid % 2 == 0 else 4
+        nibble = (inner[at] >> shift) & 0xF
+        if nibble & 7 < card["max_copies"]:
+            inner[at] = (inner[at] & ~(0xF << shift) & 0xFF) | (((nibble & 8) | card["max_copies"]) << shift)
+            raised += 1
+    if raised:
+        cipher = wx_fwd(inner)
+        pos = 0
+        for (d, _), n in zip(PROFILE_CHUNKS, lengths):
+            outer[d:d + n] = cipher[pos:pos + n]
+            pos += n
+        print("p1.profile: %d cards raised to their copy limit" % raised)
+
+    # Starting decks.
+    slots = [PROFILE_DECKS + i * 0x120 for i in range(32)]
+    names = [profile_name(outer, at) for at in slots if outer[at + 0x11C] != 0xFF]
+    for name, list_file in STARTING_DECKS:
+        if name in names:
+            continue
+        free = next((at for at in slots if outer[at + 0x11C] == 0xFF), None)
+        if free is None:
+            sys.exit("p1.profile: no free deck slot for %r" % name)
+        cards, lands = read_deck_list(list_file)
+        slot = bytearray(0x120)
+        put_profile_name(slot, 0, name)
+        struct.pack_into("<100H", slot, 0x40, *([uid << 3 | n for uid, n in cards] + [0] * (100 - len(cards))))
+        for land, n in enumerate(lands):
+            slot[0x108 + land * 4] = n
+        slot[0x11C] = 0  # icon, as the repack's deck
+        outer[free:free + 0x120] = slot
+        print("p1.profile: deck %r added from decks/%s" % (name, list_file))
+    return bytes(wx_fwd(outer))
 
 
 def patch_unlock_snapshot(data):
