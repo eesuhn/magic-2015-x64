@@ -50,7 +50,13 @@ echo "== 1/6 silent libOpenSLES.so (arm32)"
 echo "== 2/6 game APK for the bundle"
 unzip -p "$GAME_APK" lib/armeabi-v7a/libDuels.so > "$OUT/libDuels.orig.so"
 python3 "$HERE/tools.py" patch-libduels "$OUT/libDuels.orig.so" "$OUT/lib/libDuels.so"
-python3 "$HERE/tools.py" game-apk "$GAME_APK" "$OUT/game.apk" "$OUT/lib"
+# Java classes that replace the game's own (port/overrides/), compiled against android.jar.
+rm -rf "$OUT/overrides" && mkdir -p "$OUT/overrides/classes"
+javac -source 8 -target 8 -Xlint:-options -bootclasspath "$SDK/platforms/android-35/android.jar" \
+    -d "$OUT/overrides/classes" $(find "$HERE/overrides" -name '*.java')
+"$BT/d8" --release --min-api 26 --lib "$SDK/platforms/android-35/android.jar" \
+    --output "$OUT/overrides" $(find "$OUT/overrides/classes" -name '*.class')
+python3 "$HERE/tools.py" game-apk "$GAME_APK" "$OUT/game.apk" "$OUT/lib" "$OUT/overrides/classes.dex"
 
 echo "== 3/6 ZettaBridge native code"
 cd "$ZB"

@@ -1,5 +1,18 @@
 # Changelog
 
+## Unreleased
+
+### Multiplayer
+
+- Joining an ad-hoc match never completed: the host stayed on "Waiting" and the joiner gave up
+  after about 20 seconds. The game registers each player under its own Bluetooth address and
+  matches every message by its sender's address, but since Android 6 apps read their own address
+  as `02:00:00:00:00:00`, so no message ever matched. `port/overrides/` replaces the game's
+  `BluetoothConnection`: each phone uses a stable ID of its own, and the phones swap IDs when
+  they connect. The same class now reads messages whole (RFCOMM splits them at about 1 KB) and
+  clears the host's session between attempts. Both phones need this build. Tested between two
+  emulators, up to a running duel.
+
 ## v1.1.0 (2026-10-05)
 
 Multiplayer works, and new installs start with every card and a ready-made deck. Source only, like

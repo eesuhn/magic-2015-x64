@@ -4,10 +4,11 @@
   tools.py patch-libduels SRC DST
       Applies LIBDUELS_PATCHES: the EGL config fallback fix and the multiplayer unlock.
 
-  tools.py game-apk ORIG_APK OUT_APK LIB_DIR
+  tools.py game-apk ORIG_APK OUT_APK LIB_DIR [OVERRIDES_DEX]
       The game APK as ZettaBridge runs it: the original (targetSdk 17, which the guest linker
       relies on), its v1 signature removed, with every lib/armeabi-v7a/*.so from LIB_DIR replacing
-      or joining the original libraries, classes.dex patched (see patch_dex) and the starting
+      or joining the original libraries, OVERRIDES_DEX (port/overrides/, built by build.sh) as
+      classes.dex in front of the game's own dex, classes.dex patched (see patch_dex) and the starting
       profile renamed, fully unlocked and given STARTING_DECKS (see patch_profile).
 
   tools.py inject APK OUT_APK ARCNAME=FILE ...
@@ -334,15 +335,31 @@ def copy_entry(zi, zo, info, data=None):
         zo.writestr(out, data)
 
 
-def game_apk(orig, out, lib_dir):
+def game_apk(orig, out, lib_dir, overrides_dex=None):
     libs = {"lib/armeabi-v7a/" + name: os.path.join(lib_dir, name)
             for name in sorted(os.listdir(lib_dir)) if name.endswith(".so")}
     with zipfile.ZipFile(orig) as zi, zipfile.ZipFile(out, "w") as zo:
+        if overrides_dex:
+            # ART searches an APK's dex files in order and takes the first definition of a class,
+            # so the port's replacement classes (port/overrides/) go first and the game's own dex
+            # becomes classes2.dex.
+            info = zipfile.ZipInfo("classes.dex", (2015, 4, 16, 0, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.external_attr = 0o644 << 16
+            zo.writestr(info, open(overrides_dex, "rb").read())
         for info in zi.infolist():
             if SIGNATURE_FILE.match(info.filename) or info.filename in libs:
                 continue
             if info.filename == "classes.dex":
-                copy_entry(zi, zo, info, patch_dex(zi.read(info)))
+                dex = patch_dex(zi.read(info))
+                if overrides_dex:
+                    if "classes2.dex" in zi.namelist():
+                        sys.exit("game APK already has classes2.dex; cannot place the overrides in front")
+                    renamed = zipfile.ZipInfo("classes2.dex", info.date_time)
+                    renamed.compress_type = info.compress_type
+                    renamed.external_attr = info.external_attr
+                    info = renamed
+                copy_entry(zi, zo, info, dex)
                 continue
             if info.filename == "assets/opera-fan":
                 copy_entry(zi, zo, info, patch_unlock_snapshot(zi.read(info)))

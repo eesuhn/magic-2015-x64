@@ -110,9 +110,25 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
   it also gated the expansion content in the deck builder and collection.
 - **Ad-hoc multiplayer is classic Bluetooth in Java** (`BluetoothConnection`,
   `BluetoothDeviceSelect`). The host manifest declares the Bluetooth permissions, and
-  `BundleActivity` asks for "Nearby devices" once per install, before the game starts. The game
-  sends its own Bluetooth address to its network code, but since Android 6 apps get
-  `02:00:00:00:00:00` instead of the real one. A match between two phones has not been tested yet.
+  `BundleActivity` asks for "Nearby devices" once per install, before the game starts.
+  - The native layer (`AndroidBluetooth_*` in `libDuels.so`) keys players by the address
+    `GetLocalBluetoothMACAddress` returns and matches each bundle's sender against it. Apps read
+    their own address as `02:00:00:00:00:00`, so `port/overrides/` replaces `BluetoothConnection`.
+    Each device gets an ID derived from ANDROID_ID, and the first frame on each connection is a
+    `ZBID` hello that swaps the IDs. Both phones need this build.
+  - Frames are `[u32 big-endian length][bytes]`. A payload starting `FF FE FD FC` is the host's
+    session descriptor (`mBznetstruct`).
+  - The join flow: the host taps Create Match, then Make discoverable. The joiner taps Custom
+    Match (the eye card), then picks the host in `BluetoothDeviceSelect`, a full-screen black
+    list by the game's own design. Scanning takes about 15 seconds. The first connection asks
+    both phones to pair.
+  - Test it with two emulators: create a second AVD from the same image and start it with
+    `-port 5556`. netsim links their Bluetooth.
+- **Java overrides.** Classes under `port/overrides/` are compiled against `android.jar` and
+  converted with `d8` by `build.sh`. `tools.py game-apk` makes them `classes.dex` and moves the
+  game's own dex to `classes2.dex`. ART takes the first definition of a class, and the overrides
+  load in the plugin's own class loader, so the game's package-private access still works.
+  Keep every public signature of a replaced class identical.
 - **Back handling.** The game handles Back only in `onKeyDown`/`onKeyUp`; its `onBackPressed` is empty.
   - Predictive back is off (`enableOnBackInvokedCallback=false`).
   - `GuestBackKeys` stretches a synthesized gesture Back to 100 ms, because the game samples the button once per frame.
