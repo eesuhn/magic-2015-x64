@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="CRYPT_RIPPER_374880" />
+  <CARDNAME text="CRYPT_RIPPER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crypt Ripper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éventreur de la crypte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desgarrador de la cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gruftreißer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Squartatore della Cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓（ぼ）所（しょ）の切（き）り裂（さ）き魔（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지하묘지 도륙자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Потрошитель из Склепа]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Despedaçador de Cripta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[墓穴夺魂妖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[墓穴奪魂妖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374880" />
+  <ARTID value="123574" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The tender light of the living quickens the pulse of the dead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La douce lumière des vivants accélère le pouls des morts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La suave luz de los vivos acelera el pulso de los muertos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das zarte Licht des Lebens erhöht den Puls der Toten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La flebile luce dei viventi accelera le pulsazioni dei morti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生命のか弱い光は、死神の脈動を早める。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산 자의 부드러운 빛은 죽은 자의 맥박이 고동치게 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мягкий свет живых учащает пульс мертвых.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A luz tênue dos vivos acelera a pulsação dos mortos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[生者的温暖光芒加快了亡者的脉搏。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[生者的溫暖光芒加快了亡者的脈搏。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Shade" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HASTE" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY firebreathing="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Crypt Ripper gets +1/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : L’Éventreur de la crypte gagne +1/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: El Desgarrador de la cripta obtiene +1/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Der Gruftreißer erhält +1/+1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Lo Squartatore della Cripta prende +1/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：墓所の切り裂き魔はターン終了時まで＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 지하묘지 도륙자는 턴종료까지 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: Потрошитель из Склепа получает +1/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Despedaçador de Cripta recebe +1/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{B}：墓穴夺魂妖得+1/+1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{B}：墓穴奪魂妖得+1/+1直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{B}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AUTO_SKIP always="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

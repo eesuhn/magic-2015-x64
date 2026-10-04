@@ -1,0 +1,121 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="132">
+  <FILENAME text="SNUFF_OUT_375007" />
+  <CARDNAME text="SNUFF_OUT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Snuff Out]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dégommage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Apagar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Umpusten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spazzare Via]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[殺（ころ）し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소멸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Задуть Жизнь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Liquidar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[除灭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[除滅]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="375007" />
+  <ARTID value="127185" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The bigger they are, the faster they rot.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Plus ils sont gros, plus ils pourrissent vite. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuanto más grandes son, más rápido se pudren”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Je größer sie sind, desto schneller verrotten sie.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Più grandi sono, più in fretta si putrefanno.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「図体がでかいほど、早く腐るものさ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["덩치가 클수록 빨리 썩지."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Чем они больше, тем быстрее гниют».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quão maior eles são, mais rápido apodrecem.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「他们的个头越大，腐烂的速度就越快。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「他們的個子越大，腐爛地越快。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY qualifier="Alternate">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If you control a Swamp, you may pay 4 life rather than pay Snuff Out’s mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si vous contrôlez un marais, vous pouvez payer 4 points de vie à la place du coût de mana du Dégommage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si controlas un pantano, puedes pagar 4 vidas en lugar de pagar el coste de maná de Apagar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls du einen Sumpf kontrollierst, kannst du 4 Lebenspunkte bezahlen, anstatt die Manakosten von Umpusten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se controlli una Palude, puoi pagare 4 punti vita invece di pagare il costo di mana di Spazzare Via.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが沼をコントロールしているなら、あなたは、殺しのマナ・コストを支払うのではなく、４点のライフを支払うことを選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 늪을 조종한다면, 소멸의 마나비용을 지불하는 대신에 생명 4점을 지불할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если под вашим контролем есть Болото, вы можете заплатить 4 жизни вместо уплаты мана-стоимости заклинания Задуть Жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se você controla um pântano, você pode pagar 4 pontos de vida ao invés de pagar o custo de mana de Liquidar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果你操控沼泽，则你可以支付4点生命，而不支付除灭的法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果你操控沼澤，你可以支付4點生命，而不支付除滅的魔法力費用。]]></LOCALISED_TEXT>
+    <ABILITY_TEXT tag="CARD_QUERY_PAY_4_LIFE" />
+    <COST type="Life" amount="4" />
+    <AVAILABILITY>
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    filter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_SWAMP)
+    	
+    return (filter:CountStopAt(1) == 1)
+    </AVAILABILITY>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target nonblack creature. It can’t be regenerated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature non-noire ciblée. Il ne peut pas être régénéré.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo que no sea negra. No puede ser regenerada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine nichtschwarze Kreatur deiner Wahl. Sie kann nicht regeneriert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura non nera bersaglio. Non può essere rigenerata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[黒でないクリーチャー１体を対象とし、それを破壊する。それは再生できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[흑색이 아닌 생물 한 개를 목표로 정한다. 그 생물을 파괴한다. 그 생물은 재생될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое нечерное существо. Оно не может быть регенерировано.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo que não seja preta. Ela não pode ser regenerada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭目标非黑色的生物。它不能重生。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅目標非黑色生物。它不能重生。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_COLOUR, OP_NOT, COLOUR_BLACK)
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:DestroyWithoutRegenerate()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_PAY_4_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[4 Lebenspunkte bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[４点のライフを支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 4점을 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar 4 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付4点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付4點生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die zerstört werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要消灭的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

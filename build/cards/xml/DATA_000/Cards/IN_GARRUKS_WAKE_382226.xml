@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="210">
+  <FILENAME text="IN_GARRUKS_WAKE_382226" />
+  <CARDNAME text="IN_GARRUKS_WAKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In Garruk’s Wake]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dans le sillage de Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tras los pasos de Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf Garruks Pfad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sulla Scia di Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ガラクの目（め）覚（ざ）め]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[개럭의 발자취]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Где Прошел Гаррук]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No Rastro de Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[贾路开道]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[賈路開道]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382226" />
+  <ARTID value="155382" />
+  <ARTIST name="Chase Stone" />
+  <CASTING_COST cost="{7}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Beyond pain, beyond obsession and wild despair, there lies a place of twisted power only the most tormented souls can reach.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au-delà de la souffrance, de l'obsession et du noir désespoir existe un lieu de corruption que seules les âmes les plus tourmentées peuvent atteindre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Más allá del dolor, más allá de la obsesión y de la desesperanza incontrolable, existe un lugar de retorcido poder que solo pueden alcanzar las almas más atormentadas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jenseits des Schmerzes, der Besessenheit und der wildenVerzweiflung existiert ein Ort perverser Macht, den nur die gequältesten Seelen erreichen können.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Oltre il dolore, oltre l’ossessione e la pura disperazione, si trova un luogo dal potere corrotto che solo le anime più tormentate possono raggiungere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[苦痛や執着、そして激しい無念を超越したある場所に、極限まで苛まれた魂のみが到達することができる所があるという。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고통과 강박, 절망을 넘어 오직 소수의 괴로운 영혼만이 도달할 수 있는 뒤틀린 장소가 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[За болью, одержимостью и бездной отчаяния есть место средоточия неописуемой силы, до которого могут добраться лишь самые измученные души.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Além da dor, da obsessão e do desespero selvagem, há um lugar de poder distorcido que só as almas mais atormentadas podem alcançar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[有一处超越痛苦，超越执着与绝望，充满扭曲力量的所在，只有遭受折磨最深的灵魂才能到达。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[有一處超越痛苦，超越執著與絕望，充滿扭曲力量的所在，只有遭受折磨最深的靈魂才能到達。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy all creatures you don’t control and all planeswalkers you don’t control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez toutes les créatures que vous ne contrôlez pas et tous les planeswalkers que vous ne contrôlez pas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye todas las criaturas que no controlas y todos los planeswalkers que no controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre alle Kreaturen, die du nicht kontrollierst, und alle Planeswalker, die du nicht kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi tutte le creature che non controlli e tutti i planeswalker che non controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールしていない、すべてのクリーチャーとすべてのプレインズウォーカーを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하지 않는 모든 생물을 파괴한다. 당신이 조종하지 않는 모든 플레인즈워커를 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте все существа не под вашим контролем и всех planeswalker-ов не под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua todas as criaturas que você não controla e todos os planeswalkers que você não controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭所有不由你操控的生物和鹏洛客。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅所有不由你操控的生物和鵬洛客。]]></LOCALISED_TEXT>
+    <SFX text="IN_GARRUKS_WAKE_LUA_PLAY" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_PLANESWALKER)
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if FilteredCard() ~= nil then   
+    	FilteredCard():Destroy()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="2100" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

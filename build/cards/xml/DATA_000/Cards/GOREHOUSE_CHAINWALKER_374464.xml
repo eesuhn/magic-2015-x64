@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="124">
+  <FILENAME text="GOREHOUSE_CHAINWALKER_374464" />
+  <CARDNAME text="GOREHOUSE_CHAINWALKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gore-House Chainwalker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marcheur de chaînes de la Halle aux viscères]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caminacadenas de Casa Sangrienta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kettentänzer vom Bluthaus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Solcacatene della Casa del Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流（りゅう）血（けつ）の家（いえ）の鎖（くさり）歩（ある）き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[핏덩이 회관의 사슬곡예사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цепеход из Дома Крови]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equilibrista de Corrente do Clube da Sangria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[嗜血屋链行人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[嗜血屋鍊行人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374464" />
+  <ARTID value="145864" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If the pig’s blood drips on you, you’re next on the chain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si le sang du goret vous coule dessus, vous serez le prochain à jouer les équilibristes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si la sangre del cerdo te gotea encima, eres el siguiente en la cadena.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Schweineblut auf dich tropft, bist du der Nächste an der Kette.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se il sangue del maiale gocciola su di te, sei il prossimo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[豚の血がお前にかかったのなら、次はお前ということだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[흘러내리는 돼지의 피가 묻은 자가 다음으로 사슬을 타야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если на вас капнет кровь свиньи, значит вы следующий.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se o sangue do porco respingar em você, você será o próximo na corrente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[若猪血滴到你身上，你就是下一个。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[若豬血滴到你身上，你就是下一個。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unleash]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emportement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desatar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entfesselt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scatenare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[解鎖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[속박해제]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безудержность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Liberar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[脱缰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[脫韁]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:BeginNewMultipleChoice()   
+    effectController:AddMultipleChoiceAnswer( "CARD_QUERY_UNLEASH" )   
+    effectController:AddMultipleChoiceAnswer( "CARD_QUERY_DO_NOT_UNLEASH" )   
+    effectController:AskMultipleChoiceQuestion( "CARD_QUERY_QUESTION_DO_YOU_WANT_TO_UNLEASH", TriggerObject() )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	local answer = EffectController():GetMultipleChoiceResult()
+    	if answer == 0 then
+    		EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    	if EffectSource():CountCounters(MTG():PlusOnePlusOneCounters()) &gt;= 1 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Bool_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_TITLE_UNLEASH" body="MORE_INFO_BODY_UNLEASH" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <QUERYTEXT tag="CARD_QUERY_UNLEASH">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unleash]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Emportement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desatar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entfesselt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scatenare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[解鎖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[속박해제]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безудержность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Liberar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[脱缰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[脫韁]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_DO_NOT_UNLEASH">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not put a +1/+1 counter on the creature. It will be able to block later.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne mettez pas de marqueur +1/+1 sur la créature. Elle pourra bloquer plus tard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No poner un contador +1/+1 sobre la criatura. Tendrá la posibilidad de bloquear más tarde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Keine +1/+1-Marke auf die Kreatur legen. Sie wird später blocken können.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non mettere un segnalino +1/+1 sulla creatura. Sarà in grado di bloccare in seguito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[そのクリーチャーの上に+1/+1カウンターを１個置かない。今後それでブロックできます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그 생물에 +1/+1 카운터 한 개를 올려놓지 않습니다. 나중에 방어할 수 있습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не класть один жетон +1/+1 на существо. Позже оно сможет блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não coloque um marcador +1/+1 na criatura. Ela poderá bloquear depois.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不在这个生物上放置一个+1/+1指示物。该生物稍后可进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不在這個生物上放置一個+1/+1指示物。該生物稍後可進行阻擋。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_QUESTION_DO_YOU_WANT_TO_UNLEASH">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do you want to unleash this creature? It will enter the battlefield with a +1/+1 counter on it but won’t be able to block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous que cette créature utilise l'emportement ? Elle arrivera sur le champ de bataille avec un marqueur +1/+1 sur elle, mais ne pourra pas bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres desatar esta criatura? Entrará al campo de batalla con un contador +1/+1 sobre ella pero no podrá bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diese Kreatur entfesseln? Sie kommt mit einer +1/+1-Marke ins Spiel, kann aber nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi scatenare questa creatura? Entrerà nel campo di battaglia con un segnalino +1/+1 ma non potrà bloccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このクリーチャーを解鎖しますか？それは＋１/＋１カウンターが１個置かれた状態で戦場に出ますが、それではブロックできません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 생물을 속박해제 하시겠습니까? 속박해제된 생물은 +1/+1 카운터 한 개를 가지고 전장에 들어오며 방어할 수 없습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите использовать Безудержность у этого существа? Оно выйдет на поле битвы с жетоном +1/+1, но не сможет блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja liberar esta criatura? Ela entrará no campo de batalha com um marcador +1/+1, mas não poderá bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要让此生物脱缰吗？它进战场时上面会有一个+1/+1指示物，但不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要讓此生物脫韁嗎？它進戰場時上面將有一個+1/+1指示物，但無法進行阻擋。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

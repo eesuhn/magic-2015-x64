@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="MAGMA_RIFT_380312" />
+  <CARDNAME text="MAGMA_RIFT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magma Rift]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Faille magmatique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grieta de magma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Magmagraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fenditura di Magma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マグマの裂（さ）け目（め）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마그마 균열]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заполненный Магмой Разлом]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fenda de Magma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[岩浆裂口]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[岩漿裂口]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380312" />
+  <ARTID value="123593" />
+  <ARTIST name="Jung Park" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Lighting a fire needs kindling and heat. You be the kindling. I’ll bring the heat.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pour allumer un feu, il faut de la chaleur et du petit bois. Vous servirez de petit bois. Je m'occuperai de la chaleur. »
+—Chandra Nalaàr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Encender un fuego necesita leña y calor. Tú serás la leña. Yo traeré el calor”.
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Zum Entzünden eines Feuers braucht man Späne und Hitze. Du bist die Späne. Ich spendiere die Hitze.“
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Per accendere un fuoco ci vogliono sterpaglia e calore. Tu sarai la sterpaglia. Io procurerò il calore.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「物が燃えるのには燃料と熱がいるんだ。あんたが燃料になりなよ。熱はあたしがやるから。」
+――チャンドラ・ナラー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["불을 붙이려면 불쏘시개와 불씨가 필요하지. 네가 바로 불쏘시개야. 내가 불씨고."
+—찬드라 날라르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Чтобы разжечь костер, нужен огонь и что-нибудь на растопку. Я добуду огонь. Ты пойдешь на растопку».
+— Чандра Налаар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Para acender um fogo são necessários gravetos e calor. Os gravetos serão você. Eu cuido do calor.”
+— Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「闪电是需要火种与热源的火焰。你来当火种。我来当热源。」
+～茜卓纳拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「閃電是需要火種與熱源的火焰。你來當火種。我來當熱源。」～茜卓納拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY qualifier="Additional">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Magma Rift, sacrifice a land.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour jouer la Faille magmatique, sacrifiez un terrain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para lanzar la Grieta de magma, sacrifica una tierra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere ein Land als zusätzliche Kosten, um den Magmagraben zu wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per lanciare la Fenditura di Magma, sacrifica una terra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マグマの裂け目を唱えるための追加コストとして、土地を１つ生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마그마 균열을 발동하기 위한 추가비용으로, 대지 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В качестве дополнительной стоимости разыгрывания Заполненного Магмой Разлома пожертвуйте землю.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como custo adicional para conjurar Fenda de Magma, sacrifique um terreno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牺牲一个地，以作为施放岩浆裂口的额外费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[犧牲一個生物，以作為施放岩漿裂口的額外費用。]]></LOCALISED_TEXT>
+    <COST type="Sacrifice" definition="0" compartment="1" query_tag="CARD_QUERY_CHOOSE_LAND_TO_SACRIFICE" item_count="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    </COST_DEFINITION>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Magma Rift deals 5 damage to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Faille magmatique inflige 5 blessures à la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Grieta de magma hace 5 puntos de daño a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Magmagraben fügt einer Kreatur deiner Wahl 5 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Fenditura di Magma infligge 5 danni a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。マグマの裂け目はそれに５点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 마그마 균열은 그 생물에 피해 5점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заполненный Магмой Разлом наносит 5 повреждений целевому существу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fenda de Magma causa 5 pontos de dano à criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[岩浆裂口对目标生物造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[岩漿裂口對目標生物造成5點傷害。]]></LOCALISED_TEXT>
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_5_DAMAGE" definition="0" compartment="0" count="1" />
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 5, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 5, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げる土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 대지 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_5_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to deal 5 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui infliger 5 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para hacerle 5 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, der 5 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura a cui infliggere 5 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[５点のダメージを与えるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 5점을 입힐 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которому нужно нанести 5 повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para causar 5 pontos de dano a ela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以对其造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來對其造成5點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

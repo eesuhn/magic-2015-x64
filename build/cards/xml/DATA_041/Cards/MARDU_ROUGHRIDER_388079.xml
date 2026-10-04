@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="MARDU_ROUGHRIDER_388079" />
+  <CARDNAME text="MARDU_ROUGHRIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mardu Roughrider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dresseur marduen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jinete audaz mardu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mardu-Raureiter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Domatore Mardu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルドゥの荒（あら）くれ乗（の）り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거친 마르두 기수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Объездчик Марду]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro Valente Mardu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玛尔都驯骑师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[瑪爾都馴騎師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388079" />
+  <ARTID value="156526" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{R}{W}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The most ferocious saddlebrutes lead the assault, ramming through massed pikes and stout barricades as if they were paper and silk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les brutes hussardes les plus féroces mènent l'assaut, détruisant les forêts de piques et enfonçant les barricades comme du papier de soie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los más feroces jinetes brutales lideran el asalto, derribando las picas y las firmes barricadas como si fueran de papel y seda.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die hitzigsten Sattelrohlinge reiten dem Angriff voraus und rammen sich durch Spieße und Barrikaden, als wären sie aus Papier und Seide.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I più feroci cavalieri bestiali conducono l’assalto, sfondando folle di picchieri e solide barricate come se fossero carta e seta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[もっとも獰猛な鞍暴れが攻勢を先導し、彼らは密集した長槍や頑丈なバリケードを紙か絹を引き裂くかのように突き破りながら進撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가장 흉포한 덩치기수는 빽빽한 장창과 튼튼한 장애물들을 마치 종이와 비단을 찢듯이 돌파하며 공격을 이끈다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Атаку ведут самые яростные всадники-громилы, которые проламываются через вздыбленные пики и прочные укрепления, словно через бумагу и шелка.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os mais ferozes cavaleiros lideram o ataque, atropelando linhas de lanças e barricadas reforçadas como se fossem feitas de papel e seda.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[最威猛的巨兽骑士引领进攻，冲破无数长矛和坚固路障，就好像它们是纸糊丝制的。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[最威猛的巨獸騎士引領進攻，衝破無數長矛和堅固路障，就好像它們是紙糊絲制的。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Orc" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Mardu Roughrider attacks, target creature can’t block this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Dresseur marduen attaque, la créature ciblée ne peut pas bloquer ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Jinete audaz mardu ataque, la criatura objetivo no puede bloquear este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Mardu-Raureiter angreift, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Domatore Mardu attacca, una creatura bersaglio non può bloccare in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルドゥの荒くれ乗りが攻撃するたび、クリーチャー１体を対象とする。このターン、それではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거친 마르두 기수가 공격할 때마다, 생물을 목표로 정한다. 그 생물은 이 턴에 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Объездчик Марду атакует, целевое существо не может блокировать в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Cavaleiro Valente Mardu ataca, a criatura alvo não pode bloquear neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当玛尔都驯骑师攻击时，目标生物本回合不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當瑪爾都馴騎師攻擊時，目標生物本回合不能進行阻擋。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="8">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature. That creature can’t block this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature. Cette créature ne peut pas bloquer ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura. Esa criatura no puede bloquear este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur. Diese Kreatur kann in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura. Quella creatura non può bloccare in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体選んでください。このターン、そのクリーチャーではブロックできません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 고른다. 그 생물은 이 턴에 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо. То существо не может блокировать в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura. Aquela criatura não pode bloquear neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物。该生物本回合不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物。該生物本回合不能進行阻擋。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

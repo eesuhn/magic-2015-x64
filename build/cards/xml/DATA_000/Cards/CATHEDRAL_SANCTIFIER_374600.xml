@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="CATHEDRAL_SANCTIFIER_374600" />
+  <CARDNAME text="CATHEDRAL_SANCTIFIER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cathedral Sanctifier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanctificatrice de la cathédrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Santificadora de la catedral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heiligmacherin der Kathedrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Consacratrice della Cattedrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大（だい）聖（せい）堂（どう）の聖（せい）別（べつ）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대성당의 성역술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Соборный Освятитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Santificador da Catedral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[大教堂祝圣僧]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[大教堂祝聖僧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374600" />
+  <ARTID value="141677" />
+  <ARTIST name="Michael C. Hayes" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Evil will soon be vanquished. What Innistrad most needs now is healing.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le mal sera bientôt éradiqué. Pour l'heure, Innistrad a surtout besoin de se rétablir. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El mal no tardará en ser derrotado. Lo que más necesita Innistrad ahora es sanarse”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Böse wird bald vernichtet sein. Jetzt muss Innistrad vor allem heilen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Presto il male verrà estirpato. Adesso, Innistrad ha bisogno di cure più di ogni altra cosa.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「悪はほどなく征伐されるでしょう。イニストラードに今もっとも必要なのは癒しです。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“악은 곧 사라질 것이다. 이제 이니스트라드에 제일 필요한 것은 치유다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Зло скоро будет изгнано. Исцеление, вот что теперь нужнее всего Иннистраду».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Em breve o mal será derrotado. O que Innistrad mais precisa agora é de ser curada.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「邪恶即将溃败。现在依尼翠最需要疗愈。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「邪惡即將潰敗。現在依尼翠最需要療癒。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Cleric" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Cathedral Sanctifier enters the battlefield, you gain 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Sanctificatrice de la cathédrale arrive sur le champ de bataille, vous gagnez 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Santificadora de la catedral entre al campo de batalla, ganas 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Heiligmacherin der Kathedrale ins Spiel kommt, erhältst du 3 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Consacratrice della Cattedrale entra nel campo di battaglia, guadagni 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大聖堂の聖別者が戦場に出たとき、あなたは３点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대성당의 성역술사가 전장에 들어올 때, 당신은 생명 3점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Соборный Освятитель выходит на поле битвы, вы получаете 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Santificador da Catedral entra no campo de batalha, você ganha 3 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当大教堂祝圣僧进战场时，你获得3点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當大教堂祝聖僧進戰場時，你獲得3點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(3 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

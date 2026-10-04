@@ -1,0 +1,134 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="97">
+  <FILENAME text="TRAUMATIC_VISIONS_382136" />
+  <CARDNAME text="TRAUMATIC_VISIONS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Traumatic Visions]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Visions traumatisantes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Visiones traumáticas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Traumatische Visionen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Visioni Traumatiche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[衝（しょう）撃（げき）的（てき）な幻（げん）視（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[트라우마의 환상]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Травмирующие Видения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Visões Traumáticas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[创伤幻象]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[創傷幻象]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382136" />
+  <ARTID value="118107" />
+  <ARTIST name="Cyril Van Der Haegen" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contrarresta el hechizo objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Zauberspruch deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文１つを対象とし、それを打ち消す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 목표로 정한다. 그 주문을 무효화한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отмените целевое заклинание.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anule a mágica alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反击目标咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反擊目標咒語。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_STACK ) 
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:CounterSpell(EffectSource())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <ACTIVATED_ABILITY active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Basic landcycling {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Recyclage de terrain de base {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ciclo de tierra básica {1}{U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Standardlandumwandlung {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cicloterra base {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[基本土地サイクリング{1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기본 대지순환 {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цикл базовых земель {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reciclar terreno básico {1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[循环基本地{1}{U}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[循環基本地{1}{U}]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{U}" type="Mana" />
+    <COST type="DiscardSelf" />
+    <PLAY_TIME_ACTION>
+    MTG():FireTrigger( TRIGGER_CYCLED, EffectSource() )
+    </PLAY_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local filter = ClearFilter()
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    filter:SetZone( ZONE_LIBRARY, effectController)
+    effectController:ChooseItem( "CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:GuidedReveal( target:GetZone(), ZONE_HAND )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_MANAFIX_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <DECKBUILDING_METADATA defensive="0.5" />
+  <HELP title="MORE_INFO_TITLE_CYCLING" body="MORE_INFO_BODY_CYCLING" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a spell to counter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un sort à contrecarrer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un hechizo para contrarrestar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Zauberspruch, der neutralisiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una magia da neutralizzare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[打ち消す呪文を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무효화할 주문 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите заклинание для отмены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma mágica para anular.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要反击的咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個咒語來反擊。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to put into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le mettre dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para poner en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das du auf deine Hand nimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da aggiungere alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの手札に戻す土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손으로 가져갈 대지 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю, которую нужно положить в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para colocar na sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要置于你手上的地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地置入你的手牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COUNTER_WHY_PLAY" removal_tag="HINT_SPELL_COUNTER_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

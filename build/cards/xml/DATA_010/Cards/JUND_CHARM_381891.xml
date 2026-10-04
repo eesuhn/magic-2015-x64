@@ -1,0 +1,134 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="111">
+  <FILENAME text="JUND_CHARM_381891" />
+  <CARDNAME text="JUND_CHARM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jund Charm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Charme de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Amuleto jundiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Amulett aus Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Monile di Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドの魔（ま）除（よ）け]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드 부적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Талисман Джанда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Medalhão de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得护符]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得護符]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381891" />
+  <ARTID value="114908" />
+  <ARTIST name="Brandon Kitkouski" />
+  <CASTING_COST cost="{B}{R}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jund pulses with raw energy, waiting for shamans to shape it into useful form.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jund vibre d'énergie brute qui attend que les shamanes lui donnent une forme utilisable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jund late con energía vital, esperando que los chamanes le den una forma útil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jund pulsiert vor roher Energie, die nur darauf wartet, von Schamanen in nützliche Form gebracht zu werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Jund pulsa di energia grezza, in attesa che gli sciamani la modellino in una forma utile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドの素の魔力の波動は、シャーマンに有効な形に作られることを待ち望んでいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드는 주술사들이 활용할 수 있는 원초적인 에너지로 충만한 곳이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джанд пульсирует сырой энергией в ожидании, что шаманы облекут ее в полезную форму.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jund pulsa com energia crua, aguardando que os xamãs a moldem em formas úteis.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得的脉动充满原始能量，等着祭师来将它塑造成有用的型式。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得的脈動充滿原始能量，等著祭師來將它塑造成有用的型式。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose one — Exile all cards from target player’s graveyard; or Jund Charm deals 2 damage to each creature; or put two +1/+1 counters on target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez l’un — Exilez toutes les cartes du cimetière du joueur ciblé ; ou le Charme de Jund inflige 2 blessures à chaque créature ; ou mettez deux marqueurs +1/+1 sur une créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige uno: Exilia todas las cartas del cementerio del jugador objetivo; o el Amuleto jundiano hace 2 puntos de daño a cada criatura; o pon dos contadores +1/+1 sobre la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eines — Schicke alle Karten aus dem Friedhof eines Spielers deiner Wahl ins Exil; oder das Amulett aus Jund fügt jeder Kreatur 2 Schadenspunkte zu; oder lege zwei +1/+1-Marken auf eine Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli uno — Esilia tutte le carte dal cimitero di un giocatore bersaglio; oppure il Monile di Jund infligge 2 danni a ogni creatura; oppure metti due segnalini +1/+1 su una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[以下の３つから１つを選ぶ。「プレイヤー１人を対象とし、そのプレイヤーの墓地にあるすべてのカードを追放する。」「ジャンドの魔除けは各クリーチャーに、それぞれ２点のダメージを与える。」「クリーチャー１体を対象とし、それの上に＋１/＋１カウンターを２個置く。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하나를 선택한다 — 플레이어 한 명을 목표로 정한다. 그 플레이어의 무덤에 있는 모든 카드를 추방한다; 또는 준드 부적은 각 생물에게 피해 2점을 입힌다; 또는 생물 한 개를 목표로 정한다. 그 생물에 +1/+1 카운터 두 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите одно — изгоните все карты из кладбища целевого игрока; или Талисман Джанда наносит 2 повреждения каждому существу; или положите два жетона +1/+1 на целевое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um — Exile todos os cards do cemitério do jogador alvo; ou Medalhão de Jund causa 2 pontos de dano a cada criatura; ou coloque dois marcadores +1/+1 na criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一项～放逐目标牌手坟墓场中的所有牌；或勇得护符对每个生物各造成2点伤害；或在目标生物上放置两个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一項～從目標玩家的墳墓場放逐所有牌；或勇得護符對每個生物各造成2點傷害；或在目標生物上放置兩個+1/+1指示物。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+    <MODE_SELECT tag="MODE_CHOOSE_ONE">
+      <MODE tag="MODE_JUND_GRAVEYARD" index="1" />
+      <MODE tag="MODE_JUND_PYROCLASM" index="2" />
+      <MODE tag="MODE_JUND_COUNTERS" index="3" />
+    </MODE_SELECT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_TO_EXILE_GRAVEYARD" definition="0" compartment="0" mode="1" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION mode="1">
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	target:MoveLocalZone( ZONE_GRAVEYARD, ZONE_EXILE )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION mode="2" filter_id="0">
+    if (FilteredPlayer() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 2, FilteredPlayer() )
+    elseif (FilteredCard() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 2, FilteredCard() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_2_PLUS1_PLUS1_COUNTERS" definition="1" compartment="2" mode="3" count="1" />
+    <TARGET_DEFINITION id="1">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION mode="3">
+    local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    if target ~= nil then
+    	target:AddCounters( MTG():PlusOnePlusOneCounters(), 2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <AI_SIMPLIFIED_TARGETING compartment="2" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TO_EXILE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player’s graveyard to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez le cimetière d'un joueur à exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige el cementerio de un jugador para exiliarlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme den Friedhof eines Spielers, aus dem alle Karten ins Exil geschickt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli il cimitero di un giocatore da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓地を追放するプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤을 추방할 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите кладбище игрока для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha o cemitério de um jogador para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以将其坟墓场放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家的墳墓場來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_2_PLUS1_PLUS1_COUNTERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get two +1/+1 counters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner deux marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga dos contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die zwei +1/+1-Marken erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che ottiene due segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを２つ置くクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터 두 개를 받을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит два жетона +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber dois marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要得两个+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來得到兩個+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

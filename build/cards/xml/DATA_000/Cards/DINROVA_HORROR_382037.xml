@@ -1,0 +1,134 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="570">
+  <FILENAME text="DINROVA_HORROR_382037" />
+  <CARDNAME text="DINROVA_HORROR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dinrova Horror]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Horreur de Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Horror de Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dinrova-Schrecken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orrore di Dinrova ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ディンローヴァの恐（きょう）怖（ふ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[딘로바의 괴수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ужас Динровы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Horror de Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[汀洛瓦惊惧兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[汀洛瓦驚懼獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382037" />
+  <ARTID value="146368" />
+  <ARTIST name="Johann Bodin" />
+  <CASTING_COST cost="{4}{U}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Welcome to the Dimir Public Offices. Not responsible for death or loss of property. Basement off-limits.”
+—Sign outside Dinrova Building]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Bienvenue au Syndicat d'initiative de Dimir. Nous dégageons toute responsabilité en cas de décès ou de vol. Sous-sol interdit au public. »
+—Écriteau à l'extérieur de l'Immeuble Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Bienvenido a las oficinas públicas dimir. No nos responsabilizamos de la muerte ni de la pérdida de sus propiedades. Se prohíbe la entrada al sótano”.
+—Señal en el exterior del edificio Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Willkommen in den öffentlichen Gebäuden der Dimir. Für Todesfälle oder den Verlust von Eigentum wird keine Verantwortung übernommen. Zutritt zu den Kellerräumen verboten.“
+—Schild am Dinrova-Gebäude]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Benvenuti agli Uffici Pubblici Dimir. Non siamo responsabili per morti o perdite materiali. Proibito accedere ai sotterranei.”
+—Cartello all’entrata dell’Edificio di Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ディミーア官公庁へようこそ。死亡や盗難の責任は負いかねます。地下は立入禁止です。」
+――ディンローヴァの建物外の告知]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["디미르 길드 사무소에 오신 것을 환영합니다. 죽거나 귀중품을 분실해도 책임지지 않습니다. 지하실은 출입금지입니다."
+—딘로바 건물 밖의 공고]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Добро пожаловать в представительство гильдии Димиров. Администрация не несет ответственности за вашу смерть или пропажу ценных вещей. Вход в подвальные помещения запрещен».
+— Вывеска на здании Динровы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Bem-vindo aos Escritórios Públicos Dimir. Não nos responsabilizamos por morte nem perda de propriedades. O acesso ao porão é proibido.”
+— Aviso externo do Edifício Dinrova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「欢迎来到底密尔公共部门。死亡或财物损失概不负责。地下室禁止进入。」
+～汀洛瓦建筑物外的告示]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「歡迎來到底密爾公共部門。死亡或財物損失概不負責。地下室禁止進入。」
+～汀洛瓦建築物外的告示]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Horror" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Dinrova Horror enters the battlefield, return target permanent to its owner’s hand, then that player discards a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Horreur de Dinrova arrive sur le champ de bataille, renvoyez le permanent ciblé dans la main de son propriétaire, puis ce joueur se défausse d’une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Horror de Dinrova entre al campo de batalla, regresa el permanente objetivo a la mano de su propietario, luego ese jugador descarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Dinrova-Schrecken ins Spiel kommt, bringe eine bleibende Karte deiner Wahl auf die Hand ihres Besitzers zurück, dann wirft dieser Spieler eine Karte ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Orrore di Dinrova entra nel campo di battaglia, fai tornare un permanente bersaglio in mano al suo proprietario, poi quel giocatore scarta una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ディンローヴァの恐怖が戦場に出たとき、パーマネント１つを対象とし、それをオーナーの手札に戻す。その後、そのプレイヤーはカードを１枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[딘로바의 괴수가 전장에 들어올 때, 지속물 한 개를 목표로 정한다. 그 지속물을 소유자의 손으로 되돌린 다음 그 플레이어는 카드 한 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Ужас Динровы выходит на поле битвы, верните целевой перманент в руку его владельца, затем тот игрок сбрасывает карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Horror de Dinrova entrar no campo de batalha, devolva a permanente alvo para a mão de seu dono. Depois, aquele jogador descarta um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当汀洛瓦惊惧兽进战场时，将目标永久物移回其拥有者手上，然后该牌手弃一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當汀洛瓦驚懼獸進戰場時，將目標永久物移回其擁有者手上，然後該玩家棄一張牌。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_INTO_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_IS_PERMANENT, true )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then 
+    	local controller = target:GetOwner()
+    	EffectDC():Set_PlayerPtr(1, controller)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_PlayerPtr(1)
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_HAND, player )
+    player:SetItemCount( 1 )
+    for i = 0,(1-1) do
+    	player:SetItemPrompt (i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+    end
+    player:ChooseItems( EffectDC():Make_Targets(2) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_PlayerPtr(1)
+    if player ~= nil then 
+    	local target_card = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    	if target_card ~= nil  then
+    		target_card:Discard()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_WURMCOIL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a permanent to put into it’s owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un permanent pour le mettre dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un permanente para poner en la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine bleibende Karte, die auf die Hand ihres Besitzers gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un permanente da mettere in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すパーマネントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 지속물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите перманент, который нужно положить в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma permanente para colocar na mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个永久物，以将其置入其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個永久物置入其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_DISCARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to discard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour vous en défausser.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine der Karten auf deiner Hand, die du abwerfen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da scartare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[捨てるカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[버릴 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для сброса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要弃掉的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來棄掉。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

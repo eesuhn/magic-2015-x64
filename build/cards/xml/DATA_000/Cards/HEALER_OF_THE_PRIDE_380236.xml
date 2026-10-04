@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="HEALER_OF_THE_PRIDE_380236" />
+  <CARDNAME text="HEALER_OF_THE_PRIDE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Healer of the Pride]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guérisseuse de la bande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sanadora de la manada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heiler des Rudels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guaritrice del Branco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[群（む）れの癒（いや）し手（て）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사자무리 치유사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целительница Прайда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Curandeiro do Bando]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[狮群治疗师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[獅群治療師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380236" />
+  <ARTID value="143913" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“No life is without meaning. No living thing is too small to be strong.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Toute forme de vie a un sens. Tout être vivant, si petit soit-il, a la force. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ninguna vida carece de sentido. Nada que esté vivo es tan pequeño como para que no pueda ser fuerte”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Kein Leben ist bedeutungslos. Kein lebendes Wesen ist zu klein, um stark zu sein.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Nessuna vita è priva di significato. Nessun essere vivente è troppo piccolo per essere grande.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「意味のない命などありません。小さすぎるからといって強くなれない生き物もいません。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이 세상에 의미 없는 삶이란 없으며, 살아 있는 것은 그 크기가 아무리 보잘것없어도 얼마든지 강할 수 있다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Всякая жизнь имеет смысл. И всякий живущий, как мал бы он ни был, может быть сильным».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nenhuma vida é insignificante. Nenhuma criatura viva é pequena demais para ser forte.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这世界不存在没有意义的生命。再渺小的生命也可以很强大。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這世界不存在沒有意義的生命。再渺小的生命也可以很強大。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Cleric" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature enters the battlefield under your control, you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature arrive sur le champ de bataille sous votre contrôle, vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura entre al campo de batalla bajo tu control, ganas 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, erhältst du 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura entra nel campo di battaglia sotto il tuo controllo, guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーが１体あなたのコントロール下で戦場に出るたび、あなたは２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물이 당신의 조종하에 전장에 들어올 때마다, 당신은 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо выходит на поле битвы под вашим контролем, вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura entra no campo de batalha sob o seu controle, você ganha 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个生物在你的操控下进战场时，你获得2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個生物在你的操控下進戰場時，你獲得2點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(2 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

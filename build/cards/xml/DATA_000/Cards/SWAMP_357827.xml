@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="207">
+  <FILENAME text="SWAMP_357827" />
+  <CARDNAME text="SWAMP" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Swamp]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pantano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sumpf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Palude]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[沼（ぬま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Болото]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pântano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[沼泽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沼澤]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="357827" />
+  <ARTID value="80953" />
+  <ARTIST name="Jim Nelson" />
+  <CASTING_COST cost="" />
+  <SUPERTYPE metaname="Basic" />
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Swamp" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="L" />
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

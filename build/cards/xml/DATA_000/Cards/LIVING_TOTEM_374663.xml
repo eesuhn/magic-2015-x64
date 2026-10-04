@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="124">
+  <FILENAME text="LIVING_TOTEM_374663" />
+  <CARDNAME text="LIVING_TOTEM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Living Totem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Totem vivant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tótem viviente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebendes Totem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Totem Vivente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生（い）きているトーテム像（ぞう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아 있는 토템]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Живой Тотем]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Totem Vivo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[生体图腾]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[生體圖騰]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374663" />
+  <ARTID value="156427" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{3}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <UTILITY_ABILITY qualifier="Convoke">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Convoke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Convocation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Convocar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einberufen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Convocazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[집합]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Созыв]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Convocar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[召集]]></LOCALISED_TEXT>
+  </UTILITY_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Living Totem enters the battlefield, you may put a +1/+1 counter on another target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Totem vivant arrive sur le champ de bataille, vous pouvez mettre un marqueur +1/+1 sur une autre créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Tótem viviente entre al campo de batalla, puedes poner un contador +1/+1 sobre otra criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Lebende Totem ins Spiel kommt, kannst du eine +1/+1-Marke auf eine andere Kreatur deiner Wahl legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Totem Vivente entra nel campo di battaglia, puoi mettere un segnalino +1/+1 su un’altra creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生きているトーテム像が戦場に出たとき、他のクリーチャー１体を対象とする。あなたはそれの上に＋１/＋１カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아 있는 토템이 전장에 들어올 때, 당신은 다른 생물 한 개를 목표로 정한다. 당신은 그 생물에 +1/+1 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Живой Тотем выходит на поле битвы, вы можете положить один жетон +1/+1 на другое целевое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Totem Vivo entra no campo de batalha, você pode colocar um marcador +1/+1 em outra criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当生体图腾进战场时，你可以在另一个目标生物上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當生體圖騰進戰場時，你可以在另一個目標生物上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_PLUS1_PLUS1_COUNTER" definition="0" compartment="0" count="1" />
+    <MAY />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_CONVOKE" body="MORE_INFO_BODY_CONVOKE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_LEAVES_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_PLUS1_PLUS1_COUNTER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get a +1/+1 counter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner un marqueur +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga un contador +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die eine +1/+1-Marke erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che ottiene un segnalino +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを置くクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터 한 개를 얻을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber um marcador +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要得+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得一個+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

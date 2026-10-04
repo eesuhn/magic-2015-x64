@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="LIGHTNING_STRIKE_380908" />
+  <CARDNAME text="LIGHTNING_STRIKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lightning Strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frappe foudroyante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Descarga de rayos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blitzeinschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Colpo di Fulmine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[稲（いな）妻（ずま）の一（いち）撃（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[번개 강타]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удар Грома]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpe Relampejante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[闪电炼击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[閃電煉擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380908" />
+  <ARTID value="150851" />
+  <ARTIST name="Adam Paquette" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[To wield lightning is to tame chaos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Manipuler la foudre, c'est apprivoiser le chaos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Blandir el rayo es domar el caos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blitze zu schleudern bedeutet, das Chaos zu zähmen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Controllare il fulmine significa domare il caos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[稲妻を操るということは、混沌を制御することを意味する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[번개를 다루려면 혼돈을 길들여야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повелевающий молниями обуздал хаос.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Manipular um raio é domar o caos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[召使闪电就如同驾驭混乱。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[召使閃電就如同駕馭混亂。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lightning Strike deals 3 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Frappe foudroyante inflige 3 blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Descarga de rayos hace 3 puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Blitzeinschlag fügt einer Kreatur oder einem Spieler deiner Wahl 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Colpo di Fulmine infligge 3 danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。稲妻の一撃はそれに３点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 번개 강타는 그 목표에 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удар Грома наносит 3 повреждения целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpe Relampejante causa 3 pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[闪电炼击对目标生物或牌手造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[閃電煉擊對目標生物或玩家造成3點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE" definition="0" compartment="0" count="1" />
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 3, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 3, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 3 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 3 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 3 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 3 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 3 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[３点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 3점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 3 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 3 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成3點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

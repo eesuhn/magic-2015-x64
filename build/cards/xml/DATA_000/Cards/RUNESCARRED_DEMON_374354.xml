@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1052">
+  <FILENAME text="RUNESCARRED_DEMON_374354" />
+  <CARDNAME text="RUNESCARRED_DEMON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rune-Scarred Demon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Démon scarifié de runes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demonio marcado con runas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Runenvernarbter Dämon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Demone delle Rune]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーン傷（きず）の悪（あく）魔（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬문신 악마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изрезанный Рунами Демон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demônio das Cicatrizes Rúnicas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[符痕恶魔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[符痕惡魔]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374354" />
+  <ARTID value="134094" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{5}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The litany of the infernal on his flesh pulses to the beating of his dark heart.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La litanie de l'infernal qui orne sa chair scintille selon les pulsations de son cœur noir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La letanía de los infernales sobre su carne late al ritmo de su oscuro corazón.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Höllenlitanei auf seiner Haut pulsiert im Schlag seines dunklen Herzens.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La litania dell’infernale sulla sua pelle pulsa col battito del suo cuore oscuro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その身体に刻まれた冥府の連祷は、その暗き心臓の刻みに合わせて脈打つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그의 살갗에 새겨진 지옥의 문양은 그의 심장 박동에 맞춰 고동친다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Адская литания, покрывающая его тело, пульсирует в такт биению его темного сердца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A litania do infernal em sua carne pulsa com o bater de seu coração sombrio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他身上的地狱祷文随其黑暗之心脉动着。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他身上的地獄禱文隨其黑暗之心脈動著。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Rune-Scarred Demon enters the battlefield, search your library for a card, put it into your hand, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Démon scarifié de runes arrive sur le champ de bataille, cherchez dans votre bibliothèque une carte, mettez-la dans votre main et mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Demonio marcado con runas entre al campo de batalla, busca en tu biblioteca una carta, ponla en tu mano y luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Runenvernarbte Dämon ins Spiel kommt, durchsuche deine Bibliothek nach einer Karte, nimm sie auf deine Hand und mische dann deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Demone delle Rune entra nel campo di battaglia, passa in rassegna il tuo grimorio per una carta, aggiungila alla tua mano, poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーン傷の悪魔が戦場に出たとき、あなたのライブラリーからカードを１枚探してあなたの手札に加え、その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬문신 악마가 전장에 들어올 때, 당신의 서고에서 원하는 카드 한 장을 찾아 당신의 손으로 가져간 후 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Изрезанный Рунами Демон выходит на поле битвы, найдите в вашей библиотеке карту, положите ее в вашу руку, затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Demônio das Cicatrizes Rúnicas entrar no campo de batalha, procure um card em seu grimório, coloque-o na sua mão e depois embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当符痕恶魔进战场时，从你的牌库中搜寻一张牌并置于你手上，然后将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當符痕惡魔進戰場時，從你的牌庫中搜尋一張牌並置於你手上，然後將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount( 1 )
+    for i = 0, (1-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_CHOOSE_CARD_FROM_LIBRARY" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_FROM_LIBRARY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card from your library to put into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature de votre bibliothèque pour la mettre dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta de tu biblioteca para ponerla en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte aus deiner Bibliothek, die du auf deine Hand nimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta nel tuo grimorio da aggiungere alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーからあなたの手札に加えるカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[서고에서 손으로 가져갈 카드를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту из библиотеки, которую нужно положить в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card do seu grimório para colocar em sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从你的牌库中选择一张要置于手上的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從你的牌庫中選擇一張牌置入你手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

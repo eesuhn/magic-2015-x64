@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="128">
+  <FILENAME text="WARPATH_GHOUL_374811" />
+  <CARDNAME text="WARPATH_GHOUL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Warpath Ghoul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goule sur le sentier de la guerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Necrófago senda de guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kriegspfad-Ghul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ghoul sul Sentiero di Guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[出（しゅっ）征（せい）路（ろ）のグール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[출정 악귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Упырь на Тропе Войны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carniçal da Via Bélica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[征途食尸鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[征途食屍鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374811" />
+  <ARTID value="101036" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ghouls are often found skulking on the fringes of great battles, showing themselves only to snatch the wounded and weak, dragging their victims screaming into the shadows.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les goules rôdent souvent aux alentours des grands champs de bataille, apparaissant uniquement pour s'emparer des blessés et des mourants, traînant leurs victimes hurlantes vers les ombres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los necrófagos normalmente se encuentran acechando en grandes batallas, mostrándose solo para arrastrar hacia las sombras a los heridos y débiles gritando.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ghule halten sich oft an den Rändern großer Schlachten auf, wo sie sich nur zeigen, um sich die Schwachen und Verwundeten zu schnappen und in die Schatten zu ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I ghoul vengono spesso trovati ad appostarsi ai margini delle grandi battaglie, mostrandosi solo per ghermire i deboli e i feriti e trascinare nell’ombra le loro vittime urlanti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グールはしばしば大きな戦場の縁で蠢き、傷ついた弱者を捕まえては、犠牲者の叫びを影の中へと引きずり込んでいく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[큰 전투가 일어난 곳에는 종종 악귀들이 나타나 부상병과 힘이 빠진 병사들을 끌고 어둠속으로 사라진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Упыри часто прячутся на периферии великих сражений, показываясь лишь для того, чтобы схватить раненого или ослабевшего воина и утянуть испускающую крики жертву в темноту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os carniçais geralmente são encontrados rondando nas proximidades de grandes batalhas, e só são vistos quando atacam os fracos e feridos, arrastando suas vítimas aos gritos para as sombras.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[食尸鬼经常出没在大战场的边境，只向伤者与弱者下手，将惨叫着的受害者拖入阴影。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[食屍鬼經常出沒在大戰場的邊境，只向傷者與弱者下手，將慘叫著的受害者拖入陰影。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

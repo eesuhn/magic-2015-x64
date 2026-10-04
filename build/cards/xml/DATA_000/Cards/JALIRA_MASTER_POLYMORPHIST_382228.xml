@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="578">
+  <FILENAME text="JALIRA_MASTER_POLYMORPHIST_382228" />
+  <CARDNAME text="JALIRA_MASTER_POLYMORPHIST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jalira, Master Polymorphist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jalira, maîtresse polymorphiste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jalira, maestra de la transmutación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jalira, Meisterpolymorphistin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Jalira, Maestra Polimorfista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[変（へん）身（しん）術（じゅつ）の達（たつ）人（じん）、ジャリラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변환술의 대가 잘리라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джалира, Мастер Изменений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jalira, Polimorfista-mestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[变型宗师贾丽拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[變型宗師賈麗拉]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382228" />
+  <ARTID value="155282" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You can become anything if I just put my mind to it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous pouvez devenir ce que vous voulez si j'y mets un peu du mien. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Puedes convertirte en cualquier cosa con solo concentrarme en ello”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du kannst alles werden, wenn ich es nur will.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Con impegno e costanza, potrai diventare qualunque cosa io desideri.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私がその気になりさえすれば、お前は何にだってなれるさ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["내가 생각만 하면 넌 뭐로든 변할 수 있어."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ты можешь стать чем угодно, если я приложу к этому старания».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você pode se tornar qualquer coisa se eu realmente quiser.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我用心的话，能把你变成任何东西。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我用心的話，能把你變成任何東西。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{U}, {T}, Sacrifice another creature: Reveal cards from the top of your library until you reveal a nonlegendary creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{U}, {T}, sacrifiez une autre créature : Révélez les cartes du dessus de votre bibliothèque jusqu’à ce que vous révéliez une carte de créature non-légendaire. Mettez cette carte sur le champ de bataille et le reste au-dessous de votre bibliothèque dans un ordre aléatoire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{U}, {T}, sacrificar otra criatura: Muestra las primeras cartas de tu biblioteca hasta que muestres una carta de criatura que no sea legendaria. Pon esa carta en el campo de batalla y el resto en el fondo de tu biblioteca en un orden aleatorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{U}, {T}, opfere eine andere Kreatur: Decke Karten oben von deiner Bibliothek auf, bis du eine nichtlegendäre Kreaturenkarte aufdeckst. Bringe diese Karte ins Spiel und lege den Rest in zufälliger Reihenfolge unter deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{U}, {T}, Sacrifica un’altra creatura: Rivela carte dalla cima del tuo grimorio finché non riveli una carta creatura non leggendaria. Metti quella carta sul campo di battaglia e il resto in fondo al tuo grimorio in ordine casuale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{U}, {T}, 他のクリーチャーを１体生け贄に捧げる：あなたのライブラリーの一番上から、伝説でないクリーチャー・カードが公開されるまでカードを公開する。そのカードを戦場に出し、残りをあなたのライブラリーの一番下に無作為の順番で置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{U}, {T}, 다른 생물 한 개를 희생한다: 전설이 아닌 생물 카드가 공개될 때까지 당신의 서고 맨 위의 카드를 공개한다. 그 카드를 전장에 놓고 나머지 카드들은 당신의 서고 맨 밑에 무작위로 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{U}, {T}, пожертвуйте другое существо: показывайте карты с верха вашей библиотеки до тех пор, пока вы не покажете карту существа, не являющегося легендарным. Положите ту карту на поле битвы, а остальные — в низ вашей библиотеки в случайном порядке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{U}, {T}, Sacrifique outra criatura: Revele cards do topo do seu grimório até revelar um card de criatura não lendária. Coloque aquele card no campo de batalha e o restante no fundo de seu grimório em ordem aleatória.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{U}，{T}，牺牲另一个生物：从你的牌库顶开始展示牌，直到展示出一张非传奇的生物牌为止。将该牌放进战场，并将其余的牌以随机顺序置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{U}，{T}，犠牲另一個生物：從你的牌庫頂開始展示牌，直到展示出一張非傳奇的生物牌為止。將該牌放進戰場，並將其餘的牌以隨機順序置於你的牌庫底。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{U}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="Sacrifice" definition="0" compartment="1" query_tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" item_count="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource())
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </COST_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local controller = EffectController()
+    local revealDC = EffectDC():Make_Chest(1)
+    if controller ~= nil then
+    	local maxReveal = controller:Library_Count()
+    	for i = 0, (maxReveal-1) do
+    		local card = controller:Library_GetNth(i)
+    		if card ~= nil then
+    			revealDC:Set_CardPtr(i, card) 
+    			if card:GetCardType():Test(CARD_TYPE_CREATURE) and (card:GetSuperType():Test(SUPERTYPE_LEGENDARY) == false) then
+    				card:PutOntoBattlefield(controller)
+    				break
+    			end
+    		end
+    	end
+    	for j = 0, (MTG():GetNumberOfPlayers()) do
+    		local player = MTG():GetNthPlayer(j)
+    		if player ~= nil then
+    			player:RevealDCToMe(EffectDC():Get_Chest(1))
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local remainingDC = EffectDC():Get_Chest(1)
+    if remainingDC ~= nil then
+    	local numCards = remainingDC:Count()
+    	for i=0,numCards-1 do
+    		local card = remainingDC:Remove_RandomCardPtr()
+    		if card ~= nil then
+    			card:PutOnBottomOfLibrary()
+    		else
+    			break
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_WEIRD_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="CHAPEL_GEIST_374541" />
+  <CARDNAME text="CHAPEL_GEIST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chapel Geist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Geist de chapelle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Geist de la capilla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kapellengeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Geist della Cappella]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[礼（れい）拝（はい）堂（どう）の霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[예배당 심령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Привидение Часовни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Geist da Capela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[礼拜堂游魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[禮拜堂遊魂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374541" />
+  <ARTID value="138324" />
+  <ARTIST name="Peter Mohrbacher" />
+  <CASTING_COST cost="{1}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Death has bound it with chains of past regrets. Forever it searches for atonement, each kindness removing a single link.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La mort l'emprisonne dans les chaînes des regrets de son passé. Il passe l'éternité à essayer de se racheter, chaque acte de bonté détachant un maillon.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La muerte lo ha atado con cadenas de errores pasados. Busca expiarse, quitando un eslabón con cada buena acción.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Bedauern des Vergangenen sind die Ketten, mit dem der Tod ihn gefesselt hat. Jetzt sucht er nach Vergebung; jede gute Tat entfernt ein einzelnes Kettenglied.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La morte lo ha legato con catene dei rimpianti passati. Per sempre cercherà l’espiazione, con ogni gentilezza che elimina un vincolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死はそれを後悔の鎖で縛る。それは永遠に贖罪を求め続け、善行一つが鎖の輪を一つ取り除く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그가 죽자 과거의 후회가 사슬이 되어 그를 속박했다. 그는 속죄할 길을 찾아 영원을 헤맨다. 선행을 베풀 때마다 쇠사슬이 하나씩 사라진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смерть одела на него оковы раскаяния. Он бродит в вечном поиске прощения, и каждое проявление доброты уничтожает одно звено его цепей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A morte o amarrou com correntes de arrependimentos do passado. Em sua eterna busca pela expiação, cada gesto de gentileza remove um elo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[死亡让它被过往悔恨重重链住。它永远寻求着赎罪机会，每个善念都会移除一条束缚。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[死亡讓它被過往悔恨重重鍊住。它永遠尋求著贖罪機會，每個善念都會移除一條束縛。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="GHOST_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

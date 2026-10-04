@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1042">
+  <FILENAME text="ELDER_OF_LAURELS_380211" />
+  <CARDNAME text="ELDER_OF_LAURELS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elder of Laurels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Doyen aux lauriers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anciano de los laureles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lorbeer-Ältester]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anziano degli Allori]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[月（げっ）桂（けい）樹（じゅ）の古（こ）老（ろう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[월계수 장로]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Старейшина с Лаврами]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ancião dos Louros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[月桂长者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[月桂長者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380211" />
+  <ARTID value="138502" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hopes and prayers can carry the same force as swords and torches.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les espoirs et les prières peuvent avoir la même force que les épées et les torches.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La esperanza y las oraciones pueden ser tan fuertes como espadas y antorchas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hoffnung und Gebete können genauso mächtig sein wie Schwerter und Fackeln.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le speranze e le preghiere possono avere la stessa forza di torce e spade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[希望や祈りは、剣や松明と同じ力を持つことができる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희망과 기도는 칼과 횃불만큼의 위력을 발휘할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Надежды и молитвы могут быть так же сильны, как мечи и факелы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esperanças e orações podem ser tão fortes quanto espadas e tochas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[希望与祷文承载的力量如同长剑与火炬。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[希望與禱文承載的力量如同長劍與火炬。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Advisor" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{3}{G}: Target creature gets +X/+X until end of turn, where X is the number of creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{3}{G} : La créature ciblée gagne +X/+X jusqu’à la fin du tour, X étant le nombre de créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{3}{G}: La criatura objetivo obtiene +X/+X hasta el final del turno, donde X es la cantidad de criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{3}{G}: Eine Kreatur deiner Wahl erhält +X/+X bis zum Ende des Zuges, wobei X gleich der Anzahl an Kreaturen ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{3}{G}: Una creatura bersaglio prende +X/+X fino alla fine del turno, dove X è il numero di creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{3}{G}：クリーチャー１体を対象とする。それはターン終了時まで＋Ｘ/＋Ｘの修整を受ける。Ｘはあなたがコントロールするクリーチャーの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{3}{G}: 생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +X/+X를 받는다. X는 당신이 조종하는 생물의 개수다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{3}{G}: целевое существо получает +X/+X до конца хода, где Х — количество существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{3}{G}: A criatura alvo recebe +X/+X até o final do turno, sendo X igual ao número de criaturas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{3}{G}：目标生物得+X/+X直到回合结束，X为由你操控的生物数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{3}{G}：目標生物得+X/+X直到回合結束，X為由你操控的生物數量。]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}{G}" type="Mana" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_X_X" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local number = filter:Count()
+    EffectDC():Set_Int(1, number) 
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local number = EffectDC():Get_Int(1)
+    if target ~= nil and number ~= 0 then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( number )
+    	characteristics:Toughness_Add( number )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{3}{G}" base_score="600" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <SFX text="COMBAT_LEAVES_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_X_X">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +X/+X erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋Ｘ/＋Ｘの修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+X/+X를 받을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要得+X/+X的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+X/+X。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

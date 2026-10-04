@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="DUTIFUL_THRULL_380200" />
+  <CARDNAME text="DUTIFUL_THRULL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dutiful Thrull]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Srâne obéissant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Thrull obediente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pflichtbewusster Thrull]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thrull Obbediente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[従（じゅう）順（じゅん）なスラル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[순종적인 스럴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покорный Трулл]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Thrull Obediente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[尽忠索尔兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[盡忠索爾獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380200" />
+  <ARTID value="146246" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“They are useful, but there’s little satisfaction in supplication that throws itself under your heel.”
+—Jozica, Orzhov enforcer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ils sont utiles, certes, mais quel plaisir y a-t-il à voir un suppliant se jeter de lui-même sous votre talon ? »
+—Jozica, argousin d'Orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Son útiles, pero no resulta tan gratificante cuando las súplicas se lanzan ellas solas bajo tu bota”.
+—Jozica, coaccionador orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sie sind nützlich, aber das Auspeitschen macht wenig Spaß, wenn jemand um Schläge bettelt.“
+—Jozica, Orzhov-Vollstrecker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sono utili, ma trovo poca soddisfazione nei supplicanti che si buttano volontariamente sotto i tuoi piedi.”
+—Jozica, tutore Orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「役には立つが、自分の足元にその身を投げ出して嘆願してくる様を見ても、それほど満足できんな。」――オルゾフの処罰者、ジョージカ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["쓸만한 놈들이긴 하지만 너무 쉽게 엎드려 경배하는 건 썩 만족스럽지 않아."
+—오르조브 집행자 조지카]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Они, конечно, полезны — но что за радость повелевать слугами, которые сами рады, когда о них вытирают ноги».
+— Джозика, блюститель Орзовов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eles são úteis, mas há pouca satisfação na súplica que se atira sob os seus pés.”
+— Jozica, impositor Orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「他们有用，但主动匍匐脚下的哀求不会带来多少满足感。」
+～欧佐夫执法者裘积卡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「他們有用，但主動匍匐腳下的哀求不會帶來多少滿足感。」
+～歐佐夫執法者裘積卡]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Thrull" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Regenerate Dutiful Thrull.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : Régénérez le Srâne obéissant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: Regenera el Thrull obediente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Regeneriere den Pflichtbewussten Thrull.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Rigenera il Thrull Obbediente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：従順なスラルを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 순종적인 스럴을 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: регенерируйте Покорного Трулла.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Regenere Thrull Obediente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{B}：重生尽忠索尔兽。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{B}：重生盡忠索爾獸。]]></LOCALISED_TEXT>
+    <COST mana_cost="{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+    <AI_MODIFIERS combat_immunity="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_REGENERATE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

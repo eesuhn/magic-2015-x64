@@ -1,0 +1,252 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="141">
+  <FILENAME text="SEA_GODS_REVENGE_377495" />
+  <CARDNAME text="SEA_GODS_REVENGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sea God’s Revenge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Revanche de la déesse de la Mer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Venganza de la diosa del mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rache der Meeresgöttin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vendetta della Dea del Mare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[海（かい）神（じん）の復（ふく）讐（しゅう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[바다신의 복수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Месть Морской Богини]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vingança da Deusa do Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[海神的复仇]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[海神的復仇]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377495" />
+  <ARTID value="150860" />
+  <ARTIST name="Eric Velhagen" />
+  <CASTING_COST cost="{5}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“What has neither mouth nor throat, yet swallows captain, crew, and boat?”
+—Sphinx’s riddle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Qu'est-ce qui, sans gueule ni gosier, engloutit néanmoins capitaine, équipage et navire ? »
+—Énigme du sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“De boca carece y masticar no sabe, pero engulle al capitán, a la tripulación y a la nave”.
+—Acertijo de la Esfinge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Was hat weder Maul noch Zähne und verschlingt doch ganze Kähne?“
+—Rätsel der Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Cosa non ha bocca né gola, ma ingoia capitano, equipaggio e nave?”
+—Indovinello della Sfinge ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「口も喉も無いのに、船長や船員ごと船を飲み込めるものとは何ぞ？」
+――スフィンクスのなぞなぞ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이것은 입도 없고 목구멍도 없다. 하지만 선장과 선원, 배를 통째로 삼킨다. 이것은 무엇인가?"
+—스핑크스의 수수께끼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Нету ни горла, ни рта, ни зубов, но проглотит корабль и всех моряков».
+— загадка сфинкса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O que é que, sem boca e sem goela, engole capitão, tripulação e navio com mastro e vela?”
+— Enigma da esfinge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「什么东西没嘴没喉，却能连人带船一口吞下？」
+～史芬斯的谜语]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「什麼東西沒嘴沒喉，卻能連人帶船一口吞下？」
+～史芬斯的謎語]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return up to three target creatures your opponents control to their owners’ hands. Scry 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez jusqu’à trois créatures ciblées que vos adversaires contrôlent dans les mains de leurs propriétaires. Regard 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa hasta tres criaturas objetivo que controlan tus oponentes a las manos de sus propietarios. Adivina 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe bis zu drei Kreaturen deiner Wahl, die deine Gegner kontrollieren, auf die Hand ihrer Besitzer zurück. Hellsicht 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare fino a tre creature bersaglio controllate dai tuoi avversari in mano ai rispettivi proprietari. Profetizza 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手がコントロールするクリーチャーを最大３体まで対象とし、それらをオーナーの手札に戻す。占術１を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 상대들이 조종하는 생물을 최대 세 개까지 목표로 정한다. 그 생물들을 소유자의 손으로 되돌린다. 점술 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните не более трех целевых существ под контролем ваших оппонентов в руки их владельцев. Предскажите 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva até três criaturas alvo que seus oponentes controlam para as mãos de seus donos. Vidência 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将至多三个目标由对手操控的生物分别移回其拥有者手上。占卜1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將至多三個目標由對手操控的生物分別移回其擁有者手上。占卜1。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_STORM_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND" definition="0" compartment="0" count="3" up_to="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(3-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil  then
+    		target_card:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local rep_count = MTG():GetActionRepCount()
+    if rep_count == 0 then
+    	-------------------------------
+    	-- 1) ASK FIRST SCRY QUESTION
+    	-------------------------------
+    	local scry_value = 1
+    	-- Fill InputDC with top N cards of library
+    	local cards_found = 0
+    	local scryDC = EffectDC():Make_Chest(1)
+    	local scryInputDC = scryDC:Make_Chest(0)
+    	for i=0,scry_value-1 do
+    		local card = EffectController():Library_GetNth(i)
+    			
+    		if card ~= nil then
+    			scryInputDC:Set_CardPtr(cards_found, card)
+    				
+    			cards_found = cards_found + 1
+    		end
+    	end
+    	
+    	if cards_found == 0 then
+    		-- No cards in library, end
+    		return false
+    	end
+    	
+    	-- If scrying a single card, multiple choice it
+    	if scry_value == 1 or cards_found == 1 then
+    		local effectController = EffectController()
+    		if effectController ~= nil then
+    			effectController:BeginNewMultipleChoice()
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_TOP" )
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_BOTTOM", TRANSITION_BOTTOM_OF_LIBRARY )
+    			effectController:AskMultipleChoiceQuestion( "CARD_QUERY_SCRY_ONE_QUESTION", EffectController():Library_GetTop() )
+    		end
+    		return true
+    	end
+    	local scryTopDC = scryDC:Make_Chest(1)
+    	
+    	-- If scrying more than 1 card, we need a browser
+    	if cards_found &gt; 1 then
+    		-- Ask query
+    		EffectController():SetItemCount( cards_found )
+    			
+    		for i=0,cards_found-1 do
+    			EffectController():SetItemPrompt( i, "CARD_QUERY_SCRY_TOP" )
+    		end
+    			
+    		EffectController():ChooseItemsFromDC( scryInputDC, scryTopDC, QUERY_FLAG_UP_TO + QUERY_FLAG_ORDERED_SELECTION )
+    	end
+    	return true
+    elseif rep_count == 1 then
+    	-------------------------------
+    	-- 2) MOVE THE CARDS
+    	-------------------------------
+    	local scryDC = EffectDC():Get_Chest(1)
+    	-- Get old chests, and determine actual scry value
+    	local scryInputDC = scryDC:Get_Chest(0)
+    	local scry_value = scryInputDC:Count()
+    	if scry_value == 1 then
+    		local answer = EffectController():GetMultipleChoiceResult()
+    		if answer == 0 then
+    			-- Scryed the single top card to top, nothing to do
+    		end
+    		if answer == 1 then
+    			-- Scry the top card to the bottom
+    			scryInputDC:Get_CardPtr(0):PutOnBottomOfLibrary()
+    		end
+    	else
+    	
+    		local scryTopDC = scryDC:Get_Chest(1)
+    		local scry_top = scryTopDC:Count()
+    		if scry_value &gt; 1 and scry_top &lt; scry_value then
+    			-- Fill SecondInputDC with everything in InputDC not in TopDC ("what's left")
+    			for i=0,scry_value-1 do
+    				local card = scryInputDC:Get_CardPtr(i)
+    			
+    				for j=0,scry_top-1 do
+    					if card == scryTopDC:Get_CardPtr(j) then
+    						-- chosen, ignore
+    						card = nil
+    						break
+    					end
+    				end
+    			
+    				-- if not present in TopDC, move it to the bottom
+    				if card ~= nil then
+    					card:PutOnBottomOfLibrary()
+    				end
+    			end
+    		
+    			-- Move chosen cards to top of library so first
+    			-- card chosen ends up on top of the library
+    			for i=0,scry_top-1 do
+    				local card = scryTopDC:Get_CardPtr(i)
+    		
+    				if card ~= nil then
+    					card:PutOnTopOfLibrary()
+    				end
+    			end
+    		end
+    	end
+    	-- END
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_SCRY" body="MORE_INFO_BODY_SCRY" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to return to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la renvoyer dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para regresarla a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da far tornare in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно вернуть в руку владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para devolver para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将它移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將它移回其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_TOP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Select cards to put them on top of your library. The rest will be put on the bottom of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sélectionner des cartes pour les mettre au-dessus de votre bibliothèque. Le reste sera mis au-dessous de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Selecciona cartas para ponerlas en la parte superior de tu biblioteca. Las demás irán al fondo de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wähle Karten, die du auf deine Bibliothek legen willst. Der Rest wird unter deine Bibliothek gelegt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Seleziona le carte da mettere in cima al tuo grimorio. Le altre verranno messe in fondo al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番下に置くカードを選んでください。残りはあなたのライブラリーの一番下に置かれます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[서고 맨 위에 놓을 카드를 고르십시오. 나머지 카드는 서고 맨 밑에 놓여집니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карты, которые нужно положить на верх вашей библиотеки. Остальные карты будут положены в низ вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Selecione os cards para colocá-los no topo do seu grimório. O restante será colocado no fundo do seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择要置于你牌库顶的牌。其余牌将置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇要置於你的牌庫頂的牌。其餘牌將置於你的牌庫底。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_BOTTOM">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bottom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessous]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番下]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 밑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В низ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库底]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫底]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_TOP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Top]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Parte superior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In cima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番上]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 위]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На верх]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Topo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库顶]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫頂]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to put this card on the top or bottom of your library?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous mettre cette carte au-dessus ou au-dessous de votre bibliothèque ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Vas a poner esta carta en la parte superior o en el fondo de tu biblioteca?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diese Karte auf oder unter deine Bibliothek legen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi mettere questa carta in cima o in fondo al tuo grimorio?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[そのカードをライブラリーの一番上に置きますか？　それとも一番下に置きますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 카드를 서고 맨 밑에 넣으시겠습니까? 아니면 맨 위에 놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите положить эту карту на верх или в низ вашей библиотеки?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de colocar este card no topo ou no fundo do seu grimório?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要将此牌置于你的牌库顶还是牌库底？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要將此牌置於你的牌庫頂還是牌庫底？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_TEMPO_WHY_PLAY" removal_tag="HINT_SPELL_TEMPO_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

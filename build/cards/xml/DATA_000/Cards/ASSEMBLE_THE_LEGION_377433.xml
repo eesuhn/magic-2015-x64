@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="ASSEMBLE_THE_LEGION_377433" />
+  <CARDNAME text="ASSEMBLE_THE_LEGION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Assemble the Legion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rassemblez la légion !]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reunir a la Legión]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufmarsch der Legion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Radunare la Legione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[軍（ぐん）勢（ぜい）の集（しゅう）結（けつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[군단 소집]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Созыв Легиона]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reunir a Legião]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[召集战团]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[召集戰團]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377433" />
+  <ARTID value="146505" />
+  <ARTIST name="Eric Deschamps" />
+  <CASTING_COST cost="{3}{R}{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put a muster counter on Assemble the Legion. Then put a 1/1 red and white Soldier creature token with haste onto the battlefield for each muster counter on Assemble the Legion.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, mettez un marqueur « rassemblement » sur Rassemblez la légion !. Mettez ensuite sur le champ de bataille un jeton de créature 1/1 rouge et blanche Soldat avec la célérité pour chaque marqueur « rassemblement » sur Rassemblez la légion !]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, pon un contador de reunión sobre Reunir a la Legión. Luego pon en el campo de batalla una ficha de criatura Soldado roja y blanca 1/1 con la habilidad de prisa por cada contador de reunión sobre Reunir a la Legión.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege zu Beginn deines Versorgungssegments eine Musterungsmarke auf den Aufmarsch der Legion. Bringe dann für jede Musterungsmarke auf dem Aufmarsch der Legion einen 1/1 roten und weißen Soldat-Kreaturenspielstein mit Eile ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, metti un segnalino adunata su Radunare la Legione. Poi metti sul campo di battaglia una pedina creatura Soldato 1/1 bianca e rossa con rapidità per ogni segnalino adunata su Radunare la Legione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、軍勢の集結の上に召集カウンターを１個置く。その後、軍勢の集結の上に置かれた召集カウンター１個につき、速攻を持つ赤であり白である１/１の兵士・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 군단 소집에 동원 카운터 한 개를 올려놓는다. 그런 다음, 군단 소집이 가진 동원 카운터 한 개당 신속을 가졌고 적색이고 백색인 1/1 병사 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки положите один жетон смотра на Созыв Легиона. Затем положите на поле битвы одну фишку существа 1/1 красный и белый Солдат с Ускорением за каждый жетон смотра на Созыве Легиона.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, coloque um marcador de reunião em Reunir a Legião. Depois, coloque no campo de batalha uma ficha de criatura vermelha e branca 1/1 do tipo Soldado com ímpeto para cada marcador de reunião em Reunir a Legião.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，在召集战团上放置一个召集指示物。然后召集战团上每有一个召集指示物，便将一个1/1，红白双色，具敏捷异能的士兵衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，在召集戰團上放置一個召集指示物。然後召集戰團上每有一個召集指示物，便將一個1/1，紅白雙色，具敏捷異能的士兵衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Muster" proliferate="11" />
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("Muster"), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local total = EffectSourceLKI():CountCounters( MTG():GetCountersType( "Muster" ))
+    MTG():PutTokensOntoBattlefield( "TOKEN_SOLDIER_1_1_WR_378391", total, EffectController() )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SOLDIER_1_1_WR_378391" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

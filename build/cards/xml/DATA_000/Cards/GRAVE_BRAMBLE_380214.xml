@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="757">
+  <FILENAME text="GRAVE_BRAMBLE_380214" />
+  <CARDNAME text="GRAVE_BRAMBLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grave Bramble]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ronce des tombes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Zarza de la tumba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grabdickicht]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rovo delle Tombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓（ぼ）所（しょ）の茨（いばら）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤 덤불]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могильный Терновник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arbusto Tumular]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坟场竹]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[墳場竹]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380214" />
+  <ARTID value="138314" />
+  <ARTIST name="Anthony Jones" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nature abhors a zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La nature abhorre les zombies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La naturaleza aborrece a los zombies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Natur verabscheut Zombies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La natura aborre uno zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自然はゾンビを忌み嫌う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자연은 좀비를 혐오한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Природа не терпит зомби.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A natureza tem um horror aos zumbis.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[大自然憎恨灵俑。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[大自然憎恨殭屍。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defender]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défenseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defensor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verteidiger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Difensore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[防衛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[수비태세]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защитник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defensor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[守军]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[守軍]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_DEFENDER" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[protection from Zombies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[protection contre les zombies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[protección contra Zombies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schutz vor Zombies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[protezione dagli Zombie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プロテクション（ゾンビ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[좀비로부터 보호]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защита от Зомби]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[proteção contra Zumbis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反灵俑保护]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反殭屍保護]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="0">
+    if EffectSource() ~= nil then
+    	local filter = ClearFilter()
+    	
+    	filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ZOMBIE )
+    	EffectSource():Protection()	
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Defender" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_6" body="MORE_INFO_BADGE_BODY_6" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_PROTECTION" body="MORE_INFO_BODY_PROTECTION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_LEAVES_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

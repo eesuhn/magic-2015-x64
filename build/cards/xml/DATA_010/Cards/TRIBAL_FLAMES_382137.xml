@@ -1,0 +1,172 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="TRIBAL_FLAMES_382137" />
+  <CARDNAME text="TRIBAL_FLAMES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tribal Flames]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flammes tribales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flamas tribales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stammesflammen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fiamme Tribali]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[部（ぶ）族（ぞく）の炎（ほのお）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부족의 불꽃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Племенное Пламя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chamas Tribais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[部族焰火]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[部族焰火]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382137" />
+  <ARTID value="148265" />
+  <ARTIST name="Zack Stella" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Fire is the universal language.”
+—Jhoira, master artificer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le feu est le langage du monde. »
+—Djoïra, maîtresse artificière]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El fuego es el idioma universal”.
+—Jhoira, maestra artífice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Sprache des Feuers versteht jeder.“
+—Jhoira, Meisterbastler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quello del fuoco è un linguaggio universale.”
+—Jhoira, mastro artificiere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「火は世界共通の言語よ。」――工芸の達人、ジョイラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["불은 만국 공통어다."
+—상급 기능공 호이라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Огонь — язык универсальный».
+— Джойра, мастер-механик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O fogo é o idioma universal.”
+— Jhoira, mestre artífice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「火焰是举世共通的语言。」
+～神器大师尤依拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「火焰是舉世共通的語言。」
+～神器大師尤依拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Domain| — Tribal Flames deals X damage to target creature or player, where X is the number of basic land types among lands you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Domaine| — Les Flammes tribales infligent X blessures à une cible, créature ou joueur, X étant le nombre de types de terrain de base parmi les terrains que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Dominio| — Las Flamas tribales hacen X puntos de daño a la criatura o jugador objetivo, donde X es la cantidad de tipos de tierra básica entre las tierras que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Domäne| — Die Stammesflammen fügen einer Kreatur oder einem Spieler deiner Wahl X Schadenspunkte zu, wobei X gleich der Anzahl an Standardlandtypen unter den Ländern ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Dominio| — Le Fiamme Tribali infliggono X danni a una creatura o a un giocatore bersaglio, dove X è pari al numero di tipi di terre base tra le terre che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|版図| ― クリーチャー１体かプレイヤー１人を対象とする。部族の炎は、それにＸ点のダメージを与える。Ｘは、あなたがコントロールする土地の中の基本土地タイプの数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도메인 — 생물 한 개나 플레이어 한 명을 목표로 정한다. 부족의 불꽃은 그 목표에게 피해 X점을 입힌다. X는 당신이 조종하는 대지 중 기본 대지 유형의 수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Владения| — Племенное Пламя наносит Х повреждений целевому существу или игроку, где Х — количество типов базовых земель под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Dominar| — Chamas Tribais causa X pontos de dano à criatura alvo ou jogador alvo, sendo X igual ao número de tipos de terrenos básicos dentre os terrenos que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[|领土|～部族焰火对目标生物或牌手造成X点伤害，X为由你操控的地之中基本地类别的数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[|領土|～部族焰火對目標生物或玩家造成X點傷害，X為由你操控的地之中基本地類別的數量。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FLAME_PLAY" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE" definition="0" compartment="0" count="1">
+    if EffectController():GetDomainCount() == 1 then
+    	MTG():SetTargetTag("CARD_QUERY_CHOOSE_DEAL_1_DAMAGE")
+    elseif EffectController():GetDomainCount() == 2 then
+    	MTG():SetTargetTag("CARD_QUERY_CHOOSE_DEAL_2_DAMAGE")
+    elseif EffectController():GetDomainCount() == 3 then
+    	MTG():SetTargetTag("CARD_QUERY_CHOOSE_DEAL_3_DAMAGE")
+    elseif EffectController():GetDomainCount() == 4 then
+    	MTG():SetTargetTag("CARD_QUERY_CHOOSE_DEAL_4_DAMAGE")
+    elseif EffectController():GetDomainCount() == 5 then
+    	MTG():SetTargetTag("CARD_QUERY_CHOOSE_DEAL_5_DAMAGE")
+    end
+    </TARGET>
+    <RESOLUTION_TIME_ACTION>
+    local targetPlayer = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local targetCreature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local domainCount = EffectController():GetDomainCount()
+    if targetPlayer ~= nil then
+    	EffectSource():DealDamageTo(domainCount, targetPlayer)
+    elseif targetCreature ~= nil then
+    	EffectSource():DealDamageTo(domainCount, targetCreature)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_DOMAIN" body="MORE_INFO_BODY_DOMAIN" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_1_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 1 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 1 blessure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 1 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 1 Schadenspunkt zugefügt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 1 danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[１点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 1점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 1 повреждение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 1 ponto de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成1點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_2_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 2 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 2 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 2 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 2 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 2 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 2점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 2 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 2 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成2点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成2點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 3 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 3 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 3 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 3 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 3 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[３点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 3점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 3 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 3 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成3點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_4_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 4 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 4 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 4 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 4 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 4 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[４点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 4점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 4 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 4 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成4点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成4點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_5_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 5 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 5 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 5 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 5 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 5 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[５点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 5점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 5 повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 5 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成5點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="ARCBOUND_WORKER_382121" />
+  <CARDNAME text="ARCBOUND_WORKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Arcbound Worker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Travailleur entravarc]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trabajador arcoligado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lichtbogen-Arbeiter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Operaio Elettrofuso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[電（でん）結（けつ）の働（はたら）き手（て）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아크에 묶인 노동자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Электросвязанный Рабочий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Operário Arconexo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[能缰工人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[能韁工人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382121" />
+  <ARTID value="75191" />
+  <ARTIST name="Darrell Riche" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The parts are as strong as the whole.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il est aussi robuste que chacun de ses membres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las partes son tan fuertes como el todo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Teile sind so stark wie das Ganze.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le singole parti sono forti quanto tutto l’insieme.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[部品の力は、決して全体より劣ることはない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부품 하나하나가 전체만큼 튼튼하다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[По частям он так же силен, как и целый.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As partes são tão fortes quanto o todo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[零件与整体同样强大。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[零件與整體同樣強大。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Construct" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Modular 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Modularité 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Modular 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bausteine 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Modulare 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[接合１]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모듈 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Модульность 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Modular 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[套件1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[套件1]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local numCounters = TriggerObjectLKI():CountCounters(MTG():PlusOnePlusOneCounters())
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:AddCounters( MTG():PlusOnePlusOneCounters(), numCounters)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_MODULAR" body="MORE_INFO_BODY_MODULAR" zone="ZONE_ANY" />
+  <SFX text="COMBAT_LIGHTNING_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_LIGHTNING_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain +1/+1 counters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner des marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que gane contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +1/+1-Marken erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che ottiene segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터를 얻을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое должно получить жетоны +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_DRAWBACK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

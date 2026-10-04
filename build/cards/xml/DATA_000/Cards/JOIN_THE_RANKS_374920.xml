@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="JOIN_THE_RANKS_374920" />
+  <CARDNAME text="JOIN_THE_RANKS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Join the Ranks]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rejoindre les rangs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Unirse a las filas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schulterschluss]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Unirsi alla Truppa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[兵（へい）員（いん）への参（さん）加（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부대 합류]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В Одном Строю]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Junte-se aos Bons]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[加入行列]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[加入行列]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374920" />
+  <ARTID value="126480" />
+  <ARTIST name="Kekai Kotaki" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Expeditionary houses are notorious for their rivalries. But when adventurers meet in the wilderness, the instinct for mutual survival outweighs petty grudges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La rivalité des corps expéditionnaires est notoire. Mais quand des aventuriers se rencontrent dans les terres sauvages, la dispute laisse la place à l'instinct mutuel de survie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las casas expedicionarias son conocidas por sus rivalidades. Pero cuando los aventureros se encuentran allí afuera, el instinto de mutua supervivencia es mayor que las disputas insignificantes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Expeditionsgilden sind für ihre Rivalität untereinander berüchtigt. Aber wenn sich Abenteurer in der Wildnis begegnen, wiegt das gemeinsame Interesse am Überleben schwerer als der Konkurrenzgedanke.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le case di spedizioni sono note per le loro rivalità. Ma quando gli avventurieri si incontrano nelle terre selvagge, l’istinto per una mutua sopravvivenza ha più importanza di qualunque meschino risentimento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[探検協会は、互いの対抗心で有名だ。しかし、荒野で冒険者が出会うときは、つまらない因縁よりも互いの生存本能が優先される。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탐험단들은 서로 경쟁 의식이 대단하기로 유명하지. 하지만 황야에서 만나면 적대감은 접어두고 서로 힘을 합쳐. 일단 살고 봐야 하니까 말이야.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Экспедиционные дома скандально известны своим соперничеством. Но когда пути искателей приключений пересекаются в дикой глуши, инстинкт общего выживания пересиливает мелкие обиды.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As casas expedicionárias são famosas por suas rivalidades. Mas quando os aventureiros se encontram nas terras agrestes, o instinto de sobrevivência mútua supera os ressentimentos mesquinhos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[各探险队间有着浓厚的敌意。但当冒险者在野境相遇时，互助生存的本能会掩盖那点小过节。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[各探險隊間有著濃厚的敵意。但當冒險者在野境相遇時，互助生存的本能會掩蓋那點小過節。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put two 1/1 white Soldier Ally creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille deux jetons de créature 1/1 blanche Soldat et Allié.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla dos fichas de criatura Soldado Aliado blancas 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zwei 1/1 weiße (Soldat, Verbündeter)-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia due pedine creatura Alleato Soldato 1/1 bianche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[白の１/１の兵士・同盟者・クリーチャー・トークンを２体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[1/1 백색 병사 동맹 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы две фишки существа 1/1 белый Солдат Союзник.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha duas fichas de criatura brancas 1/1 do tipo Soldado Aliado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将两个1/1白色士兵／伙伴衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將兩個1/1白色士兵伙伴衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SOLDIER_ALLY_1_1_W_377572", 2, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SOLDIER_ALLY_1_1_W_377572" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

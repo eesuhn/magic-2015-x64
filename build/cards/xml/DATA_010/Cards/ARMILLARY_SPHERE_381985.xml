@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="207">
+  <FILENAME text="ARMILLARY_SPHERE_381985" />
+  <CARDNAME text="ARMILLARY_SPHERE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Armillary Sphere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sphère armillaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esfera armilar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Armillarsphäre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Astrolabio Sferico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天（てん）球（きゅう）儀（ぎ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[혼천의 구체]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Армиллярная Сфера]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esfera Armilar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[浑天仪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[渾天儀]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381985" />
+  <ARTID value="119805" />
+  <ARTIST name="Franz Vohwinkel" />
+  <CASTING_COST cost="{2}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The mysterious purpose of two of the rings had eluded Esper mages—until now.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'objectif mystérieux de deux des anneaux avait échappé aux mages d'Esper – du moins jusqu'à présent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El misterioso propósito de dos de los anillos eludió a los magos de Esper… hasta hoy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der geheimnisvolle Zweck von zwei der Ringe war den Magiern von Esper entgangen – bis jetzt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo scopo di due di quegli anelli era ancora sconosciuto ai maghi di Esper. Fino ad oggi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エスパーの魔道士には、謎の二つの輪の目的が分からないままだった――これまでは。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에스퍼 마도사들은 고리 중 두 개의 기능을 파악하지 못했었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Таинственное назначение двух колец оставалось загадкой для эсперских магов — но лишь до настоящего времени.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O propósito misterioso de dois dos anéis havia iludido os magos de Esper — até agora.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[那两环的神秘效能始终困扰着艾斯波法师～直到现在为止。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[那兩環的神秘效能始終困擾著艾斯波法師～直到現在為止。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}, {T}, Sacrifice Armillary Sphere: Search your library for up to two basic land cards, reveal them, and put them into your hand. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}, {T}, sacrifiez la Sphère armillaire : Cherchez dans votre bibliothèque jusqu’à deux cartes de terrain de base, révélez-les et mettez-les dans votre main. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}, {T}, sacrificar la Esfera armilar: Busca en tu biblioteca hasta dos cartas de tierra básica, muéstralas y ponlas en tu mano. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}, {T}, opfere die Armillarsphäre: Durchsuche deine Bibliothek nach bis zu zwei Standardland-Karten, zeige sie offen vor und nimm sie auf deine Hand. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}, {T}, Sacrifica l’Astrolabio Sferico: Passa in rassegna il tuo grimorio per trovare fino a due carte terra base, rivelale e aggiungile alla tua mano. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}, {T}, 天球儀を生け贄に捧げる：あなたのライブラリーから基本土地カードを最大２枚まで探し、それらを公開してあなたの手札に加える。その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}, {T}, 혼천의 구체를 희생한다: 당신의 서고에서 기본 대지 카드를 최대 두 장까지 찾아 공개한 후 손으로 가져간다. 그러고 나서 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}, {T}, пожертвуйте Армиллярную Сферу: найдите в вашей библиотеке не более двух карт базовых земель, покажите их и положите их в вашу руку. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}, {T}, Sacrifique Esfera Armilar: Procure em seu grimório até dois cards de terreno básico, revele-os e coloque-os na sua mão. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}，{T}，牺牲浑天仪：从你的牌库中搜寻至多两张基本地牌，展示该些牌，并置于你手上。然后将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}，{T}，犧牲渾天儀：從你的牌庫中搜尋至多兩張基本地牌，展示這些牌，並置於你手上。然後將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount( 2 )
+    for i = 0, (2-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(2-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil  then
+    		target_card:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_MANAFIX_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to put into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le mettre dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para poner en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das du auf deine Hand nimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da aggiungere alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの手札に戻す土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손으로 가져갈 대지 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю, которую нужно положить в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para colocar na sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要置于你手上的地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地置入你的手牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ARTIFACT_ABILITY_WHY_PLAY" removal_tag="HINT_ARTIFACT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

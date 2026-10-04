@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="20">
+  <FILENAME text="TOKEN_CENTAUR_3_3_G_377544" />
+  <CARDNAME text="CENTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Centaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[centaure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zentaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケンタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[켄타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кентавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[半人马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[半人馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377544" />
+  <ARTID value="145990" />
+  <COLOUR value="G" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="T" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TOKEN />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

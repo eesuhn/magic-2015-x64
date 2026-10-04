@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="220">
+  <FILENAME text="MANOWAR_374987" />
+  <CARDNAME text="MANOWAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Man-o’-War]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Physalie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Carabela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Galeerenqualle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Caravella Portoghese]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大（おお）クラゲ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고깔해파리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Физалия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Physalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[战舰水母]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[戰艦水母]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374987" />
+  <ARTID value="2212" />
+  <ARTIST name="Jon J Muth" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Beauty to the eye does not always translate to the touch.”
+—Naimah, Femeref philosopher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce qui est beau à l'œil ne l'est pas forcément au toucher. »
+—Naïmah, philosophe fémeiref]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Lo bello a los ojos no siempre lo es al tacto”.
+—Naimah, filósofo femeref]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn etwas schön anzusehen ist, bedeutet das nicht immer, dass man es auch anfassen sollte.“
+—Naimah, Femeref-Philosoph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non sempre ciò che è bello da vedere risulta poi gradevole al tatto.”
+—Naimah, filosofo Femeref]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「見た目が美しくても、触って楽しいとはかぎらない。」
+――フェメレフの哲人、ナイマ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["보기에는 아름다워도 만지면 죽는다."
+—페메레프 철학자 나이마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Прекрасный облик не означает, что и остальные свойства будут столь же прекрасны».
+— Найма, фемерефский философ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nem sempre o que é belo aos olhos é belo ao toque.”
+—Naimah, filósofa Femerefe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「外观上的美丽并不总是等同于触觉上的舒适。」
+～费米瑞甫哲学家奈玛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「外觀上的美麗並不總是等同於觸覺上的舒適。」
+～費米瑞甫哲學家奈瑪]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Jellyfish" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Man-o’-War enters the battlefield, return target creature to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Physalie arrive sur le champ de bataille, renvoyez une créature ciblée dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Carabela entre al campo de batalla, regresa la criatura objetivo a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Galeerenqualle ins Spiel kommt, bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Caravella Portoghese entra nel campo di battaglia, fai tornare una creatura bersaglio in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大クラゲが戦場に出たとき、クリーチャー１体を対象とし、それをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고깔해파리가 전장에 들어올 때, 생물 한 개를 목표로 정한다. 그 생물을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Физалия выходит на поле битвы, верните целевое существо в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Physalia entrar no campo de batalha, devolva a criatura alvo para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当战舰水母进战场时，将目标生物移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當戰艦水母進戰場時，將目標生物移回其擁有者手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_INTO_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put into its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para ponerla en la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно положить в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar na mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以将其置于其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物置入其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

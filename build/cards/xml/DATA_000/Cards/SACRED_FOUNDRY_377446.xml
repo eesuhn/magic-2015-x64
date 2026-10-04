@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="135">
+  <FILENAME text="SACRED_FOUNDRY_377446" />
+  <CARDNAME text="SACRED_FOUNDRY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacred Foundry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fonderie sacrée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fundición sagrada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heilige Schmelze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fonderia Sacra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖（せい）なる鋳（ちゅう）造（ぞう）所（しょ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신성한 주조소]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Священная Кузня]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fundição Sagrada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[圣洁锻炉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[聖潔鍛爐]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377446" />
+  <ARTID value="146521" />
+  <ARTIST name="Sam Burley" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burning fervor and fearsome skill create a lethal beauty terrible to behold.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ferveur ardente et talent redoutable sont à l'origine d'une beauté fatale, qu'il est terrifiant de contempler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un fervor ardiente y una habilidad aterradora crean una belleza mortal cuya visión es terrible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brennender Eifer und furchterregendes Können ergeben eine tödliche Schönheit, die entsetzlich anzusehen ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Devozione bruciante e abilità eccezionale creano una bellezza letale, terribile a contemplarsi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[燃え盛る熱情と恐ろしいまでの技術によって、見るもおぞましく致命的な美が創られる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타오르는 열정과 섬뜩한 기술이 만나 쳐다볼 수도 없는 치명적인 아름다움을 만든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Союз пылающего рвения и впечатляющего мастерства столь же красив, сколь и смертоносен.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O fervor ardente e a habilidade aterradora criam uma beleza letal terrível de se contemplar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[激昂热情和强悍技能创造难以直视的致命美感。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[激昂熱情和強悍技能創造難以直視的致命美感。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Mountain" />
+  <SUB_TYPE metaname="Plains" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Sacred Foundry enters the battlefield, you may pay 2 life. If you don’t, Sacred Foundry enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où la Fonderie sacrée arrive sur le champ de bataille, vous pouvez payer 2 points de vie. Si vous ne le faites pas, la Fonderie sacrée arrive sur le champ de bataille engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto la Fundición sagrada entre al campo de batalla, puedes pagar 2 vidas. Si no lo haces, la Fundición sagrada entra al campo de batalla girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie die Heilige Schmelze ins Spiel kommt, kannst du 2 Lebenspunkte bezahlen. Falls du dies nicht tust, kommt die Heilige Schmelze getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre la Fonderia Sacra entra nel campo di battaglia, puoi pagare 2 punti vita. Se non lo fai, la Fonderia Sacra entra nel campo di battaglia TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖なる鋳造所が戦場に出るに際し、あなたはライフを２点支払ってもよい。そうしないなら、聖なる鋳造所はタップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신성한 주조소가 전장에 들어오면서, 당신은 생명 2점을 지불할 수 있다. 그러지 않으면, 신성한 주조소는 탭된 상태로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Священной Кузни на поле битвы вы можете заплатить 2 жизни. Если вы этого не делаете, Священная Кузня выходит на поле битвы повернутой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Fundição Sagrada entra no campo de batalha, você pode pagar 2 pontos de vida. Se não fizer isso, Fundição Sagrada entrará no campo de batalha virada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[于圣洁锻炉进战场时，你可以支付2点生命。如果你未如此作，圣洁锻炉须横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[於聖潔鍛爐進戰場時，你可以支付2點生命。如果你未如此作，聖潔鍛爐須橫置進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayResourceCost(1) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MULTIPLE_CHOICE_ANSWER_PAY_2_LIFE" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MULTIPLE_CHOICE_ANSWER_DO_NOT_PAY_2_LIFE" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_MULTIPLE_CHOCIE_QUESTION_SACRED_FOUNDRY", TriggerObject() )
+    		EffectDC():Set_Int(0, 1)
+    		-- this flag is for later, so we know if the qustion was asked or not
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local questionAnswer = EffectController():GetMultipleChoiceResult()
+    if EffectDC():Get_Int(0) == 1 then
+    	-- only do this biz if the question was asked
+    	if questionAnswer == 0 then
+    		EffectController():PayResourceCost(1)
+    	elseif questionAnswer == 1 then
+    		if EffectSource() ~= nil then
+    			EffectSource():Tap()
+    		end
+    	end
+    else
+    	if EffectSource() ~= nil then
+    		EffectSource():Tap()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {R} or {W} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {R} ou {W} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {R} o {W} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {R} oder {W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {R} o {W} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{R}か{W}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {R} 또는 {W}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {R} или {W} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {R} ou {W} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{R}或{W}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{R}或{W}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{W/R}" />
+  </MANA_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST type="Life" amount="2" />
+  </UTILITY_ABILITY>
+  <QUERYTEXT tag="CARD_QUERY_MULTIPLE_CHOICE_ANSWER_PAY_2_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payer 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[2 Lebenspunkte bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付2點生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MULTIPLE_CHOICE_ANSWER_DO_NOT_PAY_2_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas payer 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[2 Lebenspunkte nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを支払わない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pagar 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付2點生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MULTIPLE_CHOCIE_QUESTION_SACRED_FOUNDRY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay 2 life? If you don’t, Sacred Foundry will enter the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer 2 points de vie ? Si vous ne le faites pas, la Fonderie sacrée arrivera sur le champ de bataille engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar 2 vidas? Si no lo haces, la Fundición sagrada entrará al campo de batalla girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du 2 Lebenspunkte bezahlen? Falls du dies nicht tust, kommt die Heilige Schmelze getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare 2 punti vita? Se non lo fai, la Fonderia Sacra entrerà nel campo di battaglia TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを支払いますか？そうしない場合、《聖なる鋳造所》はタップ状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불하시겠습니까? 생명점을 지불하지 않으면 성스러운 주조공장은 탭된 채로 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить 2 жизни? Если вы этого не сделаете, Священная Кузня выйдет на поле битвы повернутой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar 2 pontos de vida? Se não fizer isso, Fundição Sagrada entrará no campo de batalha virada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付2点生命吗？若你未如此作，圣洁锻炉将横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付2點生命嗎？如果你未如此作，聖潔鍛爐須橫置進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

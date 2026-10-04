@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="212">
+  <FILENAME text="BOUNTIFUL_HARVEST_374228" />
+  <CARDNAME text="BOUNTIFUL_HARVEST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bountiful Harvest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Récolte généreuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cosecha dadivosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reiche Ernte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raccolto Abbondante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[豊（ほう）潤（じゅん）な収（しゅう）穫（かく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[풍성한 수확]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обильный Урожай]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Colheita Abundante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[富足收成]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[富足收成]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374228" />
+  <ARTID value="121580" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Following the sun’s cycle, harvest season comes once a year—unless the druids bid the sun behave otherwise.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Selon le cycle solaire, la saison des récoltes intervient une fois par an — à moins que les druides ne demandent au soleil d'être un peu plus généreux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siguiendo el ciclo del sol, la temporada de cosecha llega una vez al año, a menos que los druidas hagan que el sol se comporte distinto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gemäß dem Sonnenkalender ist einmal im Jahr Erntezeit – falls die Druiden die Sonne nicht um etwas anderes bitten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Seguendo il ciclo solare, la stagione del raccolto giunge una volta all’anno... a meno che i druidi non chiedano al sole di comportarsi altrimenti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[太陽の巡りに従えば、収穫の時期は年に一度来る――ドルイド達が、太陽に他の事を命じないかぎりは。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양이 황도를 따라 돌면 일년에 한 번 수확기가 온다. 그러나 드루이드들이 개입하면 이야기는 달라진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Следуя солнечному циклу, пора урожая наступает раз в году — если, конечно, друиды не попросят солнце вести себя иначе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Seguindo o ciclo solar, a estação da colheita acontece uma vez por ano... a não ser que os druidas solicitem ao sol que altere o seu comportamento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[依循太阳运行，一年会有一次收获季节～只要德鲁伊没去改变太阳运行的话。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[依循太陽運行，一年會有一次收穫季節～只要德魯伊沒去改變太陽運行的話。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 1 life for each land you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez 1 point de vie pour chaque terrain que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ganas 1 vida por cada tierra que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst für jedes Land, das du kontrollierst, 1 Lebenspunkt dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni 1 punto vita per ogni terra che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたはあなたがコントロールする土地１つにつき１点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 대지 한 개당 생명 1점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 1 жизнь за каждую землю под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 1 ponto de vida para cada terreno que controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你每操控一个地，便获得1点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你每操控一個地，便獲得1點生命。]]></LOCALISED_TEXT>
+    <SFX text="CASTER_BUFF_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND)
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local number = filter:Count()
+    EffectDC():Set_Int(1, number) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local number = EffectDC(): Get_Int(1)
+    if number ~= nil then
+    	EffectController():GainLife( number )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_LIFEGAIN_WHY_PLAY" removal_tag="HINT_SPELL_LIFEGAIN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

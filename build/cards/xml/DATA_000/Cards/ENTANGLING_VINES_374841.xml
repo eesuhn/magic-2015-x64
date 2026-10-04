@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="215">
+  <FILENAME text="ENTANGLING_VINES_374841" />
+  <CARDNAME text="ENTANGLING_VINES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Entangling Vines]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vignes enchevêtreuses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enredaderas enmarañadoras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Umschlingende Ranken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Liane Intralcianti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[絡（から）め取（と）る蔦（つた）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[얽어매는 덩굴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Опутывающие Лианы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vinhas Involutas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[纠结藤蔓]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[糾結藤蔓]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374841" />
+  <ARTID value="121573" />
+  <ARTIST name="Thomas M. Baxa" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Every living thing has roots in nature. Sometimes nature gets its roots into you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toute chose vivante a ses racines dans la nature. Parfois, la nature plante ses racines en vous.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Toda criatura viviente tiene raíces en la naturaleza. A veces la naturaleza mete sus raíces en ti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jedes Lebewesen hat seine Wurzeln in der Natur. Manchmal hat die Natur auch ihre Wurzeln in dir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni essere vivente ha radici in natura. A volte, però, è la natura che ha le sue radici in te.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生けるものは全て自然に根ざしている。時に、自然がお前に根ざすこともある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모든 생물의 뿌리는 자연이다. 가끔은 자연이 생물에게 뿌리를 내린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Все живое уходит корнями в природу. Но иногда природа сама пускает корни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Todo ser vivo tem suas raízes na natureza. Às vezes, a natureza finca suas raízes em você.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每个活物都有自然的根源。有时候是自然把根扎在你体内。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每個活物都有自然的根源。有時候是自然把根紮在你體內。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant tapped creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature engagée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert eine getappte Kreatur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura TAPpata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭된 생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать повернутое существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura virada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于已横置的生物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於已橫置的生物]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_IS_TAPPED, true )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature doesn’t untap during its controller’s untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée ne se dégage pas pendant l’étape de dégagement de son contrôleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada no se endereza durante el paso de enderezar de su controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur enttappt nicht während des Enttappsegments ihres Beherrschers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata non STAPpa durante lo STAP del suo controllore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは、それのコントローラーのアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 그 조종자의 언탭단에 언탭되지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо не разворачивается во время шага разворота контролирующего его игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada não é desvirada durante a etapa de desvirar de seu controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[所结附的生物于其操控者的重置步骤中不能重置。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[所結附的生物於其操控者的重置步驟中不能重置。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_DOESNT_UNTAP, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_DEFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_DEFENSIVE_AURA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="NETTLE_SWINE_374617" />
+  <CARDNAME text="NETTLE_SWINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nettle Swine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cochon des orties]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puerco urticante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nesselschwein]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Suino delle Ortiche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イラクサ豚（ぶた）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[쐐기풀 돼지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Крапивный Хряк]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Suíno da Urtiga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[荨麻原野猪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蕁麻原野豬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374617" />
+  <ARTID value="141523" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I killed one and found bricks and bones in its belly. It had eaten a whole cottage, thatch and all.”
+—Paulin, trapper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J'en ai tué un qui avait des briques et des os dans le bide. Il avait boulotté une maisonnette entière, chaume compris. »
+—Paulin, trappeur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Maté a uno y encontré ladrillos y huesos en su tripa. Se había comido toda una casa, con tejado y todo”.
+—Paulin, trampero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe eines getötet und Ziegel und Knochen in seinem Bauch gefunden. Es hat eine komplette Hütte mit Dach und allem drum und dran gefressen.“
+—Paulin, Fallensteller]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ne ho ucciso uno e ho trovato ossa e mattoni nel suo stomaco. Aveva mangiato un’intera casa, dal tetto in giù.”
+—Paulin, trappolatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「一匹殺して腹を裂いたら、煉瓦やら骨やらが出てきたんだ。屋根から何から、小屋ごと食ってやがったんだよ。」――罠師、パーリン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“아 글쎄, 그놈을 잡아서 배를 갈랐더니 벽돌과 뼈가 나오더군. 오두막 한 채를 통째로 먹어치운 거야.”
+—함정사냥꾼 폴린]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я убил одного такого и нашел в его желудке кости и куски стены. Он сожрал хижину, крышу, и всех, кто был внутри».
+— Паулин, капканщик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Matei um e encontrei tijolos e ossos em seu estômago. Ele tinha comido um casebre inteiro, com telhado e tudo.”
+— Paulin, armadilheiro de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我杀了一只，在他肚子里找到砖块和骨头。他吃了整个农舍，屋顶茅草等一切。」
+～松柏森布陷人堡霖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我殺了一隻，在牠肚子裡找到磚塊和骨頭。牠吃了整個農舍，屋頂茅草等一切。」
+～松柏森佈陷人堡霖]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Boar" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

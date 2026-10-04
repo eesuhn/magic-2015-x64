@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="403">
+  <FILENAME text="ASPHODEL_WANDERER_377487" />
+  <CARDNAME text="ASPHODEL_WANDERER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Asphodel Wanderer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vagabond d'Asphodèle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vagabundo de Asfodel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Asphodel-Wanderer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Errante di Asfodelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アスフォデルの放（ほう）浪（ろう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아스포델 떠돌이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скиталец Асфодели]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vagante de Asfódelos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[安福陵漂浪客]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[安福陵漂浪客]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377487" />
+  <ARTID value="150793" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He killed out of hate, so now only hate sustains him. He sought immortality, so the gods gave it to him.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Comme c'est la haine qui l'a poussé à tuer, seule la haine le nourrit. Comme il cherchait l'immortalité, les dieux la lui ont donnée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mató por odio, por lo que ahora solo el odio lo sustenta. Ansiaba la inmortalidad, y los dioses se la concedieron.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er tötete aus Hass und nur dieser Hass erhält ihn. Er suchte Unsterblichkeit und die Götter gaben sie ihm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ha ucciso per odio, così ora solo l’odio lo sostiene. Ha cercato l’immortalità, così gli dei gliel’hanno concessa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼は憎しみのあまり人を殺めた。故に今ではその憎しみだけが彼を維持している。彼は不死を望み、そして神々は彼の望みを叶えた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그는 증오심으로 사람을 죽였으니 이제 증오심만으로 살아간다. 그가 영생을 구하니 신들이 그에게 영생을 주었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он убивал из ненависти, и теперь лишь ненависть движет им. Он искал бессмертия, и боги дали ему этот дар.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele matava por ódio, e agora só o ódio o sustenta. Ele buscou a imortalidade, e os deuses a concederam.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他因为仇恨而杀戮，现今只有仇恨支撑着他。他追求永生，众神成全了他。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他因為仇恨而殺戮，現今只有仇恨支撐著他。他追求永生，眾神成全了他。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Skeleton" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{B}: Regenerate Asphodel Wanderer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{B} : Régénérez le Vagabond d’Asphodèle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{B}: Regenera el Vagabundo de Asfodel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{B}: Regeneriere den Asphodel-Wanderer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{B}: Rigenera l’Errante di Asfodelo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{B}：アスフォデルの放浪者を再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{B}: 아스포델 떠돌이를 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{B}: регенерируйте Скитальца Асфодели.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{B}: Regenere Vagante de Asfódelos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{B}：重生安福陵漂浪客。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{B}：重生安福陵漂浪客。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+    <AI_MODIFIERS combat_immunity="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_REGENERATE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

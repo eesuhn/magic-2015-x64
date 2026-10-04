@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="FLAMEWAVE_INVOKER_380151" />
+  <CARDNAME text="FLAMEWAVE_INVOKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flamewave Invoker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Invocateur vagueflamme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Invocador ola de flama]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammenwellen-Beschwörer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evocatore di Ondafuoco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[炎（えん）波（ぱ）の発（はつ）動（どう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불꽃파도 기원사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призыватель Огненной Волны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Invocador da Onda de Chamas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[焰波召现师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[焰波召現師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380151" />
+  <ARTID value="46587" />
+  <ARTIST name="Dave Dorman" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Inside even the humblest goblin lurks the potential for far greater things—and far worse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Même le gobelin le plus humble a le potentiel de faire tellement mieux — ou tellement pire !]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dentro del más pequeño de los trasgos se esconde el potencial para grandes cosas; o peores cosas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auch im bescheidensten Goblin verbirgt sich das Potenzial, bedeutendere Taten zu vollbringen – was nur selten gut ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anche nel più umile dei goblin si cela il potenziale per cose molto più grandi... e molto peggiori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[最も謙虚なゴブリンの中にさえ、遥かな力が秘められている――遥かにひどい物でもあるが。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하찮은 고블린에게도 더 크고 더 골칫거리가 될 가능성은 존재한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В каждом, даже самом незаметном гоблине скрывается стремление к деяниям великим и куда более страшным.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até mesmo o mais humilde dos goblins esconde dentro de si o potencial para coisas muito maiores — e piores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[连最不起眼的鬼怪都潜藏着成大事的潜力～或是坏大事。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[連最不起眼的鬼怪都潛藏著成大事的潛力～或是壞大事。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" />
+  <SUB_TYPE metaname="Mutant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{7}{R}: Flamewave Invoker deals 5 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{7}{R} : L’Invocateur vagueflamme inflige 5 blessures au joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{7}{R}: El Invocador ola de flama hace 5 puntos de daño al jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{7}{R}: Der Flammenwellen-Beschwörer fügt einem Spieler deiner Wahl 5 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{7}{R}: L’Evocatore di Ondafuoco infligge 5 danni a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{7}{R}：プレイヤー１人を対象とする。炎波の発動者はそのプレイヤーに５点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{7}{R}: 플레이어 한 명을 목표로 정한다. 불꽃파도 기원사는 그 플레이어에게 피해 5점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{7}{R}: Призыватель Огненной Волны наносит 5 повреждений целевому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{7}{R}: Invocador da Onda de Chamas causa 5 pontos de dano ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{7}{R}：焰波召现师对目标牌手造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{7}{R}：焰波召現師對目標玩家造成5點傷害。]]></LOCALISED_TEXT>
+    <COST mana_cost="{7}{R}" type="Mana" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_5_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 5, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 5, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_BURN_WHY_PLAY" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_FLAME_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FLAME_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_5_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to deal 5 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui infliger 5 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerle 5 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, dem 5 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore a cui infliggere 5 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[５点のダメージを与えるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 5점을 입을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которому нужно нанести 5 повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para causar 5 pontos de dano a ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以对其造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來對其造成5點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

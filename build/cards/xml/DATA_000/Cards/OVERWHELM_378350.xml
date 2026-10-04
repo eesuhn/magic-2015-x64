@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="OVERWHELM_378350" />
+  <CARDNAME text="OVERWHELM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Overwhelm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Débordement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Abrumar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Überschütten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Soverchiare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[圧（あっ）倒（とう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[압도]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ошеломление]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sobrepujar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[压服]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[壓服]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378350" />
+  <ARTID value="89085" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{5}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Conclave acts with a single will, expressed by countless warriors.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Conclave agit avec une volonté unique exprimée par des guerriers innombrables.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Cónclave actúa como una única voluntad que expresan incontables guerreros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Konklave handelt mit einem einzigen Willen, zum Ausdruck gebracht durch zahllose Krieger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Conclave agisce con una volontà unica, espressa da innumerevoli guerrieri.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[議事会は統一された意志を持って行動する。その意向は無数の戦士たちによって表明される。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[교단의 수많은 전사들은 한 마음으로 움직인다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Единую волю Конклава выражают бесчисленные воины.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As ações do Conclave são unânimes, expressando a vontade de inúmeros guerreiros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[盟会的行动由无数战士实施，但背后只有一个意志。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[盟會的行動由無數戰士實施，但背後只有一個意志。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <UTILITY_ABILITY qualifier="Convoke">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Convoke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Convocation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Convocar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einberufen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Convocazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[집합]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Созыв]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Convocar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[召集]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_BIORHYTHM_PLAY" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +3/+3 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +3/+3 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +3/+3 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +3/+3 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +3/+3 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、ターン終了時まで＋３/＋３の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 턴종료까지 +3/+3을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +3/+3 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +3/+3 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的生物得+3/+3直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的生物得+3/+3直到回合結束。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 3 )
+    	characteristics:Toughness_Add( 3 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_CONVOKE" body="MORE_INFO_BODY_CONVOKE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

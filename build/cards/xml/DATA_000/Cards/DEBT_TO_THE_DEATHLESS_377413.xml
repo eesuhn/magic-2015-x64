@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="DEBT_TO_THE_DEATHLESS_377413" />
+  <CARDNAME text="DEBT_TO_THE_DEATHLESS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Debt to the Deathless]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dette envers les Impérissables]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deuda con los inmortales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schulden bei den Todlosen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Debito con gli Immortali]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）せざる者（もの）への債（さい）務（む）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영생자에게 진 빚]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Долг перед Бессмертными]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dívida com os Sem-morte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不亡者债务]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不亡者債務]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377413" />
+  <ARTID value="147722" />
+  <ARTIST name="Seb McKinnon" />
+  <CASTING_COST cost="{X}{W}{W}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some of Orzhov’s cruelest collectors remember their debtors by taste alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Certains des collecteurs d'Orzhov les plus cruels gardent en mémoire le goût des mauvais payeurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Algunos de los recaudadores más crueles de los orzhov recuerdan a sus deudores solo por su sabor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einige der grausamsten Eintreiber der Orzhov erinnern sich nur noch an den Geschmack ihrer Schuldner.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcuni degli esattori Orzhov più crudeli ricordano i debitori soltanto dal loro sapore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オルゾフでも特に冷酷な取り立て屋は、債務者を味だけで判別できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오르조브 중에서도 제일 지독한 녀석들은 피 맛으로 채무자들을 구분한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Самые жестокие из сборщиков долгов на услужении Орзовов запоминают должников на вкус.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns dos cobradores mais cruéis dos Orzhov se lembram de seus devedores só pelo sabor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[欧佐夫某些最残酷的讨债人仅凭味道就能记住债务人。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歐佐夫某些最殘酷的討債人僅憑味道就能記住債務人。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each opponent loses two times X life. You gain life equal to the life lost this way.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque adversaire perd deux fois X points de vie. Vous gagnez autant de points de vie que ceux perdus de cette manière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada oponente pierde el doble de X vidas. Ganas una cantidad de vidas igual a las vidas perdidas de esta manera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Gegner verliert Lebenspunkte in Höhe von zweimal X. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Lebenspunkte verloren wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni avversario perde punti vita pari al doppio di X. Guadagni tanti punti vita quanti sono i punti vita persi in questo modo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各対戦相手はそれぞれＸの２倍に等しい点数のライフを失う。あなたはこれにより失ったライフに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 상대는 X의 두 배만큼의 생명점을 잃는다. 당신은 이렇게 잃은 생명점만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый оппонент теряет количество жизней, превышающее Х в два раза. Вы получаете столько жизней, сколько их было потеряно таким образом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada oponente perde o dobro de X pontos de vida. Você ganha uma quantidade de pontos de vida igual aos pontos de vida perdidos dessa maneira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每位对手各失去两倍于X的生命。你获得若干生命，其数量等同于以此法失去的生命总和。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每位對手各失去兩倍於X的生命。你獲得若干生命，其數量等同於以此法失去的生命總和。]]></LOCALISED_TEXT>
+    <SFX text="LIFESTEAL_LUA_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local life_to_gain = 0
+    local numPlayer = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayer-1) do
+    	local player = MTG():GetNthPlayer( i )
+    	if player ~= nil then
+    		if (player:GetTeam() ~= EffectController():GetTeam()) then
+    			local lifeLost = player:LoseLife( GetEffectX()*2 )
+    			life_to_gain = life_to_gain+lifeLost
+    		end
+    	end
+    end
+    if life_to_gain&gt; 0 then
+    	EffectController():GainLife(life_to_gain)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

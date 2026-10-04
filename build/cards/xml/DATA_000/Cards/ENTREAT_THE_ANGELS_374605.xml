@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="135">
+  <FILENAME text="ENTREAT_THE_ANGELS_374605" />
+  <CARDNAME text="ENTREAT_THE_ANGELS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Entreat the Angels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Implorez les anges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rogar a los ángeles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Anrufung der Engel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Supplicare gli Angeli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天（てん）使（し）への願（ねが）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사에게의 탄원]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Молитва Ангелам]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Súplica aos Anjos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敦请天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敦請天使]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374605" />
+  <ARTID value="138510" />
+  <ARTIST name="Todd Lockwood" />
+  <CASTING_COST cost="{X}{X}{W}{W}{W}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put X 4/4 white Angel creature tokens with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille X jetons de créature 4/4 blanche Ange avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla X fichas de criatura Ángel blancas 4/4 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe X 4/4 weiße Engel-Kreaturenspielsteine mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia X pedine creatura Angelo 4/4 bianche con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行を持つ白の４/４の天使・クリーチャー・トークンをＸ体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행을 가진 4/4 백색 천사 생물 토큰 X개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы Х фишек существа 4/4 белый Ангел с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha X fichas de criatura brancas 4/4 do tipo Anjo com voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将X个4/4白色，具飞行异能的天使衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將X個4/4白色，具飛行異能的天使衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_SUNBLAST_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_ANGEL_4_4_W_F_350771", GetEffectX(), EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {X}{W}{W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[奇迹{X}{W}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[奇蹟{X}{W}{W}]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="self">
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetPlayer( EffectController() )
+    local num_drawn_this_turn = interrogation:Count( INTERROGATE_CARDS_DRAWN, INTERROGATE_THIS_TURN, 2 )
+    if num_drawn_this_turn == 1 then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if TriggerObject()~= nil then
+    	if effectController:CanCastSpellUsingResourceCost( TriggerObject(), 1 ) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ENTREAT_THE_ANGELS_CAST_ENTREAT_THE_ANGELS" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ENTREAT_THE_ANGELS_DO_NOT_CAST_ENTREAT_THE_ANGELS" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_ENTREAT_THE_ANGELS_QUESTION", TriggerObject() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local answer = EffectController():GetMultipleChoiceResult()
+    if TriggerObject() ~= nil and EffectController():CanCastSpellUsingResourceCost( TriggerObject(), 1 )then
+    	if answer == 0 then
+    		EffectController():CastSpellUsingResourceCost( TriggerObject(), 1 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST mana_cost="{X}{W}{W}" type="Mana" />
+  </UTILITY_ABILITY>
+  <FRAME_TYPE type="miracle" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ANGEL_4_4_W_F_350771" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_MIRACLE" body="MORE_INFO_BODY_MIRACLE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_ENTREAT_THE_ANGELS_CAST_ENTREAT_THE_ANGELS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Entreat the Angels.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancer Implorez les anges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanzar Rogar a los ángeles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Anrufung der Engel wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia Supplicare gli Angeli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《天使への願い》を唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사에게의 탄원을 발동합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Молитву Ангелам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar Súplica aos Anjos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放敦请天使。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放敦請天使。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_ENTREAT_THE_ANGELS_DO_NOT_CAST_ENTREAT_THE_ANGELS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not cast Entreat the Angels.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas lancer Implorez les anges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No lanzar Rogar a los ángeles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Anrufung der Engel nicht wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non lanciare Supplicare gli Angeli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《天使への願い》を唱えない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사에게의 탄원을 발동하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не разыгрывать Молитву Ангелам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não conjurar Súplica aos Anjos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不施放敦请天使。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不施放敦請天使。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_ENTREAT_THE_ANGELS_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do you want to cast Entreat the Angels for its miracle cost ({X}{W}{W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous lancer Implorer les anges pour son coût de miracle ({X}{W}{W}) ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres lanzar Rogar a los ángeles por su coste de milagro ({X}{W}{W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Willst du die Anrufung der Engel für ihre Mirakulum-Kosten ({X}{W}{W}) wirken?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi lanciare Supplicare gli Angeli per il suo costo di miracolo ({X}{W}{W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《天使への願い》をその奇跡コスト（{X}{W}{W}）で唱えますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 비용({X}{W}{W})을 지불하고 천사에게의 탄원을 발동하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите разыграть Молитву Ангелам за ее стоимость Чуда ({X}{W}{W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja conjurar Súplica aos Anjos pagando seu custo de milagre ({X}{W}{W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要支付奇迹费用（{X}{W}{W}）来施放敦请天使吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要支付奇蹟費用（{X}{W}{W}）來施放敦請天使嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

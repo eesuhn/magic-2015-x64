@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="PYROMANCERS_GAUNTLET_374725" />
+  <CARDNAME text="PYROMANCERS_GAUNTLET" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pyromancer’s Gauntlet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gantelet du pyromancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guantelete del piromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Handschuh des Pyromagiers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guanto del Piromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[紅（ぐ）蓮（れん）術（じゅつ）士（し）の篭（こ）手（て）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화염술사의 손갑옷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Перчатка Пироманта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Manoplas da Piromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[烈焰术士护手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[烈焰術士護手]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374725" />
+  <ARTID value="147484" />
+  <ARTIST name="Christine Choi" />
+  <CASTING_COST cost="{5}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[An inferno is just a gesture away.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La fournaise toujours à portée de main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El infierno está al alcance de un gesto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Inferno ist nur eine Geste entfernt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un gesto e si scatena l’inferno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一振りすれば業火。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[손짓 한 번으로 지옥의 화염을 부를 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Преисподняя иногда совсем рядом — рукой подать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um inferno está a apenas um gesto de distância.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只需挥手就可引发地狱之火。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只需揮手就可引發地獄之火。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If a red instant or sorcery spell you control or a red planeswalker you control would deal damage to a permanent or player, it deals that much damage plus 2 to that permanent or player instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un sort d’éphémère ou de rituel rouge que vous contrôlez, ou un planeswalker rouge que vous contrôlez, devait infliger des blessures à un permanent ou à un joueur, il inflige autant de blessures plus 2 à ce permanent ou à ce joueur à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un hechizo de instantáneo o de conjuro rojo que controlas o un planeswalker rojo que controlas fuera a hacer daño a un permanente o jugador, en vez de eso, hace esa cantidad de daño más 2 a ese permanente o jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein roter Spontanzauber, eine rote Hexerei oder ein roter Planeswalker, den oder die du kontrollierst, einer bleibenden Karte oder einem Spieler Schaden zufügen würde, fügt er oder sie dieser bleibenden Karte oder diesem Spieler stattdessen so viele Schadenspunkte plus 2 zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se una magia istantaneo o stregoneria rossa che controlli o un planeswalker rosso che controlli sta per infliggere danno a un permanente o a un giocatore, infligge invece quell’ammontare di danni più 2 a quel permanente o a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする、赤のインスタント・呪文か赤のソーサリー・呪文か赤のプレインズウォーカーが、パーマネントまたはプレイヤーにダメージを与えるなら、代わりにそれはそのパーマネントやプレイヤーに、その点数に２を足した点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 적색 순간마법 또는 집중마법 주문 또는 당신이 조종하는 적색 플레인즈워커가 지속물 또는 플레이어에게 피해를 입히려 한다면, 대신 그 피해에 2를 더한 만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если красное мгновенное заклинание или заклинание волшебства под вашим контролем или красный planeswalker под вашим контролем должен(-но) нанести повреждения перманенту или игроку, вместо этого он(-о) наносит тому перманенту или игроку на 2 повреждения больше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se uma mágica instantânea ou feitiço vermelho que você controla ou um planeswalker vermelho que você controla causaria dano a uma permanente ou jogador, em vez disso, ele causa aquele dano mais 2 àquela permanente ou àquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果由你操控的红色瞬间或法术咒语、或由你操控的红色鹏洛客将对任一永久物或牌手造成伤害，则改为它对该永久物或牌手造成原数量加2点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果由你操控的紅色瞬間或巫術咒語、或由你操控的紅色鵬洛客將對任一永久物或玩家造成傷害，則改為它對該永久物或玩家造成原數量加2點傷害。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE" simple_qualifier="objectyoucontrol" pre_trigger="1" damage_type="all">
+    return (TriggerObject():GetCardType():Test(CARD_TYPE_INSTANT) or TriggerObject():GetCardType():Test(CARD_TYPE_SORCERY) ) and
+    TriggerObject():GetColour():Test(COLOUR_RED)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    Damage():Add(2)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ARTIFACT_ABILITY_WHY_PLAY" removal_tag="HINT_ARTIFACT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

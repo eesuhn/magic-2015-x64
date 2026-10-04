@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="CLIFF_THREADER_374879" />
+  <CARDNAME text="CLIFF_THREADER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cliff Threader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cordelière des falaises]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Escaladora de precipicios]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Klippenwinder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raminga dei Dirupi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[崖（がけ）を縫（ぬ）う者（もの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[암벽 등반가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скальная Канатолазка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atravessador de Penhasco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[绳索攀崖人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[繩索攀崖人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374879" />
+  <ARTID value="123715" />
+  <ARTIST name="Paul Bonner" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The crossing demands singular focus. Your life consists of these ropes, these hooks, and these rocky crags. Your past is miles below.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La traversée exige une concentration singulière. Ta vie se limite désormais à ces cordes, ces crochets et ces escarpements rocheux. Ton passé est en bas, à des lieues. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cruzar requiere una focalización particular. Tu vida son estas cuerdas, estos ganchos y estas rocas. Tu pasado está millas más abajo”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Überquerung benötigt deine völlige Konzentration. Dein Leben hängt an diesen Seilen, diesen Haken und diesen Felsen. Deine Vergangenheit liegt meilenweit hinter und unter dir.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“L’attraversamento richiede particolare attenzione. La tua vita è costituita da queste corde, questi chiodi e questi dirupi. Il tuo passato è chilometri più sotto.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ここを越えるには、特に集中が必要だ。お前の命は、このロープと、鉤と、この岩山で成り立ってるんだ。過去のお前は何マイルも下だ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["건너려면 엄청난 집중력이 필요해. 이 밧줄과 갈고리, 바위 틈새가 없으면 죽은 목숨이야. 과거는 지상에 버리고 와."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Переправа требует исключительной сосредоточенности. Твоя жизнь состоит из вот этих веревок, крюков и скальных выступов. Твое прошлое осталось далеко внизу».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A travessia requer muita concentração. Sua vida consiste dessas cordas, desses ganchos e desses penhascos rochosos. Seu passado está vários metros abaixo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「得要全心专注才能渡过去。你的性命全靠着这些绳索，钩子与石壁。你的过去则给放在几哩之下。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「得要全心專注才能渡過去。你的性命全靠著這些繩索，鉤子與石壁。你的過去則給放在幾哩之下。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Scout" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mountainwalk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traversée des montagnes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cruza montañas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gebirgstarnung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa-Montagne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[山渡り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산잠입]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знание Гор]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Travessia de montanha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[山脉行者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[山脈行者]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_MOUNTAINWALK" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_19" body="MORE_INFO_BADGE_BODY_19" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

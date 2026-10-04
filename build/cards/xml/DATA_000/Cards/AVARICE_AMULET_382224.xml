@@ -1,0 +1,178 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="296">
+  <FILENAME text="AVARICE_AMULET_382224" />
+  <CARDNAME text="AVARICE_AMULET" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Avarice Amulet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Amulette d'avarice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Amuleto de avaricia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Amulett der Habgier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Amuleto dell’Avarizia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[強（ごう）欲（よく）の護（ご）符（ふ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탐욕의 부적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Амулет Алчности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Amuleto da Avareza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[贪欲护身符]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[貪欲護身符]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382224" />
+  <ARTID value="155373" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{4}" />
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equipped creature gets +2/+0 and has vigilance and “At the beginning of your upkeep, draw a card.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature équipée gagne +2/+0 et a la vigilance et « Au début de votre entretien, piochez une carte. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura equipada obtiene +2/+0, tiene la habilidad de vigilancia y “Al comienzo de tu mantenimiento, roba una carta”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgerüstete Kreatur erhält +2/+0 und hat Wachsamkeit und „Ziehe zu Beginn deines Versorgungssegments eine Karte.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura equipaggiata prende +2/+0 e ha cautela e “All’inizio del tuo mantenimento, pesca una carta”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーは、＋２/＋０の修整を受けるとともに警戒と「あなたのアップキープの開始時に、カードを１枚引く。」を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착된 생물은 +2/+0을 받으며 경계와 "당신의 유지단 시작에, 카드 한 장을 뽑는다."를 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снаряженное существо получает +2/+0, имеет Бдительность и способность «В начале вашего шага поддержки возьмите карту».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura equipada recebe +2/+0 e tem vigilância e “No início da sua manutenção, compre um card.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[佩带此武具的生物得+2/+0，且具有警戒异能与「在你的维持开始时，抓一张牌。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[佩帶此武具的生物得+2/+0，且具有警戒異能與「在你的維持開始時，抽一張牌。」]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource()~= nil then
+    	local parent = EffectSource():GetParent()
+    	if parent ~= nil then
+    		parent:GetCurrentCharacteristics():Power_Add( 2 )
+    		parent:GetCurrentCharacteristics():Toughness_Add( 0 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_VIGILANCE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	local characteristics = parent:GetCurrentCharacteristics()
+    	characteristics:GrantAbility(1)
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When equipped creature dies, target opponent gains control of Avarice Amulet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la créature équipée meurt, l’adversaire ciblé acquiert le contrôle de l’Amulette d’avarice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la criatura equipada muera, el oponente objetivo gana el control del Amuleto de avaricia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die ausgerüstete Kreatur stirbt, übernimmt ein Gegner deiner Wahl die Kontrolle über das Amulett der Habgier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la creatura equipaggiata muore, un avversario bersaglio prende il controllo dell’Amuleto dell’Avarizia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーが死亡したとき、対戦相手１人を対象とする。そのプレイヤーは強欲の護符のコントロールを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착된 생물이 죽을 때, 상대 한 명을 목표로 정한다. 그 상대는 탐욕의 부적의 조종권을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда снаряженное существо умирает, целевой оппонент получает контроль над Амулетом Алчности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando a criatura equipada morre, o oponente alvo ganha o controle de Amuleto da Avareza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当佩带此武具的生物死去时，目标对手获得贪欲护身符的操控权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當佩帶此武具的生物死去時，目標對手獲得貪欲護身符的操控權。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD">
+    return TriggerObject() == EffectSourceLKI():GetParent() 
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_GAIN_CONTROL_OF_AVARICE_AMULET" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="2">
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	EffectSource():SetController(target)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {2}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착 {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[佩带{2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[佩帶{2}]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}" type="Mana" />
+    <AVAILABILITY sorcery_time="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="equip" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	return false
+    else
+    	return true
+    end
+    </AUTO_SKIP>
+    <EXPLAIN play_tag="HINT_ABILITY_EQUIP_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe zu Beginn deines Versorgungssegments eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_GAIN_CONTROL_OF_AVARICE_AMULET">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an opponent to gain control of Avarice Amulet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un adversaire pour lui faire acquérir le contrôle de l'Amulette d'avarice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un oponente para que gane el control del Amuleto de avaricia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Gegner, der die Kontrolle über das Amulett der Habgier übernehmen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un avversario che prende il controllo dell’Amuleto dell’Avarizia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《強欲の護符》のコントロールを得る対戦相手を１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA['탐욕의 부적'의 조종권을 얻을 상대를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите оппонента, который получит контроль над Амулетом Алчности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um oponente para ganhar o controle do Amuleto da Avareza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位对手，他将获得贪欲护身符的操控权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位對手，他將獲得貪欲護身符的操控權。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to equip.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'équiper.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para equiparla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ausgerüstet werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da equipaggiare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착할 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно снарядить.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para equipar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要佩带的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來裝備。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ARTIFACT_EQUIPMENT_WHY_PLAY" removal_tag="HINT_ARTIFACT_EQUIPMENT_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

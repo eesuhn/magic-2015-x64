@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="134">
+  <FILENAME text="BLOOD_CRYPT_377485" />
+  <CARDNAME text="BLOOD_CRYPT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blood Crypt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Crypte de sang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cripta sangrienta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutkrypta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cripta di Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血（ち）の墓（ぼ）所（しょ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피바다 지하묘지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровавый Склеп]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cripta de Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[血腥墓穴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[血腥墓穴]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377485" />
+  <ARTID value="145239" />
+  <ARTIST name="Vincent Proce" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Where the dead serve as diversion, decor, and dessert.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ici, les morts servent de divertissement, de décor et de dessert.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Donde los muertos sirven como diversión, decoración y postre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wo die Toten als Zerstreuung, Dekor und Dessert dienen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dove i morti servono da diversione, decorazione e dessert.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死者が娯楽、お飾り、デザートとして扱われる場所。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[죽은 자들이 놀잇감, 장식, 혹은 후식이 되어 봉사하는 곳이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Здесь мертвецы служат в качестве развлечения, антуража и пищи.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Onde os mortos servem como distração, decoração e sobremesa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[亡者成为娱乐、装饰品以及点心之处。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[亡者成為娛樂、裝飾品以及點心之處。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Swamp" />
+  <SUB_TYPE metaname="Mountain" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Blood Crypt enters the battlefield, you may pay 2 life. If you don’t, Blood Crypt enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où la Crypte de sang arrive sur le champ de bataille, vous pouvez payer 2 points de vie. Si vous ne le faites pas, la Crypte de sang arrive sur le champ de bataille engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto la Cripta sangrienta entre al campo de batalla, puedes pagar 2 vidas. Si no lo haces, la Cripta sangrienta entra al campo de batalla girada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie die Blutkrypta ins Spiel kommt, kannst du 2 Lebenspunkte bezahlen. Falls du dies nicht tust, kommt die Blutkrypta getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre la Cripta di Sangue entra nel campo di battaglia, puoi pagare 2 punti vita. Se non lo fai, la Cripta di Sangue entra nel campo di battaglia TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血の墓所が戦場に出るに際し、あなたはライフを２点支払ってもよい。そうしないなら、血の墓所はタップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피바다 지하묘지가 전장에 들어오면서, 당신은 생명 2점을 지불할 수 있다. 그러지 않으면, 피바다 지하묘지는 탭된 상태로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Кровавого Склепа на поле битвы вы можете заплатить 2 жизни. Если вы этого не делаете, Кровавый Склеп выходит на поле битвы повернутым.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Cripta de Sangue entra no campo de batalha, você pode pagar 2 pontos de vida. Se não fizer isso, Cripta de Sangue entrará no campo de batalha virado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[于血腥墓穴进战场时，你可以支付2点生命。如果你未如此作，血腥墓穴须横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[於血腥墓穴進戰場時，你可以支付2點生命。如果你未如此作，血腥墓穴須橫置進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayResourceCost(1) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MULTIPLE_CHOICE_ANSWER_PAY_2_LIFE" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MULTIPLE_CHOICE_ANSWER_DO_NOT_PAY_2_LIFE" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_MULTIPLE_CHOICE_QUESTION_BLOOD_CRYPT", TriggerObject() )
+    		EffectDC():Set_Int(0, 1)
+    		-- this flag is for later, so we know if the qustion was asked or not
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local questionAnswer = EffectController():GetMultipleChoiceResult()
+    if EffectDC():Get_Int(0) == 1 then
+    	-- only do this biz if the question was asked
+    	if questionAnswer == 0 then
+    		EffectController():PayResourceCost(1)
+    	elseif questionAnswer == 1 then
+    		if EffectSource() ~= nil then
+    			EffectSource():Tap()
+    		end
+    	end
+    else
+    	if EffectSource() ~= nil then
+    		EffectSource():Tap()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST type="Life" amount="2" />
+  </UTILITY_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B} or {R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {B} ou {R} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {B} o {R} a tu reserva de maná]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {B} oder {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {B} o {R} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{B}か{R}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {B} 또는 {R}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {B} или {R} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {B} ou {R} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{B}或{R}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{B}或{R}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{B/R}" />
+  </MANA_ABILITY>
+  <QUERYTEXT tag="CARD_QUERY_MULTIPLE_CHOICE_ANSWER_PAY_2_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payer 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[2 Lebenspunkte bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付2點生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MULTIPLE_CHOICE_ANSWER_DO_NOT_PAY_2_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas payer 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[2 Lebenspunkte nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを支払わない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pagar 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付2點生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MULTIPLE_CHOICE_QUESTION_BLOOD_CRYPT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay 2 life? If you don’t, Blood Crypt will enter the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer 2 points de vie ? Si vous ne le faites pas, la Crypte de sang arrivera sur le champ de bataille engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar 2 vidas? Si no lo haces, la Cripta sangrienta entrará al campo de batalla girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du 2 Lebenspunkte bezahlen? Falls du dies nicht tust, kommt die Blutkrypta getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare 2 punti vita? Se non lo fai, la Cripta di Sangue entrerà nel campo di battaglia TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを支払いますか？そうしない場合、《血の墓所》はタップ状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불하시겠습니까? 생명점을 지불하지 않으면 피바다 지하묘지는 탭된 채로 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить 2 жизни? Если вы этого не сделаете, Кровавый Склеп выйдет на поле битвы повернутым.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar 2 pontos de vida? Se não fizer isso, Cripta de Sangue entrará no campo de batalha virada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付2点生命吗？若你未如此作，血腥墓穴将横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付2點生命嗎？如果你未如此作，血腥墓穴須橫置進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

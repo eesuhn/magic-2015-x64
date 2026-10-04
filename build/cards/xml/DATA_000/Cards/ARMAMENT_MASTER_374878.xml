@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="ARMAMENT_MASTER_374878" />
+  <CARDNAME text="ARMAMENT_MASTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Armament Master]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître d'armement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro armero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rüstmeister]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Supervisore agli Armamenti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[武（ぶ）装（そう）の達（たつ）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무기의 대가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мастер Вооружений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre do Armamento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[军备专家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[軍備專家]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374878" />
+  <ARTID value="123694" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We prepare for the known with daggers, rations, rope, and pitons. But we also prepare for the unknown with billycat tails, pikku roots, hedron chips . . .”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous nous préparons aux dangers connus avec des dagues, des rations, de la corde et des pitons. Mais nous n'oublions pas l'inattendu : queues de chaboucs, racines de pikou, fragments d'hèdrons. . . »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Nos preparamos para lo conocido con dagas, raciones, cuerdas y pitones. Pero también nos preparamos para lo desconocido con colas de gato macho, raíces de pikku, astillas de edro…”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir rüsten uns für bekannte Gefahren mit Dolchen, Vorräten, Seil und Felshaken. Aber wir sind mit Katzenbockschwänzen, Pikkublättern und Splittern von Polyedern auch auf das Ungewisse vorbereitet.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ci prepariamo per ciò che conosciamo con pugnali, razioni, corda e chiodi. Ma ci attrezziamo anche per l’ignoto con code di billygatto, radici di pikku, schegge di edro...”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「既知の物に対しては、短刀、食料、ロープ、楔を準備してあります。一方で、未知の物に対しては、雄猫の尾、ピクーの根、面晶体の欠片……」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["단도와 식량, 밧줄, 피톤은 기본이지. 게다가 혹시 몰라 빌리켓 꼬리와 피쿠 뿌리, 헤드론 칩도 준비했다..."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы готовимся к известному, запасаясь кинжалами, едой, веревками и крюками. Но мы также готовимся к неизвестному, припасая хвосты диких котов, корни деревьев пикку, осколки эдров...»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nós nos preparamos para o conhecido com adagas, rações, cordas e pitons. Mas também nos preparamos para o desconhecido com rabos de felídeo, raízes de pikku, lascas de edro...”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们为了已知的状况而准备匕首，口粮，绳索，以及岩钉。而我们也为了未知的状况而准备山猫尾，比苦树根，晶石碎片...」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們為了已知的狀況而準備匕首，口糧，繩索，以及岩釘。而我們也為了未知的狀況而準備山貓尾，比苦樹根，晶石碎片...」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Kor creatures you control get +2/+2 for each Equipment attached to Armament Master.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Kor que vous contrôlez gagnent +2/+2 pour chaque équipement attaché au Maître d’armement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Kor que controlas obtienen +2/+2 por cada equipo anexado al Maestro armero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Kor-Kreaturen, die du kontrollierst, erhalten für jede an den Rüstmeister angelegte Ausrüstung +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Kor che controlli prendono +2/+2 per ogni Equipaggiamento assegnato al Supervisore agli Armamenti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のコー・クリーチャーは、武装の達人につけられている装備品１つにつき＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 생물들은 무기의 대가에 부착된 장비 하나당 +2/+2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Коры под вашим контролем получают +2/+2 за каждое Снаряжение, прикрепленное к Мастеру Вооружений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Kor que você controla recebem +2/+2 para cada Equipamento anexado a Mestre do Armamento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[军备专家上每装备一个武具，由你操控的其他寇族生物便得+2/+2。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每有一個武具裝備在軍備專家上，由你操控的其他寇族生物便得+2/+2。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_KOR )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local attachedEquipment = EffectSource():CountAttachedEquipment()
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( attachedEquipment*2 )
+    	characteristics:Toughness_Add( attachedEquipment*2 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

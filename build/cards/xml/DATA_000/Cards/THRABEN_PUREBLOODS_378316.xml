@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="496">
+  <FILENAME text="THRABEN_PUREBLOODS_378316" />
+  <CARDNAME text="THRABEN_PUREBLOODS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thraben Purebloods]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chiens pur-sang de Thraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pura raza de Thraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reinblütige Thrabener]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Purosangue di Thraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スレイベンの純（じゅん）血（けつ）種（しゅ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[트레이벤 순종견]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трейбенские Чистокровки]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Puros-sangues de Thraben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[瑟班纯种犬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[瑟班純種犬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378316" />
+  <ARTID value="138326" />
+  <ARTIST name="Martina Pilcerova" />
+  <CASTING_COST cost="{4}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I’ve learned to trust my dogs’ instincts. When they’re calm, I’m calm. And when they get nervous, I get my crossbow.”
+—Hinrik of House Cecani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J'ai appris à faire confiance aux instincts de mes chiens. Quand ils sont calmes, je suis calme. Quand ils sont nerveux, je sors mon arbalète. »
+—Hinrik de la Maison Cecani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He aprendido a confiar en el instinto de mis perros. Cuando están calmados, yo estoy tranquilo. Cuando se ponen nerviosos, saco mi ballesta”.
+—Hinrik de la Casa Cecani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe gelernt, dem Instinkt meiner Hunde zu vertrauen. Sind sie ruhig, bin ich es auch. Und wenn sie nervös werden, schnappe ich mir meine Armbrust.“
+—Hinrik aus dem Haus Sesani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ho imparato a fidarmi dell’istinto dei miei cani. Quando sono tranquilli, sono tranquillo anch’io. E quando si innervosiscono, impugno la mia balestra.”
+—Hinrik della Casata Cecani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「犬の本能を信じろってのを学んだよ。奴らが大人しければ、俺も落ち着いてていい。奴らがピリピリしてたら、弩弓を構えるのさ。」
+――シカニ家のヒンリック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["난 개의 직감을 믿어야 한다는 걸 배웠지. 녀석들이 조용하면 나도 안심이고 녀석들이 경계하면 난 석궁을 가지러 가."
+—세카니 가문의 힌리크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я научился прислушиваться к инстинктам моих собак. Когда они спокойны, я тоже спокоен. А когда они начинают нервничать, я достаю лук и стрелы».
+— Хинрик из Дома Секани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu aprendi a confiar nos instintos de meus cães. Quando eles estão calmos, eu estou calmo. Quando eles ficam nervosos, eu pego minha besta.”
+— Hinrik da Casa Cecani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我懂得该信任狗儿的直觉。他们冷静时，我也该冷静。而他们紧张时，我就拿起十字弓。」
+～西卡尼家族的辛黎克]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我懂得該信任狗兒的直覺。牠們冷靜時，我也該冷靜。而牠們緊張時，我就拿起十字弓。」
+～西卡尼家族的辛黎克]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hound" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="5" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="PRIDE_GUARDIAN_374806" />
+  <CARDNAME text="PRIDE_GUARDIAN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pride Guardian]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardien de la bande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guardián de la manada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rudelwache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardiano del Branco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[群（む）れの護（ご）衛（えい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사자무리 수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страж Прайда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guardião do Bando]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[狮群守护者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[獅群守護者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374806" />
+  <ARTID value="137410" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Any hotheaded cub can raise a sword in anger.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« N'importe quel lionceau en colère peut brandir une épée. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cualquier cachorro impulsivo puede esgrimir una espada con ira”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wütend mit seinem Schwert herumfuchteln kann jedes Jungtier.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Qualsiasi cucciolo irruento può levare una spada per la rabbia.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「短気な幼子でも、怒りに剣を持ち上げることぐらいできるさ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["성질 급한 어린 녀석들이나 분노에 휩싸여 칼을 휘두르지."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Любой вспыльчивый молокосос может в гневе поднять меч».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Qualquer filhote brigão pode empunhar uma espada num ataque de ira.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「每个热血冲昏头的小子都能仗愤使剑。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「每個熱血衝昏頭的小子都能仗憤使劍。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Monk" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defender]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défenseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defensor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verteidiger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Difensore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[防衛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[수비태세]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защитник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defensor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[守军]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[守軍]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_DEFENDER" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Pride Guardian blocks, you gain 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Gardien de la bande bloque, vous gagnez 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Guardián de la manada bloquee, ganas 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn die Rudelwache blockt, erhältst du 3 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Guardiano del Branco blocca, guadagni 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[群れの護衛がブロックするたび、あなたは３点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무리 수호자가 방어할 때마다, 당신은 생명 3점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Страж Прайда блокирует, вы получаете 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Guardião do Bando bloqueia, você ganha 3 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当狮群守护者阻挡时，你获得3点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當獅群守護者阻擋時，你獲得3點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="BLOCKING" simple_qualifier="self" to_zone="ZONE_ANY" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(3 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_6" body="MORE_INFO_BADGE_BODY_6" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

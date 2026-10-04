@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="583">
+  <FILENAME text="GROUND_ASSAULT_378280" />
+  <CARDNAME text="GROUND_ASSAULT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ground Assault]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Assaut terrestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Asalto terrestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bodenangriff]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Assalto Terrestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地（ち）上（じょう）の突（とつ）撃（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지의 강습]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Атака с Земли]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ataque por Terra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地面袭击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地面襲擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378280" />
+  <ARTID value="146307" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{R}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Taking down a dragon is easy. All you need is enough space to get in a good swing.”
+—Narbulg Nine Fingers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Terrasser un dragon, c'est facile. Il suffit d'avoir suffisamment d'espace pour armer sa frappe. »
+—Narbulg Neuf Doigts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Abatir a un dragón es fácil. Lo único que hace falta es el espacio suficiente para dar impulso a un buen golpe”.
+—Narbulg Nuevededos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Einen Drachen zu besiegen ist ganz leicht. Man braucht nur genügend Platz, um ordentlich weit ausholen zu können.“
+—Narbulg Neunfinger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“È facile abbattere un drago. Ti serve solo abbastanza spazio per un buon fendente.”
+—Narbulg Nove Dita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ドラゴンを倒すなんて簡単なことさ。思い切り振り抜けるだけの空間さえあればいいんだ。」――九本指のナーブルグ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["용을 잡기는 쉬워. 무기 한 번 제대로 휘두르기에 충분한 공간만 확보하면 돼."
+—아홉손가락 나르벌그]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Завалить дракона проще простого. Главное, чтобы было достаточно места для хорошего замаха».
+— Нарбулг Девятипалый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Derrubar um dragão é fácil. Você só precisa de espaço o bastante para conseguir encaixar um bom golpe.”
+— Narbulg Nove Dedos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「击倒龙很容易。你只需要有足够的空间来出手。」
+～九指纳博]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「擊倒龍很容易。你只需要有足夠的空間來出手。」
+～九指納博]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ground Assault deals damage to target creature equal to the number of lands you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Assaut terrestre inflige à la créature ciblée un nombre de blessures égal au nombre de terrains que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Asalto terrestre hace daño a la criatura objetivo igual a la cantidad de tierras que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Bodenangriff fügt einer Kreatur deiner Wahl so viele Schadenspunkte zu, wie du Länder kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Assalto Terrestre infligge a una creatura bersaglio danno pari al numero di terre che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。地上の突撃はそれに、あなたがコントロールする土地の総数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 대지의 강습은 그 생물에게 당신이 조종하는 대지 수만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Атака с Земли наносит целевому существу повреждения, равные количеству земель под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ataque por Terra causa à criatura alvo uma quantidade de dano igual ao número de terrenos que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地面袭击对目标生物造成伤害，其数量等同于由你操控的地之数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地面襲擊對目標生物造成傷害，其數量等同於由你操控的地之數量。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_CREATURES_POWER_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if ( target_creature ~= nil ) then
+    	local filter = ClearFilter()
+    	filter:Add(FE_TYPE, OP_IS, CARD_TYPE_LAND)
+    	filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    	local damageToDeal = filter:Count()
+    	EffectSourceLKI():DealDamageTo( damageToDeal, target_creature )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_CREATURES_POWER_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to damage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, der Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для нанесения повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要受到伤害的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

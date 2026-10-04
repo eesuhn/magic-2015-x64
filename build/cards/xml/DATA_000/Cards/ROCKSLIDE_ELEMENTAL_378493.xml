@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="676">
+  <FILENAME text="ROCKSLIDE_ELEMENTAL_378493" />
+  <CARDNAME text="ROCKSLIDE_ELEMENTAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rockslide Elemental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élémental de glissement de roches]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elemental de la avalancha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bergsturz-Elementar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elementale Frana Rocciosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[崖（がけ）崩（くず）れの精（せい）霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[낙석 정령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элементаль Скального Оползня]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elemental do Deslize de Pedras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[崩岩元素]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[崩岩元素]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378493" />
+  <ARTID value="114948" />
+  <ARTIST name="Joshua Hagler" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[On Jund, even the landscape is a deadly hunter. Volcanoes, tar pits, and rock slides seem to prey upon the living.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sur Jund, même le paysage est un dangereux chasseur. Volcans, mares de goudron et glissements de terrain semblent à l'affût des vivants.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En Jund hasta el paisaje es un cazador mortal. Volcanes, pozos de alquitrán y avalanchas parecen depredar a los vivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In Jund ist selbst die Landschaft ein tödlicher Jäger. Vulkane, Teergruben und Bergstürze scheinen sich von den Lebenden zu ernähren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Jund, perfino il paesaggio è un cacciatore mortale. Vulcani, pozze di catrame e frane rocciose sembrano far preda dei viventi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドでは、土地までもが恐ろしい狩人だ。火口、タール孔、崖崩れなどは、生あるものを餌食と狙っているようだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드에서는 지형마저도 무시무시한 사냥꾼이다. 화산, 타르 구덩이, 그리고 낙석 등이 산 자의 목숨을 노린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Даже природа на Джанде — смертоносный хищник. Вулканы, смоляные ямы и оползни словно стремятся уничтожить все живое.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Em Jund, até mesmo o meio ambiente é um caçador. Vulcões, poços de piche e deslizamentos de pedras fazem dos seres vivos suas presas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在勇得，就连地景都是夺命猎手。火山，焦油坑，以及山崩似乎都想要捕猎活物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在勇得，就連地景都是奪命獵手。火山，焦油坑，以及山崩似乎都想要捕獵活物。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[First strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Initiative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daña primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Attacco improvviso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先制攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선제공격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первый удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Iniciativa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[先攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[先攻]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FIRST_STRIKE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature dies, you may put a +1/+1 counter on Rockslide Elemental.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature meurt, vous pouvez mettre un marqueur +1/+1 sur l’Élémental de glissement de roches.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura muera, puedes poner un contador +1/+1 sobre el Elemental de la avalancha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur stirbt, kannst du eine +1/+1-Marke auf das Bergsturz-Elementar legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura muore, puoi mettere un segnalino +1/+1 sull’Elementale Frana Rocciosa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーが１体死亡するたび、崖崩れの精霊の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물이 죽을 때마다, 당신은 낙석 정령에 +1/+1 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо умирает, вы можете положить один жетон +1/+1 на Элементаля Скального Оползня.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura morre, você pode colocar um marcador +1/+1 em Elemental do Deslize de Pedras.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个生物死去时，你可以在崩岩元素上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個生物死去時，你可以在崩岩元素上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD">
+    return TriggerObject() ~= EffectSource() and
+    TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Sacrifice" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

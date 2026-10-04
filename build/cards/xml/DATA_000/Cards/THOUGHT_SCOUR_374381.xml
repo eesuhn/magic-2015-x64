@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="320">
+  <FILENAME text="THOUGHT_SCOUR_374381" />
+  <CARDNAME text="THOUGHT_SCOUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thought Scour]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Écurage de pensée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Depuración de pensamientos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gedanken ausradieren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rovistapensieri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[思（し）考（こう）掃（は）き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생각의 박멸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Промывка Мыслей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Purgar Pensamento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[洗清思想]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[洗清思想]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374381" />
+  <ARTID value="139874" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“As you inject the viscus vitae into the brain stem, don’t let the spastic moaning bother you. It will soon become music to your ears.”
+—Stitcher Geralf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand vous injectez le viscus vitae dans le cervelet, ne vous laissez pas impressionner par les gémissements incontrôlés. Vous les percevrez rapidement comme une mélodie. »
+—Raccommodeur Geralf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mientras inyectas la viscus vitae en el cerebro, no dejes que los gritos espasmódicos te preocupen. Pronto serán música para tus oídos”.
+—Suturador Geralf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn du den viscus vitae in das Stammhirn spritzt, lass dich nicht vom krampfartigen Stöhnen ablenken. Es wird bald schon Musik in deinen Ohren sein.“
+—Geralf der Näher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quando inietti il viscus vitae nello stelo del cervello, non ti far distrarre dal lamento spastico. Ben presto sarà musica per le tue orecchie.”
+—Cucitore Geralf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「脳幹に臓器剤を注入すれば、痙攣性のうめき声など気にならなくなる。すぐに音楽のように聞こえるだろう。」――縫い師、ゲラルフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“뇌간에 '생명내장'을 주입할 때 신음 소리가 날 수도 있는데, 신경 쓰지 마. 얼마 안 가서 넌 그 소리를 즐기게 될 거야.”
+—봉합술사 게랄프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вкалывая жизненные флюиды в мозг, не расстраивайтесь, услышав судорожные стоны. Вскоре они начнут звучать для вас как музыка».
+— сшиватель Геральф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando injetar o viscus vitae no tronco cerebral, não se incomode com os gemidos espasmódicos. Logo serão música para os seus ouvidos.”
+— Suturador Geralf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「将生命精华注入脑干时，别让那些断续呻吟分了心。它很快就会化作耳中美妙乐章。」
+～拼接师基拉夫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「將生命精華注入腦幹時，別讓那些斷續呻吟分了心。它很快就會化作耳中美妙樂章。」
+～拼接師基拉夫]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player puts the top two cards of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé met les deux cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo pone las dos primeras cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl legt die obersten zwei Karten seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio mette nel suo cimitero le prime due carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上から２枚のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 서고 맨 위의 카드 두 장을 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок кладет две верхние карты своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo coloca os dois cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标牌手将其牌库顶的两张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標玩家將其牌庫頂的兩張牌置入其墳墓場。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_MILL_2" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	target:MillCards( 2, EffectSourceLKI() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽一張牌。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_MILL_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to put two cards from the top of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui faire mettre deux cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que ponga dos cartas de la parte superior de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der zwei Karten oben von seiner Bibliothek auf seinen Friedhof legen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che mette nel suo cimitero le prime due carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自分のライブラリーの一番上から２枚のカードを自分の墓地に置くプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자신의 서고 맨 위의 카드 두 장을 무덤에 넣을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен положить две карты с верха своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para colocar dois cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以将其牌库顶的两张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來將其牌庫頂的兩張牌置入其墳墓場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CANTRIP_WHY_PLAY" removal_tag="HINT_CANTRIP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

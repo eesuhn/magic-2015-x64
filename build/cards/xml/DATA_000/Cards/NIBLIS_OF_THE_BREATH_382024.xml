@@ -1,0 +1,169 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="810">
+  <FILENAME text="NIBLIS_OF_THE_BREATH_382024" />
+  <CARDNAME text="NIBLIS_OF_THE_BREATH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Niblis of the Breath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Niblis du souffle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Niblis del aliento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Atem-Nibilis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Niblis del Respiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[息（い）吹（ぶき）のニブリス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[숨결의 니블리스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ниблис Дыхания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Niblis da Respiração]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[吐息寒灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[吐息寒靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382024" />
+  <ARTID value="139726" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Why do the dead remain among us? Where is Flight Alabaster to lead them home? Where is Avacyn?”
+—Eruth of Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pourquoi les défunts restent-ils parmi nous ? Pourquoi le vol d'albâtre ne les conduit-il pas au repos ? Où est Avacyn ? »
+—Eruth de Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Por qué los muertos permanecen con nosotros? ¿Dónde está la Legión Alabastro para llevarlos a casa? ¿Dónde está Avacyn?”.
+—Eruth de Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Warum bleiben die Toten unter uns? Wo ist der Alabasterschwarm, um sie nach Hause zu geleiten? Wo ist Avacyn?“
+—Eruth von Lammholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Perché i morti rimangono in mezzo a noi? Dov’è la Schiera Alabastro per portarli a casa? Dov’è Avacyn?”
+—Eruth di Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々の中に死者が残るのは何故なのでしょう？空翔ける雪花石が導く故郷とはどこなのでしょうか？アヴァシンはどこにいるのでしょうか？」
+――ラムホルトのエルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“왜 망자들이 우리들 사이에 남아있는 것인가? 그들을 인도할 순백 편대는 어디 있는 것인가? 아바신은 어디 있는 것인가?”
+—램홀트의 에루스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Почему мертвецы остаются среди нас? Куда подевался Алебастровый Сонм ангелов, который должен провожать их в новый дом? Где Авацина?»
+— Эрут из Ламбхольта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Por que os mortos permanecem entre nós? Onde está o Bando Alabastro para guiá-los para casa? Onde está Avacyn?”
+— Eruth de Lambholt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「亡者为何留在世上？领我们回家的洁羽在哪里？艾维欣又在哪里？」
+～羊屯的伊如]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「亡者為何留在世上？領我們回家的潔羽在哪裡？艾維欣又在哪裡？」
+～羊屯的伊如]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}, {T}: You may tap or untap target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{U}, {T} : Vous pouvez engager ou dégager la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{U}, {T}: Puedes girar o enderezar la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U}, {T}: Du kannst eine Kreatur deiner Wahl tappen oder enttappen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{U}, {T}: Puoi TAPpare o STAPpare una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{U}, {T}：クリーチャー１体を対象とする。あなたはそれをタップまたはアンタップしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{U}, {T}: 생물 한 개를 목표로 정한다. 당신은 그 생물을 탭하거나 언탭할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{U}, {T}: вы можете повернуть или развернуть целевое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{U}, {T}: Você pode virar ou desvirar a criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{U}，{T}：你可以横置或重置目标生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{U}，{T}：你可以橫置或重置目標生物。]]></LOCALISED_TEXT>
+    <COST mana_cost="{U}" type="Mana" />
+    <COST type="TapSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card~= nil then
+    	if effectController ~= nil then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MC_ANSWER_TAP" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MC_ANSWER_UNTAP" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_MC_TAP_OR_UNTAP_CREATURE", card )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local questionResult = EffectController():GetMultipleChoiceResult()
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if questionResult ~= nil and target ~= nil then
+    	if questionResult == 0 then
+    		target:Tap()
+    	elseif questionResult == 1 then
+    		target:Untap()
+    	end
+    end
+    	
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+    <MAY />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="GHOST_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MC_ANSWER_TAP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Engager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Girar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tappen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[TAPpa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повернуть]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Virar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[横置]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[橫置]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MC_ANSWER_UNTAP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Untap]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dégager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Enderezar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Enttappen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[STAPpa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アンタップ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[언탭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Развернуть]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desvirar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[重置]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[重置]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MC_TAP_OR_UNTAP_CREATURE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to tap or untap this creature?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous engager ou dégager cette créature ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres girar o enderezar esta criatura?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diese Kreatur tappen oder enttappen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi TAPpare o STAPpare questa creatura?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このクリーチャーをタップまたはアンタップしますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 생물을 탭하거나 언탭하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите повернуть или развернуть это существо?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja virar ou desvirar esta criatura?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要横置或重置此生物吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要橫置或重置此生物嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

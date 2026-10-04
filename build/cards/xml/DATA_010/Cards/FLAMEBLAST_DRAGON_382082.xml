@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="FLAMEBLAST_DRAGON_382082" />
+  <CARDNAME text="FLAMEBLAST_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flameblast Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon à la salve de flammes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón ráfaga de llamas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammenstoß-Drache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago Esplosivo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[炎（えん）破（ぱ）のドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화염파 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огнеметный Дракон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão da Explosão Flamejante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[爆焰巨龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[爆焰巨龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382082" />
+  <ARTID value="115242" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{4}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He marks his territory with fire and wrath, etching the mountainside with his charring breath.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il marque son territoire avec le feu et la rage, calcinant le flanc des montagnes de son souffle incandescent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Marca su territorio con ira y fuego, grabando la montaña con su aliento ardiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er markiert sein Territorium mit zornigem Feuer, indem er sein Mal in das Gestein einbrennt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Segna il territorio con fuoco e furia, incidendo il lato della montagna col suo soffio ardente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは火と怒りで縄張りを印し、焼き焦がす息で山肌を刻む。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 용은 산 중턱에 무시무시한 화염을 내뿜어 자신의 영역을 표시한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он метит территорию огнем и гневом, выжигая горные склоны своим пламенным дыханием.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele marca seu território com fogo e ira, entalhando as encostas das montanhas com seu sopro carbonizante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他用火焰与愤怒标记领域，以烧焦一切的吐息刻划山坡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他用火焰與憤怒標記領域，以燒焦一切的吐息刻劃山坡。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Flameblast Dragon attacks, you may pay {X}{R}. If you do, Flameblast Dragon deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Dragon à la salve de flammes attaque, vous pouvez payer {X}{R}. Si vous faites ainsi, le Dragon à la salve de flammes inflige X blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Dragón ráfaga de llamas ataque, puedes pagar {X}{R}. Si lo haces, el Dragón ráfaga de llamas hace X puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Flammenstoß-Drache angreift, kannst du {X}{R} bezahlen. Falls du dies tust, fügt der Flammenstoß-Drache einer Kreatur oder einem Spieler deiner Wahl X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Drago Esplosivo attacca, puoi pagare {X}{R}. Se lo fai, il Drago Esplosivo infligge X danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[炎破のドラゴンが攻撃するたび、クリーチャー１体かプレイヤー１人を対象とする。あなたは{X}{R}を支払ってもよい。そうしたなら、炎破のドラゴンはそれにＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화염파 용이 공격할 때마다, 당신은 {X}{R}을 지불할 수 있다. 그렇게 할 경우, 생물 한 개나 플레이어 한 명을 목표로 정한다. 화염파 용은 그 목표에게 피해 X점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Огнеметный Дракон атакует, вы можете заплатить {X}{R}. Если вы это делаете, Огнеметный Дракон наносит Х повреждений целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Dragão da Explosão Flamejante ataca, você pode pagar {X}{R}. Se fizer isso, Dragão da Explosão Flamejante causará X pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当爆焰巨龙攻击时，你可以支付{X}{R}。若你如此作，则爆焰巨龙对目标生物或牌手造成X点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當爆焰巨龍攻擊時，你可以支付{X}{R}。若你如此作，爆焰巨龍對目標生物或玩家造成X點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if (target_creature ~= nil or target_player ~= nil) and effectController:CanPayManaCost("{R}{X}") then
+    	effectController:PayManaCost("{R}{X}")
+    end
+    </RESOLUTION_TIME_ACTION>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_OR_PLAYER_TO_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( GetEffectX(), target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( GetEffectX(), target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_OR_PLAYER_TO_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물 한 개나 플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, чтобы нанести ему повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador ao qual causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手来对其造成伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_FLAMEBLAST_MANA_PAYMENT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an amount of mana to pay.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une quantité de mana à payer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una cantidad de maná para pagar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme die zu zahlende Menge Mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli la quantità di mana da pagare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[支払うマナの点数を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지불할 마나의 양을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите количество маны, которое хотите заплатить.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha a quantidade de mana a pagar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择要支付的法术力的数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇要支付的魔法力的數量。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

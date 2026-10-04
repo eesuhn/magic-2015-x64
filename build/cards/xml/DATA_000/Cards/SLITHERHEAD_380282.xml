@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="115">
+  <FILENAME text="SLITHERHEAD_380282" />
+  <CARDNAME text="SLITHERHEAD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slitherhead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rampetête]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cabeza resbaladiza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schlitterkopf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Testa Strisciante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[滑（すべ）り頭（あたま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스르륵머리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ползучая Голова]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cabeça Deslizante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[滑地颅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[滑地顱]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380282" />
+  <ARTID value="145926" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{B/G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It makes better use of Uncle Dragi’s head than he ever did.”
+—Pesha, retired blacksmith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La tête de l'oncle Dragi sert enfin à quelque chose. »
+—Pesha, forgeron à la retraite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Utiliza la cabeza de tío Dragi mejor de lo que él la usó jamás”.
+—Pesha, herrero retirado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Er nutzt Onkel Dragis Kopf besser, als der das je getan hat.“
+—Pesha, Schmied im Ruhestand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Usa la testa dello zio Dragi molto meglio di quanto non abbia mai fatto lo zio.”
+—Pesha, fabbro in pensione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ドラーグおじの頭をうまく役に立ててるよ。生きてたときよりずっといい。」
+――鍛冶屋の隠居、ペーシャ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["드라기 삼촌보다 삼촌의 머리를 더 잘 사용하는군."
+—은퇴한 대장장이 페샤]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Даже сам дядюшка Драги не смог бы применить свою голову лучше, чем она используется сейчас».
+— Пеша, бывший кузнец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ela aproveita a cabeça do Tio Dragi melhor do que ele jamais conseguiu.”
+— Pesha, ferreiro aposentado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「它让德基叔叔的脑袋终于有了用处。」
+～退休铁匠佩沙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「牠讓德基叔叔的腦袋終於有了用處。」
+～退休鐵匠佩沙]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scavenge {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Récupération {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Carroñar {0}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausplündern {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mangiacarogne {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[活用 {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[섭취 {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утилизация {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Necrofagia {0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[食腐{0}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[食腐{0}]]></LOCALISED_TEXT>
+    <COST mana_cost="{0}" type="Mana" />
+    <COST type="ExileSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local power = EffectSourceLKI():GetCurrentPower()
+    if target ~= nil then
+    	target:AddCounters( MTG():PlusOnePlusOneCounters(), power)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AVAILABILITY sorcery_time="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_SCAVENGE" body="MORE_INFO_BODY_SCAVENGE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_GRAVEYARD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain +1/+1 counters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner des marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que gane contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +1/+1-Marken erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che ottiene segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터를 얻을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое должно получить жетоны +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

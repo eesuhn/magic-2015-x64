@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="127">
+  <FILENAME text="BARONY_VAMPIRE_374221" />
+  <CARDNAME text="BARONY_VAMPIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Barony Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vampire de la baronnie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vampiro de la Baronía]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Herrschaftsvampir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vampira Baronessa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[男（だん）爵（しゃく）領（りょう）の吸（きゅう）血（けつ）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[남작 영지의 흡혈귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вампир Баронских Владений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vampiro do Baronato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[庄园吸血鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[莊園吸血鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374221" />
+  <ARTID value="129093" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Poor little sun-dweller out past curfew. And to think, you might have survived if it wasn’t so close to suppertime.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pauvre petit adorateur du soleil, dehors après le couvre-feu. Quand j'y pense, tu aurais probablement survécu si ce n'était pas l'heure du souper. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Pobre morador diurno, paseando después del toque de queda. Y pensar que podrías haber sobrevivido si no fuera la hora de la cena”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Armes kleines Tagelichtwesen, das nach der Sperrstunde noch draußen war. Und du hättest sogar vielleicht überlebt, wenn es nicht gerade Abendbrotzeit gewesen wäre.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Povero piccolo amante del sole ancora fuori dopo il coprifuoco. E pensare che avresti potuto sopravvivere se non fosse quasi ora di cena.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「晩鐘を過ぎてなお戻らぬ、哀れで小さき陽の住人よ。思うに、食事の時にこれほど近くなければ、お前も生き延びたかも知れぬにな。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“낮에나 싸돌아다닐 것이지, 지금은 통행금지 시간일 텐데? 저녁 식사 시간만 아니었다면 너를 보내줄 수도 있었을 텐데 말이야.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Дневной обитатель, бедняжка, остался на улице в вечерний час. А ведь он мог бы выжить, если бы ужин был не так скоро».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Pobre habitante do sol que não respeitou o toque de recolher. E pensar que você poderia ter sobrevivido se não fosse quase hora do jantar.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「可怜的阳光子民，怎会在宵禁时刻出门呢。想想看，要不是那么接近晚餐时分，你说不定还能活下去。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「可憐的陽光子民，怎會在宵禁時刻出門呢。想想看，要不是那麼接近晚餐時分，你說不定還能活下去。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

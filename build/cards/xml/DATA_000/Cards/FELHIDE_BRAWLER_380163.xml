@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="FELHIDE_BRAWLER_380163" />
+  <CARDNAME text="FELHIDE_BRAWLER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Felhide Brawler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bagarreur Fangepeau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pendenciero pielacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schauderbalg-Raufbold]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lottatore Velloirsuto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪（あく）魔（ま）の皮（かわ）の喧（けん）嘩（か）屋（や）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[썩은가죽 싸움꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скверношкурый Буян]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rufião Courovil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[惊怖喧哗兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[驚怖喧嘩兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380163" />
+  <ARTID value="152028" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burial rites among the Felhide minotaurs involve devouring those who fell in battle, to remove their shame from memory and to fuel the survivors’ revenge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les rites d'inhumation des minotaures Fangepeau impliquent de dévorer ceux qui sont tombés au combat, pour effacer leur honte de la mémoire et nourrir le désir de vengeance des survivants.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como parte de los rituales funerarios de los minotauros pielacre se acostumbra devorar a los caídos en la batalla, para borrar su deshonra de la memoria y potenciar la venganza de los supervivientes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Bestattungsritual der Schauderbalg-Minotauren besteht darin, die im Kampf gefallenen Minotauren zu verschlingen, damit ihre Schande vergessen wird und die Überlebenden für die Rache gestärkt sind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I riti di sepoltura dei minotauri Velloirsuti prevedono che i caduti in battaglia siano divorati, per rimuovere l’onta dalla memoria e per alimentare la vendetta dei sopravvissuti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪魔の皮のミノタウルスの弔いの儀の中に、戦いに倒れた仲間を喰らうというしきたりがある。記憶からその者の恥辱をそそぎ、残った者たちの復讐心を煽り立てるためである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[썩은가죽 미노타우로스들의 매장 의식은 죽은 전우의 시체를 먹는 것이다. 그들로 인한 수치를 기억에서 지우고 살아남은 자들이 복수심을 불태우게 하기 위해서이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Среди жестоких обрядов Скверношкурых минотавров есть ритуал пожирания павших в битве. Так их позор стирается из памяти, а выжившие получают силы, чтобы отомстить.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os rituais funerários entre os minotauros Courovil envolvem devorar aqueles que foram mortos em batalha para remover sua vergonha da memória e alimentar a vingança dos sobreviventes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[惊怖族牛头怪在葬礼中会吞食战死者的尸体，藉以忘掉耻辱，增强幸存者的复仇心。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[驚怖族牛頭怪在葬禮中會吞食戰死者的屍體，藉以忘掉恥辱，增強倖存者的復仇心。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Felhide Brawler can’t block unless you control another Minotaur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Bagarreur Fangepeau ne peut pas bloquer à moins que vous ne contrôliez un autre minotaure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Pendenciero pielacre no puede bloquear a menos que controles otro Minotauro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Schauderbalg-Raufbold kann nicht blocken, falls du nicht einen anderen Minotaurus kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Lottatore Velloirsuto non può bloccare a meno che tu non controlli un altro Minotauro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが他のミノタウルスをコントロールしていないかぎり、悪魔の皮の喧嘩屋ではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 다른 미노타우르스를 조종하지 않는 한, 썩은가죽 싸움꾼은 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скверношкурый Буян не может блокировать, если только вы не контролируете другого Минотавра.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rufião Courovil não pode bloquear a menos que você controle outro Minotauro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[除非你操控另一个牛头怪，否则惊怖喧哗兵不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[除非你操控另一個牛頭怪，否則驚怖喧嘩兵不能進行阻擋。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local effectSource = EffectSource()
+    local filter = ClearFilter()
+    filter:Add(FE_SUBTYPE, OP_IS, CREATURE_TYPE_MINOTAUR)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource())
+    local numCreatures = filter:CountStopAt(1)
+    if numCreatures == 0 then
+    	effectSource:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

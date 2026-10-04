@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="CAPTAIN_OF_THE_WATCH_378356" />
+  <CARDNAME text="CAPTAIN_OF_THE_WATCH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Captain of the Watch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Capitaine des veilleurs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Capitán de la Guardia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hauptmann der Wache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capitano della Guardia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警（けい）備（び）隊（たい）長（ちょう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경비대 대장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Капитан Стражи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Capitão da Vigilância]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[守望队长]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[守望隊長]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378356" />
+  <ARTID value="121658" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{4}{W}{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachsamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cautela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бдительность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vigilância]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_VIGILANCE" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Soldier creatures you control get +1/+1 and have vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Soldat que vous contrôlez gagnent +1/+1 et ont la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Soldado que controlas obtienen +1/+1 y tienen vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Soldat-Kreaturen, die du kontrollierst, erhalten +1/+1 und haben Wachsamkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Soldato che controlli prendono +1/+1 e hanno cautela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他の兵士・クリーチャーは、＋１/＋１の修整を受けるとともに警戒を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 병사 생물들은 +1/+1을 받고 경계를 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Солдаты под вашим контролем получают +1/+1 и имеют Бдительность.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Soldado que você controla recebem +1/+1 e têm vigilância.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的其他士兵生物得+1/+1且具有警戒异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的其他士兵生物得+1/+1並具有警戒異能。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_SOLDIER )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_VIGILANCE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Captain of the Watch enters the battlefield, put three 1/1 white Soldier creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Capitaine des veilleurs arrive sur le champ de bataille, mettez trois jetons de créature 1/1 blanche Soldat sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Capitán de la Guardia entre al campo de batalla, pon tres fichas de criatura Soldado blancas 1/1 en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Hauptmann der Wache ins Spiel kommt, bringe drei 1/1 weiße Soldat-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Capitano della Guardia entra nel campo di battaglia, metti sul campo di battaglia tre pedine creatura Soldato 1/1 bianche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警備隊長が戦場に出たとき、白の１/１の兵士・クリーチャー・トークンを３体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경비대 대장이 전장에 들어올 때, 1/1 백색 병사 생물 토큰 세 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Капитан Стражи выходит на поле битвы, положите на поле битвы три фишки существа 1/1 белый Солдат.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Capitão da Vigilância entrar no campo de batalha, coloque no campo de batalha três fichas de criatura brancas 1/1 do tipo Soldado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当守望队长进战场时，将三个1/1白色士兵衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當守望隊長進戰場時，將三個1/1白色士兵衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SOLDIER_1_1_W_350806", 3, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="1600" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="2" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SOLDIER_1_1_W_350806" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1050" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

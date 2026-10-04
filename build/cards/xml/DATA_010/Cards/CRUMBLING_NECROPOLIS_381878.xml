@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="199">
+  <FILENAME text="CRUMBLING_NECROPOLIS_381878" />
+  <CARDNAME text="CRUMBLING_NECROPOLIS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crumbling Necropolis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nécropole croulante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Necrópolis desmoronándose]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerfallende Nekropolis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Necropoli in Sfacelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[崩（くず）れゆく死（し）滅（めつ）都（と）市（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무너져가는 네크로폴리스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разрушенный Некрополь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Necrópole Despedaçada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[崩毁古陵寝]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[崩毀古陵寢]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381878" />
+  <ARTID value="115145" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“They say the ruins of Sedraxis were once a shining capital in Vithia. Now it is a blight, a place to be avoided by the living.”
+—Olcot, Rider of Joffik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« On raconte que les ruines de Sedraxis sont les restes d'une capitale de Vithia autrefois scintillante. Aujourd'hui, c'est un fléau, un lieu que tous les vivants doivent éviter. »
+—Olcot, cavalier de Joffik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Dicen que las ruinas de Sedraxis fueron alguna vez la hermosa capital de Vithia. Ahora es un lugar desolador que los vivos deben evitar”.
+—Olcot, jinete de Joffik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es wird gesagt, dass die Ruinen von Sedraxis einst die blühende Hauptstadt von Vithia waren. Jetzt sind sie verschandelt, ein Ort, den die Lebenden meiden.“
+—Olcot, Reiter aus Joffik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dicono che le rovine di Sedraxis un tempo fossero una scintillante capitale in Vithia. Ora sono in degrado, un luogo che ogni essere vivente deve evitare.”
+—Olcot, Cavaliere di Joffik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「セドラクシスの廃墟は、かつてはヴィティアの輝かしき首都だったそうだ。今では荒廃した、生けるものが避けるべき場所だ。」――ジョフィックの騎兵、オルコット]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["세드락시스 폐허는 한때 비티아의 영광스러운 수도였다고 한다. 하지만 지금은 생명이 존재하지 않는 황무지다."
+—조픽 기수 올코트]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Говорят, что когда-то руины Седраксиса были сверкающей столицей Витии. Ныне это гиблое место, и живые должны обходить его стороной».
+— Олькот, наездник Джоффика]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Dizem que as ruínas de Sedraxis já foram uma resplandecente capital em Vithia. Agora não passam de escombros, um local a ser evitado pelos vivos.”
+— Olcot, Cavaleiro de Joffik]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「据说塞卓基司曾是威西亚帝国的美丽首都。现在却是枯萎、生人勿近的地方。」
+～裘非骑兵团的傲克]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「據說塞卓基司曾是威西亞帝國的美麗首都。現在卻是枯萎、生人勿近的地方。」
+～裘非騎兵團的傲克]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Crumbling Necropolis enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Nécropole croulante arrive sur le champ de bataille engagée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Necrópolis desmoronándose entra al campo de batalla girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Zerfallende Nekropolis kommt getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Necropoli in Sfacelo entra nel campo di battaglia TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[崩れゆく死滅都市はタップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무너져가는 네크로폴리스는 탭된 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разрушенный Некрополь выходит на поле битвы повернутым.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Necrópole Despedaçada entra no campo de batalha virada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[崩毁古陵寝须横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[崩毀古陵寢須橫置進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+        TriggerObject():Tap()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {U}, {B}, or {R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {U}, {B} ou {R} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {U}, {B}, o {R} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {U}, {B} oder {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {U}, {B} o {R} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{U}か{B}か{R}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {U}, {B} 또는 {R}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {U}, {B} или {R} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {U}, {B} ou {R} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{U}，{B}，或{R}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{U}，{B}或{R}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{U/B/R}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

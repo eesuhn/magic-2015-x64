@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="STORMBLOOD_BERSERKER_382089" />
+  <CARDNAME text="STORMBLOOD_BERSERKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stormblood Berserker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Berserker sangorage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Berserker tormenta de sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sturmblut-Berserker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Berserker Sangue Tempestoso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵐（らん）血（けつ）の狂（きょう）戦（せん）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[폭풍혈 광전사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Берсерк Буйной Крови]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Amoque do Sangue Tempestuoso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腥风狂战士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腥風狂戰士]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382089" />
+  <ARTID value="134156" />
+  <ARTIST name="Min Yum" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blood is holy to those whose god is War.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le sang n'est sacré que pour ceux qui vénèrent la Guerre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La sangre es sagrada para aquellos cuyo dios es la guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Blut ist denen heilig, deren Gott der Krieg ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il sangue è sacro per coloro il cui dio è la Guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦争が神である者にとって、血は聖なるものである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전쟁을 신으로 섬기는 자에게 피는 신성함의 상징이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровь — это святое для тех, чей бог — Война.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O sangue é sagrado para aqueles cujo deus é a Guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[有些人把战争当神拜，鲜血则是圣物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[有些人把戰爭當神拜，鮮血則是聖物。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Berserker" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodthirst 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Soif de sang 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sed de sangre 2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutdurst 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sete di sangue 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狂喜２]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피굶주림 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровожадность 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sede de sangue 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[嗜血2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[嗜血2]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local num_starting_players = MTG():GetNumberOfStartingPlayers()
+    for i=0,(num_starting_players-1) do
+       	local player = MTG():GetNthStartingPlayer(i)
+    	
+      	if (player ~= nil and player:GetTeam() ~= EffectController():GetTeam()) then
+    		local interrogation = MTG():ClearInterrogationQuery()
+    		interrogation:SetSecondaryPlayer(player)
+    			
+    		if interrogation:Test( INTERROGATE_DAMAGE_DEALT, INTERROGATE_THIS_TURN ) then
+    			--bloodthirst!
+    			EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 2 ) 
+    			return
+    		end
+       	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stormblood Berserker can’t be blocked except by two or more creatures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Berserker sangorage ne peut pas être bloqué excepté par deux créatures ou plus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Berserker tormenta de sangre no puede ser bloqueado excepto por dos o más criaturas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Sturmblut-Berserker kann nicht geblockt werden, außer von zwei oder mehr Kreaturen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Berserker Sangue Tempestoso non può essere bloccato tranne che da due o più creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵐血の狂戦士は、２体以上のクリーチャーによってしかブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[폭풍혈 광전사는 두 개 이상의 생물에게만 방어될 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Берсерк Буйной Крови не может быть заблокирован менее чем двумя существами.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Amoque do Sangue Tempestuoso só pode ser bloqueado por duas ou mais criaturas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腥风狂战士只能被两个或更多生物阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腥風狂戰士只能被兩個或更多生物阻擋。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_BLOCKED_EXCEPT_BY_TWO_OR_MORE_CREATURES, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_TITLE_BLOODTHIRST" body="MORE_INFO_BODY_BLOODTHIRST" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

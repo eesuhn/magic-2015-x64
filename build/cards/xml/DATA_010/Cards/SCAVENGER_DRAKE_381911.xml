@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="207">
+  <FILENAME text="SCAVENGER_DRAKE_381911" />
+  <CARDNAME text="SCAVENGER_DRAKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scavenger Drake]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Drakôn nécrophage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Draco carroñero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aasfressender Sceada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Draghetto Saprofago]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴミあさりのドレイク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[청소부 드레이크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дрейк-Падальщик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragonete Rapace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐食龙兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐食龍獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381911" />
+  <ARTID value="115060" />
+  <ARTIST name="Trevor Claxton" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragons consider drakes to be mockeries of their perfection, destroying them on sight.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les considérant comme une insulte à leur perfection, les dragons détruisent les drakôns à vue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los dragones consideran a los dracos una burla a su perfección, y los destruyen en cuanto los ven.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Drachen halten Sceadas für eine Verhöhnung ihrer eigenen Perfektion und vernichten sie, sobald sie welche erblicken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I draghi considerano i draghetti una presa in giro della loro perfezione, quindi li distruggono a vista.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドラゴンはドレイクを完璧な自身に対する紛い物とみなし、目に付くたびに滅ぼしていく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용들은 드레이크들이 스스로의 완벽함을 조롱하는 존재라고 여겨, 드레이크가 보이면 즉시 그것을 죽여버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Драконы считают дрейков насмешкой над собственным совершенством и уничтожают их без всякого промедления.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os dragões vêem os dragonetes como um escárnio à sua perfeição, destruindo-os imediatamente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨龙见到龙兽就杀，觉得这是对完美自身的拙劣模仿。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨龍見到龍獸就殺，覺得這是對完美自身的拙劣模仿。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Drake" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature dies, you may put a +1/+1 counter on Scavenger Drake.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature meurt, vous pouvez mettre un marqueur +1/+1 sur le Drakôn nécrophage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura muera, puedes poner un contador +1/+1 sobre el Draco carroñero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur stirbt, kannst du eine +1/+1-Marke auf den Aasfressenden Sceada legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura muore, puoi mettere un segnalino +1/+1 sul Draghetto Saprofago.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーが１体死亡するたび、ゴミあさりのドレイクの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물이 죽을 때마다, 당신은 청소부 드레이크에 +1/+1 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо умирает, вы можете положить один жетон +1/+1 на Дрейка-Падальщика.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura morre, você pode colocar um marcador +1/+1 sobre Dragonete Rapace.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个生物死去时，你可以在腐食龙兽上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個生物死去時，你可以在腐食龍獸上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD">
+    return TriggerObject() ~= EffectSource() and
+    TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Sacrifice" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

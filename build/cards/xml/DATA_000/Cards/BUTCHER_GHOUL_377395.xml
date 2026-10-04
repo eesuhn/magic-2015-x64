@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="133">
+  <FILENAME text="BUTCHER_GHOUL_377395" />
+  <CARDNAME text="BUTCHER_GHOUL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Butcher Ghoul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goule bouchère]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Necrófago carnicero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schlächterghul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ghoul Macellaio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グールの解（かい）体（たい）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도살자 악귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Упырь-Палач]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carniçal Carniceiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[屠夫食尸鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[屠夫食屍鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377395" />
+  <ARTID value="141795" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Without a mind, it doesn’t fear death. Without a soul, it doesn’t mind killing.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En l'absence de conscience, elle ne craint pas la mort. En l'absence d'âme, elle ne rechigne pas à tuer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sin mente, no puede temer a la muerte. Sin alma, no puede importarle matar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er hat keinen Verstand und daher keine Angst vorm Tod. Er hat keine Seele und daher keine Skrupel, zu töten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Senza una mente, non teme la morte. Senza un’anima, non ha remore a uccidere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[精神がないから、死を恐れない。魂がないから、平気で殺す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생각이 없으니 죽음을 두려워하지 않고, 영혼이 없으니 살상을 꺼리지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не обладая разумом, он не боится смерти. Не обладая душой, он не гнушается убийств.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desprovido de mente, ele não teme a morte. Desprovido de alma, ele não se importa em matar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[没有心灵，就不畏惧死亡。没有灵魂，就不介意杀戮。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沒有心靈，就不畏懼死亡。沒有靈魂，就不介意殺戮。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY badge="BADGE_UNDYING" active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Undying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Survivance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Resiliencia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unverwüstlich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immortale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нетленность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Imortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不息]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不息]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF ignore_resolution_check="1">
+    if TriggerObject():CountCounters(MTG():PlusOnePlusOneCounters()) == 0 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(0)
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	EffectDC():Protect_CardPtr( COMPARTMENT_ID_PARAM_TRIGGER_OBJECT )
+    	TriggerObject():PutOntoBattlefield( TriggerObject():GetOwner() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1" active_zone="ZONE_TRANSITION">
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_34" body="MORE_INFO_BADGE_BODY_34" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="580">
+  <FILENAME text="TREASURED_FIND_378338" />
+  <CARDNAME text="TREASURED_FIND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Treasured Find]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Trouvaille]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hallazgo preciado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geschätzter Fund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ritrovamento Prezioso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貴（き）重（ちょう）な発（はっ）見（けん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소중한 발견]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бесценная Находка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Descoberta Preciosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[珍视宝物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[珍視寶物]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378338" />
+  <ARTID value="145205" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{B}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gorgons crave beautiful things: gems, exquisite amulets, the alabaster corpses of the petrified dead . . .]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les gorgones apprécient les jolies choses : les pierres précieuses, les belles amulettes, le corps d'albâtre de leurs victimes pétrifiées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las gorgonas ansían cosas bellas: gemas, amuletos exquisitos, los cadáveres de alabastro de los muertos petrificados…]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gorgos begehren schöne Dinge: Edelsteine, exquisite Amulette und die Alabasterkörper der versteinerten Toten …]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le gorgoni amano le cose belle: gemme, eleganti amuleti, i cadaveri di alabastro dei morti pietrificati...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴルゴンは美しいものに目がない。宝石や精巧な護符、そして石となって命を落とした者達の雪花石の像……。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고르곤들은 보석, 정교한 부적, 석화되어 죽은 자의 창백한 시체와 같은 아름다운 물건들을 갈망한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горгоны занимаются резьбой по различным материалам — по драгоценным камням, изысканным амулетам и алебастровым телам мертвецов, обращенных в камень.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As górgonas entalham coisas belas: pedras preciosas, amuletos exóticos, os cadáveres de alabastro dos mortos petrificados...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛇发妖热爱美丽的东西：宝石、精致护符、白净光滑的石化尸骸...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蛇髮妖熱愛美麗的東西：寶石、精緻護符、白淨光滑的石化屍骸...]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target card from your graveyard to your hand. Exile Treasured Find.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez une carte ciblée depuis votre cimetière dans votre main. Exilez la Trouvaille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la carta objetivo de tu cementerio a tu mano. Exilia el Hallazgo preciado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Karte deiner Wahl aus deinem Friedhof auf deine Hand zurück. Schicke den Geschätzten Fund ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Riprendi in mano una carta bersaglio dal tuo cimitero. Esilia il Ritrovamento Prezioso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるカード１枚を対象とし、それをあなたの手札に戻す。貴重な発見を追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 카드 한 장을 목표로 정한다. 그 카드를 당신의 손으로 되돌린다. 소중한 발견을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевую карту из вашего кладбища в вашу руку. Изгоните Бесценную Находку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva o card alvo de seu cemitério para sua mão. Exile Descoberta Preciosa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标牌从你的坟墓场移回你手上。放逐珍视宝物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標牌從你的墳墓場移回你手上。放逐珍視寶物。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_name="Graveyard" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に加えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar em sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RECURSION_WHY_PLAY" removal_tag="HINT_SPELL_RECURSION_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

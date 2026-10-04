@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="SURVIVAL_CACHE_377484" />
+  <CARDNAME text="SURVIVAL_CACHE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Survival Cache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cache de survie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reserva de supervivencia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Notfalllager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nascondiglio di Sopravvivenza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生（い）き残（のこ）りの隠（かく）し場（ば）所（しょ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비상용품]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Запас для Выживания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esconderijo de Sobrevivência]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[避难密储]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[避難密儲]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377484" />
+  <ARTID value="127332" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{2}{W}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 2 life. Then if you have more life than an opponent, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez 2 points de vie. Ensuite, si vous avez plus de points de vie qu’un adversaire, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ganas 2 vidas. Luego, si tienes más vidas que un oponente, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst 2 Lebenspunkte dazu. Falls du dann mehr Lebenspunkte als ein Gegner hast, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni 2 punti vita. Poi se hai più punti vita di un avversario, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは２点のライフを得る。その後、あなたのライフが対戦相手よりも多いなら、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 생명 2점을 얻는다. 그런 다음 당신의 생명총점이 상대의 생명총점보다 높으면 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 2 жизни. Затем, если у вас больше жизней, чем у оппонента, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 2 pontos de vida. Em seguida, se tiver mais pontos de vida do que um oponente, compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你获得2点生命。然后如果你的生命比某位对手多，则抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你獲得2點生命。然後如果你的生命比某位對手多，則抽一張牌。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(2 )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local myLifeTotal = effectController:GetLifeTotal()
+    local numPlayers = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayers-1) do
+    	local currentPlayer = MTG():GetNthPlayer(i)
+    	if currentPlayer ~= nil and currentPlayer ~= effectController then
+    		local currentLifeTotal = currentPlayer:GetLifeTotal()
+    		if myLifeTotal &gt; currentLifeTotal then
+    			effectController:DrawCards(1)
+    			break
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rebound]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Rebond]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rebote.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abprall]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ripresa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[反復]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[반동]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отскок]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rebote]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[弹回]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[彈回]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if effectSource:GetErstwhileZone() == ZONE_HAND then
+    	local delayDC = EffectDC():Make_Chest(3)
+    	delayDC:Set_CardPtr(0, effectSource)
+    	MTG():CreateDelayedTrigger(2, delayDC)
+    	effectSource:Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY resource_id="2">
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	effectController:BeginNewMultipleChoice()   
+    	effectController:AddMultipleChoiceAnswer( "CARD_QUERY_CASCADE_CAST_SPELL", effectController:CanCastSpellForFree( EffectSource() )  )  
+    	effectController:AddMultipleChoiceAnswer( "CARD_QUERY_CASCADE_DO_NOT_CAST" )   
+    	effectController:AskMultipleChoiceQuestion( "CARD_QUERY_MC_REBOUND_THIS_SPELL", EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectSource()
+    local result = EffectController():GetMultipleChoiceResult()
+    if card ~= nil then
+    	if result == 0 and EffectController():CanCastSpellForFree(card) then
+    		EffectController():CastSpellForFree(card)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REBOUND" body="MORE_INFO_BODY_REBOUND" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CASCADE_CAST_SPELL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast the spell. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez le sort. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza el hechizo. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Zauberspruch wirken. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia la magia. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文を唱える。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 발동한다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть заклинание. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar a mágica. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放该咒语。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放該咒語。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CASCADE_DO_NOT_CAST">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not cast the spell.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne lancez pas le sort.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No lanzar el hechizo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Zauberspruch nicht wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non lanciare la magia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文を唱えない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 발동하지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не разыгрывать заклинание.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não conjurar a mágica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不施放该咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不施放該咒語。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MC_REBOUND_THIS_SPELL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do you want to rebound this spell?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous utiliser le rebond pour ce sort ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres hacer que este hechizo rebote?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diesen Zauberspruch abprallen lassen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vorresti lanciare di nuovo questa magia?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[この呪文を反復しますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 주문의 반동 능력을 사용하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите сделать Отскок этому заклинанию?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja que esta mágica tenha rebote?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你是否要弹回此咒语？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你是否要彈回此咒語？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

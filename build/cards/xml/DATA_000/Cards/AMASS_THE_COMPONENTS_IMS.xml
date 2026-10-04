@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="2">
+  <FILENAME text="AMASS_THE_COMPONENTS_IMS" />
+  <CARDNAME text="AMASS_THE_COMPONENTS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Amass the Components]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Accumulation de composants]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reunir los componentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zutatensammlung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cumulo di Cianfrusaglie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[材（ざい）料（りょう）集（あつ）め]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[재료 모으기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Собрать Ингредиенты]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Acumular Componentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[积聚配方]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[積聚配方]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="32" />
+  <ARTID value="141774" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I knew I’d find a use for all that newt spittle!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je savais bien que cette bave de salamandre me servirait un jour ! »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Sabía que terminaría usando toda esa baba de salamandra!”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich wusste, dass ich die ganze Molchspucke eines Tages noch brauchen würde!“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sapevo che avrei trovato un modo per usare tutta quella saliva di tritone.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「イモリの唾の用途はきっと見つかると思ってたんだ！」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“도롱뇽 침을 언젠가 쓰게 될 줄 알았지!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я знала, что слюна тритона мне когда-нибудь пригодится!»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu sabia que toda aquela saliva de salamandra seria útil!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我就知道那些蝾螈唾液会有用处！」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我就知道那些蠑螈唾液會有用處！」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards, then put a card from your hand on the bottom of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez trois cartes, puis mettez une carte de votre main au-dessous de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba tres cartas, luego pon una carta de tu mano en el fondo de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe drei Karten und lege dann eine Karte aus deiner Hand unter deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca tre carte, poi metti una carta dalla tua mano in fondo al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを３枚引き、その後あなたの手札にあるカードを１枚、あなたのライブラリーの一番下に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 세 장을 뽑은 후, 당신의 손에 있는 카드 한 장을 당신의 서고 맨 밑에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите три карты, затем положите карту из вашей руки в низ вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre três cards e depois coloque um card de sua mão no fundo de seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓三张牌，然后将一张牌从你手上置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽三張牌，然後將一張牌從你手上置於你的牌庫底。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(3)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_HAND, EffectController() )
+    EffectController():SetItemCount( 1 )
+    for i = 0,(1-1) do
+    	EffectController():SetItemPrompt (i, "CARD_QUERY_CHOOSE_A_CARD_TO_PUT_ON_THE_BOTTOM_OF_LIBRARY" )
+    end
+    EffectController():ChooseItems( EffectDC():Make_Targets(1) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if target ~= nil then
+    	target:PutOnBottomOfLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if MTG():IsMainDuel() == false then
+    	EffectController():AddPlayScore(100000)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_ON_THE_BOTTOM_OF_LIBRARY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put on the bottom of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre au-dessous de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en el fondo de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du unter deine Bibliothek legst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da mettere in fondo al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番下に置くカードを選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[서고 맨 밑에 넣을 카드를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в низ вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar no fundo do seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要置于你牌库底的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張要置於你牌庫底的牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

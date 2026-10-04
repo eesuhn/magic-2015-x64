@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="576">
+  <FILENAME text="QUICKEN_382112" />
+  <CARDNAME text="QUICKEN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quicken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Promptitude]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Apresurar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Beschleunigen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Velocizzare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[急（せ）かし]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가속화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разгон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Acelerar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[加快]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[加快]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382112" />
+  <ARTID value="91653" />
+  <ARTIST name="Aleksi Briclot" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A skilled Izzet chronarch can carry out an epic vendetta between the fall of one hourglass grain and the next.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Un chronarque izzet expérimenté peut mener une vendetta entre la chute d'un grain de sable et celle du suivant dans un sablier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un cronarca ízzet hábil puede resolver una vendetta épica entre la caída de dos granos de un reloj de arena.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein talentierter Izzet-Chronarch kann einen ganzen Rachefeldzug mit epischen Ausmaßen durchführen, während ein einzelnes Sandkorn durch die Sanduhr rutscht.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un cronarca Izzet esperto è in grado di portare a termine un’epica vendetta nell’istante che separa la caduta di due granelli di sabbia nella clessidra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[熟練のイゼットの時術師は、砂時計の砂が一粒落ちる間に、大々的な復讐を実行することができる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[능숙한 이젯 시간술사는 모래시계의 모래 한 알갱이가 떨어지는 사이에 엄청난 공격 주문을 구사할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Умелый иззетский хроновед может осуществить грандиозную вендетту в промежуток между падением двух песчинок в часах.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um cronarca Izzet habilidoso é capaz de realizar uma vendeta épica entre o cair de um grão de uma ampulheta e outro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[技艺纯熟的伊捷时法师，能在沙漏两粒沙落下的时间差里完成一回壮绝复仇。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[技藝純熟的伊捷時法師，能在沙漏兩粒沙落下的時間差裡完成一回壯絕復仇。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The next sorcery card you cast this turn can be cast as though it had flash.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La prochaine carte de rituel que vous lancez ce tour-ci peut être lancée comme si elle avait le flash.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La próxima carta de conjuro que lances este turno se puede lanzar como si tuviera la habilidad de destello.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die nächste Hexereikarte, die du in diesem Zug wirkst, kann gewirkt werden, als ob sie Aufblitzen hätte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La prossima carta stregoneria che lanci in questo turno può essere lanciata come se avesse lampo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターン、あなたは次に唱えるソーサリー・カードを、それが瞬速を持っているかのように唱えてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 이 턴에 발동하는 다음 집중마법 카드는 섬광을 가진 것처럼 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Следующая карта волшебства, которую вы разыграете в этом ходу, может быть разыграна, как будто у нее есть Миг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O próximo card de feitiço que você conjurar neste turno poderá ser conjurado como se tivesse lampejo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你于本回合中下一次施放的法术牌能视同具有闪现异能地来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你於本回合中下一次施放的巫術牌能視同具有閃現異能地來施放。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC_A = EffectDC():Make_Chest(1)
+    local delayDC_B = EffectDC():Make_Chest(2)
+    MTG():CreateDelayedTrigger(1, delayDC_A)
+    MTG():CreateDelayedTrigger(2, delayDC_B)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽一張牌。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1">
+    <TRIGGER value="CONSIDERED_FOR_CAST" simple_qualifier="controller" pre_trigger="1">
+    if (TriggerObject() ~= nil) and (TriggerObject():GetCardType():Test(CARD_TYPE_SORCERY)) then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():GrantPseudoFlash()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="2">
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetCardType():Test( CARD_TYPE_SORCERY ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    -- turns off other delayed trigger
+    MTG():RemoveDelayedTrigger(1)
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="60" resource_type="SORCERY" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_12" body="MORE_INFO_BADGE_BODY_12" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_WEIRD_WHY_PLAY" removal_tag="HINT_SPELL_WEIRD_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

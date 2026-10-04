@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="WHERE_ANCIENTS_TREAD_381925" />
+  <CARDNAME text="WHERE_ANCIENTS_TREAD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Where Ancients Tread]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Là où marchent les Anciens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Refugio de ancestros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wo die Ahnen schreiten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dove Camminano Gli Antichi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[古（こ）霊（れい）の踏（ふ）み行（ゆ）く処（ところ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고대인이 거닐던 곳]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Где Ступала Нога Древних]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Onde Marcham os Anciãos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[先祖行迹]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[先祖行跡]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381925" />
+  <ARTID value="115148" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{4}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Never subtle nor cryptic is the reckoning of the mighty.”
+—Mayael the Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le jugement des puissants n'est jamais subtile ou cryptique. »
+—Mayael l'Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La venganza de los poderosos nunca es sutil o críptica”.
+—Mayael el Ánima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Rache der Mächtigen ist niemals subtil oder geheimnisvoll.“
+—Mayael die Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non è mai astruso né enigmatico determinare la posizione dei potenti.”
+—Mayael l’Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「力あるものの定めは、難しくも複雑でもありません。」――アニマのメイエル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["강한 자는 정정당당하고 직선적이다."
+—애니마 마야엘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Расплата сильных не бывает ни изящной, ни тайной».
+— Майел, Святая Анима]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A avaliação do poderoso jamais é sutil ou obscura.”
+— Mayael, a Anima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「难以捉摸与隐密都无法用来测度强者。」
+～谕灵梅燕]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「難以捉摸與隱密都無法用來測度強者。」
+～諭靈梅燕]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature with power 5 or greater enters the battlefield under your control, you may have Where Ancients Tread deal 5 damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature de force supérieure ou égale à 5 arrive sur le champ de bataille sous votre contrôle, vous pouvez faire que Là où marchent les Anciens inflige 5 blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura con fuerza de 5 o más entre al campo de batalla bajo tu control, puedes hacer que el Refugio de ancestros le haga 5 puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur mit Stärke 5 oder mehr unter deiner Kontrolle ins Spiel kommt, kannst du Wo die Ahnen schreiten einer Kreatur oder einem Spieler deiner Wahl 5 Schadenspunkte zufügen lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura con forza pari o superiore a 5 entra nel campo di battaglia sotto il tuo controllo, puoi fare infliggere da Dove Camminano Gli Antichi 5 danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[パワーが５以上のクリーチャーが１体あなたのコントロール下で戦場に出るたび、クリーチャー１体かプレイヤー１人を対象とする。あなたは「古霊の踏み行く処はそれに５点のダメージを与える。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 조종하에 공격력이 5 이상인 생물이 전장에 들어올 때마다, 당신은 생물 한 개 또는 플레이어 한 명을 목표로 정한다. 당신은 고대인이 거닐던 곳이 그 목표에게 피해 5점을 입히게 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо с силой 5 или больше выходит на поле битвы под вашим контролем, вы можете заставить Где Ступала Нога Древних нанести 5 повреждений целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura com poder maior ou igual a 5 entra em jogo sob o seu controle, você pode fazer com que Onde Marcham os Anciãos cause 5 pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个力量等于或大于5的生物在你的操控下进战场时，你可以让先祖行迹对目标生物或牌手造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個力量大於或等於5的生物在你的操控下進戰場時，你可以讓先祖行跡對目標生物或玩家造成5點傷害。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    if TriggerObject():GetCardType():Test(CARD_TYPE_CREATURE) then
+    	if TriggerObject():GetCurrentCharacteristics():Power_Get() &gt; 4 then
+    		return true
+    	else
+    		return false
+    	end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_5_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 5, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 5, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_5_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 5 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 5 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 5 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 5 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 5 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[５点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 5점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 5 повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 5 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成5點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

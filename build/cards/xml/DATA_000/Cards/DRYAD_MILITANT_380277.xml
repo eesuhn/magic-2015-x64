@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="DRYAD_MILITANT_380277" />
+  <CARDNAME text="DRYAD_MILITANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dryad Militant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Militante dryade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dríada militante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Militante Dryade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Driade Militante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドライアドの闘（とう）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[호전적 드라이어드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воинственная Дриада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Militante Dríade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[好斗树灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[好鬥樹靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380277" />
+  <ARTID value="145180" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{G/W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We will defend the Worldsoul from Izzet ‘progress’ at any cost.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous défendrons à tout prix l'Âme du monde contre les prétendus progrès des Izzet. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Defenderemos el Alma del mundo del 'progreso' ízzet a cualquier precio”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir werden die Weltenseele um jeden Preis gegen den ‚Fortschritt‘ der Izzet verteidigen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Difenderemo l’Anima del Mondo dal ‘progresso’ degli Izzet a ogni costo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私達はどんな犠牲を払おうともイゼットの『進歩』から世界魂を守り抜く。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["어떤 대가를 치르더라도 이젯의 '진보'로부터 세계의 영혼을 지킬 것이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы защитим Всесознание от иззетского "прогресса" — любой ценой».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Vamos defender a Grande Anima do 'progresso' dos Izzet a qualquer custo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们将不计代价捍卫世界之魂，对抗来自伊捷的『进步』。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們將不計代價捍衛世界之魂，對抗來自伊捷的『進步』。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dryad" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an instant or sorcery card would be put into a graveyard from anywhere, exile it instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si une carte d’éphémère ou de rituel devait être mise dans un cimetière d’où qu’elle vienne, exilez-la à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si una carta de instantáneo o de conjuro fuera a ser puesta en un cementerio desde cualquier parte, en vez de eso, exíliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls eine Spontanzauber- oder Hexereikarte von irgendwoher auf einen Friedhof gelegt würde, schicke sie stattdessen ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se una carta istantaneo o stregoneria sta per essere messa in un cimitero da qualsiasi zona, invece esiliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[インスタント・カードかソーサリー・カードがいずれかの領域から墓地に置かれるなら、代わりにそれを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[순간마법 또는 집중마법 카드가 어디에서부터든 무덤에 들어가려고 하면, 대신에 그 카드를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если карта мгновенного заклинания или волшебства должна быть положена откуда-либо на кладбище, изгоните ее вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um card de mágica instantânea ou feitiço seria colocado em um cemitério vindo de qualquer lugar, em vez disso, exile-o.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果任一瞬间或法术牌将从任何地方置入坟墓场，改为将它放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果任一瞬間或巫術牌將從任何地方置入墳墓場，改為將它放逐。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_CONSIDERED" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" pre_trigger="1">
+    if (TriggerObject():GetCardType():Test( CARD_TYPE_INSTANT )) or (TriggerObject():GetCardType():Test( CARD_TYPE_SORCERY )) then
+    	override = true
+    	return true
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

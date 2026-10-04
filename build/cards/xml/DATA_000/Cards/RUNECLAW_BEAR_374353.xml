@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="212">
+  <FILENAME text="RUNECLAW_BEAR_374353" />
+  <CARDNAME text="RUNECLAW_BEAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Runeclaw Bear]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ours runegriffe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oso garra de runas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Runenklauenbär]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orso Zampa di Runa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーン爪（づめ）の熊（くま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬발톱 곰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Руннолапый Медведь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Urso Garra de Runa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[符爪熊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[符爪熊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374353" />
+  <ARTID value="121566" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The magic of the elves leaves its mark on the forest. The magic of the forest leaves its mark on the animals who live there. The animals of the forest leave their mark on all who trespass.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La magie des elfes laisse sa marque sur la forêt. La magie de la forêt laisse sa marque sur les animaux qui y vivent. Les animaux de la forêt laissent leur marque sur tous les intrus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La magia de los elfos deja su marca en el bosque. La magia del bosque deja su marca en los animales que lo habitan. Los animales del bosque dejan su marca en todo aquel que lo invade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Magie der Elfen hinterlässt ihre Spuren auf dem Wald. Die Magie des Waldes hinterlässt ihre Spuren auf den Tieren, die dort leben. Die Tiere des Waldes hinterlassen ihre Spuren auf allen, die den Wald betreten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La magia degli elfi lascia il segno sulla foresta. La magia della foresta lascia il segno sugli animali che vi dimorano. Gli animali della foresta lasciano il segno su tutti gli intrusi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルフの魔力は、森にその痕跡を残す。森の魔力は、そこに棲む動物たちにその痕跡を残す森の動物たちは、そこに侵入するすべての者にその痕跡を残す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엘프가 쓰는 마법은 숲에 흔적을 남긴다. 숲의 마법은 그곳에 사는 동물에게 흔적을 남긴다. 숲의 동물들은 숲을 지나가는 사람들에게 흔적을 남긴다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Магия эльфов оставляет свою отметину на лесе. Магия леса оставляет свою отметину на живущих там зверях. Звери леса оставляют свои отметины на незваных гостях.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A magia dos elfos deixa sua marca na floresta. A magia da floresta deixa sua marca nos animais que vivem nela. Os animais da floresta deixam sua marca em todos os transgressores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[妖精的魔法在树林里留下痕迹。树林的魔法在居于此的动物身上留下痕迹。树林里的动物则在擅闯者身上留下痕迹。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[妖精的魔法在樹林裡留下痕跡。樹林的魔法在居於此的動物身上留下痕跡。樹林裡的動物則在擅闖者身上留下痕跡。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bear" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

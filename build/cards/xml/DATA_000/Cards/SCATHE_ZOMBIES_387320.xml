@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="3">
+  <FILENAME text="SCATHE_ZOMBIES_387320" />
+  <CARDNAME text="SCATHE_ZOMBIES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scathe Zombies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zombies dévastateurs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Zombies dañinos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seelenlose Zombies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zombie della Distruzione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スケイズ・ゾンビ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[만신창이 좀비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Смертоносные Зомби]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zumbis de Scathe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[枯萎灵俑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[枯萎灵俑]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="387320" />
+  <ARTID value="28074" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“They groaned, they stirred, they all uprose,
+Nor spake, nor moved their eyes;
+It had been strange, even in a dream,
+To have seen those dead men rise.”
+—Samuel Taylor Coleridge,
+“The Rime of the Ancient Mariner”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Comme un nageur venant du profond de son plonge,
+Tous sortent de la mort, comme l'on sort d'un songe. »
+—Agrippa d'Aubigné,
+La résurrection des morts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Gimieron, se agitaron, todos se levantaron.
+Ni hablaron ni movieron los ojos.
+Hasta en un sueño hubiera sido extraño
+ver a aquellos muertos levantarse”.
+—Samuel Taylor Coleridge,
+“La balada del viejo marinero”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sie stöhnten und bewegten sich, erhoben sich alsbald,
+Sie sprachen nicht, die Augen starr,
+Selbst in ’nem Traum wär’s sonderbar,
+Die Toten aufersteh’n zu seh’n, die blassen Leichen kalt.“
+—Samuel Taylor Coleridge,
+„Die Ballade vom alten Seemann“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Con un gemito, tesero i muscoli e si levarono, 
+non dissero verbo o ruotarono gli occhi;
+era ben strano anche in un sogno,
+vedere i morti rialzarsi dal sonno.”
+—Samuel Taylor Coleridge,
+“La ballata del vecchio marinaio”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「うなり、うごめき、そいつらは立ち上がる。
+言葉もなし、その目に動きもなし。
+それは夢だとしても、あまりに奇妙なこと。
+こんな死人が蘇るなど。」
+――サミュエル・コールリッジ
+「老水夫行」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["신음하고 휘적이며 일어서지만,
+말도 없고 눈알을 움직이지도 않는다.
+아무리 꿈이라도 참 해괴하구나.
+죽인 이가 일어서는 것을 보다니."
+—사뮤엘 테일러 콜릿지,
+"늙은 수부의 노래"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вздохнули, встали, побрели,
+В молчанье, в тишине.
+Я на идущих мертвецов
+Смотрел, как в страшном сне».
+— Сэмюел Тейлор Колридж,
+«Сказание о старом мореходе»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Gemendo se moveram, depois se ergueram,
+Sem falar e sem olhar;
+Mesmo em sonho, era estranho ver os mortos
+Do chão a se levantar.”
+— Samuel Taylor Coleridge,
+“A Balada do Velho Marinheiro”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「它们呻吟、碰撞，站起身来，
+口不言语，眼不理睬；
+看到死人如此复生，
+即使在梦中，还是很古怪。」～山缪·泰勒·柯律芝，
+「古舟子咏」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[“They groaned, they stirred, they all uprose,
+Nor spake, nor moved their eyes;
+It had been strange, even in a dream,
+To have seen those dead men rise.”
+—Samuel Taylor Coleridge,
+“The Rime of the Ancient Mariner”]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

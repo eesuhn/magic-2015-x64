@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="UNCHECKED_GROWTH_381973" />
+  <CARDNAME text="UNCHECKED_GROWTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unchecked Growth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Croissance incontrôlée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Crecimiento descontrolado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ungehemmtes Wachstum]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Crescita Incontrollata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野（の）放（ばな）しの成（せい）長（ちょう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거침없는 성장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бесконтрольный Рост]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Crescimento Incontido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[无拘成长]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[無拘成長]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381973" />
+  <ARTID value="83970" />
+  <ARTIST name="Tsutomu Kawade" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“That energy was once granted to growing things. Now the kami keep it for themselves, releasing it in sudden floods that overwhelm flesh and foliage alike.”
+—Sakiko, Mother of Summer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Cette énergie était autrefois accordée pour la croissance. Désormais, les kami la gardent pour eux, et ils la libèrent tel un flot qui engloutit la chair et la végétation. »
+—Sakiko, mère de l'été]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Esa energía era otorgada antes a todo lo que crecía. Ahora los kami la guardan para ellos, liberándola en oleadas que sobrepasan tanto a la carne como al follaje”.
+—Sakiko, madre del verano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese Energie wurde einst allem gewährt, was am Wachsen war. Nun behalten sie die Kami für sich selbst und geben sie nur in Fluten frei, die Fauna und Flora überwältigen.“
+—Sakiko, Mutter des Sommers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quell’energia era un tempo concessa per crescere le cose. Ora i kami la conservano per i loro scopi, liberandola in ondate improvvise che annientano la carne e le foglie.”
+—Sakiko, Madre dell’Estate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「かつてその力は、物事の成長に向けられし。今や神は己がためにそを留めおき、突如鉄砲水の如きに解き放ちては、肉も葉も同様に押しつぶしぬ。」――夏の母、さき子]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["저 에너지는 전에 만물을 성장시키는 데 사용되었지. 그러나 카미들은 지금 저 에너지로 홍수를 일으켜 모두 휩쓸어 버린다."
+—여름의 어머니 사키코]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Эта сила была дарована им, чтобы помогать чужому росту. Теперь же ками оставляют ее себе, внезапно испуская ее мощными потоками, поражающими и плоть, и растения».
+— Сакико, Мать Лета]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Aquela energia costumava ser fornecida às coisas em crescimento. Agora os kamis guardam-na para si, libertando-a em torrentes inesperadas que esmagam tanto a carne quanto a folhagem.”
+— Sakiko, Mãe do Verão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这能量曾用来令万物成长。而今神明将之收回，只用来引发洪流，将动植物抹煞殆尽。」
+～夏日之母佐季子]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這能量曾用來令萬物成長。而今神明將之收回，只用來引發洪流，將動植物抹煞殆盡。」
+～夏日之母佐季子]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Arcane" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +4/+4 until end of turn. If it’s a Spirit, it gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne +4/+4 jusqu’à la fin du tour. Si c’est un esprit, il acquiert le piétinement jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene +4/+4 hasta el final del turno. Si es un Espíritu, gana la habilidad de arrollar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält +4/+4 bis zum Ende des Zuges. Falls sie ein Geist ist, verursacht sie bis zum Ende des Zuges Trampelschaden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio prende +4/+4 fino alla fine del turno. Se è uno Spirito, ha travolgere fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで＋４/＋４の修整を受ける。それがスピリットであるなら、それはターン終了時までトランプルを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +4/+4를 받는다. 그 생물이 신령이라면 그 생물은 턴종료까지 돌진을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает +4/+4 до конца хода. Если это Дух, оно получает Пробивной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo recebe +4/+4 até o final do turno. Se ela for um Espírito, ela ganha a habilidade de atropelar até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标生物得+4/+4直到回合结束。若它是精怪，则它获得践踏异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標生物得+4/+4直到回合結束。若它是精靈，則它獲得踐踏異能直到回合結束。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	if target:GetSubType():Test(CREATURE_TYPE_SPIRIT) then
+    		EffectDC():Set_Int(1, 1)
+    	else
+    		EffectDC():Set_Int(1, 0)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 4 )
+    	characteristics:Toughness_Add( 4 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local flag = EffectDC():Get_Int(1)
+    if target ~= nil and flag == 1 then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_TRAMPLE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +4/+4 erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋４/＋４の修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+4/+4를 받을 생물 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物得+4/+4。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+4/+4。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

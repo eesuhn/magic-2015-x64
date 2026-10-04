@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="HAVOC_FESTIVAL_374467" />
+  <CARDNAME text="HAVOC_FESTIVAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Havoc Festival]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Festival du Ravage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Festival de devastación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fest der Verwüstung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Festival della Devastazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[騒（そう）乱（らん）の大（たい）祭（さい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대혼란의 축제]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Праздник Опустошения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Festival da Devastação]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[劫难节庆]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[劫難節慶]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374467" />
+  <ARTID value="145967" />
+  <ARTIST name="Johannes Voss" />
+  <CASTING_COST cost="{4}{B}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We can’t control enemies who have no regard for their own survival.”
+—Arrester Lavinia, Tenth Precinct]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il est impossible de contrôler des ennemis qui n'ont aucun égard pour leur propre survie. »
+—Courtière Lavinia, Dixième circonscription]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No podemos controlar a enemigos que no sienten aprecio alguno por su propia supervivencia”.
+—Encarceladora Lavinia, distrito décimo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir können keine Feinde kontrollieren, die keinen Wert auf ihr eigenes Überleben legen.“
+—Eintreiberin Lavinia, Zehntes Revier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non possiamo controllare nemici a cui non interessa sopravvivere.”
+—Lavinia, polizia del Decimo Distretto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「自分の命なんかどうでもいいっていう敵は手に負えないわね。」
+――第10管区の拘引者、ラヴィニア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["죽는 것을 두려워하지 않는 적을 통제하는 건 불가능하다."
+—10번 구역의 체포원 라비니아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы не можем контролировать врага, которому безразлично, выживет он или нет».
+— Задержатель Лавиния, Десятый Округ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não podemos controlar inimigos que não se importam com a própria sobrevivência.”
+— Encarceradora Lavínia, Décima Jurisdição]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们无法掌握不在乎自身安危的敌人。」
+～第十城郊逮捕人拉温妮]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們無法掌握不在乎自身安危的敵人。」
+～第十城郊逮捕人拉溫妮]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Players can’t gain life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les joueurs ne peuvent pas gagner de points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los jugadores no pueden ganar vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spieler können keine Lebenspunkte dazuerhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I giocatori non possono guadagnare punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤーはライフを得られない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어들은 생명점을 얻을 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Игроки не могут получать жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os jogadores não podem ganhar pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌手不能获得生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玩家不能獲得生命。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType ( FILTER_TYPE_PLAYERS )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8" filter_id="0">
+    if FilteredPlayer() ~= nil then
+    	local characteristics = FilteredPlayer():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_CANT_GAIN_LIFE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each player’s upkeep, that player loses half his or her life, rounded up.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de l’entretien de chaque joueur, ce joueur perd la moitié de ses points de vie, arrondie à l’unité supérieure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del mantenimiento de cada jugador, ese jugador pierde la mitad de sus vidas, redondeando hacia arriba.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn des Versorgungssegments jedes Spielers verliert dieser Spieler die Hälfte (aufgerundet) seiner Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del mantenimento di ogni giocatore, quel giocatore perde la metà dei suoi punti vita, arrotondati per eccesso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーのアップキープの開始時に、そのプレイヤーは自分のライフの端数を切り上げた半分を失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어의 유지단 시작에, 그 플레이어는 자신의 생명의 절반을 올림한 만큼의 생명점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале шага поддержки каждого игрока, тот игрок теряет половину своих жизней, округленную в большую сторону.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da manutenção de cada jogador, aquele jogador perde metade de seus pontos de vida, arredondada para cima.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每位牌手的维持开始时，该牌手失去一半生命，小数点后进位。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每位玩家的維持開始時，該玩家失去一半生命，小數點後進位。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local player = TriggerPlayer()
+    if player ~= nil then
+    	local lifeTotal = player:GetLifeTotal()
+    	
+    	local lifeToLose = math.ceil(lifeTotal/2)
+    	
+    	if lifeToLose ~= 0 then 
+    		player:LoseLife(lifeToLose)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

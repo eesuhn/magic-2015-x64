@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+<CARDS>
+<CARD_V2 ExportVersion="6">
+  <FILENAME text="ARMAMENT_CORPS_388076" />
+  <CARDNAME text="ARMAMENT_CORPS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Armament Corps]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Corps de lanciers lourds]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuerpo de infantería]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rüstungskorps]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corpo d’Armamenti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[軍（ぐん）備（び）部（ぶ）隊（たい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[중무장 부대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вооруженный Корпус]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tropas de Armamento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[军备部队]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[軍備部隊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388076" />
+  <ARTID value="157070" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{2}{W}{B}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Abzan avoid extended supply lines by incorporating weapons stores into their battle formations.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Abzans réduisent les lignes d'approvisionnement en incluant des réserves d'armes dans leurs formations de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los Abzan evitan las largas líneas de suministros incorporando armerías en sus formaciones de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Abzan vermeiden lange Nachschubwege, indem sie Waffenläden in ihre Schlachtformationen integrieren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli Abzan evitano le linee di rifornimento troppo estese incorporando i depositi di armi nelle formazioni di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アブザンは武器庫をその戦闘陣形に組み込むことにより、補給線が伸びることを防ぐ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아브잔은 전투 대형에 무기 저장고를 포함해 보급로가 길어지는 것을 방지한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Абзаны не растягивают линии снабжения, устраивая склады оружия непосредственно в боевых подразделениях.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os Abzan evitam grandes linhas de suprimento incorporando estoques de armas em suas formações de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿布赞将武器店铺也纳入阵中，避免补给线拉得过长的烦恼。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿布贊將武器店鋪也納入陣中，避免補給線拉得過長的煩惱。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Armament Corps enters the battlefield, distribute two +1/+1 counters among one or two target creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Corps de lanciers lourds arrive sur le champ de bataille, répartissez deux marqueurs +1/+1 entre une ou deux créatures ciblées que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Cuerpo de infantería entre al campo de batalla, distribuye dos contadores +1/+1 entre una o dos criaturas objetivo que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Rüstungskorps ins Spiel kommt, verteile zwei +1/+1-Marken auf eine oder zwei Kreaturen deiner Wahl, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Corpo d’Armamenti entra nel campo di battaglia, distribuisci due segnalini +1/+1 tra una o due creature bersaglio che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[軍備部隊が戦場に出たとき、あなたがコントロールするクリーチャーを１体か２体対象とする。それらに２個の＋１/＋１カウンターを好きなように割り振って置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[중무장 부대가 전장에 들어올 때, 당신이 조종하는 생물 한 개 또는 두 개를 목표로 정한다. 그 생물들에 +1/+1 카운터 두 개를 배분한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Вооруженный Корпус выходит на поле битвы, распределите два жетона +1/+1 между одним или двумя целевыми существами под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Tropas de Armamento entrar no campo de batalha, distribua dois marcadores +1/+1 entre uma ou duas criaturas alvo que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当军备部队进战场时，将两个+1/+1指示物分配给一个或两个目标由你操控的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當軍備部隊進戰場時，將兩個+1/+1指示物分配給一個或兩個目標由你操控的生物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS" definition="0" compartment="0" count="2" counter_assignment="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0)
+    for i=0,(2-1) do
+    	local target_creature = targetDC:Get_CardPtr(i)
+    	local number = targetDC:Get_Assignment(i)
+    	if ( target_creature ~= nil ) then   
+    		target_creature:AddCounters( MTG():PlusOnePlusOneCounters() , number )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain +1/+1 counters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner des marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que gane contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +1/+1-Marken erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che ottiene segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터를 얻을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое должно получить жетоны +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="BEARS_COMPANION_388077" />
+  <CARDNAME text="BEARS_COMPANION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bear’s Companion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Compagnon de l'ours]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Compañera del oso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gefährte des Bären]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Compagna dell’Orso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[熊（くま）の仲（なか）間（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[곰의 친구]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Спутник Медведя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Companheiro do Urso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨熊旅伴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨熊旅伴]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388077" />
+  <ARTID value="156528" />
+  <ARTIST name="Winona Nelson" />
+  <CASTING_COST cost="{2}{G}{U}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The Sultai came hunting for a bear hide. Now I have a belt of naga skin, and my friend has a full belly.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les Sultaï voulaient une peau d'ours. J'ai maintenant une ceinture en peau de naga, et mon ami a le ventre plein. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los Sultai vinieron de cacería en busca de la piel de un oso. Ahora tengo un cinturón de piel de naga, y mi amigo, el estómago lleno”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Sultai wollten eine Bärenhaut erbeuten. Jetzt habe ich einen Nagaledergürtel und mein Freund einen vollen Bauch.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I Sultai sono giunti in cerca della pelle di un orso. Ora io ho una cintura di pelle di naga e il mio amico ha la pancia piena.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「スゥルタイは熊の毛皮を求めて狩猟に来た。おかげで私はナーガの皮で作ったベルトを得て、我が友は満腹となった。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["술타이가 곰 가죽을 얻으려고 사냥을 나왔다. 난 나가 가죽 벨트를 얻었고, 내 친구는 배를 채웠다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Султайцы явились сюда, чтобы добыть медвежью шкуру. Теперь у меня есть пояс из кожи наги, а у друга — набитый живот».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os Sultai vieram caçar pele de ursos. Agora, eu tenho um cinto de couro de naga e meu amigo está de barriga cheia.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「苏勒台为了熊皮前来狩猎。现在我有了一条那伽皮的腰带，我的朋友则吃得饱饱的。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「蘇勒台為了熊皮前來狩獵。現在我有了一條那伽皮的腰帶，我的朋友則吃得飽飽的。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Bear’s Companion enters the battlefield, put a 4/4 green Bear creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Compagnon de l’ours arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 4/4 verte Ours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Compañera del oso entre al campo de batalla, pon en el campo de batalla una ficha de criatura Oso verde 4/4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Gefährte des Bären ins Spiel kommt, bringe einen 4/4 grünen Bär-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Compagna dell’Orso entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Orso 4/4 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[熊の仲間が戦場に出たとき、緑の４/４の熊・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[곰의 친구가 전장에 들어올 때, 4/4 녹색 곰 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Спутник Медведя выходит на поле битвы, положите на поле битвы одну фишку существа 4/4 зеленый Медведь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Companheiro do Urso entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura verde 4/4 do tipo Urso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当巨熊旅伴进战场时，将一个4/4绿色的熊衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當巨熊旅伴進戰場時，將一個4/4綠色的熊衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_BEAR_4_4_G_388099", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="1" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BEAR_4_4_G_388099" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="MARDU_ROUGHRIDER_388079" />
+  <CARDNAME text="MARDU_ROUGHRIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mardu Roughrider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dresseur marduen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jinete audaz mardu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mardu-Raureiter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Domatore Mardu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルドゥの荒（あら）くれ乗（の）り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거친 마르두 기수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Объездчик Марду]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro Valente Mardu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玛尔都驯骑师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[瑪爾都馴騎師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388079" />
+  <ARTID value="156526" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{R}{W}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The most ferocious saddlebrutes lead the assault, ramming through massed pikes and stout barricades as if they were paper and silk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les brutes hussardes les plus féroces mènent l'assaut, détruisant les forêts de piques et enfonçant les barricades comme du papier de soie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los más feroces jinetes brutales lideran el asalto, derribando las picas y las firmes barricadas como si fueran de papel y seda.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die hitzigsten Sattelrohlinge reiten dem Angriff voraus und rammen sich durch Spieße und Barrikaden, als wären sie aus Papier und Seide.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I più feroci cavalieri bestiali conducono l’assalto, sfondando folle di picchieri e solide barricate come se fossero carta e seta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[もっとも獰猛な鞍暴れが攻勢を先導し、彼らは密集した長槍や頑丈なバリケードを紙か絹を引き裂くかのように突き破りながら進撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가장 흉포한 덩치기수는 빽빽한 장창과 튼튼한 장애물들을 마치 종이와 비단을 찢듯이 돌파하며 공격을 이끈다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Атаку ведут самые яростные всадники-громилы, которые проламываются через вздыбленные пики и прочные укрепления, словно через бумагу и шелка.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os mais ferozes cavaleiros lideram o ataque, atropelando linhas de lanças e barricadas reforçadas como se fossem feitas de papel e seda.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[最威猛的巨兽骑士引领进攻，冲破无数长矛和坚固路障，就好像它们是纸糊丝制的。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[最威猛的巨獸騎士引領進攻，衝破無數長矛和堅固路障，就好像它們是紙糊絲制的。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Orc" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Mardu Roughrider attacks, target creature can’t block this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Dresseur marduen attaque, la créature ciblée ne peut pas bloquer ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Jinete audaz mardu ataque, la criatura objetivo no puede bloquear este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Mardu-Raureiter angreift, kann eine Kreatur deiner Wahl in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Domatore Mardu attacca, una creatura bersaglio non può bloccare in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルドゥの荒くれ乗りが攻撃するたび、クリーチャー１体を対象とする。このターン、それではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거친 마르두 기수가 공격할 때마다, 생물을 목표로 정한다. 그 생물은 이 턴에 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Объездчик Марду атакует, целевое существо не может блокировать в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Cavaleiro Valente Mardu ataca, a criatura alvo não pode bloquear neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当玛尔都驯骑师攻击时，目标生物本回合不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當瑪爾都馴騎師攻擊時，目標生物本回合不能進行阻擋。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="8">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_CANT_BLOCK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature. That creature can’t block this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature. Cette créature ne peut pas bloquer ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura. Esa criatura no puede bloquear este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur. Diese Kreatur kann in diesem Zug nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura. Quella creatura non può bloccare in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体選んでください。このターン、そのクリーチャーではブロックできません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 고른다. 그 생물은 이 턴에 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо. То существо не может блокировать в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura. Aquela criatura não pode bloquear neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物。该生物本回合不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物。該生物本回合不能進行阻擋。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="SULTAI_SOOTHSAYER_388084" />
+  <CARDNAME text="SULTAI_SOOTHSAYER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sultai Soothsayer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aruspice sultaï]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Augur sultai]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sultai-Wahrsager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Indovina Sultai]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スゥルタイの占（うらな）い屋（や）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[술타이 점술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Султайская Прорицательница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Adivinho Sultai]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[苏勒台预言家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蘇勒台預言家]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388084" />
+  <ARTID value="156529" />
+  <ARTIST name="Cynthia Sheppard" />
+  <CASTING_COST cost="{2}{B}{G}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The naga of the Sultai Brood made deals with dark forces to keep their power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les nagas de la Couvée sultaï conclurent un pacte avec des forces obscures pour garder leur pouvoir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los naga del linaje sultai hicieron tratos con fuerzas oscuras para conservar su poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Naga der Sultai-Brut haben Pakte mit finsteren Kräften geschlossen, um ihre Macht zu erhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I naga della Nidiata Sultai hanno stretto patti con le forze oscure per mantenere il proprio potere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スゥルタイ群のナーガはその力を保持するために、闇の勢力と契約した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[술타이 군락의 나가들은 자신의 권력을 유지하기 위해 어둠의 힘과 계약을 맺었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Наги из Выводка Султая заключили договор с темными силами, чтобы сохранить свое могущество.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os nagas da Linhagem Sultai fazem pactos com as forças escuras para manterem-se no poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[苏勒台族群的那伽和黑暗力量进行交易以维持他们的力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蘇勒台族群的那伽和黑暗力量進行交易以維持他們的力量。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Naga" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sultai Soothsayer enters the battlefield, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Aruspice sultaï arrive sur le champ de bataille, regardez les quatre cartes du dessus de votre bibliothèque. Mettez l’une d’entre elles dans votre main et le reste dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Augur sultai entre al campo de batalla, mira las cuatro primeras cartas de tu biblioteca. Pon una de ellas en tu mano y el resto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Sultai-Wahrsager ins Spiel kommt, schaue dir die obersten vier Karten deiner Bibliothek an. Nimm eine davon auf deine Hand und lege den Rest auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Indovina Sultai entra nel campo di battaglia, guarda le prime quattro carte del tuo grimorio. Aggiungine una alla tua mano e metti le altre nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スゥルタイの占い屋が戦場に出たとき、あなたのライブラリーの一番上から４枚のカードを見る。そのうち１枚をあなたの手札に加え、残りをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[술타이 점술사가 전장에 들어올 때, 당신의 서고 맨 위의 카드 네 장을 본다. 그중 한 장을 당신의 손으로 가져가고 나머지는 당신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Султайская Прорицательница выходит на поле битвы, посмотрите четыре верхние карты вашей библиотеки. Положите одну из них в вашу руку, а остальные — на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Adivinho Sultai entrar no campo de batalha, olhe os quatro cards do topo de seu grimório. Coloque um deles em sua mão e o restante em seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当苏勒台预言家进战场时，检视你牌库顶的四张牌。将其中一张置于你手上，其余的牌则置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當蘇勒台預言家進戰場時，檢視你牌庫頂的四張牌。將其中一張置於你手上，其餘的牌則置入你的墳墓場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local answerDC = EffectDC():Make_Targets(0)
+    local queryDC = EffectDC():Make_Chest(1)
+    local player = EffectController()
+    for i=0,(4-1) do
+    	local card = player:Library_GetNth(i)
+    	
+    	if card ~= nil then
+    		queryDC:Set_CardPtr(i, card)
+    	else
+    		break
+    	end
+    end
+    if answerDC ~= nil and queryDC ~= nil then
+    	player:ChooseItemFromDC( "CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND", queryDC, answerDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local queryDC = EffectDC():Get_Chest(1)
+    local num_cards = queryDC:Count()
+    for i=0,num_cards-1 do
+    	local card = queryDC:Get_CardPtr(i)
+    	if card ~= nil then
+    		card:PutInGraveyard()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Graveyard" amount="3" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に加えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar em sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="5">
+  <FILENAME text="WARDEN_OF_THE_EYE_388085" />
+  <CARDNAME text="WARDEN_OF_THE_EYE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Warden of the Eye]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Garde de l'Œil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Protector del ojo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hüter des Auges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardiano dell’Occhio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[眼（め）の管（かん）理（り）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[눈의 수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страж Ока]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guardião do Olho]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[慧眼护卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[慧眼護衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388085" />
+  <ARTID value="156527" />
+  <ARTIST name="Howard Lyon" />
+  <CASTING_COST cost="{2}{U}{R}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The wardens guard the sacred documents of Tarkir’s history, though they are forbidden to read the words.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les gardes protègent les documents sacrés de l'histoire de Tarkir, mais en lire le contenu leur est interdit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los protectores custodian los documentos sagrados de la historia de Tarkir, aunque tienen prohibido leer su texto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Hüter bewachen die heiligen Dokumente der Geschichte Tarkirs, doch es ist ihnen untersagt, die Worte zu lesen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I guardiani vegliano sui documenti sacri della storia di Tarkir, ma è fatto loro divieto di leggerne le parole.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[管理人はタルキールの歴史が記された神聖なる文書を守っているが、それらは読むことを禁じられている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비록 읽는 것은 금지되었지만, 수호자들은 타르커의 역사가 담긴 성서를 지킨다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стражи охраняют священные документы об истории Таркира, но им запрещено читать слова.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os guardiões protegem os documentos sagrados da história de Tarkir, mas são proibidos de lê-los.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[护卫看守着鞑契历史的神圣档案，但是他们禁止阅读其中的文字。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[護衛看守著韃契歷史的神聖檔案，但是他們禁止閱讀其中的文字。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Djinn" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Warden of the Eye enters the battlefield, return target noncreature, nonland card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Garde de l’Œil arrive sur le champ de bataille, renvoyez une carte non-créature, non-terrain ciblée depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Protector del ojo entre al campo de batalla, regresa la carta objetivo que no sea de criatura y que no sea de tierra de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Hüter des Auges ins Spiel kommt, bringe eine Nichtkreatur-Karte deiner Wahl, die kein Land ist, aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Guardiano dell’Occhio entra nel campo di battaglia, riprendi in mano una carta non creatura, non terra bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[眼の管理人が戦場に出たとき、あなたの墓地にあるクリーチャーでも土地でもないカード１枚を対象とし、それをあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[눈의 수호자가 전장에 들어올 때, 당신의 무덤에 있는 생물이 아니고 대지가 아닌 카드를 목표로 정한다. 그 카드를 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Страж Ока выходит на поле битвы, верните целевую не являющуюся существом или землей карту из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Guardião do Olho entrar no campo de batalha, devolva o card que não seja terreno ou criatura alvo de seu cemitério para sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当慧眼护卫进战场时，将目标非生物且非地的牌从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當慧眼護衛進戰場時，將目標非生物且非地的牌從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_NOT, CARD_TYPE_CREATURE )
+    filter:Add( FE_TYPE, OP_NOT, CARD_TYPE_LAND )
+    filter:SetZone(ZONE_GRAVEYARD, EffectController())
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_name="Graveyard" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="900" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に加えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar em sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+</CARDS>

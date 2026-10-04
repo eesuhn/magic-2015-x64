@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="876">
+  <FILENAME text="GRISELBRAND_374286" />
+  <CARDNAME text="GRISELBRAND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリセルブランド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그리즐브랜드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гризельбранд]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Griselbrand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[棘泽边]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[棘澤邊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374286" />
+  <ARTID value="141739" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{4}{B}{B}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Avacyn emerged from the broken Helvault, but her freedom came at a price—him.”
+—Thalia, Knight-Cathar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Avacyn émergea de l'Helgruft brisé, mais cette liberté reconquise eut un prix : lui. »
+—Thalia, chevalière cathare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Avacyn emergió de los pedazos de Helvault, pero su libertad tuvo un precio: él”.
+—Thalia, caballero cátaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Avacyn ist aus dem zerschmetterten Höllenkerker entkommen, doch ihre Freiheit hatte einen Preis: ihn.“
+—Thalia, Katharerritterin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Avacyn emerse dalla Tomba Infernale infranta, ma la sua libertà aveva un prezzo... lui.”
+—Thalia, Cavaliera Catara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「アヴァシンは破壊された獄庫から現れたが、彼女の自由には代償があった――奴だ。」――聖戦騎士、サリア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“아바신께서는 무너진 헬볼트에서 탈출하셨지만, 그로 인해 그 자도 그곳에서 탈출했지.”
+—카타르 기사 탈리아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Авацина вырвалась из разрушенного Хелволта, но ценой ее свободы стал Он».
+— Талия, рыцарь-катар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Avacyn emergiu das ruínas da Câmara Infernal, mas sua liberdade teve um preço: ele.”
+— Thalia, Cátara Cavaleira]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「艾维欣自碎裂的狱窖重现，但其自由付出了高昂代价～也就是他。」
+～护教军骑士莎利雅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「艾維欣自碎裂的獄窖重現，但其自由付出了高昂代價～也就是他。」
+～護教軍騎士莎利雅]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="7" />
+  <TOUGHNESS value="7" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[lifelink]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[lient de vie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebensverknüpfung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[legame vitale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[絆魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명연결]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цепь жизни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[vínculo com a vida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[系命]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[繫命]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_LIFELINK" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay 7 life: Draw seven cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez 7 points de vie : Piochez sept cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar 7 vidas: Roba siete cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bezahle 7 Lebenspunkte: Ziehe sieben Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga 7 punti vita: Pesca sette carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ライフを７点支払う：カードを７枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 7점을 지불한다: 카드 일곱 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатите 7 жизней: возьмите семь карт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pague 7 pontos de vida: Compre sete cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付7点生命：抓七张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付7點生命：抽七張牌。]]></LOCALISED_TEXT>
+    <SFX text="GRISELBRAND_LUA_PLAY" />
+    <COST type="Life" amount="7" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(7)
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="25" resource_name="Life" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_4" body="MORE_INFO_BADGE_BODY_4" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DEATHSWORD_ATTACK" power_boundary_min="-1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

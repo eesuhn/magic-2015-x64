@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="206">
+  <FILENAME text="BLADETUSK_BOAR_374413" />
+  <CARDNAME text="BLADETUSK_BOAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bladetusk Boar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanglier lamecroc]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jabalí colmillo afilado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Klingenzahn-Keiler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cinghiale Zannaffilata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[刃（やいば）牙（きば）の猪（いのしし）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[칼날엄니 멧돼지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Саблезубый Вепрь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali Presa de Navalha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[刃牙野猪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[刃牙野豬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374413" />
+  <ARTID value="123592" />
+  <ARTIST name="Paul Bonner" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Those who dare stand in its path are either brave or mindless. Or in the case of goblins, both.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ceux qui osent lui bloquer le passage sont courageux ou stupides. Ou dans le cas des gobelins, les deux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aquellos que osan interponerse en su camino son valientes o insensatos. O en el caso de los trasgos, ambas cosas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wer sich ihm in den Weg stellt, ist entweder dumm oder tapfer. Bei Goblins gilt beides.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quanti osano incrociare il suo cammino sono coraggiosi o molto stupidi. O nel caso dei goblin, entrambe le cose.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[そいつの前に立ちはだかる奴は、勇敢か馬鹿かのどちらかだ。ゴブリンの場合は、その両方だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 녀석의 앞길을 막는 자는 두려움이 없거나 생각이 없거나 둘 중 하나이다. 고블린의 경우는 두 가지 다 해당된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Те, кто осмеливаются встать у него на пути, либо храбрые, либо безмозглые. Либо, как гоблины, и то и другое.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aqueles que ousam ficar em seu caminho são corajosos ou estúpidos. Ou no caso dos goblins, os dois ao mesmo tempo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[胆敢挡其路者，不是勇士便是愚人。如果是鬼怪的话，那么两者皆是。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[膽敢擋其路者，不是勇士便是愚人。如果是鬼怪的話，那麼兩者皆是。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Boar" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Intimidate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Intimidation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Intimidar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einschüchtern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Intimidire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[威嚇]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[위협]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Устрашение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Intimidar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[威吓]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[威嚇]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_INTIMIDATE" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_24" body="MORE_INFO_BADGE_BODY_24" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

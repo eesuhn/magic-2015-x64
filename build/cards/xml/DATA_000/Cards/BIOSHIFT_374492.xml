@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="139">
+  <FILENAME text="BIOSHIFT_374492" />
+  <CARDNAME text="BIOSHIFT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bioshift]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Biochangement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Biocambio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Biologische Verschiebung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Biomorfosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生（せい）体（たい）変（へん）化（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생체변환]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Биосдвиг]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Biomutação]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[生机转移]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[生機轉移]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374492" />
+  <ARTID value="146292" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{U/G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It’s all right if you change your mind. There’s always a chance we can rearrange parts later.”
+—Zija, Simic mutationist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Peu importe si vous changez d'avis. Nous pourrons toujours procéder à d'autres modifications plus tard. »
+—Zija, mutationniste simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No pasa nada si cambian de idea. Siempre hay una posibilidad de reorganizar las partes más adelante”.
+—Zija, mutacionista simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du kannst deine Meinung ruhig noch ändern. Es besteht immer die Chance, dass wir später noch Teile neu anordnen können.“
+—Zija, Simic-Mutationsspezialist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Se poi cambi idea non importa. È sempre possibile che più tardi riusciamo a ricombinare le parti.”
+—Zija, mutazionista Simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「気が変わっても大丈夫ですよ。後でいくらでも部位を再構成できますからね。」――シミックの変異術師、ジジャ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["나중에 생각이 바뀌어도 괜찮아요. 원상복구는 언제든 할 수 있으니까. 아마도."
+—시믹 돌연변이 연구자 지자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Если передумаете — ничего страшного. Впоследствии всегда будет возможность поменять органы местами».
+— Зия, мутатор Симиков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Tudo bem se você mudar de ideia. Há sempre uma chance de conseguirmos remontar as partes depois.”
+— Zija, mutacionista Simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「改变主意也没关系，我们以后总有机会重新安排各部分。」
+～析米克突变师琪佳]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「改變主意也沒關係，我們以後總有機會重新安排各部分。」
+～析米克突變師琪佳]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Move any number of +1/+1 counters from target creature onto another target creature with the same controller.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Déplacez n’importe quel nombre de marqueurs +1/+1 d’une créature ciblée à une autre créature ciblée ayant le même contrôleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mueve cualquier cantidad de contadores +1/+1 de la criatura objetivo a otra criatura objetivo con el mismo controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bewege eine beliebige Anzahl von +1/+1-Marken von einer Kreatur deiner Wahl auf eine andere Kreatur deiner Wahl, die denselben Beherrscher hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sposta un qualsiasi numero di segnalini +1/+1 da una creatura bersaglio a un’altra creatura bersaglio con lo stesso controllore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体と、それとコントローラーが同じ他のクリーチャー１体を対象とする。その前者の上に置かれている望む数の＋１/＋１カウンターをその後者の上に移動する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개와 그 생물과 조종자가 같은 다른 생물 한 개를 목표로 정한다. 첫 번째 생물에서부터 원하는 만큼의 +1/+1 카운터를 두 번째 생물에게로 옮긴다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Переместите любое количество жетонов +1/+1 с целевого существа на другое целевое существо под контролем того же игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mova qualquer número de marcadores +1/+1 da criatura alvo para outra criatura alvo do mesmo controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标生物上任意数量的+1/+1指示物移至另一个目标生物上，且两者的操控者须相同。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標生物上任意數量的+1/+1指示物移至另一個目標生物上，且兩者的操控者須相同。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_MOVE_COUNTERS_FROM" definition="0" compartment="0" count="1" dependency="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_MOVE_COUNTERS_TO" definition="1" compartment="1" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local targetsDC = EffectDC():Get_Targets(0)
+    if targetsDC ~= nil then
+    	local target1 = targetsDC:Get_CardPtr(0)
+    	if target1 ~= nil then
+    		local filter = ClearFilter()
+    		filter:Add( FE_IS_PERMANENT, true )
+    		filter:Add(FE_CARD_INSTANCE, OP_NOT, target1)
+    		filter:Add( FE_CONTROLLER, OP_IS, target1:GetPlayer())
+    		filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    	end
+    end
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local target1DC = EffectDC():Get_Targets(0)
+    local target2DC = EffectDC():Get_Targets(1)
+    if target1DC ~= nil and target2DC ~= nil then
+    	local target1 = target1DC:Get_CardPtr(0)
+    	local target2 = target2DC:Get_CardPtr(0)
+    	if target1 ~= nil and target2 ~= nil then
+    		effectController:BeginNewNumericalChoice()
+    		effectController:AddNumericalChoiceAnswer( 0, target1:CountCounters( MTG():PlusOnePlusOneCounters()))
+    		effectController:AskNumericalChoiceQuestion( "CARD_QUERY_QUESTION_HOW_MANY_COUNTERS_TO_MOVE" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectController()
+    local target1DC = EffectDC():Get_Targets(0)
+    local target2DC = EffectDC():Get_Targets(1)
+    if player ~= nil and target1DC ~= nil and target2DC ~= nil then
+    	local target1 = target1DC:Get_CardPtr(0)
+    	local target2 = target2DC:Get_CardPtr(0)
+    	if target1 ~= nil and target2 ~= nil then
+    		local countersToRemove = player:GetNumericalChoiceResult()
+    		target1:RemoveCounters( MTG():PlusOnePlusOneCounters(), countersToRemove)
+    		target2:AddCounters( MTG():PlusOnePlusOneCounters(), countersToRemove)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_MOVE_COUNTERS_FROM">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to move +1/+1 counters from.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui retirer des marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura desde la cual mover contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, von der eine +1/+1-Marke wegbewegt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da cui spostare segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを移動する元のクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터를 어느 생물에서 옮길 지 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, с которого нужно переместить жетоны +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura da qual mover marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要从其上移走+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要從其上移走+1/+1指示物的生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_QUESTION_HOW_MANY_COUNTERS_TO_MOVE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[How many +1/+1 counters would you like to move?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Combien de marqueurs +1/+1 voulez-vous déplacer ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Cuántos contadores +1/+1 te gustaría mover?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wie viele +1/+1-Marken möchtest du bewegen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quanti segnalini +1/+1 vorresti spostare?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを何個動かしますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터 몇 개를 옮기시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сколько жетонов +1/+1 вы хотите переместить?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quantos marcadores +1/+1 você deseja mover?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要移动多少个+1/+1指示物？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要移動多少個+1/+1指示物？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_MOVE_COUNTERS_TO">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to move +1/+1 counters to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui déplacer des marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura hacia la cual mover contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, auf die eine +1/+1-Marke hinbewegt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura su cui spostare segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを移動する先のクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터를 어느 생물에 옮겨 놓을 지 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, на которое нужно переместить жетоны +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para a qual mover marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得移来之+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要獲得移來之+1/+1指示物的生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

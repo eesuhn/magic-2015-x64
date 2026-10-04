@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="131">
+  <FILENAME text="ESSENCE_SCATTER_377082" />
+  <CARDNAME text="ESSENCE_SCATTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Essence Scatter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dispersion d'essence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esparcir la esencia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Essenzzerstäubung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Disperdere Essenza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[本（ほん）質（しつ）の散（さん）乱（らん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정수 흩날리기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разлет Эссенции]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espalhar Essência]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[菁华离散]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[菁華離散]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377082" />
+  <ARTID value="103538" />
+  <ARTIST name="Jon Foster" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“What you attempt to pull from the Æther, I can spread onto the wind.”
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce que tu essaies d'extraire de l'Æther, je peux le disperser aux quatre vents. »
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Lo que tú tratas de extraer del éter, yo lo puedo dispersar en el viento”.
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Was auch immer du aus dem Äther ziehen magst, ich lasse es vom Winde verwehen.“
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quello che cerchi di ricavare dall’Etere, io posso spargerlo al vento.”
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前が霊気から得ようとしているそれな、私なら風に乗せて飛ばせるんだが。」
+――ジェイス・ベレレン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["네가 에테르로부터 무엇을 끌어오려고 하던, 난 그것을 바람에 흩날리게 만들 수 있다."
+—제이스 벨레렌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Все, что ты попытаешься призвать из Эфира, я развею по ветру».
+— Джейс Белерен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Aquilo que você tenta tirar do Éter, eu consigo espalhar no vento."
+— Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我可将你力图从乙太那里收集的东西散至风中。」
+～杰斯贝连]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我可將你力圖從乙太那裏收集的東西散至風中。」
+～傑斯貝連]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target creature spell.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort de créature ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contrarresta el hechizo objetivo de criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Kreaturenzauber deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー・呪文１つを対象とし、それを打ち消す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 주문 한 개를 목표로 정한다. 그 주문을 무효화한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отмените целевое заклинание существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anule a mágica de criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反击目标生物咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反擊目標生物咒語。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_STACK ) 
+    filter:Add (FE_TYPE, OP_IS, CARD_TYPE_CREATURE) 
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:CounterSpell(EffectSource())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1050" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a spell to counter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un sort à contrecarrer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un hechizo para contrarrestar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Zauberspruch, der neutralisiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una magia da neutralizzare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[打ち消す呪文を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무효화할 주문 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите заклинание для отмены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma mágica para anular.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要反击的咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個咒語來反擊。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COUNTER_WHY_PLAY" removal_tag="HINT_SPELL_COUNTER_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

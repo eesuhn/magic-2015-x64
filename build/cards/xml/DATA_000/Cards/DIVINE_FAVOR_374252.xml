@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="DIVINE_FAVOR_374252" />
+  <CARDNAME text="DIVINE_FAVOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Divine Favor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Faveur divine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Favor divino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Göttliche Gunst]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Benevolenza Divina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神（しん）聖（せい）なる好（こう）意（い）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신의 은혜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Божественное Покровительство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Proteção Divina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[上天眷顾]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[上天眷顧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374252" />
+  <ARTID value="134125" />
+  <ARTIST name="Allen Williams" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[With the armory of light, even the squire may champion her people.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avec l'armurerie de la lumière, même une écuyère peut devenir la championne de son peuple.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Armada con la luz, hasta la escudera podría defender a su pueblo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mit der Lichtrüstung kann auch der einfachste Junker sein Volk anführen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Con un’armeria di luce, perfino la scudiera può difendere il suo popolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[光の武装をまとえば、従者ですら勇者となる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[빛으로 만든 갑옷을 입으면 일개 종자도 민중을 위해 싸우는 영웅이 될 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вооруженный светом, даже оруженосец способен защитить свой народ.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Com um arsenal de luz, até mesmo a escudeira pode defender seu povo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[有明光作武装，就连个扈从都能成为同袍之光。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[有明光作武裝，就連個扈從都能成為同袍之光。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert eine Kreatur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于生物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於生物]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Divine Favor enters the battlefield, you gain 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Faveur divine arrive sur le champ de bataille, vous gagnez 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Favor divino entre al campo de batalla, ganas 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Göttliche Gunst ins Spiel kommt, erhältst du 3 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Benevolenza Divina entra nel campo di battaglia, guadagni 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神聖なる好意が戦場に出たとき、あなたは３点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신의 은혜가 전장에 들어올 때, 당신은 생명 3점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Божественное Покровительство выходит на поле битвы, вы получаете 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Proteção Divina entra no campo de batalha, você ganha 3 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当上天眷顾进战场时，你获得3点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當上天眷顧進戰場時，你獲得3點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(3 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは＋１/＋３の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 +1/+3을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +1/+3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[所结附的生物得+1/+3。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[所結附的生物得+1/+3。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource()~= nil then
+    	local parent = EffectSource():GetParent()
+    	if parent ~= nil then
+    		parent:GetCurrentCharacteristics():Power_Add( 1 )
+    		parent:GetCurrentCharacteristics():Toughness_Add( 3 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

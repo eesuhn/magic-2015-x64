@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="OUST_377483" />
+  <CARDNAME text="OUST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Oust]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Évincement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Derrocar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausbooten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spodestare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[失（しっ）脚（きゃく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[축출]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вытеснение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ejetar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[撵走]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[攆走]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377483" />
+  <ARTID value="127425" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“‘Invincible’ is just a word.”
+—Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« ‘Invincible’ n'est qu'un simple mot. »
+—Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“‘Invencible’ es solo una palabra”.
+—Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unbesiegbar ist auch nur ein Wort.“
+—Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“‘Invincibile’ è solo una parola.”
+—Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「『無敵』など言葉遊びに過ぎん。」
+――ギデオン・ジュラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["무적이라는 건 말뿐이야."
+—기디온 주라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«"Непобедимый" — всего лишь слово».
+— Гидеон Джура]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“‘Invencível’ é apenas uma palavra.”
+— Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「『无敌』只是个词。」
+～基定尤拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「『無敵』只是個詞。」
+～基定尤拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put target creature into its owner’s library second from the top. Its controller gains 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez la créature ciblée dans la bibliothèque de son propriétaire en deuxième position à partir du dessus. Son contrôleur gagne 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon la criatura objetivo en la biblioteca de su propietario en segundo lugar desde la parte superior. Su controlador gana 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege eine Kreatur deiner Wahl als zweite Karte von oben in die Bibliothek ihres Besitzers. Ihr Beherrscher erhält 3 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti una creatura bersaglio nel grimorio del suo proprietario come seconda carta. Il suo controllore guadagna 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、それをオーナーのライブラリーの一番上から２枚目に置く。それのコントローラーは３点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물을 소유자의 서고 맨 위에서 두 번째에 넣는다. 그 생물의 조종자는 생명 3점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите целевое существо в библиотеку его владельца вторым сверху. Контролирующий его игрок получает 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque a criatura alvo no topo do grimório de seu dono na segunda posição. Seu controlador ganha 3 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标生物置于其拥有者的牌库顶数来第二张的位置。其操控者获得3点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標生物置於其擁有者的牌庫頂數來第二張的位置。其操控者獲得3點生命。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_OUST" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then 
+    	local controller = target:GetPlayer()
+    	EffectDC():Set_PlayerPtr(1, controller)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:QueueZoneChange( ZONE_LIBRARY, target:GetOwner(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_PlayerPtr(1)
+    if ( target_player ~= nil ) then   
+    	target_player:GainLife( 3 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_OUST">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put into its owner’s library, second from the top.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre dans la bibliothèque de son propriétaire en deuxième position à partir du dessus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para ponerla en la biblioteca de su propietario en segundo lugar desde la parte superior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die als zweite Karte von oben in die Bibliothek ihres Besitzers gelegt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere nel grimorio del suo proprietario come seconda carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーのライブラリーの一番上から２枚目に置くクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 서고 맨 위에서 두 번째 위치에 넣을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно положить в библиотеку его владельца вторым сверху.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar no topo do grimório de seu dono na segunda posição.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将其置于其拥有者的牌库顶数来第二张的位置。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將其置於其擁有者的牌庫頂數來第二張的位置。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_TEMPO_WHY_PLAY" removal_tag="HINT_SPELL_TEMPO_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

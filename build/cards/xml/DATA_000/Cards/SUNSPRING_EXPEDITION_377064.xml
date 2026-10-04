@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="SUNSPRING_EXPEDITION_377064" />
+  <CARDNAME text="SUNSPRING_EXPEDITION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sunspring Expedition]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expédition de Solsource]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Expedición a la Fuente Solar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Expedition zur Sonnenquelle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spedizione alla Sorgente Solare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[陽（ひ）の泉（いずみ）の探（たん）検（けん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양샘 탐험]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Экспедиция к Солнечному Роднику]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Expedição a Sol Primaveril]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[日泉探险]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[日泉探險]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377064" />
+  <ARTID value="123558" />
+  <ARTIST name="Chris J. Anderson" />
+  <CASTING_COST cost="{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may put a quest counter on Sunspring Expedition.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur l’Expédition de Solsource.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Expedición a la Fuente Solar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Expedition zur Sonnenquelle legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca sulla Spedizione alla Sorgente Solare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|上陸| ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたは陽の泉の探検の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지력 — 대지가 당신의 조종하에 전장에 들어올 때마다, 당신은 태양샘 탐험에 퀘스트 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете положить один жетон странствий на Экспедицию к Солнечному Роднику.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode colocar um marcador de busca em Expedição a Sol Primaveril.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地落～每当一个地在你的操控下进战场时，你可以在日泉探险上放置一个探索指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地落～每當一個地在你的操控下進戰場時，你可以在日泉探險上放置一個探索指示物。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Quest" proliferate="11" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    if EffectSource() ~= nil and EffectSource():CountCounters(MTG():GetCountersType("Quest")) &lt; 3 and TriggerObject():GetCardType():Test( CARD_TYPE_LAND )  then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("Quest"), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove three quest counters from Sunspring Expedition and sacrifice it: You gain 8 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez trois marqueurs « quête » de l’Expédition de Solsource et sacrifiez-la : Vous gagnez 8 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover tres contadores de búsqueda de la Expedición a la Fuente Solar y sacrificarla: Ganas 8 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne drei Quest-Marken von der Expedition zur Sonnenquelle und opfere sie: Du erhältst 8 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi tre segnalini ricerca dalla Spedizione alla Sorgente Solare e sacrificala: Guadagni 8 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[陽の泉の探検を、その上から探索カウンターを３個取り除いて生け贄に捧げる：あなたは８点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양샘 탐험에서 퀘스트 카운터 세 개를 제거하고 태양샘 탐험을 희생한다: 당신은 생명 8점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите три жетона странствий с Экспедиции к Солнечному Роднику и пожертвуйте ее: вы получаете 8 жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova três marcadores de busca de Expedição a Sol Primaveril e sacrifique-o: Você ganha 8 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从日泉探险上移去三个探索指示物并牺牲它：你获得8点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從日泉探險上移去三個探索指示物並犧牲它：你獲得8點生命。]]></LOCALISED_TEXT>
+    <COST type="RemoveCountersSelf" amount="3" counter_type="Quest" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(8 )
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_LIFEGAIN_WHY_PLAY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <AI_COUNTER_SCORE type="Quest" score="50" max_counters="3" />
+  <HELP title="MORE_INFO_TITLE_LANDFALL" body="MORE_INFO_BODY_LANDFALL" zone="ZONE_ANY" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

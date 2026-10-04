@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="ARCHIVIST_374216" />
+  <CARDNAME text="ARCHIVIST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Archivist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archiviste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Archivero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Archivar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Archivista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[文（ぶん）書（しょ）管（かん）理（り）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기록 보관인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Архивариус]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arquivista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[书库辖员]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[書庫轄員]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374216" />
+  <ARTID value="27537" />
+  <ARTIST name="Donato Giancola" />
+  <CASTING_COST cost="{2}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Knowledge is a feast for the mind. Savor every swallow.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le savoir est un festin pour l'esprit. Savourez-en la moindre bouchée. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El conocimiento es un festín para la mente. Saborea cada bocado”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wissen ist ein Fest fürs Hirn. Genieße jedes Stückchen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La conoscenza è un banchetto per la mente. Gustane ogni boccone.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「知識とは精神へのご馳走である。鵜呑みにするのではなく、じっくりと味わうように。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["지식은 마음의 성찬이다. 그 맛을 음미하도록."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Знания — это пир для разума. Насладись вкусом каждого кусочка».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O conhecimento é um banquete para a mente. Saboreie cada pedaço.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「知识是心灵的盛宴。仔细地品尝每一口。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「知識是心靈的盛宴。仔細地品嘗每一口。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：抽一張牌。]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="203">
+  <FILENAME text="ESPER_CORMORANTS_381993" />
+  <CARDNAME text="ESPER_CORMORANTS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Esper Cormorants]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cormorans d'Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cormoranes de Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Esper-Kormoran]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cormorani di Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エスパーの鵜（う）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에스퍼 가마우지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эсперские Бакланы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cormorões de Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[艾斯波鱼鹰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艾斯波魚鷹]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381993" />
+  <ARTID value="118756" />
+  <ARTIST name="Warren Mahy" />
+  <CASTING_COST cost="{2}{W}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The smiths of this land must be mad to reach so far and so high for another creature to decorate.”
+—Cagen Vargan, Jhessian sea scout]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les artisans de ce monde doivent être fous pour vouloir aller si loin et si haut pour décorer une autre créature. »
+—Cagen Vargan, éclaireur des mers jhessien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los herreros de esta tierra deben estar locos si buscan tan lejos y tan alto otra criatura para decorar”.
+—Cagen Vargan, explorador marino jhessiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Erschaffer dieses Landes müssen verrückt sein, wenn sie so weite Wege gehen, nur um ein weiteres Tier zu verändern.“
+—Cagen Vargan, Jhessischer Seespäher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I fabbri di queste terre devono essere proprio folli ad arrivare fin quassù per decorare un’altra creatura.”
+—Cagen Vargan, esploratore marino di Jhess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この地の鍛冶はいかれてるに決まってるよ。こんな遠くのこんな高くまで、他の生き物を飾りにきてるんだから。」――ジェスの海の斥候、ケイゲン・ヴァルゲン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이 땅의 대장장이들은 다른 생물을 장식하겠다고 저렇게 높이, 멀리 갔나? 미쳤군."
+—제시아 바다 정찰병 카젠 바르간]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Кузнецы в этой земле явно безумны, если пытаются достать так далеко и высоко ради украшения очередного существа».
+— Каген Варган, морской разведчик из Джесса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os ferreiros dessas terras devem ser loucos por ir tão longe e tão alto em busca de outra criatura para adornar.”
+— Cagen Vargan, batedor marinho jhessiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这大地的铸造者脑筋一定有问题，居然到那么高远的地方来装饰生物。」
+～介斯海斥候凯根瓦肯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這大地的鑄造者腦筋一定有問題，居然到那麼高遠的地方來裝飾生物。」
+～介斯海斥候凱根瓦肯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bird" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="133">
+  <FILENAME text="EXPERIMENT_ONE_374500" />
+  <CARDNAME text="EXPERIMENT_ONE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Experiment One]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expérience Un]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Experimento uno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Experiment Eins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Primo Esperimento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[実（じっ）験（けん）体（たい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[실험체 1호]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первый Эксперимент]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Experimento Um]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[首号实验体]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[首號實驗體]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374500" />
+  <ARTID value="146274" />
+  <ARTIST name="Chase Stone" />
+  <CASTING_COST cost="{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Ooze" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY priority="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Evolve]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Évolution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Evolucionar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weiterentwicklung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evoluzione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[進化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эволюция]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Evoluir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[进化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[進化]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <INTERVENING_IF>
+    local triggerObject = TriggerObjectLKI()
+    local effectSource = EffectSource()
+    if triggerObject ~= nil and effectSource ~= nil then
+    	local triggerPower = triggerObject:GetCurrentCharacteristics():Power_Get()
+    	local triggerToughness = triggerObject:GetCurrentCharacteristics():Toughness_Get()
+    	
+    	local effectPower = effectSource:GetCurrentCharacteristics():Power_Get()
+    	local effectToughness = effectSource:GetCurrentCharacteristics():Toughness_Get()
+    	if (triggerPower &gt; effectPower) or (triggerToughness &gt; effectToughness) then
+    		return true
+    	end
+    end
+    return false
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	 local numCountersAdded = EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    	 EffectDC():Set_Int(0,numCountersAdded)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local countersAdded = EffectDC():Get_Int(0)
+    if countersAdded &gt;0 then
+    	MTG():FireTrigger( TRIGGER_EVOLVED, EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove two +1/+1 counters from Experiment One: Regenerate Experiment One.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez deux marqueurs +1/+1 de l’Expérience Un : Régénérez l’Expérience Un.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover dos contadores +1/+1 del Experimento Uno: Regenera el Experimento Uno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne zwei +1/+1-Marken von Experiment Eins: Regeneriere Experiment Eins.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi due segnalini +1/+1 dal Primo Esperimento: Rigenera il Primo Esperimento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[実験体の上から＋１/＋１カウンターを２個取り除く：実験体を再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[실험체 1호에서 +1/+1 카운터 두 개를 제거한다: 실험체 1호를 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите два жетона +1/+1 с Первого Эксперимента: регенерируйте Первый Эксперимент.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova dois marcadores +1/+1 de Experimento Um: Regenere Experimento Um.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从首号实验体上移去两个+1/+1指示物：重生首号实验体。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從首號實驗體上移去兩個+1/+1指示物：重生首號實驗體。]]></LOCALISED_TEXT>
+    <COST type="RemoveCountersSelf" amount="2" counter_type="+1/+1" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_REGENERATE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_EVOLVE" body="MORE_INFO_BODY_EVOLVE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

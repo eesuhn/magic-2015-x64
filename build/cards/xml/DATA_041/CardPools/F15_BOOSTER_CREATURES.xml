@@ -1,0 +1,7 @@
+﻿<card_pool id="22" plane_id="7" content_booster_uid="8" steam_id_1="300950" booster_art_location="Art_Assets\\Textures\\Boosters\\F15_3_B\\" content_id="8">
+  <card name="ARMAMENT_CORPS_388076" id="378" />
+  <card name="BEARS_COMPANION_388077" id="379" />
+  <card name="MARDU_ROUGHRIDER_388079" id="380" />
+  <card name="SULTAI_SOOTHSAYER_388084" id="381" />
+  <card name="WARDEN_OF_THE_EYE_388085" id="382" />
+</card_pool>

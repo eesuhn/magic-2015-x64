@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="124">
+  <FILENAME text="POLYMORPH_377461" />
+  <CARDNAME text="POLYMORPH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Polymorph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Polymorphisme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Transmutar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Polymorph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Polimorfismo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[変（へん）身（しん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полиморф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Polimorfismo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[型态转变]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[型態轉變]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377461" />
+  <ARTID value="2002" />
+  <ARTIST name="Robert Bliss" />
+  <CASTING_COST cost="{3}{U}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target creature. It can’t be regenerated. Its controller reveals cards from the top of his or her library until he or she reveals a creature card. The player puts that card onto the battlefield, then shuffles all other cards revealed this way into his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature ciblée. Elle ne peut pas être régénérée. Son contrôleur révèle les cartes du dessus de sa bibliothèque jusqu’à ce qu’il révèle une carte de créature. Ce joueur met cette carte sur le champ de bataille, puis mélange toutes les autres cartes révélées de cette manière dans sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo. No puede ser regenerada. Su controlador muestra cartas de la parte superior de su biblioteca hasta que muestre una carta de criatura. Ese jugador pone esa carta en el campo de batalla, luego baraja todas las otras cartas mostradas de esta manera en su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Kreatur deiner Wahl. Sie kann nicht regeneriert werden. Ihr Beherrscher deckt Karten oben von seiner Bibliothek auf, bis er eine Kreaturenkarte aufdeckt. Dieser Spieler bringt diese Karte ins Spiel und mischt dann alle anderen auf diese Weise aufgedeckten Karten in seine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura bersaglio. Non può essere rigenerata. Il suo controllore rivela carte dalla cima del suo grimorio fino a che non rivela una carta creatura. Il giocatore mette quella carta sul campo di battaglia, poi rimescola tutte le altre carte rivelate in questo modo nel suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、それを破壊する。それは再生できない。それのコントローラーは、自分のライブラリーの一番上から、カードをクリーチャー・カードが公開されるまで公開し続ける。そのプレイヤーはそのカードを戦場に出し、その後、これにより公開された他のすべてのカードを自分のライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물을 파괴한다. 그 생물은 재생될 수 없다. 그 생물의 조종자는 생물 카드를 공개할 때까지 자신의 서고 맨 위의 카드를 공개한다. 그 플레이어는 공개된 생물 카드를 전장에 놓고, 이런 식으로 공개한 다른 모든 카드를 서고에 넣고 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо. Оно не может быть регенерировано. Контролирующий его игрок показывает карты с верха своей библиотеки, пока не покажет карту существа. Тот игрок кладет ту карту на поле битвы, а затем втасовывает все остальные показанные таким образом карты в свою библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo. Ela não pode ser regenerada. Seu controlador revela cards do topo de seu grimório até que tenha revelado um card de criatura. O jogador coloca esse card no campo de batalha e então embaralha em seu grimório os outros cards revelados dessa maneira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭目标生物。它不能重生。其操控者从他的牌库顶开始展示牌，直到展示出一张生物牌为止。该牌手将该牌放进战场，然后将所有其他以此法展示的牌洗入其牌库中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅目標生物。它不能重生。其操控者自他的牌庳頂開始展示牌，直到展示出一張生物牌為止。該玩家將該牌放進戰場，然後將所有其他以此法展示的牌洗入其牌庫中。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_POLYMORPH" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	EffectDC():Make_Targets(0):Set_PlayerPtr(1, target:GetPlayer() )
+    	target:DestroyWithoutRegenerate()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local controller = EffectDC():Get_Targets(0):Get_PlayerPtr(1)
+    local revealDC = EffectDC():Make_Chest(1)
+    if controller ~= nil then
+    	local maxReveal = controller:Library_Count()
+    	for i = 0, (maxReveal-1) do
+    		local card = controller:Library_GetNth(i)
+    		if card ~= nil then
+    			revealDC:Set_CardPtr(i, card) --
+    			if card:GetCardType():Test(CARD_TYPE_CREATURE) then
+    				card:PutOntoBattlefield(controller)
+    				break
+    			end
+    		end
+    	end
+    	for j = 0, (MTG():GetNumberOfPlayers()) do
+    		local player = MTG():GetNthPlayer(j)
+    		if player ~= nil and player ~= controller then
+    			player:RevealDCToMe(EffectDC():Get_Chest(1))
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local playerDC = EffectDC():Get_Targets(0)
+    if playerDC ~= nil then
+    	local player = EffectDC():Get_Targets(0):Get_PlayerPtr(1)
+    	if player ~= nil then
+    		player:ShuffleLibrary()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_POLYMORPH">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to destroy. (A creature card from its controller’s library will be put onto the battlefield.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la détruire. (Une carte de créature de la bibliothèque de son contrôleur sera mise sur le champ de bataille.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para destruirla. (Se pondrá en el campo de batalla una carta de criatura de la biblioteca de su controlador.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die zerstört werden soll. (Eine Kreaturenkarte wird aus der Bibliothek ihres Beherrschers ins Spiel gebracht.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da distruggere. (Una carta creatura verrà messa sul campo di battaglia dal grimorio del suo controllore.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するクリーチャーを１体選んでください。（それのコントローラーのライブラリーから、クリーチャー・カードを１枚戦場に出します。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 생물을 고르십시오. (조종자의 서고에 있는 생물 카드 한 개가 전장에 놓이게 됩니다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для уничтожения. (Карта существа из библиотеки контролирующего ее игрока будет положена на поле битвы.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para destruir. (Um card de criatura do grimório de seu controlador será colocado no campo de batalha.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要消灭的生物。（会有一张生物牌从其操控者的牌库进入战场。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要消滅的生物。（會有一張生物牌從其操控者的牌庫進入戰場。）]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_WEIRD_WHY_PLAY" removal_tag="HINT_SPELL_WEIRD_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

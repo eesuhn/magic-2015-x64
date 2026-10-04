@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="214">
+  <FILENAME text="SUNSPIRE_GATEKEEPERS_374537" />
+  <CARDNAME text="SUNSPIRE_GATEKEEPERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sunspire Gatekeepers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardiens des portes de la Tour de Phébus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Porteros de Chapitel Solar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Torwächter der Sonnenspitzen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardacancelli di Guglia Solare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[太（たい）陽（よう）塔（とう）の門（もん）番（ばん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양첨탑 관문수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Привратники Солнечных Шпилей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Porteiros da Espiral Solar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[日旋门卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[日旋門衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374537" />
+  <ARTID value="131653" />
+  <ARTIST name="Chippy" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You will pass with respect, or you will not pass at all.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous passerez en faisant preuve de respect... ou vous ne passerez pas. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Pasarás mostrando respeto o no pasarás de ninguna manera”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du wirst entweder mit Respekt passieren oder du wirst gar nicht passieren.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Passerai mostrando rispetto o non passerai affatto.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「通る以上は敬意を払え。さもなくば通さぬ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["예를 갖추지 않으면 지나가지 못할 것이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Входите с должным уважением или не входите вовсе».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você passará com respeito, ou não passará.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「想过去就放尊重点，要不然休想通过。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「想過去就放尊重點，要不然休想通過。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sunspire Gatekeepers enters the battlefield, if you control two or more Gates, put a 2/2 white Knight creature token with vigilance onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Gardiens des portes de la Tour de Phébus arrivent sur le champ de bataille, si vous contrôlez au moins deux portes, mettez sur le champ de bataille un jeton de créature 2/2 blanche Chevalier avec la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Porteros de Chapitel Solar entren al campo de batalla, si controlas dos o más Portales, pon en el campo de batalla una ficha de criatura Caballero blanca 2/2 con la habilidad de vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Torwächter der Sonnenspitzen ins Spiel kommen und falls du zwei oder mehr Tore kontrollierst, bringe einen 2/2 weißen Ritter-Kreaturenspielstein mit Wachsamkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Guardacancelli di Guglia Solare entrano nel campo di battaglia, se controlli due o più Cancelli, metti sul campo di battaglia una pedina creatura Cavaliere 2/2 bianca con cautela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[太陽塔の門番が戦場に出たとき、あなたが門を２つ以上コントロールしている場合、警戒を持つ白の２/２の騎士・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양첨탑 관문수호자가 전장에 들어올 때, 당신이 관문을 두 개 이상 조종한다면, 경계를 가진 2/2 백색 기사 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Привратники Солнечных Шпилей выходят на поле битвы, если под вашим контролем есть двое или более Врат, положите на поле битвы одну фишку существа 2/2 белый Рыцарь с Бдительностью.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Porteiros da Espiral Solar entrar no campo de batalha, se você controlar dois ou mais Portões, coloque no campo de batalha uma ficha de criatura branca 2/2 do tipo Cavaleiro com vigilância.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当日旋门卫进战场时，若你操控两个或更多门，则将一个2/2白色，具警戒异能的骑士衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當日旋門衛進戰場時，若你操控兩個或更多門，則將一個2/2白色，具警戒異能的騎士衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_GATE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    local total = filter:Count()
+    if total &gt; 1 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_KNIGHT_2_2_W_V_377545", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_KNIGHT_2_2_W_V_377545" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

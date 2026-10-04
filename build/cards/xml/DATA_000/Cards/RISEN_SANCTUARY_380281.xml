@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="111">
+  <FILENAME text="RISEN_SANCTUARY_380281" />
+  <CARDNAME text="RISEN_SANCTUARY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Risen Sanctuary]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanctuaire éveillé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Santuario emergente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufgestandene Zuflucht]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Santuario Elevato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[目（め）覚（ざ）めし聖（せい）域（いき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[일어선 성소]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оживленное Святилище]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Santuário Elevado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[醒转圣域]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[醒轉聖域]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380281" />
+  <ARTID value="145918" />
+  <ARTIST name="Chase Stone" />
+  <CASTING_COST cost="{5}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When one of the great guardians arises, it sweeps enemies aside like chaff yet takes care not to crush a single insect underfoot.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l'un des grands gardiens s'éveille, il balaie les ennemis comme des fétus de paille en prenant soin de ne pas piétiner le moindre insecte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando se alza uno de los grandes guardianes, barre a los enemigos a un lado como si fueran paja pero tiene cuidado de no pisar ni un solo insecto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn einer der großen Wächter sich erhebt, wischt er Feinde wie Spreu beiseite, achtet aber darauf, nicht ein einziges Insekt zu zertreten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando uno dei grandi guardiani si alza, spazza via i nemici come paglia, ma si preoccupa di non schiacciare nemmeno un insetto sotto i suoi piedi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[偉大なる守護者の一体が目覚めると、それは籾殻のように敵を薙ぎ払う。しかしそれは一匹の虫さえ踏みつぶさないのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[위대한 수호자들은 일어나면서 주위의 적을 지푸라기처럼 쓸어버리면서도 발밑의 곤충은 한 마리도 밟지 않으려 주의한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда один из великих стражей пробуждается ото сна, он сносит врагов как пушинки, но старается при этом не раздавить ни единой букашки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando um dos grandes guardiões se ergue, ele varre os inimigos como se fossem de palha, mas ainda assim toma cuidado para não pisotear um inseto sequer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[其间任一位伟大的守护者现身时，它将轻松扫荡敌人，并且还能留心不伤到任一只脚下的虫子。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[其間任一位偉大的守護者現身時，他將輕鬆掃蕩敵人，並且還能留心不傷到任一隻腳下的蟲子。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="8" />
+  <TOUGHNESS value="8" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachsamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cautela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бдительность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vigilância]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_VIGILANCE" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

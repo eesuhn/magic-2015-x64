@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="BOUNDLESS_REALMS_374857" />
+  <CARDNAME text="BOUNDLESS_REALMS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boundless Realms]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Royaumes abondants]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reinos sin límites]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grenzenlose Reiche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Reami Sconfinati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[境（きょう）界（かい）なき領（りょう）土（ど）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[끝이 없는 영역]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безграничные Миры]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Territórios Ilimitados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[无际领域]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[無際領域]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374857" />
+  <ARTID value="143884" />
+  <ARTIST name="Cliff Childs" />
+  <CASTING_COST cost="{6}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Planeswalking cannot be taught. Either you see the doors or you do not.”
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Transplaner ne s'apprend pas. Vous voyez les portes ou vous ne les voyez pas. »
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No se puede enseñar a caminar por los planos. O bien ves las puertas, o no las ves”.
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Wandern zwischen Welten kann dir niemand beibringen. Entweder siehst du die Türen oder nicht.“
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non si può insegnare a viaggiare tra i piani. O vedi le porte oppure non le vedi.”
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「プレインズウォークの仕方は説明できません。出入り口が見えるかどうか、それだけです」――ニッサ・レヴェイン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“차원을 넘나드는 건 가르쳐줄 수 있는 게 아니야. 문이 보이지 않는다면 영원히 공부해도 해낼 수 없지.”
+—니사 레베인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Умению странствовать по мирам нельзя научить. Либо вы видите двери, либо нет».
+— Нисса Ревейн]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A travessia dos planos não pode ser ensinada. Ou você vê as portas ou não.”
+— Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「时空穿梭没办法教。你不是看得见门，就是注定看不见。」～妮莎瑞文]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「時空穿梭沒辦法教。你不是看得見門，就是註定看不見。」
+～妮莎瑞文]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for up to X basic land cards, where X is the number of lands you control, and put them onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez dans votre bibliothèque jusqu’à X cartes de terrain de base, X étant le nombre de terrains que vous contrôlez, et mettez-les sur le champ de bataille engagées. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca hasta X cartas de tierra básica, donde X es la cantidad de tierras que controlas, y ponlas en el campo de batalla giradas. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach bis zu X Standardland-Karten und bringe diese getappt ins Spiel, wobei X gleich der Anzahl an Ländern ist, die du kontrollierst. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per trovare fino a X carte terra base, dove X è il numero di terre che controlli, e mettile sul campo di battaglia TAPpate. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーから基本土地・カードを最大Ｘ枚まで探し、それらをタップ状態で戦場に出す。Xはあなたがコントロールする土地の数に等しい。その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고에서 최대 X장의 기본 대지 카드를 찾아 탭된 채로 전장에 놓는다. X는 당신이 조종하는 대지의 개수다. 그리고 나서 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке до X карт базовых земель, где X — количество земель под вашим контролем, и положите их на поле битвы повернутыми. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure em seu grimório até X cards de terreno básico, sendo X igual ao número de terrenos que você controla, e coloque-os no campo de batalha virados. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从你的牌库中搜寻至多X张基本地牌，X为由你操控的地之数量，并将它们横置进战场。然后将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從你的牌庫中搜尋至多X張基本地牌，X為由你操控的地之數量，並將它們橫置進戰場。然後將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_BIORHYTHM_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_LAND)
+    filter:Add(	FE_CONTROLLER, OP_IS, EffectController() )
+    EffectDC():Set_Int(0, filter:Count())
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local numbLands = EffectDC():Get_Int(0)
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount(numbLands)
+    for i = 0, (numbLands-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_THE_BATTLEFIELD_TAPPED" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(1) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local landsDC = EffectDC():Get_Targets(1)
+    if landsDC ~= nil then
+    	local numLands = landsDC:Count()
+    	for i = 0,(numLands-1) do
+    		local chosenCard = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if chosenCard ~= nil  then
+    			chosenCard:PutOntoBattlefieldTapped( EffectController() )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_THE_BATTLEFIELD_TAPPED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to put onto the battlefield tapped. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le mettre sur le champ de bataille engagé. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para ponerla en el campo de batalla girada. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das getappt ins Spiel gebracht werden soll. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da mettere sul campo di battaglia TAPpata. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップ状態で戦場に出す土地を１つ選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭된 상태로 전장에 놓을 대지 한 개를 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю, чтобы положить ее на поле битвы повернутой. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para colocar no campo de batalha virado. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个地横置放进战场。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地橫置放進戰場。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RAMP_WHY_PLAY" removal_tag="HINT_SPELL_RAMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

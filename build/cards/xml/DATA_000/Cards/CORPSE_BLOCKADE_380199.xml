@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="481">
+  <FILENAME text="CORPSE_BLOCKADE_380199" />
+  <CARDNAME text="CORPSE_BLOCKADE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corpse Blockade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Barricade de cadavres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bloqueo de cuerpos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leichenblockade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Blocco di Cadaveri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）体（たい）の道（みち）塞（ふさ）ぎ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체 방어벽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заграждение из Трупов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bloqueio de Cadáveres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[死尸路障]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[死屍路障]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380199" />
+  <ARTID value="146295" />
+  <ARTIST name="Lucas Graciano" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There are laws against it, but the dead have no one to complain to and the living are too frightened to investigate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il existe des lois qui l'interdisent, mais les morts n'ont personne à qui se plaindre et les vivants ont trop peur pour enquêter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hay leyes que lo prohíben, pero los muertos no tienen a quién quejarse y los vivos están demasiado asustados para investigar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es gibt Gesetze dagegen, aber die Toten können sich nirgendwo beschweren und die Lebenden haben zu viel Angst, um der Sache nachzugehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[È proibito dalla legge, ma i morti non hanno nessuno con cui lamentarsi e i vivi sono troppo spaventati per indagare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それを取り締まる法律はあるが、死者には告訴する相手がおらず、生者は恐怖のあまり捜査しようとしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당연히 불법이지만 죽은 자는 말이 없고 산 사람은 두려워 조사하지 못한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Против этого есть законы, но мертвым некому жаловаться, а живые слишком напуганы, чтобы подойти ближе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Há leis contra isso, mas os mortos não têm com quem reclamar e os vivos ficam assustados demais para investigar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[虽然法律明文禁止此事，但死者投诉无门，生者没胆调查。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[雖然法律明文禁止此事，但死者投訴無門，生者沒膽調查。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defender]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défenseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defensor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verteidiger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Difensore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[防衛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[수비태세]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защитник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defensor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[守军]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[守軍]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_DEFENDER" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice another creature: Corpse Blockade gains deathtouch until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez une autre créature : La Barricade de cadavres acquiert le contact mortel jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar otra criatura: El Bloqueo de cuerpos gana la habilidad de toque mortal hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere eine andere Kreatur: Die Leichenblockade erhält Todesberührung bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica un’altra creatura: Il Blocco di Cadaveri ha tocco letale fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャーを１体生け贄に捧げる：死体の道塞ぎはターン終了時まで接死を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물 한 개를 희생한다: 시체 방어벽은 턴종료까지 치명타를 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте другое существо: Заграждение из Трупов получает Смертельное касание до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique outra criatura: Bloqueio de Cadáveres ganha toque mortífero até o fim do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牺牲另一个生物：死尸路障获得死触异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[犧牲另一個生物：死屍路障獲得死觸異能直到回合結束。]]></LOCALISED_TEXT>
+    <COST type="Sacrifice" definition="0" compartment="1" query_tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" item_count="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource())
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </COST_DEFINITION>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_DEATHTOUCH, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Defender" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_3" body="MORE_INFO_BADGE_BODY_3" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_6" body="MORE_INFO_BADGE_BODY_6" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="213">
+  <FILENAME text="VINELASHER_KUDZU_374391" />
+  <CARDNAME text="VINELASHER_KUDZU" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vinelasher Kudzu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kudzu fouettevigne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kudzú azotaparra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kletterranken-Kudzu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kudzo Sferzaliane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[殴（おう）打（だ）蔦（づた）の葛（くず）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[채찍덩굴 칡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хлесткие Плети Кудзу]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Videira Kudzu Flagelante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[缠藤野葛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[纏藤野葛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374391" />
+  <ARTID value="88589" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It grows to hate you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il grandit pour vous haïr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Crece para odiarte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es wächst, um dich zu hassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cresce e impara a odiarti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[憎悪のための成長。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[몸집이 커질수록 증오도 커져간다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Их ненависть растет вместе с ними.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela cresce para odiá-lo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[它长大就是为了要恨你。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[它長大就是為了要恨你。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a land enters the battlefield under your control, put a +1/+1 counter on Vinelasher Kudzu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, mettez un marqueur +1/+1 sur le Kudzu fouettevigne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una tierra entre al campo de batalla bajo tu control, pon un contador +1/+1 sobre el Kudzú azotaparra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, lege eine +1/+1-Marke auf das Kletterranken-Kudzu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, metti un segnalino +1/+1 sul Kudzo Sferzaliane.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[土地が１つあなたのコントロール下で戦場に出るたび、殴打蔦の葛の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지가 당신의 조종하에 전장에 들어올 때마다, 채찍덩굴 칡괴물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда земля выходит на поле битвы под вашим контролем, положите один жетон +1/+1 на Хлесткие Плети Кудзу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um terreno entrar no campo de batalha sob seu controle, coloque um marcador +1/+1 em Videira Kudzu Flagelante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个地在你的操控下进战场时，在缠藤野葛上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個地在你的操控下進戰場時，在纏藤野葛上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_GAEA_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

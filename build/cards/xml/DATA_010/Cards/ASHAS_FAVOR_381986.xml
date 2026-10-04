@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="202">
+  <FILENAME text="ASHAS_FAVOR_381986" />
+  <CARDNAME text="ASHAS_FAVOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Asha’s Favor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Faveur selon Asha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Favor de Asha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ashas Gunst]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Favore di Asha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーシャの好（こう）意（い）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아샤의 은혜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покровительство Аши]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Proteção de Asha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[亚莎的恩惠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[亞莎的恩惠]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381986" />
+  <ARTID value="118651" />
+  <ARTIST name="Donato Giancola" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As his new wings lifted him high above Bant, Taric felt his earthly aspirations transform into heavenly resolve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Soulevé haut dans le ciel de Bant par ses nouvelles ailes, Taric sentit ses aspirations terre à terre se transformer en résolution céleste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mientras sus nuevas alas lo elevaban sobre Bant, Taric sintió cómo sus aspiraciones terrenales se transformaban en resolución celestial”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als seine neuen Flügel ihn weit über Bant schweben ließen, merkte Taric, wie seine irdischen Hoffnungen zu himmlischen Entschlüssen wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre le sue nuove ali lo innalzavano sui cieli di Bant, Taric sentì le sue aspirazioni terrene trasformarsi in una ferma risolutezza celeste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[新しい翼でバントの空高く舞い上がったタリクは、地上での野望が天空での決意へと変わっていくのを感じていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타릭은 새로 생긴 날개로 하늘을 날며 자신이 지상에서 다졌던 포부가 더욱 굳세짐을 느꼈다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда обретенные Тариком крылья подняли его высоко над Бэнтом, он почувствовал, как его мирские чаяния превращаются в неземную решимость.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme suas novas asas o alçavam acima de Bant, Taric sentiu suas aspirações terrenas transformarem-se em determinação divina.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[塔历新生之羽翼带他在班特上空翱翔，他感觉自己的尘俗志向已转化为神圣决心。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[塔歷新生之羽翼帶他在班特上空翱翔，他感覺自己的塵俗志向已轉化為神聖決心。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert eine Kreatur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于生物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於生物]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature has flying, first strike, and vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée a le vol, l’initiative et la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada tiene las habilidades de volar, dañar primero y vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur hat Flugfähigkeit, Erstschlag und Wachsamkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata ha volare, attacco improvviso e cautela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは、飛行と先制攻撃と警戒を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 비행, 선제공격 및 경계를 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо имеет Полет, Первый удар и Бдительность.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada tem voar, iniciativa e vigilância.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[所结附的生物具有飞行，先攻，与警戒异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[所結附的生物具有飛行，先攻，與警戒異能。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_FLYING, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_VIGILANCE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="222">
+  <FILENAME text="MUTILATE_374868" />
+  <CARDNAME text="MUTILATE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mutilate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mutilation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mutilar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verstümmeln]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mutilare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[もぎとり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[훼손]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Увечье]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mutilar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[残肢毁伤]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[殘肢毀傷]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374868" />
+  <ARTID value="143946" />
+  <ARTIST name="Tyler Jacobson" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It’s only torture if you’re strong enough to survive. Otherwise, it’s a simple, gruesome death. I’m happy with either outcome.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il s'agit de torture quand le sujet est assez fort pour survivre. Autrement, il connaît simplement une mort atroce. L'une ou l'autre issue me convient. »
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Solo es tortura si eres lo bastante fuerte como para sobrevivir. De lo contrario, no es más que una muerte espantosa. Ambos resultados me parecen bien”.
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Man kann es nur Folter nennen, wenn du stark genug bist, zu überleben. Andernfalls ist es einfach ein grausamer Tod. Beides ist mir recht.“
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Può definirsi tortura solo se si è abbastanza forti da sopravvivere. Altrimenti, non è altro che una morte raccapricciante. Mi accontento di qualunque sia il risultato.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「生き延びれるほど体力があるから拷問になるの。そうでなければ単にむごい死に方ってだけ。私はそのどちらでも満足よ。」――リリアナ・ヴェス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“버텨낼 수 있을 만큼 강하다면 고문이고 그렇지 않다면 그냥 잔혹사일 뿐이지. 어느 쪽이든 난 상관없어.”
+—릴리아나 베스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пытка — это когда ты достаточно силен, чтобы ее выдержать. В противном случае это просто жестокая смерть. Меня, впрочем, устраивает любой исход».
+— Лилиана Весс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Só é tortura se você for forte o suficiente para sobreviver. Caso contrário, é só uma morte simples e horrenda. Ambas me satisfazem.”
+— Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「如果你够强得以幸存，那么这只不过是场苦刑。否则，这将是赤裸裸的可怕死亡。无论哪个结果都是我所乐见的。」
+～莉莲娜维斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「如果你夠強得以倖存，那麼這只不過是場苦刑。否則，這將是赤裸裸的可怕死亡。無論哪個結果都是我所樂見的。」
+～莉蓮娜維斯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All creatures get -1/-1 until end of turn for each Swamp you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toutes les créatures gagnent -1/-1 jusqu’à la fin du tour pour chaque marais que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Todas las criaturas obtienen -1/-1 hasta el final del turno por cada pantano que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Kreaturen erhalten für jeden Sumpf, den du kontrollierst, -1/-1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutte le creature prendono -1/-1 fino alla fine del turno per ogni Palude che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべてのクリーチャーは、ターン終了時まであなたがコントロールする沼１つにつき－１/－１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모든 생물은 턴종료까지 당신이 조종하는 늪 한 개당 -1/-1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Все существа получают -1/-1 до конца хода за каждое Болото под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Todas as criaturas recebem -1/-1 até o final do turno para cada Pântano que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你每操控一个沼泽，所有生物便得-1/-1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你每操控一個沼澤，所有生物便得-1/-1直到回合結束。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_MASSACRE_PLAY" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_SWAMP)
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    EffectDC():Set_Int(1, filter:Count()) 
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    local number = EffectDC():Get_Int(1)
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( -number )
+    	characteristics:Toughness_Add( -number )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

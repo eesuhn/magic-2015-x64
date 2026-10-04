@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="5">
+  <FILENAME text="UTVARA_HELLKITE_388094" />
+  <CARDNAME text="UTVARA_HELLKITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Utvara Hellkite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Escouflenfer d'Utvara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Engendro de Utvara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Utvara-Höllendrache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nibbio Infernale di Utvara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ウトヴァラのヘルカイト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[우트바라 지옥룡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утварский Змей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Avérneo de Utvara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坞瓦拉残虐者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[塢瓦拉殘虐者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388094" />
+  <ARTID value="145978" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{6}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The fear of dragons is as old and as powerful as the fear of death itself.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La peur des dragons est aussi ancienne et puissante que la peur de la mort.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El temor a los dragones es tan antiguo y poderoso como el miedo a la misma muerte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Angst vor Drachen ist so alt und so mächtig wie die Angst vor dem Tod selbst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La paura dei draghi è antica e potente, come la paura della morte stessa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドラゴンへの畏怖は死への畏怖と同じぐらい強く、古いものである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용에 대한 공포는 죽음에 대한 공포만큼이나 오래되었고 강력하다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страх перед драконами столь же древен и силен, как и страх перед смертью.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O medo de dragões é tão antigo e poderoso quanto o medo da própria morte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[畏惧龙和畏惧死亡同样地历史长久、影响深远。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[畏懼龍和畏懼死亡同樣地歷史長久、影響深遠。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a Dragon you control attacks, put a 6/6 red Dragon creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un dragon que vous contrôlez attaque, mettez sur le champ de bataille un jeton de créature 6/6 rouge Dragon avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un Dragón que controlas ataque, pon en el campo de batalla una ficha de criatura Dragón roja 6/6 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Drache angreift, den du kontrollierst, bringe einen 6/6 roten Drache-Kreaturenspielstein mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un Drago che controlli attacca, metti sul campo di battaglia una pedina creatura Drago 6/6 rossa con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするドラゴンが１体攻撃するたび、飛行を持つ赤の６/６のドラゴン・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 용이 공격할 때마다, 비행을 가진 6/6 적색 용 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Дракон под вашим контролем атакует, положите на поле битвы одну фишку существа 6/6 красный Дракон с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um Dragão que você controla atacar, coloque no campo de batalha uma ficha de criatura vermelha 6/6 do tipo Dragão com voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个由你操控的龙攻击时，将一个6/6红色，具飞行异能的龙衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個由你操控的龍攻擊時，將一個6/6紅色，具飛行異能的龍衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="objectyoucontrol">
+    return TriggerObject():GetSubType():Test(CREATURE_TYPE_DRAGON)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_DRAGON_6_6_R_F_388100", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="1" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_DRAGON_6_6_R_F_388100" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FLAME_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FLAME_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

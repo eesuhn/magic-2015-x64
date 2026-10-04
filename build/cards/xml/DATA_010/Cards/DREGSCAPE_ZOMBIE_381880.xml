@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="DREGSCAPE_ZOMBIE_381880" />
+  <CARDNAME text="DREGSCAPE_ZOMBIE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dregscape Zombie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Zombie de la Bourbière]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Zombie del Escorial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bodensatz-Zombie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zombie di Fecciorama]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[屑（くず）肉（にく）の地（ち）のゾンビ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[찌꺼기를 먹는 좀비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зомби Протухшего Болота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zumbi do Vale das Escórias]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[渣境灵俑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[渣境殭屍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381880" />
+  <ARTID value="114955" />
+  <ARTIST name="Lars Grant-West" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The undead of Grixis are fueled by their hatred of the living.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les morts-vivants de Grixis sont nourris par leur haine des vivants.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los muertos vivientes de Grixis son impulsados por su odio a los vivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Untoten in Grixis werden von ihrem Hass auf die Lebenden angetrieben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I non morti di Grixis sono alimentati dal loro odio per i vivi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスのアンデッドは、生に対する憎悪を糧としている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그릭시스의 언데드는 산 자에 대한 증오심을 태우며 움직인다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нежить Гриксиса питается своей ненавистью к живым.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os mortos-vivos de Grixis são alimentados pelo ódio que nutrem pelos vivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[格利极的不死生物以对生者的恨意为养分。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[格利極的不死生物以對生者的恨意為養分。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unearth {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exhumation {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desenterrar {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exhumieren {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dissotterrare {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇生 {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파묘 {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Откопать {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desenterrar {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[破坟{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[破墳{B}]]></LOCALISED_TEXT>
+    <COST mana_cost="{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectSource()
+    if creature ~= nil then
+    	EffectDC():Make_Targets(0):Set_CardPtr(0, creature)
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	creature:PutOntoBattlefield( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if creature ~= nil then
+    	local delayDC = EffectDC():Make_Targets(1)
+    	delayDC:Set_CardPtr(0, creature)
+    	
+    	MTG():CreateDelayedTrigger( 2, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if creature ~= nil then
+    	local delayDC = EffectDC():Make_Targets(2)
+    	delayDC:Set_CardPtr(0, creature)
+    	
+    	MTG():CreateDelayedTrigger( 3, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_HASTE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AVAILABILITY sorcery_time="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_RECURSION_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="2">
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Exile()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="3">
+    <TRIGGER value="ZONECHANGE_CONSIDERED" to_zone="ZONE_ANY" from_zone="ZONE_BATTLEFIELD" pre_trigger="1">
+    if TriggerObject() == EffectDC():Get_CardPtr(0) and (GetToZone() ~= ZONE_EXILE) then
+    	MTG():OverrideEvent()
+        return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_UNEARTH" body="MORE_INFO_BODY_UNEARTH" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

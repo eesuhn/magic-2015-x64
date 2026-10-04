@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="206">
+  <FILENAME text="WANDERING_GOBLINS_382011" />
+  <CARDNAME text="WANDERING_GOBLINS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wandering Goblins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gobelins vagabonds]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trasgos errantes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wandernde Goblins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Goblin Vagabondi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[さまようゴブリン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[유랑 고블린]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бродячие Гоблины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goblins Errantes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[漫游鬼怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[漫遊鬼怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382011" />
+  <ARTID value="118730" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tired of waiting for a dragon to eat them, some hardy goblins struck out to become meals for the unknown.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Las d'attendre qu'un dragon les dévore, certains gobelins courageux décidèrent de partir pour servir de repas à l'inconnu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cansados de esperar que un dragón los comiera, algunos trasgos se fueron para ser comida de lo desconocido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einige kühne Goblins, die es müde waren, auf einen Drachen zu warten, der sie fressen würde, zogen aus, um Unbekanntem als Mahlzeit zu dienen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stanchi di aspettare di essere divorati da qualche drago, alcuni goblin particolarmente arditi partirono per diventare il pasto di altri esseri sconosciuti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドラゴンの餌になるのに失敗し続けた丈夫なゴブリンは、自分も知らない何かの餌になろうと決めた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용이 자신들을 먹을 때까지 기다리는 것에 지친 그들은 다른 생물의 먹이가 되기 위해 뛰쳐나갔다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Устав ждать, пока их сожрет какой-нибудь дракон, несколько смелых гоблинов бросились в пасть неизвестности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cansados de esperar por um dragão para devorá-los, alguns goblins audazes se aventuram na tentativa de se tornar refeição do desconhecido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[有些大胆的鬼怪没耐心等着给龙吃掉，决定出发好成为未知生物的餐点。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[有些大膽的鬼怪沒耐心等著給龍吃掉，決定出發好成為未知生物的餐點。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="3" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Domain| — {3}: Wandering Goblins gets +1/+0 until end of turn for each basic land type among lands you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Domaine| — {3} : Les Gobelins vagabonds gagnent +1/+0 jusqu’à la fin du tour pour chaque type de terrain de base parmi les terrains que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Dominio| — {3}: Los Trasgos errantes obtienen +1/+0 hasta el final del turno por cada tipo de tierra básica entre las tierras que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Domäne| — {3}: Die Wandernden Goblins erhalten bis zum Ende des Zuges +1/+0 für jeden Standardlandtyp unter den Ländern, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Dominio| — {3}: I Goblin Vagabondi prendono +1/+0 fino alla fine del turno per ogni tipo di terra base tra le terre che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|版図| ― {3}：さまようゴブリンはターン終了時まで、あなたがコントロールする土地の中の基本土地タイプ１つにつき＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도메인 — {3}: 유랑 고블린은 턴종료까지 당신이 조종하는 대지의 각 기본 대지 유형마다 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Владения| — {3}: Бродячие Гоблины получают +1/+0 до конца хода за каждый тип базовой земли среди земель под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Dominar| — {3}: Goblins Errantes recebe +1/+0 até o final do turno para cada tipo de terreno básico entre os terrenos que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[领土～{3}：由你操控的地之中每有一种基本地类别，漫游鬼怪便得+1/+0直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[領土～{3}：由你操控的地之中每有一種基本地類別，漫遊鬼怪便得+1/+0直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    EffectDC():Set_Int(1, EffectController():GetDomainCount())
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local countDC = EffectDC():Get_Int(1)
+    	if countDC ~= 0 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Power_Add( countDC )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="FOREST" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="ISLAND" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="MOUNTAIN" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="PLAINS" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="SWAMP" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="300" />
+  <HELP title="MORE_INFO_TITLE_DOMAIN" body="MORE_INFO_BODY_DOMAIN" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

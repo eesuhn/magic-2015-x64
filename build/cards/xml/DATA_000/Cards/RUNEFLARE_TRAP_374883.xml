@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="315">
+  <FILENAME text="RUNEFLARE_TRAP_374883" />
+  <CARDNAME text="RUNEFLARE_TRAP" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Runeflare Trap]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piège aux runes flamboyantes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trampa fulgor de runas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flackerrunen-Falle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trappola di Rune Incendiarie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーン炎（ほのお）の罠（わな）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬불꽃 함정]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Западня Обжигающих Рун]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Armadilha de Runas Ardentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[符焰陷阱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[符焰陷阱]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374883" />
+  <ARTID value="125078" />
+  <ARTIST name="Franz Vohwinkel" />
+  <CASTING_COST cost="{4}{R}{R}" />
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Trap" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <UTILITY_ABILITY qualifier="Alternate">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an opponent drew three or more cards this turn, you may pay {R} rather than pay Runeflare Trap’s mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un adversaire a pioché au moins trois cartes ce tour-ci, vous pouvez payer {R} à la place du coût de mana du Piège aux runes flamboyantes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un oponente robó tres o más cartas este turno, puedes pagar {R} en lugar de pagar el coste de maná de la Trampa fulgor de runas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Gegner in diesem Zug drei oder mehr Karten gezogen hat, kannst du {R} bezahlen, anstatt die Manakosten der Flackerrunen-Falle zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se un avversario ha pescato tre o più carte in questo turno, puoi pagare {R} invece di pagare il costo di mana della Trappola di Rune Incendiarie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターン、対戦相手が３枚以上のカードを引いていたなら、あなたはルーン炎の罠のマナ・コストを支払うのではなく、{R}を支払ってもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 턴에 상대가 세 장 이상의 카드를 뽑았다면, 당신은 룬불꽃 함정의 마나비용 대신 {R}를 지불할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если оппонент взял не менее трех карт в этом ходу, вы можете заплатить {R} вместо уплаты мана-стоимости Западни Обжигающих Рун.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um oponente comprou três cards ou mais neste turno, você pode pagar {R} em vez de pagar o custo de mana de Armadilha de Runas Ardentes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果本回合中某对手抓过三张或更多牌，你可以支付{R}，而不支付符焰陷阱的法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果本回合中某對手抽過三張或更多牌，你可以支付{R}，而不支付符焰陷阱的魔法力費用。]]></LOCALISED_TEXT>
+    <COST mana_cost="{R}" type="Mana" />
+    <ABILITY_TEXT tag="CARD_QUERY_ANSWER_2_FRENZIED_GOBLIN" />
+    <AVAILABILITY>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    if MTG():GetTurnNumber() == 0 then
+    	return false
+    end
+    for i = 0, (numPlayers-1) do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil and player:GetTeam() ~= EffectController():GetTeam() then
+    		local interrogation = MTG():ClearInterrogationQuery()
+    		interrogation:SetPlayer( player )
+    		local numCardsDrawn = interrogation:Count( INTERROGATE_CARDS_DRAWN, INTERROGATE_THIS_TURN, 3 )
+    		
+    	
+    		if numCardsDrawn == 3 then
+    			return true
+    		end
+    	end
+    end
+    return false
+    </AVAILABILITY>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Runeflare Trap deals damage to target player equal to the number of cards in that player’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Piège aux runes flamboyantes inflige à un joueur ciblé un nombre de blessures égal au nombre de cartes dans la main de ce joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Trampa fulgor de runas hace daño al jugador objetivo igual a la cantidad de cartas en la mano de ese jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Flackerrunen-Falle fügt einem Spieler deiner Wahl so viele Schadenspunkte zu, wie dieser Karten auf seiner Hand hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Trappola di Rune Incendiarie infligge danno a un giocatore bersaglio pari al numero di carte in mano a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。ルーン炎の罠はそのプレイヤーに、そのプレイヤーの手札のカードの枚数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 룬불꽃 함정은 그 플레이어에게 그 플레이어가 손에 든 카드 수만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Западня Обжигающих Рун наносит целевому игроку повреждения, равные количеству карт в руке того игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Armadilha de Runas Ardentes causa dano ao jogador alvo igual ao número de cards na mão daquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[符焰陷阱对目标牌手造成等同于该牌手之手牌数量的伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[符焰陷阱對目標玩家造成等同於該玩家之手牌數量的傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FLAME_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then   
+    	EffectSourceLKI():DealDamageTo( target:Hand_Count(), target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_2_FRENZIED_GOBLIN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payer {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R} bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}를 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{R}]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to deal damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, dem Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입힐 플레이어를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которому нужно нанести повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador ao qual causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位要受到伤害的牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位要受到傷害的玩家。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

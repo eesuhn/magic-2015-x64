@@ -1,0 +1,138 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="128">
+  <FILENAME text="BOROS_CHARM_377400" />
+  <CARDNAME text="BOROS_CHARM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boros Charm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Charme de Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Amuleto boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Boros-Amulett]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Talismano Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ボロスの魔（ま）除（よ）け]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[보로스 부적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Талисман Боросов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Amuleto Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[波洛斯护符]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[波洛斯護符]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377400" />
+  <ARTID value="145919" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{R}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Practice compassion and mercy. But know when they must end.”
+—Aurelia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Usez de compassion et de miséricorde. Mais sachez qu’elles ne durent qu’un temps. »
+—Aurélia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Practica la compasión y la clemencia. Pero has de saber cuándo han de terminar”.
+—Aurelia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Übe Mitleid und Gnade. Aber wisse, wann es enden muss.“
+—Aurelia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Devi praticare la pietà e la compassione. Ma impara anche a lasciarle da parte, quando necessario.”
+—Aurelia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「思いやりと慈悲を実践しなさい。ですがそれを打ち切るべき時も把握しなさい。」
+――オレリア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["동정심과 자비를 베풀되, 베푸는 것에도 한계가 있다는 사실을 명심하라."
+—아우렐리아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Проявляйте сострадание и милосердие, но научитесь понимать, где им уже не место».
+— Аурелия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Pratique a compaixão e a misericórdia. Mas saiba quando elas precisam acabar.”
+— Aurélia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「付出同情和怜悯，但该明白界线为何。」
+～欧瑞梨]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「付出同情和憐憫，但該明白界線為何。」
+～歐瑞梨]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose one — Boros Charm deals 4 damage to target player; or permanents you control gain indestructible until end of turn; or target creature gains double strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez l’un — Le Charme de Boros inflige 4 blessures au joueur ciblé ; ou les permanents que vous contrôlez acquièrent l’indestructible jusqu’à la fin du tour ; ou une créature ciblée acquiert la double initiative jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige uno: El Amuleto boros hace 4 puntos de daño al jugador objetivo; o los permanentes que controlas ganan la habilidad de indestructible hasta el final del turno; o la criatura objetivo gana la habilidad de dañar dos veces hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eines — Das Boros-Amulett fügt einem Spieler deiner Wahl 4 Schadenspunkte zu; oder bleibende Karten, die du kontrollierst, erhalten bis zum Ende des Zuges Unzerstörbarkeit; oder eine Kreatur deiner Wahl erhält Doppelschlag bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli uno — Il Talismano Boros infligge 4 danni a un giocatore bersaglio; oppure i permanenti che controlli hanno indistruttibile fino alla fine del turno; oppure una creatura bersaglio ha doppio attacco fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[以下の３つから１つを選ぶ。「プレイヤー１人を対象とする。ボロスの魔除けはそのプレイヤーに４点のダメージを与える。」「あなたがコントロールするパーマネントはターン終了時まで破壊不能を得る。」「クリーチャー１体を対象とする。それはターン終了時まで二段攻撃を得る。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하나를 선택한다 — 플레이어 한 명을 목표로 정한다. 보로스 부적은 그 플레이어에게 피해 4점을 입힌다; 또는 당신이 조종하는 지속물들은 턴종료까지 무적을 얻는다; 또는 생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 이단공격을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите одно — Талисман Боросов наносит 4 повреждения целевому игроку; или перманенты под вашим контролем получают Неразрушимость до конца хода; или целевое существо получает Двойной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um — Amuleto Boros causa 4 pontos de dano ao jogador alvo; ou as permanentes que você controla ganham indestrutível até o final do turno; ou a criatura alvo ganha golpe duplo até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一项～波洛斯护符对目标牌手造成4点伤害；或由你操控的永久物获得不灭异能直到回合结束；或目标生物获得连击异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一項～波洛斯護符對目標玩家造成4點傷害；或由你操控的永久物獲得不滅異能直到回合結束；或目標生物獲得連擊異能直到回合結束。]]></LOCALISED_TEXT>
+    <MODE_SELECT tag="MODE_CHOOSE_ONE">
+      <MODE tag="CARD_QUERY_BOROS_CHARM_4_DAMAGE" index="1" />
+      <MODE tag="CARD_QUERY_BOROS_CHARM_INDESTRUCTIBLE" index="2" />
+      <MODE tag="CARD_QUERY_BOROS_CHARM_DOUBLE_STRIKE" index="3" />
+    </MODE_SELECT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_4_DAMAGE" definition="0" compartment="0" mode="1" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION mode="1">
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 4, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 4, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_IS_PERMANENT, true )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6" mode="2" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_INDESTRUCTIBLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_DOUBLESTRIKE" definition="1" compartment="2" mode="3" count="1" />
+    <TARGET_DEFINITION id="1">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="6" mode="3">
+    local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_DOUBLE_STRIKE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="2" hint="HINT_ALLIED_ONLY" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_2" body="MORE_INFO_BADGE_BODY_2" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_4_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to deal 4 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui infliger 4 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerle 4 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, dem 4 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore a cui infliggere 4 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[４点のダメージを与えるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 4점을 입을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которому нужно нанести 4 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para causar 4 pontos de dano a ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以对其造成4点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來對其造成4點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_DOUBLESTRIKE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain double strike.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire acquérir la double initiative.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que gane dañar dos veces.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die Doppelschlag erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che guadagna doppio attacco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[二段攻撃を得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이단공격 능력을 얻을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит Двойной удар.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para ganhar golpe duplo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得连击异能的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得連擊異能。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

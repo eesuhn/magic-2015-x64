@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="UNDERWORLD_CERBERUS_377051" />
+  <CARDNAME text="UNDERWORLD_CERBERUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Underworld Cerberus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cerbère du Monde souterrain]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cerbero del Inframundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerberus der Unterwelt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cerbero dell’Ade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）の国（くに）のケルベロス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저승 켈베로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цербер из Подземного Царства]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cérbero do Submundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[冥界狱犬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[冥界獄犬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377051" />
+  <ARTID value="149216" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{3}{B}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hound" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Underworld Cerberus can’t be blocked except by three or more creatures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Cerbère du Monde souterrain ne peut pas être bloqué excepté par trois créatures ou plus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Cerbero del Inframundo no puede ser bloqueado excepto por tres o más criaturas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Zerberus der Unterwelt kann nicht geblockt werden, außer von drei oder mehr Kreaturen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Cerbero dell’Ade non può essere bloccato tranne che da tre o più creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死の国のケルベロスは、３体以上のクリーチャーによってしかブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저승 켈베로스는 세 개 이상의 생물에게만 방어될 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цербер из Подземного Царства не может быть заблокирован менее чем тремя существами.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cérbero do Submundo só pode ser bloqueado por três ou mais criaturas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[冥界狱犬只能被三个或更多生物阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[冥界獄犬只能被三個或更多生物阻擋。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_BLOCKED_EXCEPT_BY_THREE_OR_MORE_CREATURES, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cards in graveyards can’t be the targets of spells or abilities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les cartes des cimetières ne peuvent pas être la cible de sorts ou de capacités.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las cartas de los cementerios no pueden ser objetivo de hechizos o habilidades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Karten in Friedhöfen können nicht das Ziel von Zaubersprüchen oder Fähigkeiten sein.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le carte nei cimiteri non possono essere bersaglio di magie o abilità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓地にあるカードは呪文や能力の対象にならない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤에 있는 카드는 주문이나 능력의 목표로 정해질 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Карты на кладбищах не могут быть целями заклинаний или способностей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os cards nos cemitérios não podem ser alvo de mágicas nem de habilidades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坟墓场中的牌不能成为咒语或异能的目标。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[墳墓場中的牌不能成為咒語或異能的目標。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_GRAVEYARD )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:GrantAbility(1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Underworld Cerberus dies, exile it and each player returns all creature cards from his or her graveyard to his or her hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cerbère du Monde souterrain meurt, exilez-le et chaque joueur renvoie dans sa main toutes les cartes de créature de son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Cerbero del Inframundo muera, exílialo y cada jugador regresa todas las cartas de criatura de su cementerio a su mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Zerberus der Unterwelt stirbt, schicke ihn ins Exil und jeder Spieler bringt alle Kreaturenkarten aus seinem Friedhof auf seine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Cerbero dell’Ade muore, esilialo e ogni giocatore riprende in mano tutte le carte creatura dal proprio cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死の国のケルベロスが死亡したとき、これを追放し、各プレイヤーはそれぞれ自分の墓地にあるすべてのクリーチャー・カードを自分の手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저승 켈베로스가 죽을 때, 저승 켈베로스를 추방하고 각 플레이어는 자신의 무덤에 있는 모든 생물 카드를 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Цербер из Подземного Царства умирает, изгоните его, и каждый игрок возвращает все карты существ из своего кладбища в свою руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Cérbero do Submundo morrer, exile-o, e cada jogador devolve todos os cards de criatura do próprio cemitério para a própria mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当冥界狱犬死去时，将它放逐且每位牌手各将其坟墓场中所有生物牌移回其手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當冥界獄犬死去時，將它放逐且每位玩家各將其墳墓場中所有生物牌移回其手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, TriggerObject())
+    filter:SetZone( ZONE_GRAVEYARD )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if FilteredCard() ~= nil then
+    	FilteredCard():PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1" active_zone="ZONE_GRAVEYARD">
+    <TRIGGER value="CARD_CONSIDERED_FOR_TARGETTING" simple_qualifier="self" pre_trigger="1">
+    MTG():OverrideEvent()
+    return true
+    </TRIGGER>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="770">
+  <FILENAME text="VOLCANIC_GEYSER_378207" />
+  <CARDNAME text="VOLCANIC_GEYSER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Volcanic Geyser]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Geyser volcanique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Géiser volcánico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vulkanischer Geysir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Geyser Vulcanico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶（よう）岩（がん）噴（ふん）火（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화산 분출]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вулканический Гейзер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gêiser Vulcânico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[火泉喷发]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[火泉噴發]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378207" />
+  <ARTID value="143959" />
+  <ARTIST name="Clint Cearley" />
+  <CASTING_COST cost="{X}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The common folk call it the breaking of the crust or the spilling of fire. Geomancers call it target practice.”
+—Ryda, geomancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le peuple appelle cela une fissure de l'écorce terrestre ou une éruption. Les géomanciens parlent plutôt de tir sur cible. »
+—Ryda, géomancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La gente corriente lo llama ruptura de la corteza o río de fuego. Los geomantes lo llaman práctica”.
+—Ryda, geomante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Normale Leute nennen es das Durchbrechen der Kruste oder das Freisetzen des Feuers. Geomagier nennen es Zielübungen.“
+—Ryda, Geomant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La gente comune lo chiama ‘rottura della crosta’ o ‘getto di fuoco’. I geomanti parlano di ‘pratica nel tiro al bersaglio’.”
+—Ryda, geomante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「素人はあれを見て地殻が割れただの炎が噴き出しただの言うが、地操術士はあれを射撃訓練と呼ぶんだ。」――地操術士ライダ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["평범한 사람들은 이 주문을 대지 분쇄 또는 화염 방출이라고 부른더군. 대지술사들 한테는 그냥 사격 연습이야."
+—대지술사 라이다]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В народе это называется "лопнула корка" или "пролился огонь". У геомантов это называется "мы пристреливаемся"».
+— Райда, геомант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As pessoas comuns chamam de cindir da crosta ou derrame do fogo. Os geomantes chamam de tiro ao alvo.”
+— Ryda, geomante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「普通人称之为地壳断裂或火焰涌出。大地术士称之为练习打靶。」
+～大地术士濑达]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「普通人稱之為地殼斷裂或火焰湧出。大地術士稱之為練習打靶。」
+～大地術士瀨達]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Volcanic Geyser deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Geyser volcanique inflige X blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Géiser volcánico hace X puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Vulkanische Geysir fügt einer Kreatur oder einem Spieler deiner Wahl X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Geyser Vulcanico infligge X danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。溶岩噴火はそれにＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 화산 분출은 그 목표에게 피해 X점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вулканический Гейзер наносит X повреждений целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gêiser Vulcânico causa X pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[火泉喷发对目标生物或牌手造成X点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[火泉噴發對目標生物或玩家造成X點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_X_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( GetEffectX(), target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( GetEffectX(), target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <DECKBUILDING_METADATA defensive="0.5" />
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_X_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal X damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger X blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle X puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem X Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere X danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Ｘ点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 X점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести X повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar X pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成X点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成X點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

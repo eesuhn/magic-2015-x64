@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="130">
+  <FILENAME text="GIANT_SPIDER_374272" />
+  <CARDNAME text="GIANT_SPIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Giant Spider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Araignée géante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Araña gigante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Riesenspinne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ragno Gigante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大（おお）蜘（ぐ）蛛（も）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거대한 거미]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гигантский Паук]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aranha Gigante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨型蜘蛛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨型蜘蛛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374272" />
+  <ARTID value="6654" />
+  <ARTIST name="Randy Gallegos" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The giant spider’s silk naturally resists gravity, almost weaving itself as it blankets the forest canopy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La soie de l'araignée géante résiste naturellement à la gravité, ce qui lui permet de se tisser pratiquement elle-même tandis qu'elle enveloppe la canopée de la forêt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La tela de la araña gigante naturalmente resiste la gravedad, casi tejiéndose sola mientras cubre la enramada del bosque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Seide der Riesenspinne widersetzt sich von Natur aus der Schwerkraft und webt sich fast alleine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La seta del ragno gigante ha una naturale resistenza alla gravità, quasi a tessere se stessa mentre ammanta le cime degli alberi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大蜘蛛の糸は重力に逆らい、勝手に編み上げられたように森の梢を覆う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거대한 거미가 만드는 거미줄은 자연적으로 중력에 저항한다. 그 거미줄은 나무 윗 부분을 담요처럼 덮는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шелковые нити гигантского паука практически невесомы; они словно сами сплетаются в сеть, опутывающую лесной полог.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A seda da aranha gigante resiste à gravidade e quase tece a si mesma ao se espalhar pela copa das árvores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨型蜘蛛的丝天生就会抵抗重力，几乎是自动结成遮蔽整个树冠层的网。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨型蜘蛛的絲天生就會抵抗重力，幾乎是自動結成遮蔽整個樹冠層的網。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spider" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Portée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reichweite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raggiungere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[到達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Захват]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alcance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[延势]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[延勢]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_REACH" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

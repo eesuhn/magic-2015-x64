@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="862">
+  <FILENAME text="SERAPH_OF_THE_MASSES_374712" />
+  <CARDNAME text="SERAPH_OF_THE_MASSES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seraph of the Masses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Séraphine des masses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Serafín de las masas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seraph der Massen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Serafina delle Folle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[衆（しゅ）生（じょう）の熾（し）天（てん）使（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[군중의 치품천사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Серафим Народа]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Serafim das Massas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[众生炽天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[眾生熾天使]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374712" />
+  <ARTID value="155314" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{5}{W}{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <UTILITY_ABILITY qualifier="Convoke">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Convoke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Convocation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Convocar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einberufen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Convocazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[집합]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Созыв]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Convocar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[召集]]></LOCALISED_TEXT>
+  </UTILITY_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seraph of the Masses’s power and toughness are each equal to the number of creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Séraphine des masses a une force et une endurance chacune égales au nombre de créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia del Serafín de las masas son iguales a la cantidad de criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft des Seraphs der Massen sind gleich der Anzahl an Kreaturen, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione della Serafina delle Folle sono pari al numero di creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[衆生の熾天使のパワーとタフネスは、それぞれあなたがコントロールするクリーチャーの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[군중의 치품천사의 공격력과 방어력은 각각 당신이 조종하는 생물의 개수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Серафима Народа равны количеству существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Serafim das Massas são ambos iguais ao número de criaturas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[众生炽天使的力量和防御力各等同于由你操控的生物数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[眾生熾天使的力量和防禦力各等同於由你操控的生物數量。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	local filter = ClearFilter()
+    	
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	local total = filter:Count()
+    	
+    	characteristics:Power_Set( total )
+    	characteristics:Toughness_Set( total )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="50" resource_type="CREATURE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_CONVOKE" body="MORE_INFO_BODY_CONVOKE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

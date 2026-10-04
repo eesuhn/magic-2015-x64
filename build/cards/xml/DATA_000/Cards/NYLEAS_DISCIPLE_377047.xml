@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="402">
+  <FILENAME text="NYLEAS_DISCIPLE_377047" />
+  <CARDNAME text="NYLEAS_DISCIPLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nylea’s Disciple]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Disciple de Nyléa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Discípula de Nylea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schülerin der Nylea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Discepola di Nylea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ナイレアの信（しん）奉（ぽう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[닐리아의 사도]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Послушница Нилеи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Discípulo de Niléia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[倪勒娅的信徒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[倪勒婭的信徒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377047" />
+  <ARTID value="149070" />
+  <ARTIST name="Trevor Claxton" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Archer" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Nylea’s Disciple enters the battlefield, you gain life equal to your devotion to green.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Disciple de Nyléa arrive sur le champ de bataille, vous gagnez un nombre de points de vie égal à votre dévotion au vert.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Discípula de Nylea entre al campo de batalla, ganas una cantidad de vidas igual a tu devoción al verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Schülerin der Nylea ins Spiel kommt, erhältst du so viele Lebenspunkte dazu, wie deine Hingabe zu Grün beträgt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Discepola di Nylea entra nel campo di battaglia, guadagni punti vita pari alla tua devozione al verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ナイレアの信奉者が戦場に出たとき、あなたはあなたの緑への信心に等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[닐리아의 사도가 전장에 들어올 때, 당신은 당신의 녹색 신앙심만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Послушница Нилеи выходит на поле битвы, вы получаете количество жизней, равное вашей Преданности зеленому.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Discípulo de Niléia entra no campo de batalha, você ganha uma quantidade de pontos de vida igual a sua devoção ao verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当倪勒娅的信徒进战场时，你获得若干生命，其数量等同于你的绿色献力。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當倪勒婭的信徒進戰場時，你獲得若干生命，數量等同於你的綠色獻力。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local devotionToGreen = EffectController():GetDevotionTo(COLOUR_GREEN)
+    EffectController():GainLife(devotionToGreen )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_name="Bounce" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="20" resource_type="CREATURE" resource_colour="COLOUR_GREEN" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="900" />
+  <HELP title="MORE_INFO_TITLE_DEVOTION" body="MORE_INFO_BODY_DEVOTION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ARROWS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

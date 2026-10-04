@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="211">
+  <FILENAME text="GLAZE_FIEND_381884" />
+  <CARDNAME text="GLAZE_FIEND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Glaze Fiend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fielleux de vernis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demonio vidriado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Glasurunhold]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Demone Vitreo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[霞（かすみ）の悪（あっ）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[유리장식 마귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Остекленевший Демон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demônio Vitrificado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[嵌璃邪鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[嵌璃邪鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381884" />
+  <ARTID value="98588" />
+  <ARTIST name="Joshua Hagler" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Before the zealots of the Ethersworn came to power, Esper illusionists dreamed up creations to mimic a variety of substances.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avant que les zélateurs des Éthermentés n'arrivent au pouvoir, les illusionnistes d'Esper façonnaient des créations imitant de multiples substances.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Antes de que los fanáticos etereados llegaran al poder, los ilusionistas de Esper soñaban con creaciones que imitaban muchas sustancias.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bevor die äthergläubigen Eiferer an die Macht kamen, erträumten die Illusionisten in Esper neue Kreationen, die eine Vielzahl an Substanzen nachahmten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prima che i membri zelanti tra gli Eterici salissero al potere, gli illusionisti di Esper inventarono delle creazioni per imitare una certa varietà di sostanze.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エーテル宣誓会の妄信者達が勢力を得るまでは、エスパーの幻影術士は様々な存在を真似るものを創り上げるのを夢見ていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에테르에 맹세한 광신도들이 권력을 쥐기 전, 에스퍼 환영술사들은 다양한 실체를 흉내내는 창조물을 만들고 싶어했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[До того как к власти пришли фанатики из ордена Эфироблюстителей, эсперские иллюзионисты придумывали творения, имитирующие самые различные вещества.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Antes dos zelotes dos Etherólatras subirem ao poder, os ilusionistas de Esper já haviam sonhado as criações que imitariam diversas substâncias.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在乙金盟由狂热派掌权之前，艾斯波的幻影师梦想着用造物来模仿各种物质。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在乙金盟由狂熱派掌權之前，艾斯波的幻影師夢想著用造物來模仿各種物質。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Illusion" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another artifact enters the battlefield under your control, Glaze Fiend gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un autre artefact arrive sur le champ de bataille sous votre contrôle, le Fielleux de vernis gagne +2/+2 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otro artefacto entre al campo de batalla bajo tu control, el Demonio vidriado obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein anderes Artefakt unter deiner Kontrolle ins Spiel kommt, erhält der Glasurunhold +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un altro artefatto entra nel campo di battaglia sotto il tuo controllo, il Demone Vitreo prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のアーティファクトが１つあなたのコントロール下で戦場に出るたび、霞の悪鬼はターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 마법물체가 당신의 조종하에 전장에 들어올 때마다, 유리장식 마귀는 턴종료까지 +2/+2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другой артефакт выходит на поле битвы под вашим контролем, Остекленевший Демон получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outro artefato entra no campo de batalha sob seu controle, Demônio Vitrificado receberá +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个神器在你的操控下进战场时，嵌璃邪鬼得+2/+2直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個神器在你的操控下進戰場時，嵌璃邪鬼得+2/+2直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_ARTIFACT ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_type="ARTIFACT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="400" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

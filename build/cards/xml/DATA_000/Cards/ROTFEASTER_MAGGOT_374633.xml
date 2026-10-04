@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="493">
+  <FILENAME text="ROTFEASTER_MAGGOT_374633" />
+  <CARDNAME text="ROTFEASTER_MAGGOT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rotfeaster Maggot]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vermine saprophage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Larva comepodredumbre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fäulnisfraßmade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Larva Putrifaga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[腐（ふ）敗（はい）喰（ぐ）いの蛆（うじ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부패를 먹는 구더기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Личинка Гниложора]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Larva Putrívora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[餮腐蛆]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[餮腐蛆]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374633" />
+  <ARTID value="155399" />
+  <ARTIST name="Yeong-Hao Han" />
+  <CASTING_COST cost="{4}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Is it at the top of the food chain or the bottom?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Est-elle au sommet ou à la base du cycle alimentaire ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Está en la cima de la cadena alimenticia o en la base?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Steht sie oben oder unten in der Nahrungskette?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Si trova all’inizio o alla fine della catena alimentare?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは食物連鎖の一番上に位置するのだろうか？それとも一番下なのだろうか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 구더기는 먹이사슬의 꼭대기에 있는 거야, 밑바닥에 있는 거야?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Что это — вершина пищевой цепи или самый ее низ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele está no topo ou na base da cadeia alimentar?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[它究竟在食物链的顶端还是底端？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[它究竟在食物鏈的頂端還是底端？]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Insect" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Rotfeaster Maggot enters the battlefield, exile target creature card from a graveyard. You gain life equal to that card’s toughness.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Vermine saprophage arrive sur le champ de bataille, exilez une carte de créature ciblée d’un cimetière. Vous gagnez un nombre de points de vie égal à l’endurance de cette carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Larva comepodredumbre entre al campo de batalla, exilia la carta de criatura objetivo de un cementerio. Ganas una cantidad de vidas igual a la resistencia de esa carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Fäulnisfraßmade ins Spiel kommt, schicke eine Kreaturenkarte deiner Wahl aus einem Friedhof ins Exil. Du erhältst Lebenspunkte in Höhe der Widerstandskraft dieser Karte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Larva Putrifaga entra nel campo di battaglia, esilia una carta creatura bersaglio da un cimitero. Guadagni punti vita pari alla costituzione di quella carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[腐敗喰いの蛆が戦場に出たとき、墓地にあるクリーチャー・カード１枚を対象とし、それを追放する。あなたはそのクリーチャーのタフネスに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부패를 먹는 구더기가 전장에 들어올 때, 무덤에 있는 생물 카드 한 장을 목표로 정한다. 그 카드를 추방한다. 당신은 그 카드의 방어력만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Личинка Гниложора выходит на поле битвы, изгоните целевую карту существа из кладбища. Вы получаете количество жизней, равное выносливости той карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Larva Putrívora entrar no campo de batalha, exile o card de criatura alvo de um cemitério. Você ganha uma quantidade de pontos de vida igual à resistência daquele card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当餮腐蛆进战场时，将目标生物牌从坟墓场放逐。你获得等同于该牌防御力的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當餮腐蛆進戰場時，將目標生物牌從墳墓場放逐。你獲得等同於該牌防禦力的生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	EffectController():GainLife(target:GetCurrentCharacteristics():Toughness_Get())
+    	target:Exile()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_name="Graveyard" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="1200" />
+  <SFX text="COMBAT_WURMCOIL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para exiliarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放逐的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

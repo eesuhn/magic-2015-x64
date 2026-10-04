@@ -1,0 +1,177 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="680">
+  <FILENAME text="QUICKLING_377126" />
+  <CARDNAME text="QUICKLING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quickling]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lesteline]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Velozoide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flinkling]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulminella]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クイックリング]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[날쌘돌이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шустрик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ligeirídeo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[迅敏仙灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[迅敏仙靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377126" />
+  <ARTID value="155336" />
+  <ARTIST name="Clint Cearley" />
+  <CASTING_COST cost="{1}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Faerie" />
+  <SUB_TYPE metaname="Rogue" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flash]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flash]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destello.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufblitzen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lampo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[瞬速]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[섬광]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Миг]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lampejo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[闪现]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[閃現]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLASH" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Quickling enters the battlefield, sacrifice it unless you return another creature you control to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Lesteline arrive sur le champ de bataille, sacrifiez-la à moins de renvoyer une autre créature que vous contrôlez dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Velozoide entre al campo de batalla, sacrifícalo a menos que regreses otra criatura que controlas a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Flinkling ins Spiel kommt, opfere ihn, falls du nicht eine andere Kreatur, die du kontrollierst, auf die Hand ihres Besitzers zurückbringst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Fulminella entra nel campo di battaglia, sacrificala a meno che non faccia tornare un’altra creatura che controlli in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クイックリングが戦場に出たとき、あなたがコントロールする他のクリーチャーを１体オーナーの手札に戻さないかぎり、これを生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[날쌘돌이가 전장에 들어올 때, 당신이 조종하는 다른 생물 한 개를 소유자의 손으로 되돌리지 않으면 잽싼 페어리를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Шустрик выходит на поле битвы, пожертвуйте его, если только вы не вернете другое существо под вашим контролем в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Ligeirídeo entrar no campo de batalha, sacrifique-o, a menos que você devolva outra criatura que você controla para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当迅敏仙灵进战场时，除非你将另一个由你操控的生物移回其拥有者手上，否则将它牺牲。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當迅敏仙靈進戰場時，除非你將另一個由你操控的生物移回其擁有者手上，否則將它犧牲。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource())
+    if filter:CountStopAt(1)== 1 then
+    	effectController:BeginNewMultipleChoice()   
+    	effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_QUICKLING_RETURN_A_CREATURE" )   
+    	effectController:AddMultipleChoiceAnswer( "CARD_QUERY_QUICKLING_ANDSWER_SAC_QUICKLING" )   
+    	effectController:AskMultipleChoiceQuestion( "MODE_CHOOSE_ONE", TriggerObject() )
+    	EffectDC():Set_Int(0,1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local questionFlag = EffectDC():Get_Int(0)
+    if questionFlag == 1 then
+    	if EffectController():GetMultipleChoiceResult() == 0 then
+    		local filter = ClearFilter()
+    		filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    		filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    		filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    		EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND", EffectDC():Make_Targets(1))
+    		
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local questionFlag = EffectDC():Get_Int(0)
+    if questionFlag == 1 then
+    	local result = EffectController():GetMultipleChoiceResult()
+    	
+    	if result == 0 then
+    		local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    		if target ~= nil then
+    			target:PutInHand()
+    		end
+    	else
+    		EffectController():Sacrifice(EffectSource())	
+    	end
+    	
+    else
+    	EffectController():Sacrifice(EffectSource())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Bounce" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_12" body="MORE_INFO_BADGE_BODY_12" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="-300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to return to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la renvoyer dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para regresarla a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da far tornare in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно вернуть в руку владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para devolver para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将它移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將它移回其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_QUICKLING_RETURN_A_CREATURE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return another creature to its owners hand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez une autre créature dans la main de son propriétaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa otra criatura a la mano de su propietario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine andere Kreatur auf die Hand ihres Besitzers zurück]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare un’altra creatura in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のクリーチャー１体ををオーナーの手札に戻す]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 생물 한 개를 소유자의 손으로 되돌리십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вернуть другое существо в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva outra criatura à mão do dono]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将另一个生物移回其拥有者手上]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將另一個生物移回其擁有者手上]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_QUICKLING_ANDSWER_SAC_QUICKLING">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Quickling]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez la Lesteline]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar el Velozoide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Flinkling opfern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica la Fulminella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クイックリングを生け贄に捧げる]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[날쌘돌이를 희생하십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвовать Шустрика.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique Ligeirídeo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牺牲迅敏仙灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[犧牲迅敏仙靈]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="MODE_CHOOSE_ONE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose one:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez l’un :]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige uno:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eines:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli uno:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[１つを選ぶ：]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하나를 선택한다:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите одно:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一项：]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一項：]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

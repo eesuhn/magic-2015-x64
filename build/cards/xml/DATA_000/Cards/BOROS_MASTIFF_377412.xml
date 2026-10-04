@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="BOROS_MASTIFF_377412" />
+  <CARDNAME text="BOROS_MASTIFF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boros Mastiff]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dogue de Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mastín boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Boros-Mastiff]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mastino Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ボロスの猛（もう）犬（けん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[보로스 마스티프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мастиф Боросов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mastim dos Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[波洛斯獒犬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[波洛斯獒犬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377412" />
+  <ARTID value="146849" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{1}{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hound" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Battalion| — Whenever Boros Mastiff and at least two other creatures attack, Boros Mastiff gains lifelink until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Bataillon| — À chaque fois que le Dogue de Boros et au moins deux autres créatures attaquent, le Dogue de Boros acquiert le lien de vie jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Batallón| — Siempre que el Mastín boros y al menos otras dos criaturas ataquen, el Mastín boros gana la habilidad de vínculo vital hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Bataillon| — Immer wenn der Boros-Mastiff und mindestens zwei andere Kreaturen angreifen, erhält der Boros-Mastiff Lebensverknüpfung bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Battaglione| — Ogniqualvolta il Mastino Boros e almeno altre due creature attaccano, il Mastino Boros ha legame vitale fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|大隊| ― ボロスの猛犬と少なくとも２体の他のクリーチャーが攻撃するたび、ボロスの猛犬はターン終了時まで絆魂を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부대전 — 보로스 마스티프와 두 개 이상의 다른 생물이 공격할 때마다, 보로스 마스티프는 턴종료까지 생명연결을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Батальон| — Каждый раз, когда Мастиф Боросов и как минимум два других существа атакуют, Мастиф Боросов получает Цепь жизни до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Batalhão| — Toda vez que Mastim dos Boros e pelo menos duas outras criaturas atacarem, Mastim dos Boros ganhará vínculo com a vida até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[协战～每当波洛斯獒犬与至少两个其他生物攻击时，波洛斯獒犬获得系命异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[協戰～每當波洛斯獒犬與至少兩個其他生物攻擊時，波洛斯獒犬獲得繫命異能直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self">
+    local filter = ClearFilter()
+    filter:Add(FE_IS_ATTACKING, true)
+    local numAttackers = filter:CountStopAt(3)
+    return numAttackers == 3
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_LIFELINK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_4" body="MORE_INFO_BADGE_BODY_4" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_BATTALION" body="MORE_INFO_BODY_BATTALION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

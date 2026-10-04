@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="134">
+  <FILENAME text="HOLY_JUSTICIAR_374610" />
+  <CARDNAME text="HOLY_JUSTICIAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Holy Justiciar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Justicière sacrée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Justiciaria sagrada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heilige Justiziarin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Giudicatrice Sacra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[聖（せい）なる司（し）法（ほう）高（こう）官（かん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신성한 재판관]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Святой Юстициар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Justicar Sagrada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[神圣司法僧]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[神聖司法僧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374610" />
+  <ARTID value="141570" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Her eyes see through the rotting flesh and glimpse a soul in agony, begging for the Blessed Sleep.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ses yeux percent la chair putréfiée et savent reconnaître une âme à l'agonie qui implore le Sommeil béni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sus ojos ven a través de la carne putrefacta y atisban un alma que agoniza, que suplica el Sueño Bendito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ihre Augen blicken durch das verrottende Fleisch und erkennen flüchtig eine Seele in Not, die um den Heiligen Schlaf bittet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I suoi occhi penetrano la carne in putrefazione e scorgono un’anima in pena che chiede il Sonno Benedetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女の眼は腐敗する肉を透かし、祝福された眠りを求めて苦悶する魂を捉える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그녀의 눈에는 썩어가는 껍데기 속에서 고통받으면서도 축복의 영면을 갈망하는 영혼이 보인다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ее глаза смотрят сквозь гниющую плоть и видят душу, бьющуюся в агонии, умоляющую о Благословенном Сне.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Seus olhos veem através da carne putrefata e enxergam lampejos de uma alma agonizante, implorando pelo Sono Abençoado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[她的双眼可看透腐败肉体，瞥见哀求受福安眠的痛苦灵魂。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[她的雙眼可看透腐敗肉體，瞥見哀求受福安眠的痛苦靈魂。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Cleric" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{W}, {T}: Tap target creature. If that creature is a Zombie, exile it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{W}, {T} : Engagez la créature ciblée. Si cette créature est un zombie, exilez-la.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{W}, {T}: Gira la criatura objetivo. Si esa criatura es un Zombie, exíliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{W}, {T}: Tappe eine Kreatur deiner Wahl. Falls diese Kreatur ein Zombie ist, schicke sie ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{W}, {T}: TAPpa una creatura bersaglio. Se quella creatura è uno Zombie, esiliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{W}, {T}：クリーチャー１体を対象とし、それをタップする。そのクリーチャーがゾンビであるなら、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{W}, {T}: 생물을 목표로 정한다. 그 생물을 탭한다. 그 생물이 좀비라면, 그 생물을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{W}, {T}: поверните целевое существо. Если то существо — Зомби, изгоните его.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{W}, {T}: Vire a criatura alvo. Se aquela criatura for um Zumbi, exile-a.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{W}，{T}：横置目标生物。如果该生物是灵俑，将它放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{W}，{T}：橫置目標生物。若該生物是殭屍，將它放逐。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{W}" type="Mana" />
+    <COST type="TapSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_TAP_OR_EXILE_IF_ZOMBIE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil  then
+    	if target:GetSubType():Test(CREATURE_TYPE_ZOMBIE) then
+    		target:Exile()
+    	else
+    		target:Tap()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_TEMPO_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_TAP_OR_EXILE_IF_ZOMBIE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to tap. (If that creature is Zombie, it will also be exiled.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'engager. (Si cette créature est un zombie, elle sera aussi exilée.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para girarla. (Si esa criatura es un Zombie, también se exiliará).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die getappt werden soll. (Falls diese Kreatur ein Zombie ist, wird sie zusätzlich ins Exil geschickt.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da TAPpare. (Se quella creatura è uno Zombie, verrà anche esiliata.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップするクリーチャーを１体選んでください。（そのクリーチャーがゾンビの場合、それは追放されます。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭할 생물을 고르십시오. (그 생물이 좀비라면 추방됩니다.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для поворота. (Если это существо — Зомби, оно также будет изгнано.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para virar. (Se a criatura escolhida for do tipo Zumbi, ela também será exilada.)]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要横置的生物。（如果该生物是灵俑，它也会被放逐。）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要橫置的生物。（如果該生物是殭屍，它也會被放逐。）]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

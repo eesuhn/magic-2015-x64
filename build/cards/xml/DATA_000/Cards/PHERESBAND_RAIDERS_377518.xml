@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="PHERESBAND_RAIDERS_377518" />
+  <CARDNAME text="PHERESBAND_RAIDERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pheres-Band Raiders]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pillards du clan Phérès]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incursores del clan Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Plünderer der Pheres-Herde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Razziatori della Banda Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フィーリーズ団（だん）の略（りゃく）奪（だつ）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피레스 무리 약탈자들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Налетчики Племени Ферий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Salteadores do Bando Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[斐力兹族突击队]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[斐力茲族突擊隊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377518" />
+  <ARTID value="152081" />
+  <ARTIST name="Ryan Barger" />
+  <CASTING_COST cost="{5}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Who can deny the call to battle when it sings in our blood?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Qui peut ignorer l'appel du combat quand il court dans nos veines ? »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Quién puede resistirse a la llamada de la batalla cuando burbujea en la sangre?”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wer von uns sollte sich schon dem Ruf zu den Waffen entziehen können? Der Kampf liegt uns im Blut.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Chi potrebbe ignorare la chiamata alle armi quando essa canta nel nostro sangue?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「血が騒ぐのに、戦いへの招集を拒否することができる者がいるか？」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“우리 핏속에 울려 퍼지는 전장의 부름을 누가 거부할 수 있겠는가?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Как можно не откликнуться на зов в битву, когда он звучит в нашей крови?»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quem pode ignorar o clamor da batalha quando ele soa em seu próprio sangue?”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「当我们的血液高唱战歌时，谁能拒绝战嚎的呼唤？」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「當我們的血液高唱戰歌時，誰能拒絕戰嚎的呼喚？」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Inspired| — Whenever Pheres-Band Raiders becomes untapped, you may pay {2}{G}. If you do, put a 3/3 green Centaur enchantment creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Inspiration| — À chaque fois que les Pillards du clan Phérès deviennent dégagés, vous pouvez payer {2}{G}. Si vous faites ainsi, mettez sur le champ de bataille un jeton de créature-enchantement 3/3 verte Centaure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Inspiración| — Siempre que los Incursores del clan Feres se enderecen, puedes pagar {2}{G}. Si lo haces, pon en el campo de batalla una ficha de criatura encantamiento Centauro verde 3/3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Inspiriert| — Immer wenn die Plünderer der Pheres-Herde enttappt werden, kannst du {2}{G} bezahlen. Falls du dies tust, bringe einen 3/3 grünen Zentaur-Verzauberungskreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Ispirazione| — Ogniqualvolta i Razziatori della Banda Feres vengono STAPpati, puoi pagare {2}{G}. Se lo fai, metti sul campo di battaglia una pedina creatura incantesimo Centauro 3/3 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|神啓| ― フィーリーズ団の略奪者がアンタップ状態になるたび、あなたは{2}{G}を支払ってもよい。そうしたなら、緑の３/３のケンタウルス・クリーチャー・エンチャント・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영감 — 피레스 무리 약탈자들이 언탭될 때마다, 당신은 {2}{G}를 지불할 수 있다. 당신이 그렇게 한다면, 3/3 녹색 켄타우로스 부여마법 생물 토큰 하나를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Одухотворение| — Каждый раз, когда Налетчики Племени Ферий становятся развернутыми, вы можете заплатить {2}{G}. Если вы это делаете, положите на поле битвы одну фишку чар существа 3/3 зеленый Кентавр.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Inspirado| — Toda vez que Salteadores do Bando Feres se torna desvirado, você pode pagar {2}{G}. Se fizer isso, coloque no campo de batalha uma ficha de criatura encantamento verde 3/3 do tipo Centauro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[启悟～每当斐力兹族突击队成为未横置时，你可以支付{2}{G}。若你如此作，则将一个3/3绿色半人马衍生结界生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[啟悟～每當斐力茲族突擊隊成為未橫置時，你可以支付{2}{G}。若你如此作，則將一個3/3綠色半人馬衍生結界生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_UNTAPPED" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayResourceCost(1) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_PHERESBAND_RAIDER_MAKE_A_TOKEN" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_PHERESBAND_RAIDER_DONT_MAKE_A_TOKEN" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_PHERESBAND_RAIDERS_QUESTION", EffectSource() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController:CanPayResourceCost(1) then
+    	local result = effectController:GetMultipleChoiceResult()
+    	if result == 0 then
+    		effectController:PayResourceCost( 1 )
+    		MTG():PutTokensOntoBattlefield( "TOKEN_CENTAUR_G_377539", 1, EffectController() ) 
+    	end 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    if EffectController():CanPayManaCost("{2}{G}") then
+    	return false
+    else
+    	return true
+    end
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST mana_cost="{2}{G}" type="Mana" />
+  </UTILITY_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CENTAUR_3_3_G_377539" />
+  <HELP title="MORE_INFO_TITLE_INSPIRED" body="MORE_INFO_BODY_INSPIRED" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_PHERESBAND_RAIDERS_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {2}{G} to put a 3/3 green Centaur enchantment creature token onto the battlefield?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer {2}{G} pour mettre sur le champ de bataille un jeton de créature-enchantement 3/3 verte Centaure ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {2}{G} para poner en el campo de batalla una ficha de criatura encantamiento Centauro verde 3/3?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {2}{G} bezahlen, um einen grünen 3/3 Zentaur-Verzauberungskreaturenspielstein ins Spiel zu bringen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {2}{G} per mettere sul campo di battaglia una pedina creatura incantesimo Centauro 3/3 verde?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}を支払って、緑の３/３のケンタウルス・クリーチャー・エンチャント・トークンを１体戦場に出しますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{G}를 지불하여 3/3 녹색 켄타우로스 부여마법 생물 토큰 한 개를 전장에 놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {2}{G} и положить на поле битвы одну фишку чар существа 3/3 зеленый Кентавр?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar {2}{G} para colocar no campo de batalha uma ficha de criatura encantamento verde 3/3 do tipo Centauro?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付{2}{G}来将一个3/3绿色半人马衍生结界生物放进战场吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付{2}{G}來將一個3/3綠色半人馬衍生結界生物放進戰場嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_PHERESBAND_RAIDER_MAKE_A_TOKEN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {2}{G} to put a 3/3 green Centaur enchantment creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payer {2}{G} pour mettre sur le champ de bataille un jeton de créature-enchantement 3/3 verte Centaure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Paga {2}{G} para poner en el campo de batalla una ficha de criatura encantamiento Centauro verde 3/3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{G} bezahlen, um einen grünen 3/3 Zentaur-Verzauberungskreaturenspielstein ins Spiel zu bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {2}{G} per mettere sul campo di battaglia una pedina creatura incantesimo Centauro 3/3 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}を支払って、緑の３/３のケンタウルス・クリーチャー・エンチャント・トークンを１体戦場に出します。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[3/3 녹색 켄타우로스 부여마법 생물 토큰을 전장에 놓으려면 {2}{G}를 지불하십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {2}{G} и положить на поле битвы одну фишку чар существа 3/3 зеленый Кентавр.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {2}{G} para colocar no campo de batalha uma ficha de criatura encantamento verde 3/3 do tipo Centauro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{2}{G}来将一个3/3绿色半人马衍生结界生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{2}{G}來將一個3/3綠色半人馬衍生結界生物放進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_PHERESBAND_RAIDER_DONT_MAKE_A_TOKEN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Don’t make a token.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas mettre de jeton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No crear una ficha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Keinen Spielstein machen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non creare una pedina.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トークンを生み出さない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[토큰을 만들지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не делать фишку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não criar uma ficha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不产生衍生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不要製造衍生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="313">
+  <FILENAME text="DIVINATION_374720" />
+  <CARDNAME text="DIVINATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Divination]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Divination]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Adivinación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weissagung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divinazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[予（よ）言（げん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[점]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прорицание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Divinação]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[卜卦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[卜卦]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374720" />
+  <ARTID value="139884" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Even the House of Galan, who takes the most scholarly approach to the mystic traditions, has resorted to exploring more primitive methods in Avacyn’s absence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Même la Maison de Galan, avec son approche érudite des traditions mystiques, a fini par explorer des méthodes plus primitives en l'absence d'Avacyn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incluso en la Casa de Galan, quien tiene una visión muy civilizada de las tradiciones místicas, han estado explorando métodos más primitivos en ausencia de Avacyn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Selbst das Haus Galan, das die gelehrtesten Annäherungen an die Traditionen des Mystischen pflegt, ist in Avacyns Abwesenheit dazu übergegangen, auch primitivere Methoden zu erforschen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Perfino il Casato di Galan, che ha l’approccio più accademico nei confronti delle tradizioni mistiche, si è ridotto a esplorare metodi più primitivi in assenza di Avacyn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神秘的な伝統に対して最も学問的にあたってきたガラン家ですら、アヴァシンの不在に関する探求に対しては、より原始的な手段に頼っている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아바신이 사라지자, 신비주의를 제일 학구적인 방법으로 연구하던 갈란 학파도 원시적인 접근법을 사용하기 시작했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В отсутствие Авацины даже Дом Галанов, изучающий мистические традиции с использованием самых научных подходов, вынужден прибегать к более примитивным методам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até mesmo o Clã de Galan, que tem uma interpretação muito acadêmica das tradições místicas, passou a explorar métodos mais primitivos durante a ausência de Avacyn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[即使是最以学术角度探讨神秘传统的嘉蓝学院，都开始用更原始方式来研究艾维欣的消失。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[即使是最以學術角度探討神秘傳統的嘉藍學院，都開始用更原始方式來研究艾維欣的消失。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe zwei Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを２枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 두 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre dois cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓两张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽兩張牌。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(2)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="386">
+  <FILENAME text="WARSTORM_SURGE_380929" />
+  <CARDNAME text="WARSTORM_SURGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Warstorm Surge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Déferlement de l'orage de guerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oleada de tormenta de guerra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Anschwellender Kriegssturm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scarica di Guerratempesta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦（せん）嵐（らん）のうねり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전쟁폭풍의 해일]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Всплеск Бури Войны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Surto da Tempestade Bélica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[暴战翻腾]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[暴戰翻騰]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380929" />
+  <ARTID value="136808" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{5}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Listen to the roar! Feel the thunder! The Immersturm shouts its approval with every bolt of lightning!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Écoutez son grondement ! Ressentez son tonnerre ! L'Immersturm crie son approbation avec chacun de ses éclairs ! »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Escuchen el rugido! ¡Sientan el trueno! ¡Immersturm grita su aprobación con cada relámpago!”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lausche dem Grollen! Spüre den Donner! Der Immersturm brüllt mit jedem Blitz seine Zustimmung heraus!“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ascoltate il rombo! Sentite il tuono! L’Immersturm urla la sua approvazione con ogni fulmine!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この叫びを聞け！雷を感じよ！イマースタームは稲妻で応え叫んでいるぞ！」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["함성을 들어라! 천둥을 느껴라! 임메르슈트름의 등장을 알리는 번개의 외침이다!"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Слушайте его рев! Прочувствуйте его гром! Каждым ударом молнии Иммерштурм выражает свое одобрение!»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ouça o rugido! Sinta o trovão! O Immersturm manifesta sua aprovação com cada relâmpago!”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「听听这吼声！感受这雷鸣！无尽风暴的每声雷击都是在催促我们！」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「聽聽這吼聲！感受這雷鳴！無盡風暴的每聲雷擊都是在催促我們！」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature enters the battlefield under your control, it deals damage equal to its power to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature arrive sur le champ de bataille sous votre contrôle, elle inflige à une cible, créature ou joueur, un nombre de blessures égal à sa force.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura entre al campo de batalla bajo tu control, hace daño igual a su fuerza a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur unter deiner Kontrolle ins Spiel kommt, fügt sie einer Kreatur oder einem Spieler deiner Wahl Schadenspunkte in Höhe ihrer Stärke zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura entra nel campo di battaglia sotto il tuo controllo, infligge danno pari alla sua forza a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーが１体あなたのコントロール下で戦場に出るたび、クリーチャー１体かプレイヤー１人を対象とする。その戦場に出たクリーチャーは、そのクリーチャーやプレイヤーに自身のパワーに等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물이 전장에 들어올 때마다, 생물 한 개 또는 플레이어 한 명을 목표로 정한다. 전쟁폭풍의 해일은 자신의 공격력과 같은 양의 피해를 목표에게 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо выходит на поле битвы под вашим контролем, оно наносит целевому существу или игроку повреждения, равные своей силе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura entra no campo de batalha sob o seu comando, ela causa um dano igual a seu poder à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个生物在你的操控下放进战场时，它对目标生物或牌手造成伤害，其数量等同于其力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個生物在你的操控下進戰場時，它對目標生物或玩家造成傷害，其數量等同於其力量。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_OR_PLAYER_TO_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local triggerObject = TriggerObjectLKI()
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local number = triggerObject:GetCurrentCharacteristics():Power_Get()
+    if ( triggerObject ~= nil ) and( target_creature ~= nil ) then
+    	triggerObject:DealDamageTo( number, target_creature )
+    elseif ( triggerObject ~= nil ) and( target_player ~= nil ) then   
+    	triggerObject:DealDamageTo( number, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_name="Bounce" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="1050" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_OR_PLAYER_TO_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물 한 개나 플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, чтобы нанести ему повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador ao qual causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手来对其造成伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="VIGOR_MORTIS_380262" />
+  <CARDNAME text="VIGOR_MORTIS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vigor Mortis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vigor Mortis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigor mortis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Todesenergie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vigor Mortis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）後（ご）剛（ごう）直（ちょく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사후 활기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гнилостное Окоченение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vigor Mortis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[活死人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[活死人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380262" />
+  <ARTID value="89027" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[After fear and weakness rot away, that which remains is stronger than its living form.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Une fois la peur et la faiblesse désagrégées, ce qui reste est plus fort que sa forme vivante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Una vez que el miedo y la debilidad se pudren, lo que queda es mucho más fuerte que su forma viva.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachdem Ängste und Schwächen verrottet sind, sind die Überbleibsel stärker als im vorigen Leben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dopo che la paura e la debolezza si sono decomposte, ciò che resta è più forte della sua forma vivente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐怖や弱さが腐れ落ちてしまうと、残るのは生きていた頃より強くなったものだけだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[몸에서 공포와 약점이 다 썩어 없어지면 생전보다 훨씬 강해진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страх и слабость сгнивают. То, что остается, становится сильнее, чем живое существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Após o colapso do medo e da fraqueza, o que permanece é mais forte que sua forma viva.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[恐惧与脆弱已然腐朽，剩下的躯体比活存时更加强大。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[恐懼與脆弱已然腐朽，剩下的軀體比活存時更加強大。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature card from your graveyard to the battlefield. If {G} was spent to cast Vigor Mortis, that creature enters the battlefield with an additional +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez sur le champ de bataille une carte de créature ciblée depuis votre cimetière. Si {G} a été dépensé pour lancer Vigor Mortis, cette créature arrive sur le champ de bataille avec, sur elle, un marqueur +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la carta de criatura objetivo de tu cementerio al campo de batalla. Si se usó {G} para lanzar Vigor mortis, esa criatura entra al campo de batalla con un contador +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Spiel zurück. Falls {G} ausgegeben wurde, um die Todesenergie zu wirken, kommt diese Kreatur mit einer zusätzlichen +1/+1-Marke ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimetti sul campo di battaglia una carta creatura bersaglio dal tuo cimitero. Se è stato speso {G} per lanciare il Vigor Mortis, quella creatura entra nel campo di battaglia con un segnalino +1/+1 addizionale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚を対象とし、それを戦場に戻す。死後剛直を唱えるために{G}が支払われているなら、そのクリーチャーは＋１/＋１カウンターが１個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 생물 카드를 목표로 정한다. 그 카드를 전장으로 되돌린다. 사후 활기를 발동하는 데 {G}가 사용되었다면, 그 생물은 +1/+1 카운터 한 개를 추가로 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевую карту существа из вашего кладбища на поле битвы. Если на разыгрывание Гнилостного Окоченения была потрачена {G}, то существо выходит на поле битвы с дополнительным жетоном +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva o card de criatura alvo de seu cemitério para o campo de batalha. Se {G} foi gasto para conjurar Vigor Mortis, aquela criatura entra no campo de batalha com um marcador +1/+1 adicional nela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标生物牌从你的坟墓场移回战场。若你施放活死人时支付了{G}，则该生物进战场时上面额外有一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標生物牌從你的墳墓場移回戰場。若你施放活死人時支付了{G}，該生物進戰場時上面額外有一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <PAYMENT_PREFERENCE type="{G}" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource():WasPaidForWithColour( COLOUR_GREEN ) then
+    	local delayDC = EffectDC():Make_Chest(1)
+    	delayDC:Set_CardPtr(0, EffectDC():Get_Targets(0):Get_CardPtr(0))
+    	MTG():CreateDelayedTrigger(1, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:PutOntoBattlefield( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1" active_zone="ZONE_TRANSITION">
+    <TRIGGER value="ZONECHANGE_TRANSITION" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1">
+    return (TriggerObject() == EffectDC():Get_CardPtr(0))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para poner en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場に出すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장에 놓을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно положить на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放进战场的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物放進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RECURSION_WHY_PLAY" removal_tag="HINT_SPELL_RECURSION_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

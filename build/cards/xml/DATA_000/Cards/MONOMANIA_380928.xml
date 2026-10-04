@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="386">
+  <FILENAME text="MONOMANIA_380928" />
+  <CARDNAME text="MONOMANIA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Monomania]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Monomanie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Monomanía]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Monomanie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Monomania]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[偏（へん）執（しゅう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[편집광]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мономания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Monomania]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[偏执狂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[偏執狂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380928" />
+  <ARTID value="137413" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{3}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“What do vermin cling to when all hope is lost?”
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« À quoi la vermine s'accroche-t-elle quand tout espoir est perdu ? »
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿A qué se aferran las alimañas cuando toda esperanza se ha perdido?”.
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Woran klammert sich Ungeziefer, wenn alles verloren ist?“
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“A cosa si aggrappano i parassiti quando ogni speranza è perduta?”
+—Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「すべての望みが失われたとき、下衆共は何にしがみつくのだろう？」――ソリン・マルコフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["버러지들은 모든 희망이 사라지면 뭘 의지하지?"
+—소린 마르코프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«За что хватаются крысы, когда потеряна последняя надежда?»
+— Сорин Марков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“De que se valem os vermes quando toda a esperança está perdida?”
+— Sorin Markov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「当一切希望都落空，寄生虫还能抓住什么？」
+～索霖马可夫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「當一切希望都落空，寄生蟲還能抓住什麼？」
+～索霖馬可夫]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player chooses a card in his or her hand and discards the rest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé choisit une carte dans sa main et se défausse du reste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo elige una carta en su mano y descarta el resto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl bestimmt eine Karte auf seiner Hand und wirft den Rest ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio sceglie una carta nella sua mano e scarta le altre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーは自分の手札のカードを１枚選んで残し、その他を捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 손에서 카드 한 장을 고른 후 나머지를 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок выбирает находящуюся в его руке карту и сбрасывает остальные.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo escolhe um card em sua mão e descarta o restante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标牌手从其手牌中选一张牌，然后将其他牌弃掉。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標玩家從其手牌中選一張牌，然後將其他牌棄掉。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PESTS_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DISCARD_BUT_1" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_HAND, player )
+    player:SetItemCount( 1 )
+    for i = 0,(1-1) do
+    	player:SetItemPrompt (i, "CARD_QUERY_CHOOSE_A_CARD_TO_KEEP_DISCARD_THE_REST" )
+    end
+    player:ChooseItems( EffectDC():Make_Targets(1) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local chosenCard = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if player ~= nil then 
+    	local handCount = player:Hand_Count()
+    	local nthCardinHand = 0
+    	for i = 0,(handCount-1) do
+    		local nthCard = player:Hand_GetNth( nthCardinHand )
+    		if nthCard ~= nil then
+    			if nthCard ~= chosenCard then
+    				nthCard:Discard()
+    			else 
+    				nthCardinHand = nthCardinHand+1
+    			end
+    		else
+    			break
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DISCARD_BUT_1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to discard all but one card from his or her hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour qu'il se défausse de toutes les cartes de sa main sauf une.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que descarte todas menos una carta de su mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der alle Karten außer einer aus seiner Hand abwerfen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che scarta tutte le carte tranne una dalla sua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札から１枚を残してカードを捨てるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[손에서 카드 한 장만 남기고 모두 버리게 할 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен сбросить все карты из своей руки, кроме одной.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para descartar todos os cards da mão dele menos um.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以令其从手上弃到只剩一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來從其手上中棄牌，直到只剩一張手牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_KEEP_DISCARD_THE_REST">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to keep and discard the rest. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte à garder et défaussez-vous du reste. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para conservarla y descartar las demás. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte zum Behalten. Die anderen Karten werden abgeworfen. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da tenere e scarta le altre. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に残すカードを１枚選び、残りを捨ててください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 한 장을 고른다. 그 카드를 제외한 나머지를 버린다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы сохранить ее, остальные сбросьте. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card com o qual ficar e descarte o restante. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要保留的牌，并将其他牌弃掉。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張要保留的牌，並將其他牌棄掉。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_DISCARD_WHY_PLAY" removal_tag="HINT_SPELL_DISCARD_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

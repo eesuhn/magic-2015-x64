@@ -1,0 +1,73 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="208">
+  <FILENAME text="PREDATORY_SLIVER_374336" />
+  <CARDNAME text="PREDATORY_SLIVER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Predatory Sliver]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Slivoïde prédatoire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fragmentado depredador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jagd-Remasuri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tramutante Predatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[捕（ほ）食（しょく）スリヴァー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식 슬리버]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хищная Щепка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fractius Predatório]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[掠食裂片妖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[掠食裂片妖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374336" />
+  <ARTID value="149953" />
+  <ARTIST name="Mathias Kollros" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[No matter how much the slivers change, their collective might remains.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quelle que soit l'ampleur de leurs changements, les slivoïdes conservent leur puissance collective.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No importa cuánto cambien los fragmentados, su poder colectivo permanece.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wie sehr die Remasuris sich auch verändern, ihre kollektive Macht bleibt gleich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non importa quanto cambino i tramutanti, la loro potenza collettiva rimane la stessa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スリヴァーがどれだけ変化しようとも、その集まることによる強さは変わることがない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[슬리버의 외형은 변할지라도 무리의 강력함은 변하지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Как бы ни изменялись щепки, их коллективная мощь остается неизменной.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não importa o quanto os fractius mudem, sua força coletiva permanece.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不论裂片妖有多少变化，他们始终拥有群体的力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不論裂片妖有多少變化，他們始終擁有群體的力量。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Sliver" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sliver creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures Slivoïde que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas Fragmentado que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Remasuri-Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature Tramutante che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするスリヴァー・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 슬리버 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа-Щепки под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas do tipo Fractius que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的裂片妖生物得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的裂片妖生物得+1/+1。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_SLIVER )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_SLIVERS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

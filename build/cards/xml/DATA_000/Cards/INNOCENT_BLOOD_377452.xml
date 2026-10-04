@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="127">
+  <FILENAME text="INNOCENT_BLOOD_377452" />
+  <CARDNAME text="INNOCENT_BLOOD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Innocent Blood]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sang des innocents]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sangre inocente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blut der Unschuldigen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sangue Innocente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無（む）垢（く）の血（ち）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무고한 희생]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Невинная Кровь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sangue dos Inocentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[无辜之血]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[無辜之血]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377452" />
+  <ARTID value="33426" />
+  <ARTIST name="Carl Critchlow" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Zombies mourn for the living and celebrate those who will soon be given the gift of death.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les zombies se lamentent pour les vivants et se réjouissent pour ceux qui vont mourir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los zombies se acongojan por los vivos y celebran a aquellos que pronto recibirán el regalo de la muerte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zombies bedauern die Lebenden und freuen sich für diejenigen, denen bald das Geschenk des Todes gegeben wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli zombie compiangono i viventi e festeggiano coloro a cui verrà presto fatto il dono della morte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゾンビどもは生きている者を哀悼し、死にゆく者を祝賀するんだよ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[좀비들은 산 자를 애도하며, 곧 죽음이라는 선물을 받을 자들을 축하한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зомби оплакивают живых и приветствуют тех, кому вскоре даруют смерть.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os zumbis lamentam pelos vivos e celebram por aqueles que logo receberão a dádiva da morte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[灵俑为生者哀悼，为即将获得死之礼赞者欢庆。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[殭屍為生者哀悼，為即將獲得死之禮讚者歡慶。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player sacrifices a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur sacrifie une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada jugador sacrifica una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler opfert eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーはそれぞれクリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어는 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок приносит в жертву существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada jogador sacrifica uma criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每位牌手各牺牲一个生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每位玩家各犧牲一個生物。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()			
+    local num_players = MTG():GetNumberOfPlayers()
+    	
+    if (n &lt; num_players) then
+    	local player = MTG():GetNthPlayer(n)
+    	local filter = ClearFilter()
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	filter:Add( FE_CONTROLLER, OP_IS, player )
+    	player:ChooseItem( "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(n) )
+    		return true
+    else
+    	for i=0,(num_players-1) do
+    		local creature = EffectDC():Get_Targets(i):Get_CardPtr(0)
+    		if creature ~= nil then
+    			MTG():GetNthPlayer(i):Sacrifice( creature )
+    		end
+    	end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="299">
+  <FILENAME text="SPHINXBONE_WAND_382157" />
+  <CARDNAME text="SPHINXBONE_WAND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sphinx-Bone Wand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Baguette d'os de sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Varita de hueso de esfinge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sphinxknochen-Zauberstab]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bacchetta di Osso della Sfinge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スフィンクスの骨（ほね）の杖（つえ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스핑크스뼈 마법봉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жезл из Кости Сфинкса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cetro de Osso de Esfinge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[史芬斯骨杖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[史芬斯骨杖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382157" />
+  <ARTID value="127373" />
+  <ARTIST name="Franz Vohwinkel" />
+  <CASTING_COST cost="{7}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Its host’s final curse lies captured within.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'ultime malédiction de son hôte y est emprisonnée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La última maldición de su huésped está capturada dentro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der letzte Fluch seines Stifters steckt in ihm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La maledizione finale del suo padrone è rinchiusa al suo interno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その主の最後の呪いが中に閉じ込められている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전 주인의 마지막 저주가 고스란히 담겨 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Внутри хранится последнее проклятие его хозяина.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A maldição final de seu hospedeiro encontra-se aprisionada em seu interior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[里面埋藏着其主子的临终诅咒。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[裡面埋藏著其主子的臨終詛咒。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an instant or sorcery spell, you may put a charge counter on Sphinx-Bone Wand. If you do, Sphinx-Bone Wand deals damage equal to the number of charge counters on it to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d’éphémère ou de rituel, vous pouvez mettre un marqueur « charge » sur la Baguette d’os de sphinx. Si vous faites ainsi, la Baguette d’os de sphinx inflige un nombre de blessures égal au nombre de marqueurs « charge » qu’elle a sur elle à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo de instantáneo o de conjuro, puedes poner un contador de carga sobre la Varita de hueso de esfinge. Si lo haces, la Varita de hueso de esfinge hace daño igual a la cantidad de contadores de carga sobre ella a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Spontanzauber oder eine Hexerei wirkst, kannst du eine Ladungsmarke auf den Sphinxknochen-Zauberstab legen. Falls du dies tust, fügt der Sphinxknochen-Zauberstab einer Kreatur oder einem Spieler deiner Wahl so viele Schadenspunkte zu, wie Ladungsmarken auf ihm liegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia istantaneo o stregoneria, puoi mettere un segnalino carica sulla Bacchetta di Osso della Sfinge. Se lo fai, la Bacchetta di Osso della Sfinge infligge danno pari al numero di segnalini carica su di essa a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがインスタント・呪文かソーサリー・呪文を１つ唱えるたび、クリーチャー１体かプレイヤー１人を対象とする。あなたはスフィンクスの骨の杖の上に蓄積カウンターを１個置いてもよい。そうしたなら、スフィンクスの骨の杖はそれに、スフィンクスの骨の杖の上に置かれている蓄積カウンターの数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 순간마법이나 집중마법 주문을 발동할 때마다, 당신은 스핑크스뼈 마법봉에 충전 카운터 한 개를 올려놓을 수 있다. 그렇게 한다면, 생물 한 개나 플레이어 한 명을 목표로 정한다. 스핑크스뼈 마법봉은 그 목표에게 스핑크스뼈 마법봉이 가진 충전 카운터의 개수만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете мгновенное заклинание или заклинание волшебства, вы можете положить один жетон заряда на Жезл из Кости Сфинкса. Если вы это делаете, Жезл из Кости Сфинкса наносит повреждения, равные количеству жетонов заряда на нем, целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica instantânea ou feitiço, você pode colocar um marcador de carga sobre Cetro de Osso de Esfinge. Se fizer isso, Cetro de Osso de Esfinge causa dano igual ao número de marcadores de carga nele à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放瞬间或法术咒语时，你可以在史芬斯骨杖上放置一个充电指示物。若你如此作，则史芬斯骨杖对目标生物或牌手造成伤害，其数量等同于史芬斯骨杖上充电指示物的数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放瞬間或巫術咒語時，你可以在史芬斯骨杖上放置一個充電指示物。若你如此作，則史芬斯骨杖對目標生物或玩家造成傷害，其數量等同於史芬斯骨杖上充電指示物的數量。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Charge" proliferate="11" />
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetCardType():Test( CARD_TYPE_INSTANT ) or TriggerObject():GetCardType():Test( CARD_TYPE_SORCERY )
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_2_PLUS_FLAMEBURST_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local targetPlayer = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local targetCreature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local effectSource = EffectSource()
+    if targetPlayer ~= nil and effectSource ~= nil then
+    	if  effectSource:AddCounters( MTG():GetCountersType("charge"),1) &gt;= 1 then
+    		effectSource:DealDamageTo( effectSource:CountCounters( MTG():GetCountersType( "charge")),targetPlayer)
+    	end
+    elseif targetCreature ~= nil and effectSource ~= nil then
+    	if  effectSource:AddCounters( MTG():GetCountersType( "charge") ,1) &gt;= 1 then
+    		effectSource:DealDamageTo( effectSource:CountCounters( MTG():GetCountersType( "charge")),targetCreature)
+    	end
+    end
+    	
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="100" resource_type="SORCERY" />
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="100" resource_type="INSTANT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="1200" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_2_PLUS_FLAMEBURST_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to damage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока для нанесения повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要受到伤害的生物或牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ARTIFACT_TRIGGER_WHY_PLAY" removal_tag="HINT_ARTIFACT_TRIGGER_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

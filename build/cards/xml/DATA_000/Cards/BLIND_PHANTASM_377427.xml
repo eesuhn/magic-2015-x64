@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="577">
+  <FILENAME text="BLIND_PHANTASM_377427" />
+  <CARDNAME text="BLIND_PHANTASM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blind Phantasm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Phantasme aveugle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fantasma ciego]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blindes Traumwesen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fantasma Cieco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[盲（もう）目（もく）の幻（まぼろし）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[눈먼 허깨비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Слепой Фантом]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fantasma Cego]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[盲目幻象]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[盲目幻象]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377427" />
+  <ARTID value="102338" />
+  <ARTIST name="Khang Le" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Its source is the depths of the mind. Its form is the unexpressed longing to know.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il prend sa source au plus profond de l'esprit. Il prend sa forme dans le désir inexprimé de connaissance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Su fuente son las profundidades de la mente. Su forma es el anhelo tácito de saber.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Tiefen des Geistes sind sein Quell. Das unausgesprochene Verlangen nach Wissen seine Form.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La sua origine è la profondità della mente. La sua forma è l’inespressa bramosia di sapere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[その源は思考の深み。その姿は言葉にならぬ知の切望。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정신의 깊은 곳에서 태어난 환영은 지식에 대한 욕구를 표현하기 위해 형체를 구현한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Его источник — глубины разума. Его форма — невысказанное желание знать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sua fonte está nas profundezas da mente. Sua forma está no tácito desejo de saber.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[它源自心灵深处；其外型正是隐藏之求知欲的展现。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[它源自心靈深處；其外型正是隱藏之求知欲的展現。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Illusion" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="292">
+  <FILENAME text="RHOX_WAR_MONK_381909" />
+  <CARDNAME text="RHOX_WAR_MONK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rhox War Monk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Moine de guerre rhox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Monje guerrero rhox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rhox-Kriegsmönch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rhox Monaco Battagliero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロウクスの戦（いくさ）修（しゅう）道（どう）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[록스 전쟁수도사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рокс, Боевой Монах]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Monge de Guerra Rhox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[罗克战僧]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[羅克戰僧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381909" />
+  <ARTID value="115055" />
+  <ARTIST name="Dan Dos Santos" />
+  <CASTING_COST cost="{G}{W}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rhox monks are dedicated to spiritual growth and learning, and most bear the sigils of many students. However, they do not gladly suffer fools or those who disagree with their carefully wrought dogma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les moines rhox sont voués à la croissance et à l'éducation spirituelle et ils portent les sigilles de beaucoup d'élèves. Par contre, ils n'ont pas de patience pour ceux qui sont en désaccord avec leurs dogmes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los monjes rhox se dedican al crecimiento espiritual y al aprendizaje, y la mayoría lleva los sellos de muchos estudiantes. Sin embargo, no soportan a los tontos o a aquellos que no están de acuerdo con sus cuidadosamente forjadas enseñanzas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rhox-Mönche widmen sich dem spirituellen Wachstum und dem Lernen, die meisten tragen die Siegel vieler Studenten. Allerdings ertragen sie nur ungern Dummköpfe oder Schüler, die ihr sorgfältig verflochtenes Dogma kritisieren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I rhox monaci sono dediti alla crescita spirituale e all’apprendimento e parecchi portano i sigilli di molti studenti. Tuttavia, non sopportano di buon grado gli sciocchi e quanti sono in disaccordo con il loro dogma formulato con cura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロウクスの僧は精神の成長と学習に身を捧げ、数多くの学び手としての印章を受けている。しかし、馬鹿や丁寧に扱われる彼らの教義に逆らうものを喜んで受け入れるわけでもない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영적인 성장과 배움에 모든 것을 바친 록스 수도사는 많은 제자의 인장을 가지고 다닌다. 그러나 그들은 어리적은 자들과 신중하게 쓰인 그들의 교리에 반대하는 이들을 그다지 좋아하지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Роксы-монахи посвящают себя духовному росту и знаниям, и большинство из них отмечены медалями за воспитание учеников. Тем не менее, они не отличаются терпением к глупцам или тем, кто не согласен с их тщательно сформулированной догмой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os monges Rhox dedicam-se ao crescimento e ao aprendizado espiritual, e muitos portam as insígnias de vários estudantes. Entretanto, eles não toleram facilmente os tolos ou aqueles que discordam de seu dogma cuidadosamente elaborado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[罗克修行僧致力于精神层面的成长与学习，通常都持有学生众多的印记。不过，他们不太能容忍愚人，或是对他们精心撰写的文件有意见者。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[羅克修行僧致力於精神層面的成長與學習，通常都持有學生眾多的印記。不過，他們不太能容忍愚人，或是對他們精心撰寫的文件有意見者。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Rhino" />
+  <SUB_TYPE metaname="Monk" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lifelink]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lien de vie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebensverknüpfung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Legame vitale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[絆魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명연결]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цепь жизни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vínculo com a vida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[系命]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[繫命]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_LIFELINK" />
+  </STATIC_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_4" body="MORE_INFO_BADGE_BODY_4" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

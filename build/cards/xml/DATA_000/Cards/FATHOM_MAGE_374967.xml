@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="124">
+  <FILENAME text="FATHOM_MAGE_374967" />
+  <CARDNAME text="FATHOM_MAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fathom Mage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mage des grands fonds]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maga del entendimiento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einsichtige Magierin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maga della Profondità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[水（すい）深（しん）の魔（ま）道（どう）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[물길 마도사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Маг Постижения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mago da Compreensão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[深测法师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[深測法師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374967" />
+  <ARTID value="146475" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{2}{G}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY priority="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Evolve]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Évolution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Evolucionar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weiterentwicklung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evoluzione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[進化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эволюция]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Evoluir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[进化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[進化]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <INTERVENING_IF>
+    local triggerObject = TriggerObjectLKI()
+    local effectSource = EffectSource()
+    if triggerObject ~= nil and effectSource ~= nil then
+    	local triggerPower = triggerObject:GetCurrentCharacteristics():Power_Get()
+    	local triggerToughness = triggerObject:GetCurrentCharacteristics():Toughness_Get()
+    	
+    	local effectPower = effectSource:GetCurrentCharacteristics():Power_Get()
+    	local effectToughness = effectSource:GetCurrentCharacteristics():Toughness_Get()
+    	if (triggerPower &gt; effectPower) or (triggerToughness &gt; effectToughness) then
+    		return true
+    	end
+    end
+    return false
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	 local numCountersAdded = EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    	 EffectDC():Set_Int(0,numCountersAdded)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local countersAdded = EffectDC():Get_Int(0)
+    if countersAdded &gt;0 then
+    	MTG():FireTrigger( TRIGGER_EVOLVED, EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a +1/+1 counter is placed on Fathom Mage, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un marqueur +1/+1 est placé sur la Mage des grands fonds, vous pouvez piocher une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que se coloque un contador +1/+1 sobre la Maga del entendimiento, puedes robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine +1/+1-Marke auf die Einsichtige Magierin gelegt wird, kannst du eine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta la Maga della Profondità riceve un segnalino +1/+1, puoi pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[水深の魔道士の上に＋１/＋１カウンターが１個置かれるたび、あなたはカードを１枚引いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[물길 마도사에 +1/+1 카운터 한 개가 올려질 때마다, 당신은 카드 한 장을 뽑을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда на Мага Постижения помещается жетон +1/+1, вы можете взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um marcador +1/+1 for colocado em Mago da Compreensão, você poderá comprar um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当在深测法师上放置一个+1/+1指示物时，你可以抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當在深測法師上放置一個+1/+1指示物時，你可以抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="COUNTER_ADDED" simple_qualifier="self">
+    return CounterTypeIndex() == MTG():PlusOnePlusOneCounters()
+    </TRIGGER>
+    <MAY tag="CARD_QUERY_DRAW_A_CARD" always_prompt="1">
+    -- AI behaviour
+    if EffectController():Library_Count() &lt; 10 then
+    	return false
+    else
+    	return true
+    end
+    </MAY>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_EVOLVE" body="MORE_INFO_BODY_EVOLVE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

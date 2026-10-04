@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<CARDS>
+<CARD_V2 ExportVersion="16">
+  <FILENAME text="DARKSTEEL_COLOSSUS_388074" />
+  <CARDNAME text="DARKSTEEL_COLOSSUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Darksteel Colossus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Colosse de sombracier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Coloso de acero oscuro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachtstahl-Koloss]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Colosso di Darksteel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダークスティールの巨（きょ）像（ぞう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다크스틸 거상]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Колосс Темной Стали]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Colosso de Aço Negro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玄铁巨像]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玄鐵巨像]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388074" />
+  <ARTID value="51759" />
+  <ARTIST name="Carl Critchlow" />
+  <CASTING_COST cost="{11}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Golem" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="11" />
+  <TOUGHNESS value="11" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[践踏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[踐踏]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_TRAMPLE" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[indestructible]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[indestructible]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unzerstörbar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[indistruttibile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊不能]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неразрушимость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[indestrutível]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不灭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不滅]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_INDESTRUCTIBLE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner’s library instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si le Colosse de sombracier devait être mis dans un cimetière d’où qu’il vienne, révélez le Colosse de sombracier et mélangez-le dans la bibliothèque de son propriétaire à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si el Coloso de acero oscuro fuera a ser puesto en un cementerio desde cualquier lugar, en vez de eso, muestra al Coloso de acero oscuro y barájalo en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls der Nachtstahl-Koloss von irgendwoher auf einen Friedhof gelegt würde, zeige den Nachtstahl-Koloss stattdessen offen vor und mische ihn in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se il Colosso di Darksteel sta per essere messo in un cimitero da qualsiasi zona, rivela invece il Colosso di Darksteel e rimescolalo nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダークスティールの巨像がいずれかの領域から墓地に置かれるなら、代わりにダークスティールの巨像を公開し、オーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다크스틸 거상이 어디서든 무덤에 들어가려 하면, 대신에 다크스틸 거상을 공개하고 소유자의 서고에 섞어 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если Колосс Темной Стали должен попасть откуда-либо на кладбище, покажите Колосса Темной Стали и втасуйте его в библиотеку его владельца вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se Colosso de Aço Negro for ser colocado num cemitério vindo de qualquer lugar, em vez disso, revele-o e embaralhe-o no grimório de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果玄铁巨像将从任何区域置入坟墓场，则改为展示玄铁巨像，并将它洗入其拥有者的牌库。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[若玄鐵巨像將從任何區域置入墳墓場，則改為展示玄鐵巨像，並將它洗入其擁有者的牌庫。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_CONSIDERED" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" pre_trigger="1">
+    MTG():OverrideEvent()
+    return true
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource()~= nil then	
+    	EffectDC():Make_Chest(0):Set_CardPtr(0, EffectSource() )
+    	
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		
+    		if player ~= nil then
+    			player:RevealDCToMe(EffectDC():Get_Chest(0))
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(1)
+    delayDC:Set_CardPtr(0, TriggerObject())
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():PutOnTopOfLibrary()	
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1">
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_LIBRARY" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    EffectSource():GetOwner():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="427">
+  <FILENAME text="MASTER_OF_ETHERIUM_381895" />
+  <CARDNAME text="MASTER_OF_ETHERIUM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Master of Etherium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître de l'étherium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro de eterium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meister des Ätheriums]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maestro di Eterium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エーテリウムの達（たつ）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에테리움의 대가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мастер Эфирия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre do Etherium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[乙金大师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[乙金大師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381895" />
+  <ARTID value="115147" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Only a mind unfettered with the concerns of the flesh can see the world as it truly is.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Seul l'esprit qui se moque des exigences de la chair peut voir le monde tel qu'il est véritablement. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Solo una mente no contaminada con las preocupaciones de la carne puede ver el mundo como realmente es”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Nur ein Verstand, der nicht von den Sorgen eines Körpers belastet wird, kann die Welt so sehen, wie sie wirklich ist.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Solo una mente libera dalle preoccupazioni della carne può vedere il mondo com’è realmente.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「肉体の懸念から解き放たれた精神のみが、真の世界を見ることができる。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["육체에 구속되지 않는 자만이 세상을 진실되게 바라볼 수 있다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Только разум, освобожденный от оков плоти, может увидеть мир таким, какой он есть на самом деле».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Somente uma mente livre das preocupações da carne pode ver o mundo como ele realmente é.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「未受肉身束缚的心灵，才得见世界真貌。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「未受肉身束縛的心靈，才得見世界真貌。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vedalken" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Master of Etherium’s power and toughness are each equal to the number of artifacts you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance du Maître de l’étherium sont chacune égales au nombre d’artefacts que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La fuerza y resistencia del Maestro de eterium son iguales a la cantidad de artefactos que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft des Meisters des Ätheriums sind gleich der Anzahl an Artefakten, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione del Maestro di Eterium sono pari al numero di artefatti che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エーテリウムの達人のパワーとタフネスは、それぞれあなたがコントロールするアーティファクトの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에테리움의 대가의 공격력과 방어력은 각각 당신이 조종하는 마법물체의 개수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Мастера Эфирия равны количеству артефактов под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Mestre do Etherium são ambos iguais ao número de artefatos que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[乙金大师的力量和防御力各等同于由你操控的神器数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[乙金大師的力量和防禦力各等同於由你操控的神器數量。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	local filter = ClearFilter()
+    	
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	local total = filter:Count()
+    	
+    	characteristics:Power_Set( total )
+    	characteristics:Toughness_Set( total )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other artifact creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures-artefacts que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas artefacto que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Artefaktkreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature artefatto che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のアーティファクト・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 마법물체 생물들은 +1/+1 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие артефакты существа под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas artefato que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的其他神器生物得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的其他神器生物得+1/+1。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT  )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_type="ARTIFACT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_LIGHTNING_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_LIGHTNING_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="85">
+  <FILENAME text="MYRSMITH_388095" />
+  <CARDNAME text="MYRSMITH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Myrsmith]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Forgeronne de myrs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Forjamyr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Myrschmied]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Plasmamyr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マイア鍛（か）冶（じ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미르 제작가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кузнец Миэров]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Forjador de Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[秘耳工匠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[秘耳工匠]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388095" />
+  <ARTID value="131108" />
+  <ARTIST name="Eric Deschamps" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Auriok see the artificer as a conduit, beckoning new creations into the world.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Aurioks voient en l'artificier un conduit mettant au monde de nouvelles créations.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los áuriok ven al artífice como un conducto, que trae nuevas creaciones al mundo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Auriok sehen den Handwerker als Fließband, der neue Kreationen in die Welt bringt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli Auriok considerano l’artefice un canale, che invita le nuove creazioni nel mondo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーリオックにとって工匠は、世界に新たな創造を招き入れる導管のようなものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오리옥에게 그 기능공은 세계에 새로운 창조를 불러오는 사자였다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ауриоки считают механиков проводниками, приводящими новые творения в этот мир.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Para os aurioques, os artesãos são como conduítes, dando vazão a novas criações para o mundo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[欧瑞克人将神器师看作渠道，将新的造物吸引至世界。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歐瑞克人將神器師看作渠道，將新的造物吸引至世界。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Artificer" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an artifact spell, you may pay {1}. If you do, put a 1/1 colorless Myr artifact creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d’artefact, vous pouvez payer {1}. Si vous faites ainsi, mettez sur le champ de bataille un jeton de créature-artefact 1/1 incolore Myr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo de artefacto, puedes pagar {1}. Si lo haces, pon en el campo de batalla una ficha de criatura artefacto Myr incolora 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Artefaktzauber wirkst, kannst du {1} bezahlen. Falls du dies tust, bringe einen 1/1 farblosen Myr-Artefaktkreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia artefatto, puoi pagare {1}. Se lo fai, metti sul campo di battaglia una pedina creatura artefatto Myr 1/1 incolore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがアーティファクト・呪文を１つ唱えるたび、あなたは{1}を支払ってもよい。そうしたなら、無色の１/１のマイア・アーティファクト・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 마법물체 주문을 발동할 때마다, 당신은 {1}를 지불할 수 있다. 그렇게 한다면, 1/1 무색 미르 마법물체 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание артефакта, вы можете заплатить {1}. Если вы это делаете, положите на поле битвы одну фишку артефакта существа 1/1 бесцветный Миэр.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica de artefato, você pode pagar {1}. Se fizer isso, coloque no campo de batalha uma ficha de criatura artefato incolor 1/1 do tipo Myr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放神器咒语时，你可以支付{1}。若你如此作，将一个1/1无色秘耳衍生神器生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放一個神器咒語時，你可以支付{1}。若你如此作，將一個1/1無色秘耳衍生神器生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetCardType():Test( CARD_TYPE_ARTIFACT ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayManaCost("{1}") then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_PAY_1" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_DO_NOT_PAY_ONE" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_MYRSMITH_DO_YOU_WANT_TO_PAY_1_AND_MAKE_A_TOKEN" )
+    		EffectDC():Set_Int(0, 1)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local questionAsked = EffectDC():Get_Int(0)
+    if questionAsked == 1 then
+    	local result = EffectController():GetMultipleChoiceResult()
+    	if result == 0 then
+    		MTG():PutTokensOntoBattlefield( "TOKEN_MYR_1_1_373734", 1, EffectController() ) 
+    		EffectController():PayManaCost( "{1}")
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="600" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="13" resource_type="ARTIFACT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_MYR_1_1_373734" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_OPTION_PAY_1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Paga {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bezahle {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}を支払う]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}을 지불하십시오]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатите {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pague {1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{1}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{1}]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_DO_NOT_PAY_ONE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay {1}. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne payez pas {1}. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar {1}. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1} nicht bezahlen. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare {1}. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}を支払わない。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}을 지불하지 않습니다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить {1}. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pagar {1}. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付{1}。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付{1}。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MYRSMITH_DO_YOU_WANT_TO_PAY_1_AND_MAKE_A_TOKEN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {1} and put a 1/1 colorless Myr artifact token onto the battlefield?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aimeriez-vous payer {1} et mettre sur le champ de bataille un jeton d'artefact 1/1 incolore Myr ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {1} y poner en el campo de batalla una ficha de artefacto Myr incolora 1/1?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {1} bezahlen und einen 1/1 farblosen Myr-Artefaktspielstein ins Spiel bringen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {1} e mettere sul campo di battaglia una pedina artefatto Myr 1/1 incolore?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}を支払って、無色の１/１のマイア・アーティファクト・クリーチャー・トークンを１体戦場に出しますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}을 지불하여 1/1 무색 미르 마법물체 토큰 한 개를 전장에 놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {1} и положить на поле битвы одну фишку артефакта 1/1 бесцветный Миэр?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar {1} para colocar no campo de batalha uma ficha de artefato incolor 1/1 do tipo Myr?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付{1}并将一个1/1无色秘耳衍生神器生物放进战场吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付{1}並將一個1/1無色秘耳衍生神器生物放進戰場嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="SALVAGE_SLASHER_388073" />
+  <CARDNAME text="SALVAGE_SLASHER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Salvage Slasher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Balafreur de récupération]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acuchillador del botín]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Altmetall-Schlitzer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Squarciatore Riciclato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[回（かい）収（しゅう）する斬（ざん）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고철 칼부림꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утильный Головорез]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpeador Selvagem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[废品刀客]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[廢品刀客]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388073" />
+  <ARTID value="118693" />
+  <ARTIST name="Anthony Francisco" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Esper artificers never imagined that one day their scraps would be pressed against their soft and fragile throats.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les artificiers d'Esper n'avaient jamais imaginé qu'un jour, un de leurs rebuts tenterait de trancher leurs gorges fragiles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los artífices de Esper nunca imaginaron que un día sus desechos serían presionados contra sus frágiles y suaves gargantas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Handwerker von Esper hatten nicht damit gerechnet, dass ihre Abfälle eines Tages gegen ihre weichen und zerbrechlichen Kehlen gepresst würden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli artefici di Esper non avrebbero mai immaginato che un giorno i loro scarti sarebbero stati premuti contro le loro fragili gole.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エスパーの工匠達は、自分たちの屑鉄が自分の柔らかくか弱い喉元に押し当てられる日が来るなど想像もしなかった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에스퍼 기능공들은 자신들이 개발한 잡동사니가 자신들의 부드럽고 연약한 목을 조르게 될 거라고는 상상조차 하지 못했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эсперские изобретатели и подумать не могли, что в один прекрасный день забракованный ими металл вопьется в их мягкое и нежное горло.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os artífices de Esper nunca imaginaram que um dia seus refugos seriam pressionados contra suas frágeis gargantas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[艾斯波神器师作梦也没想过，所丢弃的废铁居然有一天会贴在自己柔软脆弱的喉头上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艾斯波神器師作夢也沒想過，所丟棄的廢鐵居然有一天會貼在自己柔軟脆弱的喉頭上。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Rogue" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Salvage Slasher gets +1/+0 for each artifact card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Balafreur de récupération gagne +1/+0 pour chaque carte d’artefact dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Acuchillador del botín obtiene +1/+0 por cada carta de artefacto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Altmetall-Schlitzer erhält +1/+0 für jede Artefaktkarte in deinem Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Squarciatore Riciclato prende +1/+0 per ogni carta artefatto nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[回収する斬鬼は、あなたの墓地にあるアーティファクト・カード１枚につき＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고철 칼부림꾼은 당신의 무덤에 있는 마법물체 카드 한 장당 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утильный Головорез получает +1/+0 за каждую карту артефакта на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpeador Selvagem recebe +1/+0 para cada card de artefato em seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你坟墓场中每有一张神器牌，废品刀客便得+1/+0。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你的墳墓場中每有一張神器牌，廢品刀客便得+1/+0。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController())
+    local number = filter:Count()
+    EffectSource():GetCurrentCharacteristics():Power_Add( number )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="13" resource_type="ARTIFACT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="400" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+</CARDS>

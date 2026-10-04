@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="309">
+  <FILENAME text="TRUSTY_MACHETE_374443" />
+  <CARDNAME text="TRUSTY_MACHETE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trusty Machete]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Machette fidèle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Machete confiable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuverlässige Machete]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Machete Affidabile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[信（しん）頼（らい）おける山（やま）刀（かたな）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[든든한 마쉐티]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Надежный Мачете]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Facão Fiel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[可靠的砍刀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[可靠的砍刀]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374443" />
+  <ARTID value="123739" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Until this expedition is done, that blade is your guardian, your liberator, and your best friend all rolled into one.”
+—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Jusqu'à la fin de cette expédition, cette lame est ta gardienne, ta libératrice et ta meilleure amie. »
+—Yon Basrel, survivaliste d'Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Hasta que esta expedición termine, ese machete es tu guardián, tu liberador y tu mejor amigo, todo en uno.”
+—Yon Basrel, sobreviviente de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Bis diese Expedition vorbei ist, ist diese Klinge dein Wächter, dein Befreier und dein bester Freund, alles gleichzeitig.“
+—Yon Basrel, Überlebenskünstler aus dem Oran-Rief-Wald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Finché la spedizione non è finita, quella lama è la tua protettrice, la tua liberatrice e la tua miglior amica tutto in uno.”
+—Yon Basrel, survivalista di Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この探検中は、この剣は守り神とか、救い主とか、親友とか、そういうのを一つにまとめたもんだ。」
+――オラン＝リーフの生き残り、ヨン・バスレル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이번 탐험이 끝날 때까지 그 칼이 자네의 안전과 자유를 지키는 최고의 친구가 될 걸세."
+—오란리에프 마을의 생존자 욘 바스렐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пока экспедиция не завершилась, этот клинок — ваш хранитель, освободитель и лучший друг».
+— Йон Базрел, оран-рифский выживатель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Até o final desta expedição, esta lâmina será seu guardião, seu libertador e seu melhor amigo, tudo numa coisa só.”
+— Yon Basrel, sobrevivencialista de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「直到这次探险结束，那把刀将兼任三个角色：你的守护者，你的解放者，以及你最好的朋友。」
+～欧兰黎求生家阳别瑞]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「直到這次探險結束，那把刀將兼任三個角色：你的守護者，你的解放者，以及你最好的朋友。」
+～歐蘭黎求生家陽別瑞]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <SUB_TYPE metaname="Equipment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equipped creature gets +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature équipée gagne +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura equipada obtiene +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die ausgerüstete Kreatur erhält +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura equipaggiata prende +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備しているクリーチャーは＋２/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착된 생물은 +2/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снаряженное существо получает +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura equipada recebe +2/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[佩带此武具的生物得+2/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[佩帶此武具的生物得+2/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource()~= nil then
+    	local parent = EffectSource():GetParent()
+    	if parent ~= nil then
+    		parent:GetCurrentCharacteristics():Power_Add( 2 )
+    		parent:GetCurrentCharacteristics():Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Equip {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Équipement {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Equipar {2}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausrüsten {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Equipaggiare {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備 {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착 {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Снарядить {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Equipar {2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[佩带{2}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[佩帶{2}]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}" type="Mana" />
+    <AVAILABILITY sorcery_time="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="equip" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target_card ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target_card )	
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	return false
+    else
+    	return true
+    end
+    </AUTO_SKIP>
+    <EXPLAIN play_tag="HINT_ABILITY_EQUIP_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EQUIP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to equip.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'équiper.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para equiparla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ausgerüstet werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da equipaggiare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[装備するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장착할 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно снарядить.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para equipar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要佩带的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來裝備。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ARTIFACT_EQUIPMENT_WHY_PLAY" removal_tag="HINT_ARTIFACT_EQUIPMENT_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="136">
+  <FILENAME text="SIREN_OF_THE_FANGED_COAST_377519" />
+  <CARDNAME text="SIREN_OF_THE_FANGED_COAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Siren of the Fanged Coast]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sirène de la Côte Dentelée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sirena de la costa aguzada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sirene der Reißzahnküste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sirena di Costa delle Zanne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[牙（きば）海（かい）岸（がん）のセイレーン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[송곳니 해안의 세이렌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сирена с Клыкастого Берега]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sirena da Costa Acidentada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[毒牙海岸塞连]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[毒牙海岸塞連]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377519" />
+  <ARTID value="152554" />
+  <ARTIST name="Michael C. Hayes" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Siren" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_query="1" linked_ability_group="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tribute 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tribut 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tributo 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tribut 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tributo 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貢納３]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조공 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дань 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tributo 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[致敬3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[致敬3]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if  MTG():GetNumberOfStartingPlayers() &gt; 2 then
+    	-- there is an actual choice so time to decide which oppoenent
+    	local filter = ClearFilter()
+    	filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    	filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    	EffectController():ChooseItem( "CARD_QUERY_CHOOSE_PLAYER", EffectDC():Make_Targets(0) )
+    	
+    else
+    	-- we are only in a two player duel so we just grab the first oppoenent as we only have one
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    	
+    		if player ~= nil and player ~= EffectController() then
+    			EffectDC():Make_Targets(0):Set_PlayerPtr(0, player)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	local player = targetDC:Get_PlayerPtr(0)
+    	if player ~= nil then
+    		player:BeginNewMultipleChoice()   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_SIREN_PAY_TRIBUTE" )   
+    		player:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_SIREN_DO_NOT_PAY_TRIBUTE" )   
+    		player:AskMultipleChoiceQuestion( "CARD_QUERY_CHOOSE_ONE" )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	local answer = EffectController():GetMultipleChoiceResult()
+    	if answer == 0 then
+    		EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 3)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local result = EffectController():GetMultipleChoiceResult()
+    LinkedDC():Set_Int(0, result)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Siren of the Fanged Coast enters the battlefield, if tribute wasn’t paid, gain control of target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Sirène de la Côte Dentelée arrive sur le champ de bataille, si le tribut n’a pas été payé, acquérez le contrôle de la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Sirena de la costa aguzada entre al campo de batalla, si no se pagó tributo, gana el control de la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Sirene der Reißzahnküste ins Spiel kommt und falls kein Tribut gezahlt wurde, übernimm die Kontrolle über eine Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Sirena di Costa delle Zanne entra nel campo di battaglia, se il tributo non è stato pagato, prendi il controllo di una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[牙海岸のセイレーンが戦場に出たとき、貢納が支払われていない場合、クリーチャー１体を対象とし、それのコントロールを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[송곳니 해안의 세이렌이 전장에 들어올 때, 조공을 바치지 않았을 경우, 생물 한 개를 목표로 정한다. 당신은 그 생물의 조종권을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Сирена с Клыкастого Берега выходит на поле битвы, если Дань не была заплачена, получите контроль над целевым существом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Sirena da Costa Acidentada entra no campo de batalha, se o tributo não tiver sido pago, ganhe o controle da criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当毒牙海岸塞连进战场时，若未支付其致敬费用，便获得目标生物的操控权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當毒牙海岸塞連進戰場時，若未支付其致敬費用，則獲得目標生物的操控權。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local tributePaid = LinkedDC():Get_Int(0)
+    if tributePaid == 1 then	
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GAIN_CONTROL" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="2">
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:SetController(EffectController())
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectDC():Get_Targets(0):Get_CardPtr(0) == nil)
+    </DURATION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_TRIBUTE" body="MORE_INFO_BODY_TRIBUTE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_SIREN_PAY_TRIBUTE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Siren of the Fanged Coast will enter the battlefield with three +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Sirène de la Côte Dentelée arrivera sur le champ de bataille avec trois marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Sirena de la costa aguzada entrará al campo de batalla con tres contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Sirene der Reißzahnküste kommt mit drei +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Sirena di Costa delle Zanne entrerà nel campo di battaglia con tre segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《牙海岸のセイレーン》は、＋１/＋１カウンターが３個置かれた状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[송곳니 해안의 세이렌은 +1/+1 카운터 세 개를 가지고 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сирена с Клыкастого Берега выйдет на поле битвы с тремя жетонами +1/+1 на ней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sirena da Costa Acidentada entrará no campo de batalha com três marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[毒牙海岸塞连进战场时上面有三个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[毒牙海岸塞連進戰場時上面有三個+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_SIREN_DO_NOT_PAY_TRIBUTE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Siren of the Fanged Coast’s controller will choose a creature to gain control of.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le contrôleur de la Sirène de la Côte Dentelée choisira une créature dont il acquerra le contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El controlador de la Sirena de la costa aguzada elegirá una criatura para ganar su control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Beherrscher der Sirene der Reißzahnküste bestimmt eine Kreatur, über die er die Kontrolle übernehmen will.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il controllore della Sirena di Costa delle Zanne sceglierà una creatura di cui prendere il controllo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《牙海岸のセイレーン》のコントローラーは、コントロールを得るクリーチャーを１体選びます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[송곳니 해안의 세이렌의 조종자가 조종권을 얻을 생물 한 개를 고를 것입니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Игрок, контролирующий Сирену с Клыкастого Берега, выберет существо, над которым получит контроль.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O controlador de Sirena da Costa Acidentada escolherá a criatura da qual ganhar o controle. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[毒牙海岸塞连的操控者将选择一个要获得其操控权的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[毒牙海岸塞連的操控者將選擇一個要獲得其操控權的生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ONE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose one —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez l’un —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige uno:]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eines —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli uno —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[１つを選ぶ —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하나를 선택한다 —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите одно —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um —]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一项～]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一項～]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GAIN_CONTROL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain control of.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour en acquérir le contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para ganar su control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, über die du die Kontrolle übernehmen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura di cui prendere il controllo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コントロールを得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조종권을 얻을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, над которым нужно получить контроль.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para ganhar o controle dela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以获得其操控权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得其操控權。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

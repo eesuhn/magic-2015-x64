@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="ORANRIEF_SURVIVALIST_374433" />
+  <CARDNAME text="ORANRIEF_SURVIVALIST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Oran-Rief Survivalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Survivaliste d'Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sobreviviente de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Oran-Rief-Überlebenskünstler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Survivalista di Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オラン＝リーフの生（い）き残（のこ）り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오란리에프 생존자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оран-Рифский Выживатель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sobrevivencialista de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[欧兰黎求生家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歐蘭黎求生家]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374433" />
+  <ARTID value="123580" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I’m strong enough to survive alone. I’m smart enough to want companions at my side.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je suis assez fort pour survivre seul. Je suis assez intelligent pour vouloir des compagnons à mes côtés. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Soy suficientemente fuerte como para sobrevivir solo. Soy suficientemente listo como para preferir compañeros a mi lado”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich bin stark genug, um alleine zu überleben. Ich bin klug genug, um Gefährten zur Seite haben zu wollen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sono abbastanza forte da sopravvivere da solo. Sono abbastanza furbo da volere dei compagni al mio fianco.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「一人でも生き残るだけの力はある。脇に仲間を置くだけの知恵もある。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["난 혼자서도 살아남을 수 있다. 그래도 동료가 있으면 더 안전하다는 사실은 알지."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я достаточно силен и могу выжить в одиночку. Я достаточно умен и поэтому хочу, чтобы рядом были товарищи».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Sou forte o suficiente para sobreviver sozinho. Sou esperto o suficiente para querer companheiros ao meu lado.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我够强，能够独自生存。我够聪明，懂得该找人在身边陪伴。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我夠強，能夠獨自生存。我夠聰明，懂得該找人在身邊陪伴。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Warrior" />
+  <SUB_TYPE metaname="Ally" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Oran-Rief Survivalist or another Ally enters the battlefield under your control, you may put a +1/+1 counter on Oran-Rief Survivalist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Survivaliste d’Oran-Rief ou qu’un autre allié arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur +1/+1 sur le Survivaliste d’Oran-Rief.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Sobreviviente de Oran-Rief u otro Aliado entre al campo de batalla bajo tu control, puedes poner un contador +1/+1 sobre el Sobreviviente de Oran-Rief.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Oran-Rief-Überlebenskünstler oder ein anderer Verbündeter unter deiner Kontrolle ins Spiel kommt, kannst du eine +1/+1-Marke auf den Oran-Rief-Überlebenskünstler legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Survivalista di Oran-Rief o un altro Alleato entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino +1/+1 sul Survivalista di Oran-Rief.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オラン＝リーフの生き残りか他の同盟者が１体あなたのコントロール下で戦場に出るたび、あなたはオラン＝リーフの生き残りの上に＋１/＋１カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오란리에프 생존자 또는 다른 동맹이 당신의 조종하에 전장에 들어올 때마다, 당신은 오란리에프 생존자에 +1/+1 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Оран-Рифский Выживатель или другой Союзник выходит на поле битвы под вашим контролем, вы можете положить один жетон +1/+1 на Оран-Рифского Выживателя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Sobrevivencialista de Oran-Rief ou outro Aliado entra no campo de batalha sob o seu controle, você pode colocar um marcador +1/+1 em Sobrevivencialista de Oran-Rief.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当欧兰黎求生家或另一个伙伴在你的操控下进战场时，你可以在欧兰黎求生家上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當歐蘭黎求生家或另一個伙伴在你的操控下進戰場時，你可以在歐蘭黎求生家上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetSubType():Test( CREATURE_TYPE_ALLY ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+    <AUTO_SKIP no_effect_source="1" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

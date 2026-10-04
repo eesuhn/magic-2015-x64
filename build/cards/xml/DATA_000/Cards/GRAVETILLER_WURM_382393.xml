@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="211">
+  <FILENAME text="GRAVETILLER_WURM_382393" />
+  <CARDNAME text="GRAVETILLER_WURM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gravetiller Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guivre laboureuse de tombes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sierpe labratumba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grabpflügerwurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Wurm Dissodatombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓（はか）耕（たがや）しのワーム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤을 갈아버리는 웜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вурм-Рыхлитель Могил]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vorme Lavrador de Túmulo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[翻坟亚龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[翻墳亞龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382393" />
+  <ARTID value="139830" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{5}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As the creatures of the night closed in on humanity, Innistrad’s primeval forces stirred, as though waking to watch the slaughter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tandis que l'étau des créatures de la nuit se refermait sur l'humanité, les forces primaires d'Innistrad s'ébranlèrent, comme si elles s'éveillaient pour assister au massacre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras las criaturas de la noche arrinconaban a la humanidad, las fuerzas primitivas de Innistrad se agitaron, como si se despertaran para observar la masacre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als die Kreaturen der Nacht die Menschen umzingelt hatten, wachten auch die Urkräfte von Innistrad auf, als ob sie dem Gemetzel zuschauen wollten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre le creature della notte calavano sull’umanità, le forze primitive di Innistrad si agitavano, come se si risvegliassero per guardare il massacro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[夜の怪物が人類に迫った時、イニストラードの原初の力は、殺戮者を見張るために目覚めたかのように身を震わせた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[밤의 괴수들이 인간들을 위협하자, 마치 그 광경을 구경하고 싶어하는 듯 이니스트라드의 오래된 세력들이 꿈틀거리기 시작했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[По мере того как ночные твари наступали на людей, первобытные силы Иннистрада зашевелились, словно пробуждаясь в предвкушении резни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme as criaturas da noite se aproximaram da humanidade, as forças primitivas de Innistrad se agitaram, como se acordassem para assistir ao massacre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[暗夜生物对人类的威胁升高，惊醒了依尼翠的太古势力，起身观赏屠杀景象。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[暗夜生物對人類的威脅升高，驚醒了依尼翠的太古勢力，起身觀賞屠殺景象。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wurm" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[践踏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[踐踏]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_TRAMPLE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Morbid| — Gravetiller Wurm enters the battlefield with four +1/+1 counters on it if a creature died this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Morbidité| — La Guivre laboureuse de tombes arrive sur le champ de bataille avec quatre marqueurs +1/+1 sur elle si une créature est morte ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Necrario| — La Sierpe labratumba entra al campo de batalla con cuatro contadores +1/+1 sobre ella si una criatura murió este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Morbide| — Der Grabpflügerwurm kommt mit vier +1/+1-Marken ins Spiel, falls in diesem Zug eine Kreatur gestorben ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Morboso| — Il Wurm Dissodatombe entra nel campo di battaglia con quattro segnalini +1/+1 se è morta una creatura in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|陰鬱| ― このターンにクリーチャーが死亡していたなら、墓耕しのワームは＋１/＋１カウンターが４個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사망 — 이 턴에 생물이 죽었다면, 무덤을 갈아버리는웜은 +1/+1 카운터 네 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Болезненность| — Вурм-Рыхлитель Могил выходит на поле битвы с четырьмя жетонами +1/+1 на нем, если в этом ходу умерло существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Mórbido| — Vorme Lavrador de Túmulo entrará no campo de batalha com quatro marcadores +1/+1 se uma criatura tiver morrido neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[丧心～如果本回合有生物死去，翻坟亚龙进战场时上面有四个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[喪心如果本回合有生物死去，翻墳亞龍進戰場時上面有四個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <INTERVENING_IF>
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetType( CARD_TYPE_CREATURE )
+    interrogation:SetFromZone( ZONE_BATTLEFIELD )
+    interrogation:SetToZone( ZONE_GRAVEYARD )
+    if interrogation:Test( INTERROGATE_CARDS_MOVED_ZONE, INTERROGATE_THIS_TURN ) then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 4)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_MORBID" body="MORE_INFO_BODY_MORBID" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

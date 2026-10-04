@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="207">
+  <FILENAME text="THORNTHRASH_VIASHINO_381920" />
+  <CARDNAME text="THORNTHRASH_VIASHINO" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thorn-Thrash Viashino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Viashino rosse-épine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Viashino de la azotada de espinas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Viashino der Dornenbande]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Viashino di Batosta Spinosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[茨（いばら）団（だん）のヴィーアシーノ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가시를 휘두르는 비아시노]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Виашино Шипастой Стаи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Viashino Surrador-do-espinho]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[荆击族凡尔西诺]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[荊擊族凡爾西諾]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381920" />
+  <ARTID value="115117" />
+  <ARTIST name="Jon Foster" />
+  <CASTING_COST cost="{3}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Viashino" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Devour 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dévorement 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorar 2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verschlingen 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divorare 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食２]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожирание 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devorar 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[吞噬2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[吞噬2]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local max_victims = filter:Count()
+    if max_victims &gt; 0 then
+    	EffectController():SetItemCount( max_victims )
+    	for i = 0,(max_victims-1) do
+    		EffectController():SetItemPrompt (i, "CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_2" )
+    	end
+    	
+    	EffectDC():Set_Int(1, max_victims)
+    	EffectController():ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local max_victims = EffectDC():Get_Int(1)
+    local devour_count = 0
+    		
+    for i=0,max_victims-1 do
+    	local victim = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if victim ~= nil then
+    		EffectController():Sacrifice(victim)
+    		devour_count = devour_count + 1
+    	end
+    end
+    		
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), devour_count*2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Thorn-Thrash Viashino gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G} : Le Viashino rosse-épine acquiert le piétinement jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: El Viashino de la azotada de espinas gana la habilidad de arrollar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Der Viashino der Dornenbande verursacht bis zum Ende des Zuges Trampelschaden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: Il Viashino di Batosta Spinosa ha travolgere fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}：茨団のヴィーアシーノはターン終了時までトランプルを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: 가시를 휘두르는 비아시노는 턴종료까지 돌진을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: Виашино Шипастой Стаи получает Пробивной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Viashino Surrador-do-espinho ganha atropelar até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{G}：荆击族凡尔西诺获得践踏异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{G}：荊擊族凡爾西諾獲得踐踏異能直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{G}" type="Mana" />
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" window_turn="my_turn" type="window" window_in_combat="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{4}{G}" base_score="300" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_DEVOUR" body="MORE_INFO_BODY_DEVOUR" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose any number of creatures to devour. This creature enters the battlefield with twice that many +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez n'importe quel nombre de créatures pour le dévorement. Cette créature arrive sur le champ de bataille avec deux fois ce nombre de marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige cualquier cantidad de criaturas para devorar. Esta criatura entra al campo de batalla con el doble de esa cantidad de contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine beliebige Anzahl an Kreaturen, die verschlungen werden sollen. Diese Kreatur kommt mit doppelt so vielen +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un qualsiasi numero di creature da divorare. Questa creatura entra nel campo di battaglia con un numero di segnalini +1/+1 pari al doppio delle creature divorate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食するクリーチャーを望む数だけ選んでください。このクリーチャーは、その数の２倍の＋１/＋１カウンターが置かれた状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식할 생물을 원하는 만큼 고르십시오. 이 생물은 포식한 생물 수의 두 배만큼의 +1/+1 카운터를 가진 채로 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите любое количество существ для Пожирания. Это существо выходит на поле битвы с количеством жетонов +1/+1 на нем, в два раза превышающим это число. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma quantidade qualquer de criaturas para devorar. Esta criatura entra no campo de batalha com o dobro deste número em marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择任意数量要吞噬的生物。此生物进战场时上面有该数量两倍的+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇任意數量的生物來吞噬。此生物進戰場時兩倍數量的+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

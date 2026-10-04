@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="389">
+  <FILENAME text="ENLARGE_374722" />
+  <CARDNAME text="ENLARGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enlarge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Agrandir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Agrandar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Größer machen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Allargare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大（おお）型（がた）化（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[급성장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Увеличение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aumentar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[增大]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[增大]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374722" />
+  <ARTID value="147453" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +7/+7 and gains trample until end of turn. It must be blocked this turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne +7/+7 et acquiert le piétinement jusqu’à la fin du tour. Elle doit être bloquée ce tour-ci si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene +7/+7 y gana la habilidad de arrollar hasta el final del turno. Debe ser bloqueada este turno si se puede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis zum Ende des Zuges erhält eine Kreatur deiner Wahl +7/+7 und verursacht Trampelschaden. Sie muss in diesem Zug geblockt werden, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio prende +7/+7 e ha travolgere fino alla fine del turno. Deve essere bloccata in questo turno, se possibile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで＋７/＋７の修整を受けるとともにトランプルを得る。このターン、それは可能ならブロックされなければならない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +7/+7을 받고 돌진을 얻는다. 이번 턴에 그 생물을 방어할 수 있는 모든 생물은 그 생물을 방어해야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает +7/+7 и Пробивной удар до конца хода. Оно должно быть заблокировано в этом ходу, если это возможно.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo recebe +7/+7 e ganha atropelar até o final do turno. Ela deve ser bloqueada neste turno se estiver apta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[直到回合结束，目标生物得+7/+7且获得践踏异能。它本回合若能被阻挡，则须如此作。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[直到回合結束，目標生物得+7/+7且獲得踐踏異能。它本回合若能被阻擋，則須如此作。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_GREEN_MAGIC_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_GET_7_7_TRAMPLE_MUST_BE_BLOCKED" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 7 )
+    	characteristics:Toughness_Add( 7 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_TRAMPLE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_MUST_BE_BLOCKED_IF_ABLE, 1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="38" resource_type="CREATURE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="12" resource_type="CREATURE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_GET_7_7_TRAMPLE_MUST_BE_BLOCKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +7/+7 and gain trample until end of turn. That creature must be blocked this turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +7/+7 et acquérir le piétinement jusqu'à la fin du tour. Cette créature doit être bloquée ce tour-ci si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +7/+7 y gane la habilidad de arrollar hasta el final del turno. Esa criatura debe ser bloqueada este turno si se puede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +7/+7 erhalten und bis zum Ende des Zuges Trampelschaden verursachen soll. Diese Kreatur muss in diesem Zug geblockt werden, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +7/+7 e ha travolgere fino alla fine del turno. Quella creatura deve essere bloccata in questo turno, se possibile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ターン終了時まで＋７/＋７の修整を受けトランプルを得るクリーチャーを１体選んでください。このターン、可能ならそのクリーチャーをブロックしなければなりません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[턴종료까지 +7/+7을 받고 돌진 능력을 얻을 생물 한 개를 고른다. 그 생물은 가능하면 이 턴에 방어되어야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +7/+7 и Пробивной удар до конца хода. То существо должно быть заблокировано в этом ходу, если это возможно.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +7/+7 e ganhar atropelar até o final do turno. Aquela criatura deve ser bloqueada neste turno se estiver apta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物得+7/+7且获得践踏异能直到回合结束。该生物被回合若能被阻挡，则须如此作。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+7/+7且獲得踐踏異能直到回合結束。該生物本回合若能被阻擋，則須如此作。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

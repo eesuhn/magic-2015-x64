@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="402">
+  <FILENAME text="DEMOLISH_378343" />
+  <CARDNAME text="DEMOLISH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Demolish]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Démolition]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demoler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Demolieren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Frantumare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破（は）砕（さい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[철거]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разрушение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demolir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[毁坏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[毀壞]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378343" />
+  <ARTID value="123684" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“This is why I hate settlements. They lull you into a false sense of security.”
+—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« C'est pourquoi je déteste les communautés. Elles vous donnent toujours ce faux sentiment de sécurité. »
+—Yon Basrel, survivaliste d'Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Esto es por lo que odio los asentamientos. Te entumecen con un falso sentido de la seguridad”.
+—Yon Basrel, sobreviviente de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Darum hasse ich Siedlungen. Sie vermitteln dir ein falsches Gefühl von Sicherheit.“
+—Yon Basrel, Überlebenskünstler aus dem Oran-Rief-Wald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ecco perché odio gli insediamenti. Ti cullano in un falso senso di sicurezza.”
+—Yon Basrel, survivalista di Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「だから定住は嫌いなんだよ。間違った安心を植えつけられちまうからな。」――オラン＝リーフの生き残り、ヨン・バスレル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이래서 마을이 싫어. 안전하다고 착각하게 만들거든."
+—오란리에프 마을의 생존자 욘 바스렐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вот за что я не люблю поселения. Они усыпляют бдительность».
+— Йон Базрел, оран-рифский выживатель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“É por isso que eu odeio assentamentos. Eles nos tranquilizam com uma falsa sensação de segurança.”
+— Yon Basrel, sobrevivencialista de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「所以我讨厌聚落。它们带来的虚伪安全感能把你哄住。」
+～欧兰黎求生家阳别瑞]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「所以我討厭聚落。它們帶來的虛偽安全感能把你哄住。」
+～歐蘭黎求生家陽別瑞]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target artifact or land.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez l’artefact ciblé ou le terrain ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye el artefacto o tierra objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre ein Artefakt oder ein Land deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi un artefatto o una terra bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクト１つか土地１つを対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법물체나 대지 한 개를 목표로 정한다. 그 지속물을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевой артефакт или землю.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua o artefato ou terreno alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭目标神器或地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅目標神器或地。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_BLUNT_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_ARTIFACT_OR_LAND_TO_DESTROY" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND)
+    	
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Destroy(EffectSource())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARTIFACT_OR_LAND_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an artifact or land to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un artefact ou un terrain à détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un artefacto o tierra para destruirlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Artefakt oder ein Land, das zerstört werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un artefatto o una terra da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するアーティファクトか土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 마법물체 또는 대지 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите артефакт или землю для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um artefato ou terreno para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个神器或地并将其消灭。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個神器或地並將其消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

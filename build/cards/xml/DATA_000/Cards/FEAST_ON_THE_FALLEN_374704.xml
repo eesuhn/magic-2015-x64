@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="141">
+  <FILENAME text="FEAST_ON_THE_FALLEN_374704" />
+  <CARDNAME text="FEAST_ON_THE_FALLEN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Feast on the Fallen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Se repaître des mourants]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorar a los caídos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leichenschmaus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Banchetto di Caduti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[堕（お）ちたる者（もの）の饗（きょう）宴（えん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체 만찬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пир Павших]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Banquete de Cadáveres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[饱食死者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飽食死者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374704" />
+  <ARTID value="155197" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“As our numbers dwindle, the ranks of the dead grow ever stronger.”
+—Thalia, Knight-Cathar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les rangs des morts s'étoffent à mesure que les nôtres s'amenuisent. »
+—Thalia, chevalière cathare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“A medida que nuestro número mengua, las filas de los muertos no dejan de crecer”.
+—Thalia, caballero cátaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Je mehr sich unsere Reihen lichten, desto stärker werden die Reihen der Toten.“
+—Thalia, Katharerritterin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Mentre i nostri soccombono, le file dei morti diventano sempre più forti.”
+—Thalia, Cavaliera Catara]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我が方の数は減る一方なのに、死者の群れは増える一方ね。」
+――聖戦騎士、サリア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리 숫자가 줄면 죽은 자들의 숫자가 늘어난다."
+—카타르 기사 탈리아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Нас становится меньше, а ряды нежити только ширятся».
+— Талия, рыцарь-катар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Conforme nossos números diminuem, as fileiras dos mortos ficam cada vez mais fortes.”
+— Thalia, Cátara Cavaleira]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们人数越来越少，亡者大军却更加壮大了。」
+～护教军骑士莎利雅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們人數越來越少，亡者大軍卻更加壯大了。」
+～護教軍騎士莎利雅]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each upkeep, if an opponent lost life last turn, put a +1/+1 counter on target creature you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de chaque entretien, si un adversaire a perdu des points de vie au dernier tour, mettez un marqueur +1/+1 sur une créature ciblée que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de cada mantenimiento, si un oponente perdió vidas el turno anterior, pon un contador +1/+1 sobre la criatura objetivo que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege zu Beginn jedes Versorgungssegments, falls ein Gegner im letzten Zug Lebenspunkte verloren hat, eine +1/+1-Marke auf eine Kreatur deiner Wahl, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio di ogni mantenimento, se un avversario ha perso punti vita nell’ultimo turno, metti un segnalino +1/+1 su una creatura bersaglio che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各アップキープの開始時に、直前のターンに対戦相手がライフを失っていた場合、あなたがコントロールするクリーチャー１体を対象とし、それの上に＋１/ ＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 유지단 시작에, 상대가 이전 턴에 생명을 잃었다면, 당신이 조종하는 생물 한 개를 목표로 정한다. 그 생물에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале каждого шага поддержки, если оппонент потерял жизнь(-и) в прошлом ходу, положите один жетон +1/+1 на целевое существо под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de cada manutenção, se um oponente tiver perdido pontos de vida no último turno, coloque um marcador +1/+1 na criatura alvo que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每个维持开始时，若上回合中有对手失去生命，则在目标由你操控的生物上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每個維持開始時，若上回合中有對手失去生命，則在目標由你操控的生物上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <INTERVENING_IF>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayers-1) do
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if player ~= nil and player ~= EffectController() then
+    		local interrogation = MTG():ClearInterrogationQuery()
+    		interrogation:SetPlayer( player )
+    		local lifeLost = interrogation:Count( INTERROGATE_LIFE_LOST, INTERROGATE_PREVIOUS_TURN, 1 )
+    		if lifeLost == 1 then
+    			return true
+    		end
+    	end
+    end
+    return false
+    </INTERVENING_IF>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_PLUS1_PLUS1_COUNTERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain +1/+1 counters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner des marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que gane contadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +1/+1-Marken erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che ottiene segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターを得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+1/+1 카운터를 얻을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое должно получить жетоны +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得+1/+1指示物的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

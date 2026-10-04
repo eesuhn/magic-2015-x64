@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="111">
+  <FILENAME text="REANIMATE_374345" />
+  <CARDNAME text="REANIMATE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reanimate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Réanimation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reanimar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reanimation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rianimare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[再（さい）活（かっ）性（せい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[재조종]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оживление]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reanimar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[活尸法]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[活屍法]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374345" />
+  <ARTID value="3221" />
+  <ARTIST name="Robert Bliss" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You will learn to earn death.”
+—Volrath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous apprendrez à mériter la mort. »
+—Wöhlrajh]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Aprenderás a merecer la muerte”.
+—Volrath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du wirst lernen, den Tod zu verdienen.“
+—Volrath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Imparerai ben presto che la morte è un lusso che è necessario meritare.”
+—Volrath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前は死を手に入れる手段を学ぶ事になる。」――ヴォルラス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“죽음조차도 공짜로 얻을 수 없는 것임을 알아라.”
+—볼래스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ты научишься заслуживать смерть».
+— Волрат]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você vai aprender a conseguir a morte.”
+— Volrath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你可以学习领死。」
+～瓦拉司]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你可以學習領死。」
+～瓦拉司]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to its converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille, sous votre contrôle, une carte de créature ciblée d’un cimetière. Vous perdez un nombre de points de vie égal à son coût converti de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla bajo tu control la carta de criatura objetivo de un cementerio. Pierdes una cantidad de vidas igual a su coste de maná convertido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Kreaturenkarte deiner Wahl aus einem Friedhof unter deiner Kontrolle ins Spiel. Du verlierst Lebenspunkte in Höhe ihrer umgewandelten Manakosten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia sotto il tuo controllo una carta creatura bersaglio da un cimitero. Perdi punti vita pari al costo di mana convertito di quella carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓地にあるクリーチャー・カード１枚を対象とし、それをあなたのコントロール下で戦場に出す。あなたはそれの点数で見たマナ・コストに等しい点数のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤에 있는 생물 카드 한 장을 목표로 정한다. 그 카드를 당신의 조종하에 전장에 놓는다. 당신은 그 카드의 전환마나비용만큼의 생명을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите целевую карту существа из кладбища на поле битвы под вашим контролем. Вы теряете количество жизней, равное ее конвертированной мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque o card de criatura alvo de um cemitério no campo de batalha sob o seu controle. Você perde uma quantidade de pontos de vida equivalente ao custo de mana convertido dele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标生物牌在你的操控下从坟墓场放进战场。你失去等同于其总法术力费用的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標生物牌在你的操控下從墳墓場放進戰場。你失去等同於其總魔法力費用的生命。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local cmc = target:GetConvertedManaCost()
+    	EffectController():LoseLife( cmc )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(1-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil  then
+    		target_card:PutOntoBattlefield( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_NEUTRAL" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para poner en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場に出すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장에 놓을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно положить на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放进战场的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物放進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RECURSION_WHY_PLAY" removal_tag="HINT_SPELL_RECURSION_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

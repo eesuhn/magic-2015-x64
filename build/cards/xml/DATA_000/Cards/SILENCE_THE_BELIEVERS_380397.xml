@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="SILENCE_THE_BELIEVERS_380397" />
+  <CARDNAME text="SILENCE_THE_BELIEVERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Silence the Believers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Réduire les croyants au silence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Silenciar a los creyentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zum Schweigen bringen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zittire i Credenti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[信（しん）者（じゃ）の沈（ちん）黙（もく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[믿는 자들을 침묵시키다]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Подавление Верующих]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Silenciar os Crentes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[信者噤声]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[信者噤聲]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380397" />
+  <ARTID value="153092" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <UTILITY_ABILITY qualifier="Strive">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Strive| — Silence the Believers costs {2}{B} more to cast for each target beyond the first.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Obstination| — Réduire les croyants au silence coûte {2}{B} de plus à lancer pour chaque cible après la première.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Esfuerzo| — Lanzar Silenciar a los creyentes cuesta {2}{B} más por cada objetivo después del primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Streben| — Zum Schweigen bringen kostet beim Wirken für jedes Ziel außer dem ersten {2}{B} mehr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Sforzo| — Zittire i Credenti costa {2}{B} in più per essere lanciato per ogni bersaglio oltre il primo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|奮励| ― 信者の沈黙を唱えるためのコストは、２つ目以降の対象１つにつき{2}{B}多くなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[분투 — 믿는 자들을 침묵시키다는 한 개를 초과하는 목표의 수만큼 발동하는 데 {2}{B}씩 비용이 더 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Стремление| — За каждую цель после первой разыгрывание Подавления Верующих стоит на {2}{B} больше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Esforço| — Silenciar os Crentes custa {2}{B} a mais para ser conjurado para cada alvo além do primeiro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[积力～信者噤声在第一个目标之外每有一个目标，便增加{2}{B}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[積力～信者噤聲在第一個目標之外每有一個目標，便增加{2}{B}來施放。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{B}" type="Mana" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile any number of target creatures and all Auras attached to them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez n’importe quel nombre de créatures ciblées et toutes les auras qui leur sont attachées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia cualquier cantidad de criaturas objetivo y todas las auras anexadas a ellas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke eine beliebige Anzahl an Kreaturen deiner Wahl und alle an sie angelegten Auren ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia un qualsiasi numero di creature bersaglio e tutte le Aure ad esse assegnate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[望む数のクリーチャーを対象とし、それらとそれらにつけられたすべてのオーラを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 원하는 수만큼 목표로 정한다. 그 생물들과 그 생물들에 부착된 모든 마법진을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните любое количество целевых существ и все прикрепленные к ним Ауры.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile qualquer número de criaturas alvo e todas as Auras anexadas a elas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[放逐任意数量的目标生物与结附于其上的所有灵气。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[放逐任意數量的目標生物與結附於其上的所有靈氣。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_BLADE_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE" any_number_of="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	local numbTargets = targetDC:Count()
+    	
+    	for i = 0, (numbTargets-1) do
+    		local currentTarget = targetDC:Get_CardPtr(i)
+    		
+    		if currentTarget ~= nil then
+    		
+    			if currentTarget:CountAttachedAuras() ~= 0 then
+    				local filter = ClearFilter()
+    				filter:Add(FE_SUBTYPE, OP_IS, ENCHANTMENT_TYPE_AURA)
+    				filter:Add( FE_PARENT_CARD, OP_IS, currentTarget)
+    				
+    				local numAuras = filter:EvaluateObjects()
+    				
+    				for j = 0, (numAuras-1) do
+    					local aura = filter:GetNthEvaluatedObject(j)
+    					
+    					if aura ~= nil then
+    						aura:Exile()
+    					end
+    				end
+    			end
+    			currentTarget:Exile()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_STRIVE" body="MORE_INFO_BODY_STRIVE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para exiliarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放逐的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

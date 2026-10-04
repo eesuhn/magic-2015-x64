@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="767">
+  <FILENAME text="HOWLGEIST_380158" />
+  <CARDNAME text="HOWLGEIST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Howlgeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hurlegeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Geist aullador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heulgeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ululageist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[吠（ほ）え霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포효심령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воющее Привидение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Geist Uivante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[长嚎游魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[長嚎遊魂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380158" />
+  <ARTID value="141646" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{5}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <SUB_TYPE metaname="Wolf" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures with power less than Howlgeist’s power can’t block it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures dont la force est inférieure à celle du Hurlegeist ne peuvent pas le bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas con fuerza menor que el Geist aullador no pueden bloquearlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, deren Stärke niedriger ist als die des Heulgeists, können ihn nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature con forza inferiore a quella dell’Ululageist non possono bloccarlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[吠え霊よりもパワーの小さいクリーチャーでは、これをブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포효심령보다 공격력이 낮은 생물은 포효심령을 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа с силой меньше силы Воющего Привидения не могут его блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas com poder menor que o de Geist Uivante não podem bloqueá-lo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[力量小于长嚎游魂的生物不能阻挡它。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[力量小於長嚎遊魂的生物不能阻擋它。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_BLOCKED_BY_CREATURES_WITH_LESS_POWER, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY badge="BADGE_UNDYING" active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Undying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Survivance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Resiliencia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unverwüstlich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immortale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不死]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нетленность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Imortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不息]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不息]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF ignore_resolution_check="1">
+    if TriggerObject():CountCounters(MTG():PlusOnePlusOneCounters()) == 0 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(0)
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	EffectDC():Protect_CardPtr( COMPARTMENT_ID_PARAM_TRIGGER_OBJECT )
+    	TriggerObject():PutOntoBattlefield( TriggerObject():GetOwner() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1" active_zone="ZONE_TRANSITION">
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_34" body="MORE_INFO_BADGE_BODY_34" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

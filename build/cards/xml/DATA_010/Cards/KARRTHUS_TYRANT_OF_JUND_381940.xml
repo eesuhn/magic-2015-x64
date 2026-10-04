@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="KARRTHUS_TYRANT_OF_JUND_381940" />
+  <CARDNAME text="KARRTHUS_TYRANT_OF_JUND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Karrthus, Tyrant of Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Karrthus, tyran de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Karrthus, tirano de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Karrthus, Tyrann von Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Karrthus, Tiranno di Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドの暴（ぼう）君（くん）、カーサス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드의 폭군 카라터스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Карртус, Тиран Джанда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Karrthus, Tirano de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得暴君卡瑟]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得暴君卡瑟]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381940" />
+  <ARTID value="121005" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{4}{B}{R}{G}" />
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="7" />
+  <TOUGHNESS value="7" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[ímpeto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HASTE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Karrthus, Tyrant of Jund enters the battlefield, gain control of all Dragons, then untap all Dragons.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Karrthus, tyran de Jund arrive sur le champ de bataille, acquérez le contrôle de tous les dragons, puis dégagez tous les dragons.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Karrthus, tirano de Jund entre al campo de batalla, gana el control de todos los Dragones, luego endereza todos los Dragones.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Karrthus, Tyrann von Jund, ins Spiel kommt, übernimm die Kontrolle über alle Drachen und enttappe dann alle Drachen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Karrthus, Tiranno di Jund entra nel campo di battaglia, prendi il controllo di tutti i Draghi, poi STAPpa tutti i Draghi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドの暴君、カーサスが戦場に出たとき、すべてのドラゴンのコントロールを得て、その後すべてのドラゴンをアンタップする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드의 폭군 카라터스가 전장에 들어올 때, 모든 용의 조종권을 가진 후 모든 용을 언탭한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Карртус, Тиран Джанда выходит на поле битвы, получите контроль над всеми Драконами, затем разверните всех Драконов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Karrthus, Tirano de Jund, entrar no campo de batalha, ganhe o controle de todos os Dragões e depois desvire todos os Dragões.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当勇得暴君卡瑟进战场时，获得所有龙的操控权，然后重置所有的龙。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當勇得暴君卡瑟進戰場時，獲得所有龍的操控權，然後重置所有的龍。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_DRAGON )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local card = FilteredCard()
+    if card ~= nil then
+    	card:MidResolutionSetController(EffectController())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="2" filter_id="0">
+    local card = FilteredCard()
+    if card ~= nil then
+    	card:SetController(EffectController())
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return FilteredCard() == nil
+    </DURATION>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if FilteredCard() ~= nil then
+        FilteredCard():Untap()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Dragon creatures you control have haste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Dragon que vous contrôlez ont la célérité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Dragón que controlas tienen la habilidad de prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Drachen-Kreaturen, die du kontrollierst, haben Eile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Drago che controlli hanno rapidità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のドラゴン・クリーチャーは速攻を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 용 생물들은 신속을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Драконы под вашим контролем имеют Ускорение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Dragão que você controla têm ímpeto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的其他龙生物具有敏捷异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的其他龍生物具有敏捷異能。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_DRAGON )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

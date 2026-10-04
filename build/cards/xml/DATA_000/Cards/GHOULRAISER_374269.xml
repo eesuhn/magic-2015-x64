@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="128">
+  <FILENAME text="GHOULRAISER_374269" />
+  <CARDNAME text="GHOULRAISER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ghoulraiser]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Leveur de goule]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Levantamuertos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ghulholer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Radunaghoul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グール起（お）こし]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악귀부활자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Упырь-Зазывала]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gerador de Carniçais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[呼伴食尸鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[呼伴食屍鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374269" />
+  <ARTID value="138100" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{1}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Come. Bring your brothers. Tonight, you feast on living flesh.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Venez. Invitez vos frères. Ce soir, vous mangerez de la chair fraîche. »
+—Jadar, meneur de goule de Néphalie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ven. Trae a tus hermanos. Esta noche habrá un festín de carne viva”.
+—Jadar, llamamuertos de Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Komm vorbei. Bring deine Brüder mit. Heute Nacht gibt es Frischfleisch.“
+—Jadar, Ghulrufer aus Nefalen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Vieni. Porta i tuoi fratelli. Stanotte, banchetterai con carne fresca.”
+—Jadar, evocaghoul di Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「来たれ。同胞を連れてこい。今宵、お前は生者の肉を楽しむであろう。」――ネファリアのグール呼び、ジャダー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["형제들을 데리고 오너라. 오늘 밤은 산 자의 고기를 배불리 먹게 되리라."
+—네팔리아의 악귀소환술사 자다르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Приходите сами. Приводите ваших собратьев. Сегодня вечером мы насытимся живой плотью».
+— Джадар, призыватель упырей из Нефалии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Venha. Traga seus irmãos. Esta noite, vocês comerão carne viva.”
+— Jadar, invocador de carniçais de Nefália]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「来。带着你的兄弟。今晚，你可以尝活人的肉。」
+～涅非利亚尸鬼牧者贾达]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「來。帶著你的兄弟。今晚，你可以嚐活人的肉。」
+～涅非利亞屍鬼牧者賈達]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Ghoulraiser enters the battlefield, return a Zombie card at random from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Leveur de goule arrive sur le champ de bataille, renvoyez une carte de zombie au hasard depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Levantamuertos entre al campo de batalla, regresa una carta de Zombie al azar de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Ghulholer ins Spiel kommt, bringe eine zufällig bestimmte Zombie-Karte aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Radunaghoul entra nel campo di battaglia, riprendi in mano una carta Zombie a caso dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グール起こしが戦場に出たとき、あなたの墓地にあるゾンビ・カードを１枚無作為に選んであなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악귀부활자가 전장에 들어올 때, 당신의 무덤에 있는 좀비 카드 한 장을 목표로 정한다. 그 카드를 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Упырь-Зазывала выходит на поле битвы, верните случайно выбранную карту Зомби из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Gerador de Carniçais entrar no campo de batalha, devolva um card de Zumbi de seu cemitério para sua mão aleatoriamente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当呼伴食尸鬼进战场时，随机将一张灵俑牌从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當呼伴食屍鬼進戰場時，隨機將一張殭屍牌從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_GRAVEYARD )
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ZOMBIE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    filter:EvaluateObjects()
+    local zombie_to_return = filter:GetRandomEvaluatedObject()
+    if zombie_to_return ~= nil then
+    	zombie_to_return:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

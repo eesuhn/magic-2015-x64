@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="130">
+  <FILENAME text="SENTINEL_SPIDER_374359" />
+  <CARDNAME text="SENTINEL_SPIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sentinel Spider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Araignée sentinelle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Araña centinela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wächterspinne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ragno Sentinella]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歩（ほ）哨（しょう）蜘（ぐ）蛛（も）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[보초 거미]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Паук-Часовой]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aranha Sentinela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[哨兵蜘蛛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[哨兵蜘蛛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374359" />
+  <ARTID value="143858" />
+  <ARTIST name="Vincent Proce" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Your first reaction may be to stand very still and hope she didn’t see you. Trust me, she did.”
+—Endril, naturalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Votre première réaction sera de rester immobile et d'espérer qu'elle ne vous aura pas vu. Croyez-moi, elle vous aura vu. »
+—Endril, naturaliste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Tu primera reacción puede ser quedarte muy quieto con la esperanza de que no te haya visto. Créeme, te ha visto”.
+—Endril, naturalista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Deine erste Reaktion wird sein, dass du in der Bewegung erstarrst und hoffst, dass sie dich nicht gesehen hat. Doch das hat sie, glaub es mir.“
+—Endril, Naturalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La tua prima reazione potrebbe essere di rimanere immobile e sperare che non ti abbia visto. Credimi, ti ha visto.”
+—Endril, naturalista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あなたは、立ち尽くして見つからないように祈ることしかできないかもしれません。大丈夫、見つかってます」——自然主義者、エンドリル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“마주치면 본능적으로 가만히 서서 너를 못 봤기를 바라겠지. 그런데 그때쯤이면 이미 그건 널 봤어."
+—자연술사 엔드릴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ваша первая реакция — замереть в надежде, что он вас не заметил. Поверьте мне, заметил».
+— Эндриль, натуралист]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A sua primeira reação pode ser ficar imóvel na esperança de que ela não tenha te visto. Acredite, ela te viu.”
+— Endril, naturalista kaloniano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你的第一个反应可能会是僵直不动，希望她没看到你。相信我，她看到了。」
+～博物学家安缀儿]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你的第一個反應可能會是僵直不動，希望她沒看到你。相信我，她看到了。」
+～博物學家安綴兒]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spider" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigilancia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachsamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cautela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бдительность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vigilância]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_VIGILANCE" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[portée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reichweite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[raggiungere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[到達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Захват]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[alcance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[延势]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[延勢]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_REACH" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

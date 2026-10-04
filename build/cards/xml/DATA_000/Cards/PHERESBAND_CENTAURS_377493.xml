@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="21">
+  <FILENAME text="PHERESBAND_CENTAURS_377493" />
+  <CARDNAME text="PHERESBAND_CENTAURS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pheres-Band Centaurs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Centaures du clan Phérès]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Centauros del clan Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zentauren der Pheres-Herde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Centauri della Banda Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フィーリーズ団（だん）のケンタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피레스 무리 켄타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кентавры из Племени Ферий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Centauros do Bando Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[斐力兹族半人马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[斐力茲族半人馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377493" />
+  <ARTID value="150841" />
+  <ARTIST name="Mark Winters" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Poets speak of your unrivaled speed,” the Champion said to the assembled centaurs, “but it is plain to see that your true strength lies in your unwavering loyalty to one another.”
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les poètes louent votre incomparable vitesse, déclara la Championne aux centaures rassemblés, mais il m'apparaît clairement que votre plus grande force réside dans l'indéfectible loyauté qui vous unit. »
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los poetas hablan de su velocidad sin par”, dijo la Campeona a los centauros allí reunidos, “pero es evidente que su verdadera fuerza reside en la inquebrantable lealtad que se profesan unos a otros”.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Poeten schreiben über eure unvergleichliche Schnelligkeit.“, sagte die Auserwählte zu den versammelten Zentauren, „Doch es ist offensichtlich, dass eure wahre Stärke in eurer Loyalität zueinander liegt.“
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I poeti glorificano la vostra velocità senza pari,” disse la Campionessa ai centauri riuniti, “ma è evidente che la vostra vera forza risiede nella lealtà assoluta che mostrate gli uni verso gli altri.”
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[女勇者は集まったケンタウルス達に向かって言った。「詩人たちはあなた方の俊敏さについて口にする。しかし、あなた方の本当の強さとは、お互いを信頼するその絆の強さにあることは一目瞭然だ。」――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅이 집결한 켄타우로스 무리에게 말했다. "시인들은 여러분이 바람처럼 빠르다고 찬양합니다. 하지만 여러분의 진정한 힘은 서로간의 굳건한 의리입니다."
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Поэты говорят о вашей непревзойденной скорости, — сказала Поборница собравшимся кентаврам. — Но я вижу, что ваша истинная сила в непоколебимой верности друг другу».
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os poetas falam de sua velocidade incomparável”, disse a Campeã para os centauros reunidos, “mas é evidente que sua verdadeira força está na lealdade inabalável que demonstram uns com os outros.”
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「诸君无与伦比的疾速早受诗人传颂，」天尊对集合听令的半人马说道：「但世人皆知你们的真正力量，在于彼此之间的不渝忠贞。」
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「諸君無與倫比的疾速早受詩人傳頌，」天尊對集合聽令的半人馬說道：「但世人皆知你們的真正力量，在於彼此之間的不渝忠貞。」
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="7" />
+  <SFX text="COMBAT_ARROWS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

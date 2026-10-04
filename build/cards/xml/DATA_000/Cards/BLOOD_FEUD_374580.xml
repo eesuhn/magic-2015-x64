@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="579">
+  <FILENAME text="BLOOD_FEUD_374580" />
+  <CARDNAME text="BLOOD_FEUD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blood Feud]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Luttes sanglantes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Feudo de sangre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutfehde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Faida di Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血（ち）の抗（こう）争（そう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[혈족의 분쟁]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровная Вражда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rixa de Sangue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不共血仇]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不共血仇]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374580" />
+  <ARTID value="139766" />
+  <ARTIST name="Winona Nelson" />
+  <CASTING_COST cost="{4}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Succession is a matter of blood, and by blood it is often decided.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La succession est une question de sang, et c'est souvent par ce dernier qu'elle est décidée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La sucesión es un tema de sangre, y con sangre se decide.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachfolge ist eine Frage des Blutes und wird oft blutig entschieden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La successione è una questione di sangue ed è spesso decisa proprio col sangue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[継承は血統の問題であるが、血流によって決まることも多々ある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[계승은 핏줄의 문제라서 대부분의 경우 유혈 사태로 결정된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Преемственность — вопрос крови, и решается он зачастую тоже кровью.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A sucessão é uma questão de sangue, e geralmente é decidida com o próprio sangue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[继任问题会导致流血，也通常要以流血解决。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[繼任問題會導致流血，也通常要以流血解決。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature fights another target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée se bat contre une autre créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo lucha con otra criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl kämpft gegen eine andere Kreatur deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio lotta con un’altra creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とし、他のクリーチャー１体を対象とする。その前者はその後者と格闘を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 두 개를 목표로 정한다. 정해진 생물들은 서로 싸운다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо дерется с другим целевым существом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo luta com outra criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标生物与另一个目标生物互斗。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標生物與另一個目標生物互鬥。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_FIGHT" definition="0" compartment="0" count="2" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local targetA = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local targetB = EffectDC():Get_Targets(0):Get_CardPtr(1)
+    if targetA ~= nil and targetB ~= nil then
+    	MTG():ReevaluateContinuousEffects()
+    	local damagefromA = targetA:GetCurrentCharacteristics():Power_Get()
+    	local damagefromB = targetB:GetCurrentCharacteristics():Power_Get()
+    	targetA:DealDamageTo( damagefromA, targetB)
+    	targetB:DealDamageTo( damagefromB, targetA)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="1" />
+  <HELP title="MORE_INFO_TITLE_FIGHT" body="MORE_INFO_BODY_FIGHT" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1650" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_FIGHT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to fight.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la faire se battre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para luchar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die kämpfen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che lotta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦闘するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[싸울 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое будет драться.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para lutar contra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要互斗的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要互鬥的生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

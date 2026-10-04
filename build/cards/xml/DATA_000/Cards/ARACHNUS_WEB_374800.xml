@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="132">
+  <FILENAME text="ARACHNUS_WEB_374800" />
+  <CARDNAME text="ARACHNUS_WEB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Arachnus Web]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toile d'arachnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Red de aracnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Arachnusnetz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ragnatela Arachnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アラクナスの蜘（く）蛛（も）の巣（す）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[방직 거미줄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Паутина Арахнуса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Teia de Aracnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛛缠网]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蛛纏網]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374800" />
+  <ARTID value="134160" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{2}{G}" />
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert eine Kreatur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于生物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於生物]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature can’t attack or block, and its activated abilities can’t be activated.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée ne peut ni attaquer ni bloquer et ses capacités activées ne peuvent pas être activées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada no puede atacar ni bloquear y no pueden activarse sus habilidades activadas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur kann nicht angreifen oder blocken, und ihre aktivierten Fähigkeiten können nicht aktiviert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata non può attaccare o bloccare e le sue abilità attivate non possono essere attivate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーでは攻撃もブロックもできず、それの起動型能力は起動できない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 공격하거나 방어할 수 없으며, 그 생물의 활성화능력은 활성화될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо не может атаковать или блокировать, и его активируемые способности нельзя активировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada não pode atacar nem bloquear e as habilidades ativadas dela não podem ser ativadas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[所结附的生物不能进行攻击或阻挡，其起动式异能也不能起动。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[所結附的生物不能進行攻擊或阻擋，其起動式異能也不能起動。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_CANT_ATTACK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	parent:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_CANT_USE_ACTIVATED_ABILITIES, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of the end step, if enchanted creature’s power is 4 or greater, destroy Arachnus Web.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre étape de fin, si la force de la créature enchantée est supérieure ou égale à 4, détruisez la Toile d’arachnus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del paso final, si la fuerza de la criatura encantada es 4 o más, destruye la Red de aracnus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls zu Beginn des Endsegments die Stärke der verzauberten Kreatur 4 oder mehr ist, zerstöre das Arachnusnetz.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio della sottofase finale, se la forza della creatura incantata è pari o superiore a 4, distruggi la Ragnatela Arachnus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[終了ステップの開始時に、エンチャントされているクリーチャーのパワーが４以上である場合、アラクナスの蜘蛛の巣を破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[종료단 시작에, 부여된 생물의 공격력이 4 이상이라면, 방직 거미줄을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале заключительного шага, если сила зачарованного существа равна 4 или больше, уничтожьте Паутину Арахнуса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da etapa final, se o poder da criatura encantada for maior ou igual a 4, destrua Teia de Aracnus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在结束步骤开始时，若所结附的生物之力量为4或更多，则消灭蛛缠网。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在結束步驟開始時，若所結附的生物之力量為4或更多，則消滅蛛纏網。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <INTERVENING_IF>
+    if EffectSource():GetParent():GetCurrentCharacteristics():Power_Get() &gt;= 4 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():Destroy()
+    end 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_LIBRARY">
+  EffectSource():AddScore(100)
+  </AI_CUSTOM_SCORE>
+  <AI_BASE_SCORE score="1050" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_DEFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_DEFENSIVE_AURA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

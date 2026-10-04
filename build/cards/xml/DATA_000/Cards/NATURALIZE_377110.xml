@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="501">
+  <FILENAME text="NATURALIZE_377110" />
+  <CARDNAME text="NATURALIZE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Naturalize]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Naturalisation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Naturalizar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Naturalisieren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ritorno alla Natura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[帰（き）化（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자연화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Приживание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Naturalizar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[回归自然]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[回歸自然]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377110" />
+  <ARTID value="49669" />
+  <ARTIST name="Tim Hildebrandt" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“When your cities and trinkets crumble, only nature will remain.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand vos villes et vos breloques tomberont en poussière, il ne restera que la nature. »
+—Garruk Languebestion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuando tus ciudades y baratijas se desmoronen, la naturaleza permanecerá”.
+—Garruk Portavoz Salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn eure Städte und Spielzeuge zerfallen, bleibt nur die Natur übrig.“
+—Garruk Wildsprecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quando le tue città e i tuoi fronzoli crollano, rimane solo la natura.”
+—Garruk Lingua Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「都市や光物が崩れ去っても、自然だけは残る。」――野生語りのガラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["너희들의 도시와 하찮은 물건들이 모두 산산조각나면 오로지 자연만이 남게 될 것이다."
+—개럭 와일드스피커]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Когда разрушатся ваши города и сломаются механизмы, останется лишь природа».
+— Гаррук Дикоречивый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando as suas cidades e bugigangas ruírem, restará apenas a natureza.”
+— Garruk Falabravo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「当你的城市与琐物化为灰烬，只有大自然永存。」
+～召兽使贾路]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「當你的城市與瑣物化為灰燼，只有大自然永存。」
+～召獸使賈路]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target artifact or enchantment.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez l’artefact ciblé ou l’enchantement ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye el artefacto o encantamiento objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre ein Artefakt oder eine Verzauberung deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi un artefatto o un incantesimo bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクト１つかエンチャント１つを対象とし、それを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법물체 한 개나 부여마법 한 개를 목표로 정한다. 그 지속물을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевой артефакт или чары.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua o artefato ou encantamento alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭目标神器或结界。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅目標神器或結界。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_VINES_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_ARTIFACT_OR_ENCHANTMENT_TO_DESTROY" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_ENCHANTMENT)
+    	
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Destroy(EffectSource())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <DECKBUILDING_METADATA defensive="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARTIFACT_OR_ENCHANTMENT_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an artifact or enchantment to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un artefact ou un enchantement à détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un artefacto o encantamiento para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Artefakt oder eine Verzauberung, das bzw. die zerstört wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un artefatto o un incantesimo da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するアーティファクトかエンチャントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 마법물체나 부여마법을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите артефакт или чары для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um artefato ou encantamento para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要消灭的神器或结界。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個神器或結界來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

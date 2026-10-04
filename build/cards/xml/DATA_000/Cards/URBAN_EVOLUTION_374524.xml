@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="401">
+  <FILENAME text="URBAN_EVOLUTION_374524" />
+  <CARDNAME text="URBAN_EVOLUTION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Urban Evolution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Évolution urbaine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Evolución urbana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stadtentwicklung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evoluzione Urbana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[都（みやこ）の進（しん）化（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도시의 진화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Городская Эволюция]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Evolução Urbana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[城市演化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[城市演化]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374524" />
+  <ARTID value="146265" />
+  <ARTIST name="Eytan Zana" />
+  <CASTING_COST cost="{3}{G}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As the Simic released more of their krasis experiments, they required new habitats, always at the expense of the locals.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À mesure que les Simic libéraient leurs expériences krasis, il leur fallut de nouveaux habitats, toujours au détriment des autochtones.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Conforme los simic liberaban más de sus experimentos krasis, estos necesitaban nuevos hábitats, siempre a expensas de los lugareños.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Je mehr Krasis-Experimente die Simic durchführten, desto mehr neue Lebensräume benötigten sie, immer auf Kosten der ursprünglichen Bewohner.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Poiché i Simic lasciavano sempre più krasis sperimentali in libertà, questi avevano bisogno di nuovi habitat, sempre ai danni degli abitanti del posto. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[シミック連合が混成体の実験個体を解き放つにつれ、より多くの生息地が必要とされるようになった。そしてこれには常に、地元民の代償が伴った。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시믹 길드가 풀어놓은 크라시스들이 살 곳을 찾기 시작하자 지역 주민들은 곤란한 처지가 되었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Красисы Симиков требовали все больше жизненного пространства. Страдали, естественно, простые обыватели.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme os Simic liberavam mais de seus krasis experimentais, esses precisavam de novos habitats, sempre às custas dos nativos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[析米克放出的融合体实验品越来越多，他们需要新的栖息地，但付出代价者往往是当地人。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[析米克放出的融合體實驗品越來越多，他們需要新的棲息地，但付出代價者往往是當地人。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards. You may play an additional land this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez trois cartes. Vous pouvez jouer un terrain supplémentaire ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba tres cartas. Puedes jugar una tierra adicional este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe drei Karten. Du kannst in diesem Zug ein zusätzliches Land spielen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca tre carte. Puoi giocare una terra addizionale in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを３枚引く。このターン、あなたは追加で土地を１つプレイしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 세 장을 뽑는다. 당신은 이 턴에 대지 한 장을 추가로 플레이할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите три карты. Вы можете разыграть одну дополнительную землю в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre três cards. Você pode jogar um terreno adicional neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓三张牌。你本回合可以额外使用一个地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽三張牌。你本回合可以額外使用一個地。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(3)
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    local player_characteristics = EffectController():GetCurrentCharacteristics()
+    player_characteristics:Int_Increment( PLAYER_INTCHARACTERISTIC_EXTRA_LAND_DROPS )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

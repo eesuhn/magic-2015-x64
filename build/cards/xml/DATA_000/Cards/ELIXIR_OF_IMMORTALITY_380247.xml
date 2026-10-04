@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="388">
+  <FILENAME text="ELIXIR_OF_IMMORTALITY_380247" />
+  <CARDNAME text="ELIXIR_OF_IMMORTALITY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elixir of Immortality]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élixir d'immortalité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elixir de inmortalidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elixier der Unsterblichkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elisir dell’Immortalità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不（ふ）死（し）の霊（れい）薬（やく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불멸의 영약]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эликсир Бессмертия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elixir da Imortalidade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[永生琼浆]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[永生瓊漿]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380247" />
+  <ARTID value="129148" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Bottled life. Not as tasty as I’m used to, rather stale, but it has the same effect.”
+—Baron Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La vie en bouteille. Certes moins goûteux que ce à quoi je suis habitué, un peu rance, mais l'effet est le même. »
+—Baron Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Vida embotellada. No tan sabrosa como a la que estoy acostumbrado, más bien rancia, pero tiene el mismo efecto”.
+—Barón Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Abgefülltes Leben. Nicht so lecker, wie ich es gerne mag, sondern abgestanden, aber es hat den gleichen Effekt.“
+—Baron Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Vita in bottiglia. Non così saporita come al solito, piuttosto stantia, ma ha lo stesso effetto.”
+—Barone Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「瓶詰めの生命だ。かつてほど美味ではないし、むしろ味気ないが、効果は変わらぬ。」――センギア男爵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“병에 든 생명이라. 평소보다 좀 퀴퀴한 냄새가 나고 신선하지도 않지만, 효과 자체는 나무랄 데가 없군."
+—셍기르 남작]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Хм, жизнь из бутылки. Не так вкусно, как обычно, немного затхлый привкус, но эффект тот же самый».
+— Барон Сенгир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Vida engarrafada. Não é tão saborosa quanto a que estou acostumado, é um pouco rançosa, mas tem o mesmo efeito.”
+— Barão Sengir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「瓶装的生命。风味不太如我意，也不新鲜，但起码功效相同。」
+～辛格男爵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「瓶裝的生命。風味不太如我意，也不新鮮，但起碼功效相同。」
+～辛格男爵]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}, {T}: You gain 5 life. Shuffle Elixir of Immortality and your graveyard into their owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}, {T} : Vous gagnez 5 points de vie. Mélangez l’Élixir d’immortalité et votre cimetière dans la bibliothèque de leur propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}, {T}: Ganas 5 vidas. Baraja el Elixir de inmortalidad y tu cementerio en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}, {T}: Du erhältst 5 Lebenspunkte dazu. Mische das Elixier der Unsterblichkeit und deinen Friedhof in die Bibliothek ihrer Besitzer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}, {T}: Guadagni 5 punti vita. Rimescola l’Elisir dell’Immortalità e il tuo cimitero nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}, {T}：あなたは5点のライフを得る。不死の霊薬とあなたの墓地を、オーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}, {T}: 당신은 생명 5점을 얻는다. 불멸의 영약과 당신의 무덤을 각자 소유자의 서고에 섞어 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}, {T}: вы получаете 5 жизней. Втасуйте Эликсир Бессмертия и ваше кладбище в библиотеку их владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}, {T}: Você ganha 5 pontos de vida. Embaralhe Elixir da Imortalidade e seu cemitério no grimório de seus donos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}，{T}：你获得5点生命。将永生琼浆与你的坟墓场洗入其拥有者的牌库。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}，{T}：你獲得5點生命。將永生瓊漿與你的墳墓場洗入其擁有者的牌庫。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}" type="Mana" />
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(5 )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectController() ~= nil then
+    	EffectController():MoveLocalZone( ZONE_GRAVEYARD, ZONE_LIBRARY )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectDC():Protect_CardPtr(COMPARTMENT_ID_EFFECT_SOURCE)
+    	EffectSource():PutOnTopOfLibrary()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil and EffectSource():GetOwner() ~= EffectController() then
+    	EffectSource():GetOwner():ShuffleLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_LIFEGAIN_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ARTIFACT_ABILITY_WHY_PLAY" removal_tag="HINT_ARTIFACT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

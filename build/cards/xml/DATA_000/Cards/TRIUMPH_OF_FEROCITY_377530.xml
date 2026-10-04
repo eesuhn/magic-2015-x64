@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="595">
+  <FILENAME text="TRIUMPH_OF_FEROCITY_377530" />
+  <CARDNAME text="TRIUMPH_OF_FEROCITY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triumph of Ferocity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Triomphe de la férocité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Triunfo de la ferocidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sieg der Wildheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trionfo della Ferocia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[獰（どう）猛（もう）さの勝（しょう）利（り）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야성의 승리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Триумф Свирепости]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Triunfo da Ferocidade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[狂野得胜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[狂野得勝]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377530" />
+  <ARTID value="155980" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Rid me of this curse, witch, or die with me.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Débarrasse-moi de cette malédiction, sorcière, ou tu mourras avec moi. »
+—Garruk Languebestion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Líbrame de esta maldición, bruja, o muere conmigo”.
+—Garruk Portavoz Salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Befreie mich von diesem Fluch, Hexe, oder stirb mit mir.“
+—Garruk Wildsprecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Liberami da questa maledizione, strega, o morirai con me.”
+—Garruk Lingua Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「魔女よ、この呪いを解け。でなければ道連れにしてやる。」
+――野生語りのガラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“내 저주를 풀지 않으면 여기서 함께 죽는 거다, 마녀야.”
+—개럭 와일드스피커]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Избавь меня от проклятья, ведьма, или умри со мной».
+— Гаррук Дикоречивый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Livre-me desta maldição, bruxa, ou morra comigo.”
+— Garruk Falabravo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「巫婆，替我解开此诅咒，不然就跟我一起死。」
+～召兽使贾路]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「巫婆，替我解開此詛咒，不然就跟我一起死。」
+～召獸使賈路]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, draw a card if you control the creature with the greatest power or tied for the greatest power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, piochez une carte si vous contrôlez la créature avec la force la plus élevée ou qui partage la force la plus élevée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, roba una carta si controlas a la criatura con mayor fuerza o que empata por la mayor fuerza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe zu Beginn deines Versorgungssegments eine Karte, falls du die Kreatur mit der größten Stärke oder der gemeinsam größten Stärke kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, pesca una carta se controlli la creatura con la forza maggiore o pari alla forza maggiore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたがパワーの最も大きいクリーチャー、あるいは２体以上あるならそのうちの１体をコントロールしている場合、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신이 공격력이 제일 높거나 공동으로 공격력이 제일 높은 생물을 조종한다면 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки возьмите карту, если вы контролируете существо с наибольшей силой или с одинаковым значением наибольшей силы с другим существом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, compre um card se você controlar a criatura com maior poder ou uma das que tem o maior poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，如果你操控力量最大或与他者同为最大的生物，则抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，如果你操控力量最大或與他者同為最大的生物，則抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local num_starting_players = MTG():GetNumberOfStartingPlayers()
+    local max_opponent_power = -10000
+    local max_player_power = -10001
+    local filter = ClearFilter()
+    for i=0,(num_starting_players-1) do
+    	local player = MTG():GetNthStartingPlayer(i)
+    	if player ~= nil then
+    		if player ~= EffectController() then
+    			filter:Clear()
+    			filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    			filter:Add( FE_CONTROLLER, OP_IS, player)
+    			local num_creatures = filter:EvaluateObjects()
+    			for j=0,(num_creatures-1) do
+    				current_power = filter:GetNthEvaluatedObject(j):GetCurrentCharacteristics():Power_Get()
+    				if current_power &gt; max_opponent_power then
+    					max_opponent_power = current_power 			
+    				end
+    			end
+    		else
+    			filter:Clear()
+    			filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    			filter:Add( FE_CONTROLLER, OP_IS, player)
+    			local num_creatures = filter:EvaluateObjects()
+    			for j=0,(num_creatures-1) do
+    				current_power = filter:GetNthEvaluatedObject(j):GetCurrentCharacteristics():Power_Get()
+    				if current_power &gt; max_player_power then
+    					max_player_power = current_power 
+    				end
+    			end
+    		end
+    	end
+    end
+    if max_player_power &gt;= max_opponent_power then
+    	EffectController():DrawCards(1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

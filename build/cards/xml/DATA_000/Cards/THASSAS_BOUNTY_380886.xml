@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="582">
+  <FILENAME text="THASSAS_BOUNTY_380886" />
+  <CARDNAME text="THASSAS_BOUNTY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Thassa’s Bounty]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Don de Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regalo de Tassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schatz der Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dono di Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タッサの褒（ほう）賞（しょう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타사의 하사품]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Награда Тассы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recompensa de Tassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[塔萨的恩赐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[塔薩的恩賜]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380886" />
+  <ARTID value="150859" />
+  <ARTIST name="Ryan Yee" />
+  <CASTING_COST cost="{5}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Was this gift cast adrift for any to find, or did Thassa guide the currents to bring it to me alone?”
+—Kenessos, priest of Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ce don a-t-il dérivé au hasard, ou Thassa a-t-elle guidé les courants à seule fin de me l'offrir ? »
+—Kénessos, prêtre de Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Viajaba este regalo a la deriva para que lo encontrase cualquiera, o guió Tassa las corrientes para enviármelo solo a mí?”.
+—Kenessos, sacerdote de Tassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wurde dieses Geschenk an Land gespült, damit es irgendjemand findet, oder hat Thassa es zu mir allein treiben lassen?“
+—Kenessos, Priester der Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Questo dono è stato abbandonato alla mercé di chiunque, o Thassa ha guidato le correnti perché lo portassero da me?”
+—Kenessos, sacerdote di Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この贈り物は、誰にでも見つかるように放流されたのであろうか？それともタッサ様が潮の流れを操って、私のところに届くように仕向けたのであろうか？」――タッサの神官、ケネッソス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이것은 우연히 내 손에 들어온 것인가? 아니면 타사께서 조류를 이끌어 내게 하사하신 것인가?"
+—타사의 사제 케네소스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Был ли этот дар отправлен по волнам для первого, кто найдет его, или же Тасса направила течения, чтобы они принесли его мне?»
+— Кенесс, жрец Тассы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Este presente foi lançado à deriva para que qualquer um o encontrasse ou Tassa guiou as correntes para trazê-lo apenas a mim?”
+— Quenessos, sacerdote de Tassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这件礼物是四处漂流任人寻找，还是塔萨专门引导洋流将其带给我的？」
+～塔萨的僧侣克涅索斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這件禮物是四處漂流任人尋找，還是塔薩專門引導洋流將其帶給我的？」
+～塔薩的僧侶克涅索斯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw three cards. Target player puts the top three cards of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez trois cartes. Le joueur ciblé met les trois cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba tres cartas. El jugador objetivo pone las tres primeras cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe drei Karten. Ein Spieler deiner Wahl legt die obersten drei Karten seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca tre carte. Un giocatore bersaglio mette nel suo cimitero le prime tre carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを３枚引く。プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上から３枚のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 세 장을 뽑는다. 플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 서고 맨 위의 카드 세 장을 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите три карты. Целевой игрок кладет три верхние карты своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre três cards. O jogador alvo coloca os três cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓三张牌。目标牌手将其牌库顶的三张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽三張牌。目標玩家將其牌庫頂的三張牌置入其墳墓場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(3)
+    </RESOLUTION_TIME_ACTION>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_MILL_3" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	target:MillCards( 3, EffectSourceLKI() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Mill" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="20" score_per_unit="50" resource_name="Mill" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_MILL_3">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to put three cards from the top of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui faire mettre trois cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que ponga tres cartas de la parte superior de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der drei Karten oben von seiner Bibliothek auf seinen Friedhof legen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che mette nel suo cimitero le prime tre carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自分のライブラリーの一番上から３枚のカードを自分の墓地に置くプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자신의 서고 맨 위의 카드 세 장을 무덤에 넣을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен положить три карты с верха своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para colocar três cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以将其牌库顶的三张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來將其牌庫頂的三張牌置入其墳墓場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

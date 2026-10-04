@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="127">
+  <FILENAME text="AKROAN_CRUSADER_374735" />
+  <CARDNAME text="AKROAN_CRUSADER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Akroan Crusader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Croisé akroen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cruzado akroniense]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Akroischer Schwertkämpfer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Crociato di Akros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アクロスの十（じゅう）字（じ）軍（ぐん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아크로스 성전사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Акросский Крестоносец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cruzado Acrosano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿喀洛斯圣战军]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿喀洛斯聖戰軍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374735" />
+  <ARTID value="150801" />
+  <ARTIST name="Johann Bodin" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[An Akroan soldier’s worth is measured by the number of swords raised by his battle cry.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La valeur d'un soldat akroen se mesure au nombre d'épées que fait lever son cri de guerre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La valía de un soldado akroniense se mide por la cantidad de espadas que se alzan con su grito de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein akroischer Soldat wird an der Zahl der Schwerter gemessen, die seinem Schlachtruf folgen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il valore di un soldato di Akros si misura dal numero di spade che si alzano in risposta al suo grido di guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アクロスの兵士の価値は、その者の鬨の声に呼応して上がった剣の本数で決められる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아크로스 전사의 용맹은 그의 함성을 듣고서 검을 치켜들고 따르는 자들의 수로 짐작할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мерилом для акросского солдата является то, сколько мечей поднимается, услышав его боевой клич.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O valor de um soldado acrosano é medido pelo número de espadas erguidas em resposta a seu grito de guerra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿喀洛斯士兵的价值是由他战呼之后举起的刀剑数量所决定。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿喀洛斯士兵的價值是由他戰呼之後舉起的刀劍數量所決定。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Heroic| — Whenever you cast a spell that targets Akroan Crusader, put a 1/1 red Soldier creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Héroïque| — À chaque fois que vous lancez un sort qui cible le Croisé akroen, mettez sur le champ de bataille un jeton de créature 1/1 rouge Soldat avec la célérité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Heroísmo| — Siempre que lances un hechizo que haga objetivo al Cruzado akroniense, pon en el campo de batalla una ficha de criatura Soldado roja 1/1 con la habilidad de prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Heroisch| — Immer wenn du einen Zauberspruch wirkst, der den Akroischen Schwertkämpfer als Ziel hat, bringe einen 1/1 roten Soldat-Kreaturenspielstein mit Eile ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Eroismo| — Ogniqualvolta lanci una magia che bersaglia il Crociato di Akros, metti sul campo di battaglia una pedina creatura Soldato 1/1 rossa con rapidità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|英雄的| ― あなたがアクロスの十字軍を対象とする呪文を１つ唱えるたび、速攻を持つ赤の１/１の兵士・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅— 당신이 아크로스 성전사를 목표로 주문을 발동할 때마다, 신속을 가진 1/1 적색 병사 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Героизм| — Каждый раз, когда вы разыгрываете заклинание, целью которого является Акросский Крестоносец, положите на поле битвы одну фишку существа 1/1 красный Солдат с Ускорением.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Heroico| — Toda vez que você conjurar uma mágica cujo alvo seja Cruzado Acrosano, coloque no campo de batalha uma ficha de criatura vermelha 1/1 do tipo Soldado com ímpeto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇行～每当你施放一个以阿喀洛斯圣战军为目标的咒语时，将一个1/1红色，具敏捷异能的士兵衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇行～每當你施放一個以阿喀洛斯聖戰軍為目標的咒語時，將一個1/1紅色，具敏捷異能的士兵衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return TriggerObject():IsTargeting(EffectSource())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SOLDIER_1_1_R_377582", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SOLDIER_1_1_R_377582" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_HEROIC" body="MORE_INFO_BODY_HEROIC" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="576">
+  <FILENAME text="ANGELIC_ACCORD_380892" />
+  <CARDNAME text="ANGELIC_ACCORD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angelic Accord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Accord angélique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acuerdo angelical]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Himmlische Eintracht]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Armonia Angelica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天（てん）使（し）の協（きょう）定（てい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사의 협약]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ангельское Соглашение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Acordo Angelical]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[天恩相随]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[天恩相隨]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380892" />
+  <ARTID value="147399" />
+  <ARTIST name="Michael C. Hayes" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As demons are drawn to suffering, angels are drawn to acts of benevolence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les démons sont attirés par la souffrance, les anges par les actes de bienveillance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al igual que los demonios se sienten atraídos por el sufrimiento, los ángeles se sienten atraídos por los actos de bondad. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[So wie Dämonen von Leid angezogen werden, so fühlen sich Engel zu Güte hingezogen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come i demoni sono attratti dalla sofferenza, così gli angeli dagli atti di generosità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪魔が苦悩を嗅ぎ付けるように、天使は善行に引き寄せられる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고통이 악마를 부르듯 자비는 천사를 부른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Акты великодушия притягивают ангелов подобно тому, как боль и страдание притягивают демонов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assim como os demônios são atraídos pelo sofrimento, os anjos são atraídos por atos de benevolência.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[正如恶魔会受痛苦吸引，天使则会受善举吸引。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[正如惡魔會受痛苦吸引，天使則會受善舉吸引。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each end step, if you gained 4 or more life this turn, put a 4/4 white Angel creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de chaque étape de fin, si vous avez gagné au moins 4 points de vie ce tour-ci, mettez sur le champ de bataille un jeton de créature 4/4 blanche Ange avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de cada paso final, si has ganado 4 o más vidas este turno, pon en el campo de batalla una ficha de criatura Ángel blanca 4/4 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn jedes Endsegments, falls du in diesem Zug 4 oder mehr Lebenspunkte dazuerhalten hast, einen 4/4 weißen Engel-Kreaturenspielstein mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio di ogni sottofase finale, se hai guadagnato 4 o più punti vita in questo turno, metti sul campo di battaglia una pedina creatura Angelo 4/4 bianca con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各終了ステップの開始時に、このターンあなたが４点以上のライフを得た場合、飛行を持つ白の４/４の天使・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 종료단 시작에, 당신이 이 턴에 생명 4점 이상을 얻었다면, 비행을 가진 4/4 백색 천사 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале каждого заключительного шага, если вы получили 4 или больше жизни в этом ходу, положите на поле битвы одну фишку существа 4/4 белый Ангел с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de cada etapa final, se você ganhou 4 ou mais pontos de vida neste turno, coloque no campo de batalha uma ficha de criatura branca 4/4 do tipo Anjo com voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每个结束步骤开始时，若本回合中你获得了4点或更多生命，则将一个4/4白色，具飞行异能的天使衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每個結束步驟開始時，若本回合中你獲得了4點或更多生命，則將一個4/4白色，具飛行異能的天使衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <INTERVENING_IF>
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetPlayer( EffectController() )
+    local lifeGained = interrogation:Count( INTERROGATE_LIFE_GAINED, INTERROGATE_THIS_TURN, 4 )
+    if lifeGained == 4 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_ANGEL_4_4_W_F_350771", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="35" resource_name="Life" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ANGEL_4_4_W_F_350771" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

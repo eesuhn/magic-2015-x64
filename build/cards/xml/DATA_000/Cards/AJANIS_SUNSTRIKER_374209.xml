@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="AJANIS_SUNSTRIKER_374209" />
+  <CARDNAME text="AJANIS_SUNSTRIKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ajani’s Sunstriker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frappesoleil d'Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Golpeasol de Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ajanis Sonnenkämpferin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Protettrice Solare di Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アジャニの陽（よう）光（こう）弾（だん）手（しゅ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아자니의 태양타격수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Солнечный Защитник Аджани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpeador Solar de Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿耶尼晖击僧]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿耶尼暉擊僧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374209" />
+  <ARTID value="143835" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Ajani goes where he is needed most and in his name we keep his lands safe.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ajani part là où sa présence est la plus nécessaire et c'est en son nom que nous protégeons ses terres. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ajani viaja adonde más se lo necesita, y en su nombre mantenemos a salvo sus tierras”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ajani reist dorthin, wo er am meisten gebraucht wird, und wir kümmern uns in seinem Namen um seine Heimat.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ajani va dove hanno più bisogno di lui e in suo nome proteggiamo le sue terre.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「アジャニは行かねばならないところに行き、我々は彼の名の下に彼の土地を守る。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“아자니는 그를 제일 필요로 하는 곳으로 가며, 그가 자리를 비웠을 때는 우리가 그의 영역을 지킨다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Аджани там, где он нужен больше всего, и от его имени мы защищаем его земли».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ajani vai para onde mais precisam dele, e em seu nome mantemos suas terras em segurança.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「阿耶尼会在最需要他的地方现身，而我们以其名立誓维护其领地安全。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「阿耶尼會在最需要他的地方現身，而我們以其名立誓維護其領地安全。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Cleric" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lifelink]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lien de vie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebensverknüpfung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Legame vitale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[絆魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명연결]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Цепь жизни]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vínculo com a vida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[系命]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[繫命]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_LIFELINK" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_4" body="MORE_INFO_BADGE_BODY_4" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

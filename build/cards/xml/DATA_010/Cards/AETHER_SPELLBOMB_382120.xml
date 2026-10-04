@@ -1,0 +1,121 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="275">
+  <FILENAME text="AETHER_SPELLBOMB_382120" />
+  <CARDNAME text="AETHER_SPELLBOMB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Æther Spellbomb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bombe à sortilèges d'Æther]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bombahechizo de éter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Äther-Spruchbombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bombarcana Eterea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[上（じょう）天（てん）の呪（じゅ）文（もん）爆（ばく）弾（だん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에테르 주문폭탄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Волшебная Бомба Эфира]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Magibomba de Éter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[乙太咒击弹]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[乙太咒擊彈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382120" />
+  <ARTID value="50289" />
+  <ARTIST name="Jim Nelson" />
+  <CASTING_COST cost="{1}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Release that which was never caged.”
+—Spellbomb inscription]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Libère ce qui jamais n'a été mis en cage. »
+—Inscription sur une bombe à sortilèges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Libera lo que nunca estuvo enjaulado”.
+—Inscripción en la bombahechizo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das freizulassen, was nie eingesperrt war.“
+—Gravur der Spruchbombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Libera ciò che non è mai stato in gabbia.”
+—Iscrizione della Bombarcana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「檻に入れられざる物を解き放て。」
+――呪文爆弾の銘文]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["가둘 수 없는 물질을 개방하라."
+—주문폭탄에 새겨진 문구]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Выпустить то, что никогда не бывало в плену».
+— надпись на волшебной бомбе]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Liberta o que jamais foi encarcerado.”
+— Inscrição da magibomba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「释放，从未禁锢。」
+～咒击弹铭文]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「釋放，從未禁錮。」
+～咒擊彈銘文]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}, Sacrifice Æther Spellbomb: Return target creature to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{U}, sacrifiez la Bombe à sortilèges d’Æther : Renvoyez la créature ciblée dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{U}, sacrificar la Bombahechizo de éter: Regresa la criatura objetivo a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U}, opfere die Äther-Spruchbombe: Bringe eine Kreatur deiner Wahl auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{U}, Sacrifica la Bombarcana Eterea: Fai tornare una creatura bersaglio in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{U}, 上天の呪文爆弾を生け贄に捧げる：クリーチャー１体を対象とし、それをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{U}, 에테르 주문폭탄을 희생한다: 생물 한 개를 목표로 정한다. 그 생물을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{U}, пожертвуйте Волшебную Бомбу Эфира: верните целевое существо в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{U}, Sacrifique Magibomba de Éter: Devolve a criatura alvo para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{U}，牺牲乙太咒击弹：将目标生物移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{U}，犧牲乙太咒擊彈：將目標生物移回其擁有者手上。]]></LOCALISED_TEXT>
+    <COST mana_cost="{U}" type="Mana" />
+    <COST type="SacrificeSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_TEMPO_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, Sacrifice Æther Spellbomb: Draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, sacrifiez la Bombe à sortilèges d’Æther : Piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, sacrificar la Bombahechizo de éter: Roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, opfere die Äther-Spruchbombe: Ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, Sacrifica la Bombarcana Eterea: Pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, 上天の呪文爆弾を生け贄に捧げる：カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, 에테르 주문폭탄을 희생한다: 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, пожертвуйте Волшебную Бомбу Эфира: возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, Sacrifique Magibomba de Éter: Compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}，牺牲乙太咒击弹：抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{U}，犧牲乙太咒擊彈：抽一張牌。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}" type="Mana" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to return to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la renvoyer dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para regresarla a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da far tornare in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно вернуть в руку владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para devolver para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将它移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將它移回其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ARTIFACT_ABILITY_WHY_PLAY" removal_tag="HINT_ARTIFACT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

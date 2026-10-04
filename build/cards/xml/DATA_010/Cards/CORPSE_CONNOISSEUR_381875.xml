@@ -1,0 +1,162 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="CORPSE_CONNOISSEUR_381875" />
+  <CARDNAME text="CORPSE_CONNOISSEUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corpse Connoisseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Connaisseur en cadavres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Conocedor de cuerpos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leichenkenner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esperto di Cadaveri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）体（たい）の鑑（かん）定（てい）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체 감정가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знаток Трупов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Connoisseur de Cadáveres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[死尸鉴赏家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[死屍鑑賞家]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381875" />
+  <ARTID value="115229" />
+  <ARTIST name="Mark Hyzer" />
+  <CASTING_COST cost="{4}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Corpse Connoisseur enters the battlefield, you may search your library for a creature card and put that card into your graveyard. If you do, shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Connaisseur en cadavres arrive sur le champ de bataille, vous pouvez chercher une carte de créature dans votre bibliothèque et la mettre dans votre cimetière. Si vous faites ainsi, mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Conocedor de cuerpos entre al campo de batalla, puedes buscar en tu biblioteca una carta de criatura y ponerla en tu cementerio. Si lo haces, baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Leichenkenner ins Spiel kommt, kannst du deine Bibliothek nach einer Kreaturenkarte durchsuchen und diese auf den Friedhof legen. Falls du dies tust, mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Esperto di Cadaveri entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta creatura e metterla nel tuo cimitero. Se lo fai, rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死体の鑑定人が戦場に出たとき、あなたはあなたのライブラリーからクリーチャー・カードを１枚探してあなたの墓地に置いてもよい。そうしたなら、あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체 감정가가 전장에 들어올 때, 당신의 서고에서 생물 카드를 한 장 찾아 그 카드를 무덤에 놓을 수 있다. 그렇게 할 경우, 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Знаток Трупов выходит на поле битвы, вы можете найти в вашей библиотеке карту существа и положить ту карту на ваше кладбище. Если вы это делаете, перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Connoisseur de Cadáveres entra no campo de batalha, você pode procurar em seu grimório por um card de criatura e colocá-lo no seu cemitério. Se fizer isso, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当死尸鉴赏家进战场时，你可以从你的牌库中搜寻一张生物牌，并将该牌置入你的坟墓场。若你如此作，则将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當死屍鑑賞家進戰場時，你可以從你的牌庫中搜尋一張生物牌，並將該牌置入你的墳墓場。若你如此作，則將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount( 1 )
+    for i = 0, (1-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_CHOOSE_A_CREATURE_TO_PUT_IN_YOUR_GY" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInGraveyard()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unearth {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exhumation {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desenterrar {3}{B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Exhumieren {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dissotterrare {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇生 {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파묘 {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Откопать {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desenterrar {3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[破坟{3}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[破墳{3}{B}]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectSource()
+    if creature ~= nil then
+    	EffectDC():Make_Targets(0):Set_CardPtr(0, creature)
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	creature:PutOntoBattlefield( EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if creature ~= nil then
+    	local delayDC = EffectDC():Make_Targets(1)
+    	delayDC:Set_CardPtr(0, creature)
+    	
+    	MTG():CreateDelayedTrigger( 2, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if creature ~= nil then
+    	local delayDC = EffectDC():Make_Targets(2)
+    	delayDC:Set_CardPtr(0, creature)
+    	
+    	MTG():CreateDelayedTrigger( 3, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_HASTE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AVAILABILITY sorcery_time="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_RECURSION_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="2">
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Exile()  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="3">
+    <TRIGGER value="ZONECHANGE_CONSIDERED" to_zone="ZONE_ANY" from_zone="ZONE_BATTLEFIELD" pre_trigger="1">
+    if TriggerObject() == EffectDC():Get_CardPtr(0) and (GetToZone() ~= ZONE_EXILE) then
+    	MTG():OverrideEvent()
+        return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_UNEARTH" body="MORE_INFO_BODY_UNEARTH" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_PUT_IN_YOUR_GY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put in your graveyard. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre dans votre cimetière. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para ponerla en tu cementerio. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf deinen Friedhof gelegt werden soll. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere nel tuo cimitero. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓地に置くクリーチャーを１体選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자신의 무덤에 넣을 생물 한 개를 고르십시오. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, чтобы положить его на ваше кладбище. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar no seu cemitério. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要置入你坟墓场的生物。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要置入你墳墓場的生物。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

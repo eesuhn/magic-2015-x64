@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="947">
+  <FILENAME text="ARCHAEOMANCER_380871" />
+  <CARDNAME text="ARCHAEOMANCER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Archaeomancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archéomancienne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arqueomante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Archäomagierin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Archeomante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[古（こ）術（じゅつ）師（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고고학술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Археомант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arqueomante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[古语术士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[古語術士]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380871" />
+  <ARTID value="143838" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{2}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Words of power never disappear. They sleep, awaiting those with the will to rouse them.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les mots de pouvoir ne meurent jamais. Ils sommeillent, attendant quiconque aura la volonté de les réveiller. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Las palabras de poder nunca desaparecen. Duermen, esperando a aquellos que tengan el valor de despertarlas”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Worte der Macht verschwinden nie. Sie warten ruhend auf diejenigen, die wissen, wie man sie spricht.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Le parole del potere non scompaiono mai. Rimangono dormienti, in attesa di quanti hanno la volontà di risvegliarle.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「力の言葉は消えない。意志ある者が必要とするときまで眠りにつくのだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["강력한 주문은 사라지지 않는다. 다시 깨워줄 누군가를 기다리며 잠들어 있을 뿐이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Слова, исполненные магической силы, не исчезают. Они дремлют в ожидании тех, кто заставит их пробудиться».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As palavras de poder jamais desaparecem. Elas se adormentam, enquanto aguardam aqueles com a determinação de despertá-las.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「拥有力量的文字从不消失。它们只是沉睡着，等待决心唤醒它们的人。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「擁有力量的文字從不消失。它們只是沉睡著，等待決心喚醒它們的人。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Archaeomancer enters the battlefield, return target instant or sorcery card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Archéomancienne arrive sur le champ de bataille, renvoyez une carte d’éphémère ou de rituel ciblée depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Arqueomante entre al campo de batalla, regresa la carta de instantáneo o de conjuro objetivo de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Archäomagierin ins Spiel kommt, bringe eine Spontanzauber- oder Hexereikarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Archeomante entra nel campo di battaglia, riprendi in mano dal tuo cimitero una carta istantaneo o stregoneria bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[古術師が戦場に出たとき、あなたの墓地にあるインスタント・カード１枚かソーサリー・カード１枚を対象とし、それをあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고고학술사가 전장에 들어올 때, 당신의 무덤에 있는 순간마법이나 집중마법 카드 한 장을 목표로 정한다. 그 카드를 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Археомант выходит на поле битвы, верните целевую карту мгновенного заклинания или волшебства из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Arqueomante entrar no campo de batalha, devolva o card de mágica instantânea ou feitiço alvo de seu cemitério para a sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当古语术士进战场时，将目标瞬间或法术牌从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當古語術士進戰場時，將目標瞬間或巫術牌從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="RETURN_INSTANT_SOURCERY_FROM_GRAVEYARD_TO_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_INSTANT )
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_SORCERY)
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="20" score_per_unit="50" resource_name="Mill" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="40" resource_type="INSTANT" />
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="40" resource_type="SORCERY" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="500" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="RETURN_INSTANT_SOURCERY_FROM_GRAVEYARD_TO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an instant or sorcery card from your graveyard to return to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte d'éphémère ou de rituel dans votre cimetière pour la renvoyer dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta de instantáneo o conjuro de tu cementerio para regresarla a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Spontanzauber- oder Hexereikarte, die aus deinem Friedhof auf deine Hand zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta istantaneo o stregoneria da riprendere in mano dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地からあなたの手札に戻すインスタント・カードかソーサリー・カードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에서 당신의 손으로 되돌릴 순간마법이나 지속마법 카드 한 장을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту мгновенного заклинания или волшебства, которую нужно вернуть из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card de mágica instantânea ou feitiço do seu cemitério e devolva-o para a sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从你的坟墓场中选择一张要移回手上的瞬间或法术牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從你的墳墓場中選擇一張瞬間或巫術牌移回你手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

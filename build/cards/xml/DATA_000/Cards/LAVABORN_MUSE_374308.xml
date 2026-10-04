@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="LAVABORN_MUSE_374308" />
+  <CARDNAME text="LAVABORN_MUSE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lavaborn Muse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Muse née de la lave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Musa nacida de la lava]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Muse des Feuertanzes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Musa Pirogena]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶（よう）岩（がん）生（う）まれの詩（し）神（しん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용암에서 태어난 뮤즈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Муза, Рожденная из Лавы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Musa Nascida da Lava]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[熔生谬思]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[熔生謬思]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374308" />
+  <ARTID value="47522" />
+  <ARTIST name="Brian Snoddy" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Her voice is disaster, painful and final.”
+—Matoc, lavamancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Sa voix est celle de la destruction, atroce et définitive. »
+—Matoc, lavamancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Su voz es desastre, dolorosa y final”.
+—Mátoc, lavamante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ihre Stimme ist die des Unglücks, schmerzhaft und endgültig.“
+—Matoc, Magmamagier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La sua voce è disastro, dolore e ineluttabilità.”
+—Matoc, lavamante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「彼女の声は、破滅であり苦痛であり終焉なんだ。」
+――溶岩使いマトック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["그녀의 목소리는 재앙이자 고통이고 종말이다."
+—용암술사 메이톡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ее голос — это голос бедствия, мучительного и неотвратимого».
+— Мэток, лавомант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Sua voz é desgraça, dolorosa e final.”
+— Matoc, lavamante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「她的声音蕴含灾祸，痛苦而绝望。」
+～熔岩术士马佗克]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「她的聲音蘊含災禍，痛苦而絕望。」
+～熔岩術士馬佗克]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each opponent’s upkeep, if that player has two or fewer cards in hand, Lavaborn Muse deals 3 damage to him or her.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de l’entretien de chaque adversaire, si ce joueur a deux cartes ou moins dans sa main, la Muse née de la lave lui inflige 3 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del mantenimiento de cada oponente, si ese jugador tiene dos o menos cartas en su mano, la Musa nacida de la lava le hace 3 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls zu Beginn des Versorgungssegments jedes deiner Gegner dieser Spieler zwei oder weniger Karten auf der Hand hat, fügt ihm die Muse des Feuertanzes 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del mantenimento di ogni avversario, se quel giocatore ha due o meno carte in mano, la Musa Pirogena gli infligge 3 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各対戦相手のアップキープの開始時に、そのプレイヤーの手札にあるカードが２枚以下の場合、溶岩生まれの詩神はそのプレイヤーに３点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 상대의 유지단 시작에, 그 플레이어의 손에 카드가 2장 이하라면, 용암에서 태어난 뮤즈는 그 플레이어에게 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале шага поддержки каждого оппонента, если у того игрока две или менее карт в руке, Муза, Рожденная из Лавы наносит ему 3 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da manutenção de cada oponente, se aquele jogador tiver dois ou menos cards na mão, Musa Nascida da Lava causará 3 pontos de dano a ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每位对手的维持开始时，若该牌手的手牌为两张或更少，则熔生谬思对他造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每位對手的維持開始時，若該玩家的手牌為兩張或更少，則熔生謬思對他造成3點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP">
+    return (MTG():GetStep() == STEP_UPKEEP) and (TriggerPlayer():GetTeam() ~= EffectController():GetTeam())
+    </TRIGGER>
+    <INTERVENING_IF>
+    local number = TriggerPlayer():Hand_Count()
+    if number &lt;= 2 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if ( EffectSourceLKI() ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 3, TriggerPlayer() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_SPARKS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_SPARKS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

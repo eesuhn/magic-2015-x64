@@ -1,0 +1,248 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="131">
+  <FILENAME text="VIZKOPA_CONFESSOR_374525" />
+  <CARDNAME text="VIZKOPA_CONFESSOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vizkopa Confessor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Confesseur de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Confesor de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vizkopa-Beichtvater]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Confessore di Vizkopa ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴィズコーパの聴（ちょう）罪（ざい）司（し）祭（さい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비즈코파 고해 신부]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Исповедник из Визкопы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Confessor de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[伟柯帕告解僧]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[偉柯帕告解僧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374525" />
+  <ARTID value="146406" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{3}{W}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Cleric" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Extort]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Extorsion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Extorsionar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abnötigen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Estorsione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[強請]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[착취]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вымогательство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Extorquir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敲诈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敲詐]]></LOCALISED_TEXT>
+    <SFX text="EXTORT_PLAY" />
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol" />
+    <RESOLUTION_TIME_ACTION>
+    EffectSourceLKI():AllowSFX(false)
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayManaCost("{W/B}") then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_EXTORT_PAY_WB" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_EXTORY_DO_NOT_PAY_WB" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_EXTORT_QUESTION", TriggerObject() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController:CanPayManaCost("{W/B}") then
+    	local queryResult = effectController:GetMultipleChoiceResult()
+    	
+    	if queryResult == 0 then
+    		
+    		effectController:PayManaCost("{W/B}")
+    		local numPlayers = MTG():GetNumberOfPlayers()
+    		local lifeToGain = 0
+    		
+    		for i = 0, (numPlayers-1) do
+    			local currentPlayer = MTG():GetNthPlayer(i)
+    			if currentPlayer ~= nil and currentPlayer:GetTeam() ~= effectController:GetTeam() then
+    				local lifeLost = currentPlayer:LoseLife(1)
+    				lifeToGain = lifeToGain+lifeLost
+    			end
+    		end
+    		effectController:GainLife(lifeToGain)
+    		EffectSourceLKI():AllowSFX(true)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Vizkopa Confessor enters the battlefield, pay any amount of life. Target opponent reveals that many cards from his or her hand. You choose one of them and exile it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Confesseur de Vizkopa arrive sur le champ de bataille, payez le nombre de points de vie de votre choix. L’adversaire ciblé révèle autant de cartes de sa main. Vous choisissez l’une d’elles et vous l’exilez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Confesor de Vizkopa entre al campo de batalla, paga cualquier cantidad de vidas. El oponente objetivo muestra esa misma cantidad de cartas de su mano. Tú eliges una de ellas y la exilias.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vizkopa-Beichtvater ins Spiel kommt, bezahle eine beliebige Anzahl an Lebenspunkten. Ein Gegner deiner Wahl zeigt ebenso viele Karten von seiner Hand offen vor. Du bestimmst eine von ihnen und schickst sie ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Confessore di Vizkopa entra nel campo di battaglia, paga un qualsiasi ammontare di punti vita. Un avversario bersaglio rivela altrettante carte dalla sua mano. Scegli una di esse ed esiliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴィズコーパの聴罪司祭が戦場に出たとき、ライフを望む点数だけ支払う。対戦相手１人を対象とする。そのプレイヤーはその点数に等しい枚数のカードを自分の手札から公開する。あなたはその中から１枚を選んで追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비즈코파 고해 신부가 전장에 들어올 때, 생명점을 원하는 만큼 지불한다. 상대 한 명을 목표로 정한다. 그 상대는 당신이 지불한 생명점만큼의 카드를 손에서 공개한다. 상대가 손에서 공개한 카드 한 장을 골라 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Исповедник из Визкопы выходит на поле битвы, заплатите любое количество жизней. Целевой оппонент показывает такое же количество карт из своей руки. Выберите одну из них и изгоните ее.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Confessor de Vizkopa entrar no campo de batalha, pague qualquer quantidade de pontos de vida. O oponente alvo revela a mesma quantidade de cards da própria mão. Você escolhe um deles e o exila.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当伟柯帕告解僧进战场时，支付任意数量的生命。目标对手自其手牌展示等量的牌。你从中选择一张，并将该牌放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當偉柯帕告解僧進戰場時，支付任意數量的生命。目標對手自其手牌展示等量的牌。你從中選擇一張，並將該牌放逐。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_AN_OPPONENT_TO_EXILE_A_CARD_VIZKOPA_CONFESSOR" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local targetPlayer = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if effectController ~= nil and targetPlayer ~= nil then
+    	effectController:BeginNewNumericalChoice()
+    	effectController:AddNumericalChoiceAnswer(0, targetPlayer:Hand_Count())
+    	effectController:AskNumericalChoiceQuestion( "CARD_QUERY_CHOOSE_AMOUNT_LIFE")
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local result = EffectController():GetNumericalChoiceResult()
+    if result ~= 0 then
+    	local lifeLost = EffectController():LoseLife(result)
+    	
+    	if lifeLost ~= 0 then
+    		local targetPlayer = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    		
+    		if targetPlayer ~= nil then
+    			local filter = ClearFilter()
+    			
+    			filter:SetZone(ZONE_HAND, targetPlayer)
+    			
+    			targetPlayer:SetItemCount( lifeLost )
+    			
+    			for i = 0, (lifeLost-1) do
+    				targetPlayer:SetItemPrompt( i, "CARD_QUERY_CHOOSE_CARD_TO_REVEAL" )
+    			end
+    			
+    			targetPlayer:ChooseItems( EffectDC():Make_Targets(1) )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local numPlayers = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayers-1) do 
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if player ~= target_player and player ~= EffectController() then
+    		player:RevealDCToMe( EffectDC():Get_Chest(1) )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ChooseItemFromDC( "CARD_QUERY_CHOOSE_CARD_TO_EXILE", EffectDC():Get_Targets(1), EffectDC():Make_Targets(2) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Exile()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_EXTORT" body="MORE_INFO_BODY_EXTORT" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_EXTORT_PAY_WB">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{i} bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{i}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{i}를 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{i}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{i}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_EXTORY_DO_NOT_PAY_WB">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas payer {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{i} nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{i}を支払わない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{i}를 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付{i}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付{i}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_EXTORT_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {i}? If you do, each opponent loses 1 life and you gain that much life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer {i} ? Si vous faites ainsi, chaque adversaire perd 1 point de vie et vous gagnez autant de points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {i}? Si lo haces, cada oponente pierde 1 vida y tú ganas esa cantidad de vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {i} bezahlen? Falls du dies tust, verliert jeder Gegner 1 Lebenspunkt und du erhältst entsprechend viele Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {i}? Se lo fai, ogni avversario perde 1 punto vita e tu guadagni altrettanti punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{i}を支払いますか？そうした場合、各対戦相手はそれぞれ１点のライフを失い、あなたはその点数分のライフを得ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{i}를 지불하시겠습니까? 그렇게 하면, 각 상대는 생명 1점을 잃고 당신은 그만큼의 생명점을 얻습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {i}? Если вы это сделаете, каждый оппонент потеряет 1 жизнь, а вы получите столько же жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar {i}? Se fizer isso, cada oponente perderá 1 ponto de vida e você ganhará uma quantidade equivalente de pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付{i}吗？若你如此作，则每位对手各失去1点生命，且你获得等量的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付{i}嗎？若你如此作，則每位對手各失去1點生命，且你獲得等量的生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_AN_OPPONENT_TO_EXILE_A_CARD_VIZKOPA_CONFESSOR">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an opponent. You will pay an amount of life and the opponent will reveal that many cards, then you’ll choose one of those cards to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un adversaire. Vous paierez un nombre de points de vie et l'adversaire révélera autant de cartes, puis vous choisirez l'une de ces cartes pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un oponente. Pagas una cantidad de vidas y el oponente muestra esa misma cantidad de cartas; luego eliges una de esas cartas para exiliarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Gegner. Du wirst eine Anzahl Lebenspunkte bezahlen und dieser Gegner wird entsprechend viele Karten vorzeigen, dann bestimmst du eine dieser Karten, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un avversario. Pagherai un ammontare di punti vita e l’avversario rivelerà altrettante carte, tra le quali ne sceglierai una da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手を１人選んでください。ライフを好きな点数だけ支払うと、対戦相手はその点数に等しい枚数のカードを手札から公開しますので、その中から１枚を選んで追放しましょう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대를 고르십시오. 당신은 생명점을 지불하고, 상대는 당신이 지불한 생명점만큼 카드를 공개합니다. 그러고 나서 당신은 그중에서 추방될 카드 한 장을 선택합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите оппонента. Вы заплатите жизни, а оппонент покажет такое же количество карт, затем вы выберете одну из тех карт для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um oponente. Você pagará uma quantidade de pontos de vida e o oponente revelará uma quantidade equivalente de cards, em seguida, você escolherá um desses cards para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位对手。你将支付一定数量的生命，而对手将展示等量的牌，然后你从中选择一张牌放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位對手。你將支付一定數量的生命，而對手將展示等量的牌，然後你從中選擇一張牌放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_AMOUNT_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an amount of life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une quantité de points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una cantidad de vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme die Anzahl der Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un ammontare di punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ライフの点数を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명점의 양을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите количество жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma quantidade de pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择某数量的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇某數量的生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_REVEAL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to reveal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la révéler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para mostrar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du offen vorzeigen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da rivelare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[公開するカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공개할 카드를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, которую нужно показать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para revelar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要展示的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來展示。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para exiliar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要放逐的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

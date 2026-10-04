@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="BULL_CERODON_381873" />
+  <CARDNAME text="BULL_CERODON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bull Cerodon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cérodon mâle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cerodonte macho]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cerodon-Bulle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cornodonte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[猛（たけ）きセロドン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[황소 세로돈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бык-Рогозуб]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Touro Dentócero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[野蛮角牙兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[野蠻角牙獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381873" />
+  <ARTID value="115032" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{4}{R}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It holds motionless vigil, watching Naya in silence through the screen of the whitecover. When it senses anything amiss, it launches forward with the uncanny sound of torn fog.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il monte la garde silencieusement, observant Naya au travers de la mante blanche. Dès qu'il sent quelque chose d'anormal, il charge avec le fracas assourdissant de la brume qui se lève.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mantiene una guardia impertérrita, vigilando Naya en silencio detrás de la niebla. Cuando siente algo fuera de lugar, se lanza con el increíble rugir del aire partido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bewegungslos hält er Wacht und beobachtet im Stillen Naya durch den dichten weißen Schleier. Wenn er spürt, dass etwas im Argen liegt, stürzt er los und hinterlässt das unheimliche Geräusch zerreißenden Nebels.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Veglia immobile, sorvegliando Naya in silenzio attraverso la cortina del manto bianco. Quando percepisce che qualcosa non va, si lancia in avanti con lo straordinario suono di nebbia squarciata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[白い霞に覆われた中、身動きもせずナヤを静かに見張っている不寝番がいる。何かを感じると、それは異様な音を立てながら霧を裂き突っ込んでいく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것은 움직이지 않은 채 하얀 안개로 뒤덮인 나야를 감시한다. 뭔가가 이상하다고 여기는 순간, 그것은 안개가 찢어지는 소리와 함께 앞으로 돌진한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он неподвижно стоит наготове, безмолвно наблюдая за просторами Найи сквозь густую пелену белого тумана. Когда он чувствует что-то неладное, он срывается с места так, что слышится жуткий звук раздираемой мглы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele aguarda imóvel, observando Naya em silêncio através do manto branco. Quando percebe algo de errado, avança com o estrondo sinistro da névoa que se rompe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他文风不动地守着，透过白茫茫的雾气静静看望着纳雅。一旦感觉到有什么不对劲，便带着划破雾气的怪声向前冲去。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他文風不動地守著，透過白茫茫的霧氣靜靜看望著納雅。一旦感覺到有什麼不對勁，便帶著劃破霧氣的怪聲向前衝去。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigilancia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachsamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cautela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бдительность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vigilância]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_VIGILANCE" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[ímpeto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HASTE" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="571">
+  <FILENAME text="RUSSET_WOLVES_382026" />
+  <CARDNAME text="RUSSET_WOLVES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Russet Wolves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Loups alezans]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lobos rojizos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rotbraune Wölfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lupi Color Ruggine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[茜（あかね）の狼（おおかみ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[적갈색 늑대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рыжие Волки]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lobos Castanhos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[赤褐狼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[赤褐狼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382026" />
+  <ARTID value="139764" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The wolves of our valley are bred to detest the scent of ghouls. For centuries they have kept our estates clear of such carrion.”
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les loups de notre vallée sont dressés pour détester l'odeur des goules. Depuis des siècles, ils débarrassent nos propriétés de cette charogne. »
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los lobos de nuestro valle son criados para odiar el olor de los necrófagos. Por siglos hemos mantenido nuestras fincas libres de esa carroña”.
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Wölfe in unserem Tal sind so gezüchtet worden, dass sie den Gestank der Ghule verabscheuen. Über Jahrhunderte haben sie dadurch unser Anwesen frei von solchem Ungeziefer gehalten.“
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I lupi della nostra valle sono addestrati a detestare l’odore dei ghoul. Per secoli hanno tenuto quelle carogne lontane dai nostri territori.”
+—Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私たちの谷の狼は、生まれつきグールの臭いを嫌悪しているわ。おかげでこの何世紀というもの、私たちの領土は腐肉共の手つかずよ。」
+――オリヴィア・ヴォルダーレン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“우리 계곡의 늑대들은 악귀의 냄새를 증오하도록 길러졌지. 이 녀석들은 몇 백 년 동안 그 걸어다니는 시체들이 저택 근처에도 못 오도록 지켜왔다.”
+—올리비아 볼다렌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В нашей долине волки обладают врожденным отвращением к запаху упырей. Много веков они охраняют наши поместья от этой падали».
+— Оливия Волдарен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os lobos do nosso vale são criados para detestar o cheiro dos carniçais. Eles mantiveram nossas terras livres dessas carniças malditas durante séculos.”
+— Olivia Voldaren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们山谷的狼天生憎恶食尸鬼的气味。他们让这地界数百年来都没有腐肉出没。」
+～奥莉薇亚沃达连]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們山谷的狼天生憎惡食屍鬼的氣味。牠們讓這地界數百年來都沒有腐肉出沒。」
+～奧莉薇亞沃達連]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wolf" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="859">
+  <FILENAME text="SPIRE_TRACER_377128" />
+  <CARDNAME text="SPIRE_TRACER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spire Tracer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traceuse des tours]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trazadora de los chapiteles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dachgipfel-Verfolgerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esploratrice delle Guglie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[尖（せん）塔（とう）なぞり]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[첨탑 추적자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покорительница Шпилей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tracista de Espirais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[尖塔追踪手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[尖塔追踪手]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377128" />
+  <ARTID value="146336" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cartographers on Ravnica chart not just the horizontal, but also the vertical.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sur Ravnica, les relevés des cartographes sont en trois dimensions, pas en deux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los cartógrafos de Rávnica no trazan solo lo horizontal, sino también lo vertical.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Vermesser auf Ravnica erfassen nicht nur das Horizontale, sondern auch das Vertikale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I cartografi di Ravnica lavorano non solo sull’asse orizzontale ma anche su quello verticale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラヴニカの地図作りは、水平だけでなく垂直にも図面を引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[라브니카의 지도 제작자들은 지상의 건물뿐만 아니라 공중에 있는 건물도 지도에 넣어야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Картографы Равники в своей работе непременно учитывают и вертикальную ось.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os cartógrafos de Ravnica não mapeiam apenas na horizontal, mas também na vertical.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[拉尼卡的制图师不仅横向绘制地图，也纵向绘制。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[拉尼卡的製圖師不僅橫向繪製地圖，也縱向繪製。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Scout" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spire Tracer can’t be blocked except by creatures with flying or reach.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Traceuse des tours ne peut être bloquée que par des créatures avec le vol ou la portée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Trazadora de los chapiteles no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Dachgipfel-Verfolgerin kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Esploratrice delle Guglie non può essere bloccata tranne che da creature con volare o raggiungere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[尖塔なぞりは、飛行か到達を持つクリーチャーによってしかブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[첨탑 추적자는 비행이나 대공을 가진 생물에게만 방어될 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покорительница Шпилей может быть заблокирована только существом с Полетом или Захватом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tracista de Espirais só pode ser bloqueada por criaturas com voar ou alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只有具飞行或延势异能的生物才能阻挡尖塔追踪手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只有具飛行或延勢異能的生物才能阻擋尖塔追踪手。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_BLOCKED_EXCEPT_BY_CREATURES_WITH_FLYING_OR_REACH, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="6" max_amount="15" score_per_unit="50" resource_type="ENCHANTMENT" resource_subtype="AURA" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

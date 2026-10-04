@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="217">
+  <FILENAME text="BLOODTHRONE_VAMPIRE_378375" />
+  <CARDNAME text="BLOODTHRONE_VAMPIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodthrone Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vampire du trône de sang]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vampiro del trono sangriento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutthron-Vampir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vampira del Trono Insanguinato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血（ち）の座（ざ）の吸（きゅう）血（けつ）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피묻은 왕좌의 흡혈귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вампир Кровавого Престола]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vampiro do Sangue Real]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[血座吸血鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[血座吸血鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378375" />
+  <ARTID value="127479" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some humans willingly offered up their blood, hoping it would grant the vampire families the strength to stave off the Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quelques humains offrirent volontairement leur sang, espérant qu'il donnerait aux familles vampires la force de repousser les Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Algunos humanos ofrecieron voluntariamente su sangre, con la esperanza de dar a las familias de vampiros la fuerza para rechazar a los Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einige Menschen boten freiwillig ihr Blut an, um den Vampirfamilien die Stärke zu geben, die Eldrazi fernhalten zu können.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcuni umani offrirono spontaneamente il loro sangue, nella speranza di garantire alle famiglie di vampiri la forza necessaria ad allontanare gli Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[人間の中には望んで血を捧げ、エルドラージを払いのけるための力を吸血鬼の一族に与えようとする者もいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[일부 인간은 기꺼이 자신들의 피를 바쳤는데, 흡혈귀들이 강력해지면 엘드라지를 막아주리라는 희망에서 였다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Некоторые люди добровольно предложили свою кровь в надежде на то, что она даст вампирским семействам силу отразить Эльдрази.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns humanos ofereceram seu próprio sangue na esperança de que fornecesse às famílias de vampiros a energia necessária para repelir os Eldrazi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[有些人类自愿献上鲜血，希望这能增强吸血鬼家族的力量，好将奥札奇击退。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[有些人類自願獻上鮮血，希望這能增強吸血鬼家族的力量，好將奧札奇擊退。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice a creature: Bloodthrone Vampire gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez une créature : La Vampire du trône de sang gagne +2/+2 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar una criatura: La Vampiro del trono sangriento obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere eine Kreatur: Der Blutthron-Vampir erhält +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica una creatura: La Vampira del Trono Insanguinato prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体生け贄に捧げる：血の座の吸血鬼は、ターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 희생한다: 피묻은 왕좌의 흡혈귀는 턴종료까지 +2/+2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте существо: Вампир Кровавого Престола получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique uma criatura: Vampiro do Sangue Real recebe +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牺牲一个生物：血座吸血鬼得+2/+2直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[犧牲一個生物：血座吸血鬼得+2/+2直到回合結束。]]></LOCALISED_TEXT>
+    <COST type="Sacrifice" definition="0" compartment="1" query_tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" item_count="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </COST_DEFINITION>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

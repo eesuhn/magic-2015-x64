@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="MASS_OF_GHOULS_380152" />
+  <CARDNAME text="MASS_OF_GHOULS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mass of Ghouls]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Masse de goules]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Masa de necrófagos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ghulhorden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Folla di Ghoul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グールの大（たい）群（ぐん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[악귀 무리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полчище Упырей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Horda de Carniçais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[食尸鬼大群]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[食屍鬼大群]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380152" />
+  <ARTID value="102346" />
+  <ARTIST name="Lucio Parrillo" />
+  <CASTING_COST cost="{3}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“An army has filled the valley, but it’s not like any army I’ve ever seen. There are no tents, no fires, no horses . . . just a sea of bodies, writhing and moaning, as if a pestilent village were sent to invade us.”
+—Onean scout]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Une armée vient d'arriver dans la vallée, mais elle ne ressemble en rien à une armée normale. Je ne vois ni tentes, ni feux de camp, ni chevaux... juste une marée de corps tordus et gémissants. C'est comme si on avait envoyé tout un village de pestiférés nous envahir. »
+— Un éclaireur onéan.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Un ejército llenó el valle, pero no es como un ejército de los que haya visto antes. No hay tiendas, no hay fuegos, no hay caballos… solo un mar de cuerpos, lamentándose y arrastrándose, como si un pueblo pestilente hubiera sido enviado a invadirnos”.
+—Explorador oneano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Eine Armee ist in das Tal einmarschiert, aber so eine Armee habe ich noch nie gesehen. Sie haben keine Zelte, keine Lagerfeuer, keine Pferde – einfach nur ein Meer aus zuckenden und stöhnenden Leichen, als ob ein der Pest zum Opfer gefallenes Dorf uns erobern sollte.“
+—Oneanischer Späher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Un esercito ha riempito la vallata, ma è diverso da tutti gli eserciti che ho mai visto. Non ci sono tende, né falò, né cavalli... solo un mare di corpi, che si contorcono e gemono, come se un villaggio pestilenziale fosse stato mandato a invaderci.”
+—Esploratore Oneano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「谷いっぱいに広がる軍隊だったんですが、あんな軍隊は見たことがありません。野営も、焚き火も、馬も無くて……のたうってうめく死体の海でした。まるで疫病にやられた村が我々の侵略に送り込まれたようです。」
+――オネイアンの斥候]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["골짜기를 가득 메운 군대는 처음보는 군대였다. 천막도, 불도, 말도 없었다... 비틀거리며 신음하는 몸뚱이만이 빽빽히 들어서 있었다. 전염병 마을이 우리를 습격하는 것처럼 보였다."
+—오니아 정찰병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Армия, каких я никогда доселе не видел, вторглась в долину. Ни палаток, ни костров, ни лошадей... лишь океан тел, искаженные лица и стоны, как будто кишащее заразой племя послали заполонить нашу землю».
+— онийский разведчик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Um exército tomou o vale, mas não é como qualquer um que eu já tenha visto. Não há barracas, fogueiras ou cavalos... apenas um mar de corpos, retorcendo-se e gemendo, como se uma aldeia pestilenta tivesse sido enviada para nos invadir.”
+— Batedor de Oneah]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「山谷满满都是部队，但我没见过这种的。里面没有帐棚，没有马匹...只有一望无际的人海，个个扭动呻吟着，好象整个瘟疫村庄都给派来侵略我们一样。」
+～欧尼亚斥候]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「山谷滿滿都是部隊，但我沒見過這種的。裡面沒有帳棚，沒有馬匹...只有一望無際的人海，個個扭動呻吟著，好像整個瘟疫村莊都給派來侵略我們一樣。」
+～歐尼亞斥候]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

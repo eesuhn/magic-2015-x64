@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="216">
+  <FILENAME text="SMELTWARD_GATEKEEPERS_374535" />
+  <CARDNAME text="SMELTWARD_GATEKEEPERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Smelt-Ward Gatekeepers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardiens des portes des Fonderies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Porteros de Guarda Fundida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Torwächter des Schmelzenviertels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardacancelli della Fusione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶（よう）解（かい）区（く）の門（もん）番（ばん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[제련동 관문수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Привратники Района Плавильщиков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Porteiros do Bairro da Fundição]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[熔护区门卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[熔護區門衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374535" />
+  <ARTID value="147778" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{3}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Smelt-Ward Gatekeepers enters the battlefield, if you control two or more Gates, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Gardiens des portes des Fonderies arrivent sur le champ de bataille, si vous contrôlez au moins deux portes, acquérez le contrôle d’une créature ciblée qu’un adversaire contrôle jusqu’à la fin du tour. Dégagez cette créature. Elle acquiert la célérité jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Porteros de Guarda Fundida entren al campo de batalla, si controlas dos o más Portales, gana el control de la criatura objetivo que controla un oponente hasta el final del turno. Endereza esa criatura. Gana la habilidad de prisa hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Torwächter des Schmelzenviertels ins Spiel kommen und falls du zwei oder mehr Tore kontrollierst, übernimm bis zum Ende des Zuges die Kontrolle über eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Enttappe diese Kreatur. Sie erhält Eile bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Guardacancelli della Fusione entrano nel campo di battaglia, se controlli due o più Cancelli, prendi il controllo di una creatura bersaglio controllata da un avversario fino alla fine del turno. STAPpa quella creatura. Ha rapidità fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶解区の門番が戦場に出たとき、あなたが門を２つ以上コントロールしている場合、対戦相手１人がコントロールするクリーチャー１体を対象とし、ターン終了時までそれのコントロールを得る。そのクリーチャーをアンタップする。それはターン終了時まで速攻を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[제련동 관문수호자가 전장에 들어올 때, 당신이 관문을 두 개 이상 조종한다면, 상대가 조종하는 생물 한 개를 목표로 정한다. 당신은 턴종료까지 그 생물의 조종권을 얻는다. 그 생물은 언탭되며 턴종료까지 신속을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Привратники Района Плавильщиков выходят на поле битвы, если под вашим контролем есть двое или более Врат, получите контроль над целевым существом под контролем оппонента до конца хода. Разверните то существо. Оно получает Ускорение до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Porteiros do Bairro da Fundição entrar no campo de batalha, se você controlar dois ou mais Portões, ganhe o controle da criatura alvo que um oponente controla até o final do turno. Desvire aquela criatura. Ela ganha ímpeto até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当熔护区门卫进战场时，若你操控两个或更多门，则获得目标由对手操控的生物之操控权直到回合结束。重置该生物。它获得敏捷异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當熔護區門衛進戰場時，若你操控兩個或更多門，則獲得目標由對手操控的生物之操控權直到回合結束。重置該生物。它獲得敏捷異能直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_GATE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    local total = filter:Count()
+    if total &gt; 1 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GAIN_CONTROL" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:MidResolutionSetController(EffectController())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="2">
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:SetController(EffectController())
+    end
+    </CONTINUOUS_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+        target:Untap()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_HASTE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GAIN_CONTROL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain control of.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour en acquérir le contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para ganar su control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, über die du die Kontrolle übernehmen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura di cui prendere il controllo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コントロールを得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조종권을 얻을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, над которым нужно получить контроль.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para ganhar o controle dela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以获得其操控权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來獲得其操控權。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

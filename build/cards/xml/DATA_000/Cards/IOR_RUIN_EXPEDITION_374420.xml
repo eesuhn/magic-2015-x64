@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="401">
+  <FILENAME text="IOR_RUIN_EXPEDITION_374420" />
+  <CARDNAME text="IOR_RUIN_EXPEDITION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ior Ruin Expedition]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expédition des ruines de Ior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Expedición a las ruinas de Ior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Expedition zur Ior-Ruine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spedizione alle Rovine Ior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アイオーの廃（はい）墟（きょ）の探（たん）検（けん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이오르 폐허 탐험]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Экспедиция к Иорским Руинам]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Expedição à Ruína de Ior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[艾瓯遗迹探险]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艾甌遺跡探險]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374420" />
+  <ARTID value="123635" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{1}{U}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may put a quest counter on Ior Ruin Expedition.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur l’Expédition des ruines de Ior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Expedición a las ruinas de Ior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Expedition zur Ior-Ruine legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca sulla Spedizione alle Rovine Ior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|上陸| ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたはアイオーの廃墟の探検の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지력 — 대지가 당신의 조종하에 전장에 들어올 때마다, 당신은 이오르 폐허 탐험에 퀘스트 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете положить один жетон странствий на Экспедицию к Иорским Руинам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode colocar um marcador de busca em Expedição à Ruína de Ior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地落～每当一个地在你的操控下进战场时，你可以在艾瓯遗迹探险上放置一个探索指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地落～每當一個地在你的操控下進戰場時，你可以在艾甌遺跡探險上放置一個探索指示物。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Quest" proliferate="11" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    if EffectSource() ~= nil and EffectSource():CountCounters(MTG():GetCountersType("Quest")) &lt; 3 and TriggerObject():GetCardType():Test( CARD_TYPE_LAND )  then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("Quest"), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove three quest counters from Ior Ruin Expedition and sacrifice it: Draw two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez trois marqueurs « quête » de l’Expédition des ruines de Ior et sacrifiez-la : Piochez deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover tres contadores de búsqueda de la Expedición a las ruinas de Ior y sacrificarla: Roba dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne drei Quest-Marken von der Expedition zur Ior-Ruine und opfere sie: Ziehe zwei Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi tre segnalini ricerca dalla Spedizione alle Rovine Ior e sacrificala: Pesca due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アイオーの廃墟の探検を、その上から探索カウンターを３個取り除いて生け贄に捧げる：カードを２枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이오르 폐허에서 퀘스트 카운터 세 개를 제거하고 이오르 폐허를 희생한다: 카드 두 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите три жетона странствий с Экспедиции к Иорским Руинам и пожертвуйте ее: возьмите две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova três marcadores de busca de Expedição à Ruína de Ior e sacrifique-o: Compre dois cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从艾瓯遗迹探险上移去三个探索指示物并牺牲它：抓两张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從艾甌遺跡探險上移去三個探索指示物並犧牲它：抽兩張牌。]]></LOCALISED_TEXT>
+    <COST type="RemoveCountersSelf" amount="3" counter_type="Quest" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(2)
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <AI_COUNTER_SCORE type="Quest" score="75" max_counters="3" />
+  <HELP title="MORE_INFO_TITLE_LANDFALL" body="MORE_INFO_BODY_LANDFALL" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="385">
+  <FILENAME text="PHYREXIAN_RAGER_380253" />
+  <CARDNAME text="PHYREXIAN_RAGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phyrexian Rager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Furie phyrexiane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Iracundo pirexiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phyrexianischer Wüterich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Furia di Phyrexia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ファイレクシアの憤（ふん）怒（ぬ）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피렉시아 분노자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Фирексийское Неистовство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Raivoso Phyrexiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[非瑞克西亚狂怒兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[非瑞克西亞狂怒獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380253" />
+  <ARTID value="133190" />
+  <ARTIST name="Stephan Martiniere" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I believe many worlds will bow to Phyrexia. Mirrodin is merely the first.”
+—Sheoldred, Whispering One]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je crois que bien des mondes se prosterneront devant Phyrexia. Mirrodin n'est que le premier. »
+—Sheoldred la Susurrante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Muchos mundos se inclinarán ante Pirexia. Mirrodin tan solo es el primero”.
+—Sheoldred, la Susurradora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich glaube, dass viele Welten sich Phyrexia beugen müssen. Mirrodin ist nur die erste.“
+—Sheoldred die Flüsternde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Penso che molti mondi si inchineranno a Phyrexia. Mirrodin non è altro che il primo.”
+—Sheoldred, La Bisbigliante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「多くの世界がファイレクシアの前に屈するだろう。ミラディンも単に始めの一つに過ぎぬ。」――囁く者、シェオルドレッド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["피렉시아는 앞으로 여러 세상의 지배자가 될 것이야. 미로딘은 시작일 뿐이다."
+—속삭이는 자 시올드레드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я верю в то, что многие миры поклонятся Фирексии. Мирродин всего лишь первый из них».
+— Шеолдред, Шепчущая]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Acredito que muitos mundos se renderão à Phyrexia. Mirrodin é apenas o primeiro.”
+— Sheoldred, O Sussurrador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我相信许多世界都将臣服于非瑞克西亚。秘罗地只不过是第一个。」
+～细语者希欧蕊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我相信許多世界都將臣服於非瑞克西亞。秘羅地只不過是第一個。」
+～細語者希歐蕊]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Horror" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Furie phyrexiane arrive sur le champ de bataille, vous piochez une carte et vous perdez 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Iracundo pirexiano entre al campo de batalla, robas una carta y pierdes 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Phyrexianische Wüterich ins Spiel kommt, ziehst du eine Karte und verlierst 1 Lebenspunkt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Furia di Phyrexia entra nel campo di battaglia, pesca una carta e perdi 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ファイレクシアの憤怒鬼が戦場に出たとき、あなたはカードを１枚引き、あなたは１点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피렉시아 분노자가 전장에 들어올 때, 당신은 카드 한 장을 뽑고 생명 1점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Фирексийское Неистовство выходит на поле битвы, вы берете карту и теряете 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Raivoso Phyrexiano entra em jogo, você compra um card e perde 1 ponto de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当非瑞克西亚狂怒兽进战场时，你抓一张牌且失去1点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當非瑞克西亞狂怒獸進戰場時，你抽一張牌且失去1點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():LoseLife(1 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

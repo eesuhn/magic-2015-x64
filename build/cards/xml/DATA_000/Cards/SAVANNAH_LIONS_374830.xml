@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="SAVANNAH_LIONS_374830" />
+  <CARDNAME text="SAVANNAH_LIONS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Savannah Lions]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lions des savanes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Leones de la sabana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Savannenlöwen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Leoni della Savana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[サバンナ・ライオン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대초원 사자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Львы Саванны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Leões da Savana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[草原雄狮]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[草原雄獅]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374830" />
+  <ARTID value="49228" />
+  <ARTIST name="Carl Critchlow" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Even the brave are scared by a lion three times: first by its tracks, again by its roar, and one last time face to face.
+—Somali proverb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Par trois fois, le plus brave est effrayé par le lion : d'abord en voyant ses traces, ensuite en entendant son rugissement, et finalement en l'affrontant.
+—Proverbe somalien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Incluso los valientes se asustan con el león tres veces: primero, al ver sus huellas; luego, al oír su rugido; y finalmente, al verlo cara a cara.
+—Proverbio somalí]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Selbst die Tapfersten werden dreifach vom Löwen erschreckt: erst von seinen Spuren, dann von seinem Brüllen, und schließlich von seinem Angesicht.
+—Sprichwort aus Somalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anche il coraggioso viene spaventato tre volte dal leone: prima dalle sue tracce, poi dal suo ruggito e infine dalla vista delle sue fauci.
+—Proverbio somalo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[勇者たれども、ライオンには三度驚かされる。一度は足跡に、一度は咆哮に、一度は直面して。――ソマリの諺]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아무리 용감한 자라도 사자의 흔적을 발견했을 때, 사자가 포효할 때 그리고 사자가 코 앞에 왔을 때 겁먹게 된다.
+—소말리 속담]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Даже самый смелый пугается льва трижды: когда видит его следы, когда слышит его рык и когда сталкивается с ним нос к носу.
+— Сомалийская пословица]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até os bravos são assustados três vezes por um leão: primeiro por suas pegadas, depois por seu rugido e, por último, pela encarada.
+— Provérbio Somali]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[连勇士都会给狮子惊吓三次：先是其踪迹，接下来是其吼声，而面对面则是最后一次。
+～索马利谚语]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[連勇士都會給獅子驚嚇三次：先是其蹤跡，接下來是其吼聲，而面對面則是最後一次。
+～索馬利諺語]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

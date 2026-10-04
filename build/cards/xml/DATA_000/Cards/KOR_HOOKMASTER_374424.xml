@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="KOR_HOOKMASTER_374424" />
+  <CARDNAME text="KOR_HOOKMASTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kor Hookmaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maîtresse aux crochets kor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestra de ganchos kor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kor-Hakenkämpfer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esperta Uncinata Kor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーの鉤（かぎ）の達（たつ）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[코르 갈고리전문가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кор, Мастер Цепных Крюков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre em Arpéu Kor ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[寇族使钩大师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[寇族使鈎大師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374424" />
+  <ARTID value="123575" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“For us, a rope represents the ties that bind the kor. For you, it’s more literal.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pour nous, une corde représente ce qui lie les kor. Pour vous, c'est moins figuratif. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Para nosotros, una cuerda representa los lazos que unen a los kor. Para ti, es un poco más literal”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Für uns ist ein Seil ein Symbol für die Bindungen der Kor. Für dich ist nur die wörtliche Bedeutung wichtig.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Per noi, una corda rappresenta i vincoli che legano i kor. Per te, è più letterale.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々にとっちゃ、ロープはコーの結びつきを意味しているのさ。お前にとっちゃ、まあ文字通りだな。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리에게 밧줄은 모든 코르를 이어주는 상징이지. 하지만 네게는 말 그대로 오랏줄이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Для нас веревка — это олицетворение уз, связывающих корский народ. Для вас веревка — это просто веревка».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Para nós, uma corda representa os laços que unem os kor. Para você, o sentido é mais literal.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「对我们来说，绳索代表着将寇族联系一体的羁绊。对你来说，这更加具体。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「對我們來說，繩索代表著將寇族聯繫一體的羈絆。對你來說，這更加具體。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Kor Hookmaster enters the battlefield, tap target creature an opponent controls. That creature doesn’t untap during its controller’s next untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Maîtresse aux crochets kor arrive sur le champ de bataille, engagez une créature ciblée qu’un adversaire contrôle. Cette créature ne se dégage pas pendant la prochaine étape de dégagement de son contrôleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Maestra de ganchos kor entre al campo de batalla, gira la criatura objetivo que controla un oponente. Esa criatura no se endereza durante el próximo paso de enderezar de su controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Kor-Hakenkämpfer ins Spiel kommt, tappe eine Kreatur deiner Wahl, die ein Gegner kontrolliert. Diese Kreatur enttappt nicht während des nächsten Enttappsegments ihres Beherrschers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Esperta Uncinata Kor entra nel campo di battaglia, TAPpa una creatura bersaglio controllata da un avversario. Quella creatura non STAPpa durante il prossimo STAP del suo controllore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーの鉤の達人が戦場に出たとき、対戦相手がコントロールするクリーチャー１体を対象とし、それをタップする。そのクリーチャーは、それのコントローラーの次のアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[코르 갈고리전문가가 전장에 들어올 때, 상대가 조종하는 생물 한 개를 목표로 정한다. 그 생물은 조종자의 다음 언탭단에 언탭되지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Кор, Мастер Цепных Крюков выходит на поле битвы, поверните целевое существо под контролем оппонента. То существо не разворачивается во время следующего шага разворота контролирующего его игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Mestre em Arpéu Kor entrar no campo de batalha, vire uma criatura alvo que um oponente controla. Aquela criatura não desvira durante a próxima etapa de desvirar de seu controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当寇族使钩大师进战场时，横置目标由对手操控的生物。该生物于其操控者的下一个重置步骤中不能重置。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當寇族使鈎大師進戰場時，橫置目標由對手操控的生物。該生物於其操控者的下一個重置步驟中不能重置。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TAPHOLD" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(1-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil then
+    		target_card:TapAndHold()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TAPHOLD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to tap. It won’t untap during its controller’s next untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'engager. Elle ne se dégagera pas pendant la prochaine étape de dégagement de son contrôleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para girarla. No se enderezará durante el próximo paso de enderezar de su controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die getappt werden soll. Sie enttappt nicht während des nächsten Enttappsegments ihres Beherrschers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da TAPpare. Non STAPperà durante il prossimo STAP del suo controllore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップするクリーチャーを１体選んでください。それは、それのコントローラーの次のアンタップ・ステップにアンタップしません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭할 생물을 고르십시오. 그것은 조종자의 다음 언탭단에 언탭되지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для поворота. Оно не развернется во время следующего шага разворота контролирующего его игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para virar. Ela não desvira durante a próxima etapa de desvirar de seu controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要横置的生物。它于其操控者的下一个重置步骤中不会重置。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來橫置。它在其操控者的下一個重置步驟中不重置。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

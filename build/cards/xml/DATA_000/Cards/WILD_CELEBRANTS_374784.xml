@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="127">
+  <FILENAME text="WILD_CELEBRANTS_374784" />
+  <CARDNAME text="WILD_CELEBRANTS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wild Celebrants]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Officiants sauvages]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Celebrantes salvajes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausschweifende Zelebranten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Celebranti Esaltati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野（や）蛮（ばん）な祝（しゅく）賀（が）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무례한 손님]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дикие Гуляки]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Celebrantes Selvagens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛮荒狂徒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蠻荒狂徒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374784" />
+  <ARTID value="150835" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You can tell something’s really valuable by the sound it makes when you slam your staff into it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le meilleur indice pour savoir si une chose à vraiment de la valeur, c'est le bruit qu'elle fait quand on la fracasse. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Se sabe si algo es realmente valioso por el sonido que hace cuando se le atiza con el bastón”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ob etwas richtig wertvoll ist, erkennt man an dem Ton, den es macht, wenn man seinen Stab mit voller Wucht dagegen schlägt.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Puoi capire se qualcosa è davvero di valore dal suono che fa quando lo colpisci con il bastone.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「杖を叩きつけた時に立てる音によって、それが本当に貴重な物なのかが分かるのさ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["물건을 감정하려면 일단 지팡이로 후려쳐봐. 좋은 소리가 나면 비싼 물건이야."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«По-настоящему ценные вещи можно узнать по тому звуку, который получается, когда разбиваешь их своим посохом».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“É possível saber se algo é realmente valioso pelo som que faz com o golpe do seu cajado.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你用手杖砸过去，听它发出的声音，就知道这东西值不值钱了。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你用手杖砸過去，聽它發出的聲音，就知道這東西值不值錢了。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Satyr" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Wild Celebrants enters the battlefield, you may destroy target artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Officiants sauvages arrivent sur le champ de bataille, vous pouvez détruire un artefact ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Celebrantes salvajes entren al campo de batalla, puedes destruir el artefacto objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Ausschweifenden Zelebranten ins Spiel kommen, kannst du ein Artefakt deiner Wahl zerstören.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Celebranti Esaltati entrano nel campo di battaglia, puoi distruggere un artefatto bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野蛮な祝賀者が戦場に出たとき、アーティファクト１つを対象とする。あなたはそれを破壊してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무례한 손님이 전장에 들어올 때, 마법물체 한 개를 목표로 정한다. 당신은 그 마법물체를 파괴할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Дикие Гуляки выходят на поле битвы, вы можете уничтожить целевой артефакт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Celebrantes Selvagens entra no campo de batalha, você pode destruir o artefato alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当蛮荒狂徒进战场时，你可以消灭目标神器。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當蠻荒狂徒進戰場時，你可以消滅目標神器。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_BLUNT_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_ARTIFACT_TO_DESTROY" definition="0" compartment="0" count="1" />
+    <MAY />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Destroy(EffectSource())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARTIFACT_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an artifact to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un artefact à détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un artefacto para destruirlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Artefakt, das zerstört wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un artefatto da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するアーティファクトを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 마법물체를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите артефакт для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um artefato para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要消灭的神器。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個神器來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="2">
+  <FILENAME text="FORBIDDEN_ALCHEMY_IMS" />
+  <CARDNAME text="FORBIDDEN_ALCHEMY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Forbidden Alchemy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Alchimie interdite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alquimia prohibida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verbotene Alchemie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alchimia Proibita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[禁（きん）忌（き）の錬（れん）金（きん）術（じゅつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[금단의 연금술]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Запретная Алхимия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alquimia Proibida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[炼金禁术]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鍊金禁術]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="31" />
+  <ARTID value="138246" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{2}{U}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Regardez les quatre cartes du dessus de votre bibliothèque. Mettez l’une d’entre elles dans votre main et le reste dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mira las cuatro primeras cartas de tu biblioteca. Pon una de ellas en tu mano y el resto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schaue dir die obersten vier Karten deiner Bibliothek an. Nimm eine davon auf deine Hand und lege den Rest auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guarda le prime quattro carte del tuo grimorio. Aggiungine una alla tua mano e metti le altre nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上から４枚のカードを見る。そのうち１枚をあなたの手札に加え、残りをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드 네 장을 본다. 그 중 한 장을 당신의 손으로 가져가고 나머지는 당신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Посмотрите четыре верхние карты вашей библиотеки. Положите одну из них в вашу руку, а остальные — на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Olhe os quatro cards do topo de seu grimório. Coloque um deles na sua mão e o restante no seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[检视你牌库顶的四张牌。将其中一张置于你手上，其余则置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[檢視你牌庫頂的四張牌。將其中一張置於你手上，其餘置入你的墳墓場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local answerDC = EffectDC():Make_Targets(0)
+    local queryDC = EffectDC():Make_Chest(1)
+    local player = EffectController()
+    for i=0,(4-1) do
+    	local card = player:Library_GetNth(i)
+    	
+    	if card ~= nil then
+    		queryDC:Set_CardPtr(i, card)
+    	else
+    		break
+    	end
+    end
+    if answerDC ~= nil and queryDC ~= nil then
+    	player:ChooseItemFromDC( "CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND", queryDC, answerDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local queryDC = EffectDC():Get_Chest(1)
+    local num_cards = queryDC:Count()
+    for i=0,num_cards-1 do
+    	local card = queryDC:Get_CardPtr(i)
+    	if card ~= nil then
+    		card:PutInGraveyard()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if MTG():IsMainDuel() == false then
+    	EffectController():AddPlayScore(100000)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <UTILITY_ABILITY qualifier="Flashback" active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {6}{B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フラッシュバック{6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[회상 {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воспоминание {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[返照{6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[返照{6}{B}]]></LOCALISED_TEXT>
+    <COST mana_cost="{6}{B}" type="Mana" />
+    <EXPLAIN play_tag="HINT_ABILITY_RECURSION_WHY_PLAY" />
+  </UTILITY_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <HELP title="MORE_INFO_TITLE_FLASHBACK" body="MORE_INFO_BODY_FLASHBACK" zone="ZONE_ANY" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に加えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar em sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

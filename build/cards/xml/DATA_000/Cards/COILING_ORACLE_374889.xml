@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="COILING_ORACLE_374889" />
+  <CARDNAME text="COILING_ORACLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Coiling Oracle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oracle annelé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oráculo serpenteante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gewundenes Orakel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Oracolo Acciambellato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[とぐろ巻（ま）きの巫（み）女（こ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[몸을 감는 예언자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Извивающийся Оракул]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Oráculo Enroscado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[盘卷先知]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[盤捲先知]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374889" />
+  <ARTID value="94309" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{G}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Une nature reptilienne et un corps de pensées et de progrès : les oracles étaient à l'image de Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Restos serpentinos de la naturaleza dirigidos por un cuerpo de pensamiento y progreso, los oráculos son la viva representación de todo lo simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Orakel verkörpert alles, was für Simic typisch ist: Häutung bedeutet ewigen Fortschritt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sinuose vestigia della natura controllate da un corpo di pensieri e sviluppo; gli oracoli incarnano tutto ciò che è Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[曲がりくねる自然の面影が思考と進歩へとつながっている巫女の姿は、まさしくシミックそのものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사상과 진보에 의해 그 형태가 자연에서 변이된 이 예언자들은 시믹의 모든 것을 상징한다고 볼 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эти оракулы воплощают суть Симиков — извивающиеся останки природы, ведомые телом, полным мысли и прогресса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remanescentes anguiformes da natureza dominados por um corpo de pensamentos e progresso, os oráculos representam tudo o que é Simic.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[可思考与创造的身体引导着阴险的自然残存者；此先知正是析米克的具现。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[可思考與創造的身體引導著陰險的自然殘存者；此先知正是析米克的具現。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Snake" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Druid" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Coiling Oracle enters the battlefield, reveal the top card of your library. If it’s a land card, put it onto the battlefield. Otherwise, put that card into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Oracle annelé arrive sur le champ de bataille, révélez la première carte du dessus de votre bibliothèque. Si c’est une carte de terrain, mettez-la sur le champ de bataille. Sinon, mettez cette carte dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Oráculo serpenteante entre al campo de batalla, muestra la primera carta de tu biblioteca. Si es una carta de tierra, ponla en el campo de batalla. De lo contrario, pon esa carta en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Gewundene Orakel ins Spiel kommt, zeige die oberste Karte deiner Bibliothek offen vor. Falls es eine Länderkarte ist, bringe sie ins Spiel. Nimm die Karte andernfalls auf deine Hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Oracolo Acciambellato entra nel campo di battaglia, rivela la prima carta del tuo grimorio. Se è una carta terra, mettila sul campo di battaglia. Altrimenti, aggiungi quella carta alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[とぐろ巻きの巫女が戦場に出たとき、あなたのライブラリーの一番上のカードを公開する。それが土地カードであるなら、それを戦場に出す。そうでないなら、そのカードをあなたの手札に加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[몸을 감는 예언자가 전장에 들어올 때, 당신의 서고 맨 위의 카드를 공개한다. 그 카드가 대지 카드라면 전장에 놓는다. 그렇지 않다면 그 카드를 당신의 손으로 가져간다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Извивающийся Оракул выходит на поле битвы, покажите верхнюю карту вашей библиотеки. Если это карта земли, положите ее на поле битвы. В противном случае положите ту карту в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Oráculo Enroscado entrar no campo de batalha, revele o card do topo de seu grimório.  Se for um card de terreno, coloque-o no campo de batalha. Do contrário, coloque-o em sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当盘卷先知进战场时，展示你的牌库顶牌。若它是地牌，则将之放进战场。若否，则将该牌置于你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當盤捲先知進戰場時，展示你的牌庫頂牌。如果該牌是地牌，則將之放進戰場。若否，則將該牌置於你手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectController():Library_GetTop()
+    if card ~= nil then
+    	if card:GetCardType():Test( CARD_TYPE_LAND ) == true then
+    		card:PutOntoBattlefield( EffectController() )
+    	else 
+    		EffectDC():Make_Chest(0):Set_CardPtr(0, card)
+    		local numPlayers = MTG():GetNumberOfPlayers()
+    		for i = 0, (numPlayers-1) do
+    			local player = MTG():GetNthPlayer(i)
+    			if player ~= nil and player ~= EffectController() then
+    				player:RevealDCToMe(EffectDC():Get_Chest(0))
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Chest(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

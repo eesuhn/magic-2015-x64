@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="293">
+  <FILENAME text="WILD_NACATL_381926" />
+  <CARDNAME text="WILD_NACATL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wild Nacatl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nacatl sauvage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nacatl salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wilder Nacatl]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nacatl Selvatica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野（や）生（せい）のナカティル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야생 나카틀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Накатльская Дикарка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nacatl Selvagem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[野群拿卡地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[野群拿卡地]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381926" />
+  <ARTID value="115062" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The Cloud Nacatl sit and think, a bunch of soft paws. We are the Claws of Marisi, stalking, pouncing, drawing blood.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le nacatl des nuages s'assoit et pense, quelle patte-molle ! Nous sommes les Griffes de Marisi, chassantes, bondissantes et saignantes. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los Nacatl de las nubes se sientan y piensan… Unos suaves. Nosotros somos las Garras de Marisi, acechamos, cazamos y desangramos”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Wolken-Nacatl sitzen nur herum, denken nach und wärmen ihre Pfoten. Doch wir sind Marisis Klauen, wir schleichen, wir springen und wir fordern Blut.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il Nugolo Nacatl siede e pensa, un branco di mollaccioni. Noi siamo gli Artigli di Marisi, cacciamo furtivamente, piombiamo sulla preda e spargiamo sangue.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「雲のナカティルは腰掛け物思い、柔らかな手の数多あり。我らマリーシの爪。忍び、飛びつき、血を流させる者。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["구름 나카틀은 앉아서 생각하기를 좋아하지. 하지만 우리는 마리시의 발톱이다. 먹이를 뒤쫓고 낚아채 피를 뿌리는 게 우리 임무다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Накатльцы Облачного прайда сидят и размышляют, сложа изнеженные лапы. Мы же, Когти Маризи, преследуем, набрасываемся, проливаем кровь».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O Nacatl das Nuvens senta e pensa, um monte de patas peludas. Nós somos as Garras de Marisi, rastejando, saltando, arrancando sangue.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「云岭拿卡地只会坐着空想，全是群软爪子。我们是马力希之爪，随时潜行、扑击，见血才会高兴。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「雲嶺拿卡地只會坐著空想，全是群軟爪子。我們是馬力希之爪，隨時潛行、撲擊，見血才會高興。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wild Nacatl gets +1/+1 as long as you control a Mountain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Nacatl sauvage gagne +1/+1 tant que vous contrôlez une montagne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Nacatl salvaje obtiene +1/+1 mientras controles una montaña.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Wilde Nacatl erhält +1/+1, solange du ein Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Nacatl Selvatica prende +1/+1 fintanto che controlli una Montagna.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野生のナカティルは、あなたが山をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 산을 조종하는 한, 야생 나카틀은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Накатльская Дикарка получает +1/+1, пока вы контролируете Гору.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nacatl Selvagem recebe +1/+1 enquanto você controlar uma Montanha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要你操控山脉，野群拿卡地便得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要你操控山脈，野群拿卡地便得+1/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	local filter = ClearFilter()
+    	
+    	filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_MOUNTAIN )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	
+    	if filter:CountStopAt(1) == 1 then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wild Nacatl gets +1/+1 as long as you control a Plains.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Nacatl sauvage gagne +1/+1 tant que vous contrôlez une plaine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Nacatl salvaje obtiene +1/+1 mientras controles una llanura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Wilde Nacatl erhält +1/+1, solange du eine Ebene kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Nacatl Selvatica prende +1/+1 fintanto che controlli una Pianura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野生のナカティルは、あなたが平地をコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 들을 조종하는 한, 야생 나카틀은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Накатльская Дикарка получает +1/+1, пока вы контролируете Равнину.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nacatl Selvagem recebe +1/+1 enquanto você controlar uma Planície.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要你操控平原，野群拿卡地便得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要你操控平原，野群拿卡地便得+1/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	local filter = ClearFilter()
+    	
+    	filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_PLAINS )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	
+    	if filter:CountStopAt(1) == 1 then
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL>
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="MOUNTAIN" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="PLAINS" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

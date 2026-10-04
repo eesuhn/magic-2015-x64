@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="208">
+  <FILENAME text="RUTHLESS_CULLBLADE_382197" />
+  <CARDNAME text="RUTHLESS_CULLBLADE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ruthless Cullblade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Impitoyable lustrelame]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espadachina despiadada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rücksichtslose Keulerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lama Crudele Sanguinaria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無（む）情（じょう）な選（せん）刃（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[냉혹한 검사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безжалостная Вырезательница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espadachim do Descarte Implacável]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[绝情汰锋兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[絕情汰鋒兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382197" />
+  <ARTID value="126524" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[She wields a blade as bloodthirsty and elegant as herself.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elle brandit une lame aussi élégante et avide de sang qu'elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Porta una espada elegante y sedienta de sangre como ella misma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ihre Waffe ist so elegant und blutgierig wie sie selbst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una lama sanguinaria ed elegante quanto colei che la brandisce.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女の帯びる刃は、彼女自身と同じぐらい血に飢え、同じぐらい優美だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그녀는 자신만큼이나 잔인하고 우아한 동작으로 칼을 휘두른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ее меч такой же кровожадный и утонченный, как и она сама.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela empunha uma espada tão sedenta de sangue e elegante como ela mesma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[她手上长剑噬血又优雅，一如她自己。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[她手上長劍噬血又優雅，一如她自己。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ruthless Cullblade gets +2/+1 as long as an opponent has 10 or less life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Impitoyable lustrelame gagne +2/+1 tant qu’un adversaire a 10 points de vie ou moins.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Espadachina despiadada obtiene +2/+1 mientras un oponente tenga 10 o menos vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Rücksichtslose Keulerin erhält +2/+1, solange mindestens ein Gegner 10 Lebenspunkte oder weniger hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Lama Crudele Sanguinaria prende +2/+1 fintanto che un avversario ha 10 o meno punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無情な選刃は、対戦相手のライフが10点以下であるかぎり＋２/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어느 상대의 생명이 10점 이하인 한, 냉혹한 검사는 +2/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безжалостная Вырезательница получает +2/+1, пока у оппонента не более 10 жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espadachim do Descarte Implacável recebe +2/+1 enquanto um oponente tiver 10 ou menos pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要任一对手的总生命为10或更少，绝情汰锋兵便得+2/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要任一對手的總生命為10或更少，絕情汰鋒兵便得+2/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local has10orLessLife = 0
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil and player:GetTeam() ~= EffectController():GetTeam() then
+    			if player:GetLifeTotal() &lt;= 10 then
+    				has10orLessLife = 1
+    				break
+    			end
+    		end
+    	end
+    	
+    	if has10orLessLife == 1 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Power_Add( 2 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end 
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

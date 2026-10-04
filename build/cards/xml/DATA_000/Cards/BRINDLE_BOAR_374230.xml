@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="BRINDLE_BOAR_374230" />
+  <CARDNAME text="BRINDLE_BOAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Brindle Boar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanglier moucheté]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jabalí moteado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gescheckter Keiler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cinghiale Pezzato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[斑（まだら）の猪（いのしし）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[얼룩멧돼지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пятнистый Вепрь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali Malhado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[斑野猪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[斑野豬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374230" />
+  <ARTID value="129128" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Tell the cooks to prepare the fires. Tonight we feast!”
+—Tolar Wolfbrother, Krosan tracker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Dites aux cuisiniers de préparer les feux. Ce soir, nous festoierons ! »
+—Tolar Frèreduloup, pisteur krosian.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que los cocineros preparen los fuegos. ¡Hoy nos damos un festín!”.
+—Tolar de los Lobos, rastreador krosano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sagt den Köchen, sie sollen die Feuer anfachen. Heute Abend schlemmen wir.“
+—Tolar Wolfsbruder, Krosanischer Spurensucher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dite ai cuochi di preparare i falò. Stanotte si banchetta!”
+—Tolar Fratellolupo, battipista di Krosa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「料理番に火をつけとけって伝えな。今夜はご馳走だぞ！」――クローサの足跡追い、狼兄弟のトラール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["요리사들에게 불을 지피라고 일러라. 오늘은 밥상이 풍성할 거야!"
+—크로사의 추적꾼 톨라르 울프브라더]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Скажите поварам, чтобы развели костры. Вечером будет пир!»
+— Толар Волчий Брат, кросанский охотник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Diga aos cozinheiros para prepararem as fogueiras. Teremos um banquete esta noite!”
+— Tolar Lupusfrater, rastreador Krosano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「叫伙夫准备生火。今晚我们有大餐！」
+～克洛萨追猎人狼伴托勒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「叫伙伕準備生火。今晚我們有大餐！」
+～克洛薩追獵人狼伴托勒]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Boar" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sacrifice Brindle Boar: You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sacrifiez le Sanglier moucheté : vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sacrificar el Jabalí moteado: Ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opfere den Gescheckten Keiler: Du erhältst 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sacrifica il Cinghiale Pezzato: Guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[斑の猪を生け贄に捧げる：あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[얼룩멧돼지를 희생한다: 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожертвуйте Пятнистого Вепря: вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrifique Javali Malhado: Você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牺牲斑野猪：你获得4点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[犧牲斑野豬：你獲得4點生命。]]></LOCALISED_TEXT>
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(4 )
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <EXPLAIN play_tag="HINT_ABILITY_LIFEGAIN_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

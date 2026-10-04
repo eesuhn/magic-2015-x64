@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="WAKEDANCER_382394" />
+  <CARDNAME text="WAKEDANCER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wakedancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Danseuse de veillée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Danzadora del velatorio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachtänzerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Danzatrice della Veglia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[覚（かく）醒（せい）舞（ま）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[흔적의 무희]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Танцовщица Бдения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dançarina da Vigília]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[醒夜舞者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[醒夜舞者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382394" />
+  <ARTID value="139872" />
+  <ARTIST name="Austin Hsu" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hers is an ancient form of necromancy, steeped in shamanic trance and ritual that few skaberen or ghoulcallers comprehend.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elle utilise une ancienne forme de nécromancie née d'une transe shamanique et de rituels que peu de skaberens ou de meneurs de goule comprennent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La suya es una antigua forma de nigromancia, impregnada de un trance chamánico que pocos skaberen o llamamuertos entienden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ihre Nekromagie ist uralt und besteht aus schamanischer Trance und Ritualen, die nur wenige Skaabmacher und Ghulrufer verstehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La sua è un’antica forma di necromanzia, immersa in trance e rituali sciamanici che ben pochi skaberen o evocaghoul comprendono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは古えの屍術の形式で、わずかなスカーブ師やグール呼びのみしか為しえない入神の巫術と儀式に踏み込んでいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그녀의 사령술은 주술적인 최면과 의식을 기반으로 한 고대의 것으로, 봉합술사나 악귀소환술사 중에 그것을 제대로 이해하는 자는 거의 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Она практикует древнюю форму некромантии, впадая в шаманский транс и исполняя ритуал, мало понятный сшивателям скаабов и призывателям упырей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A sua necromancia é muito antiga, impregnada de transes e rituais xamanísticos que apenas poucos skaberen ou invocadores de carniçais podem compreender.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[她运用死灵术的古老形式，其间的祭师出神与仪式超出多数尸嵌家或尸鬼牧者的理解能力。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[她運用死靈術的古老形式，其間的祭師出神與儀式超出多數屍嵌家或屍鬼牧者的理解能力。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Morbid| — When Wakedancer enters the battlefield, if a creature died this turn, put a 2/2 black Zombie creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Morbidité| — Quand la Danseuse de veillée arrive sur le champ de bataille, si une créature est morte ce tour-ci, mettez sur le champ de bataille un jeton de créature 2/2 noire Zombie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Necrario| — Cuando la Danzadora del velatorio entre al campo de batalla, si una criatura murió este turno, pon en el campo de batalla una ficha de criatura Zombie negra 2/2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Morbide| — Wenn die Wachtänzerin ins Spiel kommt und falls in diesem Zug eine Kreatur gestorben ist, bringe einen 2/2 schwarzen Zombie-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Morboso| — Quando la Danzatrice della Veglia entra nel campo di battaglia, se è morta una creatura in questo turno, metti sul campo di battaglia una pedina creatura Zombie 2/2 nera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|陰鬱| ― 覚醒舞いが戦場に出たとき、このターンにクリーチャーが死亡していた場合、黒の２/２のゾンビ・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사망 — 흔적의 무희가 전장에 들어올 때, 이 턴에 생물이 죽었다면, 2/2 흑색 좀비 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Болезненность| — Когда Танцовщица Бдения выходит на поле битвы, если в этом ходу умерло существо, положите на поле битвы одну фишку существа 2/2 черный Зомби.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Mórbido| — Quando Dançarina da Vigília entrar no campo de batalha, se uma criatura tiver morrido neste turno, coloque no campo de batalha uma ficha de criatura preta 2/2 do tipo Zumbi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[丧心～当醒夜舞者进战场时，若本回合有生物死去，将一个2/2黑色灵俑衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[喪心～當醒夜舞者進戰場時，若本回合有生物死去，將一個2/2黑色殭屍衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetType( CARD_TYPE_CREATURE )
+    interrogation:SetFromZone( ZONE_BATTLEFIELD )
+    interrogation:SetToZone( ZONE_GRAVEYARD )
+    if interrogation:Test( INTERROGATE_CARDS_MOVED_ZONE, INTERROGATE_THIS_TURN ) then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_ZOMBIE_2_2_B_350768", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ZOMBIE_2_2_B_350768" />
+  <HELP title="MORE_INFO_TITLE_MORBID" body="MORE_INFO_BODY_MORBID" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

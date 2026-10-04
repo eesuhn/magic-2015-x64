@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="2">
+  <FILENAME text="TOKEN_WOLF_2_2_G_377575" />
+  <CARDNAME text="WOLF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[WOLF]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[LE LOUP]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[LOBO]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[WOLF]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[LUPO]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늑대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[ВОЛК]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[LOBO]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[狼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[狼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377575" />
+  <ARTID value="123776" />
+  <COLOUR value="G" />
+  <ARTIST name="Daren Bader" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wolf" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="T" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TOKEN />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="" removal_tag="" is_removal="false" />
+</CARD_V2>

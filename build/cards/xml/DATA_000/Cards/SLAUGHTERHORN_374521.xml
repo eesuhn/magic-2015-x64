@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="SLAUGHTERHORN_374521" />
+  <CARDNAME text="SLAUGHTERHORN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slaughterhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Massacorne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuernomasacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Metzelhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corno del Massacro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[殺（さつ）戮（りく）角（づの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도륙뿔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рогобой]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chifres do Massacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[屠角兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[屠角獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374521" />
+  <ARTID value="146526" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Orzhov clergy would never cross its path, but sending thrull couriers to do so is cheap and entertaining.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le clergé d'Orzhov ne croiserait jamais sa route ; mais envoyer des courriers srânes le faire est à la fois peu onéreux et distrayant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El clero orzhov jamás se cruzaría en su camino, pero enviar mensajeros thrull para hacerlo es barato y entretenido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Orzhov-Priester würden seinen Pfad selbst niemals kreuzen, aber Thrull-Kuriere mit diesem Auftrag auszusenden ist für sie ein billiger Spaß.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il clero Orzhov non oserebbe bloccargli la strada, ma impiegare corrieri thrull allo scopo è economico e divertente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オルゾフ組の聖職者は決してそれの前を横切ろうとしない。だがスラルの急使にそうさせれば、金もかからず娯楽にもなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오르조브 사제들은 도륙뿔이 지나가는 길을 무조건 피하지만, 심심할 때면 값싼 스럴 전령을 그 길 위에 놓기도 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Священнослужители Орзовов сами с ним не связываются. Они посылают труллов — это недорого, да и зрелище выходит презабавное.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O clero dos Orzhov jamais cruzaria seu caminho, mas enviar mensageiros thrull para fazê-lo é barato e proporciona entretenimento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[欧佐夫僧侣永远不会穿越它的土地，但派遣索尔兽讯使做这件事却费用低廉且富娱乐性。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歐佐夫僧侶永遠不會穿越它的土地，但派遣索爾獸訊使做這件事卻費用低廉且富娛樂性。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Bloodrush| — {G}, Discard Slaughterhorn: Target attacking creature gets +3/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Coup de sang| — {G}, défaussez-vous du Massacorne : La créature attaquante ciblée gagne +3/+2 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Empujón| — {G}, descartar el Cuernomasacre: La criatura atacante objetivo obtiene +3/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Blutrausch| — {G}, wirf das Metzelhorn ab: Eine angreifende Kreatur deiner Wahl erhält +3/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Impeto sanguinario| — {G}, Scarta il Corno del Massacro: Una creatura attaccante bersaglio prende +3/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|湧血| ― {G}, 殺戮角を捨てる：攻撃クリーチャー１体を対象とする。それはターン終了時まで＋３/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[혈기 — {G}, 도륙뿔을 버린다: 공격생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +3/+2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Прилив крови| — {G}, сбросьте Рогобоя: целевое атакующее существо получает +3/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Impulso sanguinário| — {G}, Descarte Chifres do Massacre: A criatura atacante alvo recebe +3/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[血激～{G}，弃掉屠角兽：目标进行攻击的生物得+3/+2直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[血激～{G}，棄掉屠角獸：目標進行攻擊的生物得+3/+2直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{G}" type="Mana" />
+    <COST type="DiscardSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_3_2" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_IS_ATTACKING, true )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 3 )
+    	characteristics:Toughness_Add( 2 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_BLOODRUSH" body="MORE_INFO_BODY_BLOODRUSH" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_3_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +3/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +3/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +3/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +3/+2 erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +3/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[+3/+2の修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+3/+2를 받을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +3/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +3/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要得+3/+2的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要得+3/+2的生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

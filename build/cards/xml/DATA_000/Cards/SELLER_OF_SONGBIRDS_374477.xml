@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="SELLER_OF_SONGBIRDS_374477" />
+  <CARDNAME text="SELLER_OF_SONGBIRDS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seller of Songbirds]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marchande de passereaux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vendedora de aves cantoras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Singvogelhändlerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Venditrice di Uccellini Canori]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歌（うた）鳥（どり）の売（う）り手（て）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[명금 상인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Торговка Певчими Птицами]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vendedora de Pássaro Canoro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[鸣鸟商贩]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鳴鳥商販]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374477" />
+  <ARTID value="145113" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Lady Wren is the one merchant in Keyhole Downs who isn’t running a scam.”
+—Mirela, Azorius hussar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Dame Roitelet est la seule marchande des Collines de la Serrure qui n'arnaque pas trop son monde. »
+—Mirela, hussarde d'Azorius]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La dama Wren es la única comerciante de Bajos de Cerradura que no tima a sus clientes”.
+—Mirela, húsar azoria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Zaunkönigin ist die einzige Händlerin in der Schlüssellochtiefe, die niemanden betrügt.“
+—Mirela, Azorius-Husarin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Lady Scricciolo è l’unico mercante onesto delle Serrature Sotterranee.”
+—Mirela, ussara Azorius]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「鍵穴市場でインチキ商売をしていないのはレディ・レンただ１人よ。」
+――アゾリウスの騎兵、ミレーラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["키홀 다운스 시장에서 정직한 상인은 굴뚝새 여사뿐이지."
+—아조리우스 경기병 미렐라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Леди Рен — единственная торговка Скважинного Спуска, которая не пытается обманывать».
+— Мирела, гусар Азориусов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["A Senhora Rouxinol é a única comerciante na Baixa do Buraco da Fechadura cujo negócio não é uma fraude."
+— Mirela, hussarda azorius]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「伦夫人是锁眼市集里唯一不使诈的商贩。」
+～俄佐立轻骑兵米瑞拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「倫夫人是鎖眼市集裡唯一不使詐的商販。」
+～俄佐立輕騎兵米瑞拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Seller of Songbirds enters the battlefield, put a 1/1 white Bird creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Marchande de passereaux arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 1/1 blanche Oiseau avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Vendedora de aves cantoras entre al campo de batalla, pon en el campo de batalla una ficha de criatura Ave blanca 1/1 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Singvogelhändlerin ins Spiel kommt, bringe einen 1/1 weißen Vogel-Kreaturenspielstein mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Venditrice di Uccellini Canori entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Uccello 1/1 bianca con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歌鳥の売り手が戦場に出たとき、飛行を持つ白の１/１の鳥・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[명금 상인이 전장에 들어올 때, 비행을 가진 1/1 백색 조류 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Торговка Певчими Птицами выходит на поле битвы, положите на поле битвы одну фишку существа 1/1 белая Птица с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Vendedora de Pássaro Canoro entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Ave com voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当鸣鸟商贩进战场时，将一个1/1白色，具飞行异能的鸟衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當鳴鳥商販進戰場時，將一個1/1白色，具飛行異能的鳥衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_BIRD_1_1_W_F_377543", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BIRD_1_1_W_F_377543" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

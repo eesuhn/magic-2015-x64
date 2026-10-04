@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="115">
+  <FILENAME text="CIVIC_WAYFINDER_380150" />
+  <CARDNAME text="CIVIC_WAYFINDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Civic Wayfinder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guidevoie municipal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Buscacaminos cívico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stadtpfadfinder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Battipista Urbano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[護（ご）民（みん）官（かん）の道（みち）探（さが）し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도시 안내인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Городской Проводник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guia Urbano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[城市引路人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[城市引路人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380150" />
+  <ARTID value="88610" />
+  <ARTIST name="Cyril Van Der Haegen" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“These alleys are not safe. Come, I can guide you back to the market square.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ces ruelles ne sont pas sûres. Venez, je vais vous accompagner jusqu'à la place du marché. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Estos callejones no son seguros. Vengan, yo puedo guiarlos de regreso al mercado”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese Alleen sind nicht sicher. Komm, ich kann dich zurück zum Markt bringen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Questi vicoli non sono sicuri. Vieni, posso riportarti alla piazza del mercato.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ここの道は安全とは言えないな。こっちだ。市場まで戻ろう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이쪽 골목은 위험합니다. 저를 따라 오십시오. 시장 광장으로 모셔다 드리겠습니다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Эти аллеи небезопасны. Пойдемте, я могу проводить вас обратно до рыночной площади».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Essas vielas não são seguras. Venha, vou levá-lo de volta à praça do comércio.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这巷子不太安全。跟我来，我可以领你走回市集广场。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這巷子不太安全。跟我來，我可以領你走回市集廣場。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Warrior" />
+  <SUB_TYPE metaname="Druid" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Civic Wayfinder enters the battlefield, you may search your library for a basic land card, reveal it, and put it into your hand. If you do, shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Guidevoie municipal arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte de terrain de base, la révéler et la mettre dans votre main. Si vous faites ainsi, mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Buscacaminos cívico entre al campo de batalla, puedes buscar en tu biblioteca una carta de tierra básica, mostrarla y ponerla en tu mano. Si lo haces, baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Stadtpfadfinder ins Spiel kommt, kannst du deine Bibliothek nach einer Standardland-Karte durchsuchen, sie offen vorzeigen und auf deine Hand nehmen. Falls du dies tust, mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Battipista Urbano entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta terra base, rivelarla e aggiungerla alla tua mano. Se lo fai, rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[護民官の道探しが戦場に出たとき、あなたは自分のライブラリーから基本土地カードを１枚探してもよい。そうしたなら、それを公開してあなたの手札に加える。そうしたなら、あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도시 안내인이 전장에 들어올 때, 당신은 당신의 서고에서 기본 대지 카드 한 장을 찾아 공개한 후 당신의 손으로 가져갈 수 있다. 그렇게 할 경우, 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Городской Проводник выходит на поле битвы, вы можете найти в вашей библиотеке карту базовой земли, показать ее и положить в вашу руку. Если вы это делаете, перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Guia Urbano entra no campo de batalha, você pode procurar um card de terreno básico em seu grimório, revelá-lo e colocá-lo em sua mão. Se fizer isso, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当城市引路人进战场时，你可以从你的牌库中搜寻一张基本地牌，展示该牌，并将它置于你手上。若你如此作，则将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當城市引路人進戰場時，你可以在牌庫中搜尋一張基本地牌、展示該牌，並置於手上。若你如此作，則將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount( 1 )
+    for i = 0, (1-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_CHOOSE_BASIC_LAND_PUT_INTO_HAND" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:GuidedReveal( target:GetZone(), ZONE_HAND )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_BASIC_LAND_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a basic land to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain de base pour le mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra básica para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Standardland, das du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra base da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの手札に加える基本土地を１つ選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 기본 대지 한 개를 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите базовую землю, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno básico para colocar na sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个基本地置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個基本地置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

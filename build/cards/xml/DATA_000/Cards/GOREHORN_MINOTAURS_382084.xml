@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="GOREHORN_MINOTAURS_382084" />
+  <CARDNAME text="GOREHORN_MINOTAURS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gorehorn Minotaurs]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Minotaures corneboyaux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Minotauros Cuernos Sangrientos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bluthorn-Minotauren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Minotauri da Incornata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[血（ち）まみれ角（づの）のミノタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[응혈각 미노타우로스들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кроваворогие Минотавры]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Minotauros dos Chifres Escorneadores]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[血角牛头怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[血角牛頭怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382084" />
+  <ARTID value="127464" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some of the eleven minotaur clans of Mirtiin are expert crafters and learned philosophers. Others just like to hit stuff.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Parmi les onze clans minotaures de Mirtiin, on compte des experts en artisanat et des philosophes accomplis. D'autres aiment tout simplement taper.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Algunos de los once clanes de minotauros de Mirtiin son artesanos expertos y filósofos eruditos. A otros les justa simplemente golpear cosas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einige der elf Minotauren-Clans von Mirtiin sind herausragende Handwerker oder gelehrte Philosophen. Andere hauen am liebsten einfach nur drauf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcuni degli undici clan minotauri di Mirtiin sono artigiani esperti e filosofi istruiti. Altri semplicemente amano colpire tutto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ミルティーンのミノタウルスの十一の氏族の中には、手工芸の達人もいれば、博学の哲学者もいる。残りは全部殴り担当だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미르틴에 있는 열한 개의 미노타우로스 부족 중 일부에는 뛰어난 공예가와 지혜로운 철학자가 있다. 그러나 그들을 제외하면 다 싸움꾼이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Некоторые из одиннадцати кланов минотавров Миртиина — искусные умельцы и ученые философы. Остальные же просто любят драться.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alguns dos onze clãs de minotauros de Mirtiin são artesãos experientes e filósofos sábios. Outros gostam apenas de golpear coisas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[米尔丁十一个牛头怪部族之中，有些是专门的工匠与知识丰富的学者。其他的只爱打东西。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[米爾丁十一個牛頭怪部族之中，有些是專門的工匠與知識豐富的學者。其他的只愛打東西。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bloodthirst 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Soif de sang 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sed de sangre 2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blutdurst 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sete di sangue 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狂喜２]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피굶주림 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кровожадность 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sede de sangue 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[嗜血2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[嗜血2]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local num_starting_players = MTG():GetNumberOfStartingPlayers()
+    for i=0,(num_starting_players-1) do
+       	local player = MTG():GetNthStartingPlayer(i)
+    	
+      	if (player ~= nil and player:GetTeam() ~= EffectController():GetTeam()) then
+    		local interrogation = MTG():ClearInterrogationQuery()
+    		interrogation:SetSecondaryPlayer(player)
+    			
+    		if interrogation:Test( INTERROGATE_DAMAGE_DEALT, INTERROGATE_THIS_TURN ) then
+    			--bloodthirst!
+    			EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 2 ) 
+    			return
+    		end
+       	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_BLOODTHIRST" body="MORE_INFO_BODY_BLOODTHIRST" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

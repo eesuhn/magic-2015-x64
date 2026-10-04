@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="SEAT_OF_THE_SYNOD_382140" />
+  <CARDNAME text="SEAT_OF_THE_SYNOD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seat of the Synod]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Siège du Synode]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sede del sínodo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sitz der Synode]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sede del Sinodo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[教（きょう）議（ぎ）会（かい）の座（ざ）席（せき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시노드의 왕좌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Престол Синода]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assento do Sínodo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[悉诺议会宅邸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[悉諾議會宅邸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382140" />
+  <ARTID value="51007" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lumengrid, site of the Knowledge Pool, source of vedalken arcana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lumengrid, site du Sauvoir de Connaissance, source arcane des vedalkens.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lúmengrid, sede del Pozo del conocimiento, fuente del saber vedalken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lumengrid, Sitz des Wissensvorrats, Quelle der vedalkischen Geheimnisse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lumengrid, sito della Pozza della Conoscenza, la fonte dell’arcana sapienza dei vedalken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーメングリッド、ヴィダルケンの秘儀の源である、知恵の池のある場所。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[루멘그리드는 지식의 연못이 있는 곳이며 베달켄 비술의 원천이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Здесь, в Луменгриде, находится Озеро Знаний, источник мудрости ведалкенов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lumengrid, local da Reserva do Conhecimento, fonte da sabedoria misteriosa dos vedalkeanos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[博识都，知识之池静凝之地，维多肯秘密的泉源。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[博識都，知識之池靜凝之地，維多肯秘密的泉源。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {U} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {U} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {U} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {U} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{U}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 당신의 마나풀에 {U}를 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {U} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {U} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{U}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{U}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{U}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

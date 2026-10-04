@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="BROODMATE_DRAGON_381872" />
+  <CARDNAME text="BROODMATE_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Broodmate Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon frère de couvée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón de la camada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zwillingsbrut-Drache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago della Nidiata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[若（わか）き群（む）れのドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[한쌍의 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Собрат Дракона]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Irmão da Ninhada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[幼伴巨龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[幼伴巨龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381872" />
+  <ARTID value="116186" />
+  <ARTIST name="Vance Kovacs" />
+  <CASTING_COST cost="{3}{B}{R}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Frozen in fear, the goblins stared upward at the circling hunter—and were promptly eaten by its diving mate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tétanisés par la peur, les gobelins fixèrent le chasseur décrivant des cercles dans le ciel au-dessus d'eux — et ils furent immédiatement happés par son compagnon plongeant sur eux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Congelados de miedo, los trasgos alzaron la vista hacia el cazador circundante, y fueron devorados por su pareja en picado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vor Ehrfurcht erstarrt blickten die Goblins auf den kreisenden Jäger über sich und wurden prompt vom seinem von hinten heranstürzenden Gefährten gefressen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immobilizzati dalla paura, i goblin guardarono il cacciatore volteggiare sopra di loro... e furono prontamente mangiati dal fratello in picchiata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐怖に凍りついたゴブリンは、空で輪を描く狩人を見上げた――そして、突っ込んできたその仲間にあっという間に食われた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린들은 두려움에 질려 굳은 채로 하늘에서 원을 그리는 용을 쳐다봤고, 그 사이 그 용의 짝이 강하하여 그들을 잡아먹었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Застыв от ужаса, гоблины смотрели вверх, на кружащего над ними охотника — и были тут же сожраны его спикировавшим напарником.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Congelados de medo, os goblins olharam para o caçador que descia em espirais na sua direção — e então foram rapidamente devorados pelo seu colega num vôo rasante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[鬼怪抬头望着头顶盘旋的猎者，身体因恐惧而僵直～然后就给他俯冲而下的伙伴吃掉。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鬼怪抬頭望著頭頂盤旋的獵者，身體因恐懼而僵直～然後就給他俯衝而下的伙伴吃掉。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Broodmate Dragon enters the battlefield, put a 4/4 red Dragon creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Dragon frère de couvée arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 4/4 rouge Dragon avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Dragón de la camada entre al campo de batalla, pon en el campo de batalla una ficha de criatura Dragón roja 4/4 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Zwillingsbrut-Drache ins Spiel kommt, bringe einen 4/4 roten Drache-Kreaturenspielstein mit Flugfähigkeit ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Drago della Nidiata entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Drago 4/4 rossa con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[若き群れのドラゴンが戦場に出たとき、飛行を持つ赤の４/４のドラゴン・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[한쌍의 용이 전장에 들어올 때, 비행을 가진 4/4 적색 용 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Собрат Дракона выходит на поле битвы, положите на поле битвы одну фишку существа 4/4 красный Дракон с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Dragão Irmão da Ninhada entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura vermelha 4/4 do tipo Dragão com voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当幼伴巨龙进战场时，将一个4/4红色，具有飞行异能的龙衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當幼伴巨龍進戰場時，將一個4/4紅色，具飛行異能的龍衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_DRAGON_4_4_R_F_363658", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_DRAGON_4_4_R_F_363658" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

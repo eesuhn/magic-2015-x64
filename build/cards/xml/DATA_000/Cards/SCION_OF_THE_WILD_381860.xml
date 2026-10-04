@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="573">
+  <FILENAME text="SCION_OF_THE_WILD_381860" />
+  <CARDNAME text="SCION_OF_THE_WILD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scion of the Wild]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Scion de la forêt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vástago de lo salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spross der Wildnis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Erede della Selva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野（や）生（せい）の末（まつ）裔（えい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야생의 자손]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дикий Отпрыск]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Herdeiro da Selva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛮荒后裔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蠻荒後裔]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381860" />
+  <ARTID value="90377" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It has a hundred thousand extinctions to avenge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il doit venger une centaine de milliers d'extinctions animales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tiene cien mil especies extinguidas a las que vengar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er muss hunderttausend ausgestorbene Tierarten rächen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ha centinaia di migliaia di estinzioni da vendicare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[何十万もの絶滅の復讐心。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것은 멸종된 수십만 종의 생물에 대한 복수를 할 것이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Он должен отомстить за сотни тысяч вымерших существ.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele tem cem mil extinções para vingar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他将为千百灭绝物种复仇。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他將為千百滅絕物種復仇。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Avatar" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scion of the Wild’s power and toughness are each equal to the number of creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance du Scion de la forêt sont chacune égales au nombre de créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tanto la fuerza como la resistencia del Vástago de lo salvaje son iguales a la cantidad de criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft des Sprosses der Wildnis sind gleich der Anzahl an Kreaturen, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione dell’Erede della Selva sono pari al numero di creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野性の末裔のパワーとタフネスは、それぞれあなたがコントロールするクリーチャーの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야생의 자손의 공격력과 방어력은 각각 당신이 조종하는 생물의 개수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Дикого Отпрыска равны количеству существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Herdeiro da Selva são ambos iguais ao número de criaturas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛮荒后裔的力量和防御力各等同于由你操控的生物数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蠻荒後裔的力量和防禦力各等同於由你操控的生物數量。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	local filter = ClearFilter()
+    	
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	local total = filter:Count()
+    	
+    	characteristics:Power_Set( total )
+    	characteristics:Toughness_Set( total )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="50" resource_type="CREATURE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="WORLDLY_COUNSEL_382183" />
+  <CARDNAME text="WORLDLY_COUNSEL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Worldly Counsel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Conseil matérialiste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Consejo mundano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weltlicher Rat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Concilio Mondiale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[俗（ぞく）世（せ）の相（そう）談（だん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[속세의 충고]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мирская Мудрость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conselho Mundano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[全世商议]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[全世商議]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382183" />
+  <ARTID value="118647" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Every horizon hides a new possibility.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque horizon cache une nouvelle possibilité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Todo horizonte esconde una nueva posibilidad.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hinter jedem Horizont stecken neue Chancen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni orizzonte nasconde una nuova occasione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[どの地平線にも常に新たな可能性が隠れている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지평선마다 새로운 가능성이 존재한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[За каждым горизонтом скрывается новая возможность.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada horizonte esconde uma nova possibilidade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每道地平线都藏着新的可能性。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每道地平線都藏著新的可能性。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Domain| — Look at the top X cards of your library, where X is the number of basic land types among lands you control. Put one of those cards into your hand and the rest on the bottom of your library in any order.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Domaine| — Regardez les X cartes du dessus de votre bibliothèque, X étant le nombre de types de terrain de base parmi les terrains que vous contrôlez. Mettez l’une de ces cartes dans votre main et le reste au-dessous de votre bibliothèque, dans n’importe quel ordre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Dominio| — Mira las X primeras cartas de tu biblioteca, donde X es la cantidad de tipos de tierra básica que haya entre las tierras que controlas. Pon una de esas cartas en tu mano y el resto en el fondo de tu biblioteca en cualquier orden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Domäne| — Schaue dir die obersten X Karten deiner Bibliothek an, wobei X gleich die Anzahl an Standardlandtypen unter den Ländern ist, die du kontrollierst. Nimm eine dieser Karten auf deine Hand und lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Dominio| — Guarda le prime X carte del tuo grimorio, dove X è pari al numero di tipi di terra base tra le terre che controlli. Aggiungi alla tua mano una di quelle carte e metti le altre in fondo al tuo grimorio in qualsiasi ordine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|版図| ― あなたのライブラリーの一番上からＸ枚のカードを見る。Ｘはあなたがコントロールする土地の中の基本土地タイプの数に等しい。そのうち１枚をあなたの手札に加え、残りをあなたのライブラリーの一番下に望む順番で置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도메인 — 당신의 서고 맨 위의 카드 X장을 본다. X는 당신이 조종하는 대지의 기본 대지 유형의 수와 같다. 그 카드 중 한 장을 당신의 손으로 가져가고 나머지 카드들은 당신이 원하는 순서로 당신의 서고 맨 밑에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Владения| — Посмотрите X верхних карт вашей библиотеки, где X — количество типов базовых земель среди земель под вашим контролем. Положите одну из тех карт в вашу руку, а остальные в низ вашей библиотеки в любом порядке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Dominar| — Olhe os X cards do topo de seu grimório, sendo X igual ao número de tipos de terreno básico entre os terrenos que você controla. Coloque um daqueles cards na sua mão e os restantes no fundo do seu grimório em qualquer ordem.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[领土～检视你牌库顶的X张牌，X为由你操控的地之中基本地类别的数量。将其中一张置于你手上，其余的牌则以任意顺序置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[領土～檢視你牌庫頂的X張牌，X為由你操控的地之中基本地類別的數量。將其中一張置於你手上，其餘的牌則以任意順序置於你的牌庫底。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local answerDC = EffectDC():Make_Targets(0)
+    local queryDC = EffectDC():Make_Chest(1)
+    local player = EffectController()
+    for i=0,(player:GetDomainCount()-1) do
+    	local card = player:Library_GetNth(i)
+    	
+    	if card ~= nil then
+    		queryDC:Set_CardPtr(i, card)
+    	else
+    		break
+    	end
+    end
+    if answerDC ~= nil and queryDC ~= nil then
+    	player:ChooseItemFromDC( "CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND", queryDC, answerDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    -- All chosen cards will have been put into hand by now, so will have been wiped from the queryDC.
+    -- Choosing an ordering is outside the scope of Duels
+    local queryDC = EffectDC():Get_Chest(1)
+    local num_cards = queryDC:Count()
+    for i=0,num_cards-1 do
+    	local card = queryDC:Get_CardPtr(i)
+    	if card ~= nil then
+    		card:PutOnBottomOfLibrary()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_DOMAIN" body="MORE_INFO_BODY_DOMAIN" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に加えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar em sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

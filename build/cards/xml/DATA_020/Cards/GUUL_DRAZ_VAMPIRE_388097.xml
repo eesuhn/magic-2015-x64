@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="GUUL_DRAZ_VAMPIRE_388097" />
+  <CARDNAME text="GUUL_DRAZ_VAMPIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Guul Draz Vampire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vampire de Guul Draz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vampiro de Guul Draz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vampir aus Guul Draz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vampira di Guul Draz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グール・ドラズの吸（きゅう）血（けつ）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[굴 드라즈 흡혈귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вампирша из Гуул-Драза]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vampiro de Guul Draz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[古坠兹吸血鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[古墜茲吸血鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388097" />
+  <ARTID value="123537" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“A creature’s bloodscent is a beacon that cannot be disguised.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« L'odeur du sang d'une créature est un signal qui ne peut pas être dissimulé. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La esencia de sangre de una criatura es un faro que no puede ocultarse”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der Blutgeruch einer Kreatur ist eine Fährte, die nicht verborgen werden kann.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il profumo del sangue di una creatura è un richiamo che non può essere celato.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「生き物の血の匂いは、隠すことのできない標だ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“피 냄새는 꺼지지 않는 봉화와도 같지.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Запах крови существа — это след, который нельзя скрыть».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O cheiro de sangue de uma criatura é um chamariz impossível de se disfarçar.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「生物的血液气味是不可能隐藏的信标。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「生物的血液氣味是不可能隱藏的信標。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <SUB_TYPE metaname="Rogue" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as an opponent has 10 or less life, Guul Draz Vampire gets +2/+1 and has intimidate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant qu’un adversaire a 10 points de vie ou moins, la Vampire de Guul Draz gagne +2/+1 et a l’intimidation.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras un oponente tenga 10 o menos vidas, la Vampiro de Guul Draz obtiene +2/+1 y tiene la habilidad de intimidar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange ein Gegner 10 Lebenspunkte oder weniger hat, erhält der Vampir aus Guul Draz +2/+1 und hat Einschüchtern.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che un avversario ha 10 o meno punti vita, la Vampira di Guul Draz prende +2/+1 e ha intimidire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手のライフが10点以下であるかぎり、グール・ドラズの吸血鬼は＋２/＋１の修整を受けるとともに威嚇を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대의 생명 총점이 10점 이하인 한, 굴 드라즈 흡혈귀는 +2/+1을 받고 위협을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока у оппонента не более 10 жизней, Вампирша из Гуул-Драза получает +2/+1 и имеет Устрашение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto um oponente tiver 10 ou menos pontos de vida, Vampiro de Guul Draz receberá +2/+1 e terá intimidar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要任一对手的总生命为10或更少，古坠兹吸血鬼便得+2/+1且具有威吓异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要任一對手的生命為10或更少，古墜茲吸血鬼便得+2/+1且具有威嚇異能。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local has10orLessLife = 0
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil and player:GetTeam() ~= EffectController():GetTeam() then
+    			if player:GetLifeTotal() &lt;= 10 then
+    				has10orLessLife = 1
+    				break
+    			end
+    		end
+    	end
+    	
+    	if has10orLessLife == 1 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Power_Add( 2 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end 
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    	local has10orLessLife = 0
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil and player:GetTeam() ~= EffectController():GetTeam() then
+    			if player:GetLifeTotal() &lt;= 10 then
+    				has10orLessLife = 1
+    				break
+    			end
+    		end
+    	end
+    	
+    	if has10orLessLife == 1 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Bool_Set( CHARACTERISTIC_INTIMIDATE, 1 )
+    	end
+    end 
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <HELP title="MORE_INFO_BADGE_TITLE_24" body="MORE_INFO_BADGE_BODY_24" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

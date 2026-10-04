@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="295">
+  <FILENAME text="SPORE_BURST_382008" />
+  <CARDNAME text="SPORE_BURST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spore Burst]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Explosion de spore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estallido de esporas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sporenausbruch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esplosione di Spore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[胞（ほう）子（し）の噴（ふん）出（しゅつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포자 폭발]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прорыв Спор]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Estouro de Esporos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[孢子爆发]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[孢子爆發]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382008" />
+  <ARTID value="118779" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seeds from Jund don’t drift gently on the wind. They get up and stampede.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les graines de Jund ne se font pas doucement porter par le vent. Elles se lèvent et elles galopent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las semillas de Jund no vuelan suavemente en el viento. Arman una estampida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Samen aus Jund lassen sich nicht sanft vom Wind treiben. Sie stehen auf und laufen Amok.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I semi di Jund non vengono trasportati gentilmente dal vento. Si alzano in piedi e fuggono precipitosamente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドの種は、のんびり風に吹き流されたりはしない。目覚め、襲い掛かるのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드에서 나온 씨앗은 바람을 타고 유유히 날아가지 않는다. 그것들은 일어서서 도망친다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Семена из Джанда не переносятся ласковым ветром. Они поднимаются и табуном мчатся вперед.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Em Jund, as sementes não se espalham suavemente com o vento. Elas se levantam e estouram.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[出自勇得的种子不愿仅只随风飘散。它们会起身狂奔。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[出自勇得的種子不願僅只隨風飄散。它們會起身狂奔。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Domain| — Put a 1/1 green Saproling creature token onto the battlefield for each basic land type among lands you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Domaine| — Mettez en jeu un jeton de créature 1/1 verte Saprobionte pour chaque type de terrain de base parmi les terrains que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Dominio| — Pon en el campo de batalla una ficha de criatura Saprolín verde 1/1 por cada tipo de tierra básica entre las tierras que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Domäne| — Bringe für jeden Standardlandtyp unter den Ländern, die du kontrollierst, einen 1/1 grünen Saproling-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Dominio| — Metti sul campo di battaglia una pedina creatura Saprolingio 1/1 verde per ogni tipo di terra base tra le terre che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|版図| ― あなたがコントロールする土地の中の基本土地タイプ１つにつき、緑の１/１の苗木・クリーチャー・トークンを１体場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도메인 — 당신이 조종하는 대지의 기본 대지 유형마다 1/1 녹색 부생수 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Владения | — Положите на поле битвы одну фишку существа 1/1 зеленый Сапролинг за каждый тип базовой земли среди земель под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Dominar| — Coloque no campo de batalha uma ficha de criatura 1/1 verde do tipo Saprófita para cada tipo de terreno básico entre os terrenos que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[领土～由你操控的地之中每有一种基本地类别，便将一个1/1绿色腐生物衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[領土～由你操控的地之中每有一種基本地類別，便將一個1/1綠色腐生物衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SAPROLING_1_1_G_377557", EffectController():GetDomainCount(), EffectController() )
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="FOREST" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="ISLAND" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="MOUNTAIN" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="PLAINS" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="SWAMP" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SAPROLING_1_1_G_377557" />
+  <HELP title="MORE_INFO_TITLE_DOMAIN" body="MORE_INFO_BODY_DOMAIN" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

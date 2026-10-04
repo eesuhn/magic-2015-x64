@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="HOLD_THE_GATES_377442" />
+  <CARDNAME text="HOLD_THE_GATES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hold the Gates]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défendez les portes !]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reforzar los portales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Haltet das Tor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Difendere i Cancelli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[門（もん）の維（い）持（じ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[관문 사수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удержать Врата]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Segurar os Portões]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坚守门户]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[堅守門戶]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377442" />
+  <ARTID value="146432" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We grew up on these streets. We know them better than any Boros grunt from Zelzo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous avons grandi dans ces rues. Nous les connaissons mieux que n'importe quel troufion boros de Zelzo. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Crecimos en estas calles. Las conocemos mejor que cualquier peón boros de Zelzo”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir sind auf diesen Straßen aufgewachsen. Wir kennen uns hier besser aus als irgendein Boros-Infanterist aus Zelzo.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Siamo cresciuti in queste strade. Le conosciamo meglio di qualsiasi recluta Boros da Zelzo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「俺たちはここの街中で育ったんだ。地元のことはゼルゾーから来るボロスのザコどもよりよく知ってるさ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["여긴 우리가 자란 거리다. 젤조에서 온 보로스 나부랭이가 우리 고향에 대해 뭘 알겠나?"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы выросли на этих улицах. Уж мы-то знаем их лучше, чем какой-нибудь солдат Боросов из Зелзо».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nós crescemos nessas ruas. As conhecemos melhor do que qualquer capanga Boros do Zelzo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们在这些街道上长大，介柯的波洛斯士兵根本没我们熟悉。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們在這些街道上長大，介柯的波洛斯士兵根本沒我們熟悉。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +0/+1 for each Gate you control and have vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +0/+1 pour chaque porte que vous contrôlez et ont la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +0/+1 por cada Portal que controlas y tienen la habilidad de vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +0/+1 für jedes Tor, das du kontrollierst, und haben Wachsamkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +0/+1 per ogni Cancello che controlli e hanno cautela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、あなたがコントロールする門１つにつき＋０/＋１の修整を受けるとともに警戒を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 당신이 조종하는 각 관문마다 +0/+1을 받으며 경계를 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +0/+1 за каждые Врата под вашим контролем и имеют Бдительность.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +0/+1 para cada Portão que você controla e têm vigilância.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的生物具有警戒异能，且你每操控一个门，它们便得+0/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你每操控一個門，由你操控的生物便得+0/+1；它們具有警戒異能。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    local filter = ClearFilter()
+    filter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_GATE )
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    local number = filter:Count()
+    local characteristics = FilteredCard():GetCurrentCharacteristics()
+    characteristics:Power_Add( number * 0 )
+    characteristics:Toughness_Add( number * 1 )
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_VIGILANCE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

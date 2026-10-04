@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="TOKEN_MYR_1_1_373734" />
+  <CARDNAME text="MYR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[MYR]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マイア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Миэр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Myr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[秘耳]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[秘耳]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="373734" />
+  <ARTID value="131405" />
+  <COLOUR value="" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Myr" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="T" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TOKEN />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="" removal_tag="" is_removal="false" />
+</CARD_V2>

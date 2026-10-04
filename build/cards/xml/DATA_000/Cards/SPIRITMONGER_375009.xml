@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="223">
+  <FILENAME text="SPIRITMONGER_375009" />
+  <CARDNAME text="SPIRITMONGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spiritmonger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Trafiquant d'esprits]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Traficante de espíritus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Röhrender Reliops]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spiritivendolo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魂（たましい）売（う）り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신령 장수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Торговец Духом]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vendilhão de Espíritos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[心灵贩子]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[心靈販子]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="375009" />
+  <ARTID value="101028" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{3}{B}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Spiritmonger deals damage to a creature, put a +1/+1 counter on Spiritmonger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Trafiquant d’esprits inflige des blessures à une créature, mettez un marqueur +1/+1 sur le Trafiquant d’esprits.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Traficante de espíritus haga daño a una criatura, pon un contador +1/+1 sobre el Traficante de espíritus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Röhrende Reliops einer Kreatur Schaden zufügt, lege eine +1/+1-Marke auf den Röhrenden Reliops.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lo Spiritivendolo infligge danno a una creatura, metti un segnalino +1/+1 sullo Spiritivendolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魂売りがクリーチャー１体にダメージを与えるたび、魂売りの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신령 장수가 생물에게 피해를 입힐 때마다, 신령 장수에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Торговец Духом наносит повреждения существу, положите один жетон +1/+1 на Торговца Духом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Vendilhão de Espíritos causar dano a uma criatura, coloque um marcador +1/+1 em Vendilhão de Espíritos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当心灵贩子对一个生物造成伤害时，在心灵贩子上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當心靈販子對任一生物造成傷害時，在心靈販子上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_OBJECT" simple_qualifier="self" damage_type="combat">
+    return TriggerObject():GetCardType():Test(CARD_TYPE_CREATURE)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Regenerate Spiritmonger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : Régénérez le Trafiquant d’esprits.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: Regenera al Traficante de espíritus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Regeneriere den Röhrenden Reliops.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Rigenera lo Spiritivendolo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：魂売りを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 신령 장수를 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: регенерируйте Торговца Духом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Regenere Vendilhão de Espíritos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{B}：重生心灵贩子。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{B}：重生心靈販子。]]></LOCALISED_TEXT>
+    <COST mana_cost="{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+    <AI_MODIFIERS combat_immunity="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_REGENERATE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{G}: Spiritmonger becomes the color of your choice until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{G} : Le Trafiquant d’esprits devient de la couleur de votre choix jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{G}: El Traficante de espíritus es del color de tu elección hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}: Der Röhrende Reliops wird bis zum Ende des Zuges eine Farbe, die du bestimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{G}: Lo Spiritivendolo diventa di un colore a tua scelta fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}：魂売りは、ターン終了時まであなたが選んだ１色の色になる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}: 신령 장수는 턴종료까지 당신이 선택한 색이 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{G}: Торговец Духом становится выбранного вами цвета до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{G}: Vendilhão de Espíritos torna-se da cor de sua escolha até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{G}：选择一种颜色，心灵贩子成为该色直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{G}：選擇一種顏色，心靈販子成為該色直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{G}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ChooseColour( "CARD_QUERY_CHOOSE_COLOUR", true )
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="5">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Colour_Set( GetChosenColour() )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

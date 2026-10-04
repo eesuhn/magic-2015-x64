@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="130">
+  <FILENAME text="OSTRACIZE_374925" />
+  <CARDNAME text="OSTRACIZE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ostracize]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ostracisme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desterrar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ausschluss]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ostracizzare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[村（むら）八（はち）分（ぶ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[배척]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Остракизм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ostracizar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[依法放逐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[依法放逐]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374925" />
+  <ARTID value="27571" />
+  <ARTIST name="Hannibal King" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You won’t be needing this.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Tu n’auras pas besoin de ça. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No necesitarás esto”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das brauchst du nicht mehr.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Questa non ti servirà.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前はこれを必要としないだろうよ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이건 너에게 필요 없어."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Тебе это не понадобится».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você não vai precisar disso.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你不会需要这个。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你不會需要這個。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent reveals his or her hand. You choose a creature card from it. That player discards that card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’adversaire ciblé révèle sa main. Choisissez-y une carte de créature. Ce joueur se défausse de cette carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El oponente objetivo muestra su mano. Tú eliges de ahí una carta de criatura. Ese jugador descarta esa carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Gegner deiner Wahl zeigt die Karten auf seiner Hand offen vor. Bestimme eine Kreaturenkarte davon. Dieser Spieler wirft diese Karte ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un avversario bersaglio rivela la sua mano. Scegli una carta creatura da quella mano. Quel giocatore scarta quella carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手１人を対象とする。そのプレイヤーは自分の手札を公開する。あなたはその中からクリーチャー・カードを１枚選ぶ。そのプレイヤーはそのカードを捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 손을 공개한다. 그중 생물 카드 한 장을 선택한다. 그 플레이어는 그 카드를 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой оппонент показывает свою руку. Вы выбираете из нее карту существа. Тот игрок сбрасывает ту карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O oponente alvo revela a própria mão. Você escolhe um card de criatura da mão dele. Aquele jogador descarta aquele card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标对手展示其手牌。你选择其中一张生物牌。该牌手弃掉该牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標對手展示其手牌。你選擇其中一張生物牌。該玩家棄掉該牌。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DISCARD_1" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local numPlayers = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayers-1) do 
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if player ~= target_player and player ~= EffectController() then
+    	target_player:RevealHand(player)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target_player ~= nil then
+    	local filter = ClearFilter()
+    	filter:SetZone( ZONE_HAND, target_player )
+    	filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    	
+    	EffectController():ChooseItem( "CARD_QUERY_CHOOSE_CARD_TO_DISCARD", EffectDC():Make_Targets(1) )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target_player ~= nil then
+    	local chosen_card = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    	
+    	if chosen_card ~= nil then
+    		chosen_card:Discard()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DISCARD_1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to discard a card from his or her hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour qu'il se défausse d'une carte de sa main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que descarte una carta de su mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der eine Karte aus seiner Hand abwerfen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che scarta una carta dalla sua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札からカードを１枚捨てるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[손에서 카드 한 장을 버리게 할 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен сбросить карту из своей руки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para descartar um card da mão dele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以令其从手上弃掉一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來從其手牌中棄掉一張牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_DISCARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to discard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour vous en défausser.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine der Karten auf deiner Hand, die du abwerfen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da scartare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[捨てるカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[버릴 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для сброса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要弃掉的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來棄掉。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_DISCARD_WHY_PLAY" removal_tag="HINT_SPELL_DISCARD_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

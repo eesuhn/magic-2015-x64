@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="GNARLED_MASS_381971" />
+  <CARDNAME text="GNARLED_MASS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gnarled Mass]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Masse noueuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Masa retorcida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mürrische Masse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Moltitudine Contorta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[節（ふし）くれ塊（かたまり）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[구부러진 뭉치]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Искривленная Масса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Massa Retorcida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[咆哮大群]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[咆哮大群]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381971" />
+  <ARTID value="83941" />
+  <ARTIST name="Tony Szczudlo" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“On the fifty-seventh day of the Battle of Silk, the bell again tolled in hopes of summoning mortal aid. This time, a new breed of kami rose to answer its call.”
+—Great Battles of Kamigawa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le cinquante-septième jour de la bataille de la Soie, la cloche sonna à nouveau dans l'espoir de trouver de l'aide. Cette fois, ce fut une nouvelle race de kami qui répondit. »
+—Grandes batailles de Kamigawa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“En el día cincuenta y siete de la Batalla de Seda, la campana sonó nuevamente con la esperanza de conseguir ayuda mortal. Esta vez, una nueva especie de kami se levantó para responder a su llamado”.
+—Grandes batallas de Kamigawa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Am fünfundsiebzigsten Tag der Schlacht der Seide schlug wieder die Glocke, um Hilfe für die Sterblichen herbeizurufen. Doch dieses Mal erwachte eine neue Art Kami durch das Geläut.“
+—Die Großen Schlachten von Kamigawa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Al cinquantasettesimo giorno della Battaglia della Seta, la campana suonò di nuovo nella speranza di richiamare aiuti terreni. Questa volta, una nuova razza di kami si levò per rispondere al richiamo.”
+—Grandi Battaglie di Kamigawa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「絹の合戦の五十七日目、死すべき者たちの助けを求めて鐘が再び鳴らされた。しかし、この時その呼びかけに答えたのは、新たな神の蜂起だった。」――神河大戦記]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["비단 전쟁 59일 째, 필멸자의 도움을 요청하는 종이 울렸다. 이번에는 새로운 종류의 카미가 나타났다."
+—카미가와 전쟁사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«На пятьдесят седьмой день Шелковой Битвы колокол зазвучал вновь, призывая помощь для смертных. На этот раз на зов откликнулась новая порода ками».
+— Великие битвы Камигавы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“No quinquagésimo sétimo dia da Batalha da Seda, o sino dobrou novamente na esperança de invocar ajuda mortal. Dessa vez, uma nova estirpe de kamis ascendeu para responder ao seu chamado.”
+— As Grandes Batalhas de Kamigawa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「在蛛丝之战的第五十七日，再度击钟以祈实界援军前来。但这次应警钟现身者却是一批新种神明。」
+～神河战记]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「在蛛絲之戰的第五十七日，再度擊鐘以祈實界援軍前來。但這次應警鐘現身者卻是一批新種神明。」
+～神河戰記]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_PRIMORDIAL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

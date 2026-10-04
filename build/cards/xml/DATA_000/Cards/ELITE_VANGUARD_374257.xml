@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="484">
+  <FILENAME text="ELITE_VANGUARD_374257" />
+  <CARDNAME text="ELITE_VANGUARD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elite Vanguard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avant-garde d'élite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vanguardia de élite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elite-Vorhut]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Avanguardia d’Elite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先（せん）兵（ぺい）の精（せい）鋭（えい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정예 선봉부대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элитный Авангард]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vanguarda de Elite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[菁英先锋]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[菁英先鋒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374257" />
+  <ARTID value="103534" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The vanguard is skilled at waging war alone. The enemy is often defeated before its reinforcements reach the front.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'avant-garde sait faire la guerre seule. L'ennemi est souvent vaincu avant que ses renforts n'atteignent le front.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La vanguardia sabe cómo luchar una guerra sola. El enemigo normalmente es derrotado antes de que los refuerzos alcancen el frente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Vorhut ist in der Lage, einen Kampf alleine zu entscheiden. Der Feind ist oft schon besiegt, bevor die Verstärkungen die Front erreicht haben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’avanguardia è specializzata nel muovere guerra da sola. Il nemico viene spesso sconfitto prima che i rinforzi raggiungano il fronte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[先兵は、一人で戦場を賄える技量を持っている。援軍が前線に達するよりも先に相手が倒されていることもしばしばだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선봉부대는 각개전투에 능하다. 그들은 보통 지원군이 도착하기도 전에 적을 처리해 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Передовые отряды умело сражаются в одиночку. Зачастую враг терпит поражение еще до того, как подкрепление достигнет фронта.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A vanguarda sabe bem como travar a guerra sozinha. Não é raro que o inimigo seja derrotado antes que seus reforços cheguem ao front.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[先锋相当拿手于独身作战。敌人经常在后援部队赶到前就给打败。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[先鋒相當拿手於獨身作戰。敵人經常在後援部隊趕到前就給打敗。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

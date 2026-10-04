@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="FONT_OF_MYTHOS_381996" />
+  <CARDNAME text="FONT_OF_MYTHOS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Font of Mythos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fontaine de Mythe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fuente de los mitos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Becken des Mythos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fonte Mitologica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神（しん）話（わ）の水（すい）盤（ばん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신화의 샘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чаша Мифов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fonte dos Mitos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[神赐洗礼盘]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[神賜洗禮盤]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381996" />
+  <ARTID value="119800" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{4}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Those who drink from Malfegor’s cup are tainted with hunger and stained with lies.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ceux qui boivent à la coupe de Malfégor sont corrompus par la faim et entachés par le mensonge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los que beben de la copa de Malfegor son marcados con mentiras e inundados de hambre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wer aus Malfegors Kelch trinkt, wird mit Hunger verdorben und mit Lügen befleckt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Coloro che bevono dalla coppa di Malfegor diventano corrotti dalla fame e macchiati dalla falsità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マルフェゴールの杯から飲んだ者は、飢えに汚され、嘘に染められる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[말페고르의 잔을 받아 마시는 자는 굶주림과 기만에 시달리게 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тот, кто испил из чаши Малфегора, заражен голодом и запятнан ложью.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aqueles que bebem do cálice de Malfegor são contaminados pela fome e maculados com mentiras.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[自墨非葛杯中饮水者，都被饥饿与谎言所感染。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[自墨非葛杯中飲水者，都被飢餓與謊言所感染。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each player’s draw step, that player draws two additional cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de l’étape de pioche de chaque joueur, ce joueur pioche deux cartes supplémentaires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del paso de robar de cada jugador, ese jugador roba dos cartas adicionales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn des Ziehsegments jedes Spielers zieht dieser Spieler zwei zusätzliche Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio dell’acquisizione di ogni giocatore, quel giocatore pesca due carte addizionali.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーのドロー･ステップの開始時に、そのプレイヤーはカードを追加で２枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어의 뽑기단 시작에, 그 플레이어는 카드 두 장을 추가로 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале шага взятия карты каждого игрока тот игрок берет две дополнительные карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da fase de compra de cada jogador, aquele jogador compra dois cards adicionais.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每位牌手的抓牌步骤开始时，该牌手额外抓两张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每位玩家的抽牌步驟開始時，該玩家額外抽兩張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP">
+    return (MTG():GetStep() == STEP_DRAW)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerPlayer() ~= nil then   
+    	TriggerPlayer():DrawCards(2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

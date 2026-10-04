@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="MARSH_THREADER_374408" />
+  <CARDNAME text="MARSH_THREADER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marsh Threader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cordelier des marécages]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Escalador de cenagales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Marschenwinder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ramingo delle Paludi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[湿（しっ）地（ち）を縫（ぬ）う者（もの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늪지대 개척자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Болотный Канатолаз]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atravessador de Palude]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[绳索渡沼人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[繩索渡沼人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374408" />
+  <ARTID value="126508" />
+  <ARTIST name="David Palumbo" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Give me a sturdy rope over the advice of any so-called expert. I can thread the dark wilds better than anyone.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pour moi, une bonne corde vaut toujours plus que les conseils bienveillants de ces soi-disant experts. Je sais corder les contrées noires mieux que quiconque. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Dame una buena cuerda antes que el consejo de un supuesto experto. Yo puedo cruzar los terrenos oscuros mejor que nadie”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Gib mir ein starkes Seil, keine guten Ratschläge. Ich kann mich besser als jeder andere durch die dunkle Wildnis winden.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Datemi una corda robusta invece dei consigli di un cosiddetto esperto. Posso attraversare le terre selvagge e oscure meglio di chiunque altro.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「熟練者とやらの助言よりも、丈夫な縄をくれよ。誰よりもうまく闇の荒野を縫っていけるぜ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["내가 필요한 건 자칭 전문가의 조언이 아니라 튼튼한 밧줄이야. 밧줄만 주면 내가 늪지대를 통과할 길을 만들어 주겠어."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«По мне уж лучше крепкая веревка, чем советы так называемых экспертов. Я и сам найду дорогу в темной глуши».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Prefiro uma corda robusta ao conselho de supostos peritos. Posso atravessar as escuras terras agrestes melhor do que ninguém.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「给我条坚韧的绳子，那些所谓高手的建议就省了。我以绳渡过黑暗荒地的本事没人比得上。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「給我條堅韌的繩子，那些所謂高手的建議就省了。我以繩渡過黑暗荒地的本事沒人比得上。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Scout" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Swampwalk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traversée des marais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cruza pantanos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sumpftarnung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa-Paludi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[沼渡り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늪잠입]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знание Болот]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Travessia de pântano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[沼泽行者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沼澤行者]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_SWAMPWALK" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_18" body="MORE_INFO_BADGE_BODY_18" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

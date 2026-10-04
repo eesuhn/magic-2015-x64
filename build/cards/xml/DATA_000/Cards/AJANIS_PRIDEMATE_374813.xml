@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="781">
+  <FILENAME text="AJANIS_PRIDEMATE_374813" />
+  <CARDNAME text="AJANIS_PRIDEMATE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ajani’s Pridemate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frère de bande d'Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Compañero de manada de Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ajanis Rudelmitglied]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Compagno di Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アジャニの群（む）れ仲（なか）間（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아자니의 형제]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Соплеменник Аджани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Companheiro de Bando de Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿耶尼的群伴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿耶尼的群伴]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374813" />
+  <ARTID value="129151" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“When one of us prospers, the pride prospers.”
+—Jazal Goldmane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand l'un de nous prospère, c'est toute la bande qui prospère. »
+—Jazal Crinièredor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuando uno de nosotros mejora, la manada mejora”.
+—Jazal Melena Dorada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn einer von uns Erfolg hat, gilt dies für das gesamte Rudel.“
+—Jazal Goldmähne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quando uno di noi ha successo, l’intero branco ha successo.”
+—Jazal Criniera D’Oro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我らのうちいずれかが繁栄する時、群れも繁栄する。」――黄金のたてがみのジャザル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“하나의 번영이 곧 동족의 번영이다.”
+—자잘 골드메인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Когда один из нас процветает, процветает весь прайд».
+— Златогривый Джазаль]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando um de nós prospera, o bando prospera.”
+— Jazal Juba D'ouro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「只要一个享福，整群都能享福。」
+～金鬃贾佐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「只要一個享福，整群都能享福。」
+～金鬃賈佐]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you gain life, you may put a +1/+1 counter on Ajani’s Pridemate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous gagnez des points de vie, vous pouvez mettre un marqueur +1/+1 sur le Frère de bande d’Ajani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que ganes vidas, puedes poner un contador +1/+1 sobre el Compañero de manada de Ajani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du Lebenspunkte dazuerhältst, kannst du eine +1/+1-Marke auf Ajanis Rudelmitglied legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta guadagni punti vita, puoi mettere un segnalino +1/+1 sul Compagno di Ajani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがライフを得るたび、あなたはアジャニの群れ仲間の上に＋１/＋１カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 생명점을 얻을 때마다, 당신은 아자니의 형제에 +1/+1 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы получаете жизнь(-и), вы можете положить один жетон +1/+1 на Соплеменника Аджани.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você ganha pontos de vida, você pode colocar um marcador +1/+1 em Companheiro de Bando de Ajani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你获得生命时，你可以在阿耶尼的群伴上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你獲得生命時，你可以在阿耶尼的群伴上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="PLAYER_GAINED_LIFE" simple_qualifier="controller" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="35" resource_name="Life" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="298">
+  <FILENAME text="JUNGLE_SHRINE_374970" />
+  <CARDNAME text="JUNGLE_SHRINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jungle Shrine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Reliquaire de la jungle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Altar de la jungla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dschungelschrein]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Santuario nella Giungla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャングルの祭（さい）殿（でん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정글 성소]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Святыня Джунглей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrário da Selva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[丛林祭祠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[叢林祭祠]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374970" />
+  <ARTID value="115111" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[On Naya, ambition and treachery are scarce, hunted nearly to extinction by the awe owed to terrestrial gods.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sur Naya, l'ambition et la traîtrise sont rares. La dévotion aux divinités terrestres les ont presque portées à l'extinction.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En Naya, la ambición y la traición no son corrientes, llevadas casi a la extinción por la veneración a los dioses terrestres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In Naya sind Ehrgeiz und Verrat selten geworden, fast ausgerottet von der Ehrfurcht, die dort den irdischen Göttern entgegengebracht wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Naya, l’ambizione e il tradimento sono rari, cacciati quasi fino all’estinzione dal timore reverenziale dimostrato verso gli dei terreni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ナヤでは、地上の神への畏怖から、野心や裏切りは絶滅に近いほど狩りつくされている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[나야에서 야망과 배신은 찾아보기 어렵다. 나야의 신들이 야망과 배신의 씨를 말렸기 때문이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На Найе редко встречаются честолюбие и предательство, доведенные до грани исчезновения благоговейным страхом пред земными богами.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Em Naya, a ambição e a traição são raras, pois foram caçadas até sua extinção pelo respeito devido aos deuses terrestres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[野心与背叛在纳雅并不常见，早已被对现世神明的崇敬猎捕得近乎灭绝。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[野心與背叛在納雅並不常見，早已被對現世神明的崇敬獵捕得近乎滅絕。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jungle Shrine enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Reliquaire de la jungle arrive sur le champ de bataille engagé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Altar de la jungla entra al campo de batalla girado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Dschungelschrein kommt getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Santuario nella Giungla entra nel campo di battaglia TAPpato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャングルの祭殿はタップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정글 성소는 탭된 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Святыня Джунглей выходит на поле битвы повернутой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sacrário da Selva entra no campo de batalha virado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[丛林祭祠须横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[叢林祭祠須橫置進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+        TriggerObject():Tap()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {R}, {G}, or {W} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {R}, {G} ou {W} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {R}, {G} o {W} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {R}, {G} oder {W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {R}, {G} o {W} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{R}か{G}か{W}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {R}, {G} 또는 {W}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {R}, {G} или {W} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {R}, {G} ou {W} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{R}，{G}，或{W}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{R}，{G}或{W}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{R/G/W}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

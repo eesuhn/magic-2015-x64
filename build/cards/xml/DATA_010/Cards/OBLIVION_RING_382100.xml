@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="202">
+  <FILENAME text="OBLIVION_RING_382100" />
+  <CARDNAME text="OBLIVION_RING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Oblivion Ring]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cercle de l'oubli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anillo del olvido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vergessenheitsring]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anello dell’Oblio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忘（ぼう）却（きゃく）の輪（わ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[망각륜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кольцо Забвения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anel do Esquecimento]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[遗忘轮]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[遺忘輪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382100" />
+  <ARTID value="115005" />
+  <ARTIST name="Franz Vohwinkel" />
+  <CASTING_COST cost="{2}{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Oblivion Ring enters the battlefield, exile another target nonland permanent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cercle de l’oubli arrive sur le champ de bataille, exilez un autre permanent non-terrain ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Anillo del olvido entre al campo de batalla, exilia otro permanente objetivo que no sea tierra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vergessenheitsring ins Spiel kommt, schicke eine andere bleibende Karte deiner Wahl, die kein Land ist, ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Anello dell’Oblio entra nel campo di battaglia, esilia un altro permanente non terra bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忘却の輪が戦場に出たとき、他の土地でないパーマネント１つを対象とし、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[망각륜이 전장에 들어올 때, 대지가 아닌 다른 지속물 한 개를 목표로 정한다. 그 지속물을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Кольцо Забвения выходит на поле битвы, изгоните другой целевой перманент, не являющийся землей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Anel do Esquecimento entrar no campo de batalha, exile outra permanente alvo que não seja um terreno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当遗忘轮进战场时，放逐另一个目标非地永久物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當遺忘輪進戰場時，放逐另一個目標非地永久物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_NONLAND_PERMANENT_TO_EXILE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_TYPE, OP_NOT, CARD_TYPE_LAND )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	LinkedDC():Set_CardPtr(0, target)
+    	LinkedDC():Protect_CardPtr(0)
+    	target:Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = LinkedDC():Get_CardPtr(0)
+    local source = EffectSource()
+    if target ~= nil and source ~= nil then
+    	target:NailOnto(source)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Oblivion Ring leaves the battlefield, return the exiled card to the battlefield under its owner’s control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cercle de l’oubli quitte le champ de bataille, renvoyez, sous le contrôle de son propriétaire, la carte exilée sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Anillo del olvido deje el campo de batalla, regresa la carta exiliada al campo de batalla bajo el control de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vergessenheitsring das Spiel verlässt, bringe die ins Exil geschickte Karte unter der Kontrolle ihres Besitzers ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Anello dell’Oblio lascia il campo di battaglia, rimetti la carta esiliata nel campo di battaglia sotto il controllo del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忘却の輪が戦場を離れたとき、その追放されたカードをオーナーのコントロール下で戦場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[망각륜이 전장에서 떠날 때, 그 추방된 카드를 소유자의 조종하에 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Кольцо Забвения покидает поле битвы, верните ту изгнанную карту на поле битвы под контролем ее владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Anel do Esquecimento deixar o campo de batalha, devolva o card exilado ao campo de batalha sob o controle de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当遗忘轮离开战场时，将所放逐的牌在其拥有者的操控下移回战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當遺忘輪離開戰場時，將所放逐的牌在其擁有者的操控下移回戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_ANY" from_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local target = LinkedDC():Get_CardPtr(0)
+    if target ~= nil then
+    	target:PutOntoBattlefield( target:GetOwner() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_NONLAND_PERMANENT_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a nonland permanent to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un permanent non-terrain à exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un permanente que no sea tierra para exiliarlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine bleibende Karte außer einem Land, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un permanente non terra da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放する土地でないパーマネントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 대지가 아닌 지속물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите не являющийся землей перманент для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma permanente que não seja terreno para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放逐的非地永久物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個非地永久物來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_DEFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_DEFENSIVE_AURA_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

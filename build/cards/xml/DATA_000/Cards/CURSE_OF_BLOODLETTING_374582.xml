@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="223">
+  <FILENAME text="CURSE_OF_BLOODLETTING_374582" />
+  <CARDNAME text="CURSE_OF_BLOODLETTING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Curse of Bloodletting]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Malédiction de saignée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maldición de sangrado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluch des Blutvergießens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maledizione del Salasso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流（りゅう）血（けつ）の呪（のろ）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[방혈의 저주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Проклятие Кровопускания]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maldição da Sangria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[流血诅咒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[流血詛咒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374582" />
+  <ARTID value="138281" />
+  <ARTIST name="Michael C. Hayes" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It is the demon’s mark, an infernal claim on the flesh of the guilty.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[C'est la marque du démon, une emprise infernale sur la chair des coupables.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Es la marca del demonio, un reclamo infernal sobre la carne del culpable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es ist das Zeichen des Dämons, ein höllischer Anspruch auf das Fleisch der Sünder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[È il marchio del demone, una pretesa infernale sulla carne del colpevole.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは悪魔が罪深き者の肉体に刻んだ、地獄からの要求の印だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것은 죄지은 자에게 찍힌 악마의 표식이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Это знак демона — адская претензия на плоть виновного.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esta é a marca do demônio, um sinal infernal na carne dos culpados.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[这是恶魔的记号，烙印于罪人肉体来宣告地狱主权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[這是惡魔的記號，烙印於罪人肉體來宣告地獄主權。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <SUB_TYPE metaname="Curse" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant player]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : joueur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert einen Spieler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta giocatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（プレイヤー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать игрока]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar jogador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于牌手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於玩家]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_TO_CURSE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():AttachToPlayer( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If a source would deal damage to enchanted player, it deals double that damage to that player instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si une source devait infliger des blessures au joueur enchanté, elle inflige le double de ces blessures à ce joueur à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si una fuente fuera a hacer daño al jugador encantado, en vez de eso, hace el doble de ese daño a ese jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls eine Quelle dem verzauberten Spieler Schadenspunkte zufügen würde, fügt sie diesem Spieler stattdessen doppelt so viele Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se una fonte sta per infliggere danno al giocatore incantato, infligge invece il doppio di quel danno a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[発生源がエンチャントされているプレイヤーにダメージを与えるなら、代わりにそれはそのプレイヤーにその点数の２倍のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어느 원천이 부여된 플레이어에게 피해를 입히려 한다면, 대신에 그 원천은 그 피해를 두 배로 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если источник должен нанести повреждения зачарованному игроку, вместо этого он наносит те повреждения тому игроку в двойном размере.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se uma fonte for causar dano ao jogador encantado, em vez disso, ela causará o dobro daquele dano àquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[若某来源将对所结附的牌手造成伤害，则改为它对该牌手造成两倍的伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[若某來源將對所結附的玩家造成傷害，則改為它對該玩家造成兩倍的傷害。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_PLAYER" pre_trigger="1">
+    return SecondaryPlayer() == EffectSource():GetParentPlayer()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    Damage():Multiply(2)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TO_CURSE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to curse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur auquel infliger une malédiction.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para lanzarle una maldición.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der verflucht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore da maledire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪いの対象とするプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저주를 걸 플레이어를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите целевого игрока для проклятия.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para amaldiçoar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位要诅咒的牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來詛咒。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_CURSE_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_CURSE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

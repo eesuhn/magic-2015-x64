@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="MOX_OPAL_382182" />
+  <CARDNAME text="MOX_OPAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mox Opal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mox d'opale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ópalo mox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Opalmox]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mox di Opale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オパールのモックス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[목스 오팔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Опаловый Мокс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mox de Opala]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛋白玛珂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蛋白瑪珂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382182" />
+  <ARTID value="131046" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{0}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The suns of Mirrodin have shone upon perfection only once.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les soleils de Mirrodin n'ont éclairé qu'une seule fois la perfection.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los soles de Mirrodin brillaron sobre la perfección solo una vez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Sonnen von Mirrodin haben solch eine Perfektion nur einmal gesehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I soli di Mirrodin hanno brillato sulla perfezione soltanto una volta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ミラディンの太陽は、かつて一度だけ完璧なる物に輝いたことがある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미로딘의 태양들이 완벽하게 빛난 적은 한 번뿐이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лишь раз солнца Мирродина озарили своими лучами само совершенство.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os sóis de Mirrodin iluminaram a perfeição apenas uma vez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[秘罗地诸阳只映照在一个完美杰作上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[秘羅地諸陽只映照在一個完美傑作上。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Metalcraft| — {T}: Add one mana of any color to your mana pool. Activate this ability only if you control three or more artifacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Art des métaux| — {T} : Ajoutez un mana de la couleur de votre choix à votre réserve. N’activez cette capacité que si vous contrôlez au moins trois artefacts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Metalurgia| — {T}: Agrega un maná de cualquier color a tu reserva de maná. Activa esta habilidad solo si controlas tres o más artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Metallkunst| — {T}: Erhöhe deinen Manavorrat um ein Mana einer beliebigen Farbe. Aktiviere diese Fähigkeit nur, falls du drei oder mehr Artefakte kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Metallurgia| — {T}: Aggiungi un mana di un qualsiasi colore alla tua riserva di mana. Attiva questa abilità solo se controlli tre o più artefatti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|金属術| ― {T}：あなたのマナ・プールに、好きな色１色のマナ１点を加える。この能力は、あなたが３つ以上のアーティファクトをコントロールしているときにのみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[금속조종술  — {T}: 원하는 색의 마나 한 개를 당신의 마나풀에 담는다. 이 능력은 당신이 마법물체를 세 개 이상 조종할 때에만 활성화할수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Работа по металлу| — {T}: добавьте одну ману любого цвета в ваше хранилище маны. Активируйте эту способность, только если вы контролируете не менее трех артефактов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Maestria com Metais| — {T}: Adicione um mana de qualquer cor à sua reserva de mana. Ative esta habilidade somente se você controlar três ou mais artefatos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[金技～{T}：加一点任意颜色的法术力到你的法术力池中。你只可以于你操控三个或更多神器时起动此异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[金技～{T}：加一點任意顏色的魔法力到你的魔法力池中。你只可以於你操控三個或更多神器時起動此異能。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{W/U/B/R/G}">
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    local metalcraftCount = filter:CountStopAt(3)
+    if metalcraftCount == 3 then
+    	return true
+    else
+    	return false
+    end
+    </PRODUCES>
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_ARTIFACT_MANA_WHY_PLAY" removal_tag="HINT_ARTIFACT_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

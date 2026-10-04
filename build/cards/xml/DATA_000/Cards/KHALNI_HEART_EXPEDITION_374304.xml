@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="KHALNI_HEART_EXPEDITION_374304" />
+  <CARDNAME text="KHALNI_HEART_EXPEDITION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Khalni Heart Expedition]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Expédition du Cœur de Khalni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Expedición al Corazón de Khalni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Expedition zum Khalni-Herzen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spedizione al Cuore Khalni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カルニの心（しん）臓（ぞう）の探（たん）検（けん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[칼니 최심부 탐험]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Экспедиция к Сердцу Кални]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Expedição ao Coração de Khalni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坎尼之心探险]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[坎尼之心探險]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374304" />
+  <ARTID value="123647" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{1}{G}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may put a quest counter on Khalni Heart Expedition.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur l’Expédition du Cœur de Khalni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Expedición al Corazón de Khalni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Expedition zum Khalni-Herzen legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca sulla Spedizione al Cuore Khalni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|上陸| ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたはカルニの心臓の探検の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지력 — 대지가 당신의 조종하에 전장에 들어올 때마다, 당신은 칼니 최심부 탐험에 퀘스트 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете положить один жетон странствий на Экспедицию к Сердцу Кални.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode colocar um marcador de busca em Expedição ao Coração de Khalni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地落～每当一个地在你的操控下进战场时，你可以在坎尼之心探险上放置一个探索指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地落～每當一個地在你的操控下進戰場時，你可以在坎尼之心探險上放置一個探索指示物。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Quest" proliferate="11" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    if EffectSource() ~= nil and EffectSource():CountCounters(MTG():GetCountersType("Quest")) &lt; 3 and TriggerObject():GetCardType():Test( CARD_TYPE_LAND )  then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("Quest"), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove three quest counters from Khalni Heart Expedition and sacrifice it: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez trois marqueurs « quête » de l’Expédition du Cœur de Khalni et sacrifiez-la : Cherchez dans votre bibliothèque jusqu’à deux cartes de terrain de base, mettez-les sur le champ de bataille engagées et mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover tres contadores de búsqueda de la Expedición al Corazón de Khalni y sacrificarla: Busca en tu biblioteca hasta dos cartas de tierra básica, ponlas en el campo de batalla giradas y luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne drei Quest-Marken von der Expedition zum Khalni-Herzen und opfere sie: Durchsuche deine Bibliothek nach bis zu zwei Standardland-Karten, bringe sie getappt ins Spiel und mische dann deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi tre segnalini ricerca dalla Spedizione al Cuore Khalni e sacrificala: Passa in rassegna il tuo grimorio per trovare fino a due carte terra base, mettile sul campo di battaglia TAPpate, poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カルニの心臓の探検を、その上から探索カウンターを３個取り除いて生け贄に捧げる：あなたのライブラリーから基本土地カードを最大２枚まで探し、それらをタップ状態で戦場に出し、その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[칼니 최심부 탐험의 퀘스트 카운터 세 개를 제거하고 희생한다: 당신의 서고에서 최대 두 개의 기본 대지 카드를 찾아서 탭된 상태로 전장에 놓은 다음 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите три жетона странствий с Экспедиции к Сердцу Кални и пожертвуйте ее: найдите в вашей библиотеке не более двух карт базовых земель, положите их на поле битвы повернутыми, затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova três marcadores de busca de Expedição ao Coração de Khalni e sacrifique-o: Procure até dois cards de terreno básico em seu grimório, coloque-os no campo de batalha virados e depois embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从坎尼之心探险上移去三个探索指示物并牺牲它：从你的牌库中搜寻至多两张基本地牌，将它们横置进战场，然后将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從坎尼之心探險上移去三個探索指示物並犧牲它：從你的牌庫中搜尋至多兩張基本地牌，將它們橫置進戰場，然後將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <COST type="RemoveCountersSelf" amount="3" counter_type="Quest" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount( 2 )
+    for i = 0, (2-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_THE_BATTLEFIELD_TAPPED" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(2-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil  then
+    		target_card:PutOntoBattlefieldTapped( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_RAMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY type="in_response" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <AI_COUNTER_SCORE type="Quest" score="100" max_counters="3" />
+  <HELP title="MORE_INFO_TITLE_LANDFALL" body="MORE_INFO_BODY_LANDFALL" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_THE_BATTLEFIELD_TAPPED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to put onto the battlefield tapped. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le mettre sur le champ de bataille engagé. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para ponerla en el campo de batalla girada. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das getappt ins Spiel gebracht werden soll. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da mettere sul campo di battaglia TAPpata. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップ状態で戦場に出す土地を１つ選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭된 상태로 전장에 놓을 대지 한 개를 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю, чтобы положить ее на поле битвы повернутой. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para colocar no campo de batalha virado. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个地横置放进战场。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地橫置放進戰場。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="128">
+  <FILENAME text="AKROAN_SKYGUARD_378457" />
+  <CARDNAME text="AKROAN_SKYGUARD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Akroan Skyguard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardeciel akroen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guardia celeste akroniense]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Akroischer Himmelswächter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardia Celeste di Akros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アクロスの空（そら）護（ご）衛（えい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아크로스 창공수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Акросский Небесный Страж]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guardião Alado Acrosano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿喀洛斯空护卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿喀洛斯空護衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378457" />
+  <ARTID value="152013" />
+  <ARTIST name="Mark Winters" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Trust me. When you have earned a god’s favor, you’ll know.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Croyez-moi. Quand vous aurez gagné la faveur d'un dieu, vous le saurez. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Confía en mí. Cuando te hayas ganado el favor de un dios, lo sabrás”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Glaub mir. Wenn du in der Gunst eines Gottes stehst, dann weißt du es.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Credimi. Quando avrai ottenuto il favore di un dio, te ne accorgerai.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「まあ見ていたまえ。神の寵愛を受けたら、すぐに分かる。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“믿어요. 신의 은혜를 받게 되면 당신도 알게 될 겁니다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Поверь мне. Когда ты заслужишь расположение бога, ты об этом узнаешь».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Confie em mim. Quando receber a proteção de um deus, você saberá.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「相信我。得到神恩眷顾时，你自然会知道。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「相信我。得到神恩眷顧時，你自然會知道。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Heroic| — Whenever you cast a spell that targets Akroan Skyguard, put a +1/+1 counter on Akroan Skyguard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Héroïque| — À chaque fois que vous lancez un sort qui cible le Gardeciel akroen, mettez un marqueur +1/+1 sur le Gardeciel akroen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Heroísmo| — Siempre que lances un hechizo que haga objetivo a la Guardia celeste akroniense, pon un contador +1/+1 sobre la Guardia celeste akroniense.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Heroisch| — Immer wenn du einen Zauberspruch wirkst, der den Akroischen Himmelswächter als Ziel hat, lege eine +1/+1-Marke auf den Akroischen Himmelswächter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Eroismo| — Ogniqualvolta lanci una magia che bersaglia la Guardia Celeste di Akros, metti un segnalino +1/+1 sulla Guardia Celeste di Akros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|英雄的| ― あなたがアクロスの空護衛を対象とする呪文を１つ唱えるたび、アクロスの空護衛の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅 — 당신이 아크로스 창공수호자를 목표로 주문을 발동할 때마다, 아크로스 창공수호자에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Героизм| — Каждый раз, когда вы разыгрываете заклинание, целью которого является Акросский Небесный Страж, положите один жетон +1/+1 на Акросского Небесного Стража.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Heroico| — Toda vez que você conjurar uma mágica cujo alvo seja Guardião Alado Acrosano, coloque um marcador +1/+1 em Guardião Alado Acrosano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇行～每当你施放一个以阿喀洛斯空护卫为目标的咒语时，在阿喀洛斯空护卫上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇行～每當你施放一個以阿喀洛斯空護衛為目標的咒語時，在阿喀洛斯空護衛上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return TriggerObject():IsTargeting(EffectSource())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_HEROIC" body="MORE_INFO_BODY_HEROIC" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

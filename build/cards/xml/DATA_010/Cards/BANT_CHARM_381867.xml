@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="BANT_CHARM_381867" />
+  <CARDNAME text="BANT_CHARM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bant Charm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Charme de Bant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Amuleto bantiano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Amulett aus Bant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Monile di Bant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[バントの魔（ま）除（よ）け]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[반트 부적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Талисман Бэнта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Medalhão de Bant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[班特护符]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[班特護符]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381867" />
+  <ARTID value="114912" />
+  <ARTIST name="Randy Gallegos" />
+  <CASTING_COST cost="{G}{W}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bant is a world where death and chaos hold no sway.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bant est un monde où la mort et le chaos n'ont pas prise.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bant es un mundo donde la muerte y el caos no tienen lugar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bant ist eine Welt, in der Tod und Chaos keinerlei Macht haben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bant è un mondo in cui morte e caos non hanno alcun potere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[バントは死と混沌が揺らがない世界。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[반트는 죽음과 혼돈이 무력한 곳이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бэнт — это мир, над которым не властны смерть и хаос.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bant é um mundo onde a morte e o caos não têm vez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[班特这世界几乎和死亡与混沌无缘。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[班特這世界幾乎和死亡與混沌無緣。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose one — Destroy target artifact; or put target creature on the bottom of its owner’s library; or counter target instant spell.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez l’un — Détruisez l’artefact ciblé ; ou mettez la créature ciblée au-dessous de la bibliothèque de son propriétaire ; ou contrecarrez le sort d’éphémère ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige uno: Destruye el artefacto objetivo; o pon la criatura objetivo en el fondo de la biblioteca de su propietario; o contrarresta el hechizo de instantáneo objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eines — Zerstöre ein Artefakt deiner Wahl; oder lege eine Kreatur deiner Wahl unter die Bibliothek ihres Besitzers; oder neutralisiere einen Spontanzauber deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli uno — Distruggi un artefatto bersaglio; oppure metti una creatura bersaglio in fondo al grimorio del suo proprietario; oppure neutralizza una magia istantaneo bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[以下の３つから１つを選ぶ。「アーティファクト１つを対象とし、それを破壊する。」「クリーチャー１体を対象とし、それをオーナーのライブラリーの一番下に置く。」「インスタント・呪文１つを対象とし、それを打ち消す。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하나를 선택한다 — 마법물체 한 개를 목표로 정한다. 그 마법물체를 파괴한다; 아니면 생물 한 개를 목표로 정한다. 그 생물을 소유자의 서고 맨 밑에 놓는다; 아니면 순간마법 주문 한 개를 목표로 정한다. 그 주문을 무효화한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите одно — уничтожьте целевой артефакт; или положите целевое существо в низ библиотеки его владельца; или отмените целевое мгновенное заклинание.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um — Destrua o artefato alvo; ou coloque a criatura alvo no fundo do grimório de seu dono; ou anule a mágica instantânea alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一项～消灭目标神器；或将目标生物置于其拥有者的牌库底；或反击目标瞬间咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一項～消滅目標神器；或將目標生物置於其擁有者的牌庫底；或反擊目標瞬間咒語。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <MODE_SELECT tag="MODE_CHOOSE_ONE" min="1" max="1">
+      <MODE tag="MODE_BANT_ARTIFACT" index="1" />
+      <MODE tag="MODE_BANT_CREATURE" index="2" />
+      <MODE tag="MODE_BANT_COUNTER" index="3" />
+    </MODE_SELECT>
+    <TARGET tag="CARD_QUERY_CHOOSE_ARTIFACT_TO_DESTROY" definition="0" compartment="0" mode="1" count="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BOTTOM_LIBRARY" definition="1" compartment="1" mode="2" count="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER" definition="2" compartment="2" mode="3" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="2">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_STACK ) 
+    filter:Add (FE_TYPE, OP_IS, CARD_TYPE_INSTANT) 
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION mode="1">
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	local target = targetDC:Get_CardPtr(0)
+    	if target ~= nil then   
+    		target:Destroy()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION mode="2">
+    local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if target ~= nil then
+    	target:PutOnBottomOfLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION mode="3">
+    local target = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    if target ~= nil then
+    	target:CounterSpell(EffectSource())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <AI_SIMPLIFIED_TARGETING compartment="1" hint="HINT_ENEMY_ONLY" />
+    <AI_SIMPLIFIED_TARGETING compartment="2" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARTIFACT_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an artifact to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un artefact à détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un artefacto para destruirlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Artefakt, das zerstört wird.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un artefatto da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するアーティファクトを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 마법물체를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите артефакт для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um artefato para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要消灭的神器。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個神器來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_BOTTOM_LIBRARY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put on the bottom of its owner’s library. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre au-dessous de la bibliothèque de son propriétaire. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para poner en el fondo de la biblioteca de su propietario. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die unter die Bibliothek ihres Besitzers gelegt werden soll. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere in fondo al grimorio del suo proprietario. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーのライブラリーの一番下に置くクリーチャーを１体選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 서고 맨 밑에 놓을 생물 한 개를 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, чтобы положить его в низ библиотеки его владельца. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar no fundo do grimório de seu dono. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物置于其拥有者的牌库底。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物置於其擁有者的牌庫底。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a spell to counter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un sort à contrecarrer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un hechizo para contrarrestar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Zauberspruch, der neutralisiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una magia da neutralizzare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[打ち消す呪文を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무효화할 주문 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите заклинание для отмены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma mágica para anular.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要反击的咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個咒語來反擊。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

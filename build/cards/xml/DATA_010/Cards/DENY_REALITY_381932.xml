@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="111">
+  <FILENAME text="DENY_REALITY_381932" />
+  <CARDNAME text="DENY_REALITY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Deny Reality]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Déni de réalité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Negar la realidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Realität leugnen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Negare la Realtà]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[現（げん）実（じつ）の否（ひ）定（てい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[현실 부정]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отказ от Реальности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Negar a Realidade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[否认现实]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[否認現實]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381932" />
+  <ARTID value="121039" />
+  <ARTIST name="Jean-Sébastien Rossbach" />
+  <CASTING_COST cost="{3}{U}{B}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cascade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cascade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cascada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kaskade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cascata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[続唱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[연쇄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каскад]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cascata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[倾曳]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[傾曳]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local cardsInLibrary = EffectController():Library_Count()
+    local cascadeDC = EffectDC():Make_Chest(0)
+    local triggerObjectCMC = TriggerObjectLKI():GetConvertedManaCost()
+    for i = 0, (cardsInLibrary-1) do
+    	local card = EffectController():Library_GetNth(0)
+    	if card ~= nil then
+    		cascadeDC:Set_CardPtr(i, card)
+    		cascadeDC:Protect_CardPtr(i)
+    		
+    		card:Exile()		
+    		if (card:GetConvertedManaCost() &lt; triggerObjectCMC) and (card:GetCardType():Test(CARD_TYPE_LAND) == false) then
+    			EffectDC():Set_CardPtr(1, card)
+    			EffectDC():Protect_CardPtr(1)
+    			break
+    		end
+    	end
+    end
+    local numPlayers = MTG():GetNumberOfPlayers()
+    for j = 0, (numPlayers-1) do
+    	local player = MTG():GetNthPlayer(j)
+    	
+    	if player ~= nil then
+    		player:RevealDCToMe(cascadeDC)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local cascadedCard = EffectDC():Get_CardPtr(1)
+    if cascadedCard ~= nil then
+    	if effectController ~= nil then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_CASCADE_CAST_SPELL", effectController:CanCastSpellForFree( cascadedCard) )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_CASCADE_DO_NOT_CAST" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_CAST_FOR_FREE", cascadedCard )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local result = TriggerPlayer():GetMultipleChoiceResult()
+    local cascadedCard = EffectDC():Get_CardPtr(1)
+    if cascadedCard ~= nil then
+    	if result == 0 then
+    		EffectController():CastSpellForFree(cascadedCard)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cascadeDC = EffectDC():Get_Chest(0)
+    if cascadeDC ~= nil then
+    	local cascadeNumCards = cascadeDC:Count()
+    	for i=0,cascadeNumCards-1 do
+    		local card = cascadeDC:Remove_RandomCardPtr()
+    		if card ~= nil then
+    			card:PutOnBottomOfLibrary()
+    		else
+    			break
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez le permanent ciblé dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa el permanente objetivo a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine bleibende Karte deiner Wahl auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare un permanente bersaglio in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[パーマネント１つを対象とし、それをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지속물 한 개를 목표로 정한다. 그 지속물을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевой перманент в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva a permanente alvo para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标永久物移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標永久物移回擁有者手上。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_INTO_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_IS_PERMANENT, true )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_CASCADE" body="MORE_INFO_BODY_CASCADE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CASCADE_CAST_SPELL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast the spell. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez le sort. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza el hechizo. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Zauberspruch wirken. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia la magia. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文を唱える。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 발동한다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть заклинание. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar a mágica. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放该咒语。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放該咒語。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CASCADE_DO_NOT_CAST">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not cast the spell.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne lancez pas le sort.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No lanzar el hechizo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Zauberspruch nicht wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non lanciare la magia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文を唱えない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 발동하지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не разыгрывать заклинание.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não conjurar a mágica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不施放该咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不施放該咒語。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CAST_FOR_FREE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast the card without paying its mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez la carte sans payer son coût de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza la carta sin pagar su coste de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Karte wirken, ohne ihre Manakosten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia la carta senza pagare il suo costo di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マナ・コストを支払わずにこのカードを唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마나비용을 지불하지 않고 카드를 발동한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграйте карту без уплаты ее мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar o card pagando seu custo de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放该牌且不需支付其法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放該牌且不需支付其魔法力費用。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a permanent to put into it’s owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un permanent pour le mettre dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un permanente para poner en la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine bleibende Karte, die auf die Hand ihres Besitzers gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un permanente da mettere in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すパーマネントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 지속물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите перманент, который нужно положить в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma permanente para colocar na mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个永久物，以将其置入其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個永久物置入其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_TEMPO_WHY_PLAY" removal_tag="HINT_SPELL_TEMPO_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

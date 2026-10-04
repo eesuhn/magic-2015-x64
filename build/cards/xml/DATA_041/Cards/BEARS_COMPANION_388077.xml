@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="BEARS_COMPANION_388077" />
+  <CARDNAME text="BEARS_COMPANION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bear’s Companion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Compagnon de l'ours]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Compañera del oso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gefährte des Bären]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Compagna dell’Orso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[熊（くま）の仲（なか）間（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[곰의 친구]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Спутник Медведя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Companheiro do Urso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨熊旅伴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨熊旅伴]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388077" />
+  <ARTID value="156528" />
+  <ARTIST name="Winona Nelson" />
+  <CASTING_COST cost="{2}{G}{U}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The Sultai came hunting for a bear hide. Now I have a belt of naga skin, and my friend has a full belly.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les Sultaï voulaient une peau d'ours. J'ai maintenant une ceinture en peau de naga, et mon ami a le ventre plein. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los Sultai vinieron de cacería en busca de la piel de un oso. Ahora tengo un cinturón de piel de naga, y mi amigo, el estómago lleno”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Sultai wollten eine Bärenhaut erbeuten. Jetzt habe ich einen Nagaledergürtel und mein Freund einen vollen Bauch.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I Sultai sono giunti in cerca della pelle di un orso. Ora io ho una cintura di pelle di naga e il mio amico ha la pancia piena.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「スゥルタイは熊の毛皮を求めて狩猟に来た。おかげで私はナーガの皮で作ったベルトを得て、我が友は満腹となった。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["술타이가 곰 가죽을 얻으려고 사냥을 나왔다. 난 나가 가죽 벨트를 얻었고, 내 친구는 배를 채웠다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Султайцы явились сюда, чтобы добыть медвежью шкуру. Теперь у меня есть пояс из кожи наги, а у друга — набитый живот».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os Sultai vieram caçar pele de ursos. Agora, eu tenho um cinto de couro de naga e meu amigo está de barriga cheia.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「苏勒台为了熊皮前来狩猎。现在我有了一条那伽皮的腰带，我的朋友则吃得饱饱的。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「蘇勒台為了熊皮前來狩獵。現在我有了一條那伽皮的腰帶，我的朋友則吃得飽飽的。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Bear’s Companion enters the battlefield, put a 4/4 green Bear creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Compagnon de l’ours arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 4/4 verte Ours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Compañera del oso entre al campo de batalla, pon en el campo de batalla una ficha de criatura Oso verde 4/4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Gefährte des Bären ins Spiel kommt, bringe einen 4/4 grünen Bär-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Compagna dell’Orso entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Orso 4/4 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[熊の仲間が戦場に出たとき、緑の４/４の熊・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[곰의 친구가 전장에 들어올 때, 4/4 녹색 곰 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Спутник Медведя выходит на поле битвы, положите на поле битвы одну фишку существа 4/4 зеленый Медведь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Companheiro do Urso entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura verde 4/4 do tipo Urso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当巨熊旅伴进战场时，将一个4/4绿色的熊衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當巨熊旅伴進戰場時，將一個4/4綠色的熊衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_BEAR_4_4_G_388099", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="1" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BEAR_4_4_G_388099" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

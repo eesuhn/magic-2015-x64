@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="36">
+  <FILENAME text="FERAL_INCARNATION_374706" />
+  <CARDNAME text="FERAL_INCARNATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Feral Incarnation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Incarnation sauvage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encarnación feral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wilde Inkarnation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incarnazione Ferina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[残（ざん）忍（にん）な権（ごん）化（げ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[짐승의 화신]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дикое Воплощение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encarnação Feral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[野性创生]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[野性創生]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374706" />
+  <ARTID value="155191" />
+  <ARTIST name="Eytan Zana" />
+  <CASTING_COST cost="{8}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nature is itself wild—in all its forms.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La nature elle-même est sauvage... sous toutes ses formes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La naturaleza en sí es salvaje… en todas sus formas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Natur selbst ist wild – in all ihren Formen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La natura stessa è selvaggia, in tutte le sue forme.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自然とは、どのような形であれ野性的である。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자연은 그 자체가 난폭하다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Природа — это дикость во всех ее формах.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A natureza é essencialmente selvagem, em todas as suas formas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[自然本身是很狂野的～从所有方面来说都是。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[自然本身是很狂野的～從所有方面來說都是。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <UTILITY_ABILITY qualifier="Convoke">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Convoke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Convocation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Convocar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einberufen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Convocazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[집합]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Созыв]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Convocar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[召集]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[召集]]></LOCALISED_TEXT>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put three 3/3 green Beast creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille trois jetons de créature 3/3 verte Bête.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla tres fichas de criatura Bestia verdes 3/3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe drei 3/3 grüne Bestie-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia tre pedine creatura Bestia 3/3 verdi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑の３/３のビースト・クリーチャー・トークンを３体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[3/3 녹색 야수 생물 토큰 세 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы три фишки существа 3/3 зеленый Зверь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha três fichas de criatura verdes 3/3 do tipo Besta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将三个3/3绿色野兽衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將三個3/3綠色野獸衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_BEAST_3_3_G_350750", 3, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BEAST_3_3_G_350750" />
+  <HELP title="MORE_INFO_TITLE_CONVOKE" body="MORE_INFO_BODY_CONVOKE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="2400" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

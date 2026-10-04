@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="SAGES_ROW_DENIZEN_382042" />
+  <CARDNAME text="SAGES_ROW_DENIZEN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sage’s Row Denizen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Habitant du rang du Sage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Habitante de la Calle del Sabio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bewohner der Gasse der Weisen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Abitante di Viale della Saggezza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[賢（けん）者（じゃ）街（がい）の住（じゅう）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[현자의 거리 거주민]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Житель Ряда Мудрецов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Habitante da Travessa dos Sábios]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[智者街居民]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[智者街居民]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382042" />
+  <ARTID value="146273" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I offer you wisdom untainted by false loyalty, learning free of any guild’s agenda.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je vous propose une sagesse exempte de loyauté factice, un apprentissage libre de toute menée des guildes. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Te ofrezco sabiduría sin la mancha de la falsa lealtad, un aprendizaje ajeno a los planes de cualquier gremio”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich biete dir Weisheit frei von falscher Loyalität und Wissen, das nicht den Zielen irgendeiner Gilde dient.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ti offro saggezza non contaminata da una falsa fedeltà, apprendimento libero dai secondi fini delle gilde.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「まやかしの忠誠に穢されていない知恵を、どのギルドの企みにも縛られない学びを、お前に与えよう。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["가식적인 충성심이나 길드의 영향으로부터 자유로운 순수한 지혜를 주겠네"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я предлагаю вам мудрость, не запятнанную ложной верностью, и знания, свободные от влияния гильдий».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu lhe ofereço uma sabedoria imaculada pela falsa lealdade, um aprendizado livre da agenda de qualquer guilda.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我给予你不受伪忠所玷污的智慧，在不受任何公会的图谋影响下学习。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我給予你不受偽忠所玷污的智慧，在不受任何公會的圖謀影響下學習。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vedalken" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another blue creature enters the battlefield under your control, target player puts the top two cards of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature bleue arrive le champ de bataille sous votre contrôle, le joueur ciblé met les deux cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura azul entre al campo de batalla bajo tu control, el jugador objetivo pone las dos primeras cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere blaue Kreatur unter deiner Kontrolle ins Spiel kommt, legt ein Spieler deiner Wahl die obersten beiden Karten seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura blu entra nel campo di battaglia sotto il tuo controllo, un giocatore bersaglio mette nel suo cimitero le prime due carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他の青のクリーチャーが１体あなたのコントロール下で戦場に出るたび、プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上から２枚のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 조종하에 다른 청색 생물이 전장에 들어올 때마다, 플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 서고 맨 위의 카드 두 장을 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое синее существо выходит на поле битвы под вашим контролем, целевой игрок кладет две верхние карты своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura azul entra no campo de batalha sob o seu controle, o jogador alvo coloca os dois cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个蓝色生物在你的操控下进战场时，目标牌手将其牌库顶的两张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個藍色生物在你的操控下進戰場時，目標玩家將其牌庫頂的兩張牌置入其墳墓場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) and TriggerObject():GetColour():Test( COLOUR_BLUE ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_MILL_2" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	target:MillCards( 2, EffectSourceLKI() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_MILL_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to put two cards from the top of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui faire mettre deux cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que ponga dos cartas de la parte superior de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der zwei Karten oben von seiner Bibliothek auf seinen Friedhof legen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che mette nel suo cimitero le prime due carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自分のライブラリーの一番上から２枚のカードを自分の墓地に置くプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자신의 서고 맨 위의 카드 두 장을 무덤에 넣을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен положить две карты с верха своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para colocar dois cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以将其牌库顶的两张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來將其牌庫頂的兩張牌置入其墳墓場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

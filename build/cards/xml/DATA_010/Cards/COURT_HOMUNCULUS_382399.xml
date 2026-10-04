@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="COURT_HOMUNCULUS_382399" />
+  <CARDNAME text="COURT_HOMUNCULUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Court Homunculus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Homoncule de la cour]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Homúnculo de la corte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hof-Homunkulus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Omuncolo di Corte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[宮（きゅう）廷（てい）のホムンクルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[법정 호문쿨루스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Придворный Гомункул]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Homúnculo Real]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[庭园造妖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[庭園造妖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382399" />
+  <ARTID value="118740" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mages of Esper measure their wealth and status by the number of servants in their retinues.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La richesse et le statut social d'un mage d'Esper se mesurent au nombre de serviteurs dans leur escorte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los magos de Esper miden su riqueza y estatus por la cantidad de sirvientes en sus séquitos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Magier von Esper messen ihren Wohlstand und Status an der Anzahl der Diener in ihrem Gefolge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I maghi di Esper misurano la loro importanza sociale basandosi sul numero di servitori a loro disposizione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エスパーの魔道士の富や地位は、従える召使の数で計られる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에스퍼의 마도사들은 자신들의 수행원 중에 하인의 수로 자신들의 부와 권력을 가늠한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мерилом богатства и статуса эсперских магов служит количество слуг в их свитах.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os magos de Esper medem sua riqueza e status pelo número de servos em seus séquitos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[艾斯波的法师衡量自身财富与地位的标准，是随员中仆从之数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艾斯波的法師衡量自身財富與地位的標準，是隨員中僕從之數量。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Homunculus" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Court Homunculus gets +1/+1 as long as you control another artifact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Homoncule de la cour gagne +1/+1 tant que vous contrôlez un autre artefact.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Homúnculo de la corte obtiene +1/+1 mientras controles otro artefacto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Hof-Homunkulus erhält +1/+1, solange du ein anderes Artefakt kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Omuncolo di Corte prende +1/+1 fintanto che controlli un altro artefatto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[宮廷のホムンクルスは、あなたが他のアーティファクトをコントロールしているかぎり＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[법정 호문쿨루스는 당신이 다른 마법물체를 조종하는 한 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Придворный Гомункул получает +1/+1, пока вы контролируете другой артефакт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Homúnculo Real recebe +1/+1 enquanto você controlar outro artefato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要你操控另一个神器，庭园造妖便得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要你操控另一個神器，庭園造妖便得+1/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local effectSource = EffectSource()
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    local numArtifacts = filter:CountStopAt(1)
+    if numArtifacts &gt;=1 then
+    	effectSource:GetCurrentCharacteristics():Power_Add( 1 )
+    	effectSource:GetCurrentCharacteristics():Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

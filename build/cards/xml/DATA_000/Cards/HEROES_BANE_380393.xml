@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="HEROES_BANE_380393" />
+  <CARDNAME text="HEROES_BANE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Heroes’ Bane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fléau des héros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ruina de héroes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heldenverschlingerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flagello degli Eroi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[英（えい）雄（ゆう）たちを破（は）滅（めつ）させるもの]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅의 재앙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Погибель Героев]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Perdição dos Heróis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[英雄灾祸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[英雄災禍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380393" />
+  <ARTID value="153017" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Travelers’ tales claim that hydras bite off their own heads to make themselves deadlier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Selon les contes de voyage, les hydres arrachent leurs propres têtes pour se rendre encore plus dangereuses.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las historias de los viajeros cuentan que las hidras se arrancan sus propias cabezas a mordiscos para ser más letales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reisende berichten, dass Hydras sich die eigenen Köpfe abbeißen, um noch tödlicher zu werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I racconti dei viandanti sostengono che le idre si stacchino le teste a morsi per rendersi ancora più letali.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[旅人たちのうわさ話によれば、ハイドラはより強くなるために、自らの首を噛み切り落とすらしい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[여행자들이 말하길, 히드라는 더 강해지기 위해 자기 목을 물어뜯는다고 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бывалые путешественники утверждают, что гидры сами откусывают себе головы, чтобы стать еще опаснее.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[De acordo com as histórias dos viajantes, as hidras arrancam as próprias cabeças para se tornarem mais letais.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[旅人间相传着：多头龙会咬掉自己的头，以便变得更致命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[旅人間相傳著：多頭龍會咬掉自己的頭，以便變得更致命。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hydra" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Heroes’ Bane enters the battlefield with four +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Fléau des héros arrive sur le champ de bataille avec quatre marqueurs +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Ruina de héroes entra al campo de batalla con cuatro contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Heldenverschlingerin kommt mit vier +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Flagello degli Eroi entra nel campo di battaglia con quattro segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[英雄たちを破滅させるものは＋１/＋１カウンターが４個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅의 재앙은 +1/+1 카운터 네 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Погибель Героев выходит на поле битвы с четырьмя жетонами +1/+1 на ней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Perdição dos Heróis entra no campo de batalha com quatro marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[英雄灾祸进战场时上面有四个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[英雄災禍進戰場時上面有四個+1/+1指示物。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="+1/+1" proliferate="10" />
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("+1/+1"), 4)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{G}{G}: Put X +1/+1 counters on Heroes’ Bane, where X is its power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{G}{G} : Mettez X marqueurs +1/+1 sur le Fléau des héros, X étant sa force.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{G}{G}: Pon X contadores +1/+1 sobre la Ruina de héroes, donde X es su fuerza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{G}{G}: Lege X +1/+1-Marken auf die Heldenverschlingerin, wobei X gleich ihrer Stärke ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{G}{G}: Metti X segnalini +1/+1 sul Flagello degli Eroi, dove X è la sua forza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}{G}：英雄たちを破滅させるものの上に＋１/＋１カウンターをＸ個置く。Ｘはこれのパワーに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{G}{G}: 영웅의 재앙에 +1/+1 카운터를 X개 올려놓는다. X는 그 카드의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{G}{G}: положите X жетонов +1/+1 на Погибель Героев, где X — значение ее силы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{G}{G}: Coloque X marcadores +1/+1 em Perdição dos Heróis, sendo X seu poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{G}{G}：在英雄灾祸上放置X个+1/+1指示物，X为其力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{G}{G}：在英雄災禍上放置X個+1/+1指示物，X為其力量。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{G}{G}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local power = EffectSource():GetCurrentPower()
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), power)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_HYDRA_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

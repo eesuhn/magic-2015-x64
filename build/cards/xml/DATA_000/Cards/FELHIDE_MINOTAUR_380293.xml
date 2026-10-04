@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="FELHIDE_MINOTAUR_380293" />
+  <CARDNAME text="FELHIDE_MINOTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Felhide Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Minotaure Fangepeau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Minotauro pielacre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schauderbalg-Minotaurus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Minotauro Velloirsuto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪（あく）魔（ま）の皮（かわ）のミノタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[썩은가죽 미노타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скверношкурый Минотавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Minotauro Courovil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[惊怖牛头怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[驚怖牛頭怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380293" />
+  <ARTID value="149182" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[With spear held high, the Champion came to meet Thyrogog of the Ashlands, who wore the old king’s skin as a cloak and fed on the flesh of innocents. The foul minotaur raised the great axe called Goremaster and charged.
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lance au poing, la Championne approcha de Thyrogog des Terres cendrées, paré d'une cape faite de la peau du vieux roi et repu de la chair d'innocents. Le minotaure fétide leva la grande hache baptisée Enteroncrate et chargea.
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Con la lanza en alto, la Campeona fue a encontrarse con Tyrogog de los Eriales cinéreos, quien llevaba por túnica la piel del anciano rey y se alimentaba con la carne de los inocentes. El pestilente minotauro alzó la enorme hacha llamada Destripadora y cargó.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Speer hoch erhoben stellte die Auserwählte sich Thyrogog aus dem Aschland, der des alten Königs Haut als Mantel trug und das Fleisch der Unschuldigen fraß. Der stinkende Minotaurus erhob Blutgier, seine Kriegsaxt, und griff an.
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Brandendo la lancia, la Campionessa andò incontro a Thyrogog delle Terre Cineree, che indossava la pelle del vecchio re come mantello e si nutriva della carne degli innocenti. L’orrido minotauro sollevò la grande ascia, conosciuta come la Sanguinaria, e caricò.
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[女勇者は槍を高く掲げ、古き王の皮を外套としてまといながら罪無き者の肉を喰らう灰燼の地のサイロゴーグと対峙した。その穢れたミノタウルスは、流血の主と名付けられた巨大な斧を振り上げて突進してきた。――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅은 창을 높이 들고 잿빛 땅의 사이로고그와 마주 섰다. 사이로고그는 선왕의 가죽을 벗겨서 망토로 만들어 두르고 무고한 사람들을 잡아먹는 사악한 미노타우로스였다. 그 추악한 악당은 무적뿔이라는 이름의 거대한 도끼를 들고 영웅을 향해 돌진했다.
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Высоко подняв копье, Поборница вышла навстречу Тирогогу с Пепелищ, который как плащ носил кожу старого короля и питался плотью невинных. Нечестивый минотавр занес над головой свой топор, зовущийся Кровопролитцем, и бросился в атаку.
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[De lança em punho, a Campeã veio enfrentar Tirogogue das Terras Cinzentas, que usava a pele do antigo rei como manto e se alimentava da carne dos inocentes. O vil minotauro ergueu o grande machado, conhecido como Mestre da Sangria, e atacou.
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[烬土的泰罗格，这污秽的牛头人生剥亡君皮肉作衣，活吞无辜性命为食。天尊扬起长矛赴会，而泰罗格立即举起粹血巨斧冲前开战。
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[燼土的泰羅格，這污穢的牛頭人生剝亡君皮肉作衣，活吞無辜性命為食。天尊揚起長矛赴會，而泰羅格立即舉起粹血巨斧衝前開戰。
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

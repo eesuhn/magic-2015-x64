@@ -1,0 +1,127 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="SKULLMULCHER_381918" />
+  <CARDNAME text="SKULLMULCHER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Skullmulcher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fertiliseur de crânes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cubrecalaveras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schädelmulcher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Necroconcimatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[髑（どく）髏（ろ）覆（おお）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[해골절단기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Перетиратель Черепов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recicla-cova]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[掩颅灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[掩顱靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381918" />
+  <ARTID value="115220" />
+  <ARTIST name="Michael Ryan" />
+  <CASTING_COST cost="{4}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Devour 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dévorement 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorar 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verschlingen 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divorare 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食１]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожирание 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devorar 1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[吞噬1]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[吞噬1]]></LOCALISED_TEXT>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_query="1" linked_ability_group="1" active_zone="ZONE_TRANSITION">
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local max_victims = filter:Count()
+    if max_victims &gt; 0 then
+    	EffectController():SetItemCount( max_victims )
+    	for i = 0,(max_victims-1) do
+    		EffectController():SetItemPrompt (i, "CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_1" )
+    	end
+    	
+    	EffectDC():Set_Int(1, max_victims)
+    	EffectController():ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local max_victims = EffectDC():Get_Int(1)
+    local devour_count = 0
+    		
+    for i=0,max_victims-1 do
+    	local victim = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if victim ~= nil then
+    		EffectController():Sacrifice(victim)
+    		devour_count = devour_count + 1
+    		LinkedDC():Set_Int(0, devour_count )
+    	end
+    end
+    		
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), devour_count*1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Skullmulcher enters the battlefield, draw a card for each creature it devoured.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Fertiliseur de crânes arrive sur le champ de bataille, piochez une carte pour chaque créature qu’il a dévorée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Cubrecalaveras entre al campo de batalla, roba una carta por cada criatura que devoró.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Schädelmulcher ins Spiel kommt, ziehe für jede Kreatur, die er verschlungen hat, eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Necroconcimatore entra nel campo di battaglia, pesca una carta per ogni creatura divorata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[髑髏覆いが場に出たとき、それが貪食したクリーチャー１体につきカードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[해골절단기가 전장에 들어올 때, 해골절단기가 포식한 생물 한 개당 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Перетиратель Черепов выходит на поле битвы, возьмите одну карту за каждое пожранное им существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Recicla-cova entrar no campo de batalha, compre um card para cada criatura devorada por ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当掩颅灵进战场时，它每吞噬过一个生物，便抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當掩顱靈進戰場時，它每吞噬過一個生物，便抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local numCardsToDraw = LinkedDC():Get_Int(0)
+    if numCardsToDraw ~= 0 then
+    	EffectController():DrawCards( numCardsToDraw )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_DEVOUR" body="MORE_INFO_BODY_DEVOUR" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose any number of creatures to devour. This creature enters the battlefield with that many +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez n'importe quel nombre de créatures pour le dévorement. Cette créature arrive sur le champ de bataille avec autant de marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige cualquier cantidad de criaturas para devorar. Esta criatura entra al campo de batalla con esa cantidad de contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine beliebige Anzahl an Kreaturen, die verschlungen werden sollen. Diese Kreatur kommt mit so vielen +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un qualsiasi numero di creature da divorare. Questa creatura entra nel campo di battaglia con un numero di segnalini +1/+1 pari alle creature divorate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食するクリーチャーを望む数だけ選んでください。このクリーチャーは、その数に等しい数の＋１/＋１カウンターが置かれた状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식할 생물을 원하는 만큼 고르십시오. 이 생물은 포식한 생물 수만큼의 +1/+1 카운터를 가진 채로 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите любое количество существ для Пожирания. Это существо выходит на поле битвы с таким же количеством жетонов +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma quantidade qualquer de criaturas para devorar. Esta criatura entra no campo de batalha com um número equivalente de marcadores +1/+1 sobre ela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择任意数量要吞噬的生物。此生物进战场时上面有等量的+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇任意數量的生物來吞噬。此生物進戰場時上面有等量的+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose any number of creatures to devour. This creature enters the battlefield with that many +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez n'importe quel nombre de créatures pour le dévorement. Cette créature arrive sur le champ de bataille avec autant de marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige cualquier cantidad de criaturas para devorar. Esta criatura entra al campo de batalla con esa cantidad de contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine beliebige Anzahl an Kreaturen, die verschlungen werden sollen. Diese Kreatur kommt mit so vielen +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un qualsiasi numero di creature da divorare. Questa creatura entra nel campo di battaglia con un numero di segnalini +1/+1 pari alle creature divorate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食するクリーチャーを望む数だけ選んでください。このクリーチャーは、その数に等しい数の＋１/＋１カウンターが置かれた状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식할 생물을 원하는 만큼 고르십시오. 이 생물은 포식한 생물 수만큼의 +1/+1 카운터를 가진 채로 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите любое количество существ для Пожирания. Это существо выходит на поле битвы с таким же количеством жетонов +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma quantidade qualquer de criaturas para devorar. Esta criatura entra no campo de batalha com um número equivalente de marcadores +1/+1 sobre ela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择任意数量要吞噬的生物。此生物进战场时上面有等量的+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇任意數量的生物來吞噬。此生物進戰場時上面有等量的+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="584">
+  <FILENAME text="SATYR_HOPLITE_380934" />
+  <CARDNAME text="SATYR_HOPLITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Satyr Hoplite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hoplite satyre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hoplita sátira]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Satyr-Hoplitin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Satiro Oplita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[サテュロスの重（じゅう）装（そう）歩（ほ）兵（へい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사티로스 중장보병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сатир-Гоплит]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hoplita Sátiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[羊蹄人重装步兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[羊蹄人重裝步兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380934" />
+  <ARTID value="152817" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Xenagos has become what he once despised: a tyrant and an oppressor.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Xénagos est devenu ce qu'il méprisait jadis : un tyran et un oppresseur. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Xenagos se ha convertido en lo que antes despreciaba: un tirano y un opresor”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Xenagos wurde das, was er am meisten verabscheute: ein Tyrann und Unterdrücker.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Xenagos è divenuto ciò che un tempo disprezzava: un tiranno e un oppressore.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ゼナゴスはかつての彼が嫌っていた、暴君、圧政者に成り果ててしまいました。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA['제나고스는 한때 자신이 경멸했던 폭군이자 압제자가 되었다.']]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ксенаг сам стал тем, кого когда-то презирал, — тираном и притеснителем».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Xenagos transformou-se naquilo que ele outrora desprezara: um tirano opressor.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「谢纳戈斯已成为他一度厌弃的人：暴君和压迫者。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「謝納戈斯已成為他一度厭棄的人：暴君和壓迫者。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Satyr" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Heroic| — Whenever you cast a spell that targets Satyr Hoplite, put a +1/+1 counter on Satyr Hoplite.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Héroïque| — À chaque fois que vous lancez un sort qui cible le Hoplite satyre, mettez un marqueur +1/+1 sur le Hoplite satyre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Heroísmo| — Siempre que lances un hechizo que haga objetivo a la Hoplita sátira, pon un contador +1/+1 sobre la Hoplita sátira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Heroisch| — Immer wenn du einen Zauberspruch wirkst, der die Satyr-Hoplitin als Ziel hat, lege eine +1/+1-Marke auf die Satyr-Hoplitin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Eroismo| — Ogniqualvolta lanci una magia che bersaglia il Satiro Oplita, metti un segnalino +1/+1 sul Satiro Oplita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|英雄的| ― あなたがサテュロスの重装歩兵を対象とする呪文を１つ唱えるたび、サテュロスの重装歩兵の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅 — 당신이 사티로스 중장보병을 목표로 주문을 발동할 때마다, 사티로스 중장보병에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Героизм| — Каждый раз, когда вы разыгрываете заклинание, целью которого является Сатир-Гоплит, положите один жетон +1/+1 на Сатира-Гоплита.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Heroico| — Toda vez que você conjurar uma mágica cujo alvo seja Hoplita Sátiro, coloque um marcador +1/+1 em Hoplita Sátiro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇行～每当你施放一个以羊蹄人重装步兵为目标的咒语时，在羊蹄人重装步兵上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇行～每當你施放一個以羊蹄人重裝步兵為目標的咒語時，在羊蹄人重裝步兵上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return TriggerObject():IsTargeting(EffectSource())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="6" max_amount="15" score_per_unit="50" resource_type="ENCHANTMENT" resource_subtype="AURA" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_TITLE_HEROIC" body="MORE_INFO_BODY_HEROIC" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

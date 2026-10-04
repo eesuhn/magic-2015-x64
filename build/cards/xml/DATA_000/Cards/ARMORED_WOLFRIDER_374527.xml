@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="ARMORED_WOLFRIDER_374527" />
+  <CARDNAME text="ARMORED_WOLFRIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Armored Wolf-Rider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Monteur de loup cuirassé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jinete de lobo acorazado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gepanzerter Wolfsreiter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cavalcalupo Corazzato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鎧（よろい）の狼（おおかみ）乗（の）り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기갑 늑대기수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Волчий Наездник в Доспехах]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ginete de Lobo Blindado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[装甲狼骑兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[裝甲狼騎兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374527" />
+  <ARTID value="146870" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{3}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wolf-riders of Selesnya apprentice from a young age. Each rider raises a wolf pup from birth to serve as a mount, hoping that one day the two will share the honor of guarding the Great Concourse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les monteurs de loup de Selesnya s'entraînent dès leur plus jeune âge. Chaque monteur élève le louveteau qui deviendra son destrier, bercé par l'espoir que le tandem aura un jour l'insigne honneur de protéger le Grand hall.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los jinetes de lobos de Selesnya aprenden desde muy jóvenes. Cada jinete cría a un lobezno desde el nacimiento para que le sirva de montura, con la esperanza de que, algún día, ambos compartan el honor de proteger la Gran Explanada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Ausbildung der Selesnija-Wolfsreiter beginnt im Kindesalter. Jeder von ihnen zieht ein Wolfsjunges von Geburt an als Reittier auf und hofft, dass sie beide eines Tages die ehrenvolle Aufgabe bekommen, den Großen Sammelplatz zu bewachen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I cavalcalupi di Selesnya vengono addestrati fin da bambini. Ogni cavaliere si prende cura di un cucciolo di lupo che gli farà da cavalcatura, sperando che un giorno i due condividano l’onore di difendere il Gran Raduno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[セレズニアの狼乗りは幼いころから訓練を始める。乗り手は生まれたての狼を１匹選び、乗用として育てあげる。いつの日か共に誉れある中央大広場の警護職につくことを願いつつ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[셀레스냐의 늑대기수들은 어려서부터 훈련을 시작한다. 어린 늑대기수는 자신이 탈 늑대 새끼를 키우며 위대한 광장을 지키는 영광을 누릴 날만을 꿈꾼다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Волчьи наездники Селезнии обучаются своему искусству с раннего детства. Каждый наездник воспитывает волчонка, своего будущего скакуна, с его рождения и надеется когда-нибудь разделить с ним высшую честь — караул на Большой Площади.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os ginetes de lobo dos Selesnya aprendem desde tenra idade. Cada ginete cria um filhote de lobo desde o nascimento para servir de montaria, esperando que um dia ambos compartilhem a honra de proteger a Grande Confluência.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[瑟雷尼亚狼骑兵从小就担任学徒。每个骑兵都要从小狼出生时开始豢养，以后才能训练成为坐骑，希望有朝一日有幸共同守护中央广场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[瑟雷尼亞狼騎兵從小就擔任學徒。每個騎兵都要從小狼出生時開始豢養，以後才能訓練成為坐騎，希望有朝一日有幸共同守護中央廣場。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Knight" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="6" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

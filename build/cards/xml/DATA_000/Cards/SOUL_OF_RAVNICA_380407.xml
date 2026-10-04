@@ -1,0 +1,88 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="947">
+  <FILENAME text="SOUL_OF_RAVNICA_380407" />
+  <CARDNAME text="SOUL_OF_RAVNICA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Soul of Ravnica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Âme de Ravnica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alma de Rávnica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seele von Ravnica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anima di Ravnica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラヴニカの魂（たましい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[라브니카의 영혼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Душа Равники]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alma de Ravnica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[拉尼卡之魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[拉尼卡之魂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380407" />
+  <ARTID value="155684" />
+  <ARTIST name="Stephan Martiniere" />
+  <CASTING_COST cost="{4}{U}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Avatar" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{5}{U}{U}: Draw a card for each color among permanents you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{5}{U}{U} : Piochez une carte pour chaque couleur parmi les permanents que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{5}{U}{U}: Roba una carta por cada color entre los permanentes que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{5}{U}{U}: Ziehe eine Karte für jede Farbe unter den bleibenden Karten, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{5}{U}{U}: Pesca una carta per ogni colore tra i permanenti che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{5}{U}{U}：あなたがコントロールするパーマネントの中の色１色につきカードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{5}{U}{U}: 당신이 조종하는 지속물의 각 색깔마다 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{5}{U}{U}: возьмите одну карту за каждый цвет среди перманентов под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{5}{U}{U}: Compre um card para cada cor entre as permanentes que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{5}{U}{U}：由你操控的永久物之中每有一种颜色，便抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{5}{U}{U}：由你操控的永久物之中每有一種顏色，便抽一張牌。]]></LOCALISED_TEXT>
+    <COST mana_cost="{5}{U}{U}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:DrawCards( effectController:GetDistinctColourCountOnBattlefield())
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{5}{U}{U}, Exile Soul of Ravnica from your graveyard: Draw a card for each color among permanents you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{5}{U}{U}, exilez l’Âme de Ravnica depuis votre cimetière : Piochez une carte pour chaque couleur parmi les permanents que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{5}{U}{U}, exiliar el Alma de Rávnica de tu cementerio: Roba una carta por cada color entre los permanentes que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{5}{U}{U}, schicke die Seele von Ravnica aus deinem Friedhof ins Exil: Ziehe eine Karte für jede Farbe unter den bleibenden Karten, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{5}{U}{U}, Esilia l’Anima di Ravnica dal tuo cimitero: Pesca una carta per ogni colore tra i permanenti che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{5}{U}{U}, あなたの墓地にあるラヴニカの魂を追放する：あなたがコントロールするパーマネントの中の色１色につき、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{5}{U}{U}, 라브니카의 영혼을 당신의 무덤에서 추방한다: 당신이 조종하는 지속물의 각 색깔마다 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{5}{U}{U}, изгоните Душу Равники из вашего кладбища: возьмите одну карту за каждый цвет среди перманентов под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{5}{U}{U}, Exile Alma de Ravnica de seu cemitério: Compre um card para cada cor entre as permanentes que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{5}{U}{U}，从你的坟墓场放逐拉尼卡之魂：由你操控的永久物之中每有一种颜色，便抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{5}{U}{U}，從你的墳墓場放逐拉尼卡之魂：由你操控的永久物之中每有一種顏色，便抽一張牌。]]></LOCALISED_TEXT>
+    <COST mana_cost="{5}{U}{U}" type="Mana" />
+    <COST type="ExileSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    effectController:DrawCards( effectController:GetDistinctColourCountOnBattlefield())
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

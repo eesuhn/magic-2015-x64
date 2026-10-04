@@ -1,0 +1,121 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="778">
+  <FILENAME text="GENESIS_HYDRA_380874" />
+  <CARDNAME text="GENESIS_HYDRA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Genesis Hydra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hydre de genèse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hidra del génesis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Genesis-Hydra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Idra della Genesi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[起（き）源（げん）のハイドラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[창조 히드라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гидра Порождения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidra da Gênese]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[创生多头龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[創生多頭龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380874" />
+  <ARTID value="155275" />
+  <ARTIST name="Peter Mohrbacher" />
+  <CASTING_COST cost="{X}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <SUB_TYPE metaname="Hydra" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When you cast Genesis Hydra, reveal the top X cards of your library. You may put a nonland permanent card with converted mana cost X or less from among them onto the battlefield. Then shuffle the rest into your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand vous lancez l’Hydre de genèse, révélez les X cartes du dessus de votre bibliothèque. Parmi elles, vous pouvez mettre sur le champ de bataille une carte de permanent non-terrain de coût converti de mana inférieur ou égal à X. Mélangez ensuite le reste dans votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando lances la Hidra del génesis, muestra las X primeras cartas de tu biblioteca. Puedes poner en el campo de batalla una carta de permanente que no sea tierra con coste de maná convertido de X o menos que se encuentre entre ellas. Luego baraja el resto en tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn du die Genesis-Hydra wirkst, decke die obersten X Karten deiner Bibliothek auf. Du kannst davon eine bleibende Karte mit umgewandelte Manakosten von X oder weniger, die kein Land ist, ins Spiel bringen. Mische dann den Rest in deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando lanci l’Idra della Genesi, rivela le prime X carte del tuo grimorio. Puoi mettere sul campo di battaglia una carta permanente non terra con costo di mana convertito pari o inferiore a X scelta tra esse. Poi rimescola le altre nel tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが起源のハイドラを唱えたとき、あなたのライブラリーの一番上からＸ枚のカードを公開する。あなたはその中の点数で見たマナ・コストがＸ以下である土地でないパーマネント・カードを１枚戦場に出してもよい。その後、残りをあなたのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 창조 히드라를 발동할 때, 당신의 서고 맨 위의 카드 X장을 공개한다. 당신은 그 카드들 중에서 전환마나비용이 X 이하이며 대지가 아닌 지속물 카드 한 장을 전장에 놓을 수 있다. 그런 다음 나머지 카드들은 당신의 서고에 섞어 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда вы разыгрываете Гидру Порождения, покажите X верхних карт вашей библиотеки. Вы можете положить на поле битвы находящуюся среди них карту не являющегося землей перманента с конвертированной мана-стоимостью не более X. Затем втасуйте остальные карты в вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando você conjurar Hidra da Gênese, revele os X cards do topo do seu grimório. Você pode colocar um card de permanente que não seja um terreno com custo de mana convertido menor ou igual a X dentre eles no campo de batalha. Depois, embaralhe o restante em seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当你施放创生多头龙时，展示你牌库顶的X张牌。你可以将其中一张总法术力费用等于或小于X的非地永久物牌放进战场。然后将其余的牌洗入你的牌库。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當你施放創生多頭龍時，展示你牌庫頂的X張牌。你可以將其中一張總魔法力費用等於或小於X的非地永久物牌放進戰場。然後將其餘牌洗入你的牌庫。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local effectX = EffectSourceLKI():GetPaidX()
+    if effectX == 0 then
+    	return
+    end
+    local genesisDC = EffectDC():Make_Chest(1)
+    local answerDC = EffectDC():Make_Targets(0)
+    for i = 0, (effectX-1) do
+    	local card = effectController:Library_GetNth(i)
+    	if card ~= nil then
+    		genesisDC:Set_CardPtr(i, card)
+    		if (card:GetConvertedManaCost() &gt; effectX) or (card:GetCardType():IsPermanent() == false) or (card:GetCardType():Test(CARD_TYPE_LAND)) then
+    			genesisDC:QueryUnselect_CardPtr(i)
+    		end
+    	else
+    		break
+    	end
+    end
+    for j = 0, (MTG():GetNumberOfPlayers()-1) do
+    	local player = MTG():GetNthPlayer(j)
+    	if player ~= nil and player ~= EffectController() then
+    		player:RevealDCToMe(genesisDC)
+    	end
+    end
+    effectController:ChooseItemFromDC( "CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Get_Chest(1), answerDC, QUERY_FLAG_MAY )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	local target = targetDC:Get_CardPtr(0)
+    	if target ~= nil then
+    		target:PutOntoBattlefield( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Genesis Hydra enters the battlefield with X +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Hydre de genèse arrive sur le champ de bataille avec X marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Hidra del génesis entra al campo de batalla con X contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Genesis-Hydra kommt mit X +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Idra della Genesi entra nel campo di battaglia con X segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[起源のハイドラは、＋１/＋１カウンターがＸ個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[창조 히드라는 +1/+1 카운터 X개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гидра Порождения выходит на поле битвы с Х жетонами +1/+1 на ней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidra da Gênese entra no campo de batalha com X marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[创生多头龙进战场时上面有X个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[創生多頭龍進戰場時上面有X個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), EffectSource():GetPaidX())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_PRIMORDIAL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_ONTO_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a permanent to put onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un permanent pour le mettre sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un permanente para poner en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine bleibende Karte, die ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un permanente da mettere sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場に出すパーマネントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장에 놓을 지속물 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите перманент, чтобы положить его на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma permanente para colocar no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个永久物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個永久物放進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

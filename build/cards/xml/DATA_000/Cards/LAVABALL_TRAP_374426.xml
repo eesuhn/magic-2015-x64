@@ -1,0 +1,137 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="221">
+  <FILENAME text="LAVABALL_TRAP_374426" />
+  <CARDNAME text="LAVABALL_TRAP" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lavaball Trap]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piège à boule de lave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trampa bola de lava]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lavakugel-Falle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trappola Palla di Lava]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[溶（よう）岩（がん）の玉（たま）の罠（わな）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용암공 함정]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Западня Лавового Шара]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Armadilha de Bola de Lava]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[熔球陷阱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[熔球陷阱]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374426" />
+  <ARTID value="125072" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{6}{R}{R}" />
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Trap" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <UTILITY_ABILITY qualifier="Alternate">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an opponent had two or more lands enter the battlefield under his or her control this turn, you may pay {3}{R}{R} rather than pay Lavaball Trap’s mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un adversaire a fait arriver, sous son contrôle, au moins deux terrains sur le champ de bataille ce tour-ci, vous pouvez payer {3}{R}{R} à la place du coût de mana du Piège à boule de lave.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un oponente hizo que dos o más tierras entraran al campo de batalla bajo su control este turno, puedes pagar {3}{R}{R} en lugar de pagar el coste de maná de la Trampa bola de lava.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Gegner in diesem Zug zwei oder mehr Länder unter seiner Kontrolle ins Spiel bekommen hat, kannst du {3}{R}{R} bezahlen, anstatt die Manakosten der Lavakugel-Falle zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se un avversario ha fatto entrare due o più terre nel campo di battaglia sotto il suo controllo in questo turno, puoi pagare {3}{R}{R} invece di pagare il costo di mana della Trappola Palla di Lava.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターン、対戦相手が自分のコントロール下で２つ以上の土地を戦場に出していたなら、あなたは溶岩の玉の罠のマナ・コストを支払うのではなく、{3}{R}{R}を支払ってもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이번 턴에 상대의 조종하에 대지가 두 개 이상 전장에 들어왔다면, 당신은 용암공 함정의 마나비용 대신 {U}를 지불할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если две или более земли вышли на поле битвы под контролем оппонента в этом ходу, вы можете заплатить {3}{R}{R} вместо уплаты мана-стоимости Западни Лавового Шара.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um oponente teve dois ou mais terrenos que entraram no campo de batalha sob o controle dele neste turno, você pode pagar {3}{R}{R} em vez de pagar o custo de mana de Armadilha de Bola de Lava.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果本回合中某对手有两个或更多地在其操控下进战场，你可以支付{3}{R}{R}，而不支付熔球陷阱的法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果本回合中某對手有兩個或更多地在其操控下進戰場，你可以支付{3}{R}{R}，而不支付熔球陷阱的魔法力費用。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+    <AVAILABILITY>
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetType(CARD_TYPE_LAND)
+    interrogation:SetToZone(ZONE_BATTLEFIELD)
+    for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil and player ~= EffectController() then
+    		interrogation:SetPlayer(player)
+    		local interrogationCount = interrogation:Count( INTERROGATE_CARDS_MOVED_ZONE ,INTERROGATE_THIS_TURN, 2 )
+    		if interrogationCount == 2 then	
+    			return true
+    		end
+    	end
+    end
+    return false
+    </AVAILABILITY>
+    <COST mana_cost="{3}{R}{R}" type="Mana" />
+    <ABILITY_TEXT tag="CARD_QUERY_PAY_3_R_R" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy two target lands. Lavaball Trap deals 4 damage to each creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez deux terrains ciblés. Le Piège de boule de lave inflige 4 blessures à chaque créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye dos tierras objetivo. La Trampa bola de lava hace 4 puntos de daño a cada criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre zwei Länder deiner Wahl. Die Lavakugel-Falle fügt jeder Kreatur 4 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi due terre bersaglio. La Trappola Palla di Lava infligge 4 danni a ogni creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[土地２つを対象とし、それらを破壊する。溶岩の玉の罠は各クリーチャーにそれぞれ４点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지 두 개를 목표로 정한다. 그 대지들을 파괴한다. 불바다 함정은 각 생물에게 피해 4점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте две целевые земли. Западня Лавового Шара наносит 4 повреждения каждому существу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua dois terrenos alvo. Armadilha de Bola de Lava causa 4 pontos de dano a cada criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭两个目标地。熔球陷阱对每个生物各造成4点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅兩個目標地。熔球陷阱對每個生物各造成4點傷害。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_LAND_TO_DESTROY" definition="0" compartment="0" count="2" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    </TARGET_DEFINITION>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(2-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil  then
+    		target_card:Destroy()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if (FilteredPlayer() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 4, FilteredPlayer() )
+    elseif (FilteredCard() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 4, FilteredCard() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_PAY_3_R_R">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {3}{R}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {3}{R}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {3}{R}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{3}{R}{R} bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {3}{R}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{3}{R}{R}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{3}{R}{R}를 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {3}{R}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {3}{R}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{3}{R}{R}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{3}{R}{R}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para destruirla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das zerstört werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊する土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 대지 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个地来消灭。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

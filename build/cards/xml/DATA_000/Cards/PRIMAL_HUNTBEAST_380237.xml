@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="943">
+  <FILENAME text="PRIMAL_HUNTBEAST_380237" />
+  <CARDNAME text="PRIMAL_HUNTBEAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Primal Huntbeast]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bête de chasse primordiale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bestia de caza primordial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Urtümliche Jagdbestie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bestia da Caccia Primitiva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[原（げん）初（しょ）の狩（しゅ）猟（りょう）獣（じゅう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사냥하는 태고의 야수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первобытный Охотничий Зверь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fera de Caça Primal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[原初行猎兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[原初行獵獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380237" />
+  <ARTID value="143857" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“To the unskilled, it appears as blurred patches of distorted light. Few have seen its true form.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les novices ne voient que des taches floues de lumière déformée. Peu l'ont vu sous sa véritable forme. »
+—Garruk Languebestion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Para los no entrenados, parecen manchas de luz distorsionada. Pocos han visto su verdadera forma”.
+—Garruk Portavoz Salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wer es nicht kennt, sieht nur verschwommene Lichtflecken. Nur wenige haben seine wahre Gestalt gesehen.“
+—Garruk Wildsprecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Agli inesperti, sembrano macchie sfuocate di luce deformata. Ben pochi hanno visto la sua vera forma.”
+—Garruk Lingua Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「技量のない者には、歪んでぼんやりした光に見える。本当の姿を見れる者はわずかだ」
+――野生語りのガラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“보는 눈이 없는 자에게는 그냥 빛이 이상하게 굴절되는 것 정도로 보이지. 그것의 진정한 형태를 본 자는 몇 안 된다.”
+—개럭 와일드스피커]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Неопытному глазу он кажется просто размытыми пятнами кривых лучей. Мало кто видел его в истинном облике».
+— Гаррук Дикоречивый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os inabilidosos veem apenas uma mancha luminosa e distorcida. Poucos são os que veem sua verdadeira forma.”
+— Garruk Falabravo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「技能拙劣的只能看到一团模糊光影闪动。很少有人能见到其真正面貌。」
+～召兽使贾路]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「技能拙劣的只能看到一團模糊光影閃動。很少有人能見到其真正面貌。」
+～召獸使賈路]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hexproof]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défense talismanique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Antimaleficio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluchsicher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anti-malocchio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪禁]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[방호]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Порчеустойчивость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Resistência a magia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[辟邪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[辟邪]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HEXPROOF" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_21" body="MORE_INFO_BADGE_BODY_21" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

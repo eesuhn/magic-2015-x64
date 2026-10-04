@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="19">
+  <FILENAME text="TOKEN_PLANT_0_1_G_350756" />
+  <CARDNAME text="PLANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Plant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[plante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Planta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pflanze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pianta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[植（しょく）物（ぶつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[식물]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Растение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Planta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[植物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[植物]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="350756" />
+  <ARTID value="126539" />
+  <COLOUR value="G" />
+  <ARTIST name="Daren Bader" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="T" />
+  <POWER value="0" />
+  <TOUGHNESS value="1" />
+  <TOKEN />
+  <SFX text="COMBAT_GAEA_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

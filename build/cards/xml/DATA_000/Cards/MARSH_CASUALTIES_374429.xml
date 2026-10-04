@@ -1,0 +1,127 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="MARSH_CASUALTIES_374429" />
+  <CARDNAME text="MARSH_CASUALTIES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marsh Casualties]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Victimes des marécages]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bajas del cenagal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verluste im Moor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vittime Palustri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[湿（しっ）地（ち）での被（ひ）災（さい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늪지대 희생자들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Болотные Жертвы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vítimas do Pântano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[沼地事故]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沼地事故]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374429" />
+  <ARTID value="123555" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{B}{B}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <UTILITY_ABILITY qualifier="Kicker">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {3}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[增幅{3}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[增幅{3}]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_DEATH_PLAY" />
+    <COST mana_cost="{3}" type="Mana" />
+    <ABILITY_TEXT tag="CARD_QUERY_MARSH_CASUALTIES_KICKED" secondary_tag="CARD_QUERY_MARSH_CASUALTIES_UNKICKED" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures target player controls get -1/-1 until end of turn. If Marsh Casualties was kicked, those creatures get -2/-2 until end of turn instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que le joueur ciblé contrôle gagnent -1/-1 jusqu’à la fin du tour. Si les Victimes des marécages ont été kickées, ces créatures gagnent -2/-2 jusqu’à la fin du tour à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controla el jugador objetivo obtienen -1/-1 hasta el final del turno. Si Bajas del cenagal fue estimulado, en vez de eso, esas criaturas obtienen -2/-2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Alle Kreaturen, die ein Spieler deiner Wahl kontrolliert, erhalten -1/-1 bis zum Ende des Zuges. Falls die Bonuskosten von Verluste im Moor bezahlt wurden, erhalten diese Kreaturen stattdessen -2/-2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature controllate da un giocatore bersaglio prendono -1/-1 fino alla fine del turno. Se le Vittime Palustri sono state potenziate, quelle creature prendono invece -2/-2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーがコントロールするクリーチャーは、ターン終了時まで－１/－１の修整を受ける。湿地での被災がキッカーされていたなら、代わりにそれらのクリーチャーは、ターン終了時まで－２/－２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어가 조종하는 생물들은 턴종료까지 -1/-1을 받는다. 늪지대 희생자들의 키커 비용을 지불했다면, 그 생물들은 대신 턴종료까지 -2/-2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под контролем целевого игрока получают -1/-1 до конца хода. Если Болотные Жертвы получили Усилитель, те существа получают -2/-2 до конца хода вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas controladas pelo jogador alvo recebem -1/-1 até o final do turno. Se Vítimas do Pântano foi reforçado, em vez disso, aquelas criaturas recebem -2/-2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由目标牌手操控的生物得-1/-1直到回合结束。如果沼地事故已增幅，则这些生物改为得-2/-2直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由目標玩家操控的生物得-1/-1直到回合結束。如果沼地事故已增幅，則這些生物改為得-2/-2直到回合結束。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_TARGET" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <FILTER filter_id="0">
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, target_player )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource():WasKicked() then	
+    	EffectDC():Set_Int(1,1)
+    else
+    	EffectDC():Set_Int(1,0)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if EffectDC():Get_Int(1) == 1 then
+    		characteristics:Power_Add( -2 )
+    		characteristics:Toughness_Add( -2 )
+    	else
+    		characteristics:Power_Add( -1 )
+    		characteristics:Toughness_Add( -1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_MARSH_CASUALTIES_UNKICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Marsh Casualties unkicked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez les Victimes des marécages sans le kick.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza las Bajas del cenagal sin pagar su coste de estímulo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verluste im Moor ohne Bonus wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia le Vittime Palustri non potenziate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《湿地での被災》をキッカーせずに唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[습지 희생자의 키커 비용을 지불하지 않고 발동합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Болотные Жертвы без Усилителя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjure Vítimas do Pântano sem reforço.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放沼地事故且不增幅。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放沼地事故且不增幅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MARSH_CASUALTIES_KICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Marsh Casualties kicked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez les Victimes des marécages kickées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanzar las Bajas del cenagal pagando su coste de estímulo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verluste im Moor mit Bonus wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia le Vittime Palustri potenziate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《湿地での被災》をキッカーして唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[습지 희생자의 키커 비용을 지불해서 발동합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Болотные Жертвы с Усилителем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar Vítimas do Pântano reforçado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放沼地事故并增幅。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放沼地事故並增幅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_TARGET">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to target.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur à cibler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerlo objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler als Ziel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore da bersagliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対象のプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[목표로 정할 플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите целевого игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手为目标。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家為目標。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

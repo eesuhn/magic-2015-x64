@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="TRAUMATIZE_IMS" />
+  <CARDNAME text="TRAUMATIZE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Traumatize]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traumatisme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Traumatizar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Traumatisierung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Traumatizzare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[心（こころ）の傷（きず）跡（あと）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대충격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Травма]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Traumatizar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[精神受创]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[精神受創]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="29" />
+  <ARTID value="33487" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[He was left with just enough memory to understand what he had lost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il lui restait tout juste assez de mémoire pour comprendre ce qu'il avait perdu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fue abandonado con suficiente memoria para entender qué había perdido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie ließen ihm noch genau so viel Erinnerung, dass er verstand, was er gerade verloren hatte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli fu lasciata memoria sufficiente a capire cosa aveva perso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼に残されたのは、何を失ったかのかを理解できるだけの記憶だった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그에게는 자신이 무엇을 잃어버렸는지를 알 만큼의 기억만이 남겨졌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оставшейся у него памяти хватило лишь на то, чтобы осознать потерю.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A única memória que lhe restou foi a compreensão do que havia perdido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他仅剩的回忆，只刚好够了解他已失去的部分。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他僅剩的回憶，只剛好夠瞭解他已失去的部分。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target player puts the top half of his or her library, rounded down, into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le joueur ciblé met la moitié des cartes du dessus de sa bibliothèque, arrondie à l’unité inférieure, dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El jugador objetivo pone la mitad superior de su biblioteca, redondeada hacia abajo, en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Spieler deiner Wahl legt die obere Hälfte seiner Bibliothek (abgerundet) auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un giocatore bersaglio mette nel suo cimitero la metà superiore del suo grimorio, arrotondata per difetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上から端数切り捨てで半分のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 서고에 있는 카드 장수의 절반에서 소수점 이하를 버린 만큼을 서고 맨 위에서부터 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой игрок кладет верхнюю половину своей библиотеки, округленную в меньшую сторону, на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O jogador alvo coloca a metade superior do grimório dele, arredondada para baixo, no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标牌手将其牌库从顶上算起一半数量的牌置入其坟墓场，小数点以下舍去。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標玩家將其牌庫從頂上算起一半數量的牌置入其墳墓場，小數點以下捨去。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_TRAUMATISE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local numToMill = math.floor(target:Library_Count()/2)
+    if target ~= nil then
+    	target:MillCards( numToMill )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if MTG():IsMainDuel() == false and target ~= nil and target == EffectController() then
+    	EffectController():AddPlayScore(100000)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TRAUMATISE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to put the top half of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour mettre la moitié supérieure de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que ponga la mitad superior de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der die obere Hälfte seiner Bibliothek auf seinen Friedhof legen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che mette nel suo cimitero la prima metà del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ライブラリーの上から半分を墓地に置くプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자신의 서고에 있는 카드 절반을 맨 위에서부터 무덤에 넣을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен положить верхнюю половину своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para colocar a metade superior do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以将其将其牌库从顶上算起一半数量的牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家將其牌庫上半的牌置入其墳墓場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_MILL_WHY_PLAY" removal_tag="HINT_MILL_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

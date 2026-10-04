@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="213">
+  <FILENAME text="SEISMIC_SHUDDER_374884" />
+  <CARDNAME text="SEISMIC_SHUDDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seismic Shudder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Secousse sismique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Escalofrío sísmico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seismische Erschütterungen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fremito Sismico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地（じ）鳴（な）りの揺（ゆ）るぎ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지진의 몸서리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сейсмическая Дрожь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tremor Sísmico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[大地颤动]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[大地顫動]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374884" />
+  <ARTID value="123588" />
+  <ARTIST name="Vincent Proce" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The land here seems to go out of its way to kill you.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ici, la terre semble faire tout son possible pour vous tuer. »
+—Chandra Nalaàr]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La tierra aquí parece salir de su curso para matarte”.
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Dieses Land hier scheint einiges zu vesuchen, um dich zu töten.“
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La terra qui sembra darsi parecchio da fare per ucciderti.”
+—Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この辺の土地は、無理してあんたを殺そうとしてるね。」
+――チャンドラ・ナラー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이곳은 대지마저 널 죽이려고 하는 것 같군."
+—찬드라 날라르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Такое впечатление, что здешняя земля всячески старается тебя прикончить».
+— Чандра Налаар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A terra aqui parece sair de seu curso para lhe matar.”
+— Chandra Nalaar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这里的大地似乎想尽办法要杀了你。」
+～茜卓纳拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這裡的大地似乎想盡辦法要殺了你。」
+～茜卓納拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seismic Shudder deals 1 damage to each creature without flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Secousse sismique inflige 1 blessure à chaque créature sans le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Escalofrío sísmico hace 1 punto de daño a cada criatura que no tenga la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Seismischen Erschütterungen fügen jeder nichtfliegenden Kreatur 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fremito Sismico infligge 1 danno a ogni creatura senza volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地鳴りの揺るぎは飛行を持たない各クリーチャーに、それぞれ１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지진의 몸서리는 비행이 없는 각 생물에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сейсмическая Дрожь наносит 1 повреждение каждому существу без Полета.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tremor Sísmico causa 1 ponto de dano a cada criatura sem voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[大地颤动对每个不具飞行异能的生物各造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[大地顫動對每個不具飛行異能的生物各造成1點傷害。]]></LOCALISED_TEXT>
+    <FILTER>
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS)
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CHARACTERISTIC, OP_NOT, CHARACTERISTIC_FLYING )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if (FilteredPlayer() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 1, FilteredPlayer() )
+    elseif (FilteredCard() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 1, FilteredCard() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

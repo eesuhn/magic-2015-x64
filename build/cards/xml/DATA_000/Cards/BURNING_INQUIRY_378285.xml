@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="392">
+  <FILENAME text="BURNING_INQUIRY_378285" />
+  <CARDNAME text="BURNING_INQUIRY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burning Inquiry]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Requête brûlante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pesquisa ardiente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brennende Frage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Indagine Scottante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[燃（もえ）え立（た）つ調（ちょう）査（さ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불타는 의문]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горящий Вопрос]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Inquisição Ardente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[火热探究]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[火熱探究]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378285" />
+  <ARTID value="121675" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jariad burned the midnight oil, burned through scroll after scroll, and then burned down his laboratory.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jariad savait qu'il fallait se brûler les doigts pour apprendre, mais de là à incendier ses parchemins et son laboratoire...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jariad se quemó las pestañas, quemó un pergamino tras otro y luego quemó su laboratorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jariad arbeitete bis spät in die Nacht und kämpfte sich durch eine Schriftrolle nach der anderen, bis sein Kopf qualmte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Jariad bruciò tutto l’olio durante la notte, bruciò pergamena dopo pergamena e poi incenerì il suo laboratorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャリアドは夜を徹して情熱を燃やし、巻物を次々と燃やし、ついには研究所を燃やし尽くしてしまった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자리아드는 한밤중에 두루마리를 하나씩 태워 없앴고, 결국 실험실 전체를 태웠다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джариад был в таком запале, что сжег дотла свою лабораторию.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jariad queimou tanto as pestanas, passando de pergaminho a pergaminho, que a ardência de sua busca incendiou seu laboratório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[贾烈点起夜灯，逐一翻阅卷轴，最后连实验室也烧毁了。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[賈烈點起夜燈，逐一翻閱卷軸，最後連實驗室也燒毀了。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player draws three cards, then discards three cards at random.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur pioche trois cartes, puis se défausse de trois cartes au hasard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada jugador roba tres cartas, luego descarta tres cartas al azar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler zieht drei Karten und wirft dann drei zufällig bestimmte Karten ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore pesca tre carte, poi scarta tre carte a caso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーはカードを３枚引き、その後カードを３枚無作為に選んで捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어는 카드 세 장을 뽑은 다음 카드 세 장을 무작위로 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок берет три карты, затем сбрасывает три случайно выбранные карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada jogador compra três cards e descarta três cards aleatórios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每位牌手抓三张牌，然后随机弃三张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每個玩家抽三張牌，然後隨機棄三張牌。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local number = MTG():GetNumberOfPlayers()
+    if number ~= nil then
+    	for i=0,(number-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil then
+    			player:DrawCards( 3 )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local number = MTG():GetNumberOfPlayers()
+    if number ~= nil then
+    	for i=0,(number-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil then
+    			player:DiscardNRandomCards( 3 )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Graveyard" amount="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

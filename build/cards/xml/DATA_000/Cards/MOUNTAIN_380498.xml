@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1031">
+  <FILENAME text="MOUNTAIN_380498" />
+  <CARDNAME text="MOUNTAIN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mountain]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Montagne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Montaña]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gebirge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Montagna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[山（やま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[산]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гора]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Montanha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[山脉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[山脈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380498" />
+  <ARTID value="145255" />
+  <ARTIST name="Adam Paquette" />
+  <CASTING_COST cost="" />
+  <SUPERTYPE metaname="Basic" />
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Mountain" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="L" />
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

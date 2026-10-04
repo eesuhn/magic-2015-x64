@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="490">
+  <FILENAME text="LIVING_DESTINY_380194" />
+  <CARDNAME text="LIVING_DESTINY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Living Destiny]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destinée vivante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destino viviente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lebendes Schicksal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destino Vivente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生（せい）命（めい）の運（うん）命（めい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아있는 운명]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жизненная Судьба]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destino Vivo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[生存命运]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[生存命運]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380194" />
+  <ARTID value="127300" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“That our enemies are great only brings us greater hope.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« L'immense force de nos ennemis ne fait que renforcer notre espoir. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que nuestros enemigos sean grandes solo nos da grandes esperanzas”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es verstärkt nur unsere Hoffnung, dass unsere Feinde bedeutend sind.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Che i nostri nemici siano grandi ci dà ancora più speranza.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「敵が大きいゆえに、我々にはより大きな希望が生まれる。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["적이 강할 수록 희망도 커지는 법이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Наши враги велики, и это вселяет в нас еще большую надежду».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O fato de nossos inimigos serem grandes só nos trás maiores esperanças.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「敌人虽强大，却更强化了我们的希望。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「敵人雖強大，卻更強化了我們的希望。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY qualifier="Additional">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As an additional cost to cast Living Destiny, reveal a creature card from your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En tant que coût supplémentaire pour lancer la Destinée vivante, révélez une carte de créature de votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como coste adicional para lanzar el Destino viviente, muestra una carta de criatura de tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeige als zusätzliche Kosten, um Lebendes Schicksal zu wirken, eine Kreaturenkarte aus deiner Hand vor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come costo addizionale per lanciare il Destino Vivente, rivela una carta creatura dalla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生命の運命を唱えるための追加コストとして、あなたの手札にあるクリーチャー・カードを１枚公開する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아있는 운명을 발동하기 위한 추가비용으로, 당신의 손에서 생물 카드 한 장을 공개한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В качестве дополнительной стоимости разыгрывания Жизненной Судьбы покажите карту существа из вашей руки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Como custo adicional para conjurar Destino Vivo, revele um card de criatura da sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从你手上展示一张生物牌，以作为施放生存命运的额外费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從你手上展示一張生物牌，以作為施放生存命運的額外費用。]]></LOCALISED_TEXT>
+    <COST type="Reveal" definition="0" compartment="0" query_tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_REVEAL" item_count="1" amount="1" LKI_shield="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </COST_DEFINITION>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain life equal to the revealed card’s converted mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez autant de points de vie que le coût converti de mana de la carte révélée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ganas una cantidad de vidas igual al coste de maná convertido de la carta mostrada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst so viele Lebenspunkte dazu, wie die umgewandelten Manakosten der vorgezeigten Karte betragen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni punti vita pari al costo di mana convertito della carta rivelata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたはその公開したカードの点数で見たマナ・コストに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 공개한 카드의 전환마나비용만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете количество жизней, равное конвертированной мана-стоимости показанной карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha uma quantidade de pontos de vida igual ao custo de mana convertido do card revelado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你获得等同于所展示的牌之总法术力费用的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你獲得等同於所展示的牌之總魔法力費用的生命。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local revealedCreature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if revealedCreature ~= nil then
+    	EffectController():GainLife(revealedCreature:GetConvertedManaCost())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_REVEAL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature card to reveal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte de créature pour la révéler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta de criatura para mostrarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreaturenkarte, die du vorzeigen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta creatura da rivelare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[公開するクリーチャー・カードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공개할 생물 카드 한 장을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту существа, которую нужно показать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card de criatura para revelar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要展示的生物牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張要展示的生物牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_LIFEGAIN_WHY_PLAY" removal_tag="HINT_SPELL_LIFEGAIN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

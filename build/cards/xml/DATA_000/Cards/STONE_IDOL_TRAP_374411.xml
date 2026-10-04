@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="216">
+  <FILENAME text="STONE_IDOL_TRAP_374411" />
+  <CARDNAME text="STONE_IDOL_TRAP" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stone Idol Trap]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piège à idole de pierre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trampa del ídolo de piedra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Steingötzen-Falle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trappola dell’Idolo di Pietra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[石（いし）の偶（ぐう）像（ぞう）の罠（わな）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌 우상 함정]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Западня Каменного Идола]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Armadilha do Ídolo de Pedra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[石偶陷阱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[石偶陷阱]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374411" />
+  <ARTID value="126555" />
+  <ARTIST name="Jung Park" />
+  <CASTING_COST cost="{5}{R}" />
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Trap" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stone Idol Trap costs {1} less to cast for each attacking creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Piège à idole de pierre coûte {1} de moins à lancer pour chaque créature attaquante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuesta {1} menos lanzar la Trampa del ídolo de piedra por cada criatura atacante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Steingötzen-Falle kostet beim Wirken für jede angreifende Kreatur {1} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Trappola dell’Idolo di Pietra costa {1} in meno per essere lanciata per ogni creatura attaccante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[石の偶像の罠を唱えるためのコストは、攻撃クリーチャー１体につき{1}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌 우상 함정은 공격생물 한 개당 발동비용이 {1}만큼 덜 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стоимость разыгрывания Западни Каменного Идола уменьшается на {1} за каждое атакующее существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Armadilha do Ídolo de Pedra custa {1} a menos para ser conjurado para cada criatura atacante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每有一个进行攻击的生物，石偶陷阱便减少{1}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每有一個生物進行攻擊，石偶陷阱便減少{1}來施放。]]></LOCALISED_TEXT>
+    <TRIGGER value="CONSIDERED_FOR_CAST" simple_qualifier="self" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_IS_ATTACKING, true)
+    if TriggerObject() ~= nil then
+    	TriggerObject():DecreaseCost( filter:Count() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 6/12 colorless Construct artifact creature token with trample onto the battlefield. Exile it at the beginning of your next end step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature-artefact 6/12 incolore Construction avec le piétinement. Exilez-le au début de votre prochaine étape de fin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura artefacto Constructo 6/12 con la habilidad de arrollar. Exíliala al comienzo de tu próximo paso final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen 6/12 farblosen Konstrukt-Artefaktkreaturenspielstein, der Trampelschaden verursacht, ins Spiel. Schicke ihn zu Beginn deines nächsten Endsegments ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura artefatto Costrutto 6/12 incolore con travolgere. Esiliala all’inizio della tua prossima sottofase finale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプルを持つ無色の６/12の構築物・アーティファクト・クリーチャー・トークンを１体戦場に出す。次のあなたの終了ステップの開始時に、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진을 가진 6/12 무색 자동기계 마법물체 생물 토큰 한 개를 전장에 놓는다. 당신의 다음 종료단 시작에, 그 생물 토큰을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку артефакта существа 6/12 бесцветная Конструкция с Пробивным ударом. Изгоните ее в начале вашего следующего заключительного шага.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura incolor 6/12 do tipo Constructo com atropelar. Exile-a no início da sua próxima etapa final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将一个6/12无色，具践踏异能的组构体衍生神器生物放进战场。在你的下一个结束步骤开始时，将它放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將一個6/12無色，具踐踏異能的組構體神器生物衍生物放進戰場。在你的下一個結束步驟開始時，將它放逐。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_CONSTRUCT_6_12_T_382264", 1, EffectController(), EffectDC():Make_Chest(0) ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(1)
+    local tokenDC = EffectDC():Get_Chest(0)
+    if tokenDC ~= nil then
+    	local token = tokenDC:Get_CardPtr(0)
+    	if token ~= nil then
+    		delayDC:Set_CardPtr(0, token)
+    		delayDC:Set_PlayerPtr(1, EffectController() )
+    		MTG():CreateDelayedTrigger(1, delayDC)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller" to_zone="ZONE_ANY" from_zone="ZONE_ANY">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <CLEANUP fire_once="1" />
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Exile()  
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CONSTRUCT_6_12_T_382264" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

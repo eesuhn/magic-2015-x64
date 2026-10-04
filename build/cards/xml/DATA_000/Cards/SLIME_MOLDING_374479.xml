@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="SLIME_MOLDING_374479" />
+  <CARDNAME text="SLIME_MOLDING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slime Molding]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Façonnage de boue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Moldear el cieno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schleimformung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Plasmare la Melma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スライム成（せい）形（けい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[점액 조형]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Появление Слизи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Moldagem de Limo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[黏泞塑型]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[黏濘塑型]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374479" />
+  <ARTID value="145914" />
+  <ARTIST name="Marco Nelor" />
+  <CASTING_COST cost="{X}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Give me enough refuse and mana and I will summon an ooze that can engulf all of Ravnica.”
+—Cevraya, Golgari shaman]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Donnez-moi suffisamment de déchets et de mana et j'invoquerai un limon capable d'engloutir tout Ravnica. »
+—Cevraya, shamane de Golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Dame suficientes desechos y maná e invocaré un cieno que sepultará toda Rávnica”.
+—Cevraya, chamán golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Gib mir nur genug Abfälle und Mana, und ich beschwöre einen Schleim herbei, der ganz Ravnica verschlingen kann.“
+—Cevraya, Golgari-Schamane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Dammi abbastanza rifiuti e mana e ti evocherò una melma in grado di ingoiare Ravnica intera.”
+—Cevraya, sciamana Golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「廃棄物とマナさえ十分にあれば、ラヴニカ全土を覆い尽くすほどのウーズを召喚してやるわよ。」
+――ゴルガリのシャーマン、セヴリヤ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["내게 쓰레기와 마나만 충분히 준다면 나는 라브니카 전체를 짐어삼킬 수 있는 점액괴물을 소환할 것이다."
+—골가리 주술사 세브라야]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Дайте мне достаточно мусора и маны, и я смогу вызвать тину, которая поглотит всю Равнику целиком».
+— Севрайя, шаманка Голгари]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Com lixo e mana suficiente, eu posso invocar um lodo capaz de engolir toda Ravnica.”
+— Cevraya, xamã Golgari]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「给我足够的废物和法术力，我就能召唤可将拉尼卡整个吞没的流浆。」
+～葛加理祭师习拉雅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「給我足夠的廢物和魔法力，我就能召喚可將拉尼卡整個吞沒的流漿。」
+～葛加理祭師習拉雅]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put an X/X green Ooze creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature X/X verte Limon.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura Cieno verde X/X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen X/X grünen Schlammwesen-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura Melma X/X verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑のＸ/Ｘのウーズ・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[X/X 녹색 점액괴물 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку существа Х/Х зеленая Тина.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura verde X/X do tipo Lodo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将一个X/X绿色流浆衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將一個X/X綠色流漿衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutPTTokensOntoBattlefield( "TOKEN_OOZE_S_S_G_377546", 1, EffectController(), GetEffectX(), GetEffectX() ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_OOZE_S_S_G_377546" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

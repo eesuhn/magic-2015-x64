@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="STROMKIRK_PATROL_380218" />
+  <CARDNAME text="STROMKIRK_PATROL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stromkirk Patrol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Patrouille de Stromkirk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Patrulla Stromkirk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stromkirch-Patrouille]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pattuglia di Stromkirk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流（りゅう）城（じょう）の巡（じゅん）回（かい）兵（へい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스트롬커크 순찰병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стромкиркский Патруль]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Patrulha Stromkirk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[溪堡巡卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[溪堡巡衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380218" />
+  <ARTID value="138247" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{4}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You’d best move along, human. Our palates are far less discerning than our master’s.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Passe vite ton chemin, humain. Nous faisons moins la fine bouche que notre maître. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mejor que sigas tu camino, humano. Nuestro paladar es menos exquisito que el de nuestro amo”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Geh lieber weiter, Menschlein. Unser Geschmack ist weniger anspruchsvoll als der unseres Meisters.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ti conviene andartene, umano. I nostri palati sono molto meno cauti di quello del nostro padrone.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「立ち去るがよい、人間よ。我らの味覚は我らの主ほどは肥えておらぬ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["빨리 꺼져라. 우리 입맛은 그리 까다롭지 않아."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Проходи побыстрее, человек. Мы не такие разборчивые гурманы, как наш господин».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“É melhor você se afastar, humano. Nossos palatos são muito menos sensíveis que o de nosso mestre.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「人类，你最好快走。我们的口味不像主人那么挑剔。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「人類，你最好快走。我們的口味不像主人那麼挑剔。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Stromkirk Patrol deals combat damage to a player, put a +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que la Patrouille de Stromkirk inflige des blessures de combat à un joueur, mettez un marqueur +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Patrulla Stromkirk haga daño de combate a un jugador, pon un contador +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn die Stromkirch-Patrouille einem Spieler Kampfschaden zufügt, lege eine +1/+1-Marke auf sie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta la Pattuglia di Stromkirk infligge danno da combattimento a un giocatore, metti un segnalino +1/+1 sulla Pattuglia di Stromkirk.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流城の巡回兵がプレイヤー１人に戦闘ダメージを与えるたび、これの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스트롬커크 순찰병이 플레이어에게 전투피해를 입힐 때마다, 스트롬커크 순찰병에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Стромкиркский Патруль наносит боевые повреждения игроку, положите на него один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Patrulha Stromkirk causar dano de combate a um jogador, coloque um marcador +1/+1 nele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当溪堡巡卫对一位牌手造成战斗伤害时，在其上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當溪堡巡衛對一位玩家造成戰鬥傷害時，在其上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_PLAYER" simple_qualifier="self" damage_type="combat" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

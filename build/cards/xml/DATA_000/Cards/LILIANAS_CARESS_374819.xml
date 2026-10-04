@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="132">
+  <FILENAME text="LILIANAS_CARESS_374819" />
+  <CARDNAME text="LILIANAS_CARESS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Liliana’s Caress]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Caresse de Liliana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caricia de Liliana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lilianas Umarmung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Carezza di Liliana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[リリアナの愛（あい）撫（ぶ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[릴리아나의 애무]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ласка Лилианы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carícia de Liliana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[莉莲娜的抚触]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[莉蓮娜的撫觸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374819" />
+  <ARTID value="129124" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“This might hurt less if you don’t fight so hard. But I doubt it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Cela vous ferait peut-être moins mal si vous vous débattiez moins. Mais j'en doute. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Esto podría doler menos si no lucharas tanto. Pero lo dudo”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es tut vielleicht nicht ganz so weh, wenn du dich nicht wehrst. Aber ich bezweifele das.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Potrebbe essere meno doloroso se la smetti di ribellarti. Ma ne dubito.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「必死に抗わなければそんなに痛くはないかもよ。どうだかわからないけどね。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["그렇게 열심히 저항하지 않으면 고통도 적지 않을까? 나도 잘 모르지만."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Может, будет не так больно, если вы прекратите так отчаянно отбиваться. Хотя я сомневаюсь».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Talvez doa menos se você não resistir, mas duvido muito disso."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「如果你别那么用力挣扎，就不会那么痛了。但你应该还是会。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「如果你別那麼用力掙扎，就不會那麼痛了。但你應該還是會。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an opponent discards a card, that player loses 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un adversaire se défausse d’une carte, ce joueur perd 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un oponente descarte una carta, ese jugador pierde 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Gegner eine Karte abwirft, verliert dieser Spieler 2 Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un avversario scarta una carta, quel giocatore perde 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いずれかの対戦相手がカードを１枚捨てるたび、そのプレイヤーは２点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 손에서 카드를 버릴 때마다, 그 플레이어는 생명 2점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда оппонент сбрасывает карту, он теряет 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um oponente descarta um card, aquele jogador perde 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一位对手弃一张牌时，该牌手失去2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一位對手棄一張牌時，該玩家失去2點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="DISCARD">
+    return TriggerObject():GetPlayer():GetTeam() ~= EffectController():GetTeam()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local triggerObject = TriggerObject()
+    if triggerObject ~= nil then
+    	triggerObject:GetPlayer():LoseLife(2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

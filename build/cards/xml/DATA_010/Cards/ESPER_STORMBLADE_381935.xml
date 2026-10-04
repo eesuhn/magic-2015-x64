@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="ESPER_STORMBLADE_381935" />
+  <CARDNAME text="ESPER_STORMBLADE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Esper Stormblade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oragalfange d'Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espada tormentosa esperiana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stürmischer Kämpfer aus Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lama Tempestosa di Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エスパーの嵐（らん）刃（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[에스퍼 폭풍칼날]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Штормовой Палач из Эспера]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lâmina Tempestuosa de Esper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[艾斯波暴锋师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艾斯波暴鋒師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381935" />
+  <ARTID value="121055" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{W/B}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stormcallers came to appreciate the novelty of Jund’s volcanic updrafts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les meneurs d'orage finirent par apprécier la nouveauté des vents volcaniques de Jund.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los atraetormentas aprendieron a apreciar la novedad de las corrientes volcánicas de Jund.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sturmrufer lernten die vulkanischen Aufwinde von Jund sehr zu schätzen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I placatempeste finirono per apprezzare la novità costituita dagli sbuffi vulcanici di Jund.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵐呼びは、ジャンドの火山の上昇気流の贈り物に感謝を捧げに現れた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[폭풍술사들은 준드의 화산이 만든 상승 기류를 감상하러 왔다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призыватели бурь оценили новое для них явление вулканических восходящих потоков на Джанде.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os invocadores de tempestade vieram para apreciar a novidade das correntes ascendentes vulcânicas de Jund.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[唤雷师已懂得利用勇得新奇的火山上升气流。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[喚雷師已懂得利用勇得新奇的火山上升氣流。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vedalken" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as you control another multicolored permanent, Esper Stormblade gets +1/+1 and has flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que vous contrôlez un autre permanent multicolore, l’Oragalfange d’Esper gagne +1/+1 et a le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras controles otro permanente multicolor, la Espada tormentosa esperiana obtiene +1/+1 y tiene la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange du eine andere mehrfarbige bleibende Karte kontrollierst, erhält der Stürmische Kämpfer aus Esper +1/+1 und hat Flugfähigkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che controlli un altro permanente multicolore, la Lama Tempestosa di Esper prende +1/+1 e ha volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが他の多色のパーマネントをコントロールしているかぎり、エスパーの嵐刃は＋１/＋１の修整を受けるとともに飛行を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 다른 다색 생물을 조종하는 한, 에스퍼 폭풍칼날은 +1/+1을 받고 비행을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока вы контролируете другой многоцветный перманент, Штормовой Палач из Эспера получает +1/+1 и имеет Полет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto você controlar outra permanente multicolorida, Lâmina Tempestuosa de Esper receberá +1/+1 e terá voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要你操控另一个多色永久物，艾斯波暴锋师便得+1/+1且具有飞行异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要你操控另一個多色永久物，艾斯波暴鋒師便得+1/+1且具有飛行異能。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_NUM_COLOURS, OP_GREATER_THAN, 1 )
+    filter:Add( FE_IS_PERMANENT, true )
+    local numPermanents = filter:CountStopAt(1)
+    if numPermanents == 1 then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_NUM_COLOURS, OP_GREATER_THAN, 1 )
+    filter:Add( FE_IS_PERMANENT, true )
+    local numPermanents = filter:CountStopAt(1)
+    if numPermanents == 1 then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_FLYING, 1)
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

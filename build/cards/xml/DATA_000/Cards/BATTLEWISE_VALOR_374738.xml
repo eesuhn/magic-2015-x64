@@ -1,0 +1,244 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="140">
+  <FILENAME text="BATTLEWISE_VALOR_374738" />
+  <CARDNAME text="BATTLEWISE_VALOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Battlewise Valor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Valeur du sage de guerre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Coraje en la batalla ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tapferkeit der Kampferprobten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Valore dei Guerrieri Sagaci]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦（せん）識（しき）の武（ぶ）勇（ゆう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[숙련병의 용기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Храбрость Битвознатца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bravura dos Belisábios]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[智兵团之勇]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[智兵團之勇]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374738" />
+  <ARTID value="150854" />
+  <ARTIST name="Zack Stella" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It’s never good to walk into an ambush, but with the right spell you might walk out again.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[S'il n'est jamais recommandé de tomber dans un piège, le sort approprié permet d'en ressortir vivant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caer en una emboscada no es nada bueno, pero con el hechizo adecuado quizá puedas salir de ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In einen Hinterhalt zu laufen ist nicht empfehlenswert, außer du hast den richtigen Zauberspruch parat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non è mai piacevole cadere in un’imboscata, ma con la magia giusta potresti uscirne vivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[伏兵のいる真っ只中に足を踏み入れるのは賢明ではないが、正しい呪文があれば無事そこから抜け出すこともできるだろう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[매복은 걸리지 않는 것이 최선책이지만, 적절한 주문을 사용한다면 걸리고도 살아나올 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Попадать в засаду всегда неприятно, но с подходящими заклинаниями можно хотя бы выбраться из нее.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nunca é bom cair numa emboscada, mas com a mágica certa você pode sair dela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[遭袭被困绝非好事，但合适的咒语就能让你脱困。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[遭襲被困絕非好事，但合適的咒語就能讓你脫困。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target creature gets +2/+2 until end of turn. Scry 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature ciblée gagne +2/+2 jusqu’à la fin du tour. Regard 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura objetivo obtiene +2/+2 hasta el final del turno. Adivina 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eine Kreatur deiner Wahl erhält +2/+2 bis zum Ende des Zuges. Hellsicht 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una creatura bersaglio prende +2/+2 fino alla fine del turno. Profetizza 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。それはターン終了時まで＋２/＋２の修整を受ける。占術１を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 두 개를 목표로 정한다. 목표 생물은 턴종료까지 +2/+2를 받는다. 점술 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевое существо получает +2/+2 до конца хода. Предскажите 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura alvo recebe +2/+2 até o final do turno. Vidência 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标生物得+2/+2直到回合结束。占卜1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標生物得+2/+2直到回合結束。占卜1。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_2" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local rep_count = MTG():GetActionRepCount()
+    if rep_count == 0 then
+    	-------------------------------
+    	-- 1) ASK FIRST SCRY QUESTION
+    	-------------------------------
+    	local scry_value = 1
+    	-- Fill InputDC with top N cards of library
+    	local cards_found = 0
+    	local scryDC = EffectDC():Make_Chest(1)
+    	local scryInputDC = scryDC:Make_Chest(0)
+    	for i=0,scry_value-1 do
+    		local card = EffectController():Library_GetNth(i)
+    			
+    		if card ~= nil then
+    			scryInputDC:Set_CardPtr(cards_found, card)
+    				
+    			cards_found = cards_found + 1
+    		end
+    	end
+    	
+    	if cards_found == 0 then
+    		-- No cards in library, end
+    		return false
+    	end
+    	
+    	-- If scrying a single card, multiple choice it
+    	if scry_value == 1 or cards_found == 1 then
+    		local effectController = EffectController()
+    		if effectController ~= nil then
+    			effectController:BeginNewMultipleChoice()
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_TOP" )
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_BOTTOM", TRANSITION_BOTTOM_OF_LIBRARY )
+    			effectController:AskMultipleChoiceQuestion( "CARD_QUERY_SCRY_ONE_QUESTION", EffectController():Library_GetTop() )
+    		end
+    		return true
+    	end
+    	local scryTopDC = scryDC:Make_Chest(1)
+    	
+    	-- If scrying more than 1 card, we need a browser
+    	if cards_found &gt; 1 then
+    		-- Ask query
+    		EffectController():SetItemCount( cards_found )
+    			
+    		for i=0,cards_found-1 do
+    			EffectController():SetItemPrompt( i, "CARD_QUERY_SCRY_ONE" )
+    		end
+    			
+    		EffectController():ChooseItemsFromDC( scryInputDC, scryTopDC, QUERY_FLAG_UP_TO + QUERY_FLAG_ORDERED_SELECTION )
+    	end
+    	return true
+    elseif rep_count == 1 then
+    	-------------------------------
+    	-- 2) MOVE THE CARDS
+    	-------------------------------
+    	local scryDC = EffectDC():Get_Chest(1)
+    	-- Get old chests, and determine actual scry value
+    	local scryInputDC = scryDC:Get_Chest(0)
+    	local scry_value = scryInputDC:Count()
+    	if scry_value == 1 then
+    		local answer = EffectController():GetMultipleChoiceResult()
+    		if answer == 0 then
+    			-- Scryed the single top card to top, nothing to do
+    		end
+    		if answer == 1 then
+    			-- Scry the top card to the bottom
+    			scryInputDC:Get_CardPtr(0):PutOnBottomOfLibrary()
+    		end
+    	else
+    	
+    		local scryTopDC = scryDC:Get_Chest(1)
+    		local scry_top = scryTopDC:Count()
+    		if scry_value &gt; 1 and scry_top &lt; scry_value then
+    			-- Fill SecondInputDC with everything in InputDC not in TopDC ("what's left")
+    			for i=0,scry_value-1 do
+    				local card = scryInputDC:Get_CardPtr(i)
+    			
+    				for j=0,scry_top-1 do
+    					if card == scryTopDC:Get_CardPtr(j) then
+    						-- chosen, ignore
+    						card = nil
+    						break
+    					end
+    				end
+    			
+    				-- if not present in TopDC, move it to the bottom
+    				if card ~= nil then
+    					card:PutOnBottomOfLibrary()
+    				end
+    			end
+    		
+    			-- Move chosen cards to top of library so first
+    			-- card chosen ends up on top of the library
+    			for i=0,scry_top-1 do
+    				local card = scryTopDC:Get_CardPtr(i)
+    		
+    				if card ~= nil then
+    					card:PutOnTopOfLibrary()
+    				end
+    			end
+    		end
+    	end
+    	-- END
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <HELP title="MORE_INFO_TITLE_SCRY" body="MORE_INFO_BODY_SCRY" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_2_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +2/+2 erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋２/＋２の修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+2/+2를 받을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +2/+2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要得+2/+2的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+2/+2。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Select this card to put it on top of your library. Otherwise, it will be put on the bottom of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sélectionnez cette carte pour la mettre au-dessus de votre bibliothèque. Sinon, elle sera mise au-dessous de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Selecciona esta carta para ponerla en la parte superior de tu biblioteca. De lo contrario, irá al fondo de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wähle diese Karte aus, um sie auf deine Bibliothek zu legen. Andernfalls wird sie unter deine Bibliothek gelegt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Seleziona questa carta per metterla in cima al tuo grimorio. Altrimenti, verrà messa in fondo al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このカードを選び、ライブラリーの一番上に置く。そうしない場合、そのカードはライブラリーの一番下に置かれます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 카드를 선택하여 당신의 서고 맨 위에 놓으십시오. 그렇지 않으면, 그 카드는 당신의 서고 맨 밑에 넣어집니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите эту карту, чтобы положить ее на верх вашей библиотеки. В противном случае она будет положена в низ вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Selecione este card para colocá-lo no topo do seu grimório. Do contrário, ele será colocado no fundo do seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果你要将此牌置于你的牌库顶，请选择它。否则，它将被置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果你要將此牌置於你的牌庫頂，請選擇它。否則，它將置於你的牌庫底。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_BOTTOM">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bottom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessous]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番下]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 밑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В низ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库底]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫底]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_TOP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Top]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Parte superior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In cima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番上]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 위]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На верх]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Topo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库顶]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫頂]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to put this card on the top or bottom of your library?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous mettre cette carte au-dessus ou au-dessous de votre bibliothèque ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Vas a poner esta carta en la parte superior o en el fondo de tu biblioteca?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diese Karte auf oder unter deine Bibliothek legen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi mettere questa carta in cima o in fondo al tuo grimorio?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[そのカードをライブラリーの一番上に置きますか？　それとも一番下に置きますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 카드를 서고 맨 밑에 넣으시겠습니까? 아니면 맨 위에 놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите положить эту карту на верх или в низ вашей библиотеки?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de colocar este card no topo ou no fundo do seu grimório?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要将此牌置于你的牌库顶还是牌库底？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要將此牌置於你的牌庫頂還是牌庫底？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

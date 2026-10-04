@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="957">
+  <FILENAME text="ACCURSED_SPIRIT_374717" />
+  <CARDNAME text="ACCURSED_SPIRIT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Accursed Spirit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Esprit maudit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espíritu maldito]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluchbeladener Geist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spirito Maledetto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪（のろ）われたスピリット]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저주받은 신령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Проклятый Дух]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espírito Amaldiçoado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[厄运鬼魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[厄運鬼魂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374717" />
+  <ARTID value="147434" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many have heard the slither of dragging armor and the soft squelch of its voice. But only its victims ever meet its icy gaze.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nombreux sont ceux à avoir entendu le raclement ténu de son armure ou le gargouillis de sa voix. Mais seules ses victimes croisent son regard glacial.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muchos han oído el sonido de su armadura al ser arrastrada y el suave gemido de su voz. Pero solo sus víctimas conocen su helada mirada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Viele haben schon das schlurfende Geräusch seiner Rüstung und das leise Glucksen seiner Stimme gehört. Doch nur seine Opfer haben je sein eisiges Starren erblickt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Molti hanno udito il rumore della sua armatura trascinata e il debole gorgoglio della sua voce. Ma solo le sue vittime ne incontrano lo sguardo di ghiaccio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それが鎧を引き摺る音や、それのくぐもった湿り声を聞いた者は数多い。だがそれの凍てつく眼差しを受けたことがあるのは、犠牲になった者だけだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신령의 갑옷이 땅에 끌리는 소리나 희미한 목소리를 들어본 사람은 쉽게 찾아볼 수 있다. 하지만 그 차가운 눈빛을 본 자들은 모두 죽었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Многие слышали шарканье его железных сапог и негромкое всхлипывание. Но только его жертвам доводилось встретить его леденящий взгляд.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Muitos ouviram o ranger da armadura arrastada e sua voz abafada. Mas apenas suas vítimas veem seu olhar gélido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[许多人都听过铠甲拖行和嘎吱轻响的声音，唯有其受害者才会迎上那冰冷的凝视。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[很多人都聽過盔甲拖行和嘎吱輕響的聲音，唯有其受害者才會迎上那冰冷的凝視。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Intimidate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Intimidation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Intimidar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einschüchtern]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Intimidire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[威嚇]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[위협]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Устрашение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Intimidar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[威吓]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[威嚇]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_INTIMIDATE" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_24" body="MORE_INFO_BADGE_BODY_24" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

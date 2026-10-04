@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="388">
+  <FILENAME text="PLANAR_CLEANSING_380895" />
+  <CARDNAME text="PLANAR_CLEANSING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Planar Cleansing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dépuration planaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Purificación planar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weltenreinigung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pulizia Planare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[次（じ）元（げん）の浄（じょう）化（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[차원의 정화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вселенское Очищение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Limpeza Planar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[净化时空]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[淨化時空]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380895" />
+  <ARTID value="121714" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{3}{W}{W}{W}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy all nonland permanents.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez tous les permanents non-terrain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye todos los permanentes que no sean tierra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre alle bleibenden Karten, die keine Länder sind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi tutti i permanenti non terra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[すべての土地でないパーマネントを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지가 아닌 지속물을 모두 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте все перманенты, не являющиеся землями.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua todas as permanentes que não sejam terrenos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭所有非地永久物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅所有非地永久物。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_DISTORTION_PLAY" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_IS_PERMANENT, true )
+    filter:Add( FE_TYPE, OP_NOT, CARD_TYPE_LAND)
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if FilteredCard() ~= nil then   
+    	FilteredCard():Destroy()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="1" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

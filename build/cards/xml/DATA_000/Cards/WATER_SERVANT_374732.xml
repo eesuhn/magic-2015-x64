@@ -1,0 +1,107 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="127">
+  <FILENAME text="WATER_SERVANT_374732" />
+  <CARDNAME text="WATER_SERVANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Water Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Servant d'eau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sirviente de agua]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Diener des Wassers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Servitore d’Acqua]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[水（みず）の召（めし）使（つか）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[물로 만든 하수인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Водный Слуга]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Servo da Água]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[水仆役]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[水僕役]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374732" />
+  <ARTID value="129097" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{2}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“This creature has innate perceptiveness. It knows when to rise and when to vanish into the tides.”
+—Jestus Dreya, Of Elements and Eternity]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Cette créature a une perspicacité innée. Elle sait quand émerger et quand disparaître sous les flots. »
+—Jestus Dreya, Des éléments et de l'éternité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Esta criatura tiene una percepción innata. Sabe cuándo levantarse y cuándo desaparecer con la marea”.
+—Jestus Dreya, Sobre los elementos y la eternidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Diese Kreatur hat angeborenes Wahrnehmungsvermögen. Sie weiß, wann sie sich erheben und wann in die Wellen zurückziehen muss.“
+—Jestus Dreya, Über Elemente und die Ewigkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Questa creatura ha un’innata perspicacia. Sa quando alzarsi e quando svanire nella marea.”
+—Jestus Dreya, Gli Elementi e l’Eternità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この魔物は生来の知覚の鋭さを有する。それはいつ立ち上がり、いつ高波に消え去るかを理解しているのだ。」――ジェスタス・ドレイヤ「元素と永遠と」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이 생물은 본능적으로 눈치가 빠르다. 언제 나타나고 언제 바다속으로 사라져야 하는지 알고 있지."
+—제스투스 드레야, 원소와 영속성에 대한 고찰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Это существо обладает врожденным чутьем. Оно знает, когда подняться над поверхностью, а когда исчезнуть, как знают свой час приливы и отливы».
+— Джестус Дрейя, О стихии и вечности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Essa criatura tem uma perceptividade inata. Ela sabe quando emergir e quando desaparecer nas marés.”
+— Jestus Dreya, Sobre os Elementos e a Eternidade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这生物天生有着觉察力。他知道何时该从浪潮中现身，何时该隐身其间。」
+～杰特坠亚，《元素与永恒》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這生物天生有著覺察力。牠知道何時該從浪潮中現身，何時該隱身其間。」
+～傑特墜亞，《元素與永恆》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="4" />
+  <ACTIVATED_ABILITY firebreathing="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}: Water Servant gets +1/-1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{U} : Le Servant d’eau gagne +1/-1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{U}: El Sirviente de agua obtiene +1/-1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U}: Der Diener des Wassers erhält +1/-1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{U}: Il Servitore d’Acqua prende +1/-1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{U}：水の召使いはターン終了時まで＋１/－１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{U}: 물로 만든 하수인은 턴종료까지 +1/-1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{U}: Водный Слуга получает +1/-1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{U}: Servo da Água recebe +1/-1 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{U}：水仆役得+1/-1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{U}：水僕役得+1/-1直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{U}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( -1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY firebreathing="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{U}: Water Servant gets -1/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{U} : Le Servant d’eau gagne -1/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{U}: El Sirviente de agua obtiene -1/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U}: Der Diener des Wassers erhält -1/+1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{U}: Il Servitore d’Acqua prende -1/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{U}：水の召使いはターン終了時まで－１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{U}: 물로 만든 하수인은 턴종료까지 -1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{U}: Водный Слуга получает -1/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{U}: Servo da Água recebe -1/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{U}：水仆役得-1/+1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{U}：水僕役得-1/+1直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{U}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( -1 )
+    	characteristics:Toughness_Add( 1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_STORM_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_STORM_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

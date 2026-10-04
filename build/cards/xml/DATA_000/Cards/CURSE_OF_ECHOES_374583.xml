@@ -1,0 +1,173 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="252">
+  <FILENAME text="CURSE_OF_ECHOES_374583" />
+  <CARDNAME text="CURSE_OF_ECHOES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Curse of Echoes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Malédiction d'échos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maldición de ecos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluch des Echos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maledizione dell’Eco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[こだまの呪（のろ）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[메아리의 저주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Проклятие Эха]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maldição dos Ecos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[回响诅咒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[迴響詛咒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374583" />
+  <ARTID value="139877" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{4}{U}" />
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <SUB_TYPE metaname="Curse" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant player]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : joueur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert einen Spieler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta giocatore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（プレイヤー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать игрока]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar jogador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于牌手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於玩家]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_TO_CURSE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():AttachToPlayer( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever enchanted player casts an instant or sorcery spell, each other player may copy that spell and may choose new targets for the copy he or she controls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le joueur enchanté lance un sort d’éphémère ou de rituel, chaque autre joueur peut copier ce sort et choisir de nouvelles cibles pour la copie qu’il contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el jugador encantado lance un hechizo de instantáneo o de conjuro, cada otro jugador puede copiar ese hechizo y puede elegir nuevos objetivos para la copia que controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der verzauberte Spieler einen Spontanzauber oder eine Hexerei wirkt, kann jeder andere Spieler diesen Zauberspruch kopieren und kann für die Kopie, die er kontrolliert, neue Ziele bestimmen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il giocatore incantato lancia una magia istantaneo o stregoneria, ogni altro giocatore può copiare quella magia e può scegliere nuovi bersagli per la copia che controlla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているプレイヤーがインスタント・呪文かソーサリー・呪文を１つ唱えるたび、他の各プレイヤーは、その呪文をコピーしてもよい。そうしたなら、そのプレイヤーは自分がコントロールするそのコピーの新たな対象を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 플레이어가 순간마법이나 집중마법 주문을 발동할 때마다, 그를 제외한 모든 플레이어는 그 주문을 복사할 수 있다. 그렇게 한 모든 플레이어는 자신이 조종하는 복사본의 목표를 새로 정할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда зачарованный игрок разыгрывает мгновенное заклинание или заклинание волшебства, каждый другой игрок может скопировать то заклинание и может выбрать новые цели для копии под своим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que o jogador encantado conjura uma mágica instantânea ou de feitiço, cada um dos outros jogadores pode copiar aquela mágica e escolher novos alvos para a cópia que controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当所结附的牌手施放一个瞬间或法术咒语时，每位其他牌手可以复制该咒语，且可以为自己所操控的复制品选择新的目标。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當所結附的玩家施放一個瞬間或巫術咒語時，每位其他玩家可以複製該咒語，且可以為自己所操控的複製品選擇新的目標。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED">
+    return (TriggerObject():GetCardType():Test(CARD_TYPE_INSTANT) or TriggerObject():GetCardType():Test(CARD_TYPE_SORCERY)) and TriggerPlayer() == EffectSource():GetParentPlayer()
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()
+    local parity = n%2
+    if parity == 0 then
+    	local player = MTG():GetNthPlayer(n/2)
+    	if player ~= nil then
+    		if player ~= TriggerPlayer() then
+    			player:BeginNewMultipleChoice()
+    			player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_YES")
+    			player:AddMultipleChoiceAnswer( "CARD_QUERY_OPTION_NO")
+    			player:AskMultipleChoiceQuestion( "CARD_QUERY_QUESTION_COPY_SPELL", TriggerObject() )
+    		end
+    		return true
+    	end
+    elseif parity == 1 then
+    	local player = MTG():GetNthPlayer((n-1)/2)
+    		
+    	if player ~= nil then
+    	
+    		local playerChest = EffectDC():Get_Chest(0)
+    		if playerChest == nil then
+    			playerChest = EffectDC():Make_Chest(0)
+    		end
+    					
+    		if player ~= TriggerPlayer() then
+    			local result = player:GetMultipleChoiceResult()
+    			if result == 0 then
+    				local pointerNumber = playerChest:Count()
+    				playerChest:Set_PlayerPtr(pointerNumber, player)
+    			end
+    		end
+    		return true
+    	end
+    end
+    return false
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local playerDC = EffectDC():Get_Chest(0)
+    local triggerObject = TriggerObject()
+    if playerDC ~= nil then
+    	local numPlayer = playerDC:Count()
+    	for i = 0, (numPlayer-1) do
+    		local player = playerDC:Get_PlayerPtr(i)
+    		if player ~= nil then
+    			local copy = player:CopySpell( triggerObject )
+    			player:ChooseNewTargets( copy )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TO_CURSE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to curse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur auquel infliger une malédiction.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para lanzarle una maldición.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der verflucht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore da maledire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪いの対象とするプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[저주를 걸 플레이어를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите целевого игрока для проклятия.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para amaldiçoar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位要诅咒的牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來詛咒。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_OPTION_YES">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Yes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oui]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sí]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ja]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sì]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[はい]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[예]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Да]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sim]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[是]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[是]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_OPTION_NO">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[No]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Non]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nein]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[No]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いいえ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아니요]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[否]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[否]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_QUESTION_COPY_SPELL">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to copy this spell?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous copier ce sort ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres copiar este hechizo?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diesen Zauberspruch kopieren?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi copiare questa magia?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[この呪文をコピーしますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 주문을 복사하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите скопировать это заклинание?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de copiar esta mágica?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要复制该咒语吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[要複製此咒語嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_CURSE_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_CURSE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

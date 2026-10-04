@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="PHANTOM_TIGER_382053" />
+  <CARDNAME text="PHANTOM_TIGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phantom Tiger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tigre fantomatique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tigre fantasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Phantom-Tiger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tigre Fantasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻（げん）影（えい）の虎（とら）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[환영 호랑이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призрачный Тигр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tigre Fantasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[幽魅虎]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[幽魅虎]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382053" />
+  <ARTID value="40267" />
+  <ARTIST name="Brian Snoddy" />
+  <CASTING_COST cost="{2}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phantom Tiger enters the battlefield with two +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Tigre fantomatique arrive sur le champ de bataille avec deux marqueurs +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Tigre fantasma entra al campo de batalla con dos contadores +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Phantom-Tiger kommt mit zwei +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Tigre Fantasma entra nel campo di battaglia con due segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻影の虎は、＋１/＋１カウンターが２個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[환영 호랑이는 +1/+1 카운터 두 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призрачный Тигр выходит на поле битвы с двумя жетонами +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tigre Fantasma entra no campo de batalha com dois marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[幽魅虎进战场时上面有兩个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[幽魅虎進戰場時上面有兩個+1/+1指示物。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="+1/+1" proliferate="10" />
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("+1/+1"), 2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If damage would be dealt to Phantom Tiger, prevent that damage. Remove a +1/+1 counter from Phantom Tiger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si des blessures devaient être infligées au Tigre fantomatique, prévenez ces blessures. Retirez un marqueur +1/+1 du Tigre fantomatique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si se le fuera a hacer daño al Tigre fantasma, prevén ese daño. Remueve un contador +1/+1 del Tigre fantasma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls dem Phantom-Tiger Schaden zugefügt würde, verhindere diesen Schaden. Entferne eine +1/+1-Marke vom Phantom-Tiger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se sta per essere inflitto danno alla Tigre Fantasma, previeni quel danno. Rimuovi un segnalino +1/+1 dalla Tigre Fantasma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻影の虎にダメージが与えられるなら、そのダメージを軽減する。幻影の虎の上から＋１/＋１カウンターを１個取り除く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[환영 호랑이가 피해를 입으려고 하면, 그 피해를 방지한다. 환영 호랑이에서 +1/+1 카운터 한 개를 제거한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если Призрачному Тигру должны быть нанесены повреждения, предотвратите те повреждения. Удалите один жетон +1/+1 с Призрачного Тигра.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se algum dano seria causado a Tigre Fantasma, previna aquele dano. Remova um marcador +1/+1 de Tigre Fantasma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果幽魅虎将受到伤害，则防止该伤害。从幽魅虎上移去一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果幽魅虎將受到傷害，則防止該傷害。從幽魅虎上移除一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="OBJECT_TAKES_DAMAGE" simple_qualifier="self" pre_trigger="1" damage_type="all" />
+    <RESOLUTION_TIME_ACTION>
+    local damage = Damage()
+    local effectSource = EffectSource()
+    if (damage ~= nil) and (effectSource ~= nil) then
+    	damage:PreventAll()
+    	effectSource:RemoveCounters(MTG():PlusOnePlusOneCounters(), 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

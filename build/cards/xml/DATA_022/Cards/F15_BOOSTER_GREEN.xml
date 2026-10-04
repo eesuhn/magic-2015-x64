@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<CARDS>
+<CARD_V2 ExportVersion="66">
+  <FILENAME text="CRATERHOOF_BEHEMOTH_388071" />
+  <CARDNAME text="CRATERHOOF_BEHEMOTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Craterhoof Behemoth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Béhémoth caveur de cratères]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Behemot cascocráter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kraterhuf-Behemoth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Behemoth dagli Zoccoli Craterici]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[孔（こう）蹄（てい）のビヒモス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[분화구발굽 거대괴물]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шагающее Напролом Чудище]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Behemoth Craterópode]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[陨蹄贝西摩斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[隕蹄貝西摩斯]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388071" />
+  <ARTID value="141572" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{5}{G}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Its footsteps of today are the lakes of tomorrow.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ses empreintes d'aujourd'hui sont les lacs de demain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los pasos que da hoy son los lagos del mañana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seine Fußstapfen von heute sind die Seen von morgen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le sue impronte di oggi accoglieranno i laghi di domani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あれが今日つけた足跡が、明日の湖。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것이 남긴 발자국은 시간이 흘러 호수가 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отпечатки его копыт превращаются в озера.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Suas pegadas de hoje são os lagos de amanhã.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[它今日的足迹是明日的湖泊。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[它今日的足跡是明日的湖泊。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HASTE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Craterhoof Behemoth enters the battlefield, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Béhémoth caveur de cratères arrive sur le champ de bataille, les créatures que vous contrôlez acquièrent le piétinement et gagnent +X/+X jusqu’à la fin du tour, X étant le nombre de créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Behemot cascocráter entre al campo de batalla, las criaturas que controlas ganan la habilidad de arrollar y obtienen +X/+X hasta el final del turno, donde X es la cantidad de criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Kraterhuf-Behemoth ins Spiel kommt, verursachen alle Kreaturen, die du kontrollierst, bis zum Ende des Zuges Trampelschaden und erhalten +X/+X, wobei X gleich der Anzahl an Kreaturen ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Behemoth dagli Zoccoli Craterici entra nel campo di battaglia, le creature che controlli hanno travolgere e prendono +X/+X fino alla fine del turno, dove X è il numero di creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[孔蹄のビヒモスが戦場に出たとき、ターン終了時まで、あなたがコントロールするクリーチャーはトランプルを得るとともに＋Ｘ/＋Ｘの修整を受ける。Ｘはあなたがコントロールするクリーチャーの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[분화구발굽 거대괴물이 전장에 들어올 때, 당신이 조종하는 생물들은 턴종료까지 +X/+X를 받고 돌진을 얻는다. X는 당신이 조종하는 생물의 개수다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Шагающее Напролом Чудище выходит на поле битвы, существа под вашим контролем получают Пробивной удар и +Х/+Х до конца хода, где Х — количество существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Behemoth Craterópode entra no campo de batalha, as criaturas que você controla ganham atropelar e recebem +X/+X até o final do turno, sendo X o número de criaturas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当陨蹄贝西摩斯进战场时，直到回合结束，由你操控的生物获得践踏异能且得+X/+X，X为由你操控的生物数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當隕蹄貝西摩斯進戰場時，直到回合結束，由你操控的生物獲得踐踏異能並得+X/+X，X為由你操控的生物數量。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local number = filter:Count()
+    EffectDC():Set_Int(1, number) 
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    local numPump = EffectDC():Get_Int(1)
+    local characteristics = FilteredCard():GetCurrentCharacteristics()
+    characteristics:Power_Add( numPump )
+    characteristics:Toughness_Add( numPump )
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="50" resource_type="CREATURE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="1900" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="6">
+  <FILENAME text="MASKED_ADMIRERS_388087" />
+  <CARDNAME text="MASKED_ADMIRERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Masked Admirers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Admirateurs masqués]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Admiradores enmascarados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vermummter Bewunderer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ammiratori Mascherati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[仮（か）面（めん）の称（しょう）賛（さん）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가면을 쓴 숭배자들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Почитатели в Масках]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Admiradores Mascarados]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[假面崇美者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[假面崇美者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388087" />
+  <ARTID value="105471" />
+  <ARTIST name="Eric Fortune" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Beauty determines value, and we determine beauty.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La beauté détermine la valeur, et nous déterminons la beauté. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La belleza determina el valor y nosotros determinamos qué es bello”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Schönheit bestimmt den Wert, und wir legen fest, was schön ist.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La bellezza determina il valore e noi determiniamo la bellezza.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「価値を決めるのは美で、美を決めるのは我々だ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“아름다움은 가치를 결정하지. 우리는 아름다움을 결정하고.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Красота определяет ценность, а красоту определяем мы».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A beleza determina o valor, e nós determinamos a beleza.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「美丽决定价值，而我们判定美丽。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「美麗決定價值，而我們判定美麗。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Masked Admirers enters the battlefield, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Admirateurs masqués arrivent sur le champ de bataille, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Admiradores enmascarados entren al campo de batalla, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Vermummte Bewunderer ins Spiel kommt, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando gli Ammiratori Mascherati entrano nel campo di battaglia, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[仮面の称賛者が戦場に出たとき、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가면을 쓴 숭배자들이 전장에 들어올 때, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Почитатели в Масках выходят на поле битвы, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Admiradores Mascarados entrar no campo de batalha, compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当假面崇美者进战场时，抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當假面崇美者進戰場時，抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a creature spell, you may pay {G}{G}. If you do, return Masked Admirers from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort de créature, vous pouvez payer {G}{G}. Si vous faites ainsi, renvoyez les Admirateurs masqués depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo de criatura, puedes pagar {G}{G}. Si lo haces, regresa a los Admiradores enmascarados de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Kreaturenzauber wirkst, kannst du {G}{G} bezahlen. Falls du dies tust, bringe den Vermummten Bewunderer aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia creatura, puoi pagare {G}{G}. Se lo fai, riprendi in mano gli Ammiratori Mascherati dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがクリーチャー・呪文を１つ唱えるたび、あなたは{G}{G}を支払ってもよい。そうしたなら、あなたの墓地にある仮面の称賛者をあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 생물 주문을 발동할 때마다, 당신은 {G}{G}를 지불할 수 있다. 그렇게 한다면, 가면을 쓴 숭배자들을 당신의 무덤에서 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание существа, вы можете заплатить {G}{G}. Если вы это делаете, верните Почитателей в Масках из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjurar uma mágica de criatura, você pode pagar {G}{G}. Se fizer isso, devolva Admiradores Mascarados de seu cemitério para sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放生物咒语时，你可以支付{G}{G}。若你如此作，则将假面崇美者从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放生物咒語時，你可以支付{G}{G}。若你如此作，則將假面崇美者從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local effectSource = EffectSource()
+    if effectController ~= nil and effectSource ~= nil then
+    	if effectController:CanPayManaCost("{G}{G}") then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MASKED_ADMIRERS_PAY_GG_AND_RETURN" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_DO_NOT_PAY_GG" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_RETURN_MASKED_ADMIRERS", effectSource )
+    		EffectDC():Set_Int(0, 1)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC():Get_Int(0) == 1 then
+    	if EffectController():GetMultipleChoiceResult() == 0 and EffectSource() ~= nil then
+    		EffectSource():PutInHand()
+    		EffectController():PayManaCost("{G}{G}")
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="20" resource_name="Graveyard" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_GRAVEYARD" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_MASKED_ADMIRERS_PAY_GG_AND_RETURN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {G}{G} and return Masked Admirers to your hand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {G}{G} et renvoyez les Admirateurs masqués dans votre main]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {G}{G} y regresar los Admiradores enmascarados a tu mano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}{G} bezahlen und den Vermummten Bewunderer auf deine Hand zurückbringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {G}{G} e riprendi in mano gli Ammiratori Mascherati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}{G}をを支払って《仮面の称賛者》を手札に戻す]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}{G}를 지불하고 '가면을 쓴 숭배자들'을 당신의 손으로 되돌립니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {G}{G} и вернуть Почитателей в Масках в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pague {G}{G} e devolva Admiradores Mascarados para sua mão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{G}{G}并将假面崇美者移回你手上]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{G}{G}並將假面崇美者移回你手上]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_DO_NOT_PAY_GG">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay {G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne payez pas {G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar {G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{G}{G} nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare {G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}{G}を支払わない]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}{G}를 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить {G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pagar {G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付{G}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付{G}{G}]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_RETURN_MASKED_ADMIRERS">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {G}{G} and return Masked Admirers from your graveyard to your hand?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aimeriez-vous payer {G}{G} et renvoyer les Admirateurs masqués depuis votre cimetière dans votre main ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {G}{G} y regresar los Admiradores enmascarados de tu cementerio a tu mano?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {G}{G} bezahlen und den Vermummten Bewunderer aus deinem Friedhof auf deine Hand zurückbringen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {G}{G} e riprendere in mano gli Ammiratori Mascherati dal tuo cimitero?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{G}{G}を支払って墓地から《仮面の称賛者》を手札に戻しますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{G}{G}를 지불하고 '가면을 쓴 숭배자들'을 당신의 무덤에서 당신의 손으로 되돌리시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {G}{G} и вернуть Почитателей в Масках из вашего кладбища в вашу руку?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar {G}{G} e devolver Admiradores Mascarados do cemitério para sua mão?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付{G}{G}并将假面崇美者从你的坟墓场移回你手上吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付{G}{G}並將假面崇美者從你的墳墓場移回你手上嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="81">
+  <FILENAME text="RAISED_BY_WOLVES_388072" />
+  <CARDNAME text="RAISED_BY_WOLVES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Raised by Wolves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élevé par les loups]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Criado por los lobos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Von Wölfen aufgezogen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Allevato dai Lupi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狼（おおかみ）育（そだ）ち]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늑대의 양육]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Волчье Воспитание]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Criado por Lobos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[出身狼群]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[出身狼群]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388072" />
+  <ARTID value="152079" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert eine Kreatur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于生物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於生物]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Raised by Wolves enters the battlefield, put two 2/2 green Wolf creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Élevé par les loups arrive sur le champ de bataille, mettez sur le champ de bataille deux jetons de créature 2/2 verte Loup.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Criado por los lobos entre al campo de batalla, pon en el campo de batalla dos fichas de criatura Lobo verdes 2/2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Von Wölfen aufgezogen ins Spiel kommt, bringe zwei 2/2 grüne Wolf-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Allevato dai Lupi entra nel campo di battaglia, metti sul campo di battaglia due pedine creatura Lupo 2/2 verdi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狼育ちが戦場に出たとき、緑の２/２の狼・クリーチャー・トークンを２体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늑대의 양육이 전장에 들어올 때 2/2 녹색 늑대 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Волчье Воспитание выходит на поле битвы, положите на поле битвы две фишки существа 2/2 зеленый Волк.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Criado por Lobos entrar no campo de batalha, coloque no campo de batalha duas fichas de criatura verdes 2/2 do tipo Lobo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当出身狼群进战场时，将两个2/2绿色的狼衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當出身狼群進戰場時，將兩個2/2綠色的狼衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_WOLF_2_2_G_377575", 2, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchanted creature gets +1/+1 for each Wolf you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La créature enchantée gagne +1/+1 pour chaque loup que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La criatura encantada obtiene +1/+1 por cada Lobo que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die verzauberte Kreatur erhält +1/+1 für jeden Wolf, den du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La creatura incantata prende +1/+1 per ogni Lupo che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーは、あなたがコントロールする狼１体につき＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물은 당신이 조종하는 각 늑대 하나당 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачарованное существо получает +1/+1 за каждого Волка под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A criatura encantada recebe +1/+1 para cada Lobo que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你每操控一个狼，所结附的生物便得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你每操控一個狼，所結附的生物便得+1/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local parent = EffectSource():GetParent()
+    if parent ~= nil then
+    	local filter = ClearFilter()
+    	filter:Add(FE_SUBTYPE, OP_IS, CREATURE_TYPE_WOLF )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	local number = filter:Count()
+    	parent:GetCurrentCharacteristics():Power_Add( number )
+    	parent:GetCurrentCharacteristics():Toughness_Add( number )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="2" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_WOLF_2_2_G_377575" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="80">
+  <FILENAME text="TIMBERWATCH_ELF_388086" />
+  <CARDNAME text="TIMBERWATCH_ELF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Timberwatch Elf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elfe gardebois]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elfo vigilabosques]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Holzwart-Elf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elfo Guardaboschi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森（しん）林（りん）守（まも）りのエルフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[목재감시단 엘프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эльф из Лесной Стражи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elfo Vigia dos Pinheiros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巡林妖精]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巡林妖精]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388086" />
+  <ARTID value="48217" />
+  <ARTIST name="Dave Dorman" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Even through the Mirari’s voice, the elves still hear the call of their kinship.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Même troublés par la voix du Mirari, les elfes entendaient toujours l'appel de leurs semblables.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los elfos oyen el llamado de sus parientes incluso por encima de la voz del Mirari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Selbst in der Stimme des Mirari hören die Elfen noch den Ruf ihrer Verwandten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anche attraverso la voce del Mirari, gli elfi riuscivano ancora a sentire il richiamo dei propri simili.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルフが仲間を呼ぶ声は、ミラーリの声を通してさえ響きあう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미라리의 목소리를 통해서도 엘프들은 동족의 부름을 들을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Даже через голос Мирари эльфы продолжали слышать зов своего рода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mesmo através da voz do Mirari, os elfos ainda ouviam o chamado de sua raça.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在映奇宝珠的喧扰声中，妖精依旧能听见族人的呼唤。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在映奇寶珠的喧擾聲中，妖精依舊能聽見族人的呼喚。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Target creature gets +X/+X until end of turn, where X is the number of Elves on the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : La créature ciblée gagne +X/+X jusqu’à la fin du tour, X étant le nombre d’elfes sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: La criatura objetivo obtiene +X/+X hasta el final del turno, donde X es la cantidad de Elfos en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Eine Kreatur deiner Wahl erhält +X/+X bis zum Ende des Zuges, wobei X gleich der Anzahl an Elfen im Spiel ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Una creatura bersaglio prende +X/+X fino alla fine del turno, dove X è il numero di Elfi sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：クリーチャー１体を対象とする。ターン終了時まで、それは＋Ｘ/＋Ｘの修整を受ける。Ｘは戦場に出ているエルフの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 생물을 목표로 정한다. 그 생물은 턴종료까지 +X/+X를 받는다. X는 전장에 있는 엘프 수이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: целевое существо получает +X/+X до конца хода, где Х — количество Эльфов на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: A criatura alvo recebe +X/+X até o final do turno, sendo Xo número de Elfos no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：目标生物得+X/+X直到回合结束，X为战场上妖精的数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：目標生物得+X/+X直到回合結束，X為戰場上妖精的數量。]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_X_X" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ELF)
+    local number = filter:Count()
+    EffectDC():Set_Int(1, number) 
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local number = EffectDC():Get_Int(1)
+    if target ~= nil and number ~= 0 then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( number )
+    	characteristics:Toughness_Add( number )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="500" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="25" resource_subtype="ELF" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_ARROWS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_X_X">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +X/+X erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋Ｘ/＋Ｘの修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+X/+X를 받을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +X/+X.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要得+X/+X的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+X/+X。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+</CARDS>

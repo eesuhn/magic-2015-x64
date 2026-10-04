@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1146">
+  <FILENAME text="CHARMBREAKER_DEVILS_378304" />
+  <CARDNAME text="CHARMBREAKER_DEVILS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Charmbreaker Devils]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Diables brisecharme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Diablos rompeamuletos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zauberbrechende Teufel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Diavoli Spezzamagie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[護（ご）符（ふ）破（やぶ）りの小（こ）悪（あく）魔（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부적파괴 악령들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дьяволы, Разрушители Заклятий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Diabos Quebradores de Encanto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[断符魔鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[斷符魔鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378304" />
+  <ARTID value="138300" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{5}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Devil" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, return an instant or sorcery card at random from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, renvoyez une carte d’éphémère ou de rituel choisie au hasard depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, regresa una carta de instantáneo o de conjuro al azar de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn deines Versorgungssegments eine zufällig bestimmte Spontanzauber- oder Hexereikarte aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, riprendi in mano una carta istantaneo o stregoneria a caso dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたはあなたの墓地にあるインスタント・カードかソーサリー・カードを１枚無作為に選んであなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신의 무덤에서 순간마법 또는 집중마법 카드 한 장을 무작위로 정해서 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки верните случайно выбранную карту мгновенного заклинания или волшебства из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, devolva um card de mágica instantânea ou de feitiço aleatoriamente de seu cemitério para sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，随机将一张瞬间或法术牌从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，隨機將一張瞬間或巫術牌從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    local subfilter = filter:AddSubFilter_Or()
+    subfilter:Add(FE_TYPE, OP_IS, CARD_TYPE_INSTANT)
+    subfilter:Add(FE_TYPE, OP_IS, CARD_TYPE_SORCERY)
+    filter:EvaluateObjects()
+    EffectDC():Make_Targets(0):Set_CardPtr(0, filter:GetRandomEvaluatedObject())
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast an instant or sorcery spell, Charmbreaker Devils gets +4/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d’éphémère ou de rituel, les Diables brisecharme gagnent +4/+0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo de instantáneo o de conjuro, los Diablos rompeamuletos obtienen +4/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Spontanzauber oder eine Hexerei wirkst, erhalten die Zauberbrechenden Teufel +4/+0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia istantaneo o stregoneria, i Diavoli Spezzamagie prendono +4/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがインスタント・呪文かソーサリー・呪文を１つ唱えるたび、護符破りの小悪魔はターン終了時まで＋４/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 순간마법이나 집중마법 주문을 발동할 때마다, 부적파괴 악령들은 턴종료까지 +4/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете мгновенное заклинание или заклинание волшебства, Дьяволы, Разрушители Заклятий получают +4/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica instantânea ou de feitiço, Demônios Quebradores de Encanto recebe +4/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放瞬间或法术咒语时，断符魔鬼得+4/+0直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放瞬間或巫術咒語時，斷符魔鬼得+4/+0直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetCardType():Test( CARD_TYPE_INSTANT ) or TriggerObject():GetCardType():Test( CARD_TYPE_SORCERY )
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 4 )
+    	characteristics:Toughness_Add( 0 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AUTO_SKIP no_effect_source="1" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="1300" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="60" resource_type="INSTANT" />
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="60" resource_type="SORCERY" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

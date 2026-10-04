@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="399">
+  <FILENAME text="INSPIRED_CHARGE_378289" />
+  <CARDNAME text="INSPIRED_CHARGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Inspired Charge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Charge inspirée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Carga inspirada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Inspirierter Ansturm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Carica Ispirata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鼓（こ）舞（ぶ）する突（とつ）撃（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영감을 얻은 돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вдохновенный Натиск]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ataque Inspirado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[鼓舞冲锋]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鼓舞衝鋒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378289" />
+  <ARTID value="129157" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Impossible! How could they overwhelm us? We had barricades, war elephants, … and they were barely a tenth of our number!”
+—General Avitora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Impossible ! Comment ont-ils réussi à nous submerger ? Nous avions des barricades, des éléphants de guerre... et ils avaient à peine un dixième de nos troupes ! »
+—Général Avitora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Imposible! ¿Cómo pudieron vencernos? Teníamos barricadas, elefantes… ¡y ellos eran diez veces menos que nosotros!”.
+—General Avitora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unmöglich! Wie konnten sie uns überwinden? Wir hatten Barrikaden, Kriegselefanten … und sie hatten nicht einmal ein Zehntel unserer Leute!“
+—General Avitora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Impossibile! Come possono averci sbaragliato? Avevamo barricate, elefanti da guerra... ed erano appena un decimo di noi!”
+—Generale Avitora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ありえぬ！なぜ我々を蹂躙しえたのだ？防壁も象も用意していたのに……しかも、奴らは我々の十分の一しかいなかったのだぞ！」――アヴィトーラ将軍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["말도 안 돼! 어떻게 녀석들이 우리 방어진을 뚫었지? 바리케이드도 있고 전투 코끼리도 있는데... 게다가 녀석들은 우리 병력의 십분의 일 밖에 안 된다고!"
+—아비토라 장군]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Это невозможно! Как им удалось нас перебороть? У нас были баррикады, боевые слоны... а их вообще было в десять раз меньше!»
+— Генерал Авитора]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Impossível! Como puderam nos derrotar? Nós tínhamos barricadas, elefantes de guerra... e eles eram apenas um décimo de nossas tropas!”
+— General Avitora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「不可能！我们怎会给打到溃败？我们有路障，战象...而且他们数量不到我们的一成！」
+～阿维托拉将军]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「不可能！我們怎會給打到潰敗？我們有路障，戰象...而且他們數量不到我們的一成！」
+～阿維托拉將軍]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +2/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +2/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +2/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +2/+1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +2/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、ターン終了時まで＋２/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 턴종료까지 +2/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +2/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +2/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的生物得+2/+1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的生物得+2/+1直到回合結束。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="24" score_per_unit="25" resource_type="CREATURE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

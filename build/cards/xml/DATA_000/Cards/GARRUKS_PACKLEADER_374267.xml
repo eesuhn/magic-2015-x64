@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="856">
+  <FILENAME text="GARRUKS_PACKLEADER_374267" />
+  <CARDNAME text="GARRUKS_PACKLEADER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Garruk’s Packleader]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chef de meute de Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Líder de manada de Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Garruks Rudelführer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capobranco di Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ガラクの群（む）れ率（ひき）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[개럭의 짐승대장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вожак Стаи Гаррука]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Líder de Matilha de Garruk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[贾路的兽群长]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[賈路的獸群長]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374267" />
+  <ARTID value="129147" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“He has learned much in his long years. And unlike selfish humans, he’s willing to share.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il a beaucoup appris durant les longues années de sa vie. Et contrairement aux humains égoïstes, il est prêt à partager. »
+—Garruk Languebestion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ha aprendido mucho con su edad. Y al contrario que los humanos egoístas, está dispuesto a compartir”.
+—Garruk Portavoz Salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Er hat mit seinem hohen Alter viel gelernt. Und im Gegensatz zu den eigensüchtigen Menschen gibt er es auch gerne weiter.“
+—Garruk Wildsprecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ha imparato molto in tutti questi anni. E a differenza degli umani egoisti, è propenso a condividere.”
+—Garruk Lingua Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「長い年月でずいぶんと学んだんだろう。身勝手な人間と違うのは、それを分かち合おうとしていることだ。」――野生語りのガラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“그는 오랜 세월 동안 많은 것을 배웠고, 이기적인 인간과는 다르게 그 지식을 기꺼이 공유하지.”
+—개럭 와일드스피커]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«За долгие годы он многому научился. И в отличие от эгоистичных людей он готов поделиться своими знаниями».
+— Гаррук Дикоречивый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ele aprendeu muito nos seus longos anos. E, ao contrário dos humanos egoístas, está disposto a compartilhar.”
+— Garruk Falabravo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「他的长寿让他多闻。而且与自私的人类不同，他很乐于分享。」
+～召兽使贾路]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「他的長壽讓他多聞。而且與自私的人類不同，他很樂於分享。」
+～召獸使賈路]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature avec une force supérieure ou égale à 3 arrive sur le champ de bataille sous votre contrôle, vous pouvez piocher une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura con fuerza de 3 o más entre al campo de batalla bajo tu control, puedes robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur mit Stärke 3 oder mehr unter deiner Kontrolle ins Spiel kommt, kannst du eine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura con forza pari o superiore a 3 entra nel campo di battaglia sotto il tuo controllo, puoi pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のパワーが３以上のクリーチャーが１体あなたのコントロール下で戦場に出るたび、あなたはカードを１枚引いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공격력이 3 이상인 다른 생물이 당신의 조종하에 전장에 들어올 때마다, 당신은 카드 한 장을 뽑을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо с силой 3 или больше выходит на поле битвы под вашим контролем, вы можете взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura com poder maior ou igual a 3 entra no campo de batalha sob o seu controle, você pode comprar um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个力量大于或等于3的生物在你的操控下进战场时，你可以抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個力量大於或等於3的生物在你的操控下進戰場時，你可以抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    if (TriggerObject():GetCurrentCharacteristics():Power_Get() &gt; 2 and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )) and TriggerObject() ~= EffectSource() then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <MAY tag="CARD_QUERY_DRAW_A_CARD" always_prompt="1">
+    -- AI behaviour
+    if EffectController():Library_Count() &lt; 10 then
+    	return false
+    else
+    	return true
+    end
+    </MAY>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

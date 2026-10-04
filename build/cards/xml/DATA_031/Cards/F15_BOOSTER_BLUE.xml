@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<CARDS>
+<CARD_V2 ExportVersion="547">
+  <FILENAME text="LABORATORY_MANIAC_374560" />
+  <CARDNAME text="LABORATORY_MANIAC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Laboratory Maniac]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maniaque de laboratoire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maniático de laboratorio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Manischer Laborant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maniaco da Laboratorio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[研（けん）究（きゅう）室（しつ）の偏（へん）執（しゅう）狂（きょう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[실험실 미치광이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лабораторный Маньяк]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Maníaco do Laboratório]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[实验室狂人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[實驗室狂人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374560" />
+  <ARTID value="138348" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[His mind whirled with grand plans, never thinking of what might happen if he were to succeed.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Son cerveau bouillonnait de plans démesurés, sans qu'il songe une seconde à ce qui arriverait s'il réussissait.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Su mente divagaba con grandes planes, sin pensar jamás en lo que podría suceder si tuviera éxito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In seinen Gedanken wirbeln große Pläne herum, ohne dass er je darüber nachgedacht hat, was geschehen würde, wenn einer davon Erfolg hätte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Magnifici piani gli frullavano nella mente, senza mai pensare a cosa sarebbe potuto accadere se fosse riuscito nel suo intento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼の頭には大いなる計画だけが渦巻き、それが成功したらどうなるかまでは考えが行かなかった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그는 자신의 원대한 계획에 심취해 그 계획이 성공하면 어떻게 될지는 생각해 본적도 없었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В его голове кружились грандиозные планы, но он никогда не задумывался над тем, что будет, если он вдруг преуспеет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sua mente girava com planos grandiosos, sem jamais considerar o que poderia acontecer se ele fosse bem-sucedido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他脑海飞舞着伟大计划，却从没想过如果成功了会发生什么事。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他腦海飛舞著偉大計畫，卻從沒想過如果成功了會發生什麼事。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If you would draw a card while your library has no cards in it, you win the game instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si vous deviez piocher une carte alors que votre bibliothèque ne contient aucune carte, vous gagnez la partie à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si fueras a robar una carta mientras tu biblioteca no tiene cartas, en vez de eso, ganas el juego.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls du eine Karte ziehen würdest, während deine Bibliothek keine Karten enthält, gewinnst du die Partie stattdessen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se stai per pescare una carta mentre il tuo grimorio è vuoto, vinci invece la partita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーにカードが無いときにあなたがカードを引くなら、代わりにあなたはこのゲームに勝利する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고에 카드가 없는 상태에서 카드를 뽑아야 한다면 당신은 게임에서 승리한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если вы должны взять карту, пока в вашей библиотеке нет карт, вы выигрываете партию вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se você for comprar um card enquanto seu grimório estiver vazio, em vez disso, você vencerá o jogo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果你将抓一张牌但牌库没有牌，则改为你赢得这盘游戏。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果你將抽一張牌但牌庫沒有牌，則改為你贏得這盤遊戲。]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller" to_zone="ZONE_ANY" from_zone="ZONE_ANY" pre_trigger="1">
+    if EffectController():Library_Count() == 0 then
+    	MTG():OverrideEvent()
+    	return true
+    end
+    return false
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():WinGame(EffectSourceLKI())
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <SFX text="COMBAT_LIGHTNING_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_LIGHTNING_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_WINCON_WHY_PLAY" removal_tag="HINT_WINCON_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="6">
+  <FILENAME text="MASTER_OF_WAVES_388096" />
+  <CARDNAME text="MASTER_OF_WAVES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Master of Waves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître des vagues]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maestro de las olas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Meister der Wellen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Signore delle Onde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[波（なみ）使（つか）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파도의 대가]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повелитель Волн]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestre das Ondas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[波涛大师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[波濤大師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388096" />
+  <ARTID value="150840" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{3}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Protection from red]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Protection contre le rouge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Protección contra rojo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schutz vor Rot]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Protezione dal rosso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プロテクション（赤）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[적색으로부터 보호]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защита от красного]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Proteção contra o vermelho]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反红保护]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反紅保護]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="0">
+    if EffectSource() ~= nil then
+    	local filter = ClearFilter()
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_RED )
+    	EffectSource():Protection()
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elemental creatures you control get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures Élémental que vous contrôlez gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas elementales que controlas obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elementarwesen-Kreaturen, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature Elementale che controlli prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするエレメンタル・クリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 정령 생물들은 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа-Элементали под вашим контролем получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas do tipo Elemental que você controla recebem +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的元素生物得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的元素生物得+1/+1。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ELEMENTAL )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Master of Waves enters the battlefield, put a number of 1/0 blue Elemental creature tokens onto the battlefield equal to your devotion to blue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Maître des vagues arrive sur le champ de bataille, mettez sur le champ de bataille un nombre de jetons de créature 1/0 bleue Élémental égal à votre dévotion au bleu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Maestro de las olas entre al campo de batalla, pon en el campo de batalla una cantidad de fichas de criatura Elemental azules 1/0 igual a tu devoción al azul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Meister der Wellen ins Spiel kommt, bringe so viele 1/0 blaue Elementarwesen-Kreaturenspielsteine ins Spiel, wie deine Hingabe zu Blau beträgt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Signore delle Onde entra nel campo di battaglia, metti sul campo di battaglia un numero di pedine creatura Elementale 1/0 blu pari alla tua devozione al blu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[波使いが戦場に出たとき、あなたの青への信心に等しい数の青の１/０のエレメンタル・クリーチャー・トークンを戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파도의 대가가 전장에 들어올 때, 당신의 청색 신앙심만큼의 1/0 청색 정령 생물 토큰을 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Повелитель Волн выходит на поле битвы, положите на поле битвы фишки существа 1/0 синий Элементаль, количество которых равно вашей Преданности синему.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Mestre das Ondas entrar no campo de batalha, coloque no campo de batalha um número de fichas de criatura azuis 1/0 do tipo Elemental igual a sua devoção ao azul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当波涛大师进战场时，将若干1/0蓝色元素衍生生物放进战场，其数量等同于你的蓝色献力。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當波濤大師進戰場時，將若干1/0藍色元素衍生生物放進戰場，其數量等同於你的藍色獻力。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_ELEMENTAL_1_0_U_382259", EffectController():GetDevotionTo(COLOUR_BLUE), EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="600" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_type="CREATURE" resource_colour="COLOUR_BLUE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ELEMENTAL_1_0_U_382259" />
+  <HELP title="MORE_INFO_PROTECTION_RED_TITLE" body="MORE_INFO_PROTECTION_RED_BODY" zone="ZONE_BATTLEFIELD" zone_reverse="1" />
+  <HELP title="MORE_INFO_TITLE_DEVOTION" body="MORE_INFO_BODY_DEVOTION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="81">
+  <FILENAME text="PEEL_FROM_REALITY_388093" />
+  <CARDNAME text="PEEL_FROM_REALITY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Peel from Reality]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Épluchage de réalité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrancar de la realidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aus der Realität lösen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovere dalla Realtà]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[現（げん）実（じつ）からの剥（はく）離（り）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[실체 격리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бегство от Реальности]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Despir da Realidade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[实界剥除]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[實界剝除]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388093" />
+  <ARTID value="141682" />
+  <ARTIST name="Jason Felix" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Soulless demon, you are bound to me. Now we will both dwell in oblivion.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Démon sans âme, tu m'appartiens. L'heure est venue pour nous de sombrer dans l'oubli. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Demonio sin alma, quedas atado a mí. Ahora ambos moraremos en el olvido”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Seelenloser Dämon, du bist an mich gebunden. Nun fristen wir beide unser Dasein in der Vergessenheit.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Demone senz’anima, sei legato a me a doppio filo. Vagheremo entrambi nell’oblio.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「魂無き悪魔よ、貴様をこの身に縛り付けてやった。我らは共に忘却の中に住まうのだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“영혼 없는 악마야, 넌 이제 내게서 벗어날 수 없다. 같이 망각으로 가는 것이다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Бездушный демон, мы с тобой связаны. Теперь мы оба растворимся в забвении».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Demônio desalmado, você está preso a mim. Agora ambos habitaremos no esquecimento.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「卑鄙恶魔，你逃不开我了。如今我们将同遭遗忘。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「卑鄙惡魔，你逃不開我了。如今我們將同遭遺忘。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target creature you control and target creature you don’t control to their owners’ hands.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez une créature ciblée que vous contrôlez et une créature ciblée que vous ne contrôlez pas dans les mains de leurs propriétaires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa la criatura objetivo que controlas y la criatura objetivo que no controlas a las manos de sus propietarios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine Kreatur deiner Wahl, die du kontrollierst, und eine Kreatur deiner Wahl, die du nicht kontrollierst, auf die Hand ihrer Besitzer zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare una creatura bersaglio che controlli e una creatura bersaglio che non controlli in mano ai rispettivi proprietari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャー１体とあなたがコントロールしていないクリーチャー１体を対象とし、それらをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물과 당신이 조종하지 않는 생물을 목표로 정한다. 그 생물들을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевое существо под вашим контролем и целевое существо не под вашим контролем в руки их владельцев.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva uma criatura alvo que você controle e uma criatura alvo que você não controle para as mãos de seus donos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标由你操控的生物与目标不由你操控的生物移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標由你操控的生物與目標不由你操控的生物移回其擁有者手上。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND" definition="0" compartment="0" count="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND" definition="1" compartment="1" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_NOT, EffectController() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0, (2-1) do 
+    	local card = EffectDC():Get_Targets(i):Get_CardPtr(0)
+    	if card ~= nil then
+    		card:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to return to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la renvoyer dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para regresarla a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da far tornare in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно вернуть в руку владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para devolver para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将它移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將它移回其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to return to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la renvoyer dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para regresarla a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da far tornare in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно вернуть в руку владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para devolver para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将它移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將它移回其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_TEMPO_WHY_PLAY" removal_tag="HINT_SPELL_TEMPO_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+<CARD_V2 ExportVersion="12">
+  <FILENAME text="WARDEN_OF_EVOS_ISLE_388090" />
+  <CARDNAME text="WARDEN_OF_EVOS_ISLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Warden of Evos Isle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Garde de l'île d'Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Protector de la Isla Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hüter der Insel Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Custode dell’Isola Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イーヴォ島（とう）の管（かん）理（り）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이보스 섬의 수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страж Острова Эвос]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guardião da Ilha de Evos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[伊弗斯岛护卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[伊弗斯島護衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388090" />
+  <ARTID value="147454" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[On Evos Isle, the swift and formidable aven enforce the will of the ruling sphinxes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sur l'île d'Evos, les prestes et redoutables avemains font régner l'ordre des sphinx dirigeants.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En la Isla Evos, los rápidos y formidables aven cumplen la voluntad de las esfinges reinantes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf der Insel Evos setzen die flinken und gefürchteten Avioren den Willen der herrschenden Sphinxen durch.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sull’Isola Evos, i fulminei e formidabili aviani fanno rispettare la volontà delle sfingi che governano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イーヴォ島では、身軽な手練のエイヴンが支配階級のスフィンクスの意向を強制している。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스핑크스가 지배하는 이보스 섬에서는 민첩하고 강한 에이븐이 명령을 집행하는 역할을 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На острове Эвос быстрые и грозные авены претворяют в жизнь указы правителей-сфинксов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Na Ilha de Evos, os velozes e formidáveis avianos fazem valer a vontade das esfinges governantes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在伊弗斯岛上，迅捷且强大的艾文负责执行史芬斯统治者之意愿。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在伊弗斯島上，迅捷且強大的艾文負責執行史芬斯統治者之意願。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bird" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creature spells with flying you cast cost {1} less to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sorts de créature avec le vol que vous lancez coûtent {1} de moins à lancer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Te cuesta {1} menos lanzar los hechizos de criatura con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturenzauber mit Flugfähigkeit, die du wirkst, kosten beim Wirken {1} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le magie creatura con volare che lanci costano {1} in meno per essere lanciate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが唱える飛行を持つクリーチャー呪文を唱えるためのコストが{1}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 발동하는 비행을 가진 생물 주문은 {1}이 덜 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыгрываемые вами заклинания существ с Полетом стоят на {1} меньше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As mágicas de criatura com voar que você conjura custam {1} a menos para serem conjuradas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你施放且具飞行异能的生物咒语减少{1}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你施放且具飛行異能的生物咒語減少{1}來施放。]]></LOCALISED_TEXT>
+    <TRIGGER value="CONSIDERED_FOR_CAST" pre_trigger="1">
+    return TriggerPlayer() == EffectController() and TriggerObject():GetCardType():Test(CARD_TYPE_CREATURE) and TriggerObject():GetCurrentCharacteristics():Bool_Get( CHARACTERISTIC_FLYING)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():DecreaseCost( 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL>
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="45" resource_name="Flying" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
+</CARDS>

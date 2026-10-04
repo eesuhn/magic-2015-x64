@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="385">
+  <FILENAME text="SKULLCRACK_384123" />
+  <CARDNAME text="SKULLCRACK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Skullcrack]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défoncecrâne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rompecráneos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schädelbrecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spaccacranio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[頭（ず）蓋（がい）割（わ）り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[해골 파쇄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пролом Черепа]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quebra-crânio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[碎颅击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[碎顱擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="384123" />
+  <ARTID value="146586" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The lawmage’s argument was clever and well reasoned, but Blunk’s response proved irrefutable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La plaidoirie du mageloi était adroite et judicieuse, mais la réponse de Blunk s'avéra irréfutable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El argumento del mago de la ley fue inteligente y razonado, pero la respuesta de Blunk demostró ser irrefutable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Argument des Gesetzesmagiers war klug und wohldurchdacht, aber Blunks Erwiderung erwies sich als unwiderlegbar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli argomenti del mago della legge erano intelligenti e ragionati, ma la risposta di Blunk si rivelò inconfutabile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[法魔道士の主張は鋭く理にかなっていた。しかしブルンクの反論には抗弁できなかった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[법치술사는 재치있게 논리를 펼쳤지만 블렁크의 투박한 반론은 당해낼 수 없었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аргументы мага-законника были вполне обоснованными и разумными, но ответ Блунка сразил его наповал.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O argumento do mago-legista era perspicaz e bastante razoável, mas a resposta de Blunk se mostrou irrefutável.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[律法师的论点巧妙且理由充分，但布郎克的回击却无可辩驳。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[律法師的論點巧妙且理由充分，但布郎克的回擊卻無可辯駁。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Players can’t gain life this turn. Damage can’t be prevented this turn. Skullcrack deals 3 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les joueurs ne peuvent pas gagner de points de vie ce tour-ci. Les blessures ne peuvent être prévenues ce tour-ci. Le Défoncecrâne inflige 3 blessures au joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los jugadores no pueden ganar vidas este turno. El daño no puede ser prevenido este turno. El Rompecráneos hace 3 puntos de daño al jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spieler können in diesem Zug keine Lebenspunkte dazuerhalten. Schaden kann in diesem Zug nicht verhindert werden. Der Schädelbrecher fügt einem Spieler deiner Wahl 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I giocatori non possono guadagnare punti vita in questo turno. Il danno non può essere prevenuto in questo turno. Lo Spaccacranio infligge 3 danni a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターン、プレイヤーはライフを得られない。このターン、ダメージは軽減できない。プレイヤー１人を対象とする。頭蓋割りはそのプレイヤーに３点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어들은 이 턴에 생명점을 얻을 수 없다. 이 턴에는 피해를 방지할 수 없다. 플레이어 한 명을 목표로 정한다. 해골 파쇄는 그 플레이어에게 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Игроки не могут получать жизни в этом ходу. Повреждения не могут быть предотвращены в этом ходу. Пролом Черепа наносит 3 повреждения целевому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os jogadores não podem ganhar pontos de vida neste turno. Nenhum dano pode ser prevenido neste turno. Quebra-crânio causa 3 pontos de dano ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[本回合中，牌手不能获得生命。本回合中，伤害不能被防止。碎颅击对目标牌手造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[本回合中，玩家不能獲得生命。本回合中，傷害不能被防止。碎顱擊對目標玩家造成3點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_BLUNT_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_3_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 3, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 3, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType ( FILTER_TYPE_PLAYERS )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8" filter_id="0">
+    if FilteredPlayer() ~= nil then
+    	local characteristics = FilteredPlayer():GetCurrentCharacteristics()
+    	if characteristics ~= nil then
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_CANT_GAIN_LIFE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    MTG():GetCurrentCharacteristics():Bool_Set( DUEL_CHARACTERISTIC_DAMAGE_CANNOT_BE_PREVENTED, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_3_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to deal 3 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui infliger 3 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerle 3 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, dem 3 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore a cui infliggere 3 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[３点のダメージを与えるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 3점을 입을 플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, чтобы нанести ему 3 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador ao qual causar 3 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手来对其造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來對其造成3點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

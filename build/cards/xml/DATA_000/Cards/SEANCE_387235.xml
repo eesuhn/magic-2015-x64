@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="16">
+  <FILENAME text="SEANCE_387235" />
+  <CARDNAME text="SÉANCE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Séance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Séance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sesión de espiritismo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Séance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Seduta Spiritica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[降霊術]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[교령회]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сеанс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sessão Espírita]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[降灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[降靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="387235" />
+  <ARTID value="139800" />
+  <ARTIST name="David Rapoza" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each upkeep, you may exile target creature card from your graveyard. If you do, put a token onto the battlefield that’s a copy of that card except it’s a Spirit in addition to its other types. Exile it at the beginning of the next end step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de chaque entretien, vous pouvez exiler une carte de créature ciblée depuis votre cimetière. Si vous faites ainsi, mettez sur le champ de bataille un jeton qui est une copie de cette carte excepté que c’est un esprit en plus de ses autres types. Exilez-le au début de la prochaine étape de fin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de cada mantenimiento, puedes exiliar la carta de criatura objetivo de tu cementerio. Si lo haces, pon en el campo de batalla una ficha que es una copia de esa carta, excepto que es un Espíritu además de sus otros tipos. Exíliala al comienzo del próximo paso final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn jedes Versorgungsegments kannst du eine Kreaturenkarte deiner Wahl aus deinem Friedhof ins Exil schicken. Falls du dies tust, bringe einen Spielstein ins Spiel, der eine Kopie dieser Karte ist, und zusätzlich zu seinen anderen Typen noch ein Geist. Schicke ihn zu Beginn des nächsten Endsegments ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio di ogni mantenimento, puoi esiliare una carta creatura bersaglio dal tuo cimitero. Se lo fai, metti sul campo di battaglia una pedina che è una copia di quella carta tranne che è uno Spirito in aggiunta agli altri suoi tipi. Esiliala all’inizio della prossima sottofase finale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各アップキープの開始時に、あなたの墓地にあるクリーチャー・カード１枚を対象とする。あなたはそれを追放してもよい。そうしたなら、それの他のタイプに加えてスピリットであることを除き、それのコピーであるトークンを１体戦場に出す。次の終了ステップの開始時に、それを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 유지단 시작에, 당신의 무덤에 있는 생물 카드를 목표로 정한다. 당신은 그 카드를 추방할 수 있다. 그렇게 한다면, 그 카드의 복사본인 토큰 한 개를 전장에 놓는다. 그 토큰은 자신의 다른 유형에 더불어 신령이다. 다음 종료단 시작에 그것을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале каждого шага поддержки вы можете изгнать целевую карту существа из вашего кладбища. Если вы это делаете, положите на поле битвы одну фишку, являющуюся копией той карты, но при этом являющуюся Духом в дополнение к своим другим типам. Изгоните ее в начале следующего заключительного шага.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de cada manutenção, você pode exilar o card de criatura alvo do seu cemitério. Se fizer isso, coloque no campo de batalha uma ficha que seja uma cópia daquele card, com a exceção de que ela é um Espírito além de seus outros tipos. Exile-a no início da próxima etapa final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每个维持开始时，你可以从你的坟墓场放逐目标生物牌。若你如此作，将一个衍生物放进战场，且为该牌的复制品，并额外具有精怪此类别。在下一个结束步骤开始时，将它放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每個維持開始時，你可以從你的墳墓場放逐目標生物牌。若你如此作，將一個衍生物放進戰場，且為該牌的複製品，並額外具有精靈此類別。在下一個結束步驟開始時，將它放逐。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	MTG():PutTokenCopiesOntoBattlefield(target, 1, EffectController(), EffectDC():Make_Chest(1))
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="4B">
+    local tokenDC = EffectDC():Get_Chest(1)
+    if tokenDC ~= nil then
+    	local tokenDCSize = tokenDC:Count()
+    	for i = 0, (tokenDCSize-1) do
+    		local token = tokenDC:Get_CardPtr(i)
+    		if token ~= nil then
+    			local characteristics = token:GetCurrentCharacteristics()
+    			characteristics:SubType_Add( CREATURE_TYPE_SPIRIT )
+    		end
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local tokenDC = EffectDC():Get_Chest(1)
+    if tokenDC ~= nil then
+    	MTG():CreateDelayedTrigger( 0, tokenDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <DURATION>
+    local tokenChest = EffectDC():Get_Chest(1)
+    if tokenChest ~= nil then
+    	local numberTokens = tokenChest:Count()
+    	for i = 0, (numberTokens-1) do
+    		local token = tokenChest:Get_CardPtr(i)
+    		if token~= nil then
+    			return false
+    		end
+    	end
+    end
+    return true
+    </DURATION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="0">
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local numToExile = EffectDC():Count()
+    for i = 0, (numToExile-1) do
+    	local target = EffectDC():Get_CardPtr(i)
+    	if target ~= nil then   
+    		target:Exile()  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para exiliarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放逐的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

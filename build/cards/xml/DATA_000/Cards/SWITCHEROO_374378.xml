@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="948">
+  <FILENAME text="SWITCHEROO_374378" />
+  <CARDNAME text="SWITCHEROO" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Switcheroo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Volte-face]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cambiazo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kehrtwendung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scambio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[どんでん返（がえ）し]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[바꿔치기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Подмена]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escambo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[私密交换]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[私密交換]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374378" />
+  <ARTID value="143930" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{4}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Say hello to your new friend.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dis bonjour à ton nouvel ami.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Saluda a tu nuevo amigo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Begrüße deinen neuen Freund.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Saluta il tuo nuovo amichetto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[新しいお友達にこんにちはしましょう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[새로운 친구와 인사를 나눌 시간이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поздоровайся с новым другом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Diga olá para seu novo amigo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[跟你的新朋友打个招呼。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[跟你的新朋友打個招呼。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exchange control of two target creatures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Échangez le contrôle de deux créatures ciblées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Intercambia el control de dos criaturas objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tausche die Kontrolle über zwei Kreaturen deiner Wahl aus.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scambia il controllo di due creature bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー２体を対象とし、それらのコントロールを交換する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 두 개를 목표로 정한다. 두 생물의 조종권을 교환한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поменяйтесь контролем над двумя целевыми существами.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Permute o controle de duas criaturas alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[交换两个目标生物的操控权。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[交換兩個目標生物的操控權。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXCHANGE" definition="0" compartment="0" count="2" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC():Get_Targets(0):Get_CardPtr(0) ~= nil and EffectDC():Get_Targets(0):Get_CardPtr(1) ~= nil then
+    	EffectDC():Set_PlayerPtr(1, EffectDC():Get_Targets(0):Get_CardPtr(0):GetPlayer() )
+    	EffectDC():Set_PlayerPtr(2, EffectDC():Get_Targets(0):Get_CardPtr(1):GetPlayer() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="2">
+    local targetA = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local targetB = EffectDC():Get_Targets(0):Get_CardPtr(1)
+    local destinationPlayerForTargetA = EffectDC():Get_PlayerPtr(2)
+    local destinationPlayerForTargetB = EffectDC():Get_PlayerPtr(1)
+    if targetA ~= nil and destinationPlayerForTargetA ~= nil then
+    	targetA:SetController(destinationPlayerForTargetA)
+    end
+    if targetB ~= nil and destinationPlayerForTargetB ~= nil then
+    	targetB:SetController(destinationPlayerForTargetB)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectDC():Get_Targets(0):Get_CardPtr(0) == nil) and (EffectDC():Get_Targets(0):Get_CardPtr(1) == nil)
+    </DURATION>
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="0.5" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXCHANGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exchange.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'échanger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para intercambiarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme zwei Kreaturen, die getauscht werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da scambiare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[交換するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[교환할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для обмена.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para permutar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要交换的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來交換。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_WEIRD_WHY_PLAY" removal_tag="HINT_SPELL_WEIRD_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

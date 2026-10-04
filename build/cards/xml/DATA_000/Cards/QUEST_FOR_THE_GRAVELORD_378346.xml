@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="682">
+  <FILENAME text="QUEST_FOR_THE_GRAVELORD_378346" />
+  <CARDNAME text="QUEST_FOR_THE_GRAVELORD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quest for the Gravelord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quête du Seigneur des tombes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Búsqueda del Señor de la Tumba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Suche nach dem Fürsten der Gräber]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Cerca del Signore dei Sepolcri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓（ぼ）所（しょ）王（おう）の探（たん）索（さく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤의 지배자를 찾아서]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поиски Властелина Могил]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Busca pelo Senhor da Tumba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[探索坟场王侯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[探索墳場王侯]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378346" />
+  <ARTID value="123604" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{B}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature dies, you may put a quest counter on Quest for the Gravelord.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature meurt, vous pouvez mettre un marqueur « quête » sur la Quête du Seigneur des tombes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura muera, puedes poner un contador de búsqueda sobre la Búsqueda del Señor de la Tumba.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur stirbt, kannst du eine Quest-Marke auf die Suche nach dem Fürsten der Gräber legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura muore, puoi mettere un segnalino ricerca su In Cerca del Signore dei Sepolcri.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーが１体死亡するたび、あなたは墓所王の探索の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물이 죽을 때마다, 당신은 무덤의 지배자를 찾아서에 퀘스트 카운터 한 개를 올려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо умирает, вы можете положить жетон странствий на Поиски Властелина Могил.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura morre, você pode colocar um marcador de busca em Busca pelo Senhor da Tumba.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个生物死去时，你可以在探索坟场王侯上放置一个探索指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個生物死去時，你可以在探索墳場王侯上放置一個探索指示物。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Quest" proliferate="11" />
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD">
+    return EffectSource() ~= nil and EffectSource():CountCounters(MTG():GetCountersType("Quest")) &lt; 3 and TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("Quest"), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Remove three quest counters from Quest for the Gravelord and sacrifice it: Put a 5/5 black Zombie Giant creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Retirez trois marqueurs « quête » de la Quête du Seigneur des tombes et sacrifiez-la : Mettez sur le champ de bataille un jeton de créature 5/5 noire Zombie et Géant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Remover tres contadores de búsqueda de la Búsqueda del Señor de la Tumba y sacrificarla: Pon en el campo de batalla una ficha de criatura Gigante Zombie negra 5/5.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entferne drei Quest-Marken von der Suche nach dem Fürsten der Gräber und opfere sie: Bringe einen 5/5 schwarzen (Zombie, Riese)-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rimuovi tre segnalini ricerca da In Cerca del Signore dei Sepolcri e sacrificala: Metti sul campo di battaglia una pedina creatura Gigante Zombie 5/5 nera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓所王の探索を、その上から探索カウンターを３個取り除いて生け贄に捧げる：黒の５/５のゾンビ・巨人・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤의 지배자를 찾아서에서 퀘스트 카운터 세 개를 제거한 후 희생한다: 5/5 흑색 좀비 거인 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удалите три жетона странствий с Поисков Властелина Могил и пожертвуйте Поиски Властелина Могил: положите на поле битвы одну фишку существа 5/5 черный Зомби Гигант.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Remova três marcadores de busca de Busca pelo Senhor da Tumba e sacrifique-o: Coloque no campo de batalha uma ficha de criatura preta 5/5 do tipo Zumbi Gigante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从探索坟场王侯上移去三个探索指示物并牺牲它：将一个5/5黑色灵俑／巨人衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從探索墳場王侯上移除三個探索指示物並犧牲它：將一個5/5黑色殭屍／巨人衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Quest" proliferate="11" />
+    <COST type="RemoveCountersSelf" amount="3" counter_type="Quest" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_ZOMBIE_GIANT_5_5_B_350748", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_CREATURE_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <AI_COUNTER_SCORE type="Quest" score="180" max_counters="3" />
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Sacrifice" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_ZOMBIE_GIANT_5_5_B_350748" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

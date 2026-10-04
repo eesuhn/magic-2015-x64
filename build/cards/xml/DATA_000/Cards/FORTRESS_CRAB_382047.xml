@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="204">
+  <FILENAME text="FORTRESS_CRAB_382047" />
+  <CARDNAME text="FORTRESS_CRAB" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fortress Crab]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Crabe forteresse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cangrejo fortaleza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Festungskrabbe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Granchio Fortezza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[要（よう）塞（さい）ガニ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[요새 게]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Краб-Крепость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Caranguejo Fortaleza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[要塞蟹]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[要塞蟹]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382047" />
+  <ARTID value="138368" />
+  <ARTIST name="Vincent Proce" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unbreakable and unappetizing, the crab grows uninterrupted, sometimes to the size of a cottage and beyond.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Trop coriace et peu appétissant, le crabe grossit sans interruption, parfois jusqu'à atteindre la taille d'une maisonnette ou plus encore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Irrompible e incomible, el cangrejo crece sin interrupciones, a veces hasta el tamaño de una casa o más.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Da sie nicht zu knacken ist und zudem nicht schmeckt, kann die Krabbe ungestört wachsen und erreicht manchmal die Größe einer kleinen Hütte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Infrangibile e non appetitoso, il granchio cresce senza interruzione, a volte fino alle dimensioni di una casa e oltre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[割ることもできず食欲も湧かないその蟹は、誰にも邪魔されぬまま育ち、時として小屋の大きさを超えるまでになることがある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[딱딱하고 맛있어 보이지도 않는 이 게는 거침없이 자라 집보다 더 커지는 개체도 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Крепкий и неаппетитный, краб растет без остановки, иногда достигая размеров деревенского дома и больше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sendo inquebrável e pouco apetitoso, o caranguejo cresce ininterruptamente, algumas vezes chegando ao tamanho de uma casa ou até algo maior.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[这种蟹壳难开，肉又不好吃，于是得以自由成长；有些甚至长到比一栋农舍还大。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[這種蟹殼難開，肉又不好吃，於是得以自由成長；有些甚至長到比一棟農舍還大。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Crab" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="6" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

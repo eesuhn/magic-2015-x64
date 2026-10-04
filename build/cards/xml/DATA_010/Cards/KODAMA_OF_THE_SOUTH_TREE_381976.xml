@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="KODAMA_OF_THE_SOUTH_TREE_381976" />
+  <CARDNAME text="KODAMA_OF_THE_SOUTH_TREE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kodama of the South Tree]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kodama de l'Arbre du sud]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kodama del árbol del sur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kodama des Südbaumes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kodama dell’Albero del Sud]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[南（みなみ）の樹（き）の木（こ）霊（だま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[남쪽 나무의 코다마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кодама Южного Дерева]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kodama da Árvore do Sul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[南树木灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[南樹木靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381976" />
+  <ARTID value="46526" />
+  <ARTIST name="Ron Spears" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The monks of the South Tree had always reveled beneath their kodama’s friendly gaze. During the Kami War, this gaze became fierce and full of hate.”
+—“Poem of the Five Trees”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les moines de l'Arbre du sud avaient toujours senti le regard bienveillant de leur kodama. Pendant la Guerre des kami, ce regard se fit plus dur et s'emplit de haine. »
+—« Poème des Cinq arbres »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los monjes del árbol del sur siempre habían disfrutado de la vida bajo la mirada amistosa de su kodama. Durante la guerra con los kami, esta mirada se volvió fiera y llena de odio”.
+—Poema de los Cinco Árboles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Mönche des Südbaums hatten sich immer im freundlichen Lächeln ihres Kodamas gesonnt. Während des Kami-Krieges wurde dessen Blick wild und voller Hass.“
+—„Gedicht von den fünf Bäumen“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I monaci dell’Albero del Sud hanno sempre trovato diletto sotto lo sguardo amichevole del loro kodama. Durante la Guerra dei Kami, il suo sguardo divenne feroce e pieno di odio.”
+—“Poema dei Cinque Alberi”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[南の木の僧、木霊の眼差しを享楽す。神の乱の最中、かの眼差し険しく憎悪に満ちし。――『五樹の詩』]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["남쪽 나무의 수도승들은 자신들의 코다마가 친근한 눈빛을 보내는 것을 보고 기뻐했다. 그러나 카미 전쟁이 발발하자 그 눈빛은 격렬한 증오로 바뀌었다."
+—"다섯 나무의 시"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Монахи Южного Дерева блаженствовали под дружелюбным взглядом своего кодамы. Но во время Войны Ками этот взгляд стал свирепым и полным ненависти».
+— «История о пяти деревьях»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os monges da Árvore do Sul sempre se divertiam sob o olhar amigável de seu kodama. Durante a Guerra dos Kamis, este olhar se tornou feroz e repleto de ódio.”
+— “Poema das Cinco Árvores”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「南树修行僧的一举一动，当地的木灵都投以友善的眼光；而逆神之战既起，它们的眼光也变得愤怒而痛恨。」
+～「五木诗」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「南樹修行僧的一舉一動，當地的木靈都投以友善的眼光；而逆神之戰既起，它們的眼光也變得憤怒而痛恨。」
+～「五木詩」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a Spirit or Arcane spell, each other creature you control gets +1/+1 and gains trample until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d’esprit ou d’arcane, chaque autre créature que vous contrôlez gagne +1/+1 et acquiert le piétinement jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo Arcano o de Espíritu, cada una de las otras criaturas que controlas obtiene +1/+1 y gana la habilidad de arrollar hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Geist- oder Arkan-Zauberspruch wirkst, erhalten alle anderen Kreaturen, die du kontrollierst, bis zum Ende des Zuges +1/+1 und verursachen Trampelschaden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia Spirito o Arcano, ogni altra creatura che controlli prende +1/+1 e ha travolgere fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがスピリット・呪文か秘儀・呪文を１つ唱えるたび、あなたがコントロールする他の各クリーチャーは、ターン終了時まで＋１/＋１の修整を受けるとともにトランプルを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 신령 또는 비술 주문을 발동할 때마다, 당신이 조종하는 다른 각 생물은 턴종료까지 +1/+1을 받으며 돌진을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание Духа или Тайных_знаний, каждое другое существо под вашим контролем получает +1/+1 и Пробивной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você jogar uma mágica Arcana ou de Espírito, cada outra criatura que você controla recebe +1/+1 e ganha atropelar até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放精怪或古咒咒语时，直到回合结束，每个由你操控的其他生物便得+1/+1且获得践踏异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放精靈或古咒咒語時，直到回合結束，每個由你操控的其他生物便得+1/+1且獲得踐踏異能。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetSubType():Test( CREATURE_TYPE_SPIRIT ) or TriggerObject():GetSubType():Test( SPELL_TYPE_ARCANE )
+    </TRIGGER>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_TRAMPLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

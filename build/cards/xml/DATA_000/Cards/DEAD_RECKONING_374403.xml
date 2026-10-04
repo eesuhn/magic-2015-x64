@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="592">
+  <FILENAME text="DEAD_RECKONING_374403" />
+  <CARDNAME text="DEAD_RECKONING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dead Reckoning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Estime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cálculo mortal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abrechnung der Toten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vendetta dei Morti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）の報（むく）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[죽은자의 심판]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Расчет Мертвецов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Contagem dos Mortos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[亡者报复]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[亡者報復]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374403" />
+  <ARTID value="126562" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{1}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Many venture out to hunt for treasures. Others lie in wait to hunt the hunters.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Nombreux sont ceux qui chassent les trésors. Bien d'autres attendent patiemment de chasser les chasseurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muchos se aventuran para cazar tesoros. Otros esperan para cazar a los cazadores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Viele wagen sich auf Schatzsuche. Andere warten in ihrem Versteck, um die Schatzsucher zu suchen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Molti si avventurano a caccia di tesori. Altri aspettano semplicemente di cacciare i cacciatori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[宝を求めて外に出る者は大勢いる。その一方、冒険者を求めて待ち伏せをする者もいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[보물을 찾아 모험을 떠나는 이도 많지만, 몰래 숨어 이들을 기다리는 것들도 많다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Многие отваживаются на поиски сокровищ. А некоторые, наоборот, сидят в засаде, подкарауливая таких вот смельчаков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Muitos se aventuram para caçar tesouros. Outros aguardam para caçar os caçadores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[许多人为寻宝而出发冒险。其他的则躺着要猎杀猎人。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[許多人為尋寶而出發冒險。其他的則躺著要獵殺獵人。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may put target creature card from your graveyard on top of your library. If you do, Dead Reckoning deals damage equal to that card’s power to target creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez mettre une carte de créature ciblée de votre cimetière au-dessus de votre bibliothèque. Si vous faites ainsi, l’Estime inflige à la créature ciblée un nombre de blessures égal à la force de cette carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes poner la carta de criatura objetivo de tu cementerio en la parte superior de tu biblioteca. Si lo haces, el Cálculo mortal hace una cantidad de daño igual a la fuerza de esa carta a la criatura objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst eine Kreaturenkarte deiner Wahl aus deinem Friedhof oben auf deine Bibliothek legen. Falls du dies tust, fügt die Abrechnung der Toten einer Kreatur deiner Wahl Schadenspunkte in Höhe der Stärke der Kreaturenkarte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi mettere una carta creatura bersaglio dal tuo cimitero in cima al tuo grimorio. Se lo fai, la Vendetta dei Morti infligge danni pari alla forza di quella carta a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚とクリーチャー１体を対象とする。あなたはその前者を、あなたのライブラリーの一番上に置いてもよい。そうしたなら、死の報いはその後者に、その前者のパワーに等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 생물 카드 한 장을 목표로 정한다. 그 카드를 당신의 서고 맨 위에 올려놓을 수 있다. 당신이 그렇게 한다면, 생물 한 개를 목표로 정한다. 죽은자의 심판은 그 생물에게 서고 맨 위에 올려놓은 카드의 공격력 만큼의 피해를 준다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете положить целевую карту существа с вашего кладбища на верх вашей библиотеки. Если вы это делаете, Расчет Мертвецов наносит целевому существу повреждения, равные силе той карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode colocar o card de criatura alvo de seu cemitério no topo de seu grimório. Se fizer isso, Contagem dos Mortos causa dano igual ao poder daquele card à criatura alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你可以从你坟墓场将目标生物牌置于你的牌库顶。如果你如此作，则亡者报复对目标生物造成伤害，其数量等同于该牌的力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你可以從你墳墓場將目標生物牌置於你的牌庫頂。如果你如此作，則亡者報復對目標生物造成傷害，其數量等同於該牌的力量。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_PUT_ONTO_OF_YOUR_LIBRARY" definition="0" compartment="0" count="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_CREATURES_POWER_DAMAGE" definition="1" compartment="1" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	EffectDC():Get_Targets(0):LKIShield_CardPtr(0)
+    	target:PutOnTopOfLibrary()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetCreaturetoReturn = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local targetCreaturetoDamage = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if targetCreaturetoReturn ~= nil and targetCreaturetoDamage ~= nil then
+    	local damagetoDeal = targetCreaturetoReturn:GetCurrentCharacteristics():Power_Get()
+    	EffectSource():DealDamageTo(damagetoDeal, targetCreaturetoDamage)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="1" hint="HINT_ENEMY_ONLY" />
+    <MAY />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="0.75" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_name="Graveyard" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_PUT_ONTO_OF_YOUR_LIBRARY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature card to put on top of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte de créature pour la mettre au-dessus de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta de criatura para ponerla en la parte superior de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreaturenkarte, die du auf deine Bibliothek legst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta creatura da mettere in cima al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上に置くクリーチャー・カードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[서고 맨 위에 놓을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту существа, чтобы положить ее на верх вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card de criatura para colocar no topo do seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要置于你牌库顶的生物牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張要置於你牌庫頂的生物牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_CREATURES_POWER_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to damage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, der Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для нанесения повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要受到伤害的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

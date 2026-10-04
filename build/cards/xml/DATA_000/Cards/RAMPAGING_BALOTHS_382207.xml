@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="RAMPAGING_BALOTHS_382207" />
+  <CARDNAME text="RAMPAGING_BALOTHS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rampaging Baloths]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Baloths déchaînés]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Báloths impetuosos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tobende Baloths]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Baloth Infuriati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[猛（たけ）り狂（くる）うベイロス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[광분한 발로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неистовые Балоты]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Baloths Enfurecidos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[莽闯巴洛西]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[莽闖巴洛西]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382207" />
+  <ARTID value="123726" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{4}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“When the land is angry, so are they.”
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand la terre enrage, ils enragent aussi. »
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuando la tierra está furiosa, también lo están ellos”.
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn das Land zornig ist, sind sie es auch.“
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quando la terra è infuriata, lo sono anche loro.”
+—Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「大地が怒ってるなら、そいつらもそうよ。」――ニッサ・レヴェイン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“대지가 분노하면 발로스도 분노한다.”
+—니사 레베인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Когда земля впадает в злобу, они делают то же самое».
+— Нисса Ревейн]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando a terra se enfurece, eles fazem o mesmo.”
+— Nissa Revane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「当大地发怒，他们也闹脾气。」
+～妮莎瑞文]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「當大地發怒，他們也鬧脾氣。」
+～妮莎瑞文]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[践踏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[踐踏]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_TRAMPLE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may put a 4/4 green Beast creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre sur le champ de bataille un jeton de créature 4/4 verte Bête.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes poner en el campo de batalla una ficha de criatura Bestia verde 4/4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du einen 4/4 grünen Bestie-Kreaturenspielstein ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi mettere sul campo di battaglia una pedina creatura Bestia 4/4 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|上陸| ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたは緑の４/４のビースト・クリーチャー・トークンを１体戦場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지력 — 대지가 당신의 조종하에 전장에 들어올 때마다, 당신은 4/4 녹색 야수 생물 토큰 한 개를 전장에 놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете положить на поле битвы одну фишку существа 4/4 зеленый Зверь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode colocar no campo de batalha uma ficha de criatura verde 4/4 do tipo Besta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地落～每当一个地在你的操控下进战场时，你可以将一个4/4绿色野兽衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地落～每當一個地在你的操控下進戰場時，你可以將一個4/4綠色野獸衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_BEAST_4_4_G_350751", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BEAST_4_4_G_350751" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_LANDFALL" body="MORE_INFO_BODY_LANDFALL" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

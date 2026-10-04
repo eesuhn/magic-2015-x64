@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="OBELISK_OF_NAYA_381902" />
+  <CARDNAME text="OBELISK_OF_NAYA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Obelisk of Naya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Obélisque de Naya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Obelisco de Naya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Obelisk von Naya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Obelisco di Naya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ナヤのオベリスク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[나야의 오벨리스크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обелиск Найи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Obelisco de Naya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[纳雅碑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[納雅碑]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381902" />
+  <ARTID value="115112" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Centuries have passed since the plane shattered, yet the obelisks of each shard faithfully serve their long-forgotten purpose.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Des siècles se sont écoulés depuis l'éclatement du plan, et pourtant les obélisques de chaque éclat remplissent toujours leur rôle oublié.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pasaron siglos desde que el plano se fragmentó, pero los obeliscos de cada fragmento todavía sirven a su antiguo propósito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jahrhunderte sind vergangen, seit die Welt zerbrochen ist, doch die Obelisken auf allen Fragmenten dienen ergeben ihrem schon lange vergessenen Zweck.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ormai sono trascorsi secoli da quando il piano è andato in pezzi, eppure gli obelischi di ogni frammento servono fedelmente il loro scopo da tempo dimenticato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[次元が砕けてから数世紀がたつが、オベリスクはそれぞれの断片の中で、忘れ去られた目的を守り続けている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 차원이 분리된 지 수세기가 지났지만, 각 샤드의 오벨리스크는 충실하게 그 임무를 수행했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[С момента раскола единого мира прошли целые века, и все же обелиски каждого осколка продолжают верно служить своей давно позабытой цели.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Séculos se passaram desde que o plano se fragmentou, mas os obeliscos de cada fragmento ainda cumprem seu há muito esquecido propósito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[时空分裂已历经数百年，而每个断片的石碑依旧忠实地执行那早遭遗忘的任务。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[時空分裂已歷經數百年，而每個斷片的石碑依舊忠實地執行那早遭遺忘的任務。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {R}, {G}, or {W} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {R}, {G} ou {W} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {R}, {G} o {W} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {R}, {G} oder {W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {R}, {G} o {W} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{R}か{G}か{W}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {R}, {G} 또는 {W}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {R}, {G} или {W} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {R}, {G} ou {W} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{R}，{G}，或{W}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{R}，{G}或{W}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{R/G/W}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_ARTIFACT_MANA_WHY_PLAY" removal_tag="HINT_ARTIFACT_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

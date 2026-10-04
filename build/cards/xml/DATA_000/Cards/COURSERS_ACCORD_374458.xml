@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="COURSERS_ACCORD_374458" />
+  <CARDNAME text="COURSERS_ACCORD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Coursers’ Accord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Accord des coursiers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acuerdo de cazadores]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abkommen der Renner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Accordo dei Corsieri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狩（しゅ）猟（りょう）者（しゃ）の協（きょう）定（てい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[군마들의 합의]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Договор Скакунов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Acordo dos Caçadores]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[骏马相随]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[駿馬相隨]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374458" />
+  <ARTID value="145880" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{4}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bleak rumors reached Trostani’s ears. She decreed that no one should travel alone.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Des rumeurs inquiétantes atteignirent les oreilles de Trostani. Elle décréta que plus personne ne devait voyager seul.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rumores sombríos llegaron a oídos de Trostani. Decretó que nadie debía viajar en solitario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Düstere Gerüchte kamen Trostani zu Ohren. Sie verfügte, dass niemand allein reisen solle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dicerie inquietanti raggiunsero l’orecchio di Trostani. Decretò che nessuno avrebbe dovuto viaggiare da solo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[うすら寒い噂がトロスターニの耳に届いた。彼女は決してひとりで出歩かぬようにとの命令を発した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[절망적인 소문을 듣게 된 트로스타니는 아무도 혼자 돌아다니지 말라는 지시를 내렸다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мрачные слухи дошли до Тростани. Она запретила кому бы то ни было путешествовать в одиночку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rumores desoladores chegaram aos ouvidos de Trostani. Ela decretou que ninguém deveria viajar sozinho.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[令人忧心的谣言已传入卓塔妮耳中。她下令任何人不得单独出行。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[令人憂心的謠言已傳入卓塔妮耳中。她下令任何人不得單獨出行。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 3/3 green Centaur creature token onto the battlefield, then populate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature 3/3 verte Centaure, puis peuplez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura Centauro verde 3/3, luego repuebla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen 3/3 grünen Zentaur-Kreaturenspielstein ins Spiel, und führe dann Bevölkern durch.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura Centauro 3/3 verde, poi popola.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑の３/３のケンタウルス・クリーチャー・トークンを１体戦場に出し、その後居住を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[3/3 녹색 켄타우로스 생물 토큰 한 개를 전장에 놓은 후 소집한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку существа 3/3 зеленый Кентавр, затем используйте Заселение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura verde 3/3 do tipo Centauro e depois povoe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将一个3/3绿色半人马衍生生物放进战场，然后殖民。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將一個3/3綠色半人馬衍生生物放進戰場，然後殖民。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_CENTAUR_3_3_G_377544", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_IS_TOKEN, true)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_TOKEN_TO_COPY", EffectDC():Make_Targets(0))
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cardToCopy = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if cardToCopy ~= nil then
+    	MTG():PutTokenCopiesOntoBattlefield( cardToCopy, 1, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CENTAUR_3_3_G_377544" />
+  <HELP title="MORE_INFO_TITLE_POPULATE" body="MORE_INFO_BODY_POPULATE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_TOKEN_TO_COPY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a token to copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un jeton pour le copier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una ficha para copiarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spielstein, der kopiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una pedina da copiare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コピーするトークンを選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[복사할 토큰을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите фишку для копирования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma ficha para copiar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要复制的衍生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要複製的衍生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

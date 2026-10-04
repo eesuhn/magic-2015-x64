@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1137">
+  <FILENAME text="BRIMAZ_KING_OF_ORESKOS_381963" />
+  <CARDNAME text="BRIMAZ_KING_OF_ORESKOS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Brimaz, King of Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Brimaz, roi d'Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Brimaz, rey de Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brimaz, König von Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Brimaz, Re di Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オレスコスの王（おう）、ブリマーズ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오레스코스의 왕 브리마즈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бримаз, Король Ореска]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Brimaz, Rei de Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[俄瑞恣狮王布黎玛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[俄瑞恣獅王布黎瑪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381963" />
+  <ARTID value="152100" />
+  <ARTIST name="Peter Mohrbacher" />
+  <CASTING_COST cost="{1}{W}{W}" />
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="3" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vigilance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachsamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cautela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[경계]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бдительность]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vigilância]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[警戒]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_VIGILANCE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Brimaz, King of Oreskos attacks, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield attacking.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Brimaz, roi d’Oreskos attaque, mettez sur le champ de bataille, attaquant, un jeton de créature 1/1 blanche Chat et Soldat avec la vigilance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Brimaz, rey de Oreskos ataque, pon en el campo de batalla atacando una ficha de criatura Soldado felino blanca 1/1 con la habilidad de vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Brimaz, König von Oreskos, angreift, bringe einen 1/1 weißen (Katze, Soldat)-Kreaturenspielstein mit Wachsamkeit angreifend ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Brimaz, Re di Oreskos attacca, metti sul campo di battaglia una pedina creatura Soldato Felino 1/1 bianca con cautela attaccante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オレスコスの王、ブリマーズが攻撃するたび、警戒を持つ白の１/１の猫・兵士・クリーチャー・トークン１体を攻撃している状態で戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오레스코스의 왕 브리마즈가 공격할 때마다, 경계를 가진 1/1 백색 고양이 병사 생물 토큰을 공격하는 상태로 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Бримаз, Король Ореска атакует, положите на поле битвы одну фишку существа 1/1 белая Кошка Солдат с Бдительностью атакующей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Brimaz, Rei de Oreskos, atacar, coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Felino Soldado com vigilância atacando.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当俄瑞恣狮王布黎玛攻击时，将一个1/1白色，具警戒异能的猫／士兵衍生生物放进战场且正进行攻击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當俄瑞恣獅王布黎瑪攻擊時，將一個1/1白色，具警戒異能的貓／士兵衍生生物放進戰場且正進行攻擊。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if  MTG():GetNumberOfStartingPlayers() &gt; 2 then
+    	-- there is an actual choice so time to decide which oppoenent
+    	local filter = ClearFilter()
+    	filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    	filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    	EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_PLAYER_TO_ATTACK", EffectDC():Make_Targets(0) )
+    	
+    else
+    	-- we are only in a two player duel so we just grab the first oppoenent as we only have one
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    	
+    		if player ~= nil and player ~= EffectController() then
+    			EffectDC():Make_Targets(0):Set_PlayerPtr(0, player)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local oppoenent = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if oppoenent ~= nil then
+    	MTG():PutTokensOntoBattlefieldUntappedAndAttacking( "TOKEN_CAT_SOLDIER_1_1_W_V_382258", 1, EffectController(), oppoenent )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Brimaz blocks a creature, put a 1/1 white Cat Soldier creature token with vigilance onto the battlefield blocking that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Brimaz bloque une créature, mettez sur le champ de bataille un jeton de créature 1/1 blanche Chat et Soldat avec la vigilance bloquant cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Brimaz bloquee a una criatura, pon en el campo de batalla bloqueando a esa criatura una ficha de criatura Soldado felino blanca 1/1 con la habilidad de vigilancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Brimaz, König von Oreskos, eine Kreatur blockt, bringe einen 1/1 weißen (Katze, Soldat)-Kreaturenspielstein mit Wachsamkeit ins Spiel, der diese Kreatur blockt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Brimaz blocca una creatura, metti sul campo di battaglia una pedina creatura Soldato Felino 1/1 bianca con cautela che blocca quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オレスコスの王、ブリマーズがクリーチャーを１体ブロックするたび、警戒を持つ白の１/１の猫・兵士・クリーチャー・トークン１体をそのクリーチャーをブロックしている状態で戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[브리마즈가 생물을 방어할 때마다, 경계를 가진 1/1 백색 고양이 병사 생물 토큰을 그 생물을 방어하는 상태로 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Бримаз блокирует существо, положите на поле битвы одну фишку существа 1/1 белая Кошка Солдат с Бдительностью блокирующей то существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Brimaz bloquear uma criatura, coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Felino Soldado com vigilância bloqueando aquela criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当布黎玛阻挡一个生物时，将一个1/1白色，具警戒异能的猫／士兵衍生生物放进战场且阻挡该生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當布黎瑪阻擋一個生物時，將一個1/1白色，具警戒異能的貓／士兵衍生生物放進戰場且阻擋該生物。]]></LOCALISED_TEXT>
+    <TRIGGER value="BLOCKS_A_CREATURE" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local blockedCreature = SecondaryObject()
+    if blockedCreature ~= nil then
+    	MTG():PutTokensOntoBattlefieldBlocking("TOKEN_CAT_SOLDIER_1_1_W_V_382258", 1, EffectController(), blockedCreature)
+    else
+    	MTG():PutTokensOntoBattlefield("TOKEN_CAT_SOLDIER_1_1_W_V_382258", 1, EffectController())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="1" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CAT_SOLDIER_1_1_W_V_382258" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_ATTACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to attack.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour l'attaquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador al que atacar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der angegriffen werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore da attaccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[攻撃するプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공격할 플레이어를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которого следует атаковать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para atacar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位要攻击的牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位要攻擊的玩家。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

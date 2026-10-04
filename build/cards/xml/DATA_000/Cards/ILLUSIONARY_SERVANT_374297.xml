@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="ILLUSIONARY_SERVANT_374297" />
+  <CARDNAME text="ILLUSIONARY_SERVANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Illusionary Servant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Servant illusoire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sirviente ilusorio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unwirklicher Diener]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Servitore Illusorio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻（げん）影（えい）の召（めし）使（つか）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[환영 하수인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Иллюзорный Слуга]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Servo Ilusório]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[虚幻仆役]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[虛幻僕役]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374297" />
+  <ARTID value="103537" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{1}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Illusion is a handy but fragile medium. Use it only in a pinch, or against the dim-witted.”
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« L'illusion est un moyen pratique, mais fragile. Utilisez-la parcimonieusement ou contre les imbéciles. »
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La ilusión es un medio práctico pero frágil. Úsala solo en un aprieto o contra un idiota”.
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Illusionen sind ein gutes, aber nicht einfaches Hilfsmittel. Man darf sie nur sparsam oder gegen Dummköpfe einsetzen.“
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“L’illusione è un mezzo comodo ma fragile. Usala solo in caso di necessità o contro i fessi.”
+—Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「幻影は手軽だがもろい物だ。使うんなら、危機に陥ったときか、馬鹿相手のときだけにしろ。」
+――ジェイス・ベレレン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["환영술은 편리하지만 깨지기도 쉽다. 임시 방편이나 우둔한 상대에게만 사용해야 한다."
+—제이스 벨레렌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Иллюзия — удобное, но хрупкое средство. Пользуйтесь ей лишь в безысходном положении или против не очень умного противника».
+— Джейс Белерен]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A ilusão é um meio prático, porém frágil. Use-a com muita parcimônia ou contra os tolos.”
+— Jace Beleren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「幻象是种方便却脆弱的媒介。只能应应急或是对付智慧低劣者。」
+～杰斯贝连]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「幻象是種方便卻脆弱的媒介。只能應應急或是對付智慧低劣者。」
+～傑斯貝連]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Illusion" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Illusionary Servant becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Servant illusoire devient la cible d’un sort ou d’une capacité, sacrifiez-le.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Sirviente ilusorio sea objetivo de un hechizo o habilidad, sacrifícalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Unwirkliche Diener das Ziel eines Zauberspruchs oder einer Fähigkeit wird, opfere ihn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Servitore Illusorio diventa bersaglio di una magia o abilità, sacrificalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻影の召使いが呪文や能力の対象になったとき、これを生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[환영 하수인이 주문이나 능력의 목표가 될 때, 환영 하수인을 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Иллюзорный Слуга становится целью заклинания или способности, пожертвуйте его.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Servo Ilusório se tornar alvo de uma mágica ou habilidade, sacrifique-o.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当虚幻仆役成为咒语或异能的目标时，将它牺牲。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當虛幻僕役成為咒語或異能的目標時，將它犧牲。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TARGET_OF_SPELL" simple_qualifier="self" />
+    <TRIGGER value="BECAME_TARGET_OF_ABILITY" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectController():Sacrifice( EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="GHOST_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="-300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

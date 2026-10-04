@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="223">
+  <FILENAME text="CORRUPT_374240" />
+  <CARDNAME text="CORRUPT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corrupt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Corruption]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Corromper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Korruption]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corrompere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[堕（だ）落（らく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타락]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разложение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Corromper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐化]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374240" />
+  <ARTID value="111602" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{5}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[One misstep in the swamp and the evil that sleeps beneath will rise to find you.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moindre faux pas, le mal qui sommeille sous le marais s'éveillera pour vous trouver.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un solo paso en falso en el pantano, y el mal que duerme en sus profundidades se alzará para encontrarte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der kleinste Fehltritt im Sumpf, und das Böse, das dort unten schlummert, wird aufsteigen, um dich zu finden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un passo falso nella palude e il male che giace in profondità si rianimerà per trovarti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[沼で一歩でも足の置き場を間違えると、その下に眠る邪悪が目を覚まし、あなたに迫るだろう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[발을 헛디디면 늪 속에 잠든 사악한 존재가 널 찾으러 올 것이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В трясине стоит сделать один неверный шаг — и зло, дремлющее под поверхностью, проснется и поглотит вас.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um passo em falso no pântano e o mal que dorme abaixo se erguerá para encontrar você.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在沼泽里踏错一步，沉睡其下的邪物就会现身抓住你。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在沼澤裡踏錯一步，在下面沉睡的邪物就會現身抓住你。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corrupt deals damage equal to the number of Swamps you control to target creature or player. You gain life equal to the damage dealt this way.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Corruption inflige à une cible, créature ou joueur, un nombre de blessures égal au nombre de marais que vous contrôlez. Vous gagnez autant de points de vie que de blessures infligées de cette manière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Corromper hace una cantidad de daño a la criatura o jugador objetivo igual a la cantidad de pantanos que controlas. Ganas una cantidad de vidas igual al daño hecho de esta manera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Korruption fügt einer Kreatur oder einem Spieler deiner Wahl so viele Schadenspunkte zu, wie du Sümpfe kontrollierst. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Schadenspunkte zugefügt wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corrompere infligge danno pari al numero di Paludi che controlli a una creatura o a un giocatore bersaglio. Guadagni punti vita pari ai danni inflitti in questo modo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。堕落はそれに、あなたがコントロールする沼の総数に等しい点数のダメージを与える。あなたはこれにより与えたダメージに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 타락은 그 목표에게 당신이 조종하는 늪의 개수만큼의 피해를 입힌다. 당신은 이렇게 입힌 피해만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разложение наносит целевому существу или игроку повреждения, равные количеству Болот под вашим контролем. Вы получаете столько жизней, сколько повреждений было нанесено таким образом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Corromper causa à criatura ou ao jogador alvo dano igual ao número de Pântanos que você controla. Você ganha uma quantidade de pontos de vida equivalente ao dano causado desta maneira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐化对目标生物或牌手造成伤害，其数量等同于由你操控的沼泽数量。你获得等同于以此法所造成的伤害之生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐化對目標生物或玩家造成傷害，其數量等同於由你操控的沼澤數量。你獲得等同於以此法所造成的傷害之生命。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PESTS_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_SWAMPS_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_SWAMP )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local damage = filter:Count()
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( damage, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( damage, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local damage_dealt = EffectSourceLKI():GetLastDamageAmountDealt()
+    EffectController():GainLife(damage_dealt)
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_SWAMPS_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to damage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока для нанесения повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要受到伤害的生物或牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

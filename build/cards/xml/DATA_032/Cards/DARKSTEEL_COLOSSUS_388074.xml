@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="16">
+  <FILENAME text="DARKSTEEL_COLOSSUS_388074" />
+  <CARDNAME text="DARKSTEEL_COLOSSUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Darksteel Colossus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Colosse de sombracier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Coloso de acero oscuro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachtstahl-Koloss]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Colosso di Darksteel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダークスティールの巨（きょ）像（ぞう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다크스틸 거상]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Колосс Темной Стали]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Colosso de Aço Negro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玄铁巨像]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玄鐵巨像]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388074" />
+  <ARTID value="51759" />
+  <ARTIST name="Carl Critchlow" />
+  <CASTING_COST cost="{11}" />
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Golem" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="11" />
+  <TOUGHNESS value="11" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[践踏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[踐踏]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_TRAMPLE" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[indestructible]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[indestructible]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unzerstörbar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[indistruttibile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊不能]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неразрушимость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[indestrutível]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不灭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不滅]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_INDESTRUCTIBLE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_ANY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner’s library instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si le Colosse de sombracier devait être mis dans un cimetière d’où qu’il vienne, révélez le Colosse de sombracier et mélangez-le dans la bibliothèque de son propriétaire à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si el Coloso de acero oscuro fuera a ser puesto en un cementerio desde cualquier lugar, en vez de eso, muestra al Coloso de acero oscuro y barájalo en la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls der Nachtstahl-Koloss von irgendwoher auf einen Friedhof gelegt würde, zeige den Nachtstahl-Koloss stattdessen offen vor und mische ihn in die Bibliothek seines Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se il Colosso di Darksteel sta per essere messo in un cimitero da qualsiasi zona, rivela invece il Colosso di Darksteel e rimescolalo nel grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダークスティールの巨像がいずれかの領域から墓地に置かれるなら、代わりにダークスティールの巨像を公開し、オーナーのライブラリーに加えて切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다크스틸 거상이 어디서든 무덤에 들어가려 하면, 대신에 다크스틸 거상을 공개하고 소유자의 서고에 섞어 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если Колосс Темной Стали должен попасть откуда-либо на кладбище, покажите Колосса Темной Стали и втасуйте его в библиотеку его владельца вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se Colosso de Aço Negro for ser colocado num cemitério vindo de qualquer lugar, em vez disso, revele-o e embaralhe-o no grimório de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果玄铁巨像将从任何区域置入坟墓场，则改为展示玄铁巨像，并将它洗入其拥有者的牌库。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[若玄鐵巨像將從任何區域置入墳墓場，則改為展示玄鐵巨像，並將它洗入其擁有者的牌庫。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_CONSIDERED" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_ANY" pre_trigger="1">
+    MTG():OverrideEvent()
+    return true
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource()~= nil then	
+    	EffectDC():Make_Chest(0):Set_CardPtr(0, EffectSource() )
+    	
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		
+    		if player ~= nil then
+    			player:RevealDCToMe(EffectDC():Get_Chest(0))
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(1)
+    delayDC:Set_CardPtr(0, TriggerObject())
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():PutOnTopOfLibrary()	
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" resource_id="1">
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_LIBRARY" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    EffectSource():GetOwner():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

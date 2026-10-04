@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="22">
+  <FILENAME text="DRUDGE_SKELETONS_382057" />
+  <CARDNAME text="DRUDGE_SKELETONS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Drudge Skeletons]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Squelettes serviles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esqueletos esclavos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heer der geplagten Skelette]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scheletri Maledetti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蠢（うごめ）く骸（がい）骨（こつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고역의 해골들]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неутомимые Скелеты]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esqueletos de Carga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[苦力骷髅妖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[苦力骷髏妖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382057" />
+  <ARTID value="122151" />
+  <ARTIST name="Daarken" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The dead make good soldiers. They can’t disobey orders, never surrender, and don’t stop fighting when a random body part falls off.”
+—Nevinyrral, Necromancer’s Handbook]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les morts font de bons soldats. Ils ne peuvent désobéir, ils ne se rendent pas, et ils ne cessent pas le combat quand un morceau de leur corps vient à tomber. »
+—Nevinyrral, Le manuel du nécromancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los muertos son buenos soldados. No pueden desobedecer órdenes, nunca se rinden y no dejan de pelear cuando se les cae una parte del cuerpo”.
+—Nevinyrral, Manual del Nigromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Toten geben gute Soldaten ab. Sie können keine Befehle verweigern, geben nie auf, und hören nicht auf zu kämpfen, wenn mal ein Körperteil abgeschlagen wird.“
+—Nevinyrral, Handbuch für Zauberer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I morti sono ottimi soldati. Non disobbediscono agli ordini, non si arrendono mai e non si fermano quando perdono una parte del corpo in battaglia.”
+—Nevinyrral, Manuale del Necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「死者は兵士に絶好である。命令に逆らうこともなければ、降伏することもありえない。しかも、身体のどこかが取れたぐらいでは戦いをやめないのだから。」――ネビニラル「ネクロマンサーの手引き」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["죽은 자들은 좋은 병사가 된다. 명령에 불복종하지 못하고, 절대로 항복하지 않으며, 신체 일부분이 떨어져 나간다 해도 결코 싸움을 멈추지 않는다."
+—네비니랄 사령술사의 안내서]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Из мертвых получаются хорошие солдаты. Они не могут не подчиняться приказам, никогда не сдаются, не прекращают сражения, даже если отвалилась какая-то часть тела».
+— Невиниррал, Справочник некроманта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os mortos são bons soldados. Eles não desobedecem ordens, nunca se rendem e não param de lutar quando alguma parte do seu corpo é cortada fora.”
+— Nevinyrral, Manual do Necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「死者可成为良好的士兵。它们不会违背命令，它们从不投降，它们也不会因为身上随便哪块部份掉下来就停止战斗。」
+～妮维亚洛，《死灵术士手册》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「死者可成為良好的士兵。它們不會違背命令，它們從不投降，它們也不會因為身上隨便哪塊部份掉下來就停止戰鬥。」
+～妮維亞洛，《死靈術士手冊》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Skeleton" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Regenerate Drudge Skeletons.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : Régénérez les Squelettes serviles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: Regenera los Esqueletos esclavos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Regeneriere das Heer der geplagten Skelette.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Rigenera gli Scheletri Maledetti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：蠢く骸骨を再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 고역의 해골들을 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: регенерируйте Неутомимых Скелетов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Regenere Esqueletos de Carga.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{B}：重生苦力骷髅妖。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{B}：重生苦力骷髏妖。]]></LOCALISED_TEXT>
+    <COST mana_cost="{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+    <AI_MODIFIERS combat_immunity="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_REGENERATE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

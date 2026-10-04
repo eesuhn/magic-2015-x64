@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="581">
+  <FILENAME text="SIEGE_DRAGON_378488" />
+  <CARDNAME text="SIEGE_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Siege Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon de siège]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón de asedio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Belagerungsdrache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago da Assedio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[包（ほう）囲（い）ドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공성 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Осадный Дракон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão de Cerco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[攻城巨龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[攻城巨龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378488" />
+  <ARTID value="155353" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{5}{R}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Siege Dragon enters the battlefield, destroy all Walls your opponents control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Dragon de siège arrive sur le champ de bataille, détruisez tous les murs que vos adversaires contrôlent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Dragón de asedio entre al campo de batalla, destruye todos los Muros que controlan tus oponentes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Belagerungsdrache ins Spiel kommt, zerstöre alle Mauern, die deine Gegner kontrollieren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Drago da Assedio entra nel campo di battaglia, distruggi tutti i Muri controllati dai tuoi avversari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[包囲ドラゴンが戦場に出たとき、あなたの対戦相手がコントロールするすべての壁を破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공성 용이 전장에 들어올 때, 당신의 상대가 조종하는 모든 벽을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Осадный Дракон выходит на поле битвы, уничтожьте все Стены под контролем ваших оппонентов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Dragão de Cerco entrar no campo de batalha, destrua todas as Barreiras que seus oponentes controlam.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当攻城巨龙进战场时，消灭由对手操控的所有墙。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當攻城巨龍進戰場時，消滅所有由對手操控的牆。]]></LOCALISED_TEXT>
+    <SFX text="SIEGE_DRAGON_LUA_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_WALL )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if FilteredCard() ~= nil then   
+    	FilteredCard():Destroy()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Siege Dragon attacks, if defending player controls no Walls, it deals 2 damage to each creature without flying that player controls.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Dragon de siège attaque, si le joueur défenseur ne contrôle pas de mur, il inflige 2 blessures à chaque créature sans le vol que ce joueur contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Dragón de asedio ataque, si el jugador defensor no controla ningún Muro, hace 2 puntos de daño a cada criatura sin la habilidad de volar que controla ese jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Belagerungsdrache angreift und falls der verteidigende Spieler keine Mauer kontrolliert, fügt er jeder nichtfliegenden Kreatur, die dieser Spieler kontrolliert, 2 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Drago da Assedio attacca, se il giocatore in difesa non controlla alcun Muro, il Drago da Assedio infligge 2 danni a ogni creatura senza volare controllata da quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[包囲ドラゴンが攻撃するたび、防御プレイヤーが壁をコントロールしていない場合、これはそのプレイヤーがコントロールする飛行を持たない各クリーチャーに、それぞれ２点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공성 용이 공격할 때마다, 수비플레이어가 조종하는 벽이 없다면, 공성 용은 그 플레이어가 조종하는 생물 중 비행이 없는 각 생물에게 피해 2점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Осадный Дракон атакует, если под контролем защищающегося игрока нет Стен, он наносит по 2 повреждения каждому существу без Полета под контролем того игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Dragão de Cerco atacar, se o jogador defensor não controlar nenhuma Barreira, ele causará 2 pontos de dano a cada criatura sem voar que aquele jogador controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当攻城巨龙攻击时，若防御牌手未操控墙，则它对由该牌手操控且不具飞行异能的每个生物各造成2点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當攻城巨龍攻擊時，若防禦玩家未操控牆，則它對由該玩家操控且不具飛行異能的每個生物各造成2點傷害。]]></LOCALISED_TEXT>
+    <SFX text="SIEGE_DRAGON_LUA_PLAY" />
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <INTERVENING_IF>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_WALL )
+    filter:Add( FE_CONTROLLER, OP_IS, TriggerPlayer() )
+    local total = filter:CountStopAt(1)
+    if total == 0 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, TriggerPlayer() )
+    filter:Add( FE_CHARACTERISTIC, OP_NOT, CHARACTERISTIC_FLYING )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if (FilteredPlayer() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 2, FilteredPlayer() )
+    elseif (FilteredCard() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 2, FilteredCard() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DRAGON_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_DRAGON_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

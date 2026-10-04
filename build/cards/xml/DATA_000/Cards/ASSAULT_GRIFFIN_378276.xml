@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="851">
+  <FILENAME text="ASSAULT_GRIFFIN_378276" />
+  <CARDNAME text="ASSAULT_GRIFFIN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Assault Griffin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Griffon d'assaut]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grifo de asalto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Angriffs-Greif]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Grifone d’Assalto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[突（とつ）撃（げき）するグリフィン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[유격 그리핀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Штурмовой Грифон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Grifo de Assalto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[突袭狮鹫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[突襲獅鷲]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378276" />
+  <ARTID value="146304" />
+  <ARTIST name="Eric Velhagen" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The Simic offer a prize to any biomancer who can breed a krasis to match a griffin in the air. It’s never been claimed.”
+—Libuse, Boros sergeant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les Simic promettent une récompense à tout biomancien capable de rendre un krasis aussi véloce qu'un griffon. Elle n'a jamais été réclamée. »
+—Libuse, sergent Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los simic ofrecen un premio al biomante que críe a un krasis que iguale a un grifo en el aire. Nadie lo ha reclamado”.
+—Libuse, sargento boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Simic haben jedem Biomagier eine Belohnung versprochen, dessen neu gezüchtete Krasis es mit einem Greif in der Luft aufnehmen kann. Bislang hat sie noch niemand beansprucht.“
+—Laibus, Boros-Feldwebel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I Simic hanno offerto una ricompensa al biomante che riesca ad allevare un krasis in grado di affrontare un grifone in volo. Nessuno è mai venuto a reclamarla.”
+—Libuse, sergente Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「シミック連合はグリフィンに匹敵する飛行能力を持つ混成体を生み出せる生術師に報奨を用意している。これを受け取った者はまだいない。」――ボロスの軍曹、ライブース]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["시믹은 그리핀과 대등한 공중전을 펼칠 수 있는 크라시스를 교배할 수 있는 생명술사에게 상금을 주겠다고 약속했다. 아직 누구도 그 상금을 타지 못했다."
+—보로스 하사 리부즈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Симики назначили премию биоманту, который сможет вывести красиса, способного состязаться с грифоном в воздухе на равных. Претенденты так и не объявились».
+— Лайбус, сержант Боросов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os Simic oferecem um prêmio a qualquer biomante que consiga criar um krasis equiparável a um grifo no ar. O prêmio jamais foi reivindicado.”
+— Libuse, sargento Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「如有任何生机术士能够培育出足以在空中与狮鹫匹敌的融合体，析米克将有重赏，但从未有人来领赏。」
+～波洛斯军士黎布斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「如有任何生機術士能夠培育出足以在空中與獅鷲匹敵的融合體，析米克將有重賞，但從未有人來領賞。」
+～波洛斯軍士黎布斯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Griffin" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

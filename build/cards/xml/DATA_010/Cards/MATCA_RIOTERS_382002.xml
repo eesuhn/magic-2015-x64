@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="295">
+  <FILENAME text="MATCA_RIOTERS_382002" />
+  <CARDNAME text="MATCA_RIOTERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Matca Rioters]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Émeutiers du matca]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alborotadores de matca]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Matca-Anfeuerer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Praticanti di Matca]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マトカの暴（ぼう）動（どう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마트카 시위대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разъяренные Мадкоборцы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desordeiros de Matca]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[麻卡喧闹人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[麻卡喧鬧人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382002" />
+  <ARTID value="118691" />
+  <ARTIST name="Steve Argyle" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When outsiders interrupted the matca championship, things got ugly.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lorsque des étrangers interrompirent le championnat de matca, la situation dégénéra rapidement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los forasteros interrumpieron el campeonato de matca, las cosas se pusieron feas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als Eindringlinge es wagten, die Matca-Meisterschaft zu stören, wurde es hässlich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i forestieri interruppero il campionato di matca, le cose precipitarono drasticamente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[よそ者がマトカの試合を妨害しようとしたとき、物事は面倒な事態になった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마트카의 시합을 방해하는 외부인들은 험한 꼴을 당한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда чемпионат по мадкоборью был прерван чужаками, дело приняло дурной оборот.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando os forasteiros interromperam o campeonato de matca, a coisa ficou feia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当外来者干扰了麻卡角力冠军赛，状况就变得丑恶。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當外來者干擾了麻卡角力冠軍賽，狀況就變得醜惡。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Domain| — Matca Rioters’s power and toughness are each equal to the number of basic land types among lands you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Domaine| — La force et l’endurance des Émeutiers du matca sont chacune égales au nombre de types de terrain de base parmi les terrains que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Dominio| — Tanto la fuerza como la resistencia de los Alborotadores de matca son iguales a la cantidad de tipos de tierra básica entre las tierras que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Domäne| — Stärke und Widerstandskraft der Matca-Anfeuerer sind gleich der Anzahl an Standardlandtypen unter den Ländern, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Dominio| — La forza e la costituzione dei Praticanti di Matca sono pari al numero di tipi di terra base tra le terre che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|版図| ― マトカの暴動者のパワーとタフネスは、それぞれあなたがコントロールする土地の中の基本土地タイプの数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도메인 — 마트카 시위대의 공격력과 방어력은 각각 당신이 조종하는 대지 중 기본 대지 유형의 수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Владения| — Сила и выносливость Разъяренных Мадкоборцев равны количеству типов базовых земель среди земель под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Dominar| — O poder e a resistência de Desordeiros de Matca são ambos iguais ao número de tipos de terreno básico entre os terrenos que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[领土～麻卡喧闹人的力量和防御力各等同于由你操控的地之中基本地类别的数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[領土～麻卡喧鬧人的力量和防禦力各等同於由你操控的地之中基本地類別的數量。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    EffectSource():GetCurrentCharacteristics():Power_Set( EffectController():GetDomainCount())
+    EffectSource():GetCurrentCharacteristics():Toughness_Set( EffectController():GetDomainCount())
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="FOREST" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="ISLAND" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="MOUNTAIN" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="PLAINS" />
+    <DECKBUILDING_SYNERGY_BONUS max_amount="1" score_per_unit="250" resource_subtype="SWAMP" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_TITLE_DOMAIN" body="MORE_INFO_BODY_DOMAIN" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

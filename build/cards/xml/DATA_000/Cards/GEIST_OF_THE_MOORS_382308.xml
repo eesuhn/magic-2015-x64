@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="115">
+  <FILENAME text="GEIST_OF_THE_MOORS_382308" />
+  <CARDNAME text="GEIST_OF_THE_MOORS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Geist of the Moors]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Geist des landes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Geist de los páramos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Moorgeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Geist delle Brughiere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[原（げん）野（や）の霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무어인 신령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Болотное Привидение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Geist dos Pântanos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[湿地游魂]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[荒野遊魂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382308" />
+  <ARTID value="155278" />
+  <ARTIST name="Aaron Miller" />
+  <CASTING_COST cost="{1}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The battle is won. There’s work to be done. / The Blessed Sleep must wait. / A fiend is about. It stalks the devout. / I’ll save them from my fate.”
+—“The Good Geist’s Vow”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La bataille est terminée. Ma tâche peut commencer. / Le Sommeil béni attendra. / L'ennemi rôde ici-bas. Des dévots il veut faire festin. / Je les sauverai de mon infâme destin. »
+—« Le serment du bon geist »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La batalla se ha ganado, pero hay trabajo acumulado. / El Sueño Bendito debe esperar. / Un demonio aprovecha y a los devotos acecha. / De mi destino los he de salvar”.
+—El juramento del buen geist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Geschlagen ist die Schlacht. Doch ich halte noch Wacht. / Denn namenloser Schrecken / Bedroht die kühnen Recken. Vor meines Geschickes Gefahren / Will ich die Getreuen bewahren.“
+—„Der Schwur des guten Geistes“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Vinta è la battaglia, ma l’ombra si staglia / di un male che infesta il creato. / Rinuncio al diletto del Sonno Benedetto / per salvare ogni pio dal mio fato.”
+—“Il Voto del buon geist”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「戦に勝った。これよりやらねばならぬことがある。/祝福された眠りは待たねばならぬ。/悪鬼が近くにいる。敬虔なる者に纏わり付く奴。/かの者を我と同じ運命を辿らせてはならぬ。」――「良き霊の誓い」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["전투에서 승리했다. 할 일이 있다. / 축복받은 잠은 기다려야 한다. / 근처에 악령이 있다. 그것은 독실한 신자 주위를 배회한다. / 내가 그들을 구해야 한다."
+—"착한 심령의 서약"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Победа близка, но не кончен мой труд, Благословенный Сон подождет. Здесь демон рыщет, он праведных ищет, ужасная участь их ждет».
+— «Обет доброго привидения»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A batalha foi conquistada. Muito trabalho nos aguarda. / O Sono Abençoado deve esperar. / Um diabo está à espreita. Dos devotos aproveita. / Do meu destino, hei de lhes salvar.”
+—“O Juramento do Geist Bondoso”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「战事平息，百废待兴，／受福安眠还太早。／邪鬼窥伺，信徒遭扰，／覆辙不蹈我佑保。」
+～「善良游魂之誓」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「戰事平息，百廢待興，／受福安眠還太早。／邪鬼窺伺，信徒遭擾，／覆轍不蹈我佑保。」
+～《善良遊魂之誓》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="GHOST_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

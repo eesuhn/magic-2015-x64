@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="132">
+  <FILENAME text="WOODLAND_CEMETERY_377458" />
+  <CARDNAME text="WOODLAND_CEMETERY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Woodland Cemetery]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cimetière des sylves]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cementerio boscoso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Waldfriedhof]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cimitero Silvestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森（しん）林（りん）の墓（ぼ）地（ち）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[삼림지 공동묘지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лесное Кладбище]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cemitério da Floresta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[林地墓园]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[林地墓園]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377458" />
+  <ARTID value="138424" />
+  <ARTIST name="Lars Grant-West" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Farmers cut the trees and buried their dead. The dead rose up and killed the farmers. The trees grew back and strangled the dead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les fermiers coupèrent les arbres et enterrèrent leurs morts. Les morts sortirent de leurs tombes et tuèrent les fermiers. Les arbres poussèrent à nouveau et étranglèrent les morts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los granjeros cortaron los árboles y enterraron a sus muertos. Los muertos se alzaron y mataron a los granjeros. Los árboles volvieron a crecer y ahorcaron a los muertos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Bauern fällten die Bäume und begruben ihre Toten. Die Toten standen auf und töteten die Bauern. Die Bäume wuchsen neu und erdrosselten die Toten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I contadini tagliarono gli alberi e seppellirono i loro morti. I morti risorsero e uccisero i contadini. Gli alberi ricrebbero e strangolarono i morti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[農夫は木々を切り、死者を埋葬する。 死者は目覚め農夫を殺す。 木々は死者を絡め取り成長する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[농부들이 나무를 베어 죽은 자들을 매장했다. 죽은 자들이 되살아나 농부들을 죽였다. 나무가 자라나 죽은 자들의 목을 졸랐다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Фермеры вырубили деревья и похоронили своих покойников. Покойники вышли из могил и убили фермеров. Деревья снова выросли и удушили покойников.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os fazendeiros cortaram as árvores e enterraram seus mortos. Os mortos se alçaram e mataram os fazendeiros. As árvores cresceram novamente e estrangularam os mortos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[农民砍掉树木，埋葬逝者。逝者起身杀死农民；树长回来将逝者绞死。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[農民砍掉樹木，埋葬逝者。逝者起身殺死農民；樹長回來將逝者絞死。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Woodland Cemetery enters the battlefield tapped unless you control a Swamp or a Forest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Cimetière des sylves arrive sur le champ de bataille engagé à moins que vous ne contrôliez un marais ou une forêt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Cementerio boscoso entra al campo de batalla girado a menos que controles un pantano o un bosque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Waldfriedhof kommt getappt ins Spiel, falls du nicht einen Sumpf oder einen Wald kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Cimitero Silvestre entra nel campo di battaglia TAPpato a meno che tu non controlli una Palude o una Foresta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森林の墓地は、あなたが沼か森をコントロールしていないかぎり、タップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[삼림지 공동묘지는 당신이 늪이나 숲을 조종하지 않으면 탭된 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лесное Кладбище выходит на поле битвы повернутым, если только под вашим контролем нет Болота или Леса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cemitério da Floresta entra no campo de batalha virado, a menos que você controle um Pântano ou uma Floresta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[除非你操控沼泽或树林，否则林地墓园须横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[除非你操控沼澤或樹林，否則林地墓園須橫置進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_SWAMP)
+    	subfilter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_FOREST)
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    local numFilter = filter:CountStopAt(1)
+    if numFilter == 0 then
+    	TriggerObject():Tap()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B} or {G} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {B} ou {G} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {B} o {G} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {B} oder {G}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {B} o {G} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{B}か{G}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {B} 또는 {G}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {B} или {G} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {B} ou {G} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{B}或{G}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{B}或{G}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{B/G}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

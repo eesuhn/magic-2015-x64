@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="GRAY_MERCHANT_OF_ASPHODEL_374747" />
+  <CARDNAME text="GRAY_MERCHANT_OF_ASPHODEL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gray Merchant of Asphodel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marchand gris d'Asphodèle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Comerciante plomizo de Asfodel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grauer Händler aus Asphodel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mercante Grigio di Asfodelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アスフォデルの灰（はい）色（いろ）商（しょう）人（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아스포델의 회색 상인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Серый Торговец из Асфодели]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mercador Cinzento de Asfódelos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[安福陵的暗贾]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[安福陵的暗賈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374747" />
+  <ARTID value="150846" />
+  <ARTIST name="Robbie Trevino" />
+  <CASTING_COST cost="{3}{B}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Gray Merchant of Asphodel enters the battlefield, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Marchand gris d’Asphodèle arrive sur le champ de bataille, chaque adversaire perd X points de vie, X étant votre dévotion au noir. Vous gagnez autant de points de vie que ceux perdus de cette manière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Comerciante plomizo de Asfodel entre al campo de batalla, cada oponente pierde X vidas, donde X es tu devoción al negro. Ganas una cantidad de vidas igual a las vidas perdidas de esta manera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Graue Händler aus Asphodel ins Spiel kommt, verliert jeder Gegner X Lebenspunkte, wobei X gleich deiner Hingabe zu Schwarz ist. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Lebenspunkte verloren wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Mercante Grigio di Asfodelo entra nel campo di battaglia, ogni avversario perde X punti vita, dove X è pari alla tua devozione al nero. Guadagni tanti punti vita quanti sono i punti vita persi in questo modo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アスフォデルの灰色商人が戦場に出たとき、各対戦相手はそれぞれＸ点のライフを失う。Ｘはあなたの黒への信心に等しい。あなたはこれにより失ったライフに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아스포델의 회색 상인이 전장에 들어올 때, 각 상대는 생명 X점을 잃는다. X는 당신의 흑색 신앙심이다. 당신은 이렇게 잃은 생명점만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Серый Торговец из Асфодели выходит на поле битвы, каждый оппонент теряет X жизней, где Х — ваша Преданность черному. Вы получаете столько жизней, сколько их было потеряно таким образом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Mercador Cinzento de Asfódelos entra no campo de batalha, cada oponente perde X pontos de vida, sendo X sua devoção ao preto. Você ganha uma quantidade de pontos de vida igual aos pontos de vida perdidos dessa maneira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当安福陵的暗贾进战场时，每位对手各失去X点生命，X为你的黑色献力。你获得若干生命，其数量等同于以此法失去的生命总和。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當安福陵的暗賈進戰場時，每位對手各失去X點生命，X為你的黑色獻力。你獲得若干生命，其數量等同於以此法失去的生命總和。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local lifeToLose = effectController:GetDevotionTo( COLOUR_BLACK)
+    local life_to_gain = 0
+    local numPlayer = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayer-1) do
+    	local player = MTG():GetNthPlayer( i )
+    	if player ~= nil and player:GetTeam() ~= effectController:GetTeam() then
+    		local lifeLost = player:LoseLife( lifeToLose )
+    		life_to_gain = life_to_gain+lifeLost
+    	end
+    end
+    if life_to_gain&gt; 0 then
+    	effectController:GainLife(life_to_gain)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_DEVOTION" body="MORE_INFO_BODY_DEVOTION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

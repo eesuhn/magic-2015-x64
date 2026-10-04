@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="115">
+  <FILENAME text="BUBBLING_CAULDRON_380244" />
+  <CARDNAME text="BUBBLING_CAULDRON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bubbling Cauldron]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaudron bouillonnant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caldero burbujeante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Brodelnder Hexenkessel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Calderone Ribollente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[泡（あわ）立（だ）つ大（おお）釜（がま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부글거리는 가마솥]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кипящий Котел]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Caldeirão Borbulhante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[冒泡鼎镬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[冒泡鼎鑊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380244" />
+  <ARTID value="147488" />
+  <ARTIST name="Eric Deschamps" />
+  <CASTING_COST cost="{2}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice a creature: You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, sacrifiez une créature : Vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, sacrificar una criatura: Ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, opfere eine Kreatur: Du erhältst 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifica una creatura: Guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, クリーチャーを１体生け贄に捧げる：あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 생물 한 개를 희생한다: 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, пожертвуйте существо: вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifique uma criatura: Você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}，{T}，牺牲一个生物：你获得4点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}，{T}，犧牲一個生物：你獲得4點生命。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="Sacrifice" definition="0" compartment="1" query_tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" item_count="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </COST_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(4 )
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_LIFEGAIN_WHY_PLAY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice a creature named Festering Newt: Each opponent loses 4 life. You gain life equal to the life lost this way.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, sacrifiez une créature appelée Triton à pustules : Chaque adversaire perd 4 points de vie. Vous gagnez autant de points de vie que ceux perdus de cette manière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, sacrificar una criatura llamada Salamandra purulenta: Cada oponente pierde 4 vidas. Ganas una cantidad de vidas igual a las vidas perdidas de esta manera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, opfere eine Kreatur namens Eiternder Molch: Jeder Gegner verliert 4 Lebenspunkte. Du erhältst so viele Lebenspunkte dazu, wie auf diese Weise Lebenspunkte verloren wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifica una creatura chiamata Newt in Putrefazione: Ogni avversario perde 4 punti vita. Guadagni tanti punti vita quanti sono i punti vita persi in questo modo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, ただれたイモリという名前のクリーチャーを１体生け贄に捧げる：各対戦相手はそれぞれ４点のライフを失う。あなたはこれにより失ったライフに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 이름이 ’썩어가는 도마뱀’인 생물 한 개를 희생한다: 각 상대는 생명 4점을 잃는다. 당신은 이렇게 잃은 생명점만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, пожертвуйте существо с именем Гниющий Тритон: каждый оппонент теряет 4 жизни. Вы получаете столько жизней, сколько их было потеряно таким образом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifique uma criatura com o nome Salamandra Purulenta: Cada oponente perde 4 pontos de vida. Você ganha uma quantidade de pontos de vida igual aos pontos de vida perdidos dessa maneira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}，{T}，牺牲一个名称为腐臭水蝾的生物：每位对手各失去4点生命。你获得若干生命，其数量等同于以此法失去的生命总和。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}，{T}，犧牲一個名稱為腐臭水蠑的生物：每位對手各失去4點生命。你獲得若干生命，其數量等同於以此法失去的生命總和。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="Sacrifice" definition="0" compartment="1" query_tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE" item_count="1" />
+    <COST_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add(FE_CARD_NAME, OP_IS, "FESTERING_NEWT")
+    </COST_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local life_to_gain = 0
+    local numPlayer = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayer-1) do
+    	local player = MTG():GetNthPlayer( i )
+    	if player ~= nil then
+    		if (player:GetTeam() ~= EffectController():GetTeam()) then
+    			local lifeLost = player:LoseLife( 4 )
+    			life_to_gain = life_to_gain+lifeLost
+    		end
+    	end
+    end
+    if life_to_gain&gt; 0 then
+    	EffectController():GainLife(life_to_gain)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_BURN_WHY_PLAY" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ARTIFACT_ABILITY_WHY_PLAY" removal_tag="HINT_ARTIFACT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

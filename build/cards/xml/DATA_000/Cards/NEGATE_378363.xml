@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="397">
+  <FILENAME text="NEGATE_378363" />
+  <CARDNAME text="NEGATE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Negate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Négation]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Negar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Negieren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Negare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[否（ひ）認（にん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отвергнуть]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Negar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[失效]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[失效]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378363" />
+  <ARTID value="109907" />
+  <ARTIST name="Jeremy Jarvis" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Masters of the arcane savor a delicious irony. Their study of deep and complex arcana leads to such a simple end: the ability to say merely yes or no.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les maîtres sorciers savourent une ironie délicieuse. Leur étude approfondie et complexe des arcanes n'a qu'un seul objectif : leur donner la capacité de dire simplement oui ou non.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los maestros de lo arcano saborean una deliciosa ironía. Su estudio de las complejidades arcanas más profundas tiene un fin extremadamente sencillo: la mera habilidad de decir sí o no.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Meister des Arkanen wissen eine besondere Ironie zu würdigen. Ihre tiefen und komplexen Studien des Arkanen laufen auf ein einfaches Ergebnis hinaus: auf die Fähigkeit, einfach nur Ja oder Nein zu sagen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I signori dell’arcanismo assaporano una deliziosa ironia. I loro studi arcani più profondi e complicati li portano a una conclusione semplicissima: la capacità di dichiarare esclusivamente sì o no.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[秘儀の習得は美味なる皮肉の味がする。深く難解な秘儀の研究の果てに至るのは単純な結論、単に許可か不許可かを決める能力だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비술의 대가들은 절묘한 아이러니를 즐긴다. 수많은 어렵고 복잡한 비술 중에서도 가장 중요한 것은 결국 상대의 주문을 무효화하는 아주 간단한 기술이기 때문이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Могучие волшебники ценят тонкую иронию. Изучение самых глубоких и сложных загадок магии ведет к такой простой цели: способности сказать всего лишь «да» или «нет».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os mestres dos conhecimentos arcanos adoram uma ironia sofisticada. Seus estudos dos profundos e complexos ensinamentos arcanos levam a uma conclusão muito simples: a capacidade de dizer meramente sim ou não.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[秘术大师很欣赏此等绝妙吊诡：他们深沉又复杂的秘法会导出简单至极的结果～只需说出是或否两字的能力。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[祕術大師很欣賞此等絕妙弔詭：他們深沉又複雜的祕法會導出簡單至極的結果～只需說出是或否兩字的能力。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target noncreature spell.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort non-créature ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contrarresta el hechizo objetivo que no sea de criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Nichtkreatur-Zauberspruch deiner Wahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia non creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーでない呪文１つを対象とし、それを打ち消す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 주문이 아닌 주문 한 개를 목표로 정한다. 그 주문을 무효화한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отмените целевое заклинание, не являющееся заклинанием существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anule a mágica alvo que não seja de criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反击目标非生物咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反擊目標非生物咒語。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_STACK ) 
+    filter:Add (FE_TYPE, OP_NOT, CARD_TYPE_CREATURE) 
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:CounterSpell(EffectSource())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <DECKBUILDING_METADATA defensive="1" />
+  <AI_BASE_SCORE score="750" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a spell to counter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un sort à contrecarrer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un hechizo para contrarrestar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Zauberspruch, der neutralisiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una magia da neutralizzare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[打ち消す呪文を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무효화할 주문 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите заклинание для отмены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma mágica para anular.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要反击的咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個咒語來反擊。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COUNTER_WHY_PLAY" removal_tag="HINT_SPELL_COUNTER_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

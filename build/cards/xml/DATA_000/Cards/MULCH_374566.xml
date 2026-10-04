@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="134">
+  <FILENAME text="MULCH_374566" />
+  <CARDNAME text="MULCH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mulch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Paillis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estiércol y paja]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mulchen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Concime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[根（ね）囲（がこ）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[뿌리 덮개]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мульчирование]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Palha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[护根]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[護根]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374566" />
+  <ARTID value="138401" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The land knows no difference between the graves of commoners and nobles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La terre ne fait pas la différence entre la tombe d'un roturier et celle d'un noble.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La tierra no entiende la diferencia entre las tumbas de aldeanos y nobles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Land kennt keinen Unterschied zwischen den Gräbern von Gemeinen und von Adligen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La terra non fa differenza tra le tombe delle persone comuni e quelle dei nobili.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[庶民と貴族の墓の違いなど、大地は知らない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[농부나 귀족이나 죽어서 묻히면 똑같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Земля не отличает могилы простолюдинов от могил знати.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O solo não faz distinção entre as sepulturas dos plebeus e as dos nobres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[大地平等对待平民与贵族的坟墓。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[大地平等對待平民與貴族的墳墓。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Révélez les quatre cartes du dessus de votre bibliothèque. Mettez toutes les cartes de terrain révélées de cette manière dans votre main et le reste dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muestra las cuatro primeras cartas de tu biblioteca. Pon todas las cartas de tierra mostradas de esta manera en tu mano y pon el resto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeige die obersten vier Karten deiner Bibliothek offen vor. Nimm alle Länderkarten, die auf diese Weise aufgedeckt werden, auf deine Hand und lege den Rest der Karten auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rivela le prime quattro carte del tuo grimorio. Aggiungi alla tua mano tutte le carte terra rivelate in questo modo e metti le altre nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上から４枚のカードを公開する。これにより公開された土地カードをすべてあなたの手札に加え、残りをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드 네 장을 공개한다. 그중에서 대지 카드는 모두 당신의 손으로 가져가고 나머지 카드들은 당신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покажите четыре верхние карты вашей библиотеки. Положите все карты земель, показанные таким образом, в вашу руку, а остальные — на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Revele os quatro cards do topo de seu grimório. Coloque todos os cards de terreno revelados dessa maneira na sua mão e o restante no seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[展示你牌库顶的四张牌。将以此法展示出的所有地牌置于你手上，其余则置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[展示你牌庫頂的四張牌。將以此法展示出的所有地牌置於你手上，其餘則置入你的墳墓場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local mulchDC = EffectDC():Make_Targets(0)
+    local player = EffectController()
+    for i = 0, 3 do
+    	local card = player:Library_GetNth(i)
+    	
+    	if card ~= nil then
+    		mulchDC:Set_CardPtr(i, card)		
+    	end
+    end
+    if mulchDC:Count() &gt; 0 then		
+    	for j = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local nthPlayer = MTG():GetNthPlayer(j)
+    		if nthPlayer ~= nil and nthPlayer ~= player then
+    			nthPlayer:RevealDCToMe(mulchDC)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local mulchDC = EffectDC():Get_Targets(0)
+    for k = 0, (mulchDC:Count()-1) do
+    	local cardInDC = mulchDC:Get_CardPtr(k)
+    	if cardInDC ~= nil then
+    		if (cardInDC:GetCardType():Test(CARD_TYPE_LAND)) then
+    			cardInDC:PutInHand()
+    		else
+    			cardInDC:PutInGraveyard()
+    		end
+    	else
+    		break
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_MANAFIX_WHY_PLAY" removal_tag="HINT_SPELL_MANAFIX_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

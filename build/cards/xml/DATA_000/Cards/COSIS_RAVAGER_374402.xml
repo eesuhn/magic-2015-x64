@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="211">
+  <FILENAME text="COSIS_RAVAGER_374402" />
+  <CARDNAME text="COSIS_RAVAGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cosi’s Ravager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dévastateur de Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devastador de Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cosis Verwüster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Devastatore di Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コーシの荒（こう）廃（はい）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[코시의 유린자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Опустошающий Служитель Коси]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devastador de Cosi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[寇希噬怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[寇希噬怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374402" />
+  <ARTID value="126603" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Cosi has many followers. Even the volcano finds a way to do his bidding.”
+—Zakken, Enclave cleric]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Beaucoup croient en Cosi. Même le volcan trouve le moyen de lui obéir. »
+—Zakken, clerc de l'Enclave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cosi tiene muchos seguidores. Hasta el volcán encuentra una manera de hacer su voluntad”.
+—Zakken, clérigo del Enclave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Cosi hat viele Anhänger. Selbst der Vulkan schafft es, ihr zu Diensten zu sein.“
+—Zakken, Kleriker der Enklave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Cosi ha numerosi seguaci. Persino il vulcano ha trovato il modo per piegarsi al suo volere.”
+—Zakken, chierico di Enclave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「コーシには数多くの崇拝者がおる。火山でさえ彼の求めに応えよう。」――飛び地の僧侶、ザッケン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["코시의 추종자는 많다. 화산마저도 그의 명령을 따른다."
+—교단 성직자 자켄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«У Коси много последователей. Даже вулкан умудряется исполнять его волю».
+— Заккен, священник из Анклава]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Cosi tem muitos seguidores. Até mesmo o vulcão encontra um modo de realizar seu desejo.”
+— Zakken, clérigo do Encrave]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「寇希有许多信徒。就连火山都找到方法替他服务。」
+～围境僧侣札肯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「寇希有許多信徒。就連火山都找到方法替祂服務。」
+～圍境僧侶札肯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may have Cosi’s Ravager deal 1 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez faire que le Dévastateur de Cosi inflige 1 blessure au joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes hacer que el Devastador de Cosi haga 1 punto de daño al jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du Cosis Verwüster einem Spieler deiner Wahl 1 Schadenspunkt zufügen lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi far infliggere dal Devastatore di Cosi 1 danno a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|上陸| ― 土地が１つあなたのコントロール下で戦場に出るたび、プレイヤー１人を対象とする。あなたは「コーシの荒廃者はそのプレイヤーに１点のダメージを与える。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지력 — 당신의 조종하에 대지가 전장에 들어올 때마다, 당신은 플레이어 한 명을 목표로 정한다. 당신은 코시의 유린자가 그 목표에게 피해 1점을 입히게 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете заставить Опустошающего Служителя Коси нанести 1 повреждение целевому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode fazer com que Devastador de Cosi cause 1 ponto de dano ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地落～每当一个地在你的操控下进战场时，你可以让寇希噬怪对目标牌手造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地落～每當一個地在你的操控下進戰場時，你可以讓寇希噬怪對目標玩家造成1點傷害。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) 
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_1_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 1, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 1, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_LANDFALL" body="MORE_INFO_BODY_LANDFALL" zone="ZONE_ANY" />
+  <SFX text="COMBAT_DEFILER_ATTACK" power_boundary_min="-1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_1_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to deal 1 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui infliger 1 blessure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerle 1 punto de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, dem 1 Schadenspunkt zugefügt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore a cui infliggere 1 danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[１点のダメージを与えるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 1점을 입을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которому нужно нанести 1 повреждение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para causar 1 ponto de dano a ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以对其造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來對其造成1點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

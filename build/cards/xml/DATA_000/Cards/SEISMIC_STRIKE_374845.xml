@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="395">
+  <FILENAME text="SEISMIC_STRIKE_374845" />
+  <CARDNAME text="SEISMIC_STRIKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seismic Strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frappe sismique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Golpe sísmico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seismischer Schlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Colpo Sismico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地（じ）鳴（な）りの一（いち）撃（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지진 공습]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сейсмический Взрыв]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpe Sísmico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地动袭击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地動襲擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374845" />
+  <ARTID value="121674" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Life up here is simple. Adapt to the ways of the mountains and they will reward you. Fight them and they will end you.”
+—Kezim, prodigal pyromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Là-haut, la vie est simple. Adopte la voie de la montagne et elle te récompensera. Combat-la et elle te détruira. »
+—Kezim, pyromancien sybarite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La vida aquí es simple. Adáptate a las montañas y te recompensarán. Lucha contra ellas y te aniquilarán”
+—Kezim, piromante pródigo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Leben hier oben ist einfach. Passe dich an die Berge an, und sie werden dich dafür belohnen. Bekämpfe sie, und du verlierst.“
+—Kezim, verschwenderischer Feuerkundler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La vita quassù è semplice. Adattati alle abitudini delle montagne e ti ricompenseranno. Combattile e ti finiranno.”
+—Kezim, piromante errante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ここでの生き方は単純明快さ。山の生き方に従えば、その報酬を受ける。逆らえば、一巻の終わりさ。」
+――放蕩紅蓮術士、キージム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이곳에서의 삶은 단순하다. 산을 이해하면 보상을 받지. 산과 싸우면 죽음을 맞이한다."
+—방탕한 화염술사 케짐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Жизнь здесь, на высоте, проста. Приспособься к обычаям гор, и они вознаградят тебя. Попробуй пойти против них, и они тебя прикончат».
+— Кезим, гениальный пиротехник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A vida aqui é simples. Adapte-se à vida nas montanhas e será recompensado por elas. Lute contra elas se quiser encontrar seu próprio fim.”
+—Kezim, piromante pródigo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这里的生存方法很简单。适应山中法则，它就会对你好。与法则过不去，它就会吃了你。」
+～放荡烈焰术士奇烬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這裡的生存方法很簡單。適應山中法則，它就會對你好。與法則過不去，它就會吃了你。」
+～放蕩烈焰術士奇燼]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Seismic Strike deals damage to target creature equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Frappe sismique inflige à la créature ciblée un nombre de blessures égal au nombre de montagnes que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Golpe sísmico hace daño a la criatura objetivo igual a la cantidad de montañas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Seismische Schlag fügt einer Kreatur deiner Wahl so viele Schadenspunkte zu, wie du Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Colpo Sismico infligge danno a una creatura bersaglio pari al numero di Montagne che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。地鳴りの一撃はそれに、あなたがコントロールする山の総数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 지진 공습은 그 생물에게 당신이 조종하는 산 수만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сейсмический Взрыв наносит целевому существу повреждения, равные количеству Гор под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpe Sísmico causa à criatura alvo uma quantidade de dano igual ao número de Montanhas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地动袭击对目标生物造成伤害，其数量等同于由你操控的山脉数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地動襲擊對目標生物造成傷害，其數量等同於由你操控的山脈之數量。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_MOUNTAINS_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_MOUNTAIN )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local damage = filter:Count()
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( damage, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( damage, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <DECKBUILDING_METADATA defensive="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_subtype="MOUNTAIN" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_MOUNTAINS_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to deal damage equal to the number of Mountains you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui infliger un nombre de blessures égal au nombre de montagnes que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para hacerle daño igual a la cantidad de montañas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die so viele Schadenspunkte zufügen soll, wie du Gebirge kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura a cui infliggere danno pari al numero di Montagne che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする山の総数に等しいダメージを与えるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 산의 개수만큼의 피해를 입을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которому нужно нанести повреждения, равные количеству Гор под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para causar dano igual ao número de Montanhas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以对其造等同于由你操控之山脉数量的伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來對其造成傷害，其數量等同於由你操控的山脈數量。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

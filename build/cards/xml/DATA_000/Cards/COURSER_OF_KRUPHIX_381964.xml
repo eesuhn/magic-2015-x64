@@ -1,0 +1,105 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="COURSER_OF_KRUPHIX_381964" />
+  <CARDNAME text="COURSER_OF_KRUPHIX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Courser of Kruphix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Coursière de Kruphix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cazadora de Krufix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rennerin des Kruphix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Corsiera di Krufix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クルフィックスの狩（しゅ）猟（りょう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[크루픽스의 군마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Резвая Бегунья Круфикса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Centaura-caçadora de Crufix]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[克罗芬斯的骏马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[克羅芬斯的駿馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381964" />
+  <ARTID value="152598" />
+  <ARTIST name="Eric Deschamps" />
+  <CASTING_COST cost="{1}{G}{G}" />
+  <TYPE metaname="Enchantment" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Play with the top card of your library revealed.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jouez avec la carte du dessus de votre bibliothèque révélée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Juega mostrando la primera carta de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die oberste Karte deiner Bibliothek ist offen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gioca con la prima carta del tuo grimorio rivelata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上のカードを公開したままプレイする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드를 공개한 채로 게임을 진행한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Играйте с открытой верхней картой вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jogue com o card do topo de seu grimório revelado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你以展示牌库顶牌的方式进行游戏。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你以展示牌庫頂牌的方式進行遊戲。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local characteristics = EffectController():GetCurrentCharacteristics()
+    characteristics:Bool_Set( PLAYER_CHARACTERISTIC_PLAY_WITH_TOP_CARD_OF_LIBRARY_REVEALED, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may play the top card of your library if it’s a land card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez jouer la carte du dessus de votre bibliothèque si c’est une carte de terrain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes jugar la primera carta de tu biblioteca si es una carta de tierra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst die oberste Karte deiner Bibliothek spielen, falls es eine Länderkarte ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi giocare la prima carta del tuo grimorio se è una carta terra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上のカードが土地カードであるなら、あなたはそれをプレイしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드가 대지 카드라면 당신은 그 카드를 플레이할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете разыграть верхнюю карту вашей библиотеки, если это карта земли.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode jogar o card do topo de seu grimório se ele for um card de terreno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果你的牌库顶牌是地牌，你可以使用之。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果你的牌庫頂牌是地牌，你可以使用之。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local topOfLibrary = EffectController():Library_GetTop()
+    if topOfLibrary ~= nil then
+    	local cardType = topOfLibrary:GetCardType()
+    	if cardType:Test( CARD_TYPE_LAND ) then
+    		local characteristics = EffectController():GetCurrentCharacteristics()
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_CAN_PLAY_TOP_CARD_OF_LIBRARY, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a land enters the battlefield under your control, you gain 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous gagnez 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una tierra entre al campo de batalla bajo tu control, ganas 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhältst du 1 Lebenspunkt dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, guadagni 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[土地が１つあなたのコントロール下で戦場に出るたび、あなたは１点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지가 당신의 조종 하에 전장에 들어올 때마다, 당신은 생명 1점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы получаете 1 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um terreno entra no campo de batalha sob o seu controle, você ganha 1 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个地在你的操控下进战场时，你获得1点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個地在你的操控下進戰場時，你獲得1點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(1 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="667">
+  <FILENAME text="MILITARY_INTELLIGENCE_380889" />
+  <CARDNAME text="MILITARY_INTELLIGENCE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Military Intelligence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renseignements militaires]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Inteligencia militar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Militärspionage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Strategia Militare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[軍（ぐん）事（じ）情（じょう）報（ほう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[군사 첩보]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Военная Разведка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Inteligência Militar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[军事情报]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[軍事情報]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380889" />
+  <ARTID value="155404" />
+  <ARTIST name="Craig J Spearing" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[To know the battlefield is to anticipate the enemy. To know the enemy is to anticipate victory.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Connaître le champ de bataille, c'est anticiper l'ennemi. Connaître l'ennemi, c'est anticiper la victoire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Conocer el campo de batalla es anticiparse al enemigo. Conocer al enemigo es anticipar la victoria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Schlachtfeld zu kennen bedeutet, die Schritte des Feindes vorauszusehen. Den Feind zu kennen bedeutet, den Sieg vorauszusehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se conosci il campo di battaglia, avrai in pugno il nemico. Se conosci il nemico, avrai in pugno la vittoria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場を知ることは、敵を予測することである。敵を知ることは、勝利を予測することである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장을 알면 적의 행동을 예측할 수 있다. 적을 알면 승리를 예측할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если ты знаешь поле боя, то можешь предугадать действия врага. Если ты знаешь врага, то можешь ожидать победы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conhecer o campo de batalha é antecipar o inimigo. Conhecer o inimigo é antecipar a vitória.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[了解战场就可料敌先机。了解敌人便能志在必得。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[了解戰場就可料敵先機。了解敵人便能志在必得。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you attack with two or more creatures, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous attaquez avec deux créatures ou plus, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que ataques con dos o más criaturas, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du mit zwei oder mehr Kreaturen angreifst, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta attacchi con due o più creature, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが２体以上のクリーチャーで攻撃するするたび、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 생물 두 개 이상으로 공격할 때마다, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы атакуете двумя или более существами, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você atacar com duas ou mais criaturas, compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你以两个或更多生物攻击时，抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你以兩個或更多生物攻擊時，抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKERS_DECLARED">
+    local filter = ClearFilter()
+    filter:Add(FE_IS_ATTACKING, true)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    local numAttackers = filter:CountStopAt(2)
+    return numAttackers == 2
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

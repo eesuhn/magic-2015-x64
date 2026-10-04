@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="CYLIAN_ELF_381879" />
+  <CARDNAME text="CYLIAN_ELF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cylian Elf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elfe cyliane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elfo cyliano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Cylianische Elfin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elfa Cylian]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[シーリアのエルフ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[실리아 엘프]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Силийский Эльф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elfo Cyliano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[塞利亚妖精]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[塞利亞妖精]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381879" />
+  <ARTID value="115163" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[From her sunsail tent high above the forest floor, an elf harkener can hear the footfalls of a single creature through the cacophony of Naya’s jungle sounds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Depuis sa tente solevoile tendue haut dans les branches de la forêt, elle peut distinguer les pas d'une créature dans la cacophonie de sons de la jungle de Naya.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desde su carpa lejos del piso del bosque, un elfo puede oír los pasos de una criatura entre la cacofonía de ruidos de la jungla de Naya.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf ihrem Sonnensegel weit über dem Waldboden kann eine Elfen-Lauscherin die Tritte jeder einzelnen Kreatur durch die Geräuschkulisse von Nayas Dschungeln heraushören.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dalla sua tenda assolata sopra alla foresta, un’elfa dei richiami può sentire i passi di una creatura tra i suoni cacofonici della giungla di Naya.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森の底から高いところにある陽を浴びるテントで、エルフの見張りはナヤのジャングルの不協和音の中から生き物一匹の足音を聞き分ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[실리아 엘프는 높이 솟은 텐트에 앉아서 나야의 정글이 만드는 소음 속에서 특정한 생물이 내는 발소리를 구분할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Из своей защищающей от солнца палатки высоко над землей прислушивающаяся эльфийка может различить звук шагов каждого отдельного существа в разноголосии джунглей Найи.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[De sua tenda ensolarada muito acima do chão da floresta, uma elfa auscultadora pode ouvir os passos até mesmo de uma única criatura no meio da cacofonia da selva de Naya.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[妖精在离地甚远的高处搭建帐篷，在纳雅的丛林声响之中，每个生物的足声杂音都躲不过妖精的耳朵。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[妖精在離地甚遠的高處搭建帳篷，在納雅的叢林聲響之中，每個生物的足聲雜音都躲不過妖精的耳朵。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Scout" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

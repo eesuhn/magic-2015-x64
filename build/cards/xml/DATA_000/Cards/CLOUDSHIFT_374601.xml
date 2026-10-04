@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="496">
+  <FILENAME text="CLOUDSHIFT_374601" />
+  <CARDNAME text="CLOUDSHIFT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cloudshift]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Changenuage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Nebuliformar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wolkenverschiebung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nubiscarto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[雲（くも）隠（がく）れ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[일시 증발]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сдвиг Облаков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desvio Nebular]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[云移]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[雲移]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374601" />
+  <ARTID value="141551" />
+  <ARTIST name="Howard Lyon" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Even storm clouds bow to worship Avacyn.”
+—Elder Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Même les nuages d'orage s'inclinent pour vénérer Avacyn. »
+—Doyenne Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Hasta las nubes de tormenta se inclinan en reverencia a Avacyn”.
+—Anciana Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sogar die Sturmwolken verneigen sich ehrfürchtig vor Avacyn.“
+—Rimhild die Weise]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Persino le nubi più minacciose s’inchinano al volere di Avacyn.”
+—Rimheit l’Anziana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「嵐雲までもが伏してアヴァシンを崇めておる。」――古老リムハイト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“먹구름마저 아바신을 경배하며 고개를 숙이는구나.”
+—장로 림하이트]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Даже грозовые облака склоняются пред Авациной».
+— старейшина Римхайт]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Até as nuvens de tempestade se curvam em veneração a Avacyn.”
+— Anciã Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「连暴风云都向艾维欣俯首敬拜。」
+～长老琳海]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「連暴風雲都向艾維欣俯首敬拜。」
+～長老琳海]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile target creature you control, then return that card to the battlefield under your control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez une créature ciblée que vous contrôlez, puis renvoyez cette carte sur le champ de bataille sous votre contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia la criatura objetivo que controlas, luego regresa esa carta al campo de batalla bajo tu control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke eine Kreatur deiner Wahl, die du kontrollierst, ins Exil und bringe diese Karte dann unter deiner Kontrolle ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia una creatura bersaglio che controlli, poi rimetti quella carta sul campo di battaglia sotto il tuo controllo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャー１体を対象とし、それを追放し、その後そのカードをあなたのコントロール下で戦場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물 한 개를 목표로 정한다. 그 생물을 추방한 후 당신의 조종하에 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните целевое существо под вашим контролем, затем верните ту карту на поле битвы под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile uma criatura alvo que você controla e depois devolva aquele card ao campo de batalha sob seu controle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[放逐目标由你操控的生物，然后将该牌在你的操控下移回战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[放逐目標由你操控的生物，然後將該牌在你的操控下移回戰場。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CARD_TO_EXILE_AND_RETURN" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:Exile()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	local target = targetDC:Get_CardPtr(0)
+    	if target ~= nil then
+    		target:PutOntoBattlefield( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" window_turn="my_turn" type="window" window_in_combat="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Bounce" amount="1" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_EXILE_AND_RETURN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exile and return.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature à exiler puis à renvoyer sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para exiliarla y regresarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Exil geschickt und wieder zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da esiliare e far tornare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するクリーチャーを１体と、戻すクリーチャー１体を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방한 다음 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно изгнать и вернуть.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para exilar e devolver.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以将之放逐并移回。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來放逐和返回。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

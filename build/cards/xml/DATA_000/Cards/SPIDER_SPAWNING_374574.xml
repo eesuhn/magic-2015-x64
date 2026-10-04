@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="963">
+  <FILENAME text="SPIDER_SPAWNING_374574" />
+  <CARDNAME text="SPIDER_SPAWNING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spider Spawning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frayère de l'araignée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Desove arácnido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Spinnenvermehrung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Proliferazione di Ragni]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蜘（く）蛛（も）の発（はっ）生（せい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거미 부화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рассадник Пауков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procriação de Aranha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蜘蛛孳生]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蜘蛛孳生]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374574" />
+  <ARTID value="138203" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="{4}{G}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 1/2 green Spider creature token with reach onto the battlefield for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature 1/2 verte Araignée avec la portée pour chaque carte de créature dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura Araña verde 1/2 con la habilidad de alcance por cada carta de criatura en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe für jede Kreaturenkarte in deinem Friedhof einen 1/2 grünen Spinne-Kreaturenspielstein mit Reichweite ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura Ragno 1/2 verde con raggiungere per ogni carta creatura nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カード１枚につき、到達を持つ緑の１/２の蜘蛛・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 생물 카드 한 장당 대공을 가진 1/2 녹색 거미 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку существа 1/2 зеленый Паук с Захватом за каждую карту существа на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura verde 1/2 do tipo Aranha com alcance para cada card de criatura no seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你的坟墓场每有一张生物牌，便将一个1/2绿色，具延势异能的蜘蛛衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你的墳墓場每有一張生物牌，便將一個1/2綠色，具延勢異能的蜘蛛衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:SetZone(ZONE_GRAVEYARD, EffectController())
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    MTG():PutTokensOntoBattlefield( "TOKEN_SPIDER_1_2_G_R_377553", filter:Count(), EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <UTILITY_ABILITY qualifier="Flashback" active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Retrospectiva {6}{B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Rückblende {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Flashback {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フラッシュバック{6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[회상 {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воспоминание {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Recapitular {6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[返照{6}{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[返照{6}{B}]]></LOCALISED_TEXT>
+    <COST mana_cost="{6}{B}" type="Mana" />
+    <EXPLAIN play_tag="HINT_ABILITY_RECURSION_WHY_PLAY" />
+  </UTILITY_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{6}{B}" base_score="800">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="40" resource_name="Graveyard" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SPIDER_1_2_G_R_377553" />
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_FLASHBACK" body="MORE_INFO_BODY_FLASHBACK" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="300" zone="ZONE_GRAVEYARD" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="577">
+  <FILENAME text="GOBLIN_RABBLEMASTER_382227" />
+  <CARDNAME text="GOBLIN_RABBLEMASTER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblin Rabblemaster]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maître plébéien gobelin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Agitador trasgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblin-Pöbeltreiber]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Goblin Trascinatore di Folle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの熟（じゅく）練（れん）扇（せん）動（どう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 무리대장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблин-Смутьян]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Goblin Líder da Plebe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[鬼怪暴民头目]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鬼怪暴民頭目]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382227" />
+  <ARTID value="155201" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{2}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Goblin creatures you control attack each turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Gobelin que vous contrôlez attaquent à chaque tour si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Trasgo que controlas atacan cada turno si pueden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Goblin-Kreaturen, die du kontrollierst, greifen in jedem Zug an, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Goblin che controlli attaccano ogni turno, se possono farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のゴブリン・クリーチャーは、毎ターン可能なら攻撃に参加する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 다른 고블린 생물들은 가능하면 매 턴마다 공격한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Гоблины под вашим контролем атакуют в каждом ходу, если могут.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Goblin que você controla atacam a cada turno se estiverem aptas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的其他鬼怪生物每回合若能攻击，则必须攻击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的其他鬼怪生物每回合若能攻擊，則必須攻擊。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_GOBLIN )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_MUST_ATTACK_EACH_TURN, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of combat on your turn, put a 1/1 red Goblin creature token with haste onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début du combat pendant votre tour, mettez sur le champ de bataille un jeton de créature 1/1 rouge Gobelin avec la célérité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del combate en tu turno, pon en el campo de batalla una ficha de criatura Trasgo roja 1/1 con la habilidad de prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn des Kampfes in deinem Zug einen 1/1 roten Goblin-Kreaturenspielstein mit Eile ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del combattimento nel tuo turno, metti sul campo di battaglia una pedina creatura Goblin 1/1 rossa con rapidità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのターンの戦闘の開始時に、速攻を持つ赤の１/１のゴブリン・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 턴 전투시작단에, 신속을 가진 1/1 적색 고블린 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале боя в вашем ходу положите на поле битвы одну фишку существа 1/1 красный Гоблин с Ускорением.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início do combate no seu turno, coloque no campo de batalha uma ficha de criatura vermelha 1/1 do tipo Goblin com ímpeto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你回合的战斗开始时，将一个1/1红色，具敏捷异能的鬼怪衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你回合的戰鬥開始時，將一個1/1紅色，具敏捷異能的鬼怪衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_BEGIN_COMBAT
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_GOBLIN_1_1_R_H", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Goblin Rabblemaster attacks, it gets +1/+0 until end of turn for each other attacking Goblin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Maître plébéien gobelin attaque, il gagne +1/+0 jusqu’à la fin du tour pour chaque autre gobelin attaquant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Agitador trasgo ataque, obtiene +1/+0 hasta el final del turno por cada uno de los otros Trasgos atacantes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Goblin-Pöbeltreiber angreift, erhält er bis zum Ende des Zuges +1/+0 für jeden anderen angreifenden Goblin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Goblin Trascinatore di Folle attacca, prende +1/+0 fino alla fine del turno per ogni altro Goblin che attacca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの熟練扇動者が攻撃するたび、それはターン終了時まで、他の攻撃しているゴブリン１体につき＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 무리대장이 공격할 때마다, 고블린 무리대장은 턴종료까지 공격하는 다른 고블린 한 개당 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Гоблин-Смутьян атакует, он получает +1/+0 до конца хода за каждого другого атакующего Гоблина.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Goblin Líder da Plebe ataca, ele recebe +1/+0 até o final do turno para cada outro Goblin atacante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当鬼怪暴民头目攻击时，每有一个进行攻击的其他鬼怪，它便得+1/+0直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當鬼怪暴民頭目攻擊時，每有一個進行攻擊的其他鬼怪，它便得+1/+0直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_BATTLEFIELD )
+    filter:Add( FE_IS_ATTACKING, true )
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource())
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_GOBLIN )
+    local numAttacking = filter:Count()
+    EffectDC():Set_Int(0, numAttacking)
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local attackingDC = EffectDC():Get_Int(0)
+    	if attackingDC ~= nil then
+    		local total = attackingDC
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Power_Add( total )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_subtype="GOBLIN" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="900" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GOBLIN_1_1_R_H" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

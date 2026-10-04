@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="586">
+  <FILENAME text="HERO_OF_IROAS_381967" />
+  <CARDNAME text="HERO_OF_IROAS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hero of Iroas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Héros d'Iroas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Héroe de Iroas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Held des Iroas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Eroe di Iroas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イロアスの英（えい）雄（ゆう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이로아스의 영웅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Герой Ироя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Herói de Iroas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[伊洛安斯的英雄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[伊洛安斯的英雄]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381967" />
+  <ARTID value="152087" />
+  <ARTIST name="Willian Murai" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“My left has felled a cyclops. My right has slain a giant. I bring both to every fight.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ma gauche a mis un cyclope à terre. Ma droite a massacré un géant. J'apporte les deux à chaque combat. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mi puño izquierdo ha derribado a un cíclope. El derecho ha aniquilado a un gigante. Llevo los dos conmigo a todas las peleas”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Meine Linke hat einen Zyklopen niedergestreckt. Meine Rechte hat einen Riesen zu Fall gebracht. Bei einem Kampf habe ich immer beide dabei.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La mia mano sinistra ha abbattuto un ciclope. La destra ha ucciso un gigante. Le porto entrambe con me in ogni battaglia.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我が左腕はサイクロプスを、右腕は巨人を倒してきた。戦いには常にこの双腕をもって臨む。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“내 왼손은 키클롭스를 쓰러트렸고 내 오른손은 거인을 죽였지. 나와 싸우려면 양손을 다 상대해야 할 것이야.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Левым я свалил циклопа. Правым — убил гиганта. Я беру оба в каждый бой».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Minha esquerda derrubou um ciclope. Minha direita abateu um gigante. Eu trago ambas para cada luta.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我左砍独眼巨人，右斩巨人，每一战均全力以赴。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我左砍獨眼巨人，右斬巨人，每一戰均全力以赴。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Aura spells you cast cost {1} less to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sorts d’aura que vous lancez coûtent {1} de moins à lancer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Te cuesta {1} menos lanzar los hechizos de aura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aura-Zaubersprüche, die du wirkst, kosten beim Wirken {1} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le magie Aura che lanci costano {1} in meno per essere lanciate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが唱えるオーラ呪文を唱えるためのコストは{1}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 발동하는 마법진 주문들은 발동하는 데 {1}가 덜 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыгрываемые вами заклинания Аур стоят на {1} меньше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As mágicas de Aura que você conjura custam {1} a menos para serem conjuradas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你施放的灵气咒语减少{1}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你施放的靈氣咒語減少{1}來施放。]]></LOCALISED_TEXT>
+    <TRIGGER value="CONSIDERED_FOR_CAST" simple_qualifier="controller" pre_trigger="1">
+    return (TriggerObject():GetSubType():Test( ENCHANTMENT_TYPE_AURA ))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():DecreaseCost( 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Heroic| — Whenever you cast a spell that targets Hero of Iroas, put a +1/+1 counter on Hero of Iroas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Héroïque| — À chaque fois que vous lancez un sort qui cible le Héros d’Iroas, mettez un marqueur +1/+1 sur le Héros d’Iroas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Heroísmo| — Siempre que lances un hechizo que haga objetivo al Héroe de Iroas, pon un contador +1/+1 sobre el Héroe de Iroas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Heroisch| — Immer wenn du einen Zauberspruch wirkst, der den Helden des Iroas als Ziel hat, lege eine +1/+1-Marke auf den Helden des Iroas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Eroismo| — Ogniqualvolta lanci una magia che bersaglia l’Eroe di Iroas, metti un segnalino +1/+1 sull’Eroe di Iroas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|英雄的| ― あなたがイロアスの英雄を対象とする呪文を１つ唱えるたび、イロアスの英雄の上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅 — 당신이 이로아스의 영웅을 목표로 주문을 발동할 때마다, 이로아스의 영웅에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Героизм| — Каждый раз, когда вы разыгрываете заклинание, целью которого является Герой Ироя, положите один жетон +1/+1 на Героя Ироя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Heroico| — Toda vez que você conjurar uma mágica cujo alvo seja Herói de Iroas, coloque um marcador +1/+1 em Herói de Iroas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇行～每当你施放一个以伊洛安斯的英雄为目标的咒语时，在伊洛安斯的英雄上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇行～每當你施放一個以伊洛安斯的英雄為目標的咒語時，在伊洛安斯的英雄上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return TriggerObject():IsTargeting(EffectSource())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="6" max_amount="15" score_per_unit="50" resource_type="ENCHANTMENT" resource_subtype="AURA" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="8" max_amount="15" score_per_unit="50" resource_subtype="AURA" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_TITLE_HEROIC" body="MORE_INFO_BODY_HEROIC" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

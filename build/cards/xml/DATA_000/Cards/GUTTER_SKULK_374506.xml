@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="GUTTER_SKULK_374506" />
+  <CARDNAME text="GUTTER_SKULK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gutter Skulk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Indolent des égouts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Furtivo de la alcantarilla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gossenschleicher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Furtivo delle Fogne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[排（はい）水（すい）路（ろ）潜（ひそ）み]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[배수로살이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обитатель Сточных Канав]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ratazana Elusiva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[水沟老鼠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[水溝老鼠]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374506" />
+  <ARTID value="146236" />
+  <ARTIST name="Mark Winters" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Upon finding his warehouse infested, Gaven didn’t know whether to get an exterminator or an exorcist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En découvrant la colonie infestant ses entrepôts, Gaven hésita entre faire appel à un dératiseur ou à un exorciste.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al encontrar su taller infestado, Gaven no supo si acudir a un exterminador o a un exorcista.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als Gaven sein Warenhaus verseucht vorfand, wusste er nicht, ob er einen Schädlingsbekämpfer oder einen Exorzisten holen sollte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dopo aver trovato il proprio magazzino infestato, Gaven era indeciso se rivolgersi a un disinfestatore o a un esorcista.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[倉庫が奴らの住処になってしまったのを目の当たりにしたゲイヴンは、駆除屋を呼ぶべきか祓魔師を呼ぶべきか決めかねた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[게이븐은 창고에서 좀비 쥐를 박멸하기 위해 쥐잡이를 불러야 할지 퇴마사를 불러야 할지 고민했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обнаружив незваных гостей на своем складе, Гэвен растерялся. Кого же звать на помощь — крысолова или экзорциста?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ao encontrar seu armazém infestado, Gaven não sabia se chamava um exterminador ou um exorcista.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当盖温发现其仓库遭侵扰时，他不知道该找灭鼠者还是驱魔人。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當蓋溫發現其倉庫遭侵擾時，他不知道該找滅鼠者還是驅魔人。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Rat" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

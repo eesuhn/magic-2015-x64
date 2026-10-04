@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="127">
+  <FILENAME text="PROTEAN_HYDRA_374340" />
+  <CARDNAME text="PROTEAN_HYDRA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Protean Hydra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hydre protéenne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hidra proteica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Veränderliche Hydra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Idra Proteiforme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[変（へん）幻（げん）のハイドラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변화무쌍한 히드라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Многоликая Гидра]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidra Proteica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[变化多头龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[變化多頭龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374340" />
+  <ARTID value="122168" />
+  <ARTIST name="Jim Murray" />
+  <CASTING_COST cost="{X}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Hydra" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Protean Hydra enters the battlefield with X +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Hydre protéenne arrive sur le champ de bataille avec X marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Hidra proteica entra al campo de batalla con X contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Veränderliche Hydra kommt mit X +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Idra Proteiforme entra nel campo di battaglia con X segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[変幻のハイドラは]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변화무쌍한 히드라는 +1/+1 카운터 X개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Многоликая Гидра выходит на поле битвы с Х жетонами +1/+1 на ней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Hidra Proteica entra no campo de batalha com X marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[变化多头龙进战场时上面有X个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[變化多頭龍進戰場時上面有X個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), EffectSource():GetPaidX())
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If damage would be dealt to Protean Hydra, prevent that damage and remove that many +1/+1 counters from it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si des blessures devaient être infligées à l’Hydre protéenne, prévenez ces blessures et retirez-lui autant de marqueurs +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si se le fuera a hacer daño a la Hidra proteica, prevén ese daño y remueve esa cantidad de contadores +1/+1 de ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls der Veränderlichen Hydra Schaden zugefügt würde, verhindere diesen Schaden und entferne entsprechend viele +1/+1-Marken von ihr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se sta per essere inflitto danno all’Idra Proteiforme, previeni quel danno e rimuovi da essa altrettanti segnalini +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋１/＋１カウンターがＸ個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변화무쌍한 히드라가 피해를 입으려고 하면 그 피해를 방지한다. 그리고 그 피해만큼의 +1/+1 카운터를 제거한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если Многоликой Гидре должны быть нанесены повреждения, предотвратите те повреждения и удалите с нее такое же количество жетонов +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se algum dano seria causado a Hidra Proteica, previna aquele dano e remova dela uma quantidade equivalente de marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果变化多头龙将受到伤害，则防止该伤害且从其上移去等量的+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果變化多頭龍將受到傷害，則防止該傷害且從其上移去等量的+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="OBJECT_TAKES_DAMAGE" simple_qualifier="self" pre_trigger="1" damage_type="all" />
+    <RESOLUTION_TIME_ACTION>
+    local damage = Damage()
+    local effectSource = EffectSource()
+    if (damage ~= nil) and (effectSource ~= nil) then
+    	local damageToDeal = damage:GetAmount()
+    	if damageToDeal &gt; effectSource:CountCounters(MTG():PlusOnePlusOneCounters()) then
+    		damage:PreventAll()
+    		effectSource:RemoveCounters(MTG():PlusOnePlusOneCounters(), effectSource:CountCounters(MTG():PlusOnePlusOneCounters()) )
+    	else
+    		damage:PreventAll()
+    		effectSource:RemoveCounters(MTG():PlusOnePlusOneCounters(), damageToDeal )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un marqueur +1/+1 est retiré à l’Hydre protéenne, mettez deux marqueurs +1/+1 sur elle au début de la prochaine étape de fin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que se remueva un contador +1/+1 de la Hidra proteica, pon dos contadores +1/+1 sobre ella al comienzo del próximo paso final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine +1/+1-Marke von der Veränderlichen Hydra entfernt wird, lege zu Beginn des nächsten Endsegments zwei +1/+1-Marken auf sie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta viene rimosso un segnalino +1/+1 dall’Idra Proteiforme, metti su di essa due segnalini +1/+1 all’inizio della prossima sottofase finale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[変幻のハイドラにダメージが与えられるなら、そのダメージを軽減し、その点数に等しい個数の＋１/＋１カウンターをこれの上から取り除く。変幻のハイドラから＋１/＋１カウンターが１個取り除かれるたび、次の終了ステップの開始時に、それの上に＋１/＋１カウンターを２個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변화무쌍한 히드라에게서 +1/+1 카운터를 제거할 때마다, 다음 종료단 시작에 변화무쌍한 히드라에 +1/+1 카운터 두 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда с Многоликой Гидры удаляется жетон +1/+1, положите на нее два жетона +1/+1 в начале следующего заключительного шага.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um marcador +1/+1 for removido de Hidra Proteica, coloque dois marcadores +1/+1 nela no início da próxima etapa final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当从变化多头龙上移去一个+1/+1指示物，在下一个结束步骤开始时便在其上放置两个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當從變化多頭龍上移去一個+1/+1指示物，在下一個結束步驟開始時便在其上放置兩個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="COUNTERS_CHANGED" simple_qualifier="self">
+    if GetAmount() &lt;0 and CounterTypeIndex() == MTG():PlusOnePlusOneCounters() then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local triggerObject = TriggerObject()
+    if triggerObject ~= nil then
+    	local delayDC = EffectDC():Make_Chest(1)
+    	delayDC:Set_Int(0, GetAmount() )
+    	MTG():CreateDelayedTrigger(2, delayDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="2">
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local number = EffectDC():Get_Int(0)*-1
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), number*2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_KHALNI_HYDRA_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

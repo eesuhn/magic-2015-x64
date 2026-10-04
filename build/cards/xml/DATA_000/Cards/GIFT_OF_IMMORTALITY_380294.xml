@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="132">
+  <FILENAME text="GIFT_OF_IMMORTALITY_380294" />
+  <CARDNAME text="GIFT_OF_IMMORTALITY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gift of Immortality]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Don d'immortalité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Don de inmortalidad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gabe der Unsterblichkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dono dell’Immortalità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不（ふ）死（し）の贈（おく）り物（もの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불멸의 축복]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дар Бессмертия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dádiva da Imortalidade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[永生赠礼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[永生贈禮]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380294" />
+  <ARTID value="149206" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{2}{W}" />
+  <TYPE metaname="Enchantment" />
+  <SUB_TYPE metaname="Aura" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY attach_definition="0">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enchant creature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Enchanter : créature]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Encantar criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verzaubert eine Kreatur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Incanta creatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャント（クリーチャー）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물에게 부여]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зачаровать существо]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Encantar criatura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[结附于生物]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[結附於生物]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if (target ~= nil and EffectSource() ~= nil) then
+    	EffectSource():Attach( target )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When enchanted creature dies, return that card to the battlefield under its owner’s control. Return Gift of Immortality to the battlefield attached to that creature at the beginning of the next end step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la créature enchantée meurt, renvoyez cette carte sur le champ de bataille sous le contrôle de son propriétaire. Renvoyez le Don d’immortalité sur le champ de bataille, attaché à cette créature, au début de la prochaine étape de fin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la criatura encantada muera, regresa esa carta al campo de batalla bajo el control de su propietario. Regresa el Don de inmortalidad al campo de batalla anexado a esa criatura al comienzo del próximo paso final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die verzauberte Kreatur stirbt, bringe ihre Karte unter der Kontrolle ihres Besitzers ins Spiel zurück. Bringe zu Beginn des nächsten Endsegments die Gabe der Unsterblichkeit an diese Kreatur angelegt ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la creatura incantata muore, rimetti quella carta sul campo di battaglia sotto il controllo del suo proprietario. Rimetti sul campo di battaglia il Dono dell’Immortalità assegnato a quella creatura all’inizio della prossima sottofase finale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントされているクリーチャーが死亡したとき、そのカードをオーナーのコントロール下で戦場に戻す。次の終了ステップの開始時に、不死の贈り物をそのクリーチャーにつけられた状態で戦場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여된 생물이 죽을 때, 그 카드를 소유자의 조종하에 전장으로 되돌린다. 다음 종료단 시작에, 불멸의 축복을 그 생물에 부착한 채로 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда зачарованное существо умирает, верните ту карту на поле битвы под контролем ее владельца. В начале следующего заключительного шага верните Дар Бессмертия на поле битвы прикрепленным к тому существу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando a criatura encantada morrer, devolva aquele card ao campo de batalha sob o controle de seu dono. Devolva Dádiva da Imortalidade ao campo de batalha anexada àquela criatura no início da próxima etapa final.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当所结附的生物死去时，将该牌在其拥有者的操控下移回战场。在下一个结束步骤开始时，将永生赠礼移回战场并结附于该生物上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當所結附的生物死去時，將該牌在其擁有者的操控下移回戰場。在下一個結束步驟開始時，將永生贈禮移回戰場並結附於該生物上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD">
+    return TriggerObject() == EffectSourceLKI():GetParent() 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	EffectDC():Protect_CardPtr(COMPARTMENT_ID_PARAM_TRIGGER_OBJECT)
+    	TriggerObject():PutOntoBattlefield( TriggerObject():GetOwner() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(1)
+    delayDC:Set_CardPtr(0, TriggerObject())
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <TRIGGER value="BEGINNING_OF_STEP">
+    return MTG():GetStep() == STEP_END_OF_TURN
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    local creatureToEnchant = EffectDC():Get_CardPtr(0)
+    if  effectSource ~= nil and creatureToEnchant ~= nil then
+    	effectSource:PutOntoBattlefieldAttachedTo( EffectController(), creatureToEnchant )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP fire_once="1" simple_cleanup="EndOfTurn" />
+  </TRIGGERED_ABILITY>
+  <AI_CUSTOM_SCORE zone="ZONE_BATTLEFIELD">
+  local parent = EffectSource():GetParent()
+  if parent:IsToken() == false then
+  	if parent:GetController() == EffectSource():GetController() then
+  		parent:AddScore(900)
+  	else
+  		parent:AddScore(-900)
+  	end
+  end
+  </AI_CUSTOM_SCORE>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OFFENSIVE_AURA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

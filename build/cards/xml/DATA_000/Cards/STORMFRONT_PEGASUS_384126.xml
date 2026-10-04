@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="STORMFRONT_PEGASUS_384126" />
+  <CARDNAME text="STORMFRONT_PEGASUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stormfront Pegasus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pégase du front de l'orage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pegaso Frente de Tormenta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sturmfront-Pegasus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pegaso del Fronte della Tempesta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵐（あらし）前（ぜん）線（せん）のペガサス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스톰프론트 페가수스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Штормовой Пегас]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pégaso da Tempestade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[暴锋飞马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[暴鋒飛馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="384126" />
+  <ARTID value="121624" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“At summer’s end, the pegasus herd stampedes across the sky. Their silent footfalls taunt the clouds and bid the rains to come.”
+—Stormfront fable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand l'été touche à sa fin, le troupeau de pégases traverse le ciel au galop. Leurs sabots silencieux frôlent les nuages et appellent la pluie. »
+—Fable du front de l'orage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Al final del verano, la manada de pegasos corre en estampida por el cielo. Sus silenciosas pisadas se burlan de las nubes y hacen llegar la lluvia”.
+—Fábula del Frente de Tormenta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn der Sommer vergeht, galoppieren die Pegasi über den Himmel. Ihre stillen Hufschläge verhöhnen die Wolken und locken den Regen heran.“
+—Fabel über die Sturmfront]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Alla fine dell’estate, la mandria di pegasi fugge precipitosamente nel cielo. I loro passi silenziosi provocano le nuvole e invitano le piogge a scrosciare.”
+—Leggenda del Fronte della Tempesta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「夏の終わり、ペガサスの群れが空を駆けていきます。その静かなる足音は雲を煽り雨を命じるのです。」――嵐前線の寓話]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["여름의 끝자락에 페가수스 무리는 하늘을 가로질러 이동했다. 그 발굽이 조용히 구름을 조롱하자 비가 내렸다."
+—스톰프론트 우화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В конце лета по небу проносится табун пегасов. Их копыта беззвучно задевают облака, вызывая дожди».
+— предание о шторме]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“No fim do verão, a manada de pégasos galopa em sobressalto pelos céus. Os golpes silenciosos das suas patas desmancham as nuvens e invocam as chuvas.”
+— Fábula de Tempestade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「飞马群在夏末奔掠长空。脚步无声地扰动云朵，雨水因此降下。」
+～暴锋寓言]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「飛馬群在夏末奔掠長空。腳步無聲地擾動雲朵，雨水因此降下。」
+～暴鋒寓言]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Pegasus" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="125">
+  <FILENAME text="MARCH_OF_THE_RETURNED_374756" />
+  <CARDNAME text="MARCH_OF_THE_RETURNED" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[March of the Returned]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marche des Reparus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Marcha de los Resurgidos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufmarsch der Wiedergekehrten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Marcia dei Risvegliati]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇（よみがえ）りし者（もの）の行（こう）進（しん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[되살아난 자들의 행진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Марш Возвращенных]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Marcha dos Ressurgidos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[转世行伍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[轉世行伍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374756" />
+  <ARTID value="150791" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Returned have no memory of the Underworld or of their former lives. The golden masks they wear are the last gifts of the selves they left behind.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Reparus n'ont aucun souvenir du Monde souterrain ou de leur vie antérieure. Le masque d'or qu'ils arborent est l'ultime relique de ce qu'ils ont été autrefois.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los Resurgidos no recuerdan el Inframundo ni su vida anterior. Las máscaras doradas que portan son el último regalo de las personas que dejaron de ser.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Wiedergekehrten haben keine Erinnerung an die Unterwelt oder ihr früheres Leben. Ihre goldenen Masken sind das letzte Geschenk ihres früheren Selbst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Risvegliati non hanno memoria dell’Ade o delle loro vite precedenti. Le maschere d’oro che indossano sono le ultime vestigia delle identità che si sono lasciati alle spalle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇りし者は、死の国での記憶も、以前の人生の記憶も持たない。彼らが被る黄金の仮面は、残してきたかつての自分からの最後の贈り物なのである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[되살아난 자들은 저승도 이승도 기억하지 못한다. 그들이 쓰고 있는 황금 가면은 버려진 자아의 마지막 파편이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возвращенные не помнят ни о Подземном Царстве, ни о прошлой жизни. Их золотые маски — последний дар от личности, которой больше нет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os Ressurgidos não têm lembranças, nem do Submundo, nem de suas vidas anteriores. As máscaras douradas que usam são os últimos presentes das identidades deixadas para trás.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[转世者既不记得冥界的经历，也不记得前世的一切。他们脸上戴着的金色面具，是他们早已抛下的自我留给他们的最后一件赠礼。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[轉世者既不記得冥界的經歷，也不記得前世的一切。他們臉上戴著的金色面具，是他們早已拋下的自我留給他們的最後一件贈禮。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return up to two target creature cards from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez jusqu’à deux cartes de créature ciblées depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa hasta dos cartas de criatura objetivo de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe bis zu zwei Kreaturenkarten deiner Wahl aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Riprendi in mano fino a due carte creatura bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カードを最大２枚まで対象とし、それらをあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 생물 카드를 최대 두 장까지 목표로 정한다. 그 카드들을 당신의 무덤에서 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните не более двух целевых карт существ из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva até dois cards de criatura alvo de seu cemitério para sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将至多两张目标生物牌从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將至多兩張目標生物牌從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND" definition="0" compartment="0" count="2" up_to="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    for i = 0,(2-1) do
+    	local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target_card ~= nil  then
+    		target_card:PutInHand()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_OWNERS_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to return to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la renvoyer dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para regresarla a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers zurückgebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da far tornare in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно вернуть в руку владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para devolver para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，将它移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，將它移回其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RECURSION_WHY_PLAY" removal_tag="HINT_SPELL_RECURSION_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

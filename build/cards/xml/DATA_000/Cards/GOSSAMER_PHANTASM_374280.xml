@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="GOSSAMER_PHANTASM_374280" />
+  <CARDNAME text="GOSSAMER_PHANTASM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gossamer Phantasm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Phantasme arachnéen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fantasma vaporoso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verschleiertes Traumwesen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fantasma Impalpabile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[霊（れい）糸（し）の幻（まぼろし）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[덧없는 허깨비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призрак Госсамера]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fantasma Fibriloso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[薄纱幻象]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[薄紗幻象]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374280" />
+  <ARTID value="100657" />
+  <ARTIST name="Jon Foster" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Belief matters more than truth. Every moment, belief in imaginary things alters lives while truth sits unnoticed and waits.”
+—Hakim, Loreweaver]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La foi importe plus que la vérité. À chaque instant, croire en l'imaginaire change des vies tandis que la vérité attend sans être même remarquée. »
+—Hakim, tisseur de légendes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La creencia importa más que la verdad. A cada momento, la creencia en cosas imaginarias altera las vidas mientras la verdad espera sentada sin que le presten atención”.
+—Hakim, tejedor de cuentos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Glaube ist wichtiger als Wahrheit. Ständig verändert der Glaube an Fiktives das Leben, während die Wahrheit unbeachtet im Verborgenen wartet.“
+—Hakim der Erzähler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Credere conta più della verità. Ad ogni istante, credere in cose immaginarie modifica l’esistenza mentre la verità siede inosservata e attende.”
+—Hakim, Tessitore di Incanti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「信念は真実よりも重要だ。幻想に対する信念で人生は変わり続け、真実は知られぬまま待ち続けるのだ。」
+――伝承の紡ぎ手ハキーム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["진실보다 중요한 것은 믿음이다. 진실이 가만히 앉아 기다릴 때, 언제나 상상의 존재에 대한 믿음이 살아 숨 쉰다."
+—이야기꾼 하킴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вера значит больше, чем истина. Каждый миг вера в воображаемое меняет жизни, пока истина безразлично сидит и ждет».
+— Хаким, сказитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A crença vale mais que a verdade. A cada momento, a crença em coisas imaginárias altera vidas, enquanto a verdade aguarda sentada, despercebida.”
+— Hakim, Tecelão de Sabedoria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「信念比真实更重要。不论何时，对幻想事物的信念都能使生命升华，而真实只能坐一旁枯等。」
+～说书人哈金]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「信念比真實更重要。不論何時，對幻想事物的信念都能使生命昇華，而真實只能坐一旁枯等。」
+～說書人哈金]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Illusion" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Gossamer Phantasm becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Phantasme arachnéen devient la cible d’un sort ou d’une capacité, sacrifiez-le.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Fantasma vaporoso sea objetivo de un hechizo o habilidad, sacrifícalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Verschleiertes Traumwesen das Ziel eines Zauberspruchs oder einer Fähigkeit wird, opfere es.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Fantasma Impalpabile diventa bersaglio di una magia o di un’abilità, sacrificalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[霊糸の幻が呪文や能力の対象となったとき、これを生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[덧없는 허깨비가 주문이나 능력의 목표가 될 때, 덧없는 허깨비를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Призрак Госсамера становится целью заклинания или способности, пожертвуйте его.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Fantasma Fibriloso se tornar o alvo de uma mágica ou habilidade, sacrifique-o.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当薄纱幻象成为咒语或异能的目标时，将它牺牲。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當薄紗幻象成為咒語或異能的目標時，將它犧牲。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TARGET_OF_SPELL" simple_qualifier="self" />
+    <TRIGGER value="BECAME_TARGET_OF_ABILITY" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectController():Sacrifice( EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="GHOST_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

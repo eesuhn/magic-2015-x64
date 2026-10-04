@@ -1,0 +1,142 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1142">
+  <FILENAME text="STORMBREATH_DRAGON_378226" />
+  <CARDNAME text="STORMBREATH_DRAGON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stormbreath Dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dragon au souffle de tempête]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Dragón aliento de tormenta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sturmhauchdrache]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Drago Soffio di Tempesta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵐（あらし）の息（い）吹（ぶき）のドラゴン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[폭풍숨결 용]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Громодышащий Дракон]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Dragão Sopro de Tempestade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[岚息巨龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[嵐息巨龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378226" />
+  <ARTID value="150820" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Dragon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[prisa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[ímpeto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HASTE" />
+  </STATIC_ABILITY>
+  <STATIC_ABILITY commaspace="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[protection from white]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[protection contre le blanc]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[protección contra blanco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schutz vor Weiß]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[protezione dal bianco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プロテクション（白）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[백색으로부터 보호]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защита от белого]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[proteção contra o branco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反白保护]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反白色保護]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="0">
+    if EffectSource() ~= nil then
+    	local filter = ClearFilter()
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_WHITE )
+    	EffectSource():Protection()
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{5}{R}{R}: Monstrosity 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{5}{R}{R} : Monstruosité 3]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{5}{R}{R}: Monstruosidad 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{5}{R}{R}: Monstrum 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{5}{R}{R}: Mostruosità 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{5}{R}{R}：怪物化３を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{5}{R}{R}: 괴수화 3 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{5}{R}{R}: Чудовищность 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{5}{R}{R}: Monstruosidade 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{5}{R}{R}：蛮化3。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{5}{R}{R}：蠻化3。]]></LOCALISED_TEXT>
+    <SFX text="MONSTROUS_LUA_PLAY" />
+    <COST mana_cost="{5}{R}{R}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if effectSource ~= nil then
+    	if effectSource:IsMonstrous() == false then
+    		effectSource:AddCounters( MTG():PlusOnePlusOneCounters(), 3)
+    		effectSource:BecomeMonstrous(3)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AVAILABILITY>
+    return Object():IsMonstrous() == false 
+    </AVAILABILITY>
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Stormbreath Dragon becomes monstrous, it deals damage to each opponent equal to the number of cards in that player’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Dragon au souffle de tempête devient monstrueux, il inflige à chaque adversaire un nombre de blessures égal au nombre de cartes dans la main de ce joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Dragón aliento de tormenta se convierta en monstruoso, hace daño a cada oponente igual a la cantidad de cartas en la mano de ese jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Sturmhauchdrache monströs wird, fügt er jedem Gegner so viele Schadenspunkte zu, wie dieser Karten auf seiner Hand hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Drago Soffio di Tempesta diventa mostruoso, infligge danno a ogni avversario pari al numero di carte in mano a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[嵐の息吹のドラゴンが怪物的になったとき、これは各対戦相手にそれぞれそのプレイヤーの手札にあるカードの総数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[폭풍숨결 용이 괴수화할 때, 폭풍숨결 용은 각 상대에게 그 상대가 손에 든 카드 수만큼의 피해를 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Громодышащий Дракон становится чудовищным, он наносит каждому оппоненту повреждения, равные количеству карт в руке того игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Dragão Sopro de Tempestade se torna monstruoso, ele causa a cada oponente uma quantidade de dano igual ao número de cards na mão daquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当岚息巨龙蛮化时，它向每位对手各造成伤害，其数量等同于该牌手的手牌数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當嵐息巨龍蠻化時，它向每位對手各造成傷害，其數量等同於該玩家手牌的數量。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_MONSTROUS" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    local number = MTG():GetNumberOfPlayers()
+    if number ~= nil then
+    	for i=0,(number-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil then
+    			if (player:GetTeam() ~= EffectController():GetTeam()) then
+    				EffectSourceLKI():DealDamageTo( player:Hand_Count (), player )
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_PROTECTION_WHITE_TITLE" body="MORE_INFO_PROTECTION_WHITE_BODY" zone="ZONE_BATTLEFIELD" zone_reverse="1" />
+  <HELP title="MORE_INFO_TITLE_MONSTROSITY" body="MORE_INFO_BODY_MONSTROSITY" zone="ZONE_ANY" />
+  <SFX text="COMBAT_LIGHTNING_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_LIGHTNING_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

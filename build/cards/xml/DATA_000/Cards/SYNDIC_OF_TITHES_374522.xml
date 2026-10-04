@@ -1,0 +1,147 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="SYNDIC_OF_TITHES_374522" />
+  <CARDNAME text="SYNDIC_OF_TITHES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Syndic of Tithes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Syndic des dîmes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Síndico de los diezmos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Syndicus der Zehntabgaben]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Amministratore delle Decime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[徴（ちょう）税（ぜい）理（り）事（じ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[십일조의 평의원]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Собиратель Десятин]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Síndico dos Dízimos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[什一税代理人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[什一稅代理人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374522" />
+  <ARTID value="146523" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Entrance is free. Donations are required.”
+—Notice outside Vizkopa Bank]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Entrée libre. Don obligatoire. »
+—Avis à l'entrée de la banque de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Entrada gratuita. Donativos obligatorios”.
+—Cartel en el exterior del Banco Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der Eintritt ist frei. Spenden werden erwartet.“
+—Mitteilung vor der Vizkopa-Bank]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“L’entrata è libera. Le donazioni sono obbligatorie.”
+—Cartello all’entrata della Banca di Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「入館は無料です。必ずご寄付を。」
+――ヴィズコーパ銀行の建物外の告知]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["입장료는 없지만 기부금은 꼭 내셔야 합니다."
+—비즈코파 은행 앞에 붙은 공고]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вход бесплатный. Пожертвования обязательны».
+— объявление перед банком Визкопы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A entrada é gratuita. Doações são obrigatórias.”
+— Aviso externo do Banco Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「入场免费，但须捐款。」
+～伟柯帕银行外的告示]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「入場免費，但須捐款。」
+～偉柯帕銀行外的告示]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Cleric" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Extort]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Extorsion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Extorsionar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abnötigen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Estorsione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[強請]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[착취]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вымогательство]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Extorquir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敲诈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敲詐]]></LOCALISED_TEXT>
+    <SFX text="EXTORT_PLAY" />
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol" />
+    <RESOLUTION_TIME_ACTION>
+    EffectSourceLKI():AllowSFX(false)
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayManaCost("{W/B}") then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_EXTORT_PAY_WB" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_EXTORY_DO_NOT_PAY_WB" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_EXTORT_QUESTION", TriggerObject() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController:CanPayManaCost("{W/B}") then
+    	local queryResult = effectController:GetMultipleChoiceResult()
+    	
+    	if queryResult == 0 then
+    		
+    		effectController:PayManaCost("{W/B}")
+    		local numPlayers = MTG():GetNumberOfPlayers()
+    		local lifeToGain = 0
+    		
+    		for i = 0, (numPlayers-1) do
+    			local currentPlayer = MTG():GetNthPlayer(i)
+    			if currentPlayer ~= nil and currentPlayer:GetTeam() ~= effectController:GetTeam() then
+    				local lifeLost = currentPlayer:LoseLife(1)
+    				lifeToGain = lifeToGain+lifeLost
+    			end
+    		end
+    		effectController:GainLife(lifeToGain)
+    		EffectSourceLKI():AllowSFX(true)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_EXTORT" body="MORE_INFO_BODY_EXTORT" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_EXTORT_PAY_WB">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{i} bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{i}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{i}를 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{i}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{i}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_EXTORY_DO_NOT_PAY_WB">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas payer {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{i} nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{i}を支払わない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{i}를 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pagar {i}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付{i}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付{i}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_EXTORT_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {i}? If you do, each opponent loses 1 life and you gain that much life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer {i} ? Si vous faites ainsi, chaque adversaire perd 1 point de vie et vous gagnez autant de points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {i}? Si lo haces, cada oponente pierde 1 vida y tú ganas esa cantidad de vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {i} bezahlen? Falls du dies tust, verliert jeder Gegner 1 Lebenspunkt und du erhältst entsprechend viele Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {i}? Se lo fai, ogni avversario perde 1 punto vita e tu guadagni altrettanti punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{i}を支払いますか？そうした場合、各対戦相手はそれぞれ１点のライフを失い、あなたはその点数分のライフを得ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{i}를 지불하시겠습니까? 그렇게 하면, 각 상대는 생명 1점을 잃고 당신은 그만큼의 생명점을 얻습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {i}? Если вы это сделаете, каждый оппонент потеряет 1 жизнь, а вы получите столько же жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar {i}? Se fizer isso, cada oponente perderá 1 ponto de vida e você ganhará uma quantidade equivalente de pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付{i}吗？若你如此作，则每位对手各失去1点生命，且你获得等量的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付{i}嗎？若你如此作，則每位對手各失去1點生命，且你獲得等量的生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

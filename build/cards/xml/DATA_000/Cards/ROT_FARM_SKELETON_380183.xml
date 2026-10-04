@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="ROT_FARM_SKELETON_380183" />
+  <CARDNAME text="ROT_FARM_SKELETON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rot Farm Skeleton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Squelette de ferme à putréfaction]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esqueleto de podredumbre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Skelett der Verrottungsfarm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scheletro del Mortificio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[腐（ふ）敗（はい）農（のう）場（じょう）の骸（がい）骨（こつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부패농장 해골]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скелет с Гнилостной Фермы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esqueleto de Podridão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐尸农场骷髅妖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐屍農場骷髏妖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380183" />
+  <ARTID value="146838" />
+  <ARTIST name="Maciej Kuciara" />
+  <CASTING_COST cost="{2}{B}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Plant" />
+  <SUB_TYPE metaname="Skeleton" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rot Farm Skeleton can’t block.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Squelette de ferme à putréfaction ne peut pas bloquer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Esqueleto de podredumbre no puede bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Skelett der Verrottungsfarm kann nicht blocken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Scheletro del Mortificio non può bloccare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[腐敗農場の骸骨ではブロックできない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부패농장 해골은 방어할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скелет с Гнилостной Фермы не может блокировать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esqueleto de Podridão não pode bloquear.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐尸农场骷髅妖不能进行阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐屍農場骷髏妖不能進行阻擋。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BLOCK, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{B}{G}, Put the top four cards of your library into your graveyard: Return Rot Farm Skeleton from your graveyard to the battlefield. Activate this ability only any time you could cast a sorcery.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{B}{G}, mettez les quatre cartes du dessus de votre bibliothèque dans votre cimetière : Renvoyez le Squelette de ferme à putréfaction sur le champ de bataille depuis votre cimetière. N’activez cette capacité que lorsque vous pourriez lancer un rituel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{B}{G}, poner las cuatro primeras cartas de tu biblioteca en tu cementerio: Regresa el Esqueleto de podredumbre de tu cementerio al campo de batalla. Activa esta habilidad solo cuando puedas lanzar un conjuro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{B}{G}, lege die obersten vier Karten deiner Bibliothek auf deinen Friedhof: Bringe das Skelett der Verrottungsfarm aus deinem Friedhof ins Spiel zurück. Aktiviere diese Fähigkeit nur zu einem Zeitpunkt, zu dem du auch eine Hexerei wirken könntest.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{B}{G}, Metti nel tuo cimitero le prime quattro carte del tuo grimorio: Rimetti sul campo di battaglia lo Scheletro del Mortificio dal tuo cimitero. Attiva questa abilità solo quando potresti lanciare una stregoneria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{B}{G}, あなたのライブラリーの一番上から４枚のカードをあなたの墓地に置く：腐敗農場の骸骨をあなたの墓地から戦場に戻す。この能力は、あなたがソーサリーを唱えられるときにのみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{B}{G}, 당신의 서고 맨 위에 있는 카드 네 장을 무덤에 넣는다: 부패농장 해골을 당신의 무덤에서 전장으로 되돌린다. 당신이 집중마법을 발동할 수 있는 시기에만 이 능력을 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{B}{G}, положите четыре верхние карты вашей библиотеки на ваше кладбище: верните Скелет с Гнилостной Фермы из вашего кладбища на поле битвы. Активируйте эту способность только при возможности разыгрывать волшебство.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{B}{G}, Coloque os quatro cards do topo de seu grimório em seu cemitério: Devolva Esqueleto de Podridão de seu cemitério para o campo de batalha. Ative esta habilidade somente nos momentos em que poderia conjurar um feitiço.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{B}{G}，将你牌库顶的四张牌置入你的坟墓场：将腐尸农场骷髅妖从你的坟墓场移回战场。你只可以于你能施放法术的时机下起动此异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{B}{G}，將你牌庫頂的四張牌置入你的墳墓場：將腐屍農場骷髏妖從你的墳墓場移回戰場。你只可以於你能施放巫術的時機下起動此異能。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{B}{G}" type="Mana" />
+    <COST type="Mill" item_count="4" />
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if  effectSource ~= nil then
+    	effectSource:PutOntoBattlefield( EffectController() )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <AVAILABILITY sorcery_time="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_RECURSION_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

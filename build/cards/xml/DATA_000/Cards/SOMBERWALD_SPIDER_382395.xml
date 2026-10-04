@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="SOMBERWALD_SPIDER_382395" />
+  <CARDNAME text="SOMBERWALD_SPIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Somberwald Spider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Araignée de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Araña de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Dämmerwaldspinne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ragno di Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ソンバーワルドの蜘（く）蛛（も）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[솜버왈드 거미]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сомбервальдский Паук]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aranha de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[松柏森蜘蛛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[松柏森蜘蛛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382395" />
+  <ARTID value="138402" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stensian vampires encourage spiders near their manors so they can rob the webs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les vampires stensiens favorisent la présence des araignées près de leurs manoirs pour pouvoir piller les toiles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los vampiros de Stensia alientan a las arañas cerca de sus mansiones para poder robar de las telarañas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stenzische Vampire bieten Spinnen in der Nähe ihrer Herrenhäuser gute Bedingungen, damit sie die Netze ausrauben können.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I vampiri di Stensia favoriscono i ragni vicini ai loro manieri per poter sottrarre loro le ragnatele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ステンシアの吸血鬼は、屋敷のそばの蜘蛛をそそのかし、その蜘蛛の巣を奪う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[스텐시아 흡혈귀들은 자신들의 저택 주변에 거미가 서식하는 걸 좋아하는데, 그러면 거미줄을 훔칠 수 있기 때문이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стенсийские вампиры покровительствуют паукам рядом со своими замками и воруют добычу из их паутин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os vampiros stensianos favorecem a presença de aranhas nas proximidades de seus casarões para poder roubar suas teias.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[史顿襄的吸血鬼乐见蜘蛛在庄园附近繁衍，如此便可在网中抢食。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[史頓襄的吸血鬼樂見蜘蛛在莊園附近繁衍，如此便可在網中搶食。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spider" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reichweite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raggiungere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[到達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Захват]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alcance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[延势]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[延勢]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_REACH" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Morbid| — Somberwald Spider enters the battlefield with two +1/+1 counters on it if a creature died this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Morbidité| — L’Araignée de Somberwald arrive sur le champ de bataille avec deux marqueurs +1/+1 sur elle si une créature est morte ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Necrario| — La Araña de Somberwald entra al campo de batalla con dos contadores +1/+1 sobre ella si una criatura murió este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Morbide|— Die Dämmerwaldspinne kommt mit zwei +1/+1-Marken ins Spiel, falls in diesem Zug eine Kreatur gestorben ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Morboso| — Il Ragno di Somberwald entra nel campo di battaglia con due segnalini +1/+1 se è morta una creatura in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|陰鬱| ― このターンにクリーチャーが死亡していたなら、ソンバーワルドの蜘蛛は＋１/＋１カウンターが２個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사망 — 이 턴에 생물이 죽었다면, 솜버왈드 거미는 +1/+1 카운터 두 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Болезненность| — Сомбервальдский Паук выходит на поле битвы с двумя жетонами +1/+1 на нем, если в этом ходу умерло существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Mórbido| — Aranha de Somberwald entra no campo de batalha com dois marcadores +1/+1 se uma criatura tiver morrido neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[丧心～如果本回合有生物死去，松柏森蜘蛛进战场时上面有两个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[喪心～如果本回合有生物死去，松柏森蜘蛛進戰場時上面有兩個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <INTERVENING_IF>
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetType( CARD_TYPE_CREATURE )
+    interrogation:SetFromZone( ZONE_BATTLEFIELD )
+    interrogation:SetToZone( ZONE_GRAVEYARD )
+    if interrogation:Test( INTERROGATE_CARDS_MOVED_ZONE, INTERROGATE_THIS_TURN ) then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_MORBID" body="MORE_INFO_BODY_MORBID" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

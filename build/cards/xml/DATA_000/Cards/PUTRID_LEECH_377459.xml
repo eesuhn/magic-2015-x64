@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="399">
+  <FILENAME text="PUTRID_LEECH_377459" />
+  <CARDNAME text="PUTRID_LEECH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Putrid Leech]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sangsue putride]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sanguijuela pútrida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verwesender Egel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sanguisuga Putrida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[朽（く）ちゆくヒル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부패하는 거머리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гадкая Пиявка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sanguessuga Pútrida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐臭蛭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐臭蛭]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377459" />
+  <ARTID value="120997" />
+  <ARTIST name="Dave Allsop" />
+  <CASTING_COST cost="{B}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It reacted to Naya’s overabundant food supply by growing additional mouths.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elle réagit aux réserves de nourriture abondantes de Naya en formant des gueules supplémentaires.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reaccionó a la sobreabundante cantidad de comida de Naya formando bocas adicionales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Er reagierte auf die Übermenge an Nahrung in Naya dadurch, dass er sich zusätzliche Mäuler wachsen ließ.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ha reagito all’abbondanza alimentare di Naya facendosi crescere delle bocche in più.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ナヤの有り余る食料に対応するため、それは新たな口を作り出した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[녀석은 먹이가 풍부한 나야에 적응해 입 개수를 늘렸다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чтобы справляться с чрезмерно изобильным пищевым ресурсом на Найе, она вырастила дополнительные рты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela reagiu à superabundante cadeia alimentar de Naya desenvolvendo bocas adicionais.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[它应付纳雅过度繁茂的食物来源之法，是多长出几张嘴。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[它應付納雅過度繁茂的食物來源之法，是多長出幾張嘴。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Leech" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay 2 life: Putrid Leech gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez 2 points de vie : La Sangsue putride gagne +2/+2 jusqu’à la fin du tour. N’activez cette capacité qu’une seule fois par tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar 2 vidas: La Sanguijuela pútrida obtiene +2/+2 hasta el final del turno. Activa esta habilidad solo una vez por turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bezahle 2 Lebenspunkte: Der Verwesende Egel erhält +2/+2 bis zum Ende des Zuges. Aktiviere diese Fähigkeit nur einmal pro Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga 2 punti vita: La Sanguisuga Putrida prende +2/+2 fino alla fine del turno. Attiva questa abilità solo una volta per turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ライフを２点支払う：朽ちゆくヒルはターン終了時まで＋２/＋２の修整を受ける。この能力は、毎ターン１回のみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 지불한다: 부패하는 거머리는 턴종료까지 +2/+2를 받는다. 이 능력은 한 턴에 한 번만 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатите 2 жизни: Гадкая Пиявка получает +2/+2 до конца хода. Активируйте эту способность только один раз за ход.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pague 2 pontos de vida: Sanguessuga Pútrida recebe +2/+2 até o final do turno. Ative esta habilidade apenas uma vez a cada turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付2点生命：腐臭蛭得+2/+2直到回合结束。此异能每回合中只能起动一次。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付2點生命：腐臭蛭得+2/+2直到回合結束。此異能每回合中只能起動一次。]]></LOCALISED_TEXT>
+    <COST type="Life" amount="2" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AVAILABILITY per_turn_limit="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_WURMCOIL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="478">
+  <FILENAME text="FOG_377083" />
+  <CARDNAME text="FOG" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fog]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Brouillard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Niebla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nebel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nebbia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[濃（のう）霧（む）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[안개]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Туман]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Neblina]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[浓雾]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[濃霧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377083" />
+  <ARTID value="137404" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I fear no army or beast, but only the morning fog. Our assault can survive everything else.”
+—Lord Hilneth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je ne crains ni armée ni bête, seulement la brume matinale. Notre assaut peut survivre au reste. »
+—Seigneur Hilneth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No temo a ejércitos ni bestias; tan solo a la niebla matinal. Nuestro asalto puede sobrevivir a cualquier otra cosa”.
+—Señor Hilneth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich fürchte weder Armee noch Bestie, nur den Morgennebel. Gegen alles andere ist unser Angriff gerüstet.“
+—Fürst Hilneth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non temo eserciti né bestie, ma solo la nebbia del mattino. Il nostro assalto può sopravvivere a tutto il resto.”
+—Lord Hilneth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「軍隊も獣も恐れはせぬが、朝の霧は別だ。それ以外なら、我が攻撃を止められるものは無い。」
+――ヒルネス卿]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“내가 무서워 하는 것은 적군도 야수도 아니다. 아침 안개다. 안개만 없다면 우리 공격은 언제나 성공한다.”
+—힐네스 경]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мне страшны не вражьи полчища и не дикие звери, а один лишь утренний туман. Со всем остальным мы справимся».
+— Лорд Хилнет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu não temo exércitos ou feras, só a névoa da manhã. Nosso ataque pode sobreviver a todo o resto.”
+— Lorde Hilneth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我害怕的不是军队或野兽，而是晨雾。我们的袭击就只赢不过这个。」
+～席尔涅领主]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我害怕的不是軍隊或野獸，而是晨霧。我們的襲擊就只贏不過這個。」
+～席爾涅領主]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prevent all combat damage that would be dealt this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prévenez toutes les blessures de combat qui devraient être infligées ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prevén todo el daño de combate que se fuera a hacer este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verhindere allen Kampfschaden, der in diesem Zug zugefügt würde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Previeni tutto il danno da combattimento che verrebbe inflitto in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターンに与えられるすべての戦闘ダメージを軽減する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 턴에 입혀지려 하는 모든 전투피해를 방지한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Предотвратите все боевые повреждения, которые должны быть нанесены в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Previna todo o dano de combate que seria causado neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[于本回合中，防止将造成的所有战斗伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[於本回合中，防止將造成的所有戰鬥傷害。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_PREVENT_PLAY" />
+    <CONTINUOUS_ACTION layer="8">
+    local number = MTG():GetNumberOfPlayers()
+    for i=0,(number-1) do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		local characteristics = player:GetCurrentCharacteristics()
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_CANT_TAKE_COMBAT_DAMAGE, 1 )
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_CREATURES_CANT_TAKE_COMBAT_DAMAGE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <DECKBUILDING_METADATA defensive="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="217">
+  <FILENAME text="UNSTABLE_FOOTING_380319" />
+  <CARDNAME text="UNSTABLE_FOOTING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Unstable Footing]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pas instable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Posición inestable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Instabiler Stand]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Appoggio Instabile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不（ふ）安（あん）定（てい）な足（あし）場（ば）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불안정한 발판]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неустойчивое Положение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trilha Instável]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[立足点不稳]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[立足點不穩]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380319" />
+  <ARTID value="123714" />
+  <ARTIST name="Nic Klein" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A long way down is shorter than you think.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ici-bas est plus proche que vous ne le pensez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un largo camino hacia abajo es más corto de lo que crees.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein langer Weg abwärts kann kürzer sein, als du denkst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una lunga caduta è più corta di quel che pensi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[長い下り道は、お前が思っているより短い。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[까마득한 낭떠러지라도 순식간에 떨어지지.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Долгий путь вниз короче, чем вы думаете.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um longo caminho abaixo é mais curto do que você imagina.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[向下的长路比你想的要更短些。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[向下的長路比你想的要更短些。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <UTILITY_ABILITY qualifier="Kicker">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {3}{R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[增幅{3}{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[增幅{3}{R}]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}{R}" type="Mana" />
+    <ABILITY_TEXT tag="CARD_QUERY_UNSTABLE_FOOTING_KICKED" secondary_tag="CARD_QUERY_UNSTABLE_FOOTING_UNKICKED" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Damage can’t be prevented this turn. If Unstable Footing was kicked, it deals 5 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les blessures ne peuvent pas être prévenues ce tour-ci. Si le Pas instable a été kické, il inflige 5 blessures au joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El daño no puede ser prevenido este turno. Si la Posición inestable fue estimulada, hace 5 puntos de daño al jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schaden kann in diesem Zug nicht verhindert werden. Falls die Bonuskosten von Instabiler Stand bezahlt wurden, fügt er einem Spieler deiner Wahl 5 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il danno non può essere prevenuto in questo turno. Se l’Appoggio Instabile è stato potenziato, infligge 5 danni a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このターン、ダメージは軽減できない。不安定な足場がキッカーされていたなら、プレイヤー１人を対象とする。不安定な足場はそのプレイヤーに５点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 턴에는 피해를 방지할 수 없다. 불안정한 발판의 키커 비용을 지불했다면, 플레이어 한 명을 목표로 정한다. 불안정한 발판은 그 플레이어에게 피해 5점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повреждения не могут быть предотвращены в этом ходу. Если Неустойчивое Положение получило Усилитель, оно наносит 5 повреждений целевому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O dano não pode ser prevenido neste turno. Se Trilha Instável foi reforçado, ele causa 5 pontos de dano ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[本回合中伤害不能被防止。如果立足点不稳已增幅，它对目标牌手造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[本回合中傷害不能被防止。如果立足點不穩已增幅，它對目標玩家造成5點傷害。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_5_DAMAGE" definition="0" compartment="0" count="1" kick_pattern="kicked_only" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION kick_pattern="kicked_only">
+    if EffectSource():WasKicked() then
+    	local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    	if ( target_player ~= nil ) then   
+    		EffectSourceLKI():DealDamageTo( 5, target_player )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="8">
+    MTG():GetCurrentCharacteristics():Bool_Set( DUEL_CHARACTERISTIC_DAMAGE_CANNOT_BE_PREVENTED, 1 )
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_UNSTABLE_FOOTING_UNKICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Unstable Footing unkicked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez le Pas instable sans le kick.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanzar la Posición inestable sin pagar su coste de estímulo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Instabilen Stand ohne Bonus wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia l’Appoggio Instabile non potenziato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《不安定な足場》をキッカーせずに唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불안정한 발판의 키커 비용을 지불하지 않고 발동합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Неустойчивое Положение без Усилителя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar Trilha Instável sem reforço.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放立足点不稳且不增幅。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放立足點不穩且不增幅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_UNSTABLE_FOOTING_KICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Unstable Footing kicked and deal 5 damage to target player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez le Pas instable kické et infligez 5 blessures au joueur ciblé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza la Posición inestable pagando su coste de estímulo y haz 5 puntos de daño al jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Instabilen Stand mit Bonus wirken und einem Spieler deiner Wahl 5 Schadenspunkte zufügen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia l’Appoggio Instabile potenziato e infliggi 5 danni a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《不安定な足場》をキッカーして唱え、プレイヤー１人に５点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불안정한 발판의 키커 비용을 지불하고 발동하십시오. 목표로 정한 플레이어에게 피해 5점을 입히십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Неустойчивое Положение с Усилителем и нанести 5 повреждений целевому игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjure Trilha Instável reforçado e cause 5 pontos de dano ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放立足点不稳并增幅，对目标牌手造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放立足點不穩並增幅，對目標玩家造成5點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DEAL_5_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to deal 5 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui infliger 5 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerle 5 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, dem 5 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore a cui infliggere 5 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[５点のダメージを与えるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 5점을 입을 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которому нужно нанести 5 повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para causar 5 pontos de dano a ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以对其造成5点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來對其造成5點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

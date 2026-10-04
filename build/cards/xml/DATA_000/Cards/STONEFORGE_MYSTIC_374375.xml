@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="495">
+  <FILENAME text="STONEFORGE_MYSTIC_374375" />
+  <CARDNAME text="STONEFORGE_MYSTIC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stoneforge Mystic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mystique forgepierre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mística fragua de piedra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Steinschmelz-Mystiker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mistica Forgiapietra]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[石（いし）鍛（か）冶（じ）の神（しん）秘（ぴ）家（か）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌모루 신비주의자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мистик-Кователь Камней]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Místico Litoforjador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[锻石秘教徒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鍛石秘教徒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374375" />
+  <ARTID value="126571" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{1}{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Artificer" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Stoneforge Mystic enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand la Mystique forgepierre arrive sur le champ de bataille, vous pouvez chercher dans votre bibliothèque une carte d’équipement, la révéler, la mettre dans votre main et mélanger ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Mística fragua de piedra entre al campo de batalla, puedes buscar en tu biblioteca una carta de equipo, mostrarla, ponerla en tu mano y luego barajar tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Steinschmelz-Mystiker ins Spiel kommt, kannst du deine Bibliothek nach einer Ausrüstungs-Karte durchsuchen, sie offen vorzeigen, auf deine Hand nehmen und dann deine Bibliothek mischen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Mistica Forgiapietra entra nel campo di battaglia, puoi passare in rassegna il tuo grimorio per una carta Equipaggiamento, rivelarla e aggiungerla alla tua mano. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[石鍛冶の神秘家が戦場に出たとき、あなたは自分のライブラリーから装備品・カードを１枚探してもよい。そうしたなら、それを公開してあなたの手札に加え、その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌모루 신비주의자가 전장에 들어올 때, 당신은 당신의 서고에서 장비 카드 한 장을 찾아 공개한 후 당신의 손으로 가져갈 수 있다. 그렇게 한다면, 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Мистик-Кователь Камней выходит на поле битвы, вы можете найти в вашей библиотеке карту Снаряжения, показать ее, положить ее в вашу руку, затем перетасовать вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Místico Litoforjador entra no campo de batalha, você pode procurar um card de Equipamento em seu grimório, revelá-lo, colocá-lo na sua mão e depois embaralhar seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当锻石秘教徒进战场时，你可以从你牌库中搜寻一张武具牌，展示该牌，并将它置于你手上，然后将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當鍛石秘教徒進戰場時，你可以從你牌庫中搜尋一張武具牌，展示該牌，並將它置於你手上，然後將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_SUBTYPE, OP_IS, ARTIFACT_TYPE_EQUIPMENT )
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    effectController:SetItemCount( 1 )
+    for i = 0, (1-1) do
+    	effectController:SetItemPrompt(i, "CARD_QUERY_TUTOR_EQUIPMENT" )
+    end
+    	
+    effectController:ChooseItems( EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    for i = 0, (numPlayers-1) do 
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if player ~= EffectController() then
+    		player:RevealDCToMe( EffectDC():Get_Targets(0) )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{W}, {T}: You may put an Equipment card from your hand onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{W}, {T} : Vous pouvez mettre sur le champ de bataille une carte d’équipement de votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{W}, {T}: Puedes poner en el campo de batalla una carta de equipo de tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{W}, {T}: Du kannst eine Ausrüstungs-Karte aus deiner Hand ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{W}, {T}: Puoi mettere sul campo di battaglia una carta Equipaggiamento dalla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{W}, {T}：あなたは、あなたの手札にある装備品・カードを１枚戦場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{W}, {T}: 당신은 장비 카드 한 장을 당신의 손에서 전장에 놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{W}, {T}: вы можете положить карту Снаряжения из вашей руки на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{W}, {T}: Você pode colocar no campo de batalha um card de Equipamento da sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}{W}，{T}：你可以将一张武具牌从你手上放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}{W}，{T}：你可以將一張武具牌自你手上放進戰場。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{W}" type="Mana" />
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, ARTIFACT_TYPE_EQUIPMENT )
+    filter:SetZone( ZONE_HAND, EffectController() )
+    EffectController():ChooseItem( "CARD_QUERY_CHOOSE_EQUIPMENT_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	local target = targetDC:Get_CardPtr(0)
+    	if target ~= nil then
+    		target:PutOntoBattlefield( EffectController() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUT_ON_BATTLEFIELD_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="10" score_per_unit="40" resource_subtype="EQUIPMENT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="500" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_EQUIPMENT_TO_PUT_ONTO_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an Equipment to put onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un équipement pour le mettre sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un equipo para ponerlo en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Ausrüstung, die ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un Equipaggiamento da mettere sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場に出す装備品を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장에 놓을 장비 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите Снаряжение, чтобы положить его на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um Equipamento para colocar no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个武具放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個武具放進戰場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_TUTOR_EQUIPMENT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an Equipment card to put into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte d'équipement pour la mettre dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta de equipo para ponerla en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Ausrüstung, die du auf deine Hand nimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta Equipaggiamento da aggiungere alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの手札に加える装備品カードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 장비 카드 한 장을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту Снаряжения, чтобы положить ее в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card de Equipamento para colocar em sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张武具牌置入你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張武具牌置入你手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

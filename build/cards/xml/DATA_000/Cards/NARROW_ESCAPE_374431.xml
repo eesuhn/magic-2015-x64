@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="214">
+  <FILENAME text="NARROW_ESCAPE_374431" />
+  <CARDNAME text="NARROW_ESCAPE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Narrow Escape]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[De justesse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Escapar por un pelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Knapp entkommen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Salvo per un Pelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[命（いのち）拾（びろ）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[구사일생]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудесное Спасение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escapar por Pouco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[惊险度劫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[驚險度劫]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374431" />
+  <ARTID value="123595" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“A good explorer has to be as slippery as a gomazoa, as tough as a scute bug, and luckier than a ten-fingered trapfinder.”
+—Arhana, Kazandu trapfinder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Un bon explorateur doit être aussi insaisissable qu'un gomazoaire, aussi endurant qu'un scalaire, et plus chanceux qu'un pistrappeur à dix doigts. »
+—Arhana, pistrappeuse du Kazandou]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Un buen explorador debe ser escurridizo como una gomazoa, duro como un bicho escuto y más afortunado que un buscatrampas con diez dedos”.
+—Arhana, buscatrampas de Kazandu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ein guter Erforscher muss so schlüpfrig wie eine Gomazoa und so hart wie ein Schildkäfer sein und mehr Glück haben als ein Fallensucher, der noch zehn Finger hat.“
+—Arhana, Fallensucherin aus Kazandu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Un bravo esploratore deve essere sfuggente come una gomazoa, tenace come uno scudato e più fortunato di uno scopritrappole con dieci dita.”
+—Arhana, scopritrappole di Kazandu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「良い探険家ってのは、ゴーマゾア並みにつかみどころが無くて、硬鎧虫並みに頑丈で、十本指の罠探し並みについてなくちゃダメよね。」――カザンドゥの罠探し、アルハーナ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["훌륭한 탐험가가 되려면 고마조아처럼 이리저리 잘 빠져나가고 스큐트 벌레처럼 튼튼하고 손가락이 열 개인 함정수색병보다 더 운이 좋아야 하지."
+—카잔두 함정수색병 아르하나]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Хороший исследователь должен быть увертливым, как гомазоа, крепким, как жучок-скут, и удачливее, чем десятипалый искатель ловушек».
+— Архана, искательница ловушек из Казанду]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Um bom explorador precisa ser escorregadio como um gomazoa, resistente como um cascudo e mais sortudo que um desarmadilheiro decadáctilo.”
+— Arhana, desarmadilheiro de Kazandu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「够格的探险家必须灵巧如格玛佐雅，强韧如硬盔虫，幸运如十指健全的探陷人。」
+～卡赞度探陷人亚哈娜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「夠格的探險家必須靈巧如格瑪佐雅，強韌如硬盔蟲，幸運如十指健全的探陷人。」
+～卡贊度探陷人亞哈娜]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Return target permanent you control to its owner’s hand. You gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Renvoyez le permanent ciblé que vous contrôlez dans la main de son propriétaire. Vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Regresa el permanente objetivo que controlas a la mano de su propietario. Ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe eine bleibende Karte deiner Wahl, die du kontrollierst, auf die Hand ihres Besitzers zurück. Du erhältst 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fai tornare un permanente bersaglio che controlli in mano al suo proprietario. Guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールしているパーマネント１つを対象とし、それをオーナーの手札に戻す。あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 지속물 한 개를 목표로 정한다. 그 지속물을 소유자의 손으로 되돌린다. 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Верните целевой перманент под вашим контролем в руку его владельца. Вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devolva a permanente alvo que você controla para a mão de seu dono. Você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标由你操控的永久物移回其拥有者手上。你获得4点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標由你操控的永久物移回其擁有者手上。你獲得4點生命。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_INTO_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_IS_PERMANENT, true )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(4 )
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PERMANENT_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a permanent to put into it’s owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un permanent pour le mettre dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un permanente para poner en la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine bleibende Karte, die auf die Hand ihres Besitzers gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un permanente da mettere in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すパーマネントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 지속물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите перманент, который нужно положить в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma permanente para colocar na mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个永久物，以将其置入其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個永久物置入其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

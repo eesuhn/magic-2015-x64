@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="292">
+  <FILENAME text="SPROUTING_THRINAX_381919" />
+  <CARDNAME text="SPROUTING_THRINAX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sprouting Thrinax]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Thrinax bourgeonnant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Thrinax germinante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sprießendes Thrinax]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thrinax dei Germogli]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[芽（め）吹（ぶ）くトリナクス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[싹트는 트리낙스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разрастающийся Тринакс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trinax Germinante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[芽生叉齿蜥]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[芽生叉齒蜥]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381919" />
+  <ARTID value="114974" />
+  <ARTIST name="Jarreau Wimberly" />
+  <CASTING_COST cost="{B}{R}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The vast network of predation on Jund has actually caused some strange creatures to adapt to being eaten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le cycle alimentaire de Jund a provoqué d'étranges adaptations chez certaines créatures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La enorme red de depredadores de Jund ha logrado que algunas extrañas criaturas se adapten a ser comidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die riesige Nahrungskette in Jund hat dazu geführt, dass sich manche seltsamen Lebewesen daran angepasst haben, gefressen zu werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La vasta rete di predatori in Jund ha addirittura fatto sì che alcune strane creature si adattassero a essere mangiate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドの巨大な食物連鎖の網は、食われるべき奇妙な生き物を生み出した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드의 방대한 먹이사슬 덕분에 먹히는 것에 최적화된 기묘한 생물도 탄생하였다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Повсеместное хищничество на Джанде заставило некоторые необычные существа приспособиться к тому, что их поедают.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A vasta rede de predação de Jund na verdade fez com que algumas estranhas criaturas se adaptassem a serem comidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得的广大猎捕关系网路，造成某些奇怪生物专门担任给吃掉的角色。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得的廣大獵捕關係網路，造成某些奇怪生物專門擔任給吃掉的角色。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Lizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sprouting Thrinax dies, put three 1/1 green Saproling creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Thrinax bourgeonnant meurt, mettez sur le champ de bataille trois jetons de créature 1/1 verte Saprobionte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Thrinax germinante muera, pon en el campo de batalla tres fichas de criatura Saprolín verdes 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn das Sprießende Thrinax stirbt, bringe drei 1/1 grüne Saproling-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Thrinax dei Germogli muore, metti sul campo di battaglia tre pedine creatura Saprolingio 1/1 verdi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[芽吹くトリナクスが死亡したとき、緑の１/１の苗木・クリーチャー・トークンを３体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[싹트는 트리낙스가 죽을 때, 1/1 녹색 묘목 생물 토큰 세 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Разрастающийся Тринакс умирает, положите на поле битвы три фишки существа 1/1 зеленый Сапролинг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Trinax Germinante morrer, coloque no campo de batalha três fichas de criatura verdes 1/1 do tipo Saprófita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当芽生叉齿蜥死去时，将三个1/1绿色腐生物衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當芽生叉齒蜥死去時，將三個1/1綠色腐生物衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SAPROLING_1_1_G_350772", 3, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Sacrifice" amount="1" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SAPROLING_1_1_G_350772" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_DRAWBACK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="TRIUMPH_OF_CRUELTY_374384" />
+  <CARDNAME text="TRIUMPH_OF_CRUELTY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triumph of Cruelty]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Triomphe de la cruauté]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Triunfo de la crueldad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Triumph der Grausamkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tripudio di Crudeltà]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[残（ざん）虐（ぎゃく）の勝（しょう）利（り）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[잔혹함의 승리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Триумф Жестокости]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Triunfo da Crueldade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[残酷得胜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[殘酷得勝]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374384" />
+  <ARTID value="141834" />
+  <ARTIST name="Izzy" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I’ve seen corpses prettier than you, beastmage.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« J'ai vu des cadavres plus agréables à regarder que toi, bêtemage. »
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“He visto cadáveres más bellos que tú, mago de bestias”.
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe schon Leichen gesehen, die hübscher sind als du, Tiermagier.“
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ho visto cadaveri più carini di te, mago bestiale.”
+—Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あんたより可愛い死体はたくさん見てきたわよ、獣魔道士さん。」
+――リリアナ・ヴェス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“시체도 당신보다는 아름답다고, 야수술사.”
+—릴리아나 베스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Я видела трупы посимпатичнее тебя, маг зверей».
+— Лилиана Весс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Já vi cadáveres mais bonitos que você, mago das feras.”
+— Liliana Vess]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我见过比你更美的尸体，野兽法师。」
+～莉莲娜维斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我見過比你更美的屍體，野獸法師。」
+～莉蓮娜維斯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, target opponent discards a card if you control the creature with the greatest power or tied for the greatest power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, l’adversaire ciblé se défausse d’une carte si vous contrôlez la créature avec la force la plus élevée ou qui partage la force la plus élevée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, el oponente objetivo descarta una carta si controlas a la criatura con mayor fuerza o que empata por la mayor fuerza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn deines Versorgungssegments wirft ein Gegner deiner Wahl eine Karte ab, falls du die Kreatur mit der größten Stärke oder der gemeinsam größten Stärke kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, un avversario bersaglio scarta una carta se controlli la creatura con la forza maggiore o pari alla forza maggiore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、対戦相手１人を対象とする。あなたがパワーの最も大きいクリーチャー、あるいは２体以上あるならそのうちの１体をコントロールしているなら、そのプレイヤーはカードを１枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 상대 한 명을 목표로 정한다. 당신이 전장에서 공격력이 제일 높거나 공동으로 공격력이 제일 높은 생물을 조종한다면, 그 상대는 카드 한 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки целевой оппонент сбрасывает карту, если вы контролируете существо с наибольшей силой или с одинаковым значением наибольшей силы с другим существом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, o oponente alvo descarta um card se você controlar a criatura com maior poder ou uma das que tem o maior poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，如果你操控力量最大或与他者同为最大的生物，则目标对手弃一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，如果你操控力量最大或與他者同為最大的生物，則目標對手棄一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_DISCARD_1" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local num_starting_players = MTG():GetNumberOfStartingPlayers()
+    local max_opponent_power = -10000
+    local max_player_power = -10001
+    local filter = ClearFilter()
+    for i=0,(num_starting_players-1) do
+    	local player = MTG():GetNthStartingPlayer(i)
+    	if player ~= nil then
+    		if player ~= EffectController() then
+    			filter:Clear()
+    			filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    			filter:Add( FE_CONTROLLER, OP_IS, player)
+    			local num_creatures = filter:EvaluateObjects()
+    			for j=0,(num_creatures-1) do
+    				current_power = filter:GetNthEvaluatedObject(j):GetCurrentCharacteristics():Power_Get()
+    				if current_power &gt; max_opponent_power then
+    					max_opponent_power = current_power 			
+    				end
+    			end
+    		else
+    			filter:Clear()
+    			filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    			filter:Add( FE_CONTROLLER, OP_IS, player)
+    			local num_creatures = filter:EvaluateObjects()
+    			for j=0,(num_creatures-1) do
+    				current_power = filter:GetNthEvaluatedObject(j):GetCurrentCharacteristics():Power_Get()
+    				if current_power &gt; max_player_power then
+    					max_player_power = current_power 
+    				end
+    			end
+    		end
+    	end
+    end
+    if max_player_power &gt;= max_opponent_power then
+    	filter:Clear()
+    	local target = EffectDC():Get_Targets(0): Get_PlayerPtr(0)
+    	filter:SetZone( ZONE_HAND, target)
+    	target:SetItemCount( 1 )
+    	for i = 0,(1-1) do
+    		target:SetItemPrompt (i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+    	end
+    	target:ChooseItems( EffectDC():Make_Targets(1) )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC():Get_Targets(1) ~= nil then
+    	for i = 0,(1-1) do
+    		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if target_card ~= nil  then
+    			target_card:Discard()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_DISCARD_1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to discard a card from his or her hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour qu'il se défausse d'une carte de sa main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que descarte una carta de su mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der eine Karte aus seiner Hand abwerfen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che scarta una carta dalla sua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札からカードを１枚捨てるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[손에서 카드 한 장을 버리게 할 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен сбросить карту из своей руки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para descartar um card da mão dele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以令其从手上弃掉一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來從其手牌中棄掉一張牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_DISCARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to discard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour vous en défausser.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine der Karten auf deiner Hand, die du abwerfen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da scartare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[捨てるカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[버릴 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для сброса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要弃掉的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來棄掉。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="FRILLED_OCULUS_377439" />
+  <CARDNAME text="FRILLED_OCULUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Frilled Oculus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oculus à jabots]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Óculus recargado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Krausbärtiger Oculus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Oculare dal Collarino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エリマキ眼（がん）魔（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[목지느러미 오큘러스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Плащеносный Окулус]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Oculus Frisado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[赘饰眼球怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[贅飾眼球怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377439" />
+  <ARTID value="146264" />
+  <ARTIST name="Marco Nelor" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Understand the Simic? That’s about as easy as winning a staring contest with a homunculus.”
+—Dars Gostok, Firefist captain]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Comprendre les Simic ? Autant essayer de battre un homoncule à qui clignera des yeux le premier. »
+—Dars Gostok, capitaine Poingdefeu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Comprender a los simic? Eso es tan fácil como ganar en un concurso de aguantar la mirada contra un homúnculo”.
+—Dars Góstok, capitán Puño Ardiente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Simic verstehen? Das ist etwa so leicht wie … einen Homunkulus niederzustarren.“
+—Dars Gostok, Feuerfaust-Hauptmann]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Capire i Simic? Facile come vincere un duello di sguardi con un omuncolo.”
+—Dars Gostok, capitano del Pugno Infuocato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「シミック連合を理解するだと？そりゃあ何て言うか、ホムンクルスとのにらめっこに勝つぐらい簡単なことだぜ。」
+――火拳の隊長、ダース・ゴストク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["시믹을 이해하라고? 그건 호문쿨루스와 눈싸움에서 이기는 것만큼 어려워."
+—불꽃주먹 지휘관 다르스 고스톡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Понять Симиков? Это сложнее, чем выиграть в гляделки у гомункула».
+— Дарс Госток, капитан Огненных кулаков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Entender os Simic? É quase tão fácil quanto vencer de um homúnculo em um jogo de pisca.”
+— Dars Gostok, capitão Punho de Fogo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「要了解析米克？这就像跟造妖较量不眨眼并获胜一样简单。」
+～炎拳队长达斯葛托]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「要了解析米克？這就像跟造妖較量不眨眼並獲勝一樣簡單。」
+～炎拳隊長達斯葛托]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Homunculus" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="3" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{G}: Frilled Oculus gets +2/+2 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{G} : L’Oculus à jabots gagne +2/+2 jusqu’à la fin du tour. N’activez cette capacité qu’une seule fois par tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{G}: El Óculus recargado obtiene +2/+2 hasta el final del turno. Activa esta habilidad solo una vez por turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{G}: Der Krausbärtige Oculus erhält +2/+2 bis zum Ende des Zuges. Aktiviere diese Fähigkeit nur einmal pro Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{G}: L’Oculare dal Collarino prende +2/+2 fino alla fine del turno. Attiva questa abilità solo una volta per turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{G}：エリマキ眼魔はターン終了時まで＋２/＋２の修整を受ける。この能力は、毎ターン１回のみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{G}: 목지느러미 오큘러스는 턴종료까지 +2/+2를 받는다. 이 능력은 한 턴에 한 번만 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{G}: Плащеносный Окулус получает +2/+2 до конца хода. Активируйте эту способность только один раз за ход.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{G}: Oculus Frisado recebe +2/+2 até o final do turno. Ative esta habilidade apenas uma vez a cada turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}{G}：赘饰眼球怪得+2/+2直到回合结束。此异能每回合中只能起动一次。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}{G}：贅飾眼球怪得+2/+2直到回合結束。此異能每回合中只能起動一次。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{G}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AVAILABILITY per_turn_limit="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

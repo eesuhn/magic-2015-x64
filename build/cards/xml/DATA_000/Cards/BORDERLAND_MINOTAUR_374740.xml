@@ -1,0 +1,78 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="221">
+  <FILENAME text="BORDERLAND_MINOTAUR_374740" />
+  <CARDNAME text="BORDERLAND_MINOTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Borderland Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Minotaure des frontières]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Minotauro fronterizo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grenzland-Minotaurus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Minotauro delle Terre di Confine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[国（こっ）境（きょう）地（ち）帯（たい）のミノタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[접경지대 미노타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Минотавр Пограничья]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Minotauro da Fronteira]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[边境牛头怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[邊境牛頭怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374740" />
+  <ARTID value="149186" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You have led us to triumph over the forces of Mogis!” said Brygus the Brave, clapping the Champion on the back.
+The Champion wiped the sweat and blood from her brow.
+“I count eight graves,” she said. “Too many to call this a victory.”
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous nous avez conduits au triomphe face aux forces de Mogis ! » s'exclama Brygus le Brave en gratifiant la Championne d'une claque dans le dos.
+Elle épongea la sueur mêlée de sang qui lui maculait le front.
+« Je dénombre huit tombes, répondit-elle. C'est trop pour parler de victoire. »
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Nos has guiado hasta la victoria sobre las fuerzas de Mogis!”, dijo Brygo el Valiente dando a la Campeona una palmada en la espalda.
+La Campeona se secó el sudor y la sangre de la frente.
+“Cuento ocho tumbas”, dijo ella. “Demasiadas para llamar a esto una victoria”.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du hast uns zum Sieg über die Anhänger des Mogis geführt!“, sagte Brygus der Kühne und klopfte der Auserwählten auf die Schulter.
+Diese wischte sich den Schweiß und das Blut aus dem Gesicht.
+„Ich zähle acht Gräber,“ sagte sie. „Zu viele, um von einem Sieg zu sprechen.“
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Ci hai condotti alla vittoria contro le forze di Mogis!” disse Brygus il Coraggioso, congratulandosi con la Campionessa.
+Ella si deterse il sudore e il sangue dalla fronte.
+“Otto caduti,” disse. “Troppi per chiamarla vittoria.”
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々をモーギスの軍勢への勝利に導いてくれたのは、お主だ！」と勇猛なるブライガスは言い、女勇者の背中を叩いた。
+女勇者は額から汗と血を拭った。
+「墓を八基数えたわ。」と彼女は言った。「勝利と言うにはあまりに多すぎるわね。」
+――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["자네 덕에 모기스 일당을 물리쳤네!" 용감한 브라이거스가 영웅의 등을 두들기며 말했다.
+영웅은 땀과 피로 범벅이 된 이마를 닦으며 대답했다.
+"동료가 여덟 명이나 죽었습니다. 이게 승리입니까?"
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вместе мы одержали верх над силами Могия!» — воскликнул Бриг Храбрец, хлопнув Поборницу по спине.
+Поборница смахнула с глаз капли пота и крови.
+«Я насчитала восемь могил, — сказала она. — Слишком много, чтобы называть это победой».
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você nos levou ao triunfo sobre as forças de Mogis!” disse Brygus, o Bravo, cumprimentando a Campeã.
+A Campeã secou o suor e o sangue em sua testa.
+“Eu contei oito túmulos”, disse ela. “Túmulos demais para chamar isso de vitória.”
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「您率领我们战胜了墨癸斯的势力！」勇者布瑞古斯敬佩地拍着天尊的后背。
+天尊擦去眉间血汗，说道：
+「我们损失了八条性命。如此惨烈，难称胜利。」
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「您率領我們戰勝了墨癸斯的勢力！」勇者布瑞古斯敬佩地拍著天尊的後背。
+天尊擦去眉間血汗，說道：
+「我們損失了八條性命。如此慘烈，難稱勝利。」
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

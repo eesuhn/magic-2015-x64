@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="390">
+  <FILENAME text="HYSTERICAL_BLINDNESS_382048" />
+  <CARDNAME text="HYSTERICAL_BLINDNESS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hysterical Blindness]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aveuglement hystérique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ceguera histérica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hysterische Blindheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cecità Isterica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐（きょう）慌（こう）盲（もう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[히스테리성 야맹]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Истерическая Слепота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cegueira Histérica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[歇斯底里视盲]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歇斯底里視盲]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382048" />
+  <ARTID value="138372" />
+  <ARTIST name="Wayne England" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The panic is amusing, but the real fun comes when the spell passes and the villagers start looking for a scapegoat.”
+—Ludevic, necro-alchemist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La panique est toujours amusante, mais la vraie plaisanterie commence une fois que le sort cesse de faire effet et que les villageois cherchent un bouc émissaire. »
+—Ludevic, nécro-alchimiste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El pánico es entretenido, pero la verdadera diversión llega cuando el hechizo pasa y los aldeanos empiezan a buscar un chivo expiatorio”.
+—Ludevic, necro-alquimista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die Panik ist amüsant, aber richtig lustig wird es erst, wenn die Wirkung nachlässt und die Dorfbewohner nach einem Sündenbock suchen.“
+—Ludevic, Nekro-Alchemist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il panico è spassoso, ma il vero divertimento è quando la magia finisce e gli abitanti del villaggio cominciano a cercare un capro espiatorio.”
+—Ludevic, necro-alchimista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「恐慌は面白いものだが、真に面白いのは、呪文が解けた後で、村人が誰に罪を負わせるのかを決め始めた時だ。」
+――屍錬金術師、ルーデヴィック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“마을 사람들이 당황하는 것도 재밌지만, 제일 재밌는 부분은 주문이 끝나고 나서 그들이 희생양을 찾을 때지.”
+—사령연금술사 루데비치]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Паника забавна, но самое смешное начинается тогда, когда наваждение проходит и селяне начинают искать козла отпущения».
+— Людевик, некроалхимик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O pânico é bem engraçado, mas a diversão começa mesmo quando a magia acaba e os aldeões começam a procurar o bode expiatório.”
+— Ludevic, necroalquimista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这种惊慌已经很好玩，但真正乐趣是当咒语一个传一个，让村民开始寻找代罪羔羊的时候。」
+～死灵炼金术士卢德维]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這種驚慌已經很好玩，但真正樂趣是當咒語一個傳一個，讓村民開始尋找代罪羔羊的時候。」
+～死靈鍊金術士盧德維]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures your opponents control get -4/-0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vos adversaires contrôlent gagnent -4/-0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlan tus oponentes obtienen -4/-0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die deine Gegner kontrollieren, erhalten -4/-0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature controllate dai tuoi avversari prendono -4/-0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの対戦相手がコントロールするクリーチャーは、ターン終了時まで－４/－０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 조종하는 생물들은 턴종료까지 -4/-0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под контролем ваших оппонентов получают -4/-0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas controladas por seus oponentes recebem -4/-0 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由对手操控的生物得-4/-0直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由對手操控的生物得-4/-0直到回合結束。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( -4 )
+    	characteristics:Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <DECKBUILDING_METADATA defensive="0.75" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

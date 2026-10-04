@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="291">
+  <FILENAME text="SAVAGE_LANDS_381910" />
+  <CARDNAME text="SAVAGE_LANDS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Savage Lands]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Terres sauvages]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tierras salvajes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wilde Landschaften]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Territori Selvaggi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野（や）蛮（ばん）な地（ち）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야만 대지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дикие Земли]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terras Selvagens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛮野大地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蠻野大地]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381910" />
+  <ARTID value="114986" />
+  <ARTIST name="Vance Kovacs" />
+  <CASTING_COST cost="" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jund is a world as cruel as those who call it home. Their brutal struggles scar the land even as it carves them in its image, a vicious circle spiraling out of control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jund est un monde aussi cruel que ses habitants. Leurs luttes brutales blessent la terre à mesure qu'elle les façonne à son image... Un cercle vicieux qui échappe à tout contrôle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jund es un mundo tan cruel como quienes lo llaman hogar. Sus luchas brutales marcan la tierra tanto como esta a ellos, un círculo vicioso fuera de control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jund ist als Welt so grausam wie die Lebewesen, die dort wohnen. Das brutale Mühen ums Überleben vernarbt das Land ebenso wie das Land seine Bewohner: ein Teufelskreis, der außer Kontrolle gerät.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Jund è un mondo crudele quanto coloro che la chiamano casa. Le loro lotte intestine deturpano la terra proprio mentre essa li scolpisce a sua immagine, un circolo vizioso ben presto fuori controllo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドは、そこを故郷と呼ぶものと同じぐらい残忍な世界だ。彼らの残忍な争いはその地に傷を残し、それはあたかも手に負えない凶暴な螺旋をかたどるようだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드는 원주민들이 말하는 것처럼 잔인한 땅이다. 원주민들의 거친 투쟁은 땅에 상처를 남기며 준드를 형상화하며 이 잔인한 관계는 악화일로를 걷는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джанд — мир такой же жестокий, как и те, кто называет его своим домом. Безжалостные сражения оставляют на земле рубцы, а земля меняет обитателей по своему образу и подобию, создавая порочный круг, который стремительно становится неуправляемым.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jund é um mundo tão cruel quanto aqueles que ali habitam. Suas violentas brigas deixam cicatrizes no terreno, ao mesmo tempo que imprimem nele sua imagem, um círculo vicioso fora de controle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得这世界与其间居民一样残酷。各种野蛮搏斗在大地划下伤痕，大地则型塑这些蛮兽，构成无法控制的残暴循环。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得這世界與其間居民一樣殘酷。各種野蠻搏鬥在大地劃下傷痕，大地則型塑這些蠻獸，構成無法控制的殘暴循環。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Savage Lands enters the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les Terres sauvages arrivent sur le champ de bataille engagées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las Tierras salvajes entran al campo de batalla giradas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Wilden Landschaften kommen getappt ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I Territori Selvaggi entrano nel campo di battaglia TAPpati.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[野蛮な地はタップ状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[야만 대지는 탭된 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дикие Земли выходят на поле битвы повернутыми.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terras Selvagens entra no campo de batalha virado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[蛮野大地须横置进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蠻野大地須橫置進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+        TriggerObject():Tap()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B}, {R}, or {G} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {B}, {R} ou {G} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {B}, {R} o {G} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {B}, {R} oder {G}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {B}, {R} o {G} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{B}か{R}か{G}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {B}, {R} 또는 {G}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {B}, {R} или {G} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {B}, {R}, ou {G} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{B}，{R}，或{G}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{B}，{R}或{G}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{B/R/G}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

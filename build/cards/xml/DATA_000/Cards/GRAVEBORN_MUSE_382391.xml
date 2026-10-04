@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="388">
+  <FILENAME text="GRAVEBORN_MUSE_382391" />
+  <CARDNAME text="GRAVEBORN_MUSE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Graveborn Muse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Muse née des tombes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Musa nacida de la tumba]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Muse der Grabgesänge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Musa Sepolcrogena]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓（はか）生（う）まれの詩（し）神（しん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤에서 태어난 뮤즈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Муза, Рожденная из Могилы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Musa Nascida do Túmulo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[墓生谬思]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[墓生謬思]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382391" />
+  <ARTID value="47521" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Her voice is damnation, unyielding and certain.”
+—Phage the Untouchable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Sa voix est celle de la damnation, certaine et inflexible. »
+—Phage l'Intouchable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Su voz es condenación, implacable y segura”.
+—Phage la Intocable]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ihre Stimme ist die der Verdammnis, unnachgiebig und bestimmt.“
+—Phage die Unberührbare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La sua voce è la dannazione, inflessibile e certa.”
+—Phage l’Intoccabile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「彼女の声は、破滅であり不屈であり確信なのさ。」――触れられざる者フェイジ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["그녀의 목소리는 저주이며, 단호하고 분명하다."
+—불가촉의 페이지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Ее голос — это голос проклятия, непреклонный и уверенный».
+— Фейдж Неприкасаемая]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Sua voz é maldição, certa e inflexível.”
+— Phage, a Intocável]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「她的声音蕴含咒诅，执拗而致命。」
+～不可近的菲姬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「她的聲音蘊含咒詛，執拗而致命。」
+～不可近的菲姬]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, you draw X cards and you lose X life, where X is the number of Zombies you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, vous piochez X cartes et vous perdez X points de vie, X étant le nombre de zombies que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, robas X cartas y pierdes X vidas, donde X es la cantidad de Zombies que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn deines Versorgungssegments ziehst du X Karten und verlierst X Lebenspunkte, wobei X gleich der Anzahl an Zombies ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, peschi X carte e perdi X punti vita, dove X è il numero di Zombie che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたはＸ枚のカードを引き、あなたはＸ点のライフを失う。Ｘはあなたがコントロールするゾンビの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신은 카드 X장을 뽑고 생명 X점을 잃는다. X는 당신이 조종하는 좀비의 수이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки вы берете X карт и теряете X жизней, где X — количество Зомби под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, você compra X cards e perde X pontos de vida, sendo X o número de Zumbis que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，你抓X张牌且失去X点生命，X为由你操控的灵俑之数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，你抽X張牌且失去X點生命，X為由你操控的殭屍之數量。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if EffectSource() ~= nil then
+    	local filter = ClearFilter()
+    	filter:Add(FE_SUBTYPE, OP_IS, CREATURE_TYPE_ZOMBIE)
+    	filter:Add(FE_CONTROLLER, OP_IS, effectController )
+    	local number = filter:Count()
+    	effectController:DrawCards( number )
+    	effectController:LoseLife( number )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="25" resource_name="Life" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="40" resource_subtype="ZOMBIE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="900" />
+  <SFX text="GHOST_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="STONEWORK_PUMA_374376" />
+  <CARDNAME text="STONEWORK_PUMA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Stonework Puma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Puma de maçonnerie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puma de piedra tallada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mauerwerk-Puma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puma in Muratura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[石（いし）造（づく）りのピューマ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌로 만든 퓨마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каменная Пума]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Puma Pétreo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[石狮]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[石獅]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374376" />
+  <ARTID value="123676" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We suffer uneasy ground, unstable alliances, and unpredictable magic. Something you can truly trust is worth more than a chest of gold.”
+—Nikou, Joraga bard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous devons supporter un sol et des alliances instables, ainsi qu'une magie imprévisible. Quand on peut avoir confiance en quelque chose, cela vaut son pesant d'or. »
+—Nikou, barde de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Sufrimos con un terreno difícil, alianzas inestables y magia impredecible. Algo en lo que realmente puedes confiar vale más que un cofre de oro”.
+—Nikou, bardo de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Uns machen schwieriges Gelände, instabile Allianzen und unkalkulierbare Magie zu schaffen. Etwas, dem du wirklich trauen kannst, ist mit Gold nicht zu bezahlen.“
+—Nikou, Barde aus Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Subiamo terreni disagevoli, alleanze instabili e magie imprevedibili. Qualcosa di cui puoi realmente fidarti vale più di un forziere d’oro.”
+—Nikou, bardo di Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「私達が立ち向かうのは、不機嫌な大地と、不安定な関係と、不規則な魔法だ。本当に信用できるものは、棺にいっぱいの黄金よりも価値がある。」
+――ジョラーガの吟遊詩人、 ニコウ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리는 불안정한 기반과 동맹, 예측할 수 없는 마법에 고통받았다. 진정 믿을 수 있는 존재의 가치가 금화 한 상자보다 더 귀중할 때도 있지."
+—조라가 음유시인 니코우]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы страдаем от зыбкой земли, шатких альянсов и непредсказуемой магии. То, чему можно полностью доверять, дороже, чем сундук золота».
+— Нику, джорагский бард]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Somos vítimas de um terreno inconstante, alianças instáveis e magias imprevisíveis. Ter algo em que você pode realmente confiar vale mais do que um baú de ouro.”
+— Nikou, bardo de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「颠簸大地，不稳定的同盟关系，以及无法预测的法术，都让我们吃尽苦头。你能够真正相信的东西比整箱的黄金更加珍贵。」
+～玖瑞加吟游诗人倪古]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「顛簸大地，不穩定的同盟關係，以及無法預測的魔法，都讓我們吃盡苦頭。你能夠真正相信的東西比整箱的黃金更加珍貴。」
+～玖瑞加吟遊詩人倪古]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Ally" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="TIMBERPACK_WOLF_380239" />
+  <CARDNAME text="TIMBERPACK_WOLF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Timberpack Wolf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Loup de la meute des forêts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lobo manada de madera]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wolf des Waldrudels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lupo di Legnobranco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森（しん）林（りん）群（む）れの狼（おおかみ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[얼룩떼 늑대]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Волк Лесной Стаи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lobo da Alcateia do Arvoredo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[林群狼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[林群狼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380239" />
+  <ARTID value="143968" />
+  <ARTIST name="John Avon" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The need for the pack is bred in their bones. Their true strength will not show itself for any other purpose.”
+—Garruk Wildspeaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ils sentent le besoin de la meute dans leurs os. Leur vraie force ne servira que cet objectif. »
+—Garruk Languebestion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La necesidad de estar con su manada está grabada en sus huesos. Su auténtica fuerza no se mostrará por ningún otro propósito”.
+—Garruk Portavoz Salvaje]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der Wunsch nach einem Rudel steckt ihnen in den Knochen. Ihre wahre Stärke zeigen sie nie aus einem anderen Grund.“
+—Garruk Wildsprecher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il bisogno del branco è marchiato nelle loro ossa. La loro vera forza non potrebbe manifestarsi per nessun altro scopo.”
+—Garruk Lingua Selvaggia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「群れのために必要なことは奴らの骨に刻まれている。その他の目的のために、奴らが真の強さを発揮することはない。」
+――野生語りのガラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["늑대들은 무리를 갈망하는 것이 본능이다. 다른 목적에는 그들의 진정한 힘이 드러나지 않는다."
+—개럭 와일드스피커]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В их крови заложена нужда сбиваться в стаи. Ни для чего иного не проявляется их истинная сила».
+— Гаррук Дикоречивый]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As necessidades da alcateia estão entranhadas nos ossos deles. A verdadeira força deles não se mostrará por nenhum outro propósito.”
+— Garruk Falabravo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「他们打从骨子里仰赖群体。他们真正的力量不会因其它目的展露。」
+～召兽使贾路]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「他們打從骨子裡仰賴群體。他們真正的力量不會因其他目的展露。」
+～召獸使賈路]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wolf" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Timberpack Wolf gets +1/+1 for each other creature you control named Timberpack Wolf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Loup de la meute des forêts gagne +1/+1 pour chaque autre créature que vous contrôlez nommée Loup de la meute des forêts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Lobo manada de madera obtiene +1/+1 por cada otra criatura que controlas llamada Lobo manada de madera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Wolf des Waldrudels erhält +1/+1 für jede andere Kreatur namens Wolf des Waldrudels, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Lupo di Legnobranco prende +1/+1 per ogni altra creatura che controlli chiamata Lupo di Legnobranco.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[森林群れの狼は、あなたがコントロールする他の「森林群れの狼」という名前のクリーチャー１体につき＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[얼룩떼 늑대는 당신이 조종하는 다른 생물 중 얼룩떼 늑대라는 이름을 가진 생물 한 개당 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Волк Лесной Стаи получает +1/+1 за каждое другое существо с именем Волк Лесной Стаи под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lobo da Alcateia do Arvoredo recebe +1/+1 para cada outra criatura chamada Lobo da Alcateia do Arvoredo que você controle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你每操控一个名称为林群狼的其他生物，林群狼便得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你每操控一個名稱為林群狼的其他生物，林群狼便得+1/+1。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    filter:Add(FE_CARD_INSTANCE, OP_NOT, EffectSource())
+    filter:Add(FE_CARD_NAME, OP_IS, "TIMBERPACK_WOLF")
+    local numCreatures = filter:Count()
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    characteristics:Power_Add(numCreatures)
+    characteristics:Toughness_Add(numCreatures)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

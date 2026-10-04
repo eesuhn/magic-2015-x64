@@ -1,0 +1,148 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="CONE_OF_FLAME_374237" />
+  <CARDNAME text="CONE_OF_FLAME" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cone of Flame]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cône de flammes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cono de llamas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Flammenkegel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cono di Fiamme]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火（か）炎（えん）放（ほう）射（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화염 방사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненная Воронка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cone de Chamas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[火炎锥]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[火炎錐]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374237" />
+  <ARTID value="104549" />
+  <ARTIST name="Chippy" />
+  <CASTING_COST cost="{3}{R}{R}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cone of Flame deals 1 damage to target creature or player, 2 damage to another target creature or player, and 3 damage to a third target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Cône de flammes inflige 1 blessure à une cible, créature ou joueur, 2 blessures à une autre cible, créature ou joueur, et 3 blessures à une troisième cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Cono de llamas hace 1 punto de daño a la criatura o jugador objetivo, 2 puntos de daño a otra criatura o jugador objetivo y 3 puntos de daño a una tercera criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Flammenkegel fügt einer Kreatur oder einem Spieler deiner Wahl 1 Schadenspunkt zu, einer anderen Kreatur oder einem anderen Spieler deiner Wahl 2 Schadenspunkte und einer dritten Kreatur oder einem dritten Spieler deiner Wahl 3 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Cono di Fiamme infligge 1 danno a una creatura o a un giocatore bersaglio, 2 danni a un’altra creatura o a un altro giocatore bersaglio e 3 danni a una terza creatura o a un terzo giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人と、他のクリーチャー１体かプレイヤー１人と、３番目のクリーチャー１体かプレイヤー１人を対象とする。火炎放射はその第一者に１点、その第二者に２点、その第三者に３点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물이나 플레이어 중에서 목표 세 개를 정한다. 화염 방사는 첫 번째 목표에게 피해 1점을, 두 번째 목표에게 피해 2점을, 그리고 세 번째 목표에게 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огненная Воронка наносит 1 повреждение целевому существу или игроку, 2 повреждения другому целевому существу или игроку и 3 повреждения третьему целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cone de Chamas causa 1 ponto de dano à criatura ou ao jogador alvo, 2 pontos de dano a outra criatura ou jogador alvo e 3 pontos de dano a uma terceira criatura ou jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[火炎锥对目标生物或牌手造成1点伤害，对另一个目标生物或牌手造成2点伤害，并对第三个目标生物或牌手造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[火炎錐對目標生物或玩家造成1點傷害，對另一個目標生物或玩家造成2點傷害，並對第三個目標生物或玩家造成3點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_1_DAMAGE" definition="0" compartment="0" count="1" dependency="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_2_DAMAGE" definition="1" compartment="1" count="1" dependency="1" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE" definition="2" compartment="2" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="1">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	
+    local first_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local first_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if first_card ~= nil then
+    	filter:Add( FE_CARD_INSTANCE, OP_NOT, first_card )
+    elseif first_player ~= nil then
+    	filter:Add( FE_PLAYER_INSTANCE, OP_NOT, first_player )
+    end
+    </TARGET_DEFINITION>
+    <TARGET_DEFINITION id="2">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	
+    local first_card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local first_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if first_card ~= nil then
+    	filter:Add( FE_CARD_INSTANCE, OP_NOT, first_card )
+    elseif first_player ~= nil then
+    	filter:Add( FE_PLAYER_INSTANCE, OP_NOT, first_player )
+    end
+    local second_card = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local second_player = EffectDC():Get_Targets(1):Get_PlayerPtr(0)
+    if second_card ~= nil then
+    	filter:Add( FE_CARD_INSTANCE, OP_NOT, second_card )
+    elseif second_player ~= nil then
+    	filter:Add( FE_PLAYER_INSTANCE, OP_NOT, second_player )
+    end
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local first_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local first_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local second_creature = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    local second_player = EffectDC():Get_Targets(1):Get_PlayerPtr(0)
+    local third_creature = EffectDC():Get_Targets(2):Get_CardPtr(0)
+    local third_player = EffectDC():Get_Targets(2):Get_PlayerPtr(0)
+    local effectSourceLKI = EffectSourceLKI()
+    if ( first_creature ~= nil ) then
+    	effectSourceLKI:DealDamageTo( 1, first_creature )
+    elseif ( first_player ~= nil ) then   
+    	effectSourceLKI:DealDamageTo( 1, first_player )
+    end
+    if ( second_creature ~= nil ) then
+    	effectSourceLKI:DealDamageTo( 2, second_creature )
+    elseif ( second_player ~= nil ) then   
+    	effectSourceLKI:DealDamageTo( 2, second_player )
+    end
+    if ( third_creature ~= nil ) then
+    	effectSourceLKI:DealDamageTo( 3, third_creature )
+    elseif ( third_player ~= nil ) then   
+    	effectSourceLKI:DealDamageTo( 3, third_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+    <AI_SIMPLIFIED_TARGETING compartment="1" hint="HINT_ENEMY" />
+    <AI_SIMPLIFIED_TARGETING compartment="2" hint="HINT_ENEMY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_1_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 1 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 1 blessure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 1 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 1 Schadenspunkt zugefügt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 1 danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[１点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 1점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 1 повреждение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 1 ponto de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成1點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_2_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 2 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 2 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 2 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 2 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 2 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 2점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 2 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 2 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成2点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成2點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 3 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 3 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 3 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 3 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 3 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[３点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 3점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 3 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 3 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成3點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_RECURSION_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

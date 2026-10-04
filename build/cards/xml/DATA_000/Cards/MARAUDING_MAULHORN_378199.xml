@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="847">
+  <FILENAME text="MARAUDING_MAULHORN_378199" />
+  <CARDNAME text="MARAUDING_MAULHORN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marauding Maulhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cornetale en maraude]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Laceracuerno merodeador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Marodierendes Reißhorn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Razziatore Straziacorno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無（む）法（ほう）の槌（つち）角（づの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[난타뿔 약탈자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рогач-Опустошитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bate-chifre Saqueador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[潜行锤角兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[潛行鎚角獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378199" />
+  <ARTID value="147423" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“It’s not just you. Everyone makes it angry.”
+—Ardenoth, elvish nature advocate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne le prenez pas personnellement. Il en a après tout le monde. »
+—Ardenoth, partisan de la nature elfe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No eres solo tú. Todo el mundo parece irritarlo”.
+—Ardenoth, defensor de la naturaleza élfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Nimm es nicht persönlich. Jede Kleinigkeit macht es wütend.“
+—Ardenoth, Elfischer Fürsprecher der Natur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non è colpa tua. Si arrabbia con tutti.”
+—Ardenoth, difensore della natura elfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あんただけじゃない。あれは誰にでも腹を立てるんだ。」――エルフの自然の代言者、アルデノス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[놈이 딱히 널 싫어하는 것은 아냐. 원래 누굴 봐도 화를 내지."
+—엘프 자연 대변인 아르데노스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Нет, ты ни в чем не виноват. Он на всех так реагирует».
+— Арденот, эльфийский защитник природы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não é só você. Todo mundo o deixa furioso.”
+— Ardenoth, advogado da natureza élfico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「不只是你。人人都让它生气。」
+～妖精自然拥护人阿德诺斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「不只是你。人人都讓牠生氣。」
+～妖精自然擁護人阿德諾斯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marauding Maulhorn attacks each combat if able unless you control a creature named Advocate of the Beast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Cornetale en maraude attaque à chaque combat si possible à moins que vous ne contrôliez une créature appelée Partisan de la bête.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Laceracuerno merodeador ataca cada combate si puede, a menos que controles una criatura llamada Defensor de la bestia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Marodierende Reißhorn greift in jedem Kampf an, falls möglich, es sei denn, du kontrollierst eine Kreatur namens Fürsprecher der Bestie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Razziatore Straziacorno attacca in ogni combattimento se può farlo, a meno che non controlli una creatura chiamata Fautore delle Bestie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが獣の代言者という名前のクリーチャーをコントロールしていないかぎり、無法の槌角は可能なら毎ターン攻撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 야수의 대변인 이라는 카드를 조종하지 않는다면 난타뿔 약탈자는 가능하면 매 전투마다 공격한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рогач-Опустошитель атакует в каждом бою, если может, если только под вашим контролем нет существа с именем Защитник Зверя.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bate-chifre Saqueador ataca a cada combate se estiver apto, a menos que seu controlador controle outra criatura com o nome Advogado da Fera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[除非你操控名称为野兽拥护人的生物，否则潜行锤角兽每次战斗若能攻击，则必须攻击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[除非你操控名稱為野獸擁護人的生物，否則潛行錘角獸每次戰鬥若能攻擊，則必須攻擊。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    if EffectSource() ~= nil then
+    	local filter = ClearFilter()
+    	filter:Add( FE_CARD_NAME, OP_IS, "ADVOCATE_OF_THE_BEAST" )
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    	
+    	if filter:CountStopAt(1) == 0 then
+    		characteristics:Bool_Set( CHARACTERISTIC_MUST_ATTACK, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="-300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

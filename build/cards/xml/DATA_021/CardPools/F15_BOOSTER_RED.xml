@@ -1,0 +1,6 @@
+﻿<card_pool id="16" plane_id="7" content_booster_uid="6" steam_id_1="300940" booster_art_location="Art_Assets\\Textures\\Boosters\\F15_1_B\\" content_id="6">
+  <card name="GALVANIC_ARC_388092" id="353" />
+  <card name="UTVARA_HELLKITE_388094" id="354" />
+  <card name="WARP_WORLD_388088" id="355" />
+  <card name="YOUNG_PYROMANCER_378209" id="356" />
+</card_pool>

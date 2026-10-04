@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="128">
+  <FILENAME text="RETURNED_CENTAUR_374905" />
+  <CARDNAME text="RETURNED_CENTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Returned Centaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Centaure reparu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Centauro resurgido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wiedergekehrter Zentaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Centauro Risvegliato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇（よみがえ）りしケンタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[되살아난 켄타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возвращенный Кентавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Centauro Ressurgido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[转世半人马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[轉世半人馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374905" />
+  <ARTID value="150767" />
+  <ARTIST name="Lucas Graciano" />
+  <CASTING_COST cost="{3}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Driven away by his living kin, he wanders mourning through the wilderness, seeking the dead city of Asphodel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chassé par ses semblables du monde des vivants, il parcourt désespérément les terres sauvages en quête de la cité des morts d'Asphodèle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Expulsado por sus hermanos vivos, vaga y se lamenta por los parajes en busca de la ciudad muerta de Asfodel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vertrieben von seinen lebenden Artgenossen irrt er trauernd durch die Wildnis, immer auf der Suche nach Asphodel, der Polis der Toten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scacciato dai suoi fratelli viventi, vaga gemendo per le terre selvagge, alla ricerca della città morta di Asfodelo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生ある仲間たちから追われ、彼は悲しみの中、死者の街アスフォデルを求めて荒野をさまよっていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[살아있는 동료들에게 쫓겨난 켄타우로스는 망자들의 도시 아스포델을 찾아 황야를 배회한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгнанный своими живыми собратьями, он печально скитается по диким землям в поисках мертвого города Асфодели.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Rechaçado por seus parentes vivos, ele vaga em lamento pelas terras selvagens em busca da cidade dos mortos, Asfódelos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[被在世的亲属赶走后，他悲伤地在旷野间徘徊，寻找死城安福陵。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[被在世的親屬趕走後，他悲傷地在曠野間徘徊，尋找死城安福陵。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Centaur" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Returned Centaur enters the battlefield, target player puts the top four cards of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Centaure reparu arrive sur le champ de bataille, le joueur ciblé met les quatre cartes du dessus de sa bibliothèque dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Centauro resurgido entre al campo de batalla, el jugador objetivo pone las cuatro primeras cartas de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Wiedergekehrte Zentaur ins Spiel kommt, legt ein Spieler deiner Wahl die obersten vier Karten seiner Bibliothek auf seinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Centauro Risvegliato entra nel campo di battaglia, un giocatore bersaglio mette nel suo cimitero le prime quattro carte del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[蘇りしケンタウルスが戦場に出たとき、プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上から４枚のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[되살아난 켄타우로스가 전장에 들어올 때, 플레이어 한 명을 목표로 정한다. 그 플레이어는 자신의 서고 맨 위의 카드 네 장을 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Возвращенный Кентавр выходит на поле битвы, целевой игрок кладет четыре верхние карты своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Centauro Ressurgido entra no campo de batalha, o jogador alvo coloca os quatro cards do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当转世半人马进战场时，目标牌手将其牌库顶的四张牌置入其坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當轉世半人馬進戰場時，目標玩家將其牌庫頂的四張牌置入其墳墓場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_MILL_4" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if target ~= nil then
+    	target:MillCards( 4, EffectSourceLKI() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_ARROWS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_MILL_4">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player. The top four cards of his or her library will be put into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur. Les quatre cartes du dessus de sa bibliothèque seront mises dans son cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador. Las cuatro primeras cartas de su biblioteca se pondrán en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler. Die obersten vier Karten seiner Bibliothek werden auf seinen Friedhof gelegt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore. Le prime quattro carte del suo grimorio verranno messe nel suo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤーを１人選んでください。そのプレイヤーのライブラリーの一番上から４枚のカードを墓地に置きます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어를 고르십시오. 그 플레이어의 서고 맨 위 카드 네 장이 자신의 무덤에 놓입니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока. Четыре верхние карты его библиотеки будут положены на его кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador. Os quatro cards do topo do grimório daquele jogador serão colocados no cemitério dele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手。该牌手牌库顶的四张牌将会被置入坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家。該玩家牌庫頂的四張牌將會被置入墳墓場。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

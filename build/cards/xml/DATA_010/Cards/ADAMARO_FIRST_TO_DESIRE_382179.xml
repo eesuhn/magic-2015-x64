@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="272">
+  <FILENAME text="ADAMARO_FIRST_TO_DESIRE_382179" />
+  <CARDNAME text="ADAMARO_FIRST_TO_DESIRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Adamaro, First to Desire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Adamaro, premier à désirer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Adamaro, el primero en desear]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Adamaro, als Erster begehrend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Adamaro, Primo a Desiderare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[初（はじ）めて欲（ほっ）したもの、仇（あだ）麻（ま）呂（ろ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[욕망의 일인자 아다마로]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Адамаро, Первый в Желаниях]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Adamaro, O Primeiro a Desejar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[始欲仇麻吕]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[始欲仇麻呂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382179" />
+  <ARTID value="86066" />
+  <ARTIST name="Parente" />
+  <CASTING_COST cost="{1}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Beware Adamaro! In him all pain and anger is perfected.”
+—Isao, Enlightened Bushi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Prenez garde à Adamaro ! Chez lui, rage et souffrance sont parfaitement harmonisées. »
+—Isao, bushi éclairé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¡Cuidado con Adamaro! En él, todo el dolor y la furia están perfeccionados”.
+—Isao, bushi inspirado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Fürchtet Adamaro! In ihm sind Schmerz und Zorn perfekt vereinigt.“
+—Isao, Erleuchteter Bushi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Guardatevi da Adamaro! In lui dolore e rabbia conoscono la perfezione.”
+—Isao, Bushi Illuminato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「仇麻呂に気をつけよ！すべての苦痛と憤怒は彼の中で成就されるのだ。」――悟りの武士、勲雄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["아마다로를 조심해라! 그는 고통과 분노를 자유자재로 다룬다."
+—깨달음을 얻은 부시 이사오]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Берегитесь Адамаро! И боль, и ярость он довел до совершенства».
+— Исао, просвещенный буси]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Tenha cuidado Adamaro! Nele toda a dor e a raiva é aperfeiçoada.”
+— Isao, Bushi Iluminado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「务必提防仇麻吕！他是苦痛与愤怒的精粹。」
+～悟道武士勋雄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「務必提防仇麻呂！他是苦痛與憤怒的精粹。」
+～悟道武士勳雄]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="*" />
+  <TOUGHNESS value="*" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Adamaro, First to Desire’s power and toughness are each equal to the number of cards in the hand of the opponent with the most cards in hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La force et l’endurance d’Adamaro, premier à désirer sont chacune égale au nombre de cartes dans la main de l’adversaire qui a le plus de cartes en main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La fuerza y resistencia de Adamaro, el primero en desear son iguales a la cantidad de cartas que haya en la mano del oponente que más cartas tenga en la mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stärke und Widerstandskraft von Adamaro, als Erster begehrend, sind gleich der Anzahl an Karten auf der Hand des Gegners, der die meisten Karten auf der Hand hat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La forza e la costituzione di Adamaro, Primo a Desiderare sono pari al numero di carte che ha in mano l’avversario con più carte in mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[初めて欲したもの、仇麻呂のパワーとタフネスはそれぞれ、手札のカードの枚数が最も多い対戦相手の手札のカードの枚数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[욕망의 일인자 아다마로의 공격력과 방어력은 각각 손에 있는 카드가 가장 많은 상대의 카드 수와 같다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сила и выносливость Адамаро, Первого в Желаниях равны количеству карт в руке того оппонента, у которого в руке больше всех карт.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O poder e a resistência de Adamaro, O Primeiro a Desejar são ambos iguais ao número de cards da mão do oponente com mais cards na mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[始欲仇麻吕的力量和防御力各等同于手牌数量最多之对手的手牌数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[始欲仇麻呂的力量和防禦力各等同於手牌數量最多之對手的手牌數量。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7A">
+    local numPlayers = MTG():GetNumberOfPlayers()
+    local highestCardsinHand = 0
+    for i = 0, (numPlayers-1) do
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if (player ~= nil) and (player:GetTeam() ~= EffectController():GetTeam()) then
+    		
+    		local numCardsinHand = player:Hand_Count()
+    		
+    		if numCardsinHand &gt; highestCardsinHand then
+    			highestCardsinHand = numCardsinHand
+    		end
+    	end
+    end
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    characteristics:Power_Set(highestCardsinHand)
+    characteristics:Toughness_Set(highestCardsinHand)
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

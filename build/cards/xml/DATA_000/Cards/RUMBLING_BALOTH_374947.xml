@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="303">
+  <FILENAME text="RUMBLING_BALOTH_374947" />
+  <CARDNAME text="RUMBLING_BALOTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Rumbling Baloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Baloth grondant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Báloth retumbante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grollender Baloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Baloth Rombante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[轟（とどろ）くベイロス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[덜컹대는 발로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Громыхающий Балот]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Baloth Retumbante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[轰响巴洛西]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[轟響巴洛西]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374947" />
+  <ARTID value="147465" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In the dim light beneath the vast trees of Deepglade, baloths prowl in search of prey. Their guttural calls are more felt than heard, but their attack scream carries for miles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dans la pénombre sous les arbres majestueux de Bosquenoir, les baloths rôdent en quête d'une proie. Si leurs appels gutturaux se ressentent plus qu’ils ne se font entendre, leur cri d'attaque, lui, porte sur plusieurs lieues.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En la tenue luz bajo los enormes árboles de Claro Profundo, los báloths acechan en busca de presas. Sus llamadas guturales se suelen sentir más que escuchar, pero el grito de su ataque se oye a kilómetros de distancia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durch das dämmrige Licht zwischen den gewaltigen Bäumen von Düsterlichtung streifen Baloths auf der Jagd nach Beute. Ihre gutturalen Rufe sind eher zu spüren als zu hören, doch ihr Angriffsgebrüll hört man noch in mehreren Kilometern Entfernung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nella fievole luce sotto gli immensi alberi della Radura Profonda, i baloth si muovono in cerca di preda. I loro richiami gutturali sono bassi e profondi, ma l’urlo che lanciano durante l’attacco si sente a miglia di distanza. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[深隙の森に広がる木々の下、かすかな光の中でベイロスは獲物を求めて徘徊する。彼らのかすれた呼び声は耳で聞くというより肌で感じるものだが、襲い掛かるときの叫び声は何マイルも彼方まで響く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[깊은터의 무성한 나무 아래 음침한 곳에서는 발로스들이 먹이를 찾아 돌아다닌다. 그들의 울음소리는 작고 거칠지만, 공격을 개시할 때 지르는 비명은 숲 전체에 울려 퍼진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В тусклом свете, пробивающемся сквозь раскидистые кроны Частолесья, балоты выслеживают свою добычу. Их гортанный рык пробирает до самых костей, но страшнее всего рев, с которым они набрасываются на жертву, — он раздается за много миль вокруг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Na penumbra, entre as enormes árvores da Clareira Funda, os baloths espreitam suas presas. Seus bramidos guturais são mais sentidos que ouvidos, mas seu grito de ataque ecoa a quilômetros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在邃林巨木底层的微光中，巴洛西四处游猎。比起用耳朵听，它们的喉音还比较经常因振动而感知，但它们出击时的吼声却可远扬数哩。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在邃林巨木底層的微光中，巴洛西四處遊獵。比起用耳朵聽，牠們的喉音還比較經常因振動而感知，但牠們出擊時的吼聲卻可遠揚數哩。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

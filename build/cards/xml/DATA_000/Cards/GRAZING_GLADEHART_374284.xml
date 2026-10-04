@@ -1,0 +1,95 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="397">
+  <FILENAME text="GRAZING_GLADEHART_374284" />
+  <CARDNAME text="GRAZING_GLADEHART" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grazing Gladehart]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cerfeclair paissant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Venado del claro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grasender Wiesenhirsch]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cervo delle Radure al Pascolo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[放（ほう）牧（ぼく）の林（はやし）鹿（じか）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[풀을 뜯는 숲짐승]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пасущийся Болоторог]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cervo-de-clareira Pastejador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[食草林鹿]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[食草林鹿]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374284" />
+  <ARTID value="123656" />
+  <ARTIST name="Ryan Pancoast" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t be fooled. If it were as docile as it looks, it would’ve died off long ago.”
+—Yon Basrel, Oran-Rief survivalist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne vous faites pas avoir. S'il était aussi docile qu'il le paraît, il aurait été exterminé depuis longtemps. »
+—Yon Basrel, survivaliste d'Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que no te engañe. Si fuera tan dócil como parece, se habría muerto hace mucho”.
+—Yon Basrel, sobreviviente de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Lass dich nicht täuschen. Falls sie so sanft wären, wie sie aussehen, wären sie längst ausgestorben.“
+—Yon Basrel, Überlebenskünstler aus dem Oran-Rief-Wald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non ti far ingannare. Se fosse docile come sembra, sarebbe estinto da parecchio tempo.”
+—Yon Basrel, survivalista di Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「騙されるなよ。見た目通りのおとなしさなら、ずっと前に絶滅してるはずだ。」
+――オラン＝リーフの生き残り、ヨン・バスレル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["속지 마십시오. 놈이 생긴 것처럼 온순하다면, 아마 먼 옛날에 죽었겠지요."
+—오란리에프 마을의 생존자 욘 바스렐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не поддавайтесь на обман. Если бы они были такими смирными, как кажется, они бы уже давно вымерли».
+— Йон Базрел, оран-рифский выживатель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não se deixe enganar. Se ele fosse tão dócil quanto parece, já teria morrido há muito tempo.”
+— Yon Basrel, sobrevivencialista de Oran-Rief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「别上当。如果它真有外表看来那么温和，早就绝种了。」
+～欧兰黎求生家阳别瑞]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「別上當。如果牠真有外表看來那麼溫和，早就絕種了。」
+～歐蘭黎求生家陽別瑞]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Antelope" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Landfall| — Whenever a land enters the battlefield under your control, you may gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Toucheterre| — À chaque fois qu’un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez gagner 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Aterrizaje| — Siempre que una tierra entre al campo de batalla bajo tu control, puedes ganar 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Landung| — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du 2 Lebenspunkte dazuerhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Terraferma| — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi guadagnare 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|上陸| ― 土地が１つあなたのコントロール下で戦場に出るたび、あなたは２点のライフを得てもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대지력 — 대지가 당신의 조종 하에 전장에 들어올 때마다, 당신은 생명 2점을 얻을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Землепад| — Каждый раз, когда земля выходит на поле битвы под вашим контролем, вы можете получить 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Aterragem| — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode ganhar 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[地落～每当一个地在你的操控下进战场时，你获得2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[地落～每當一個地在你的操控下進戰場時，你獲得2點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_LAND ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(2 )
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_TITLE_LANDFALL" body="MORE_INFO_BODY_LANDFALL" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

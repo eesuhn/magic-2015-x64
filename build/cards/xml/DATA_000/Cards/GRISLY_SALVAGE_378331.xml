@@ -1,0 +1,112 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="GRISLY_SALVAGE_378331" />
+  <CARDNAME text="GRISLY_SALVAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grisly Salvage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Horrible récupération]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Recuperación truculenta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grauenhafte Bergung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Recupero Raccapricciante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忌（い）まわしい回（かい）収（しゅう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[끔찍한 인양]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страшное Извлечение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Salvamento Macabro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[骇人回收]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[駭人回收]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378331" />
+  <ARTID value="145156" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{B}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[To the Golgari, anything buried is treasure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aux yeux des Golgari, tout ce qui est enterré est un trésor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Para los golgari, todo lo que está enterrado es un tesoro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Für die Golgari ist alles, was vergraben ist, ein Schatz.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Per i Golgari, tutto ciò che è sepolto è un tesoro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴルガリにとって、埋められているものはすべて宝である。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[골가리 길드에게 땅에 묻힌 것은 곧 보물이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Для Голгари все, что зарыто в земле, — сокровище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Para os Golgari, qualquer coisa enterrada é um tesouro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[对葛加理来说，只要是埋起来的东西就是宝藏。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[對葛加理來說，只要是埋起來的東西就是寶藏。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reveal the top five cards of your library. You may put a creature or land card from among them into your hand. Put the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Révélez les cinq cartes du dessus de votre bibliothèque. Vous pouvez mettre une carte de créature ou de terrain parmi elles dans votre main. Mettez le reste dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muestra las cinco primeras cartas de tu biblioteca. Puedes poner en tu mano una carta de criatura o de tierra que se encuentre entre ellas. Pon el resto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Decke die obersten fünf Karten deiner Bibliothek auf. Du kannst davon eine Kreaturen- oder Länderkarte auf deine Hand bringen. Lege den Rest auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rivela le prime cinque carte del tuo grimorio. Puoi aggiungere alla tua mano una carta creatura o terra scelta tra esse. Metti le altre nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上から５枚のカードを公開する。あなたは、それらの中にあるクリーチャー・カードか土地カードを１枚あなたの手札に加えてもよい。残りをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드 다섯 장을 공개한다. 그 중 생물 또는 대지 카드 한 장을 당신의 손으로 가져갈 수 있다. 나머지 카드는 당신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Покажите пять верхних карт вашей библиотеки. Вы можете положить находящуюся среди них карту существа или земли в вашу руку. Положите остальные карты на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Revele os cinco cards do topo de seu grimório. Você pode colocar um card de criatura ou terreno dentre eles em sua mão. Depois, coloque o restante em seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[展示你牌库顶的五张牌。你可以将其中一张生物或地牌置于你手上。将其余牌置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[展示你牌庫頂的五張牌。你可以將其中一張生物或地牌置於你手上。將其餘牌置入你的墳墓場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local answerDC = EffectDC():Make_Targets(0)
+    local queryDC = EffectDC():Make_Chest(1)
+    local player = EffectController()
+    for i = 0, 4 do
+    	local card = player:Library_GetNth(i)
+    	
+    	if card ~= nil then
+    		queryDC:Set_CardPtr(i, card)
+    		
+    		if (card:GetCardType():Test(CARD_TYPE_CREATURE)) == false and (card:GetCardType():Test(CARD_TYPE_LAND)) == false then
+    			queryDC:QueryUnselect_CardPtr(i)
+    		end
+    	else
+    		break
+    	end
+    end
+    for j = 0, (MTG():GetNumberOfPlayers()-1) do
+    	local nthPlayer = MTG():GetNthPlayer(j)
+    	if nthPlayer ~= nil and nthPlayer ~= player then
+    		nthPlayer:RevealDCToMe(queryDC)
+    	end
+    end
+    player:ChooseItemFromDC( "CARD_QUERY_CHOOSE_A_CREATURE_OR_LAND_TO_PUT_INTO_YOUR_HAND", queryDC, answerDC, QUERY_FLAG_MAY)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Chest(1)
+    if targetDC ~= nil then
+        local numCardRevealed = EffectDC():Get_Chest(1):Count()
+        for i = 0, (numCardRevealed-1) do
+        	local card = EffectDC():Get_Chest(1):Get_CardPtr(i)
+        	if card ~= nil then
+        		card:PutInGraveyard()
+        	end
+        end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_OR_LAND_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or land card to put into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte de créature ou de terrain pour la mettre dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta de criatura o tierra para ponerla en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder ein Land, die bzw. das du auf deine Hand nimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta creatura o terra da aggiungere alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの手札に加えるクリーチャーまたは土地カードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[손으로 가져갈 생물 또는 대지 카드를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту существа или земли, которую нужно положить в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card de criatura ou terreno para colocar em sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要置于你手上的生物或地牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張要置於你手上的生物或地牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

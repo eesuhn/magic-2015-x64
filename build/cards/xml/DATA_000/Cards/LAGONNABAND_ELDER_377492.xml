@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="124">
+  <FILENAME text="LAGONNABAND_ELDER_377492" />
+  <CARDNAME text="LAGONNABAND_ELDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lagonna-Band Elder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Doyen du clan Lagonna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anciano del clan Lagonna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ältester der Lagonna-Herde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anziano della Banda Lagonna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラゴンナ団（だん）の長（ちょう）老（ろう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[라곤나 무리 장로]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Старейшина Племени Лагонна]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ancião do Bando de Lagonna]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[拉苟那族长老]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[拉苟那族長老]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377492" />
+  <ARTID value="150817" />
+  <ARTIST name="Min Yum" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The best lessons are not the ones I teach. They are the ones the pupils realize for themselves.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les meilleures leçons ne sont pas celles que j'enseigne. Ce sont celles que les élèves tirent de leur propre expérience. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Las mejores lecciones no son las que enseño. Son las que los alumnos deducen por sí mismos”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die besten Lektionen sind nicht die, die ich lehre. Sondern die, derer die Schüler selbst gewahr werden.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Le lezioni migliori non sono quelle che insegno. Sono quelle che gli studenti imparano da soli.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「最高の教えとは、私が授けたものに非ず。それは生徒が自ら気づいたものである。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["진정한 가르침은 스승의 몫이 아니다. 제자가 스스로 깨닫는 것이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Лучшие уроки — не те, что объясняю я. Это те уроки, что ученики постигают сами».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As melhores lições não são as que eu ensino. São as que os pupilos aprendem sozinhos.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我传授的经验谈不上什么教训。学生的亲身经历才能让他们铭记终生。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我傳授的經驗談不上什麼教訓。學生的親身經歷才能讓他們銘記終生。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Advisor" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Lagonna-Band Elder enters the battlefield, if you control an enchantment, you gain 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Doyen du clan Lagonna arrive sur le champ de bataille, si vous contrôlez un enchantement, vous gagnez 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Anciano del clan Lagonna entre al campo de batalla, si controlas un encantamiento, ganas 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Älteste der Lagonna-Herde ins Spiel kommt und falls du eine Verzauberung kontrollierst, erhältst du 3 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Anziano della Banda Lagonna entra nel campo di battaglia, se controlli un incantesimo, guadagni 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ラゴンナ団の長老が戦場に出たとき、あなたがエンチャントをコントロールしている場合、あなたは３点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[라곤나 무리 장로가 전장에 들어올 때, 당신이 부여마법을 조종한다면, 당신은 생명 3점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Старейшина Племени Лагонна выходит на поле битвы, если под вашим контролем есть чары, вы получаете 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Ancião do Bando de Lagonna entrar no campo de batalha, se você controlar um encantamento, você ganhará 3 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当拉苟那族长老进战场时，若你操控结界，则你获得3点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當拉苟那族長老進戰場時，若你操控結界，則你獲得3點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_ENCHANTMENT )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    local total = filter:Count()
+    if total &gt; 0 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(3 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

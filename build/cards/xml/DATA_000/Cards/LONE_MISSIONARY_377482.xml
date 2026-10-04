@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1140">
+  <FILENAME text="LONE_MISSIONARY_377482" />
+  <CARDNAME text="LONE_MISSIONARY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lone Missionary]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Missionnaire solitaire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Misionero solitario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Einsamer Missionar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Missionario Solitario]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[孤（こ）独（どく）な宣（せん）教（きょう）師（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[단신의 선교사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Миссионер-Одиночка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Missionário Solitário]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[独行传教士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[獨行傳教士]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377482" />
+  <ARTID value="127255" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[His mission has become a grim pilgrimage, a tour of the Eldrazi-stricken outposts across Zendikar. But he marches on alone, stubborn as the daily dawn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sa mission, la visite des avant-postes frappés par les Eldrazi dans tout Zendikar, est devenue un triste pèlerinage. Mais il s'évertue à continuer tout seul, aussi têtu que l'aube quotidienne.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Su misión se ha convertido en un triste peregrinaje, una gira por los destacamentos destruidos por los eldrazi en todo Zendikar. Aun así camina solo, testarudo como el amanecer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seine Mission ist zu einer grausigen Pilgerreise zu den von Eldrazi heimgesuchten Außenposten von Zendikar geworden. Aber er marschiert einsam weiter, so unaufhaltsam wie der kommende Morgen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La sua missione è diventata un macabro pellegrinaggio, un giro degli avamposti colpiti dagli Eldrazi in tutto Zendikar. Ma continua a marciare da solo, ostinato come lo spuntar del giorno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルドラージの被害を受けた開拓地を廻る彼の旅は、やがて悲惨な巡礼となっていく。しかし彼は独り、日々昇る朝日のように断固として歩き続ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엘드라지에 의해 황폐해진 젠디카르의 변방 마을에 복음을 전파하는 선교사의 여정은 우울한 순례길이나 다름없었다. 그러나 그는 아침마다 뜨는 해처럼 고집스럽게 혼자서 길을 간다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Его миссия превратилась в мрачное паломничество, поход по отдаленным поселениям Зендикара, подвергшимся нападению Эльдрази. Но он продолжает свой путь — в одиночестве, упрямый, как утренний рассвет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sua missão se tornou uma peregrinação sinistra, uma viagem através dos postos avançados golpeados pelos Eldrazi por toda Zendikar. Mas ele continua a marchar sozinho, obstinado como a aurora diária.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他的任务已成为灰暗的朝圣路途，在赞迪卡各处遭奥札奇袭击的哨站之间前进。但他依旧独身前行，一如每日坚持升起的朝阳。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他的任務已成為灰暗的朝聖路途，在贊迪卡各處遭奧札奇襲擊的哨站之間前進。但他依舊獨身前行，一如每日堅持升起的朝陽。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Monk" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Lone Missionary enters the battlefield, you gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Missionnaire solitaire arrive sur le champ de bataille, vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Misionero solitario entre al campo de batalla, ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Einsame Missionar ins Spiel kommt, erhältst du 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Missionario Solitario entra nel campo di battaglia, guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[孤独な宣教師が戦場に出たとき、あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[단신의 선교사가 전장에 들어올 때, 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Миссионер-Одиночка выходит на поле битвы, вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Missionário Solitário entra no campo de batalha, você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当独行传教士进战场时，你获得4点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當獨行傳教士進戰場時，你獲得4點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(4 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,7 @@
+﻿<card_pool id="14" plane_id="5" steam_id_1="265146" booster_art_location="Art_Assets\\Textures\\Boosters\\Alara\\" content_id="5">
+  <card name="ARCANE_SANCTUM_381866" id="344" />
+  <card name="CRUMBLING_NECROPOLIS_381878" id="345" />
+  <card name="JUNGLE_SHRINE_374970" id="346" />
+  <card name="SAVAGE_LANDS_381910" id="347" />
+  <card name="SEASIDE_CITADEL_381913" id="348" />
+</card_pool>

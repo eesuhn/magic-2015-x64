@@ -1,0 +1,12 @@
+﻿<card_pool id="9" plane_id="2" steam_id_1="265143" content_id="0">
+  <card name="AZORIUS_GUILDGATE_374451" id="237" />
+  <card name="BOROS_GUILDGATE_374493" id="238" />
+  <card name="DIMIR_GUILDGATE_374497" id="239" />
+  <card name="GOLGARI_GUILDGATE_374833" id="240" />
+  <card name="GRUUL_GUILDGATE_374504" id="241" />
+  <card name="IZZET_GUILDGATE_374470" id="242" />
+  <card name="ORZHOV_GUILDGATE_374968" id="243" />
+  <card name="RAKDOS_GUILDGATE_374472" id="244" />
+  <card name="SELESNYA_GUILDGATE_374476" id="245" />
+  <card name="SIMIC_GUILDGATE_374519" id="246" />
+</card_pool>

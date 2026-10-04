@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="128">
+  <FILENAME text="POLYMORPHISTS_JEST_374699" />
+  <CARDNAME text="POLYMORPHISTS_JEST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Polymorphist’s Jest]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Facétie du polymorphiste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Broma de la transmutadora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Polymorphistenscherz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scherzo della Polimorfista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[変（へん）身（しん）術（じゅつ）士（し）の戯（たわむ）れ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변환술사의 장난]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шутка Мастера Изменений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Brincadeira da Polimorfista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[变型术士恶戏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[變型術士惡戲]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374699" />
+  <ARTID value="155222" />
+  <ARTIST name="Craig J Spearing" />
+  <CASTING_COST cost="{1}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The flies were bothering me.”
+—Jalira, master polymorphist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les mouches commençaient à m'agacer. »
+—Jalira, maîtresse polymorphiste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Me molestaban las moscas”.
+—Jalira, maestra de la transmutación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mir gingen die Fliegen auf die Nerven.“
+—Jalira, Meisterpolymorphistin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Le mosche mi davano fastidio.”
+—Jalira, maestra polimorfista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ハエがうるさかったからね。」――変身術の達人、ジャリラ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["파리 때문에 신경쓰였어."
+—변환술의 대가 잘리라]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Эти мухи мне досаждали».
+— Джалира, мастер изменений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“As moscas estavam me incomodando.”
+— Jalira, polimorfista-mestre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这些苍蝇烦死了。」
+～变型宗师贾丽拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這些蒼蠅煩死了。」
+～變型宗師賈麗拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Until end of turn, each creature target player controls loses all abilities and becomes a blue Frog with base power and toughness 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jusqu’à la fin du tour, chaque créature que le joueur ciblé contrôle perd toutes ses capacités et devient une grenouille bleue avec une force et une endurance de base de 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hasta el final del turno, cada criatura que controla el jugador objetivo pierde todas sus habilidades y se convierte en una Rana azul con fuerza y resistencia base 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis zum Ende des Zuges verliert jede Kreatur, die ein Spieler deiner Wahl kontrolliert, alle Fähigkeiten und wird zu einem blauen Frosch mit Basis-Stärke und -Widerstandskraft 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fino alla fine del turno, ogni creatura controllata da un giocatore bersaglio perde tutte le abilità e diventa una Rana blu con forza e costituzione base 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。そのプレイヤーがコントロールする各クリーチャーはターン終了時まで、すべての能力を失うとともに基本のパワーとタフネスが１/１の青のカエルになる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어를 목표로 정한다. 그 플레이어가 조종하는 각 생물은 턴종료까지 모든 능력을 잃고 기본 공격력 및 방어력이 1/1인 청색 개구리가 된다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[До конца хода каждое существо под контролем целевого игрока теряет все способности и становится синей Лягушкой с базовыми силой и выносливостью 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até o final do turno, cada criatura que o jogador alvo controla perde todas as habilidades e torna-se um Sapo azul com 1/1 de poder e resistência básicos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[直到回合结束，由目标牌手操控的所有生物均失去所有异能，且成为基础力量与防御力为1/1的蓝色蛙。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[直到回合結束，由目標玩家操控的所有生物均失去所有異能，且成為基礎力量與防禦力為1/1的藍色蛙。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_FROGTOPIA" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <FILTER filter_id="0">
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, target_player )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7B" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Set( 1 )
+    	characteristics:Toughness_Set( 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    local filteredCard = FilteredCard()
+    if filteredCard ~= nil then
+    	local characteristics = filteredCard:GetCurrentCharacteristics()
+    	characteristics:LoseAllAbilities()
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="5" filter_id="0">
+    local filteredCard = FilteredCard()
+    if filteredCard ~= nil then
+    	local characteristics = filteredCard:GetCurrentCharacteristics()
+    	characteristics:Colour_Set( COLOUR_BLUE )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="4B" filter_id="0">
+    local filteredCard = FilteredCard()
+    if filteredCard ~= nil then
+    	local characteristics = filteredCard:GetCurrentCharacteristics()
+    	characteristics:SubType_SetOnly( CREATURE_TYPE_FROG )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_FROGTOPIA">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player. Until end of turn, that player’s creatures will lose all abilities and become 1/1 blue Frogs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur. Jusqu'à la fin du tour, les créatures de ce joueur perdront toutes leurs capacités et deviendront des grenouilles 1/1 bleues.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador. Hasta el final del turno, las criaturas de ese jugador perderán todas las habilidades y se convertirán en Ranas azules 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler. Bis zum Ende des Zuges verlieren alle Kreaturen dieses Spielers alle Fähigkeiten und sind 1/1 blaue Frösche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore. Fino alla fine del turno, le creature di quel giocatore perderanno tutte le abilità e diventeranno Rane 1/1 blu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤーを１人選んでください。ターン終了時まで、そのプレイヤーのクリーチャーはすべての能力を失い、青の１/１のカエルになります。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어를 고르십시오. 턴이 끝날 때까지 그 플레이어의 생물들은 모든 능력을 잃고 1/1 청색 개구리가 됩니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока. До конца хода существа того игрока потеряют все способности и станут синими Лягушками 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador. Até o final do turno, as criaturas daquele jogador perderão todas as habilidades e se tornarão criaturas azuis 1/1 do tipo Sapo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手。直到回合结束，该牌手的生物将失去所有异能，并成为1/1蓝色的蛙。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家。直到回合結束，該玩家的生物將失去所有異能，並成為1/1藍色的蛙。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

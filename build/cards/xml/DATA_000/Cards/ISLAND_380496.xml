@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="937">
+  <FILENAME text="ISLAND_380496" />
+  <CARDNAME text="ISLAND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Island]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Île]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Isla]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Insel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Isola]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[島（しま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[섬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Остров]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ilha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[海岛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[海島]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380496" />
+  <ARTID value="89176" />
+  <ARTIST name="Richard Wright" />
+  <CASTING_COST cost="" />
+  <SUPERTYPE metaname="Basic" />
+  <TYPE metaname="Land" />
+  <SUB_TYPE metaname="Island" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="L" />
+  <EXPLAIN play_tag="HINT_LAND_MANA_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="124">
+  <FILENAME text="DROWN_IN_FILTH_374530" />
+  <CARDNAME text="DROWN_IN_FILTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Drown in Filth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Noyade dans la fange]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ahogado en mugre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Im Dreck ertrinken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sommerso dalla Sporcizia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[汚（お）濁（だく）まみれ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오물에 빠져 죽다]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Утонуть в Грязи]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Afogar na Imundice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[污秽灭顶]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[污穢滅頂]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374530" />
+  <ARTID value="147769" />
+  <ARTIST name="Seb McKinnon" />
+  <CASTING_COST cost="{B}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The rot farmer’s first rite of passage is to craft a pair of work stilts.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chez les putré-fermiers, le premier rite de passage consiste à confectionner une paire d'échasses de travail.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El rito iniciático del granjero de podredumbre es hacer un par de zancos de trabajo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Initiationsritual für jeden neuen Verrottungsfarmer ist, sich ein Paar Arbeitsstelzen anzufertigen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il primo rito di passaggio di un putrificatore è fabbricare un paio di trampoli da lavoro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[腐敗農夫にとって最初の通過儀礼となるのが、作業用の竹馬づくりだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부패 농부가 되기 위해서는 타고 작업할 만한 장대부터 만들어야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Первая задача, которая стоит перед начинающим гнилостным фермером, — это соорудить пару рабочих ходуль.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O primeiro rito de passagem de um fazendeiro de podridão é fazer um par de pernas de pau para trabalhar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[腐尸农夫的第一个成长仪式，就是制作一副工作高跷。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腐屍農夫的第一個成長儀式，就是製作一副工作高蹺。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose target creature. Put the top four cards of your library into your graveyard, then that creature gets -1/-1 until end of turn for each land card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ciblée. Mettez les quatre cartes du dessus de votre bibliothèque dans votre cimetière, puis cette créature gagne -1/-1 jusqu’à la fin du tour pour chaque carte de terrain dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura objetivo. Pon las cuatro primeras cartas de tu biblioteca en tu cementerio, luego esa criatura obtiene -1/-1 hasta el final del turno por cada carta de tierra en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur deiner Wahl. Lege die obersten vier Karten deiner Bibliothek auf deinen Friedhof, dann erhält diese Kreatur für jede Länderkarte in deinem Friedhof -1/-1 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura bersaglio. Metti nel tuo cimitero le prime quattro carte del tuo grimorio, poi quella creatura prende -1/-1 fino alla fine del turno per ogni carta terra nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。あなたのライブラリーの一番上から４枚のカードをあなたの墓地に置く。その後、そのクリーチャーはターン終了時まで、あなたの墓地にある土地カード１枚につき－１/－１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 당신의 서고 맨 위에서 카드 네 장을 무덤에 넣는다. 그 생물은 당신의 무덤에 있는 대지 카드 한 장당 턴종료까지 -1/-1을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите целевое существо. Положите четыре верхние карты вашей библиотеки на ваше кладбище, затем то существо получает -1/-1 до конца хода за каждую карту земли на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura alvo. Coloque os quatro cards do topo de seu grimório em seu cemitério. Depois, aquela criatura recebe -1/-1 até o final do turno para cada card de terreno em seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择目标生物。将你牌库顶的四张牌置入你的坟墓场，然后你的坟墓场每有一张地牌，该生物便得-1/-1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇目標生物。將你牌庫頂的四張牌置入你的墳墓場，然後你的墳墓場每有一張地牌，該生物便得-1/-1直到回合結束。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_DROWN_IN_FILTH" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():MillCards( 4 )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_LAND)
+    filter:SetZone(ZONE_GRAVEYARD, EffectController())
+    EffectDC():Set_Int(1, filter:Count())
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local number = EffectDC():Get_Int(1)
+    if target ~= nil and number ~= 0 then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( -number )
+    	characteristics:Toughness_Add( -number )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_DROWN_IN_FILTH">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get -1/-1 for each land card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner -1/-1 pour chaque carte de terrain dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga -1/-1 por cada carta de tierra en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die -1/-1 für jedes Land in deinem Friedhof erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende -1/-1 per ogni carta terra nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にある土地カード１枚につき－１/－１の修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어의 무덤에 있는 대지 카드 한 장당 -1/-1을 받을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит -1/-1 за каждую карту земли на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber -1/-1 para cada card de terreno no seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，你的坟墓场中每有一张地牌，该生物便得-1/-1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物，你的墳墓場中每有一張地牌，該生物便得-1/-1。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

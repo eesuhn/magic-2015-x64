@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="PHANTASMAL_BEAR_374329" />
+  <CARDNAME text="PHANTASMAL_BEAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Phantasmal Bear]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ours phantasmatique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oso fantasmal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Traumbär]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Orso Fantasma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻（げん）影（えい）の熊（くま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[허깨비 곰]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Призрачный Медведь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Urso Fantasmal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[幻象熊]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[幻象熊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374329" />
+  <ARTID value="134142" />
+  <ARTIST name="Ryan Yee" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You know it to be false, but when its claws find you, what you know won’t matter much at all.”
+—Pol Jamaar, illusionist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous savez qu'il n'est qu'illusion, mais quand ses griffes vous lacèrent, cela n'a aucune importance. »
+—Pol Jamaar, illusioniste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Sabes que no es real pero, cuando sus garras te alcanzan, lo que sepas no importa demasiado”.
+—Pol Jamaar, ilusionista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du weißt, dass es ihn eigentlich nicht gibt, aber wenn seine Krallen dich zerfleischen, hilft dir dein Wissen nicht.“
+—Pol Jamaar, Illusionist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sai che è falso, ma quando i suoi artigli ti raggiungono, non importa molto cosa sai o non sai.”
+—Pol Jamaar, illusionista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「偽りだとわかっていようが、その爪がお前にかかったら、お前の考えなど役には立たないぞ。」――幻術士、ポル・ジャマール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["허깨비라는 것을 알아차리더라도 날카로운 발톱이 너를 찢어죽인다는 사실은 변하지 않는다."
+—환영술사 폴 자마르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вы знаете, что он ненастоящий, но это не будет иметь никакого значения, когда его когти вопьются в ваше тело».
+— Пол Джамаар, иллюзионист]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você sabe que ele não é real, mas quando suas garras o alcançam, já não importa o que você sabe.”
+— Pol Jamaar, ilusionista]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你明知这不是真的，但当它向你挥爪，你知道些什么可一点也不重要。」
+～幻影师波贾玛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你明知這不是真的，但當它向你揮爪，你知道些什麼可一點也不重要。」
+～幻影師波賈瑪]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Bear" />
+  <SUB_TYPE metaname="Illusion" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Phantasmal Bear becomes the target of a spell or ability, sacrifice it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Ours phantasmatique devient la cible d’un sort ou d’une capacité, sacrifiez-le.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Oso fantasmal sea objetivo de un hechizo o habilidad, sacrifícalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Traumbär das Ziel eines Zauberspruchs oder einer Fähigkeit wird, opfere ihn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Orso Fantasma diventa bersaglio di una magia o abilità, sacrificalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[幻影の熊が呪文や能力の対象になったとき、これを生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[허깨비 곰이 주문이나 능력의 목표가 될 때, 허깨비 곰을 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Призрачный Медведь становится целью заклинания или способности, пожертвуйте его.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Urso Fantasmal se tornar alvo de uma mágica ou habilidade, sacrifique-o.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当幻象熊成为咒语或异能的目标时，将它牺牲。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當幻象熊成為咒語或異能的目標時，將它犧牲。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_TARGET_OF_SPELL" simple_qualifier="self" />
+    <TRIGGER value="BECAME_TARGET_OF_ABILITY" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectController():Sacrifice( EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="-150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

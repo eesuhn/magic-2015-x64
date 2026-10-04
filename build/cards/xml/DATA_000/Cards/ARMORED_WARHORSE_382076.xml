@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="ARMORED_WARHORSE_382076" />
+  <CARDNAME text="ARMORED_WARHORSE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Armored Warhorse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Destrier cuirassé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caballo de guerra acorazado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gepanzertes Schlachtross]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Destriero Corazzato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鎧（よろい）の軍（ぐん）馬（ば）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기갑 전마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Боевой Конь в Доспехах]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavalo de Guerra Blindado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[装甲战马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[裝甲戰馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382076" />
+  <ARTID value="135281" />
+  <ARTIST name="rk post" />
+  <CASTING_COST cost="{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“When we of the Northern Verge claim a mount, no peasant’s nag will do. It must be as strong as our virtue, and must join us of its own will.”
+—Sarlena, paladin of the Northern Verge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Quand le peuple de l'Orée Septentrionale choisit une monture, un canasson de paysan ne suffit pas. Le cheval doit être aussi fort que notre vertu, et il doit nous rejoindre de son plein gré. »
+—Sarlena, paladin de l'Orée Septentrionale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Cuando los del Límite Norte pedimos una montura, un burro cualquiera no sirve. Debe ser fuerte como nuestra virtud, y debe unírsenos voluntariamente”.
+—Sarlena, paladín del Límite Norte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wenn wir vom Nordrand uns ein Pferd suchen, dann tut es nicht ein gewöhnlicher Klepper. Es muss so stark sein wie unsere Tugend und uns aus eigenem Antrieb folgen.“
+—Sarlena, Paladin des Nordrands]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Quando noi del Margine Nord rivendichiamo una cavalcatura, non sarà certo un ronzino da contadino. Deve essere forte come la nostra virtù e deve unirsi a noi per sua volontà.”
+—Sarlena, paladina del Margine Nord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我ら北境団が乗馬を求めるとき、農夫の馬では役に立たないわ。我々の武勇ほど強く、己の意思で来るものでなければだめよ。」――北境団の聖騎士、サルレナ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리 북부 접경지 사람들이 전마를 고를 때는 농부들의 간섭 따위는 무시한다. 우리가 탈 전마는 우리처럼 고결하고 스스로 우리를 따라와야 하지."
+—북부 접경지의 성기사 사를레나]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Когда мы, из ордена Северной Окраины, выбираем коня, обычная крестьянская лошадь не годится. Он должен быть крепким, как наша добродетель, и служить нам по собственной воле».
+— Сарлена, паладин ордена Северной Окраины]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quando nós da Fronteira Norte exigimos um cavalo, não pode ser qualquer pangaré. Ele precisa ser tão forte quanto a nossa virtude, e deve unir-se a nós de livre e espontânea vontade.”
+— Sarlena, paladina da Fronteira Norte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们北境精兵要挑的座骑，可不是随便一匹农耕老马就能胜任的。它必须坚强如我们的美德，还得出于自愿加入。」
+～北境神圣武士莎雷娜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們北境精兵要挑的座騎，可不是隨便一匹農耕老馬就能勝任的。牠必須堅強如我們的美德，還得出於自願加入。」
+～北境神聖武士莎雷娜]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Horse" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

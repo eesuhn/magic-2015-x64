@@ -1,0 +1,132 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="228">
+  <FILENAME text="CONSTRICTING_SLIVER_374690" />
+  <CARDNAME text="CONSTRICTING_SLIVER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Constricting Sliver]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Slivoïde constricteur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fragmentado asfixiante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erstickender Remasuri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tramutante Costrittore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[押（お）さえつけるスリヴァー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[옥죄는 슬리버]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Удушающая Щепка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fractius Constritor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[缠缚裂片妖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[纏縛裂片妖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374690" />
+  <ARTID value="155350" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{5}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Slivers are often seen toying with enemies they capture, not out of cruelty, but to more fully learn their physical capabilities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les slivoïdes jouent souvent avec les ennemis qu'ils capturent, pas par cruauté, mais dans le but de connaître leurs capacités physiques dans les moindres détails.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[A menudo se ve a los fragmentados jugar con los enemigos que capturan; no lo hacen por crueldad, sino más bien para conocer a fondo sus capacidades físicas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Remasuris spielen häufig mit den Feinden, die sie fangen. Nicht aus Grausamkeit, sondern um mehr über ihre körperlichen Fähigkeiten zu erfahren.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Numerosi avvistamenti raccontano di tramutanti che giocano con i nemici catturati, non per crudeltà, ma per comprendere pienamente le loro abilità fisiche.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スリヴァーはしばしば捕えた敵を弄ぶことがある。これは残虐性からではなく、その身体的能力をより良く知るために行っているのである。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[슬리버들은 종종 생포한 적을 가지고 노는데, 잔인함이라기 보다는 적의 육체적인 능력을 완벽하게 연구하기 위해서이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нередко можно увидеть, как щепки играют с попавшими им в лапы врагами. Однако они делают это не из жестокости, а для того, чтобы лучше изучить их физические возможности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os fractius são muitas vezes vistos brincando com os inimigos capturados, não por crueldade, mas para conhecer as capacidades físicas da presa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[时常有人看见裂片妖玩弄他们捕获的敌人，这并非出于残忍，而是为了充分了解他们的身体机能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[時常有人看見裂片妖玩弄他們捕獲的敵人，這並非出於殘忍，而是為了充分瞭解他們的身體機能。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Sliver" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sliver creatures you control have “When this creature enters the battlefield, you may exile target creature an opponent controls until this creature leaves the battlefield.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures Slivoïde que vous contrôlez ont « Quand cette créature arrive sur le champ de bataille, vous pouvez exiler une créature ciblée qu’un adversaire contrôle jusqu’à ce que cette créature quitte le champ de bataille. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas Fragmentado que controlas tienen “Cuando esta criatura entre al campo de batalla, puedes exiliar la criatura objetivo que controla un oponente hasta que esta criatura deje el campo de batalla”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Remasuri-Kreaturen, die du kontrollierst, haben „Wenn diese Kreatur ins Spiel kommt, kannst du eine Kreatur deiner Wahl, die ein Gegner kontrolliert, ins Exil schicken, bis diese Kreatur das Spiel verlässt.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature Tramutante che controlli hanno “Quando questa creatura entra nel campo di battaglia, puoi esiliare una creatura bersaglio controllata da un avversario finché questa creatura non lascia il campo di battaglia”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするスリヴァー・クリーチャーは「このクリーチャーが戦場に出たとき、対戦相手がコントロールするクリーチャー１体を対象とし、このクリーチャーが戦場を離れるまでそれを追放してもよい。」を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 슬리버 생물들은 "이 생물이 전장에 들어올 때, 상대가 조종하는 생물을 목표로 정한다. 당신은 그 목표를 이 생물이 전장을 떠날 때까지 추방할 수 있다."를 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа-Щепки под вашим контролем имеют способность «Когда это существо выходит на поле битвы, вы можете изгнать целевое существо под контролем оппонента до тех пор, пока это существо не покинет поле битвы».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas do tipo Fractius que você controla têm “Quando essa criatura entra no campo de batalha, você pode exilar a criatura alvo que o oponente controla até esta criatura deixar o campo de batalha.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的裂片妖生物具有「当此生物进战场时，你可以放逐目标由对手操控的生物，直到此生物离开战场为止。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的裂片妖生物具有「當此生物進戰場時，你可以放逐目標由對手操控的生物，直到該生物離開戰場為止。」]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_SLIVER )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:GrantAbility(1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When this creature enters the battlefield, you may exile target creature an opponent controls until this creature leaves the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand cette créature arrive sur le champ de bataille, vous pouvez exiler une créature ciblée qu'un adversaire contrôle jusqu'à ce que cette créature quitte le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando esta criatura entre al campo de batalla, puedes exiliar la criatura objetivo que controla un oponente hasta que esta criatura deje el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn diese Kreatur ins Spiel kommt, kannst du eine Kreatur deiner Wahl, die ein Gegner kontrolliert, ins Exil schicken, bis diese Kreatur das Spiel verlässt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando questa creatura entra nel campo di battaglia, puoi esiliare una creatura bersaglio controllata da un avversario finché questa creatura non lascia il campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このクリーチャーが戦場に出たとき、対戦相手がコントロールするクリーチャー１体を対象とし、このクリーチャーが戦場を離れるまでそれを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 생물이 전장에 들어올 때, 상대가 조종하는 생물을 목표로 정한다. 당신은 그 목표를 이 생물이 전장을 떠날 때까지 추방할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда это существо выходит на поле битвы, вы можете изгнать целевое существо под контролем оппонента до тех пор, пока это существо не покинет поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando essa criatura entra no campo de batalha, você pode exilar a criatura alvo que o oponente controla até esta criatura deixar o campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当此生物进战场时，你可以放逐目标由对手操控的生物，直到此生物离开战场为止。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當此生物進戰場時，你可以放逐目標由對手操控的生物，直到該生物離開戰場為止。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if target ~= nil then
+    		EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    		target:Exile()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    	if target ~= nil then
+    		target:NailOnto(TriggerObject())
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPIRY_ACTION>
+    local cardToReturn = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if cardToReturn ~= nil then
+    	cardToReturn:PutOntoBattlefield( cardToReturn:GetOwner() )
+    end
+    </EXPIRY_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_SLIVERS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para exiliarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放逐的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

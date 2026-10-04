@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="115">
+  <FILENAME text="JORAGA_WARCALLER_380306" />
+  <CARDNAME text="JORAGA_WARCALLER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Joraga Warcaller]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Meneur de guerre de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Llamaguerra de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kriegssänger aus Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Convocatore di Guerra di Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジョラーガの戦（いくさ）呼（よ）び]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조라가 전쟁기원사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джорагский Военный Зазывала]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Invocador de Guerra de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玖瑞加战呼人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玖瑞加戰呼人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380306" />
+  <ARTID value="126735" />
+  <ARTIST name="Steven Belledin" />
+  <CASTING_COST cost="{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <UTILITY_ABILITY qualifier="Multikicker">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Multikicker {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Multikick {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Multiestímulo {1}{G}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Multibonus {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Multipotenziamento {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[多重キッカー{1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다중 키커 {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мультиусилитель {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Multireforçar {1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[多重增幅{1}{G}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[多重增幅{1}{G}]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{G}" type="Mana" />
+    <ABILITY_TEXT tag="KICKER_QUERY_JORAGA_WARCALLER_MULTIKICKER" />
+  </UTILITY_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Joraga Warcaller enters the battlefield with a +1/+1 counter on it for each time it was kicked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Meneur de guerre de Joraga arrive sur le champ de bataille avec, sur lui, un marqueur +1/+1 pour chaque fois qu’il a été kické.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Llamaguerra de Joraga entra al campo de batalla con un contador +1/+1 sobre él por cada vez que fue estimulado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Kriegssänger aus Joraga kommt mit X +1/+1-Marken ins Spiel, wobei X die Anzahl ist, wie oft seine Bonuskosten bezahlt wurden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Convocatore di Guerra di Joraga entra nel campo di battaglia con un segnalino +1/+1 per ogni volta che è stato potenziato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジョラーガの戦呼びは、それがキッカーされた１回につき＋１/＋１カウンターが１個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조라가 전쟁기원사는 키커 비용을 지불한 횟수만큼의 +1/+1 카운터를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джорагский Военный Зазывала выходит на поле битвы с жетоном +1/+1 на нем за каждый полученный им Усилитель.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Invocador de Guerra de Joraga entra no campo de batalha com um marcador +1/+1 para cada vez que tiver sido reforçado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玖瑞加战呼人进战场时上面有数个+1/+1指示物，其数量为它增幅过的次数。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玖瑞加戰呼人進戰場時上面有數個+1/+1指示物，其數量為它增幅過的次數。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return EffectSource():WasKicked() == true 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    local number = effectSource:GetKickedCount()
+    if effectSource ~= nil and number ~= 0 then
+    	effectSource:AddCounters( MTG():PlusOnePlusOneCounters(), number )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Other Elf creatures you control get +1/+1 for each +1/+1 counter on Joraga Warcaller.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les autres créatures Elfe que vous contrôlez gagnent +1/+1 pour chaque marqueur +1/+1 sur le Meneur de guerre de Joraga.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las otras criaturas Elfo que controlas obtienen +1/+1 por cada contador +1/+1 sobre el Llamaguerra de Joraga.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Andere Elfen-Kreaturen, die du kontrollierst, erhalten für jede +1/+1-Marke auf dem Kriegssänger aus Joraga +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le altre creature Elfo che controlli prendono +1/+1 per ogni segnalino +1/+1 sul Convocatore di Guerra di Joraga.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールする他のエルフ・クリーチャーは、ジョラーガの戦呼びの上に置かれている＋１/＋１カウンター１個につき＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 엘프 생물들은 조라가 전쟁기원사가 가진 +1/+1 카운터 한 개당 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Другие существа-Эльфы под вашим контролем получают +1/+1 за каждый жетон +1/+1 на Джорагском Военном Зазывале.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As outras criaturas do tipo Elfo que você controla recebem +1/+1 para cada marcador +1/+1 em Invocador de Guerra de Joraga.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玖瑞加战呼人上每有一个+1/+1指示物，由你操控的其他妖精生物便得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玖瑞加戰呼人上每有一個+1/+1指示物，由你操控的其他妖精生物便得+1/+1。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, EffectSource() )
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ELF )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    local number = EffectSource():CountCounters( MTG():PlusOnePlusOneCounters() )
+    local filteredCard = FilteredCard()
+    if filteredCard~= nil then
+    	local characteristics = filteredCard:GetCurrentCharacteristics()
+    	characteristics:Power_Add( number )
+    	characteristics:Toughness_Add ( number )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <QUERYTEXT tag="KICKER_QUERY_JORAGA_WARCALLER_MULTIKICKER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[How many +1/+1 counters do you want to put on Joraga Warcaller?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Combien de marqueurs +1/+1 voulez-vous mettre sur le Meneur de guerre de Joraga ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Cuántos contadores +1/+1 quieres poner sobre el Llamaguerra de Joraga?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wie viele +1/+1-Marken willst du auf den Kriegssänger aus Joraga legen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quanti segnalini +1/+1 vorresti mettere sul Convocatore di Guerra di Joraga?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《ジョラーガの戦呼び》に＋１/＋１カウンターを何個置きますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조라가 전쟁기원사에 +1/+1 카운터 몇 개를 올려놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сколько жетонов +1/+1 вы хотите положить на Джорагского Военного Зазывалу?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quantos marcadores +1/+1 você deseja colocar sobre Invocador de Guerra de Joraga?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[您想要在玖瑞加战呼人上放置多少个+1/+1指示物？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要在玖瑞加戰呼人上放置多少個+1/+1指示物？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

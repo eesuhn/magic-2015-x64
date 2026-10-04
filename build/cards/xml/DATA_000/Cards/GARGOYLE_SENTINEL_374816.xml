@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="500">
+  <FILENAME text="GARGOYLE_SENTINEL_374816" />
+  <CARDNAME text="GARGOYLE_SENTINEL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gargoyle Sentinel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sentinelle gargouille]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gárgola centinela]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachposten-Gargoyle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gargoyle Sentinella]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ガーゴイルの歩（ほ）哨（しょう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가고일 보초]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Горгулья-Страж]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sentinela Gárgula]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[哨兵石像鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[哨兵石像鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374816" />
+  <ARTID value="129079" />
+  <ARTIST name="Drew Baker" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Do not mistake a quiet rampart for one that is unguarded. Some things stir only when they need to.”
+—Bonovar, siege commander]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne croyez pas qu'un rempart silencieux ne soit pas défendu. Certaines choses bougent uniquement quand il le faut. »
+—Bonovar, commandant des assiégeants]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No confundas un bastión tranquilo con uno que no está custodiado. Algunas cosas se mueven solo cuando lo necesitan”.
+—Bonovar, comandante de sitio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es ist falsch, wenn man eine ruhige Palisade für unbewacht hält. Manches bewegt sich nur, wenn es muss.“
+—Bonovar, Belagerungs-Kommandant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non confondere un bastione tranquillo con uno non sorvegliato. Alcune cose si agitano solo quando devono.”
+—Bonovar, comandante dell’assedio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「物静かな防壁を無防備と早とちりするな。必要な時のみ目覚める物もあるのだ。」――包囲司令官、ボノヴァール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["무방비 상태의 조용한 성벽이라고 방심하지 마라. 꼭 필요할 때만 움직이는 놈들이 있다."
+—공성 사령관 보노바르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Окутывающая бастионы тишина вовсе не означает, что крепость оставили без охраны. Некоторые стражи подают признаки жизни только при необходимости».
+— Боновар, командир осаждающего войска]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não confunda um antemuro sossegado com um desprotegido. Algumas coisas se movem apenas quando é necessário.”
+— Bonovar, comandante de cerco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「别以为这样毫无动静的壁垒就一定无人看守。有些东西只在有必要时才会动起来。」
+～攻城指挥官波诺瓦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「別以為這樣毫無動靜的壁壘就一定無人看守。有些東西只在有必要時才會動起來。」
+～攻城指揮官波諾瓦]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Gargoyle" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Defender]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défenseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defensor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verteidiger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Difensore]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[防衛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[수비태세]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Защитник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defensor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[守军]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[守軍]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_DEFENDER" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{3}: Until end of turn, Gargoyle Sentinel loses defender and gains flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{3} : Jusqu’à la fin du tour, la Sentinelle gargouille perd le défenseur et acquiert le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{3}: Hasta el final del turno, la Gárgola centinela pierde la habilidad de defensor y gana la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{3}: Bis zum Ende des Zuges verliert der Wachposten-Gargoyle Verteidiger und erhält Flugfähigkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{3}: Fino alla fine del turno, il Gargoyle Sentinella perde difensore e ha volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{3}：ターン終了時まで、ガーゴイルの歩哨は防衛を失うとともに飛行を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{3}: 턴종료까지, 가고일 보초는 수비태세를 잃고 비행을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{3}: до конца хода Горгулья-Страж теряет способность Защитника и получает Полет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{3}: Até o final do turno, Sentinela Gárgula perde defensor e ganha voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{3}：直到回合结束，哨兵石像鬼失去守军异能并获得飞行异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{3}：直到回合結束，哨兵石像鬼失去守軍異能並獲得飛行異能。]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}" type="Mana" />
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_DEFENDER, 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_FLYING, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Defender" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_6" body="MORE_INFO_BADGE_BODY_6" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

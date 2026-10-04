@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="291">
+  <FILENAME text="FUSION_ELEMENTAL_381997" />
+  <CARDNAME text="FUSION_ELEMENTAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fusion Elemental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élémental de fusion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elemental de la fusión]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fusionselementar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elementale della Fusione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[融（ゆう）合（ごう）の精（せい）霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[융합의 정령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элементаль Слияния]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elemental da Fusão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[融合元素]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[融合元素]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381997" />
+  <ARTID value="118699" />
+  <ARTIST name="Michael Komarck" />
+  <CASTING_COST cost="{W}{U}{B}{R}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As the shards merged into the Maelstrom, their mana energies fused into new monstrosities.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tandis que les éclats fusionnaient dans le Maelstrom, l'énergie de leurs manas s'amalgamait pour donner naissance à de nouvelles monstruosités.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras los fragmentos se fundían en el Remolino, sus energías de maná se fusionaban en nuevas monstruosidades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Als sich die Fragmente im Mahlstrom wieder vereinigten, erschufen die Manaströme neue monströse Wesen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i frammenti si fusero attorno al Maelstrom, le loro energie di mana si mescolarono assieme originando nuove mostruosità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[断片が大渦の中で繋がりあうとき、そのマナのエネルギーは融合し、新たな怪物となった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[알라라의 다섯 조각이 마엘스트롬에 합류하면서, 각자의 마나가 융합되어 새로운 괴물들이 탄생했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда осколки слились, образовав Мальстрем, энергия заложенной в них маны объединилась, породив новых монстров.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[À medida que os fragmentos se consolidaram no Maelstrom, suas energias de mana se fundiram e formaram novas monstruosidades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[随着断片向涡心聚合，其间的法术力能量融合成新种的怪兽。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[隨著斷片向渦心聚合，其間的魔法力能量融合成新種的怪獸。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="8" />
+  <TOUGHNESS value="8" />
+  <SFX text="COMBAT_INFERNO_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

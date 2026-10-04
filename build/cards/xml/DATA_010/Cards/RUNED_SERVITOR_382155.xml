@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="RUNED_SERVITOR_382155" />
+  <CARDNAME text="RUNED_SERVITOR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Runed Servitor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Valet serti de runes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Servidor rúnico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Runenbedeckter Diener]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Servitore Runico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーンの苦（く）役（えき）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬이 박힌 하인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рунный Прислужник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Serviçal Rúnico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[符文随侍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[符文隨侍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382155" />
+  <ARTID value="127440" />
+  <ARTIST name="Mike Bierek" />
+  <CASTING_COST cost="{2}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scholars had puzzled for centuries over the ruins at Tal Terig. Its secrets had always lived within one rune-carved head.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les érudits s'étaient interrogés durant des siècles sur les ruines de Tal Terig. Ses secrets avaient toujours été cachés dans une tête gravée de runes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los eruditos estudiaron por siglos las ruinas de Tal Terig. Sus secretos estuvieron siempre dentro de una cabeza tallada con runas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gelehrte haben über Jahrhunderte hinweg die Ruinen von Tal Terig untersucht. Deren Geheimnisse waren schon immer in einem runenverzierten Kopf versteckt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli studiosi si sono scervellati per secoli sulle rovine di Tal Terig. I suoi segreti sono sempre vissuti in una testa scolpita di rune.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[学者たちは何世紀もの間タル・テリグの遺跡に頭を悩ませてきた。その秘密はルーンの刻まれたその頭の中にずっとあったのに。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[학자들은 수세기 동안 탈 테리그의 폐허를 조사했다. 그러나 룬이 박힌 두상에 그 비밀이 담겨 있는 줄은 몰랐다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ученые веками ломали голову над загадкой разрушенной башни Тал-Териг. А ее тайны всегда хранились в одной изрезанной рунами голове.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os estudiosos tentaram decifrar os segredos das ruínas de Tal Terig durante séculos. Seus segredos estiveram sempre dentro de uma única cabeça entalhada com runas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[塔帖立遗迹让学者思索数百年却找不到解答。其秘密一直就躲在个刻着符文的头里面。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[塔帖立遺跡讓學者思索數百年卻找不到解答。其秘密一直就躲在個刻著符文的頭裡面。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Construct" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Runed Servitor dies, each player draws a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Valet serti de runes meurt, chaque joueur pioche une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Servidor rúnico muera, cada jugador roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Runenbedeckte Diener stirbt, zieht jeder Spieler eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Servitore Runico muore, ogni giocatore pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ルーンの苦役者が死亡したとき、各プレイヤーはそれぞれカードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[룬이 박힌 하인이 죽을 때, 각 플레이어는 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Рунный Прислужник умирает, каждый игрок берет карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Serviçal Rúnico morre, cada jogador compra um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当符文随侍死去时，每位牌手各抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當符文隨侍死去時，每位玩家各抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local number = MTG():GetNumberOfPlayers()
+    if number ~= nil then
+    	for i=0,(number-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil then
+    			player:DrawCards( 1 )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_DRAWBACK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

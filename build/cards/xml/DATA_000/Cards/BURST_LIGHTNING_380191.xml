@@ -1,0 +1,125 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="213">
+  <FILENAME text="BURST_LIGHTNING_380191" />
+  <CARDNAME text="BURST_LIGHTNING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burst Lightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éclair explosif]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estallido de relámpagos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geborstener Blitz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulmine Dirompente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[噴（ふん）出（しゅつ）の稲（いな）妻（ずま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[번개 폭발]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Взрывная Молния]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explodir em Raios]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[闪电迸发]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[閃電迸發]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380191" />
+  <ARTID value="123560" />
+  <ARTIST name="Vance Kovacs" />
+  <CASTING_COST cost="{R}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY qualifier="Kicker">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {4}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[增幅{4}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[增幅{4}]]></LOCALISED_TEXT>
+    <COST mana_cost="{4}" type="Mana" />
+    <ABILITY_TEXT tag="KICKER_QUERY_BURST_LIGHTNING_KICKED" secondary_tag="KICKER_QUERY_BURST_LIGHTNING_UNKICKED" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Burst Lightning deals 2 damage to target creature or player. If Burst Lightning was kicked, it deals 4 damage to that creature or player instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Éclair explosif inflige 2 blessures à une cible, créature ou joueur. Si l’Éclair explosif a été kické, il inflige 4 blessures à cette créature ou ce joueur à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Estallido de relámpagos hace 2 puntos de daño a la criatura o jugador objetivo. Si el Estallido de relámpagos fue estimulado, en vez de eso, hace 4 puntos de daño a esa criatura o jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Geborstene Blitz fügt einer Kreatur oder einem Spieler deiner Wahl 2 Schadenspunkte zu. Falls die Bonuskosten des Geborstenen Blitzes bezahlt wurden, fügt er dieser Kreatur oder diesem Spieler stattdessen 4 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fulmine Dirompente infligge 2 danni a una creatura o a un giocatore bersaglio. Se il Fulmine Dirompente è stato potenziato, infligge invece 4 danni a quella creatura o a quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。噴出の稲妻はそれに２点のダメージを与える。噴出の稲妻がキッカーされていたなら、代わりにこれはそのクリーチャーかプレイヤーに４点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개나 플레이어 한 명을 목표로 정한다. 번개 폭발은 그 목표에게 피해 2점을 입힌다. 번개 폭발의 키커 비용을 지불했다면, 번개 폭발은 그 목표에게 대신 피해 4점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Взрывная Молния наносит 2 повреждения целевому существу или игроку. Если Взрывная Молния получила Усилитель, вместо этого она наносит 4 повреждения тому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Explodir em Raios causa 2 pontos de dano à criatura alvo ou ao jogador alvo. Se Explodir em Raios foi reforçado, em vez disso, ele causa 4 de dano àquela criatura ou àquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[闪电迸发对目标生物或牌手造成2点伤害。如果闪电迸发已增幅，则改为它对该生物或牌手造成4点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[閃電迸發對目標生物或玩家造成2點傷害。若閃電迸發已增幅，則改為它對該生物或玩家造成4點傷害。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_2_PLUS_FLAMEBURST_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if EffectSource():WasKicked() == true then
+    	if ( target_creature ~= nil ) then
+    		EffectSourceLKI():DealDamageTo( 4, target_creature )
+    	elseif ( target_player ~= nil ) then   
+    		EffectSourceLKI():DealDamageTo( 4, target_player )
+    	end
+    else
+    	if ( target_creature ~= nil ) then
+    		EffectSourceLKI():DealDamageTo( 2, target_creature )
+    	elseif ( target_player ~= nil ) then   
+    		EffectSourceLKI():DealDamageTo( 2, target_player )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="KICKER_QUERY_BURST_LIGHTNING_UNKICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Burst Lightning.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez l'Éclair explosif.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza el Estallido de relámpagos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wirke den Geborstenen Blitz.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia il Fulmine Dirompente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《噴出の稲妻》を唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[폭발 벼락을 발동하기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Взрывную Молнию.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar Explodir em Raios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放闪电迸发。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放閃電迸發。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="KICKER_QUERY_BURST_LIGHTNING_KICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Burst Lightning with kicker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez l'Éclair explosif avec le kick.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanzar el Estallido de relámpagos con estímulo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Geborstenen Blitz mit Bonus wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia il Fulmine Dirompente con potenziamento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《噴出の稲妻》をキッカーして唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[번개 폭발을 키커 비용을 지불해 발동합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Взрывную Молнию с Усилителем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar Explodir em Raios com reforço.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放闪电迸发并增幅。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放閃電迸發並增幅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_2_PLUS_FLAMEBURST_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to damage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока для нанесения повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要受到伤害的生物或牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

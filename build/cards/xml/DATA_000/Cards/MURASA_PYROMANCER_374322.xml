@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="MURASA_PYROMANCER_374322" />
+  <CARDNAME text="MURASA_PYROMANCER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Murasa Pyromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pyromancien de Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Piromante de Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pyromagier aus Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Piromante di Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ムラーサの紅（ぐ）蓮（れん）術（じゅつ）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무라사 화염술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мурасский Пиромант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Piromante de Murasa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[姆拉撒烈焰术士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[姆拉撒烈焰術士]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374322" />
+  <ARTID value="123789" />
+  <ARTIST name="Kekai Kotaki" />
+  <CASTING_COST cost="{4}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Fire is my accomplice. For enough coin, it can be yours as well.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le feu est mon complice. Avec suffisamment d'argent, il peut aussi être le vôtre. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El fuego es mi socio. Por un buen precio, puede ser el tuyo también”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Feuer ist mein Komplize. Wenn du genug zahlst, ist es auch deiner.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il fuoco è mio complice. Per abbastanza monete, può essere anche il tuo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「炎は私の仲間だ。金が十分あるのなら、お前の仲間にもなれる。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["불은 내 친구지. 금화만 적당히 낸다면 당신의 친구가 될 수도 있어."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Огонь — мой друг. За хорошую монету он может стать и вашим».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O fogo é meu cúmplice. Pela quantidade certa de moedas, ele também pode ser o seu.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「热火是我的同路人。只要金币够多，它也会是你的。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「熱火是我的同路人。只要金幣夠多，它也會是你的。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Shaman" />
+  <SUB_TYPE metaname="Ally" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Murasa Pyromancer or another Ally enters the battlefield under your control, you may have Murasa Pyromancer deal damage to target creature equal to the number of Allies you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Pyromancien de Murasa ou qu’un autre allié arrive sur le champ de bataille sous votre contrôle, vous pouvez faire que le Pyromancien de Murasa inflige à la créature ciblée un nombre de blessures égal au nombre d’alliés que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Piromante de Murasa u otro Aliado entre al campo de batalla bajo tu control, puedes hacer que el Piromante de Murasa haga daño a la criatura objetivo igual a la cantidad de Aliados que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Pyromagier aus Murasa oder ein anderer Verbündeter unter deiner Kontrolle ins Spiel kommt, kannst du den Pyromagier aus Murasa einer Kreatur deiner Wahl so viele Schadenspunkte zufügen lassen, wie du Verbündete kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Piromante di Murasa o un altro Alleato entra nel campo di battaglia sotto il tuo controllo, puoi far infliggere dal Piromante di Murasa danni pari al numero di Alleati che controlli a una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ムラーサの紅蓮術士か他の同盟者が１体あなたのコントロール下で戦場に出るたび、クリーチャー１体を対象とする。あなたは「ムラーサの紅蓮術士はそれに、あなたがコントロールする同盟者の総数に等しい点数のダメージを与える。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무라사 화염술사 또는 다른 동맹이 당신의 조종하에 전장에 들어올 때마다, 생물 한 개를 목표로 정한다. 당신은 무라사 화염술사가 당신이 조종하는 동맹 수만큼의 피해를 그 생물에게 입히도록 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Мурасский Пиромант или другой Союзник выходит на поле битвы под вашим контролем, вы можете заставить Мурасского Пироманта нанести целевому существу повреждения, равные количеству Союзников под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Piromante de Murasa ou outro Aliado entra no campo de batalha sob o seu controle, você pode fazer com que Piromante de Murasa cause à criatura alvo uma quantidade de dano igual ao número de Aliados que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当姆拉撒烈焰术士或另一个伙伴在你的操控下进战场时，你可以让姆拉撒烈焰术士对目标生物造成伤害，其数量等同于由你操控的伙伴数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當姆拉撒烈焰術士或另一個伙伴在你的操控下進戰場時，你可以令姆拉撒烈焰術士對目標生物造成傷害，其數量等同於由你操控的伙伴數量。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetSubType():Test( CREATURE_TYPE_ALLY ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_CREATURES_POWER_DAMAGE" definition="0" compartment="0" count="1" />
+    <MAY />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ALLY )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local damage = filter:Count()
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( damage, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( damage, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FIREBALL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FIREBALL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_DEAL_CREATURES_POWER_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to damage.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, der Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与えるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для нанесения повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要受到伤害的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

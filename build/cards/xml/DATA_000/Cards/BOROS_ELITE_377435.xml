@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="BOROS_ELITE_377435" />
+  <CARDNAME text="BOROS_ELITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Boros Elite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élite de Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Élite boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Boros-Elite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elite Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ボロスの精（せい）鋭（えい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[보로스 정예병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элита Боросов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elite Boros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[波洛斯精兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[波洛斯精兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377435" />
+  <ARTID value="146263" />
+  <ARTIST name="Willian Murai" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“First, you must fight among the rank and file. It is there I will discern your skills as a leader.”
+—Aurelia, to Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Commencez déjà par combattre parmi les hommes de troupe. C'est ainsi que je verrai ce que vous valez comme chef. »
+—Aurélia, à Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Antes debes luchar entre los soldados rasos. Allí es donde evaluaré tus aptitudes para el liderazgo”.
+—Aurelia, a Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Zuerst musst du dich unter den einfachen Soldaten behaupten. Dadurch kann ich deine Führungsqualitäten einschätzen.“
+—Aurelia zu Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Per prima cosa devi combattere come soldato semplice. In questo modo saprò se hai le doti di un leader.”
+—Aurelia, a Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「まずは一兵卒として戦わねばなりません。あなたの統率者としての力量はそこで見極めます。」――オレリアからギデオン・ジュラへ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["일단 말단 병사로 싸워보거라. 네게 지휘관의 소질이 있나 살펴보겠다."
+—아우렐리아가 기디온 주라에게]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Поначалу ты будешь сражаться вместе с рядовыми солдатами. Только так я смогу понять, какой из тебя командир».
+— Аурелия, обращаясь к Гидеону Джуре]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Primeiro, você precisa lutar nas fileiras, junto com os soldados. É lá que discernirei suas habilidades como líder.”
+— Aurélia, para Gideon Jura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你必须先与士兵一同奋战，我才能看出你的领袖才能。」
+～欧瑞梨告诉基定尤拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你必須先與士兵一同奮戰，我才能看出你的領袖才能。」
+～歐瑞梨告訴基定尤拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Battalion| — Whenever Boros Elite and at least two other creatures attack, Boros Elite gets +2/+2 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Bataillon| — À chaque fois que l’Élite de Boros et au moins deux autres créatures attaquent, l’Élite de Boros gagne +2/+2 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Batallón| — Siempre que la Élite boros y al menos otras dos criaturas ataquen, la Élite boros obtiene +2/+2 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Bataillon| — Immer wenn die Boros-Elite und mindestens zwei andere Kreaturen angreifen, erhält die Boros-Elite +2/+2 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Battaglione| — Ogniqualvolta l’Elite Boros e almeno altre due creature attaccano, l’Elite Boros prende +2/+2 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|大隊| ― ボロスの精鋭と少なくとも２体の他のクリーチャーが攻撃するたび、ボロスの精鋭はターン終了時まで＋２/＋２の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부대전 — 보로스 정예병과 두 개 이상의 다른 생물이 공격할 때마다, 보로스 정예병은 턴종료까지 +2/+2를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Батальон| — Каждый раз, когда Элита Боросов и как минимум два других существа атакуют, Элита Боросов получает +2/+2 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Batalhão| — Toda vez que Elite Boros e pelo menos duas outras criaturas atacarem, Elite Boros receberá +2/+2 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[协战～每当波洛斯精兵与至少两个其他生物攻击时，波洛斯精兵得+2/+2直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[協戰～每當波洛斯精兵與至少兩個其他生物攻擊時，波洛斯精兵得+2/+2直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self">
+    local filter = ClearFilter()
+    filter:Add(FE_IS_ATTACKING, true)
+    local numAttackers = filter:CountStopAt(3)
+    return numAttackers == 3
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 2 )
+    	characteristics:Toughness_Add( 2 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_BATTALION" body="MORE_INFO_BODY_BATTALION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

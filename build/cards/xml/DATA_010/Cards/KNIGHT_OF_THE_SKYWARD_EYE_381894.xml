@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="206">
+  <FILENAME text="KNIGHT_OF_THE_SKYWARD_EYE_381894" />
+  <CARDNAME text="KNIGHT_OF_THE_SKYWARD_EYE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Knight of the Skyward Eye]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chevalier de l'Œil tourné vers le Ciel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Caballero del Ojo Celeste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ritter des Aufblickenden Auges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cavaliere dell’Occhio al Cielo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天（てん）望（ぼう）の騎（き）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하늘높은 눈 기사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рыцарь Поднятого к Небу Взора]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cavaleiro do Olho Celestial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[尊天骑士]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[尊天騎士]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381894" />
+  <ARTID value="115100" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Order of the Skyward Eye does the bidding of an evil force, unwittingly stirring fear and mistrust across Bant in accordance with his plans.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L'Ordre de l'Œil tourné vers le Ciel sert sans le savoir les plans d'une force maléfique en semant peur et méfiance partout sur Bant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Orden del Ojo Celeste, sin saberlo, sigue la voluntad de una fuerza maligna, extendiendo la desconfianza y el miedo por todo Bant de acuerdo a sus planes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Orden des Aufblickenden Auges tanzt nach der Pfeife einer bösen Macht, indem er unbewusst Furcht und Misstrauen in Bant verbreitet.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’Ordine dell’Occhio al Cielo esegue gli ordini di una forza malvagia, fomentando inconsapevolmente paura e diffidenza in tutto Bant secondo i suoi piani.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天望騎士団は知らず知らずのうちに、バント全土を覆う恐怖と不信を掻き回す邪悪な力の計画に導かれることとなっていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하늘높은 눈 기사단은 악의 세력에게 조종당한다. 자신들도 모르게 반트 전역에서 공포와 불신을 조장하지.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рыцари Ордена Поднятого к Небу Взора исполняют волю злой силы и, сами того не подозревая, сеют страх и недоверие по всему Бэнту согласно ее планам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A Ordem do Olho Celestial realiza a vontade de uma força maligna e favorece assim seus planos, involuntariamente incitando o medo e a desconfiança em Bant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[邪恶势力打算在班特散布恐惧与怀疑，而尊天骑士团不知不觉地提供了协助。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[邪惡勢力打算在班特散佈恐懼與懷疑，而尊天騎士團不知不覺地提供了協助。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Knight" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{3}{G}: Knight of the Skyward Eye gets +3/+3 until end of turn. Activate this ability only once each turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{3}{G} : Le Chevalier de l’Œil tourné vers le ciel gagne +3/+3 jusqu’à la fin du tour. N’activez cette capacité qu’une seule fois par tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{3}{G}: El Caballero del Ojo Celeste obtiene +3/+3 hasta el final del turno. Activa esta habilidad solo una vez por turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{3}{G}: Der Ritter des Aufblickenden Auges erhält +3/+3 bis zum Ende des Zuges. Aktiviere diese Fähigkeit nur einmal pro Zug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{3}{G}: Il Cavaliere dell’Occhio al Cielo prende +3/+3 fino alla fine del turno. Attiva questa abilità solo una volta per turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{3}{G}：天望の騎士はターン終了時まで＋３/＋３の修整を受ける。この能力は、毎ターン１回のみ起動できる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{3}{G}: 하늘높은 눈 기사는 턴종료까지 +3/+3을 받는다. 이 능력은 한 턴에 한 번만 활성화할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{3}{G}: Рыцарь Поднятого к Небу Взора получает +3/+3 до конца хода. Активируйте эту способность только один раз за ход.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{3}{G}: Cavaleiro do Olho Celestial recebe +3/+3 até o final do turno. Ative esta habilidade apenas uma vez a cada turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{3}{G}：尊天骑士得+3/+3直到回合结束。此异能每回合中只能起动一次。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{3}{G}：尊天騎士得+3/+3直到回合結束。此異能每回合中只能起動一次。]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}{G}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 3 )
+    	characteristics:Toughness_Add( 3 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AVAILABILITY per_turn_limit="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{3}{G}" base_score="450" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

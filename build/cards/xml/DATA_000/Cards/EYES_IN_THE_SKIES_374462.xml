@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="EYES_IN_THE_SKIES_374462" />
+  <CARDNAME text="EYES_IN_THE_SKIES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Eyes in the Skies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Yeux des cieux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ojos en el cielo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Augen im Himmel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Occhi nel Cielo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天（てん）空（くう）の目（め）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[하늘에서 지켜보는 눈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Глаза в Небе]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Olhos nos Céus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[苍穹之眼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蒼穹之眼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374462" />
+  <ARTID value="145112" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{3}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“What root and branch cannot reach, our winged friends will attend to.”
+—Zunak, Selesnya strategist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nos amis ailés s'occuperont de ce qui est hors d'atteinte des racines et des branches. »
+—Zunak, stratège de Selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“De aquello que no alcancen raíces ni ramas se encargarán nuestros amigos alados”.
+—Zúnak, estratega selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Unsere geflügelten Freunde werden sich um alles kümmern, wo Wurzel und Zweig nicht hinreichen.“
+—Zunak, Selesnija-Stratege]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“I nostri amici alati si occuperanno di ciò che radici e rami non possono raggiungere.”
+—Zunak, stratega di Selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「根と枝が届かない奴は、翼をもった我々の友が相手をしてくれるだろう。」
+――セレズニアの軍師、ズーナーク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["뿌리와 가지가 닿지 않는 것은 우리의 날개 달린 친구들이 처리할 것이다."
+—셀레스냐 전략가 주나크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Туда, куда не смогут добраться корни и ветви, доберутся наши крылатые друзья».
+— Зунак, селезнийский стратег]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nossos amigos alados se encarregarão do que as raízes e galhos não puderem atingir.”
+— Zunak, estrategista Selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「树根与树枝到不了之处，都有我们长翅膀的朋友照顾。」
+～瑟雷尼亚策士祖奈]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「樹根與樹枝到不了之處，都有我們長翅膀的朋友照顧。」
+～瑟雷尼亞策士祖奈]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put a 1/1 white Bird creature token with flying onto the battlefield, then populate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature 1/1 blanche Oiseau avec le vol, puis peuplez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura Ave blanca 1/1 con la habilidad de volar, luego repuebla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen 1/1 weißen Vogel-Kreaturenspielstein mit Flugfähigkeit ins Spiel und führe dann Bevölkern durch.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura Uccello 1/1 bianca con volare, poi popola.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行を持つ白の１/１の鳥・クリーチャー・トークンを１体戦場に出し、その後居住を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행을 가진 1/1 백색 조류 생물 토큰 한 개를 전장에 놓은 후 소집한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку существа 1/1 белая Птица с Полетом, затем используйте Заселение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Ave com voar e depois povoe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将一个1/1白色，具飞行异能的鸟衍生生物放进战场，然后殖民。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將一個1/1白色，具飛行異能的鳥衍生生物放進戰場，然後殖民。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_BIRD_1_1_W_F_377543", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_IS_TOKEN, true)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_TOKEN_TO_COPY", EffectDC():Make_Targets(0))
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cardToCopy = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if cardToCopy ~= nil then
+    	MTG():PutTokenCopiesOntoBattlefield( cardToCopy, 1, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_BIRD_1_1_W_F_377543" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_POPULATE" body="MORE_INFO_BODY_POPULATE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_TOKEN_TO_COPY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a token to copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un jeton pour le copier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una ficha para copiarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spielstein, der kopiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una pedina da copiare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コピーするトークンを選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[복사할 토큰을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите фишку для копирования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma ficha para copiar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要复制的衍生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要複製的衍生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

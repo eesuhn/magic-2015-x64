@@ -1,0 +1,107 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="4">
+  <FILENAME text="SULTAI_SOOTHSAYER_388084" />
+  <CARDNAME text="SULTAI_SOOTHSAYER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sultai Soothsayer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aruspice sultaï]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Augur sultai]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sultai-Wahrsager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Indovina Sultai]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スゥルタイの占（うらな）い屋（や）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[술타이 점술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Султайская Прорицательница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Adivinho Sultai]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[苏勒台预言家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蘇勒台預言家]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388084" />
+  <ARTID value="156529" />
+  <ARTIST name="Cynthia Sheppard" />
+  <CASTING_COST cost="{2}{B}{G}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The naga of the Sultai Brood made deals with dark forces to keep their power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les nagas de la Couvée sultaï conclurent un pacte avec des forces obscures pour garder leur pouvoir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los naga del linaje sultai hicieron tratos con fuerzas oscuras para conservar su poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Naga der Sultai-Brut haben Pakte mit finsteren Kräften geschlossen, um ihre Macht zu erhalten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I naga della Nidiata Sultai hanno stretto patti con le forze oscure per mantenere il proprio potere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スゥルタイ群のナーガはその力を保持するために、闇の勢力と契約した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[술타이 군락의 나가들은 자신의 권력을 유지하기 위해 어둠의 힘과 계약을 맺었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Наги из Выводка Султая заключили договор с темными силами, чтобы сохранить свое могущество.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os nagas da Linhagem Sultai fazem pactos com as forças escuras para manterem-se no poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[苏勒台族群的那伽和黑暗力量进行交易以维持他们的力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[蘇勒台族群的那伽和黑暗力量進行交易以維持他們的力量。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Naga" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Sultai Soothsayer enters the battlefield, look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Aruspice sultaï arrive sur le champ de bataille, regardez les quatre cartes du dessus de votre bibliothèque. Mettez l’une d’entre elles dans votre main et le reste dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Augur sultai entre al campo de batalla, mira las cuatro primeras cartas de tu biblioteca. Pon una de ellas en tu mano y el resto en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Sultai-Wahrsager ins Spiel kommt, schaue dir die obersten vier Karten deiner Bibliothek an. Nimm eine davon auf deine Hand und lege den Rest auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Indovina Sultai entra nel campo di battaglia, guarda le prime quattro carte del tuo grimorio. Aggiungine una alla tua mano e metti le altre nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[スゥルタイの占い屋が戦場に出たとき、あなたのライブラリーの一番上から４枚のカードを見る。そのうち１枚をあなたの手札に加え、残りをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[술타이 점술사가 전장에 들어올 때, 당신의 서고 맨 위의 카드 네 장을 본다. 그중 한 장을 당신의 손으로 가져가고 나머지는 당신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Султайская Прорицательница выходит на поле битвы, посмотрите четыре верхние карты вашей библиотеки. Положите одну из них в вашу руку, а остальные — на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Adivinho Sultai entrar no campo de batalha, olhe os quatro cards do topo de seu grimório. Coloque um deles em sua mão e o restante em seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当苏勒台预言家进战场时，检视你牌库顶的四张牌。将其中一张置于你手上，其余的牌则置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當蘇勒台預言家進戰場時，檢視你牌庫頂的四張牌。將其中一張置於你手上，其餘的牌則置入你的墳墓場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local answerDC = EffectDC():Make_Targets(0)
+    local queryDC = EffectDC():Make_Chest(1)
+    local player = EffectController()
+    for i=0,(4-1) do
+    	local card = player:Library_GetNth(i)
+    	
+    	if card ~= nil then
+    		queryDC:Set_CardPtr(i, card)
+    	else
+    		break
+    	end
+    end
+    if answerDC ~= nil and queryDC ~= nil then
+    	player:ChooseItemFromDC( "CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND", queryDC, answerDC)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local queryDC = EffectDC():Get_Chest(1)
+    local num_cards = queryDC:Count()
+    for i=0,num_cards-1 do
+    	local card = queryDC:Get_CardPtr(i)
+    	if card ~= nil then
+    		card:PutInGraveyard()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Graveyard" amount="3" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_PUT_INTO_YOUR_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to put into your hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la mettre dans votre main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para poner en tu mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die du auf deine Hand nimmst. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da aggiungere alla tua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札に加えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손에 넣을 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы положить ее в вашу руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para colocar em sua mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌置入你的手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌置入你的手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

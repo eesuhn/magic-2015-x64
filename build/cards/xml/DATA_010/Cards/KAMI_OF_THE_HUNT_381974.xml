@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="KAMI_OF_THE_HUNT_381974" />
+  <CARDNAME text="KAMI_OF_THE_HUNT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kami of the Hunt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kami de la chasse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Kami de la caza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kami der Jagd]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Kami della Caccia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狩（しゅ）猟（りょう）の神（かみ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사냥의 카미]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ками Охоты]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kami da Caça]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[狩猎神]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[狩獵神]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381974" />
+  <ARTID value="80704" />
+  <ARTIST name="Alex Horley-Orlandelli" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Don’t worry, Jiro. The kami would never attack us this close to home . . . . Jiro?”
+—Hoto, temple guardian, last words]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne t'en fais pas, Jiro, les kami n'oseraient pas nous attaquer ici... Jiro ? »
+—Dernières paroles d’Hoto, gardien du temple]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No te preocupes, Jiro. Los kami nunca atacarían tan cerca de casa… ¿Jiro?”.
+—Hoto, guardián del templo, últimas palabras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mach dir keine Sorgen, Jiro, die Kami würden uns nie so dicht an unserer Heimat angreifen … Jiro?“
+—Hoto, Tempelwache, letzte Worte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non preoccuparti, Jiro, i kami non ci attaccherebbero mai così vicino a casa... Jiro?”
+—Hoto, guardiano del tempio, ultime parole]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「案ずるな、次郎。神もここまで本拠に近い我らを襲いはせぬて……次郎？」
+――神殿の護衛、法棟の最後の言葉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["걱정하지 마, 지로. 거의 다 왔으니 카미가 우릴 공격하지는 않을 거야... 지로?"
+—신전 수호자 호토의 마지막 말]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не бойся, Дзиро. Ками не нападут на нас так близко от дома... Дзиро?»
+— последние слова Хото, храмового стражника]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não se preocupe, Jiro, os kamis nunca nos atacariam tão perto de casa... Jiro?”
+— Hoto, guardião do templo, últimas palavras]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「放心吧，次郎。神明就算要下手，也不会选那么靠近...次郎？」
+～寺庙守卫法栋的临终语]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「放心吧，次郎。神明就算要下手，也不會選那麼靠近...次郎？」
+～寺廟守衛法棟的臨終語]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a Spirit or Arcane spell, Kami of the Hunt gets +1/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort d’esprit ou d’arcane, le Kami de la chasse gagne +1/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo Arcano o de Espíritu, el Kami de la caza obtiene +1/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Geist- oder Arkan-Zauberspruch wirkst, erhält der Kami der Jagd bis zum Ende des Zuges +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia Spirito o Arcano, il Kami della Caccia prende +1/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがスピリット呪文か秘儀呪文を１つ唱えるたび、狩猟の神はターン終了時まで＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신 이 신령 또는 비술 주문을 발동할 때마다, 사냥의 카미는 턴종료까지 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание Духа или Тайных_знаний, Ками Охоты получает +1/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você jogar uma mágica Arcana ou de Espírito, Kami da Caça recebe +1/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放精怪或古咒咒语时，狩猎神得+1/+1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放精靈或古咒咒語時，狩獵神得+1/+1直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="controller">
+    return  TriggerObject():GetSubType():Test( CREATURE_TYPE_SPIRIT ) or TriggerObject():GetSubType():Test( SPELL_TYPE_ARCANE )
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

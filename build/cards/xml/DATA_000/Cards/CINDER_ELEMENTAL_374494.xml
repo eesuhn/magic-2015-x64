@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="CINDER_ELEMENTAL_374494" />
+  <CARDNAME text="CINDER_ELEMENTAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cinder Elemental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élémental de scories]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elemental de ceniza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zunderelementar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elementale di Braci]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[燃（も）えがらの精（せい）霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[잿더미의 정령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элементаль Пепла]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elemental das Cinzas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[煤渣元素]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[煤渣元素]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374494" />
+  <ARTID value="146357" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{3}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The old gods awoke and sent fingers of fire to see what was left of the old ways under the endless city.”
+—Daiva, Gruul storyteller]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« À leur éveil, les anciens dieux ont envoyé des doigts de feu constater ce qui restait des traditions d'antan sous la cité sans fin. »
+—Daïva, conteuse des Gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Los antiguos dioses despertaron y enviaron dedos de fuego para ver lo que había quedado de las viejas costumbres bajo la ciudad eterna”.
+—Daiva, narradora gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Die alten Götter erwachten und schickten Feuerfinger aus, um zu sehen, was unter der endlosen Stadt von den alten Zeiten noch geblieben war.“
+—Daiva, Gruul-Geschichtenerzählerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Gli antichi dei si risvegliarono e inviarono dita di fuoco a sondare cosa rimanesse dei vecchi sentieri sotto la città infinita.”
+—Daiva, cantastorie Gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「いにしえの神々は目覚め、果てしない都の地下に旧き道がどれだけ残されているかを知るために、炎の指先を遣わしたのじゃ。」――グルールの語り部、ダイヴァ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["깨어난 고대신들은 화염의 손가락을 펼쳐 끝없는 도시 지하에 아직 고대 전통이 남아 있는지를 확인했다."
+—그룰 이야기꾼 다이바]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Древние боги проснулись и простерли огненные лучи, чтобы узнать, что осталось от старых путей под бесконечным городом».
+— Дайва, груульская сказительница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os deuses antigos despertaram e enviaram dedos de fogo para ver o que havia restado dos costumes antigos sob a cidade sem-fim.”
+— Daiva, contadora de histórias Gruul]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「古神苏醒并伸出火舌，想看看无尽的城市底下遗留的古风。」
+～古鲁说书人戴娃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「古神甦醒並送出火舌，想看看無盡的城市底下遺留的古風。」
+～古魯說書人戴娃]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{X}{R}, {T}, Sacrifice Cinder Elemental: Cinder Elemental deals X damage to target creature or player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{X}{R}, {T}, sacrifiez l’Élémental de scories : L’Élémental de scories inflige X blessures à une cible, créature ou joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{X}{R}, {T}, sacrificar el Elemental de ceniza: El Elemental de ceniza hace X puntos de daño a la criatura o jugador objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{X}{R}, {T}, opfere das Zunderelementar: Das Zunderelementar fügt einer Kreatur oder einem Spieler deiner Wahl X Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{X}{R}, {T}, Sacrifica l’Elementale di Braci: L’Elementale di Braci infligge X danni a una creatura o a un giocatore bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{X}{R}, {T}, 燃えがらの精霊を生け贄に捧げる：クリーチャー１体かプレイヤー１人を対象とする。燃えがらの精霊はそれにＸ点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{X}{R}, {T}, 잿더미의 정령을 희생한다: 생물 한 개나 플레이어 한 명을 목표로 정한다. 잿더미의 정령은 그 목표에게 피해 X점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{X}{R}, {T}, пожертвуйте Элементаля Пепла: Элементаль Пепла наносит X повреждений целевому существу или игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{X}{R}, {T}, Sacrifique Elemental de Cinzas: Elemental de Cinzas causa X pontos de dano à criatura ou ao jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{X}{R}，{T}，牺牲煤渣元素：煤渣元素对目标生物或牌手造成X点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{X}{R}，{T}，犧牲煤渣元素：煤渣元素對目標生物或玩家造成X點傷害。]]></LOCALISED_TEXT>
+    <COST mana_cost="{X}{R}" type="Mana" />
+    <COST type="SacrificeSelf" />
+    <COST type="TapSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_X_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( GetEffectX(), target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( GetEffectX(), target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN is_removal="1" play_tag="HINT_ABILITY_BURN_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_INFERNO_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_X_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal X damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger X blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle X puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem X Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere X danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[Ｘ点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 X점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести X повреждений.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar X pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成X点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成X點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

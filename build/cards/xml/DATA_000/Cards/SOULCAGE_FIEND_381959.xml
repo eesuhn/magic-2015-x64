@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="SOULCAGE_FIEND_381959" />
+  <CARDNAME text="SOULCAGE_FIEND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Soulcage Fiend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fielleux de la cage aux âmes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demonio jaula del alma]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Seelenkerker-Unhold]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Immondo Ingabbia-Anime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魂（れん）獄（ごく）の悪（あっ）鬼（き）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영혼철창 마귀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Злодей Темницы Душ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demônio da Cela das Almas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[魂槛邪鬼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[魂檻邪鬼]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381959" />
+  <ARTID value="141691" />
+  <ARTIST name="Jason A. Engle" />
+  <CASTING_COST cost="{1}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vowing to free the souls of her children, Kastinne followed the tormentors into the ghastly network of caves below Stensia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ayant fait vœu de libérer les âmes de ses enfants, Kastinne suivit les persécuteurs dans les méandres effroyables des cavernes situées dans les profondeurs de la Stensie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Habiendo jurado que liberaría las almas de sus hijos, Kastinne siguió a los atormentadores al interior de la horrible red de cuevas bajo Stensia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kerstin schwor, die Seelen ihrer Kinder zu befreien, und verfolgte die Peiniger in das grausige Höhlennetzwerk unter Stenzen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Giurando di liberare le anime dei suoi figli, Kastinne seguì i carnefici nelle spaventose caverne sotto a Stensia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[愛する子ども達の魂を解放すると心に決めたカスティーンは、拷問者を追ってステンシアの地の底に広がる恐ろしい洞穴の迷路へと踏み込んでいった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자식들의 영혼을 구하기 위해 카스티느는 악독한 자들을 쫓아 스텐시아 지하의 으스스한 동굴망으로 들어갔다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Надеясь освободить души своих детей, Кастинна последовала за мучителями в жуткую сеть пещер под Стенсией.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Kastinne seguiu os atormentadores até o interior da sinistra rede de cavernas sob Stensia, jurando libertar as almas de seus filhos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[凯思汀发誓要让孩子的灵魂获得自由，跟踪拷问者进入史顿襄地底阴森的洞穴网。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[凱思汀發誓要讓孩子的靈魂獲得自由，跟蹤拷問者進入史頓襄地底陰森的洞穴網。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Soulcage Fiend dies, each player loses 3 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Fielleux de la cage aux âmes meurt, chaque joueur perd 3 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Demonio jaula del alma muera, cada jugador pierde 3 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Seelenkerker-Unhold stirbt, verlieren alle Spieler 3 Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Immondo Ingabbia-Anime muore, ogni giocatore perde 3 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魂獄の悪鬼が死亡したとき、各プレイヤーは３点のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영혼철창 마귀가 죽을 때, 각 플레이어는 생명 3점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Злодей Темницы Душ умирает, каждый игрок теряет 3 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Demônio da Cela das Almas morre, cada jogador perde 3 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当魂槛邪鬼死去时，每位牌手各失去3点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當魂檻邪鬼死去時，每位玩家各失去3點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType ( FILTER_TYPE_PLAYERS )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if FilteredPlayer() ~= nil then   
+    	FilteredPlayer():LoseLife( 3 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_DRAWBACK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

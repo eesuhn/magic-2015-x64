@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="484">
+  <FILENAME text="MAELSTROM_ARCHANGEL_380172" />
+  <CARDNAME text="MAELSTROM_ARCHANGEL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Maelstrom Archangel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archange du Maelstrom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arcángel del Remolino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mahlstrom-Erzengel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arcangelo del Maelstrom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大（おお）渦（うず）の大（だい）天（てん）使（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마엘스트롬 대천사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Архангел Мальстрема]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arcanjo do Maelstrom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[涡心大天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[渦心大天使]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380172" />
+  <ARTID value="118767" />
+  <ARTIST name="Cyril Van Der Haegen" />
+  <CASTING_COST cost="{W}{U}{B}{R}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There is no world where angels fear to tread.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il n'existe pas de monde que les anges craignent de fouler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No hay un mundo en el que los ángeles no se animen a entrar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es gibt keine Welt, die Engel zu betreten fürchten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non esiste alcun mondo che gli angeli abbiano paura di attraversare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天使が自らの行く先を恐れる世界など存在しない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사들이 가기 두려워하는 세계란 존재하지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нет такого мира, где побоялись бы ступить ангелы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não há mundo que os anjos temam percorrer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[没有天使不敢踏入的世界。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沒有天使不敢踏入的世界。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Maelstrom Archangel deals combat damage to a player, you may cast a nonland card from your hand without paying its mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que l’Archange du Maelstrom inflige des blessures de combat à un joueur, vous pouvez lancer une carte non-terrain depuis votre main sans payer son coût de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Arcángel del Remolino haga daño de combate a un jugador, puedes lanzar una carta que no sea tierra de tu mano sin pagar su coste de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Mahlstrom-Erzengel einem Spieler Kampfschaden zufügt, kannst du eine Karte aus deiner Hand, die kein Land ist, wirken, ohne ihre Manakosten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta l’Arcangelo del Maelstrom infligge danno da combattimento a un giocatore, puoi lanciare una carta non terra dalla tua mano senza pagare il suo costo di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大渦の大天使がプレイヤー１人に戦闘ダメージを与えるたび、あなたはあなたの手札にある土地でないカード１枚を、そのマナ・コストを支払うことなく唱えてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마엘스트롬 대천사가 플레이어에게 전투피해를 입힐 때마다, 당신은 당신의 손에서 대지가 아닌 카드 한 장을 마나비용의 지불 없이 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Архангел Мальстрема наносит боевые повреждения игроку, вы можете разыграть не являющуюся землей карту из вашей руки без уплаты ее мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Arcanjo do Maelstrom causa dano de combate a um jogador, você pode conjurar um card que não seja um terreno da sua mão sem pagar seu custo de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当涡心大天使对任一牌手造成战斗伤害时，你可以从你手上施放一张非地牌，且不需支付其法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當渦心大天使對一名玩家造成戰鬥傷害時，你可以從你手上施放一張非地牌，且不需支付其魔法力費用。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_TUNNEL_PLAY" />
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_PLAYER" simple_qualifier="self" damage_type="combat" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():ClearFilterMark()
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_HAND, EffectController() )
+    local cardsInHand = EffectController():Hand_Count()
+    if cardsInHand ~= 0 then
+    	for i = 0, (cardsInHand-1) do
+    		local card = EffectController():Hand_GetNth(i)			
+    		if EffectController():CanCastSpellForFree( card ) then
+    			card:MarkForFilter()
+    		end
+    	end
+    	filter:Add(FE_TYPE, OP_NOT, CARD_TYPE_LAND)
+    	filter:SetMarkedObjectsOnly()
+    	EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_CARD_TO_CAST_FOR_FREE", EffectDC():Make_Targets(0), QUERY_FLAG_MAY )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cardToCast = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if cardToCast ~= nil then	
+    	EffectController():CastSpellForFree( cardToCast )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_CAST_FOR_FREE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to cast without paying its mana cost. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la lancer sans payer son coût de mana. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para lanzarla sin pagar su coste de maná. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die gewirkt werden soll, ohne ihre Manakosten zu bezahlen. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da lanciare senza pagare il suo costo di mana. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マナ・コストを支払わずに唱えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마나 비용을 지불하지 않고 발동할 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы разыграть ее без уплаты ее мана-стоимости. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para conjurar sem pagar seu custo de mana. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌来施放，且不需支付其法术力费用。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來施放，且不需支付其魔法力費用。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

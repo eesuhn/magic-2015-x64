@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="TEMPLE_BELL_382074" />
+  <CARDNAME text="TEMPLE_BELL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Temple Bell]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cloche du temple]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Campana del templo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tempelglocke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Campana del Tempio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[寺（じ）院（いん）の鐘（かね）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신전의 종]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Храмовый Колокол]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sino do Templo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[庙宇响钟]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[廟宇響鐘]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382074" />
+  <ARTID value="129145" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Enlightenment is not gained by striking the bell or hearing its toll. It’s found in the silence that follows.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sonner la cloche ou entendre son glas ne fournit pas l'illumination. On la trouve dans le silence qui s'ensuit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La iluminación no se obtiene tocando la campana, o escuchando su tañido. Se encuentra en el silencio que le sigue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erleuchtung erlangt man nicht beim Läuten oder beim Hören ihres Klangs. Man findet sie in der Stille, die folgt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[L’illuminazione non viene dal suonare la campana o sentirne il rintocco. Ma si trova nel silenzio che ne segue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悟りというものは、鐘を打つことや、その音を聞くことでは得られない。それは後に続く静寂の中に見つかるものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[종을 치거나 그 소리를 듣는다고 깨달음을 얻을 수는 없다. 깨달음은 그 뒤에 오는 정적에 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Просветление души происходит не при ударе и звоне колокола. Оно наступает в следующей за ними тишине.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O esclarecimento não se alcança apenas soando um sino ou ouvindo seu toque. Ele está no silêncio que segue.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敲钟或聆钟并不会带来领悟。你得在随后的寂静中追寻。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敲鐘或聆鐘並不會帶來領悟。你得在隨後的寂靜中追尋。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Each player draws a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Chaque joueur pioche une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Cada jugador roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Jeder Spieler zieht eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Ogni giocatore pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：各プレイヤーはカードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 각 플레이어는 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: каждый игрок берет карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Cada jogador compra um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：每位牌手各抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：每位玩家抽一張牌。]]></LOCALISED_TEXT>
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local number = MTG():GetNumberOfPlayers()
+    if number ~= nil then
+    	for i=0,(number-1) do
+    		local player = MTG():GetNthPlayer(i)
+    		if player ~= nil then
+    			player:DrawCards( 1 )
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

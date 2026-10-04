@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1132">
+  <FILENAME text="INFERNO_TITAN_380233" />
+  <CARDNAME text="INFERNO_TITAN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Inferno Titan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Titan de la fournaise]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Titán infernal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Inferno-Titan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Titano dell’Inferno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[業（ごう）火（か）のタイタン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불바다 거신]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Титан Преисподней]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Titã do Inferno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[炼狱泰坦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[煉獄泰坦]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380233" />
+  <ARTID value="129131" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{4}{R}{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Giant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <ACTIVATED_ABILITY firebreathing="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{R}: Inferno Titan gets +1/+0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{R} : Le Titan de la fournaise gagne +1/+0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{R}: El Titán infernal obtiene +1/+0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{R}: Der Inferno-Titan erhält +1/+0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{R}: Il Titano dell’Inferno prende +1/+0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{R}：業火のタイタンはターン終了時まで＋１/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{R}: 불바다 거신은 턴종료까지 +1/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{R}: Титан Преисподней получает +1/+0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{R}: Titã do Inferno recebe +1/+0 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{R}：炼狱泰坦得+1/+0直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{R}：煉獄泰坦得+1/+0直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{R}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 0 )
+    end 
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AUTO_SKIP always="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Titan de la fournaise arrive sur le champ de bataille ou qu’il attaque, il inflige 3 blessures réparties de la manière que vous choisissez entre une, deux ou trois cibles, créatures et/ou joueurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Titán infernal entre al campo de batalla o ataque, hace 3 puntos de daño divididos como elijas entre una, dos o tres criaturas y/o jugadores objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Inferno-Titan ins Spiel kommt oder angreift, fügt er 3 Schadenspunkte zu, deren Aufteilung auf ein, zwei oder drei Ziele deiner Wahl, die Kreaturen und/oder Spieler sein können, du bestimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Titano dell’Inferno entra nel campo di battaglia o attacca, infligge 3 danni suddivisi a tua scelta tra una, due o tre creature e/o giocatori bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[業火のタイタンが戦場に出るか攻撃するたび、クリーチャーやプレイヤーを、１つまたは望む組み合わせで２つか３つ対象とする。業火のタイタンはそれらに、３点のダメージをあなたの好きなように分割して与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불바다 거신이 전장에 들어오거나 공격할 때마다, 생물 및/또는 플레이어를 대상으로 최대 세 개까지의 목표를 정한다. 불바다 거신은 그 목표들에게 당신이 배분한 대로 피해 3점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Титан Преисподней выходит на поле битвы или атакует, он наносит 3 повреждения, разделенные по вашему выбору между одним, двумя или тремя целевыми существами и (или) игроками.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Titã do Inferno entra no campo de batalha ou ataca, ele causa 3 pontos de dano divididos à sua escolha entre uma, duas ou três criaturas e/ou jogadores alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当炼狱泰坦进战场或攻击时，它对一个，两个，或三个目标生物和／或牌手造成共3点伤害，你可以任意分配。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當煉獄泰坦進戰場或攻擊時，它對一個、兩個，或三個目標生物和／或玩家造成共3點傷害，你可以任意分配。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_1_DAMAGE" definition="0" compartment="0" count="3" damage_assignment="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local source = EffectSourceLKI()
+    local targetDC = EffectDC():Get_Targets(0)
+    if targetDC ~= nil then
+    	for i=0,2 do
+    		local target_creature = targetDC:Get_CardPtr(i)
+    		local target_player = targetDC:Get_PlayerPtr(i)
+    		local damage = targetDC:Get_Assignment(i)
+    		if ( target_creature ~= nil ) then   
+    			source:DealDamageTo(damage, target_creature)  
+    		elseif ( target_player ~= nil ) then   
+    			source:DealDamageTo(damage, target_player)  
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Ramp" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_FLAME_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FLAME_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_1_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 1 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 1 blessure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 1 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 1 Schadenspunkt zugefügt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 1 danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[１点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 1점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 1 повреждение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 1 ponto de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成1點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

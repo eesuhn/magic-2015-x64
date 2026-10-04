@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1235">
+  <FILENAME text="TRIBUTE_TO_HUNGER_378317" />
+  <CARDNAME text="TRIBUTE_TO_HUNGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tribute to Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Hommage à la faim]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tributo al ansia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tribut an den Hunger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tributo alla Fame]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飢（う）えへの貢（みつ）ぎ物（もの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[굶주림에 바치는 조공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дань Голоду]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tributo à Fome]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[饥渴献礼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飢渴獻禮]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378317" />
+  <ARTID value="138262" />
+  <ARTIST name="Dave Kendall" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Marella was delighted. The ball had attracted so many suitors for her daughter, including that handsome stranger. She wondered where the two were now . . . .]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Marella était aux anges. Le bal avait attiré tant de soupirants pour sa fille, dont ce bel étranger. Elle se demanda où les deux tourtereaux étaient passés . . .]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Marella estaba encantada. El baile había atraído a tantos pretendientes para su hija, incluyendo ese apuesto extraño. Se preguntaba dónde estarían esos dos ahora…]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Marella war erfreut. Der Ball hatte viele Freier um ihre Tochter angezogen, auch diesen hübschen Fremden. Sie fragte sich, wo die beiden gerade waren ...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Marella era molto contenta. Il ballo aveva attirato così tanti pretendenti alla mano di sua figlia, compreso quell’attraente straniero. Si domandava dove fossero ora quei due...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マレーラは喜んでいた。その舞踏会には、彼女の娘への求婚者が数多く集まり、その中にはあの美形のよそ者もいた。二人はどこに行ってしまったのだろうか……。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마렐라는 흐뭇했다. 무도회는 성공적이었다. 구혼자들이 몰려왔으니까. 게다가 그 잘생긴 사람도 왔다. 마렐라는 딸과 그 사람이 어디로 사라졌나 궁금했다...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Марелла была в восторге. На бал приехало столько ухажеров для ее дочери, включая того красивого незнакомца! «Интересно, где сейчас сладкая парочка?» — подумала она...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Marella estava radiante. O baile havia atraído diversos pretendentes para sua filha, incluindo aquele belo forasteiro. Ela imaginava onde eles poderiam estar agora...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玛瑞拉很开心。这场舞会吸引许多能挑来当女儿伴侣的候选者，包括那位英俊的陌生人。不知这小俩口跑到哪边去了...]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[瑪瑞拉很開心。這場舞會吸引許多能挑來當女兒伴侶的候選者，包括那位英俊的陌生人。不知這小倆口跑到哪邊去了...。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Target opponent sacrifices a creature. You gain life equal to that creature’s toughness.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’adversaire ciblé sacrifie une créature. Vous gagnez un nombre de points de vie égal à l’endurance de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El oponente objetivo sacrifica una criatura. Ganas una cantidad de vidas igual a la resistencia de esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Gegner deiner Wahl opfert eine Kreatur. Du erhältst Lebenspunkte in Höhe der Widerstandskraft dieser Kreatur dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un avversario bersaglio sacrifica una creatura. Guadagni punti vita pari alla sua costituzione.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手１人を対象とする。そのプレイヤーはクリーチャーを１体生け贄に捧げる。 あなたはそのクリーチャーのタフネスに等しい点数のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대 한 명을 목표로 정한다. 그 상대는 생물 한 개를 희생한다. 당신은 그 생물의 방어력만큼의 생명점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Целевой оппонент жертвует существо. Вы получаете количество жизней, равное выносливости того существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O oponente alvo sacrifica uma criatura. Você ganha uma quantidade de pontos de vida igual à resistência daquela criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[目标对手牺牲一个生物。你获得等同于该生物防御力的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[目標對手犧牲一個生物。你獲得等同於該生物防禦力的生命。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_TO_SACRIFICE_CREATURE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_CONTROLLER, OP_IS, target )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    target:ChooseItem( "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(1) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_PlayerPtr(0)	
+    if target ~= nil then
+    	local chosenCreature = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    	if chosenCreature ~= nil then
+    		EffectDC():Set_Int(2, chosenCreature:GetCurrentCharacteristics():Toughness_Get() )	
+    		target:Sacrifice( chosenCreature )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local amount = EffectDC():Get_Int(2)
+    if amount ~= 0 then
+    	EffectController():GainLife( amount )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="1" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TO_SACRIFICE_CREATURE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to sacrifice a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour qu'il sacrifie une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que sacrifique una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der eine Kreatur opfern soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを生け贄に捧げるプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 희생할 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен пожертвовать существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para sacrificar uma criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以令其牺牲一个生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來犧牲一個生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

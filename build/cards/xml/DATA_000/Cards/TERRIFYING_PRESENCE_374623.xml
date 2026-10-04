@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="133">
+  <FILENAME text="TERRIFYING_PRESENCE_374623" />
+  <CARDNAME text="TERRIFYING_PRESENCE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Terrifying Presence]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Présence terrifiante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Presencia aterradora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Präsenz des Schreckens]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Presenza Inquietante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[恐（おそ）るべき存（そん）在（ざい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[끔찍한 존재]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пугающее Присутствие]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Presença Aterrorizante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[可怖存在]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[可怖存在]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374623" />
+  <ARTID value="141611" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Elmut had slaughtered vampires, slain werewolves, and destroyed hordes of zombies. Sadly, he never got over his fear of spiders.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elmut avait massacré des vampires, occis des loups-garous et détruit des hordes de zombies. Hélas, il avait toujours aussi peur des araignées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elmut había masacrado vampiros, asesinado licántropos y destruido hordas de zombies. Por desgracia, nunca superó su miedo a las arañas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Elmut hatte Vampire getötet, Werwölfe erschlagen und Horden von Zombies zerstört. Leider konnte er seine Angst vor Spinnen nie überwinden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elmut aveva massacrato vampiri, trucidato lupi mannari e spazzato via orde di zombie. Sfortunatamente, non riuscì mai a vincere la fobia per i ragni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エルムートは吸血鬼を惨殺し、狼男を斬り伏せ、ゾンビの群れを駆逐してきた。だが残念ながら、蜘蛛が苦手なのだけは治らなかった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[엘무트는 흡혈귀를 학살하고 늑대인간을 쓰러뜨렸으며, 좀비 군단을 파괴했다. 그러나 안타깝게도 거미 공포증만은 극복하지 못했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эльмут убивал вампиров, охотился на вервольфов и уничтожал орды зомби. Но он всю жизнь боялся пауков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elmut já massacrou vampiros, matou lobisomens e destruiu hordas de zumbis. Infelizmente, ele jamais superou seu medo de aranhas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[艾耳末杀过吸血鬼和狼人，消灭无数灵俑。可惜他一直未能克服对蜘蛛的恐惧。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艾耳末殺過吸血鬼和狼人，消滅無數殭屍。可惜他一直未能克服對蜘蛛的恐懼。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Prevent all combat damage that would be dealt by creatures other than target creature this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prévenez toutes les blessures de combat qui devraient être infligées ce tour-ci par des créatures autres que la créature ciblée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prevén todo el daño de combate que fueran a hacer las criaturas que no sean la criatura objetivo este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verhindere allen Kampfschaden, der in diesem Zug von allen Kreaturen außer einer Kreatur deiner Wahl zugefügt würde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Previeni tutto il danno da combattimento che verrebbe inflitto in questo turno da creature diverse da una creatura bersaglio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体を対象とする。このターン、それ以外のクリーチャーが与えるすべての戦闘ダメージを軽減する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 한 개를 목표로 정한다. 이 턴에 그 생물 이외의 생물들이 입히려고 하는 모든 전투피해를 방지한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Предотвратите все боевые повреждения, которые должны быть нанесены в этом ходу существами, отличными от целевого существа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Previna todo dano de combate que seria causado por criaturas que não sejam a criatura alvo neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[于本回合中，防止目标生物之外的所有生物将造成的所有战斗伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[於本回合中，防止目標生物之外的所有生物將造成的所有戰鬥傷害。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_PREVENT_PLAY" />
+    <TARGET tag="CARD_QUERY_TERRIFYING_PRESENCE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <FILTER>
+    local filter = ClearFilter()
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CARD_INSTANCE, OP_NOT, target )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_DOESNT_DEAL_COMBAT_DAMAGE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_TERRIFYING_PRESENCE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature. Only that creature can deal combat damage this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature. Seule cette créature peut infliger des blessures de combat ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura. Solo esa criatura puede hacer daño de combate este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur. Nur diese Kreatur kann in diesem Zug Kampfschaden zufügen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura. Solo quella creatura può infliggere danno da combattimento in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体選んでください。このターン、そのクリーチャーのみ戦闘ダメージを与えることができます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 고르십시오. 이 턴에는 그 생물만 전투피해를 입힐 수 있습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо. Только то существо сможет наносить боевые повреждения в этом ходу.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura. Somente aquela criatura pode causar dano de combate neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物。本回合只有该生物能造成战斗伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物。只有該生物可在本回合造成戰鬥傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

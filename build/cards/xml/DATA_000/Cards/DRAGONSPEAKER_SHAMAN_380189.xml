@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="DRAGONSPEAKER_SHAMAN_380189" />
+  <CARDNAME text="DRAGONSPEAKER_SHAMAN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragonspeaker Shaman]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Shamane languedragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Chamán dragonhablante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Drachensprecher-Schamane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sciamano Dracofono]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドラゴン語（がた）りのシャーマン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용과 대화하는 주술사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шаман, Говорящий с Драконами]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Xamã Dracontófilo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[龙语祭师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[龍語祭師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380189" />
+  <ARTID value="48999" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{1}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We speak the dragons’ language of flame and rage. They speak our language of fury and honor. Together we shall weave a tale of destruction without equal.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous parlons le langage de flamme et de rage des dragons. Ils parlent notre langue de fureur et d'honneur. Ensemble, nous écrirons un récit de destruction sans égal. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Hablamos el idioma de flama y de cólera de los dragones. Ellos hablan nuestro idioma de furia y de honor. Juntos tramaremos un relato de destrucción sin igual”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir sprechen die Sprache der Drachen, von Flammen und Zorn. Sie sprechen unsere Sprache, von Wildheit und Ehre. Zusammen werden wir eine Geschichte der Zerstörung erzählen, wie es sie noch nie gegeben hat.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Parliamo il linguaggio dei draghi, di fuoco e ira. Loro parlano il nostro, di furia e onore. Insieme porteremo un’ondata di distruzione senza eguali.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々は炎と激怒からなるドラゴンの言葉を語る。ドラゴンは激情と栄誉からなる我々の言葉を語る。我らが共に紡ぎあげるは、類稀なる破壊の詩よ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리는 용의 언어인 불꽃과 분노로 말한다. 그들은 우리의 언어인 열렬함과 의로움로 말한다." 우리는 함께 무자비한 파괴의 이야기를 만들 것이다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы говорим на драконьем языке пламени и свирепости. Они говорят на нашем языке ярости и чести. Вместе мы поведаем историю разрушений, которым нет равных».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nós falamos a língua das chamas e da ira dos dragões. Eles falam nossa língua de honra e fúria. Juntos, teceremos um conto inigualável de destruição.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我等了解龙族的炽焰与狂愤。他们了解我等的怒火与荣耀。我们将一同编织前所未见的毁灭篇章。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我等瞭解龍族的熾焰與狂憤。他們瞭解我等的怒火與榮耀。我們將一同編織前所未見的毀滅篇章。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Barbarian" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragon spells you cast cost {2} less to cast.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sorts de dragon que vous lancez coûtent {2} de moins à lancer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Te cuesta {2} menos lanzar los hechizos de Dragón.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Drache-Zaubersprüche, die du wirkst, kosten beim Wirken {2} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le magie Drago che lanci costano {2} in meno per essere lanciate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが唱えるドラゴン・呪文を唱えるためのコストは{2}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 발동하는 용 주문은 발동하는 데 {2}가 덜 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыгрываемые вами заклинания Драконов стоят на {2} меньше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As mágicas de Dragão que você conjura custam {2} la menos para serem conjuradas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你施放的龙咒语减少{2}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你施放的龍咒語減少{2}來施放。]]></LOCALISED_TEXT>
+    <TRIGGER value="CONSIDERED_FOR_CAST" simple_qualifier="controller" pre_trigger="1">
+    return (TriggerObject():GetSubType():Test( CREATURE_TYPE_DRAGON ))
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	TriggerObject():DecreaseCost( 2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

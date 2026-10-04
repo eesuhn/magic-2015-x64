@@ -1,0 +1,77 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="CYCLOPS_OF_ONEEYED_PASS_374944" />
+  <CARDNAME text="CYCLOPS_OF_ONEEYED_PASS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cyclops of One-Eyed Pass]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cyclope du Col Borgne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cíclopes del Desfiladero Tuerto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zyklop vom Einaugenpass]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ciclope di Passo Guercio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一（ひと）つ目（め）峠（とうげ）のサイクロプス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[애꾸눈 통로의 키클롭스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Циклоп Одноглазого Перевала]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ciclope da Passagem Caolha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[独目峡独眼巨人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[獨目峽獨眼巨人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374944" />
+  <ARTID value="152581" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Champion armed herself to face the cyclops, heedless of her companions’ despair.
+“How will you defeat it with only one spear?” asked young Althemone.
+The Champion raised her weapon. “It has but one eye.”
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Championne s'arma pour affronter le cyclope, ne prêtant pas attention au désespoir de ses compagnons.
+« Comment le vaincre avec une seule lance ? » demanda la jeune Althémone.
+La Championne leva son arme. « Il n'a qu'un seul œil. »
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Campeona se armó para enfrentarse al cíclope, sin escuchar las plegarias desesperadas de sus compañeros.
+“¿Cómo vas a vencerlo con una sola lanza?”, preguntó la joven Altémona.
+La Campeona alzó su arma. “Él solo tiene un ojo”.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Auserwählte griff zur Waffe, um dem Zyklopen gegenüberzutreten, ohne auf die Unkenrufe ihrer verzweifelten Gefährten zu hören.
+„Wie willst du ihn denn mit nur einem Speer niederstrecken?“, fragte die junge Althemone.
+Die Auserwählte hob ihre Waffe. „Er hat doch nur ein Auge.“
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Campionessa si armò per affrontare il ciclope, incurante della disperazione dei suoi compagni.
+“Come potrai sconfiggerlo con una sola lancia?” chiese la giovane Altemone.
+La Campionessa sollevò l’arma. “Non ha che un solo occhio.”
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[女勇者は同行者たちの絶望した様子も意に介さず、サイクロプスと対峙するために武器を手に取った。
+「槍一本だけで、どうやって奴を倒すおつもりですか？」と、若きアルセモニーが問うた。
+女勇者は武器を掲げて答えた。「あれには目が一つしかないわ。」
+――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅은 동료의 절망에 아랑곳하지 않고 무장을 갖춰 키클롭스와 맞섰다.
+“창 한 자루만 가지고 이기겠다고?” 젊은 엘세모니가 물었다.
+영웅이 창을 들며 말했다. “눈이 하나니까.”
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не обращая внимания на отчаяние спутников, Поборница вооружилась, готовясь сразиться с циклопом.
+«Но как ты победишь его с одним лишь копьем?» — спросила юная Альтемона.
+Поборница подняла свое оружие: «У него же один глаз».
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A Campeã armou-se para enfrentar o ciclope, sem prestar atenção ao desespero de seus companheiros.
+“Como você o derrotará com só uma lança?”, perguntou o jovem Altemone.
+A Campeã ergueu sua arma. “Ele só tem um olho.”
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在一片绝望气氛中，天尊毅然拿起武器面对独眼巨人。
+「只凭这根长矛，你怎能打败它？」年轻的阿瑟蒙妮不解。
+天尊扬起手中长矛。「它也只有一只眼睛。」
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在一片絕望氣氛中，天尊毅然拿起武器面對獨眼巨人。
+「只憑這根長矛，妳怎能打敗牠？」年輕的阿瑟蒙妮不解。
+天尊揚起手中長矛。「牠也只有一隻眼睛。」
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cyclops" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

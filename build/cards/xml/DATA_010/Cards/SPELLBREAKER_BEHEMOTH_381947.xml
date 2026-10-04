@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="SPELLBREAKER_BEHEMOTH_381947" />
+  <CARDNAME text="SPELLBREAKER_BEHEMOTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spellbreaker Behemoth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Béhémoth brisesort]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Behemot rompehechizos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zauberbrecherbehemoth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Behemoth Spezzamagie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪（じゅ）文（もん）砕（くだ）きのビヒモス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 부수는 거대괴물]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Незаклинаемое Чудище]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Behemoth Quebra-mágica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[破咒贝西摩斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[破咒貝西摩斯]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381947" />
+  <ARTID value="120966" />
+  <ARTIST name="Jason Chan" />
+  <CASTING_COST cost="{1}{R}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Some think its immunity to countermagic evolved because of the constant mage attacks on Naya. I think it just ate a bunch of wizards.”
+—Broka, drumhunter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Certains pensent que son immunité à la contremagie a évolué à cause des perpétuelles attaques de mages sur Naya. Si vous voulez mon avis, il a juste avalé quelques sorciers. »
+—Broka, batteur-chasseur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Algunos creen que su inmunidad a la contramagia evolucionó por los constantes ataques de magos en Naya. Yo creo que solo se comió unos cuantos hechiceros”.
+—Broka, cazador del tambor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich habe schon oft gehört, dass er Immunität gegen Gegenzauber entwickelt hat, da Magier dauernd in Naya angriffen. Ich selbst glaube, er hatte einfach ein paar Magier zum Frühstück.“
+—Broka, Trommeljäger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Alcuni pensano che la sua immunità alle contromagie si sia evoluta grazie ai continui attacchi magici a Naya. Io penso che si sia semplicemente mangiato un gruppetto di maghi.”
+—Broka, cacciatore a percussione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「この対抗呪文に対する免疫は、ナヤに対して絶え間なく攻撃してくる魔道士のおかげで進化してきたものだと思ってる人もいるわね。私は単に魔術師をたくさん食べてきただけの話だと思うけどね。」
+――鼓声狩人、ブローカ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“어떤 사람들은 쉴 새 없이 나야를 습격하는 마도사들 때문에 저 야수가 마법으로부터 면역을 얻었다고 말하더군. 개인적으로 난 그냥 마법사를 많이 잡아먹어서 그렇게 된 것 같아.”
+—북사냥꾼 브로카]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Некоторые считают, что его неуязвимость к встречным заклинаниям выработалась в результате постоянных нападений магов на Найе. А я думаю, что он просто сожрал кучу колдунов».
+— Броука, перестукивающийся охотник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Alguns acreditam que sua imunidade à contramágica evoluiu devido aos constantes ataques de magos a Naya. Eu acredito que ele simplesmente devorou um monte de magos.”
+— Broka, caçador tamborileiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「有些人认为它对反击法术的抗性，是从法师经常对纳雅发动之攻击中产生的。我则认为它只是吃了很多个法术师。」
+～鼓击猎人步卡]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「有些人認為牠對反擊魔法的抗性，是從法師經常對納雅發動之攻擊中產生的。我則認為牠只是吃了很多個魔法師。」
+～鼓擊獵人步卡]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY active_zone="ZONE_STACK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Spellbreaker Behemoth can’t be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Béhémoth brisesort ne peut pas être contrecarré.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Behemot rompehechizos no puede ser contrarrestado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Zauberbrecherbehemoth kann nicht neutralisiert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Behemoth Spezzamagie non può essere neutralizzato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文砕きのビヒモスは打ち消されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문을 부수는 거대괴물은 무효화될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Незаклинаемое Чудище не может быть отменено.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Behemoth Quebra-mágica não pode ser anulado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[破咒贝西摩斯不能被反击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[破咒貝西摩斯不能被反擊。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_COUNTERED, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creature spells you control with power 5 or greater can’t be countered.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sorts de créature que vous contrôlez de force supérieure ou égale à 5 ne peuvent pas être contrecarrés.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los hechizos de criatura que controlas con fuerza de 5 o más no pueden ser contrarrestados.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturenzauber mit Stärke 5 oder mehr, die du kontrollierst, können nicht neutralisiert werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le magie creatura con forza pari o superiore a 5 che controlli non possono essere neutralizzate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするパワーが５以上のクリーチャー・呪文は打ち消されない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물 주문 중 공격력이 5 이상인 주문들은 무효화될 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заклинания существ под вашим контролем с силой 5 или больше не могут быть отменены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As mágicas de criatura que você controla com poder maior ou igual a 5 não podem ser anuladas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控且力量大于或等于5的生物咒语不能被反击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控且力量大於或等於5的生物咒語不能被反擊。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_STACK )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_POWER, OP_GREATER_THAN_OR_EQUAL_TO, 5 )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_COUNTERED, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

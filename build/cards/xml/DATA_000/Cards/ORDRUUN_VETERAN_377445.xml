@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="ORDRUUN_VETERAN_377445" />
+  <CARDNAME text="ORDRUUN_VETERAN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ordruun Veteran]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vétéran ordruun]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Veterano ordrúun]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ordruun-Veteran]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Veterano Ordruun ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オルドルーンの古（こ）参（さん）兵（へい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오르드룬 고참병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ордруунский Ветеран]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Veterano Ordruun]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[欧度鲁老兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歐度魯老兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377445" />
+  <ARTID value="146385" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{2}{R}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“My father was Gruul, but I chose the precision of the legion over the fury of the pack.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Mon père était un Gruul, mais j'ai préféré la précision de la légion à la furie de la meute. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mi padre era gruul, pero elegí la precisión de la legión antes que la furia de la manada”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Mein Vater war Gruul, aber ich zog die Präzision der Legion der Raserei der Horde vor.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Mio padre era un Gruul, ma ho scelto la precisione della legione invece della furia del branco.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「親父はグルールだったが、俺は群れの激情よりも軍団の精密さを選んだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리 아버지는 그룰이었지. 하지만 난 무리의 분노보다는 군단의 규율을 선택했어."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мой отец был Груулом, но я для себя решил, что дисциплина легиона все же лучше ярости стаи».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Meu pai era um Gruul, mas eu escolhi a precisão da legião em vez da fúria do bando.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我的父亲是古鲁，但我要的是精准军团，而非狂怒部族。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我的父親是古魯，但我要的是精準軍團，而非狂怒部族。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Battalion| — Whenever Ordruun Veteran and at least two other creatures attack, Ordruun Veteran gains double strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Bataillon| — À chaque fois que le Vétéran ordruun et au moins deux autres créatures attaquent, le Vétéran ordruun acquiert la double initiative jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Batallón| — Siempre que el Veterano ordrúun y al menos otras dos criaturas ataquen, el Veterano ordrúun gana la habilidad de dañar dos veces hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Bataillon| — Immer wenn der Ordruun-Veteran und mindestens zwei andere Kreaturen angreifen, erhält der Ordruun-Veteran Doppelschlag bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Battaglione| — Ogniqualvolta il Veterano Ordruun e almeno altre due creature attaccano, il Veterano Ordruun ha doppio attacco fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|大隊| ― オルドルーンの古参兵と少なくとも２体の他のクリーチャーが攻撃するたび、オルドルーンの古参兵はターン終了時まで二段攻撃を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부대전 — 오르드룬 고참병과 두 개 이상의 다른 생물이 공격할 때마다, 오르드룬 고참병은 턴종료까지 이단공격을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Батальон| — Каждый раз, когда Ордруунский Ветеран и как минимум два других существа атакуют, Ордруунский Ветеран получает Двойной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Batalhão| — Toda vez que Veterano Ordruun e pelo menos duas outras criaturas atacarem, Veterano Ordruun ganhará golpe duplo até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[协战～每当欧度鲁老兵与至少两个其他生物攻击时，欧度鲁老兵获得连击异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[協戰～每當歐度魯老兵與至少兩個其他生物攻擊時，歐度魯老兵獲得連擊異能直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self">
+    local filter = ClearFilter()
+    filter:Add(FE_IS_ATTACKING, true)
+    local numAttackers = filter:CountStopAt(3)
+    return numAttackers == 3
+    </TRIGGER>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_DOUBLE_STRIKE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_2" body="MORE_INFO_BADGE_BODY_2" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_BATTALION" body="MORE_INFO_BODY_BATTALION" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

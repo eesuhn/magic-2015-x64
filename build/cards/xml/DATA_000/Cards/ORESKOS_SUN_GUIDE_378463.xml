@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="125">
+  <FILENAME text="ORESKOS_SUN_GUIDE_378463" />
+  <CARDNAME text="ORESKOS_SUN_GUIDE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Oreskos Sun Guide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guide solaire d'Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guía solar de Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Oreskos-Sonnenführer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guida Solare di Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オレスコスの太（たい）陽（よう）導（みちび）き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오레스코스 태양 인도자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Солнечный Проводник из Ореска]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guia do Sol de Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[俄瑞恣太阳向导]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[俄瑞恣太陽嚮導]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378463" />
+  <ARTID value="152014" />
+  <ARTIST name="Mathias Kollros" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Let the humans have their pantheon. We need no gods to thrive. Even a mortal such as I can capture a part of the sun’s power.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Laissons leur panthéon aux humains. Nous n'avons besoin d'aucun dieu pour prospérer. Même un mortel tel que moi peut capturer une parcelle de la puissance du soleil. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Deja a los humanos con su panteón. Para prosperar no necesitamos a los dioses. Hasta un mortal como yo puede capturar una parte del poder del sol”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sollen die Menschen doch ihr Pantheon haben. Wir brauchen keine Götter, um zu obsiegen. Selbst ein Sterblicher wie ich kann etwas von der Kraft der Sonne einfangen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Lasciate agli umani il loro pantheon. Noi non abbiamo bisogno di dei per prosperare. Persino un mortale come me può catturare parte del potere del sole.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「人間には神々がお似合いだ。我々が繁栄するのに神々は必要ない。私のような定命の者でさえ、太陽の力を一部取り込むことができるからな。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“우리 일족에게 인간이 모시는 신 따위는 필요없다. 나와 같은 필멸자도 태양의 힘을 한 웅큼이나마 손에 쥘 수 있으니까.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Пусть люди поклоняются своему пантеону. Нам для процветания не нужны боги. Даже такой смертный, как я, способен завладеть частичкой силы Солнца».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Que os humanos tenham seu panteão. Nós não precisamos de deuses para prosperar. Mesmo um mortal como eu consegue capturar uma parte do poder do sol.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「就让人类自己去信奉诸神吧。我族不需依靠神祗也能得以兴旺。凡人如我也能掌握一部分的太阳之力。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「就讓人類自己去信奉諸神吧。我族不需依靠神祇也能得以興旺。凡人如我也能掌握一部分的太陽之力。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Monk" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Inspired| — Whenever Oreskos Sun Guide becomes untapped, you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Inspiration| — À chaque fois que le Guide solaire d’Oreskos devient dégagé, vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Inspiración| — Siempre que el Guía solar de Oreskos se enderece, ganas 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Inspiriert| — Immer wenn der Oreskos-Sonnenführer enttappt wird, erhältst du 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Ispirazione| — Ogniqualvolta la Guida Solare di Oreskos viene STAPpata, guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|神啓| ― オレスコスの太陽導きがアンタップ状態になるたび、あなたは２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영감 — 오레스코스 태양 인도자가 언탭될 때마다, 당신은 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Одухотворение| — Каждый раз, когда Солнечный Проводник из Ореска становится развернутым, вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Inspirado| — Toda vez que Guia do Sol de Oreskos se torna desvirado, você ganha 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[启悟～每当俄瑞恣太阳向导成为未横置时，你获得2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[啟悟～每當俄瑞恣太陽嚮導成為未橫置時，你獲得2點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_UNTAPPED" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(2 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_INSPIRED" body="MORE_INFO_BODY_INSPIRED" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

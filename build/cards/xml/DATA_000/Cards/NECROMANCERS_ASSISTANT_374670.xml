@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1152">
+  <FILENAME text="NECROMANCERS_ASSISTANT_374670" />
+  <CARDNAME text="NECROMANCERS_ASSISTANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Necromancer’s Assistant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Assistant du nécromancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ayudante del nigromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Assistent des Nekromagiers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Assistente del Necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[屍（し）術（じゅつ）士（し）の助（じょ）手（しゅ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사령술사의 조수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Помощник Некроманта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assistente de Necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[死灵术士助手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[死靈術士助手]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374670" />
+  <ARTID value="155364" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Zombies and necromancers agree: easy access to brains is preferred.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les zombies et les nécromanciens sont d'accords : simplifier l'accès au cerveau est toujours souhaitable.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los zombies y los nigromantes coinciden: es mucho mejor que haya un fácil acceso al cerebro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zombies und Nekromagier sind sich einig: Ein leichter Zugang zum Gehirn ist am besten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli zombie e i necromanti sono d’accordo: è sempre meglio conservare i cervelli a portata di mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[脳へ容易に触れられるのがいいことであるという点については、ゾンビと屍術士の両者は同意する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[좀비나 사령술사나 뇌를 꺼내기 쉬운 시체를 좋아한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зомби и некроманты сходятся в том, что чем проще добраться до мозгов — тем лучше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Zumbis e necromantes concordam: acesso facilitado ao cérebro é preferível.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[灵俑和死灵术士都同意一点：脑子越方便下手越好。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[殭屍和死靈術士都同意一點：腦子越方便下手越好。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY active_zone="ZONE_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Necromancer’s Assistant enters the battlefield, put the top three cards of your library into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Assistant du nécromancien arrive sur le champ de bataille, mettez les trois cartes du dessus de votre bibliothèque dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Ayudante del nigromante entre al campo de batalla, pon las tres primeras cartas de tu biblioteca en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Assistent des Nekromagiers ins Spiel kommt, lege die obersten drei Karten deiner Bibliothek auf deinen Friedhof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Assistente del Necromante entra nel campo di battaglia, metti nel tuo cimitero le prime tre carte del tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[屍術士の助手が戦場に出た時。、あなたのライブラリーの一番上から３枚のカードをあなたの墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사령술사의 조수가 전장에 들어올 때, 당신의 서고 맨 위의 카드 세 장을 당신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Помощник Некроманта выходит на поле битвы, положите три верхние карт вашей библиотеки на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Assistente de Necromante entrar no campo de batalha, coloque os três cards do topo de seu grimório em seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当死灵术士助手进战场时，将你牌库顶的三张牌置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當死靈術士助手進戰場時，將你牌庫頂的三張牌置入你的墳墓場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():MillCards( 3 )
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Graveyard" amount="3" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

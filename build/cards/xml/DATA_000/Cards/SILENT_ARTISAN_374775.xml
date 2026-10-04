@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="SILENT_ARTISAN_374775" />
+  <CARDNAME text="SILENT_ARTISAN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Silent Artisan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Artisan silencieux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Artesano sosegado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stiller Handwerker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Artigiano Silente]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[沈（ちん）黙（もく）の職（しょっ）工（こう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[침묵의 장인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Безмолвный Мастер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Artesão Silencioso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[缄默工匠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[緘默工匠]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374775" />
+  <ARTID value="150773" />
+  <ARTIST name="Anthony Palumbo" />
+  <CASTING_COST cost="{3}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[On the fourth day they passed through a forest of immense stacked stones. Althemone, youngest of the companions, called these pillars the work of a god, but the Champion knew better. She quickened her pace.
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au quatrième jour, ils traversèrent une forêt d'immenses blocs de pierre. Althémone, cadette de la compagnie, décréta que ces colonnes étaient l'œuvre d'un dieu ; la Championne, elle, connaissait la vérité. Elle pressa le pas.
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El cuarto día atravesaron un bosque de enormes piedras apiladas. Altémona, la más joven de los compañeros, dijo que los pilares debían ser obra de un dios, pero la Campeona sabía la verdad. Aceleró el paso.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Am vierten Tag durchquerten sie einen Wald aus riesigen, gestapelten Felsbrocken. Althemone, die Jüngste unter den Gefährten, sah in diesen Säulen das Werk eines Gottes, doch die Auserwählte wusste es besser. Sie lief schnellen Schrittes weiter.
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il quarto giorno attraversarono una foresta di immense pietre impilate. Altemone, più giovane fra i compagni, definì quei pilastri il lavoro di un dio, ma la Campionessa conosceva la verità. E affrettò il passo.
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[四日目に、彼らは巨大な石が積み重ねられた森の中を通り過ぎた。同行者の中で最も年少のアルセモニーは、これらの石柱を神の手によるものであると言い出した。しかし女勇者はそれが本当は何なのかを知っていた。彼女は歩く速度を上げていった。――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[여행 나흘째, 그들은 거대한 돌무더기 숲을 지나갔다. 일행 중 가장 어린 엘세모니가 돌기둥을 보고 신의 작품이라고 했지만 영웅은 돌기둥의 정체를 알고 있었다. 그녀는 발걸음을 서둘렀다.
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На четвертый день они вошли в лес огромных валунов, поставленных друг на друга. Альтемона, самая младшая из спутников, сказала, что эти колонны — творение богов, но Поборница знала, что это не так. Она ускорила шаг.
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No quarto dia, eles passaram por uma floresta de imensas pedras empilhadas. Altemone, mais jovem dos companheiros, as chamou de obra divina, mas a Campeã sabia que não era esse o caso. Ela apressou a marcha.
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[第四天，一行人穿越了漫无边际的宏伟石林，每座石柱仿佛都是精心堆砌而成。阅历最浅的阿瑟蒙妮感叹着鬼斧神工的奇景，但天尊知晓其中奥秘。她加快了步伐。
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[第四天，一行人穿越了漫無邊際的宏偉石林，每座石柱彷彿都是精心堆砌而成。閱歷最淺的阿瑟蒙妮感歎著鬼斧神工的奇景，但天尊知曉其中奧秘。她加快了步伐。
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Giant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="5" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

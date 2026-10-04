@@ -1,0 +1,89 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="CORPSE_HAULER_378196" />
+  <CARDNAME text="CORPSE_HAULER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Corpse Hauler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Transporteur de cadavres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cargador de cuerpos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Leichenschlepper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Portacadaveri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[死（し）体（たい）運（はこ）び]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체를 나르는 짐꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Носильщик Трупов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Carregador de Cadáveres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[死尸搬运人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[死屍搬運人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378196" />
+  <ARTID value="147401" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“He expects a reward, but the only piece of silver he’ll get from me is my blade in his gut.”
+—Shelac, necromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Il espère une récompense, mais tout l'argent qu'il recevra de moi sera ma lame plantée dans son ventre. »
+—Shelac, nécromancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Espera una recompensa, pero la única plata que recibirá de mi parte será la de mi espada en sus tripas”.
+—Shelac, nigromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Er erwartet eine Belohnung, aber das einzige Silber, das er von mir bekommen wird, ist meine Klinge in seinen Eingeweiden.“
+—Shelac, Nekromant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Si aspetta una ricompensa, ma l’unico argento che riceverà da me sarà una lama nello stomaco.”
+—Shelac, necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「奴は見返りを求めているが、奴には銀貨ではなくこの銀の刃を腹で受け止めてもらおう。」――屍術師シラーク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["녀석에게 줄 상은 배에 쑤셔넣을 칼밖에 없어."
+—사령술사 쉘라크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Он ожидает награды серебром. Что ж, я заплачу ему — ударом серебряного клинка в брюхо».
+— Шилак, некромант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Ele espera uma recompensa, mas a única peça de prata que receberá de mim é minha lâmina em suas entranhas.”
+— Shelac, necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「他想要报酬，但他从我这里得到的白银只可能是刺入肠子的利刃。」
+～死灵术士歇拉]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「他想要報酬，但他從我這裡得到的白銀只可能是刺入腸子的利刃。」
+～死靈術士歇拉]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Rogue" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{B}, Sacrifice Corpse Hauler: Return another target creature card from your graveyard to your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{B}, sacrifiez le Transporteur de cadavres : Renvoyez une autre carte de créature ciblée depuis votre cimetière dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{B}, sacrificar el Cargador de cuerpos: Regresa otra carta de criatura objetivo de tu cementerio a tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{B}, opfere den Leichenschlepper: Bringe eine andere Kreaturenkarte deiner Wahl aus deinem Friedhof auf deine Hand zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{B}, Sacrifica il Portacadaveri: Riprendi in mano un’altra carta creatura bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{B}, 死体運びを生け贄に捧げる：あなたの墓地にある他のクリーチャー・カード１枚を対象とし、それをあなたの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{B}, 시체를 나르는 짐꾼을 희생한다: 당신의 무덤에 있는 생물 카드 한 장을 목표로 정한다. 그 카드를 당신의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{B}, пожертвуйте Носильщика Трупов: верните другую целевую карту существа из вашего кладбища в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{B}, Sacrifique Carregador de Cadáveres: Devolva outro card de criatura alvo de seu cemitério para sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{B}，牺牲死尸搬运人：将另一张目标生物牌从你的坟墓场移回你手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{B}，犧牲死屍搬運人：將另一張目標生物牌從你的墳墓場移回你手上。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{B}" type="Mana" />
+    <COST type="SacrificeSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_YOUR_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_RECURSION_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE_TO_RETURN_TO_YOUR_HAND">
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="114">
+  <FILENAME text="COLOSSAL_WHALE_385054" />
+  <CARDNAME text="COLOSSAL_WHALE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Colossal Whale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Baleine colossale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ballena colosal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gigantischer Wal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Balena Colossale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壮（そう）大（だい）な鯨（くじら）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거대한 고래]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Громадный Кит]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Baleia Colossal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[超巨鲸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[超巨鯨]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="385054" />
+  <ARTID value="147477" />
+  <ARTIST name="Adam Paquette" />
+  <CASTING_COST cost="{5}{U}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Whale" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Islandwalk]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Traversée des îles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cruza islas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Inseltarnung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa-Isole]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[島渡り]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[섬잠입]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Знание Островов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Travessia de ilha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[海岛行者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[海島行者]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_ISLANDWALK" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Colossal Whale attacks, you may exile target creature defending player controls until Colossal Whale leaves the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que la Baleine colossale attaque, vous pouvez exiler une créature ciblée que le joueur défenseur contrôle jusqu’à ce que la Baleine colossale quitte le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Ballena colosal ataque, puedes exiliar la criatura objetivo que controla el jugador defensor hasta que la Ballena colosal deje el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Gigantische Wal angreift, kannst du eine Kreatur deiner Wahl, die der verteidigende Spieler kontrolliert, ins Exil schicken, bis der Gigantische Wal das Spiel verlässt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta la Balena Colossale attacca, puoi esiliare una creatura bersaglio controllata dal giocatore in difesa finché la Balena Colossale non lascia il campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[壮大な鯨が攻撃するたび、防御プレイヤーがコントロールしているクリーチャー１体を対象とする。あなたはそれを、壮大な鯨が戦場を離れるまで追放してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거대한 고래가 공격할 때마다, 수비플레이어가 조종하는 생물을 목표로 정한다. 당신은 그 생물을 거대한 고래가 전장을 떠날 때까지 추방할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Громадный Кит атакует, вы можете изгнать целевое существо под контролем защищающегося игрока до тех пор, пока Громадный Кит не покинет поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Baleia Colossal ataca, você pode exilar a criatura alvo que o jogador defensor controla até que Baleia Colossal deixe o campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当超巨鲸攻击时，你可以放逐目标由防御牌手操控的生物，直到超巨鲸离开战场为止。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當超巨鯨攻擊時，你可以放逐目標由防禦玩家操控的生物，直到超巨鯨離開戰場為止。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectSourceLKI():GetPlayerAttacked() )
+    </TARGET_DEFINITION>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	if EffectDC():Get_Targets(0) ~= nil then
+    		local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    		if target ~= nil then 
+    			EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    			target:Exile()  
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then	
+    	if EffectDC():Get_Targets(0) ~= nil then
+    		local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    		local source = EffectSource()
+    		if target ~= nil and source ~= nil then
+    			target:NailOnto(source)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+    <EXPIRY_ACTION>
+    local cardToReturn = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if cardToReturn ~= nil then
+    	cardToReturn:PutOntoBattlefield( cardToReturn:GetOwner() )
+    end
+    </EXPIRY_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_17" body="MORE_INFO_BADGE_BODY_17" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para exiliarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放逐的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

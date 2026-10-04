@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="211">
+  <FILENAME text="JADDI_LIFESTRIDER_380267" />
+  <CARDNAME text="JADDI_LIFESTRIDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jaddi Lifestrider]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jaddi enjambe-vie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Montaraz vital jaddi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jaddiholz-Schreiter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Jaddi Errante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャディの生（せい）命（めい）歩（ある）き]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자디 꺾다리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Жизнеход Джадди]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Andarilho Jaddi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[贾笛跃命灵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[賈笛躍命靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380267" />
+  <ARTID value="127282" />
+  <ARTIST name="Vincent Proce" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nature’s arms encircle all who are willing to draw close.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les bras de la nature enveloppent tous ceux qui acceptent de l'approcher.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La naturaleza abraza a todo aquel dispuesto a acercarse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Natur umarmt jeden, der sich an sie heranziehen lässt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le braccia della natura circondano tutti coloro che desiderano stare vicini.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[自然の腕は、近づこうとする者すべてを取り囲む。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자연은 다가오는 자를 팔로 감싼다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Объятия природы охватывают всех, кто готов прижаться к ней покрепче.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os braços da natureza abraçam a todos que desejam se aproximar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[自然的怀抱围绕着所有愿意靠近者。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[自然的懷抱圍繞著所有願意靠近者。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="8" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Jaddi Lifestrider enters the battlefield, you may tap any number of untapped creatures you control. You gain 2 life for each creature tapped this way.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Jaddi enjambe-vie arrive sur le champ de bataille, vous pouvez engager n’importe quel nombre de créatures dégagées que vous contrôlez. Vous gagnez 2 points de vie pour chaque créature engagée de cette manière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Montaraz vital jaddi entre al campo de batalla, puedes girar cualquier cantidad de criaturas enderezadas que controlas. Ganas 2 vidas por cada criatura girada de esta manera.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Jaddiholz-Schreiter ins Spiel kommt, kannst du eine beliebige Anzahl ungetappter Kreaturen, die du kontrollierst, tappen. Du erhältst 2 Lebenspunkte für jede auf diese Weise getappte Kreatur dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Jaddi Errante entra nel campo di battaglia, puoi TAPpare un qualsiasi numero di creature STAPpate che controlli. Guadagni 2 punti vita per ogni creatura TAPpata in questo modo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャディの生命歩きが戦場に出たとき、あなたはあなたがコントロールするアンタップ状態のクリーチャーを望む数だけタップしてもよい。これによりタップされたクリーチャー１体につき、あなたは２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자디 꺽다리가 전장에 들어올 때, 당신은 당신이 조종하는 언탭된 생물을 원하는 만큼 탭할 수 있다. 당신은 이렇게 탭한 생물당 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Жизнеход Джадди выходит на поле битвы, вы можете повернуть любое количество неповернутых существ под вашим контролем. Вы получаете 2 жизни за каждое существо, повернутое таким образом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Andarilho Jaddi entra no campo de batalha, você pode virar qualquer número de criaturas desviradas que você controla. Você ganha 2 pontos de vida para cada criatura virada dessa maneira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当贾笛跃命灵进战场时，你可以横置任意数量由你操控且未横置的生物。每以此法横置一个生物，你便获得2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當賈笛躍命靈進戰場時，你可以橫置任意數量由你操控、且未橫置的生物。每以此法橫置一個生物，你便獲得2點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_CONTROLLER, OP_IS, effectController)
+    filter:Add(FE_IS_TAPPED, false)
+    local totalCreaturesToTap = filter:Count()
+    effectController:SetItemCount( totalCreaturesToTap )
+    for i = 0, totalCreaturesToTap-1 do 
+    	effectController:SetItemPrompt( i, "CARD_QUERY_CHOOSE_CREATURE_TAP")
+    end
+    effectController:ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO)
+    	
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local tapDC = EffectDC():Get_Targets(0)
+    local lifeToGain = 0
+    if tapDC ~= nil then
+    	local numCreaturesToTap = tapDC:Count()
+    	if numCreaturesToTap ~= 0 then
+    		for i = 0, numCreaturesToTap-1 do
+    			local creatureToTap = tapDC:Get_CardPtr(i)
+    			if creatureToTap ~= nil then
+    				creatureToTap:Tap()
+    				lifeToGain = lifeToGain+2
+    			end
+    		end
+    	end
+    end
+    if lifeToGain ~= 0 then
+    	EffectController():GainLife(lifeToGain)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_LEAVES_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TAP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to tap.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'engager.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para girarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die getappt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da TAPpare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭할 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для поворота.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para virar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要横置的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來橫置。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

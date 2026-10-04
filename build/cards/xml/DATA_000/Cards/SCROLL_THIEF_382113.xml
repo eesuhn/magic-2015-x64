@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="385">
+  <FILENAME text="SCROLL_THIEF_382113" />
+  <CARDNAME text="SCROLL_THIEF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Scroll Thief]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voleur de parchemin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ladrón del pergamino]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schriftrollendieb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ladro di Pergamene]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[巻（まき）物（もの）泥（どろ）棒（ぼう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[두루마리 도둑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Похититель Свитков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ladrão de Pergaminho]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[卷轴盗贼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[卷軸盜賊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382113" />
+  <ARTID value="129096" />
+  <ARTIST name="Alex Horley-Orlandelli" />
+  <CASTING_COST cost="{2}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kapsho merfolk have infiltrated fortresses as remote as the desert citadel in Sunari in their relentless quest for arcane knowledge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dans leur quête insatiable de savoir magique, les ondins de Kapsho ont infiltré des forteresses aussi lointaines que la citadelle du désert de Sunari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En su afán de obtener conocimiento arcano, los tritones de Kapsho se han infiltrado en fortalezas tan lejanas como la ciudadela desértica de Sunari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf seiner unaufhörlichen Suche nach arkanem Wissen drang das Meervolk vom Kapshomeer bis in entlegene Festungen wie die Wüstenzitadelle in Sunari ein.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I tritoni di Kapsho si sono infiltrati in fortezze remote come la cittadella del deserto di Sunari, nella loro instancabile ricerca di conoscenza arcana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キャプショのマーフォークはなりふり構わず秘儀の知識を追い求め、ついに人里離れたスナリーの砂漠の城塞にまで侵入した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[집요하게 비술을 찾는 카프쇼 인어들은 수나리 사막에 있는 외딴 성채에까지  첩자들을 보냈다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В безустанном поиске тайных знаний мерфолки Капшо проникают в самые отдаленные крепости. Они добрались даже до цитадели в пустыне Сунари.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Em sua busca incansável por conhecimentos arcanos, os tritões de Kapsho infiltraram-se em fortalezas tão remotas quanto a cidadela do deserto, em Sunari.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[凯普萧人鱼不懈地追寻神秘知识，甚至已渗透进遥远的苏拿里沙漠城堡要塞中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[凱普蕭人魚不懈地追尋神秘知識，甚至已滲透進遙遠的蘇拿里沙漠城堡要塞中。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" />
+  <SUB_TYPE metaname="Rogue" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Scroll Thief deals combat damage to a player, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Voleur de parchemin inflige des blessures de combat à un joueur, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Ladrón del pergamino haga daño de combate a un jugador, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Schriftrollendieb einem Spieler Kampfschaden zufügt, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Ladro di Pergamene infligge danno da combattimento a un giocatore, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[巻物泥棒がプレイヤー１人に戦闘ダメージを与えるたび、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[두루마리 도둑이 플레이어에게 전투피해를 입힐 때마다, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Похититель Свитков наносит боевые повреждения игроку, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Ladrão de Pergaminho causar dano de combate a um jogador, compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当卷轴盗贼对任一牌手造成战斗伤害时，抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當卷軸盜賊向一位玩家造成戰鬥傷害時，抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_PLAYER" simple_qualifier="self" damage_type="combat" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

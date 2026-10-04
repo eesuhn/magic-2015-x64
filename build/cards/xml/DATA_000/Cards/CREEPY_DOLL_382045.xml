@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="295">
+  <FILENAME text="CREEPY_DOLL_382045" />
+  <CARDNAME text="CREEPY_DOLL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creepy Doll]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Poupée sinistre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muñeca espeluznante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gruselige Puppe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bambola Raccapricciante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不（ぶ）気（き）味（み）な人（にん）形（ぎょう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오싹한 인형]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зловещая Кукла]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Boneca Horripilante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[可怖娃娃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[可怖娃娃]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382045" />
+  <ARTID value="138131" />
+  <ARTIST name="Matt Stewart" />
+  <CASTING_COST cost="{5}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A child’s porcelain doll went missing one night, as did a pair of kitchen shears and the town magistrate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La poupée de porcelaine d'un enfant disparut une nuit, en même temps qu'une paire de ciseaux de cuisine et le magistrat de la ville.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La muñeca de porcelana de un niño desapareció una noche, al igual que un par de tijeras de cocina y el magistrado del pueblo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Porzellanpuppe eines Kindes verschwand eines Nachts, ebenso eine Küchenschere und der Magistrat der Stadt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Una notte scomparve la bambola di porcellana di una bimba, così come un paio di forbici da cucina e il magistrato del paese.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[子供の磁器人形が消えたある晩、それと共に台所の鋏と町の判事が消えた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어린 아이의 인형 중 하나가 실종된 날, 부엌 가위와 시장도 사라졌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Однажды ночью пропала детская фарфоровая кукла, а вместе с ней пара кухонных ножниц и городской судья.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Uma boneca de porcelana de uma criança sumiu uma noite, bem como uma tesoura de cozinha e o magistrado da cidade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[孩子的瓷娃娃在某个晚上不见了，连同一把厨房大剪刀与镇上的保安官。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[孩子的瓷娃娃在某個晚上不見了，連同一把廚房大剪刀與鎮上的保安官。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Construct" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Indestructible]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Indestructible]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Indestructible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unzerstörbar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Indistruttibile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊不能]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неразрушимость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Indestrutível]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不灭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不滅]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_INDESTRUCTIBLE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Creepy Doll deals combat damage to a creature, flip a coin. If you win the flip, destroy that creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que la Poupée sinistre inflige des blessures de combat à une créature, jouez à pile ou face. Si vous gagnez, détruisez cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Muñeca espeluznante haga daño de combate a una criatura, lanza una moneda a cara o cruz. Si ganas el lanzamiento, destruye esa criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn die Gruselige Puppe einer Kreatur Kampfschaden zufügt, wirf eine Münze. Falls du den Münzwurf gewinnst, zerstöre diese Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta la Bambola Raccapricciante infligge danno da combattimento a una creatura, lancia una moneta. Se vinci il lancio, distruggi quella creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不気味な人形がクリーチャー１体に戦闘ダメージを与えるたび、コイン投げをする。あなたがそのコイン投げに勝ったなら、そのクリーチャーを破壊する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오싹한 인형이 생물에게 전투피해를 입힐 때마다, 동전을 던진다. 동전 던지기에서 이기면, 그 생물을 파괴한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Зловещая Кукла наносит боевые повреждения существу, подбросьте монету. Если вы выигрываете бросок, уничтожьте то существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Boneca Horripilante causar dano de combate a uma criatura, lance uma moeda. Se você vencer, destrua aquela criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当可怖娃娃对一个生物造成战斗伤害时，掷一枚硬币。若你赢得此掷，则消灭该生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當可怖娃娃對一個生物造成戰鬥傷害時，擲一枚硬幣。若你贏得此擲，則消滅該生物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_OBJECT" simple_qualifier="self" damage_type="combat" />
+    <RESOLUTION_TIME_ACTION>
+    if SecondaryObject() ~= nil then	
+    	local aiBehaviour = AI_SEES_COIN_FLIP_WIN
+    	if EffectController():IsActuallyAnAI() then
+    		aiBehaviour = AI_SEES_COIN_FLIP_LOSE
+    	end
+    	EffectController():FlipCoin(aiBehaviour)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if SecondaryObject() ~= nil then
+    	local result = EffectController():GetFlipResult()
+    	if result == COIN_FLIP_WIN then
+    		SecondaryObject():Destroy()
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY active_zone="ZONE_BATTLEFIELD">
+    <CONTINUOUS_ACTION layer="8">
+    local effectSource = EffectSource()
+    if effectSource ~= nil then
+    	local effectController = EffectController()
+    	if effectController ~= nil and not effectController:IsActuallyAnAI() then
+    		effectSource:GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_DEATHTOUCH_HINT, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="500" />
+  <HELP title="MORE_INFO_BADGE_TITLE_8" body="MORE_INFO_BADGE_BODY_8" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

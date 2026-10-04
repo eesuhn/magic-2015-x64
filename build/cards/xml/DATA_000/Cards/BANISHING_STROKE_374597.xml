@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="137">
+  <FILENAME text="BANISHING_STROKE_374597" />
+  <CARDNAME text="BANISHING_STROKE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Banishing Stroke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Frappe de bannissement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Golpe de destierro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bannender Hieb]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bandire a Forza]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[払（ふっ）拭（しょく）の一（いち）撃（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방의 일격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоняющий Жест]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpe Banidor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[驱逐一击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[驅逐一擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374597" />
+  <ARTID value="141697" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{5}{W}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put target artifact, creature, or enchantment on the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez l’artefact ciblé, la créature ciblée ou l’enchantement ciblé au-dessous de la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon el artefacto, criatura o encantamiento objetivo en el fondo de la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege ein Artefakt, eine Kreatur oder eine Verzauberung deiner Wahl unter die Bibliothek seines bzw. ihres Besitzers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti un artefatto, una creatura o un incantesimo bersaglio in fondo al grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクト１つかクリーチャー１体かエンチャント１つを対象とし、それをオーナーのライブラリーの一番下に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법물체나 생물이나 부여마법 한 개를 목표로 정한다. 그 지속물을 소유자의 서고 맨 밑에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите целевой артефакт, существо или чары в низ библиотеки его (их) владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque o artefato, a criatura ou o encantamento alvo no fundo do grimório de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将目标神器，生物，或结界置于其拥有者的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將目標神器，生物，或結界置於其擁有者的牌庫底。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_WHITE_MAGIC_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_OR_ENCHANTMENT_TO_PUT_ON_BOTTOM" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT )
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    	subfilter:Add( FE_TYPE, OP_IS, CARD_TYPE_ENCHANTMENT )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	target:PutOnBottomOfLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miracle {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miracle {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Milagro {W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mirakulum {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miracolo {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[奇跡 {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудо {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Milagre {W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[奇迹{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[奇蹟{W}]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="self">
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetPlayer( EffectController() )
+    local num_drawn_this_turn = interrogation:Count( INTERROGATE_CARDS_DRAWN, INTERROGATE_THIS_TURN, 2 )
+    if num_drawn_this_turn == 1 then
+    	return true
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if TriggerObject()~= nil then
+    	if effectController:CanCastSpellUsingResourceCost( TriggerObject(), 1 ) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_BANISHING_STROKE_CAST_BANISHING_STROKE" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_BANISHING_STROKE_DO_NOT_CAST_BANISHING_STROKE" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_BANISHING_STROKE_QUESTION", TriggerObject() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local answer = EffectController():GetMultipleChoiceResult()
+    if TriggerObject() ~= nil and EffectController():CanCastSpellUsingResourceCost( TriggerObject(), 1 )then
+    	if answer == 0 then
+    		EffectController():CastSpellUsingResourceCost( TriggerObject(), 1 )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST mana_cost="{W}" type="Mana" />
+  </UTILITY_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <FRAME_TYPE type="miracle" />
+  <HELP title="MORE_INFO_TITLE_MIRACLE" body="MORE_INFO_BODY_MIRACLE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARTIFACT_CREATURE_OR_ENCHANTMENT_TO_PUT_ON_BOTTOM">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an artifact, creature, or enchantment to put onto the bottom of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un artefact, une créature ou un enchantement pour le mettre au-dessous de la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un artefacto, criatura o encantamiento para ponerlo en el fondo de la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Artefakt, eine Kreatur oder eine Verzauberung, die unter die Bibliothek ihres Besitzers gelegt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un artefatto, una creatura o un incantesimo da mettere in fondo al grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーのライブラリーの一番下に置くアーティファクト、クリーチャー、またはエンチャントを１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 서고 맨 밑에 넣을 마법물체나 생물, 부여마법을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите артефакт, существо или чары, которые нужно положить в низ библиотеки владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um artefato, criatura ou encantamento para colocar no fundo do grimório de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要置于其拥有者牌库底的神器、生物或结界。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要置於其擁有者牌庫底的神器、生物或結界。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_BANISHING_STROKE_CAST_BANISHING_STROKE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Banishing Stroke.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancer la Frappe de bannissement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanzar el Golpe de destierro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Bannenden Hieb wirken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia Bandire a Forza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《払拭の一撃》を唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방의 일격을 발동합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграть Изгоняющий Жест.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjurar Golpe Banidor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放驱逐一击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放驅逐一擊。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_BANISHING_STROKE_DO_NOT_CAST_BANISHING_STROKE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not cast Banishing Stroke. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne pas lancer la Frappe de bannissement. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No lanzar el Golpe de destierro. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Den Bannenden Hieb nicht wirken. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non lanciare Bandire a Forza. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《払拭の一撃》を唱えない。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방의 일격을 발동하지 않습니다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не разыгрывать Изгоняющий Жест. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não conjurar Golpe Banidor. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不施放驱逐一击。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不要施放驅逐一擊。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_BANISHING_STROKE_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do you want to cast Banishing Stroke for its miracle cost ({W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous lancer la Frappe de bannissement pour son coût de miracle ({W}) ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres lanzar el Golpe de destierro por su coste de milagro ({W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du den Bannenden Hieb zu seinen Mirakulum-Kosten ({W}) wirken?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi lanciare Bandire a Forza per il suo costo di miracolo ({W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《払拭の一撃》をその奇跡コスト（{W}）で唱えますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[기적 비용({W})을 지불하고 추방의 일격을 발동하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите разыграть Изгоняющий Жест за его стоимость Чуда ({W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja conjurar Golpe Banidor pagando seu custo de milagre ({W})?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要支付奇迹费用（{W}）来施放驱逐一击吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要支付奇蹟費用（{W}）來施放驅逐一擊嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

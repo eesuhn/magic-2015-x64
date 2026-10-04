@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="138">
+  <FILENAME text="LAUNCH_THE_FLEET_380394" />
+  <CARDNAME text="LAUNCH_THE_FLEET" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Launch the Fleet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Déployer la flotte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Flota a la carga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Flotte aussenden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arrembaggio della Flotta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[船（せん）団（だん）の出（しゅっ）航（こう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[함대 출진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Спуск Флота]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lançar a Frota]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[舰队启航]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[艦隊啟航]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380394" />
+  <ARTID value="153056" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{W}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <UTILITY_ABILITY qualifier="Strive">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Strive| — Launch the Fleet costs {1} more to cast for each target beyond the first.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Obstination| — Déployer la flotte coûte {1} de plus à lancer pour chaque cible après la première.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Esfuerzo| — Lanzar Flota a la carga cuesta {1} más por cada objetivo después del primero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Streben| — Die Flotte aussenden kostet beim Wirken für jedes Ziel außer dem ersten {1} mehr.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Sforzo| — L’Arrembaggio della Flotta costa {1} in più per essere lanciato per ogni bersaglio oltre il primo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|奮励| ― 船団の出航を唱えるためのコストは、２つ目以降の対象１つにつき{1}多くなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[분투 — 함대 출진은 한 개를 초과하는 목표의 수만큼 발동하는 데 {1}씩 비용이 더 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Стремление| — За каждую цель после первой разыгрывание Спуска Флота стоит на {1} больше.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Esforço| — Lançar a Frota custa {1} a mais para ser conjurado para cada alvo além do primeiro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[积力～舰队启航在第一个目标之外每有一个目标，便增加{1}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[積力～艦隊啟航在第一個目標之外每有一個目標，便增加{1}來施放。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}" type="Mana" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Until end of turn, any number of target creatures each gain “Whenever this creature attacks, put a 1/1 white Soldier creature token onto the battlefield tapped and attacking.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jusqu’à la fin du tour, n’importe quel nombre de créatures ciblées gagnent chacune « À chaque fois que cette créature attaque, mettez sur le champ de bataille, engagé et attaquant, un jeton de créature 1/1 blanche Soldat. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hasta el final del turno, cualquier cantidad de criaturas objetivo ganan cada una “Siempre que esta criatura ataque, pon en el campo de batalla una ficha de criatura Soldado blanca 1/1 girada y atacando”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis zum Ende des Zuges erhält eine beliebige Anzahl an Kreaturen deiner Wahl „Immer wenn diese Kreatur angreift, bringe einen 1/1 weißen Soldat-Kreaturenspielstein getappt und angreifend ins Spiel.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un qualsiasi numero di creature bersaglio. Ognuna di esse ha “Ogniqualvolta questa creatura attacca, metti sul campo di battaglia una pedina creatura Soldato 1/1 bianca TAPpata e attaccante” fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[望む数のクリーチャーを対象とする。それらはそれぞれターン終了時まで「このクリーチャーが攻撃するたび、タップ状態で攻撃している白の１/１の兵士・クリーチャー・トークンを１体戦場に出す。」を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 원하는 수만큼 목표로 정한다. 턴종료까지, 그 생물들은 각각 ’이 생물이 공격할 때마다, 1/1 백색 병사 생물 토큰 한 개를 탭되어서 공격하고 있는 채로 전장에 놓는다’를 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[До конца хода любое количество целевых существ получают способность «Каждый раз, когда это существо атакует, положите на поле битвы одну фишку существа 1/1 белый Солдат повернутой и атакующей».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até o final do turno, qualquer número de criaturas alvo ganha “Toda vez que esta criatura atacar, coloque no campo de batalha uma ficha de criatura 1/1 branca do tipo Soldado virada e atacando.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[直到回合结束，任意数量的目标生物各获得「每当此生物攻击时，将一个1/1白色士兵衍生生物横置放进战场且正进行攻击。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[直到回合結束，任意數量的目標生物各獲得「每當此生物攻擊時，將一個1/1白色士兵衍生生物橫置放進戰場且正進行攻擊。」]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_CREATURE" any_number_of="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="6">
+    local numbTargets = EffectDC():Get_Targets(0):Count()
+    if numbTargets &gt; 0 then
+    	for i = 0, (numbTargets-1) do 
+    		local target = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    		if target ~= nil then
+    			local characteristics = target:GetCurrentCharacteristics()
+    			characteristics:GrantAbility(1)
+    		end
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever this creature attacks, put a 1/1 white Soldier creature token onto the battlefield tapped and attacking.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que cette créature attaque, mettez sur le champ de bataille un jeton de créature 1/1 blanche Soldat, engagé et attaquant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que esta criatura ataque, pon en el campo de batalla una ficha de criatura Soldado blanca 1/1 girada y atacando.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn diese Kreatur angreift, bringe einen 1/1 weißen Soldat-Kreaturenspielstein getappt und angreifend ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta questa creatura attacca, metti sul campo di battaglia una pedina creatura Soldato 1/1 bianca TAPpata e attaccante.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このクリーチャーが攻撃するたび、タップ状態で攻撃している白の１/１の兵士・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 생물이 공격할 때마다, 1/1 백색 병사 생물 토큰 한 개를 탭되어 공격하는 상태로 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда это существо атакует, положите на поле битвы одну фишку существа 1/1 белый Солдат повернутой и атакующей.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que esta criatura atacar, coloque no campo de batalha uma ficha de criatura branca 1/1 do tipo Soldado virada e atacando.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当此生物攻击时，将一个1/1白色士兵衍生生物横置放进战场且正进行攻击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當此生物攻擊時，將一個1/1白色士兵衍生生物橫置放進戰場且正進行攻擊。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if  MTG():GetNumberOfStartingPlayers() &gt; 2 then
+    	-- there is an actual choice so time to decide which oppoenent
+    	local filter = ClearFilter()
+    	filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    	filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    	EffectController():ChooseItem( "CARD_QUERY_CHOOSE_PLAYER_TO_SOLDIER", EffectDC():Make_Targets(0) )
+    	
+    else
+    	-- we are only in a two player duel so we just grab the first oppoenent as we only have one
+    	for i = 0, (MTG():GetNumberOfPlayers()-1) do
+    		local player = MTG():GetNthPlayer(i)
+    	
+    		if player ~= nil and player ~= EffectController() then
+    			EffectDC():Make_Targets(0):Set_PlayerPtr(0, player)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local oppoenent = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if oppoenent ~= nil then
+    	MTG():PutTokensOntoBattlefieldTappedAndAttacking( "TOKEN_SOLDIER_1_1_W_380390", 1, EffectController(), oppoenent )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SOLDIER_1_1_W_380390" />
+  <HELP title="MORE_INFO_TITLE_STRIVE" body="MORE_INFO_BODY_STRIVE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TO_SOLDIER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player for a Soldier to attack.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur à attaquer avec un soldat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que lo ataque un Soldado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, den ein Soldat angreifen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore da far attaccare da un Soldato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[兵士が攻撃するプレイヤーを選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[병사가 공격할 플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, которого должен атаковать Солдат.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para um Soldado atacar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手来让士兵攻击之。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來讓士兵攻擊之。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CREATURE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

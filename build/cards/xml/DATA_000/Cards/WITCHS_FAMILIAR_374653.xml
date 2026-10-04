@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="WITCHS_FAMILIAR_374653" />
+  <CARDNAME text="WITCHS_FAMILIAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Witch’s Familiar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Familier de l'envoûteuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Familiar de la bruja]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vertrauter der Hexe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Famiglio della Strega]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[魔（ま）女（じょ）の使（つか）い魔（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마녀의 소환수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Питомец Ведьмы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Familiar de Bruxa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[女巫佣兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[女巫傭獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374653" />
+  <ARTID value="155223" />
+  <ARTIST name="Jack Wang" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Some bog witches practice the strange art of batrachomancy, reading portents in the number, size, and color of warts on a toad’s hide.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Certaines envoûteuses des marécages pratiquent l'art étrange de la batracomancie, la lecture de l'avenir dans le nombre, la taille et la couleur des pustules sur la peau des crapauds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Algunos brujos del pantano practican el extraño arte de la batracomancia, que consiste en leer augurios en la cantidad, el tamaño y el color de las verrugas de la piel de los sapos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Manche Sumpfhexen praktizieren die seltsame Kunst der Krötendeutung und deuten die Zukunft aus der Anzahl, Größe und Farbe der Warzen auf der Haut einer Unke.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Alcune fattucchiere della palude praticano la strana arte della batracomanzia: leggono presagi nel numero, nella dimensione e nel colore delle verruche sulla pelle dei rospi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[沼の魔女の中には、ヒキガエルの肌にあるイボの数や色や大きさを見て、これから起きることの前兆を読むカエル占いを行う者もいるらしい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[늪지대에 사는 마녀 중 일부는 아주 괴상한 기술을 익히는데, 두꺼비 가죽에 있는 반점의 수와 크기, 색상으로 미래를 점치는 기술이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Некоторые болотные ведьмы занимаются странным искусством — батрахомантией, чтением знамений по количеству, размеру и цвету бородавок на коже жабы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Algumas bruxas do pântano praticam a estranha arte da batraqueomancia, lendo previsões no número, tamanho e cor das verrugas na pele de um sapo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[有些腐沼女巫练习奇怪的驯蛙术，解读蟾蜍身上肉瘤的数量、大小和颜色中的预兆。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[有些沼澤女巫施展怪異的馴蛙術，解讀蟾蜍身上肉瘤的數量、大小和顏色中的預兆。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Frog" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

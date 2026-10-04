@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="GRISLY_SPECTACLE_374503" />
+  <CARDNAME text="GRISLY_SPECTACLE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grisly Spectacle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sinistre spectacle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espectáculo macabro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entsetzliches Spektakel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spettacolo Orripilante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[忌（い）まわしい光（こう）景（けい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소름끼치는 구경거리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страшное Зрелище]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espetáculo Aterrador]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[恐怖景象]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[恐怖景象]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374503" />
+  <ARTID value="146425" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{2}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Watch people flock to a murder scene. Then tell me we’re not all a little sick in the head.”
+—Juri, proprietor of the Juri Revue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Observez l'affluence des badauds sur une scène de crime. Puis osez m'affirmer que nous sommes parfaitement sains d'esprit. »
+—Juri, propriétaire de la Revue de Juri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mira cómo se reúne la gente en torno a la escena de un crimen. Luego dime si no estamos todos un poco perturbados”.
+—Juri, propietario del elenco de Juri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sieh dir nur an, wie viele Menschen am Schauplatz eines Mordes zusammenlaufen. Und dann erzähl mir noch, wir seien nicht alle etwas krank im Kopf.“
+—Juri, Inhaber von Juris Revue]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Osserva come la gente accorre sulla scena di un delitto. Dimmi se non siamo tutti un po’ morbosi.”
+—Juri, proprietario della Rivista di Juri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「殺害現場に野次馬が集まる様子を見ろよ。それでもまだ俺達全員の頭がイカレていないって言えるのか？」――ジョーリ組の経営者、ジョーリ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["살인 현장에 사람들이 몰려드는 걸 보라고. 우리 모두 조금씩은 미쳤다는 말도 틀린 이야기는 아니야."
+—주리, "주리의 풍자단" 소유주]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Посмотрите, как люди сбегаются поглазеть на место убийства. Неужели после этого вы будете спорить с тем, что мы все немного сумасшедшие?»
+— Джури, владелец «Ревю Джури»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Veja como as pessoas se aglomeram em uma cena de assassinato. Agora me diga que não somos todos um pouco doentes da cabeça.”
+— Juri, proprietário da Trupe de Juri]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「瞧瞧人们争睹谋杀现场的景象。然后再来告诉我，我们不是只有一点点疯狂而已。」
+～裘里剧团业主裘里]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「瞧瞧人們爭睹謀殺現場的景象。然後再來告訴我，我們不是只有一點點瘋狂而已。」
+～裘里劇團業主裘里]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target nonartifact creature. Its controller puts a number of cards equal to that creature’s power from the top of his or her library into his or her graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez la créature non-artefact ciblée. Son contrôleur met dans son cimetière, depuis le dessus de sa bibliothèque, un nombre de cartes égal à la force de cette créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la criatura objetivo que no sea artefacto. Su controlador pone una cantidad de cartas igual a la fuerza de esa criatura de la parte superior de su biblioteca en su cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre eine Nichtartefaktkreatur deiner Wahl. Ihr Beherrscher legt so viele Karten von oben von seiner Bibliothek auf seinen Friedhof, wie die Stärke dieser Kreatur beträgt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una creatura non artefatto bersaglio. Il suo controllore mette nel suo cimitero un numero di carte pari alla forza di quella creatura dalla cima del suo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アーティファクトでないクリーチャー１体を対象とし、それを破壊する。それのコントローラーは自分のライブラリーの一番上からそのクリーチャーのパワーに等しい枚数のカードを自分の墓地に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법물체가 아닌 생물 한 개를 목표로 정한다. 그 생물을 파괴한다. 그 생물의 조종자는 자신의 서고 맨 위에서 그 생물의 공격력만큼의 카드를 자신의 무덤에 넣는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевое существо, не являющееся артефактом. Контролирующий его игрок кладет количество карт, равное силе того существа, с верха своей библиотеки на свое кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua a criatura alvo que não seja um artefato. Seu controlador coloca um número de cards igual ao poder daquela criatura do topo do grimório dele no próprio cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭目标非神器生物。其操控者将其牌库顶若干牌置入其坟墓场，其数量等同于该生物的力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅目標非神器生物。其操控者將其牌庫頂若干牌置入其墳墓場，其數量等同於該生物的力量。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_CHOP_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_NOT, CARD_TYPE_ARTIFACT )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then 
+    	local controller = target:GetPlayer()
+    	EffectDC():Set_PlayerPtr(1, controller)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	local power = characteristics:Power_Get()
+    	EffectDC():Set_Int( 2, power )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Destroy(EffectSource())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local playerToMill = EffectDC():Get_PlayerPtr(1)
+    local ammountToMill = EffectDC():Get_Int(2)
+    if playerToMill ~= nil then
+    	playerToMill:MillCards(ammountToMill)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" response_target="1" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die zerstört werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊するクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要消灭的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

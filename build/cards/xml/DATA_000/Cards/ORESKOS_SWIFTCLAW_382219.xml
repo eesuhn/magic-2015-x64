@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="ORESKOS_SWIFTCLAW_382219" />
+  <CARDNAME text="ORESKOS_SWIFTCLAW" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Oreskos Swiftclaw]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lestegriffe d'Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Garraveloz de Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Oreskos-Scharfkralle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Artiglio Rapido di Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オレスコスの速（はや）爪（づめ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[빠른발톱 오레스코스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Быстрый Коготь из Ореска]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Garra-veloz de Oreskos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[俄瑞恣迅爪兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[俄瑞恣迅爪兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382219" />
+  <ARTID value="153083" />
+  <ARTIST name="James Ryman" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[After the Battle of Pharagax Bridge, the Champion spent many months among the leonin of Oreskos. She found that they were quick to take offense, not because they were thin-skinned, but because they were always eager for a fight.
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Après la Bataille du pont de Pharagax, la Championne resta des mois chez les léonins d'Oreskos. Elle découvrit qu'ils prenaient rapidement ombrage, non pas parce qu'ils étaient susceptibles, mais parce qu'ils cherchaient toujours une excuse pour se battre.
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tras la batalla del Puente Faragax, la Campeona pasó varios meses en compañía de los leoninos de Oreskos. Descubrió que no costaba mucho ofenderlos, no porque fueran susceptibles, sino porque siempre estaban ansiosos por luchar.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nach der Schlacht um die Pharagax-Brücke verbrachte die Auserwählte viele Monate bei den Leoniden von Oreskos. Sie lernte, dass sie schnell zu den Waffen griffen, aber nicht etwa, da sie leicht reizbar waren, sondern da sie es genossen, in den Kampf zu ziehen.
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dopo la battaglia del Ponte di Faragax, la Campionessa trascorse molti mesi tra i leonid di Oreskos. Capì che erano facili all’offesa non perché suscettibili, ma perché sempre ansiosi di combattere.
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ファラガックス橋での戦いの後、女勇者はオレスコスのレオニンたちと共に何ヶ月もの時を過ごした。その中で彼女は、彼らが些細なことで怒るのは気難しいからではなく、常に喧嘩をする機会を求めているからなのだという事が分かってきた。――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파라각스 다리 전투 이후, 엘스페스는 오레스코스의 레오닌 무리 사이에서 여러 달을 보냈다. 그녀는 레오닌들이 예민해서가 아니라 싸움을 원하기 때문에 자주 화를 낸다는 것을 깨달았다.
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[После битвы на мосту Фарагакс Поборница долго жила среди леонинцев Ореска. Оказалось, что леонинцев очень легко оскорбить. Но не потому, что они такие чувствительные, а потому, что они всегда готовы подраться.
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Depois da Batalha da Ponte Faragax, a Campeã passou vários meses entre os leoninos de Oreskos. Ela descobriu que eles se ofendem facilmente. Não por serem especialmente sensíveis, mas porque estão sempre ansiosos por uma briga.
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[法拉伽斯桥之战过后，天尊与俄瑞恣狮族共处了数月。她发现，他们的性情火爆并不是因为敏感易怒，而是因为天性好战。
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[法拉伽斯橋之戰過後，天尊與俄瑞恣獅族共處了數月。她發現，他們的性情火爆並不是因為敏感易怒，而是因為天性好戰。
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

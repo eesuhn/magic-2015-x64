@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="TUKATONGUE_THALLID_382009" />
+  <CARDNAME text="TUKATONGUE_THALLID" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tukatongue Thallid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Thallidé tukalanguier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Tálido tukatong]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuzzelzungen-Thallid]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thallid del Linguatuka]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ツカタンのサリッド]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[투카텅 탈리드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тукатонговый Таллид]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Talídia de Tukatunga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[吐卡散绿菌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[吐卡散綠菌]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382009" />
+  <ARTID value="118766" />
+  <ARTIST name="Vance Kovacs" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jund’s thallids tried to disguise their deliciousness by covering themselves in spines harvested from the tukatongue tree.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les thallidés de Jund tentèrent de dissimuler leur saveur en se recouvrant d'épines récoltées sur le tukalanguier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los tálidos de Jund intentaron ocultar su exquisito sabor cubriéndose con espinas recogidas del árbol tukatong.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Thallide in Jund versuchen zu verbergen, dass sie köstlich schmecken, indem sie sich in Stacheln hüllen, die sie vom Zuzzelzungenbaum abklauben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I thallid di Jund cercarono di nascondere la loro squisitezza ricoprendosi di spine raccolte dagli alberi di linguatuka.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドのサリッドは、ツカタンの樹から取った棘で自らを覆うことで、自分たちが美味であることを隠そうとする。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드의 탈리드는 투카텅 나무에서 수확한 가시로 맛있어 보이는 몸을 숨긴다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джандские таллиды стараются замаскировать свой аппетитный вид, прикрываясь колючками тукатонгового дерева.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As talídias de Jund tentaram ocultar seu delicioso sabor cobrindo-se de espinhos colhidos da árvore de tukatunga.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得的散绿菌为了使自己看来不那么美味，用摘自吐卡树的尖刺布满全身来作伪装。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得的散綠菌為了使自己看來不那麼美味，用摘自吐卡樹的尖刺佈滿全身來作偽裝。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Fungus" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Tukatongue Thallid dies, put a 1/1 green Saproling creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Thallidé tukalanguier meurt, mettez sur le champ de bataille un jeton de créature 1/1 verte Saprobionte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Tálido tukatong muera, pon en el campo de batalla una ficha de criatura Saprolín verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Zuzzelzungen-Thallid stirbt, bringe einen 1/1 grünen Saproling-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Thallid del Linguatuka muore, metti sul campo di battaglia una pedina creatura Saprolingio 1/1 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ツカタンのサリッドが死亡したとき、緑の１/１の苗木・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[투카텅 탈리드가 죽을 때, 1/1 녹색 묘목 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Тукатонговый Таллид умирает, положите на поле битвы одну фишку существа 1/1 зеленый Сапролинг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Talídia de Tukatunga morrer, coloque no campo de batalha uma ficha de criatura verde 1/1 do tipo Saprófita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当吐卡散绿菌死去时，将一个1/1绿色腐生物衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當吐卡散綠菌死去時，將一個1/1綠色腐生物衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SAPROLING_1_1_G_350772", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SAPROLING_1_1_G_350772" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_DRAWBACK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

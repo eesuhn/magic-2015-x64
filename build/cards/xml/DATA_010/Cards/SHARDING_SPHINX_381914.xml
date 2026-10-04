@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="210">
+  <FILENAME text="SHARDING_SPHINX_381914" />
+  <CARDNAME text="SHARDING_SPHINX" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sharding Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sphinge écailleuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Esfinge fragmentadora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Splitter-Sphinx]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sfinge Frammentata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破（は）片（へん）撒（ま）きのスフィンクス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조각나는 스핑크스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Осколочный Сфинкс]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Esfinge Fragmentável]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[舞翼史芬斯]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[舞翼史芬斯]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381914" />
+  <ARTID value="114988" />
+  <ARTIST name="Michael Bruinsma" />
+  <CASTING_COST cost="{4}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whether mechanical or biological, life finds a way to propagate itself.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mécanique ou biologique, la vie trouve toujours le moyen de se propager.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ya sea mecánica o biológica, la vida encuentra maneras de autopropagarse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ob es mechanischen oder biologischen Ursprungs ist, das Leben findet immer ein Mittel, um sich fortzupflanzen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Che sia meccanica o biologica, la vita trova sempre il modo di propagarsi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[機械だろうと生物だろうと、生命というものは増殖の道を見つけるものだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[몸이 기계든 아니든 생명은 재생산하는 방법을 찾기 마련이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Механическая или биологическая, жизнь находит способы размножаться.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Seja de forma mecânica ou biológica, a vida sempre encontra um modo de se propagar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不论机械生命或生体生命，都有办法繁衍。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不論機械生命或生體生命，都有辦法繁衍。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Sphinx" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an artifact creature you control deals combat damage to a player, you may put a 1/1 blue Thopter artifact creature token with flying onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature-artefact que vous contrôlez inflige des blessures de combat à un joueur, vous pouvez mettre sur le champ de bataille un jeton de créature-artefact 1/1 bleue Mécanoptère avec le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura artefacto que controlas haga daño de combate a un jugador, puedes poner en el campo de batalla una ficha de criatura artefacto Tóptero azul 1/1 con la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Artefaktkreatur, die du kontrollierst, einem Spieler Kampfschaden zufügt, kannst du einen 1/1 blauen Thopter-Artefaktkreaturenspielstein mit Flugfähigkeit ins Spiel bringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura artefatto che controlli infligge danno da combattimento a un giocatore, puoi mettere sul campo di battaglia una pedina creatura artefatto Tottero 1/1 blu con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするアーティファクト・クリーチャー１体がプレイヤー１人に戦闘ダメージを与えるたび、あなたは飛行を持つ青の１/１の飛行機械・アーティファクト・クリーチャー・トークンを１体戦場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 마법물체 생물이 플레이어에게 전투피해를 입힐 때마다, 당신은 비행을 가진 1/1 청색 날틀 마법물체 생물 토큰 한 개를 전장에 놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда артефакт существо под вашим контролем наносит боевые повреждения игроку, вы можете положить на поле битвы одну фишку артефакта существа 1/1 синий Топтер с Полетом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura artefato que você controla causa dano de combate a um jogador, você pode colocar em jogo uma ficha de criatura artefato azul 1/1 do tipo Tóptero com voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当由你操控的一个神器生物对任一牌手造成战斗伤害时，你可以将一个1/1蓝色，具飞行异能的振翼机衍生神器生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當由你操控的一個神器生物對玩家造成戰鬥傷害時，你可以將一個1/1藍色，具飛行異能的振翼機衍生神器生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_PLAYER" simple_qualifier="objectyoucontrol" damage_type="combat">
+    return TriggerObject():GetCardType():Test(CARD_TYPE_CREATURE) and TriggerObject():GetCardType():Test(CARD_TYPE_ARTIFACT)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_THOPTER_1_1_U_F_382263", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="75" resource_type="ARTIFACT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="1600" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_THOPTER_1_1_U_F_382263" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

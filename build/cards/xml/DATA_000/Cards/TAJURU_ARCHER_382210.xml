@@ -1,0 +1,85 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="116">
+  <FILENAME text="TAJURU_ARCHER_382210" />
+  <CARDNAME text="TAJURU_ARCHER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tajuru Archer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archer de Tajuru]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arquero de Tajuru]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tajuru-Bogenschütze]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arciere di Tajuru]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タジュールの射（しゃ）手（しゅ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타주루 궁수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Таджурский Лучник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arqueiro de Tajuru]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[特裘如弓箭手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[特裘如弓箭手]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382210" />
+  <ARTID value="123607" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{2}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Archer" />
+  <SUB_TYPE metaname="Ally" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Tajuru Archer or another Ally enters the battlefield under your control, you may have Tajuru Archer deal damage to target creature with flying equal to the number of Allies you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que l’Archer de Tajuru ou qu’un autre allié arrive sur le champ de bataille sous votre contrôle, vous pouvez faire que l’Archer de Tajuru inflige à la créature avec le vol ciblée un nombre de blessures égal au nombre d’alliés que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Arquero de Tajuru u otro Aliado entre al campo de batalla bajo tu control, puedes hacer que el Arquero de Tajuru haga daño a la criatura objetivo con la habilidad de volar igual a la cantidad de Aliados que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Tajuru-Bogenschütze oder ein anderer Verbündeter unter deiner Kontrolle ins Spiel kommt, kannst du den Tajuru-Bogenschützen einer fliegenden Kreatur deiner Wahl so viele Schadenspunkte zufügen lassen, wie du Verbündete kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta l’Arciere di Tajuru o un altro Alleato entra nel campo di battaglia sotto il tuo controllo, puoi far infliggere dall’Arciere di Tajuru danni pari al numero di Alleati che controlli a una creatura bersaglio con volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タジュールの射手か他の同盟者が１体あなたのコントロール下で戦場に出るたび、飛行を持つクリーチャー１体を対象とする。あなたは「タジュールの射手はそれに、あなたがコントロールする同盟者の総数に等しい点数のダメージを与える。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타주루 궁수 또는 다른 동맹이 당신의 조종하에 전장에 들어올 때마다, 비행이 있는 생물 한 개를 목표로 정한다. 당신은 타주루 궁수가 그 생물에게 당신이 조종하는 동맹 개수만큼의 피해를 입히도록 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Таджурский Лучник или другой Союзник выходит на поле битвы под вашим контролем, вы можете заставить Таджурского Лучника нанести целевому существу с Полетом повреждения, равные количеству Союзников под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Arqueiro de Tajuru ou outro Aliado entra no campo de batalha sob o seu controle, você pode fazer com que Arqueiro de Tajuru cause dano à criatura alvo com voar igual ao número de Aliados que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当特裘如弓箭手或另一个伙伴在你的操控下进战场时，你可以令特裘如弓箭手对目标具飞行异能的生物造成伤害，其数量等同于由你操控的伙伴数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當特裘如弓箭手或另一個伙伴在你的操控下進戰場時，你可以令特裘如弓箭手對目標具飛行異能的生物造成傷害，其數量等同於由你操控的伙伴數量。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject() == EffectSource() or TriggerObject():GetSubType():Test( CREATURE_TYPE_ALLY ) 
+    </TRIGGER>
+    <MAY />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_FLYING_TO_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CHARACTERISTIC, OP_HAS, CHARACTERISTIC_FLYING )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ALLY )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local damage = filter:Count()
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( damage, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( damage, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ARROWS_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_FLYING_TO_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature with flying to deal damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature avec le vol pour lui infliger des blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura con la habilidad de volar para hacerle daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur mit Flugfähigkeit, der Schaden zugefügt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura con volare a cui infliggere danno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ダメージを与える飛行を持つクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해를 입힐 비행 능력이 있는 생물 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо с Полетом, чтобы нанести ему повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura com voar à qual causar dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个具飞行异能的生物来对其造成伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個具飛行異能的生物來對其造成傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

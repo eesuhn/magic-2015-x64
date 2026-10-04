@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="OBELISK_OF_GRIXIS_381900" />
+  <CARDNAME text="OBELISK_OF_GRIXIS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Obelisk of Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Obélisque de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Obelisco de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Obelisk von Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Obelisco di Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスのオベリスク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그릭시스의 오벨리스크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обелиск Гриксиса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Obelisco de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[格利极碑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[格利極碑]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381900" />
+  <ARTID value="114991" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Like most features of Grixis, the obelisks that remain from the time of Alara now exist only for dark exploitation.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Comme beaucoup d'éléments sur Grixis, les obélisques restants de l'époque d'Alara ne servent plus qu'à des desseins néfastes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Como la mayoría de las cosas en Grixis, los obeliscos que quedan del tiempo de Alara ahora existen para un provecho siniestro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wie die meisten Besonderheiten von Grixis sind auch die Obelisken Überreste aus der Zeit von Alara und existieren jetzt nur noch zur Ausbeutung.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Come molte delle attrattive di Grixis, gli obelischi che rimangono dai tempi di Alara ora esistono solo per un oscuro sfruttamento.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスの特徴の多くと同様、そのオベリスクもアラーラの頃から存在しているが、今では闇のシンボルでしかない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그릭시스의 다른 이정표와 마찬가지로, 알라라 시절부터 존재했던 이 오벨리스크도 지금은 수탈의 대상이 되었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Как и большинство элементов Гриксиса, оставшиеся со времен Алары обелиски служат теперь только темным целям.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Assim como quase tudo em Grixis, os obeliscos remanescentes da era de Alara agora servem apenas para fins malignos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[正如格利极的大部分东西，此碑是从阿拉若的时代留存至今，现在却只被利用来行使黑暗意图。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[正如格利極的大部分東西，此碑是從阿拉若的時代留存至今，現在卻只被利用來行使黑暗意圖。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {U}, {B}, or {R} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {U}, {B} ou {R} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {U}, {B}, o {R} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {U}, {B} oder {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {U}, {B} o {R} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{U}か{B}か{R}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {U}, {B} 또는 {R}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {U}, {B} или {R} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {U}, {B} ou {R} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{U}，{B}，或{R}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{U}，{B}或{R}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{U/B/R}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_ARTIFACT_MANA_WHY_PLAY" removal_tag="HINT_ARTIFACT_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

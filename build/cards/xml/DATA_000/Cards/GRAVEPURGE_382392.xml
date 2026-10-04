@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="130">
+  <FILENAME text="GRAVEPURGE_382392" />
+  <CARDNAME text="GRAVEPURGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gravepurge]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Purge de tombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Purgar las tumbas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grableerung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Epurazione delle Tombe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[墓（ぼ）所（しょ）粛（しゅく）正（せい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무덤 숙청]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чистка Могил]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Expurgar Túmulo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[净空坟地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[淨空墳地]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382392" />
+  <ARTID value="138120" />
+  <ARTIST name="Zoltan Boros" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The Blessed Sleep? Ha! Wake up my lovelies, there’s work to be done!”
+—Gisa, ghoulcaller of Gavony]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le Sommeil béni ? Pouah ! On se réveille mes petits, il y a du pain sur la planche ! »
+—Gisa, meneuse de goule de Gavonie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿El Sueño Bendito? ¡Ja! En pie, queridos, ¡hay trabajo que hacer!”.
+—Gisa, llamamuertos de Gavony]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der Heilige Schlaf? Ha! Wacht auf, meine Süßen, es gibt Arbeit für alle!“
+—Gisa, Ghulruferin aus Gaven]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il Sonno Benedetto? Ah! Svegliatevi carucci, c’è un sacco di lavoro da fare!”
+—Gisa, evocaghoul di Gavony]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「祝福された眠りですって？はっ！愛しき者どもよ、目覚めなさい。仕事よ！」――ガヴォニーのグール呼び、ギザ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“축복의 영면? 웃기는군! 일어나거라, 나의 귀염둥이들아. 할 일이 많다!”
+—가보니의 악귀소환술사 기샤]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Благословенный Сон? Ха! Вставайте, красавчики, пора за работу!»
+— Джиза, призывательница упырей из Гевоны]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O Sono Abençoado? Pois sim! Acordem, bonitinhos, pois há muito trabalho a ser feito!”
+— Gisa, invocadora de carniçais de Gavony]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「受福安眠？哈！小可爱们快醒来吧，工作来了！」
+～加渥尼尸鬼牧者基沙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「受福安眠？哈！小可愛們快醒來吧，工作來了！」
+～加渥尼屍鬼牧者基沙]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put any number of target creature cards from your graveyard on top of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez n’importe quel nombre de cartes de créature ciblées de votre cimetière au-dessus de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon cualquier cantidad de cartas de criatura objetivo de tu cementerio en la parte superior de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lege eine beliebige Anzahl an Kreaturenkarten deiner Wahl aus deinem Friedhof oben auf deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti in cima al tuo grimorio un qualsiasi numero di carte creatura bersaglio dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの墓地にあるクリーチャー・カードを望む枚数対象とし、それらをあなたのライブラリーの一番上に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 무덤에 있는 생물 카드를 원하는 만큼 목표로 정한다. 그 카드들을 당신의 서고 맨 위에 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите любое количество целевых карт существ из вашего кладбища на верх вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque qualquer número de cards de criatura alvo de seu cemitério no topo de seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将任意数量的目标生物牌从你的坟墓场置于你的牌库顶。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將任意數量的目標生物牌從你的墳墓場置於你的牌庫頂。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_LIBRARY" any_number_of="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_GRAVEYARD, EffectController() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local orderDC = EffectDC():Make_Chest(1)
+    local chosenCardsDC = EffectDC():Get_Targets(0)
+    local numChosenCards = chosenCardsDC:Count()
+    if numChosenCards &gt; 1 then
+    	EffectController():SetItemCount( numChosenCards )
+    			
+    	for i=0, (numChosenCards-1) do
+    		EffectController():SetItemPrompt( i, "CARD_QUERY_GRAVEPURGE" )
+    	end
+    			
+    	EffectController():ChooseItemsFromDC( numChosenCards, orderDC, QUERY_FLAG_ORDERED_SELECTION )
+    end
+    		
+    			
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local orderDC = EffectDC():Get_Chest(1)
+    local numChosenCards = orderDC:Count()
+    if numChosenCards &lt;= 1 then
+    	if EffectDC():Get_Targets(0) ~= nil then
+    		local chosenCard = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    		if chosenCard ~= nil then
+    			chosenCard:PutOnTopOfLibrary()	
+    		end
+    	end
+    else
+    	for i = (numChosenCards-1), 0, -1 do
+    					
+    		local card = orderDC:Get_CardPtr(i)
+    		if card ~= nil then
+    			card:PutOnTopOfLibrary()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[抽一張牌。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_ONTO_LIBRARY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put on top of its owner’s library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre au-dessus de la bibliothèque de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para poner en la parte superior de la biblioteca de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die oben auf die Bibliothek ihres Besitzers gelegt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere in cima al grimorio del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーのライブラリーの一番上に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 서고 맨 위에 놓을 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно положить на верх библиотеки его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar no topo do grimório de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以将其置于其拥有者的牌库顶。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物置於其擁有者的牌庫頂。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_GRAVEPURGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an order to put the cards on top of your library. The first card will be drawn first. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un ordre dans lequel mettre les cartes au-dessus de votre bibliothèque. La première carte sera piochée en premier. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un orden en el que poner las cartas en la parte superior de tu biblioteca. La primera carta será la que robes primero. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Reihenfolge, in der die Karten auf deine Bibliothek gelegt werden sollen. Die erste Karte wird zuerst gezogen. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli l’ordine in cui mettere le carte in cima al tuo grimorio. La prima carta sarà pescata per prima. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ライブラリーの一番上にカードを置く順番を選んでください。最初に選んだカードは最初にドローすることになります。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위에 카드를 놓을 순서를 고르십시오. 첫 번째 카드가 먼저 뽑힙니다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите порядок, в котором карты будут положены на верх вашей библиотеки. Первая карта будет взята первой. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma ordem para colocar os cards no topo do seu grimório. O primeiro card será comprado primeiro. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[请选择将该些牌放回你牌库顶的顺序。点选的顺序即是抓牌顺序。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[請選擇將該些牌放回你牌庫頂的順序。點選的順序即是抽牌順序。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RECURSION_WHY_PLAY" removal_tag="HINT_SPELL_RECURSION_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

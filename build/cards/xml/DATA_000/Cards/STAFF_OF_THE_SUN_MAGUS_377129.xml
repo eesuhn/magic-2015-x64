@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="318">
+  <FILENAME text="STAFF_OF_THE_SUN_MAGUS_377129" />
+  <CARDNAME text="STAFF_OF_THE_SUN_MAGUS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Staff of the Sun Magus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bâton du magus du soleil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bastón del mago solar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Stab des Sonnenmagus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bastone del Magus Solare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[太（たい）陽（よう）の大（だい）魔（ま）術（じゅつ）師（し）の杖（つえ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양마도사의 지팡이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Посох Волхва Солнца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cajado do Magus do Sol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[太阳法师杖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[太陽法師杖]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377129" />
+  <ARTID value="147396" />
+  <ARTIST name="Daniel Ljunggren" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A symbol of conviction in uncertain times.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Un symbole de conviction en des temps incertains.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un símbolo de convicción en tiempos inciertos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Symbol der inneren Überzeugung in Zeiten der Ungewissheit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un simbolo di convinzione in tempi di incertezza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[不確実な時代の信念の象徴。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 지팡이는 불확실한 시대의 신념을 상징한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Символ убеждения во времена неуверенности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um símbolo de convicção em tempos de incertezas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在无常的时代中象征着信念。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在無常的時代中象徵著信念。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a white spell or a Plains enters the battlefield under your control, you gain 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort blanc ou qu’une plaine arrive sur le champ de bataille sous votre contrôle, vous gagnez 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo blanco o que una llanura entre al campo de batalla bajo tu control, ganas 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen weißen Zauberspruch wirkst oder eine Ebene unter deiner Kontrolle ins Spiel kommt, erhältst du 1 Lebenspunkt dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia bianca o una Pianura entra nel campo di battaglia sotto il tuo controllo, guadagni 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが白の呪文を１つ唱えるか平地が１つあなたのコントロール下で戦場に出るたび、あなたは１点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 백색 주문을 발동하거나 들이 당신의 조종 하에 전장에 들어올 때마다, 당신은 생명 1점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете белое заклинание или Равнина выходит на поле битвы под вашим контролем, вы получаете 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica branca ou uma Planície entra no campo de batalha sob o seu controle, você ganha 1 ponto de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放白色咒语或每当一个平原在你的操控下进战场时，你获得1点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放白色咒語或每當一個平原在你的操控下進戰場時，你獲得1點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetSubType():Test( LAND_TYPE_PLAINS ) 
+    </TRIGGER>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return  TriggerObject():GetColour():Test( COLOUR_WHITE ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(1 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ARTIFACT_TRIGGER_WHY_PLAY" removal_tag="HINT_ARTIFACT_TRIGGER_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

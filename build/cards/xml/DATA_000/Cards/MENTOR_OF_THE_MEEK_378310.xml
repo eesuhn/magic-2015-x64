@@ -1,0 +1,149 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1055">
+  <FILENAME text="MENTOR_OF_THE_MEEK_378310" />
+  <CARDNAME text="MENTOR_OF_THE_MEEK" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mentor of the Meek]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mentor des humbles]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mentor de los mansos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mentor der Sanften]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentore degli Umili]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[弱（じゃく）者（しゃ）の師（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[온순한 자들의 스승]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Наставник Кротких]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mentor dos Humildes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[驯良明师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[馴良明師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378310" />
+  <ARTID value="138444" />
+  <ARTIST name="Jana Schirmer &amp; Johannes Voss" />
+  <CASTING_COST cost="{2}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“In these halls there is no pass or fail. Your true test comes with the first full moon.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ici il n'y a pas d'échec ou de réussite. Votre véritable examen de passage, c'est la première pleine lune. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“En estos salones no se aprueba o reprueba. El verdadero examen llega con la primera luna llena”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„In diesen Hallen gibt es kein Bestehen oder Scheitern. Deine wahre Prüfung kommt beim nächsten Vollmond.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“In queste sale non c’è promosso o bocciato. La vostra vera prova avviene con la prima luna piena.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「これらの広間では、成功も失敗もありません。真の試練は最初の満月と共に訪れます。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“이 수업에선 합격과 낙제라는 것이 없다. 제군들의 진정한 시험은 보름달이 뜨는 날에 펼쳐질 실전이다.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В этих стенах нет понятий "успех" и "провал". Ваше истинное испытание начнется в первый день полнолуния».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nestes salões não há aprovação nem reprovação. Seu verdadeiro teste vem com a primeira lua cheia.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「这课堂没有过不过关的问题。真正的考验会在第一次满月时到来。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「這課堂沒有過不過關的問題。真正的考驗會在第一次滿月時到來。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever another creature with power 2 or less enters the battlefield under your control, you may pay {1}. If you do, draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une autre créature avec une force inférieure ou égale à 2 arrive sur le champ de bataille sous votre contrôle, vous pouvez payer {1}. Si vous faites ainsi, piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que otra criatura con fuerza de 2 o menos entre al campo de batalla bajo tu control, puedes pagar {1}. Si lo haces, roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine andere Kreatur mit Stärke 2 oder weniger unter deiner Kontrolle ins Spiel kommt, kannst du {1} bezahlen. Falls du dies tust, ziehe eine Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un’altra creatura con forza pari o inferiore a 2 entra nel campo di battaglia sotto il tuo controllo, puoi pagare {1}. Se lo fai, pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[他のパワーが２以下のクリーチャーが１体あなたのコントロール下で戦場に出るたび、あなたは{1}を支払ってもよい。そうしたなら、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공격력이 2 이하인 다른 생물이 당신의 조종하에 전장에 들어올 때마다, 당신은 {1}를 지불할 수 있다. 그렇게 한다면, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда другое существо с силой 2 или меньше выходит на поле битвы под вашим контролем, вы можете заплатить {1}. Если вы это делаете, возьмите карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que outra criatura com poder menor ou igual a 2 entra no campo de batalha sob o seu controle, você pode pagar {1}. Se fizer isso, compre um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当另一个力量小于或等于2的生物在你的操控下进战场时，你可以支付{1}。若你如此作，则抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當另一個力量小於或等於2的生物在你的操控下進戰場時，你可以支付{1}。若你如此作，則抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    if TriggerObject():GetCardType():Test(CARD_TYPE_CREATURE) and TriggerObject() ~= EffectSource() then
+    	if TriggerObject():GetCurrentCharacteristics():Power_Get() &lt; 3 then
+    		return true
+    	else
+    		return false
+    	end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayResourceCost(1) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MENTOR_OF_THE_MEEK_PAY_1_AND_DRAW" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_MENTOR_OF_THE_MEEK_DO_NOT_DRAW_A_CARD" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_MENTOR_OF_THE_MEEK_QUESTION", EffectSource() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController:CanPayResourceCost(1) then
+    	local result = effectController:GetMultipleChoiceResult()
+    	if result == 0 then
+    		EffectDC():Set_Int(1, 1)
+    		effectController:PayResourceCost( 1 )
+    	end 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC():Get_Int(1) == 1 then
+    	EffectController():DrawCards( 1, EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    if EffectController():CanPayManaCost("{1}") then
+    	return false
+    else
+    	return true
+    end
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST mana_cost="{1}" type="Mana" />
+  </UTILITY_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_MENTOR_OF_THE_MEEK_PAY_1_AND_DRAW">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {1} and draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {1} et piochez une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Paga {1} y roba una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1} bezahlen und eine Karte.ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {1} e pesca una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}を支払ってカードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}를 지불하고 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {1} и взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {1} e comprar um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{1}来抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{1}並抽一張牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MENTOR_OF_THE_MEEK_DO_NOT_DRAW_A_CARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne piochez pas une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Keine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを引かない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[카드 한 장을 뽑지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не брать карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não comprar um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不抓牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不抽牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_MENTOR_OF_THE_MEEK_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {1} to draw a card?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer {1} pour piocher une carte ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {1} para robar una carta?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {1} bezahlen, um eine Karte zu ziehen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {1} per pescare una carta?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}を支払ってカードを１枚引きますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}를 지불하고 카드 한 장을 뽑으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {1}, чтобы взять карту?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você gostaria de pagar {1} para comprar um card?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要支付{1}来抓一张牌吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你是否要支付{1}來抽一張牌？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

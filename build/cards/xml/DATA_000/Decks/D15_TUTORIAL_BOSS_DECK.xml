@@ -1,0 +1,26 @@
+﻿<DECK personality="LESSON_6.XML" deck_box_image="locked" deck_box_image_locked="locked" icon="" cheat_menu_filter_deck_type="Standard" cheat_menu_filter_datapool="D15 Innistrad" content_pack="0" uid="222" is_red="true" is_green="true">
+  <BASICLAND name="Mountain" quantity="16" />
+  <BASICLAND name="Forest" quantity="22" />
+  <CARD name="FOUNDRY_STREET_DENIZEN_378279" deckOrderId="0" />
+  <CARD name="FOUNDRY_STREET_DENIZEN_378279" deckOrderId="1" />
+  <CARD name="KILN_FIEND_378295" deckOrderId="2" />
+  <CARD name="KILN_FIEND_378295" deckOrderId="3" />
+  <CARD name="KRENKOS_COMMAND_378362" deckOrderId="4" />
+  <CARD name="KRENKOS_COMMAND_378362" deckOrderId="5" />
+  <CARD name="REGATHAN_FIRECAT_374347" deckOrderId="6" />
+  <CARD name="REGATHAN_FIRECAT_374347" deckOrderId="7" />
+  <CARD name="MARAUDING_MAULHORN_378199" deckOrderId="8" />
+  <CARD name="MARAUDING_MAULHORN_378199" deckOrderId="9" />
+  <CARD name="SPIRE_TRACER_377128" deckOrderId="10" />
+  <CARD name="SPIRE_TRACER_377128" deckOrderId="11" />
+  <CARD name="TIMBERLAND_GUIDE_380161" deckOrderId="12" />
+  <CARD name="TIMBERLAND_GUIDE_380161" deckOrderId="13" />
+  <CARD name="PRIMAL_HUNTBEAST_380237" deckOrderId="14" />
+  <CARD name="PRIMAL_HUNTBEAST_380237" deckOrderId="15" />
+  <CARD name="STOMPER_CUB_380885" deckOrderId="16" />
+  <CARD name="HUNT_THE_WEAK_374296" deckOrderId="17" />
+  <CARD name="HUNT_THE_WEAK_374296" deckOrderId="18" />
+  <CARD name="SHOCK_378203" deckOrderId="19" />
+  <CARD name="SHOCK_378203" deckOrderId="20" />
+  <CARD name="LIGHTNING_TALONS_374311" deckOrderId="21" />
+</DECK>

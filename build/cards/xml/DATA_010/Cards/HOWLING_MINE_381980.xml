@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="HOWLING_MINE_381980" />
+  <CARDNAME text="HOWLING_MINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Howling Mine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mine rugissante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mina aullante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verborgenes Wissen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Miniera Ululante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[吠（ほ）えたける鉱（こう）山（ざん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[도깨비 광산]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воющая Шахта]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mina Uivadora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[嚎叫的矿井]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[嚎叫的礦井]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381980" />
+  <ARTID value="102959" />
+  <ARTIST name="Ralph Horsley" />
+  <CASTING_COST cost="{2}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The mine’s riches never end, nor do the moans of the spirits doomed to haunt them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les richesses de la mine sont infinies, comme les gémissements des âmes maudites qui la hantent.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las riquezas de la mina nunca se acaban, ni los lamentos de los espíritus condenados en ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Reichtümer der Mine nehmen nie ab, ebenso wie das Stöhnen der Verdammten, die in ihr spuken.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le ricchezze della miniera non finiscono mai, né hanno fine i lamenti degli spiriti condannati a infestarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[鉱山の資源も、そこに囚われた霊の嘆きも絶えることはない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그 광산은 고갈되는 법이 없으며 그곳에 출몰하는 영혼들의 신음도 끊기는 법이 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Богатства шахты неисчерпаемы, как нескончаемы стенания духов, обреченных их оберегать.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As riquezas da mina não findam, nem tampouco os lamentos dos espíritos condenados a assombrá-la.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[井内的矿藏从不枯竭，纠缠其间的鬼魂哭嚎也从不间断。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[井內的礦藏從不枯竭，糾纏其間的鬼魂哭嚎也從不間斷。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each player’s draw step, if Howling Mine is untapped, that player draws an additional card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de l’étape de pioche de chaque joueur, si la Mine rugissante est dégagée, ce joueur pioche une carte supplémentaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al inicio del paso de robar de cada jugador, si la Mina aullante está enderezada, ese jugador roba una carta adicional.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zu Beginn des Ziehsegments jedes Spielers und falls das Verborgene Wissen ungetappt ist, zieht dieser Spieler eine zusätzliche Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio dell’acquisizione di ogni giocatore, se la Miniera Ululante è STAPpata, quel giocatore pesca una carta addizionale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーのドロー・ステップの開始時に、吠えたける鉱山がアンタップ状態である場合、そのプレイヤーはカードを追加で１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어의 뽑기단 시작에, 도깨비 광산이 언탭되어 있다면, 그 플레이어는 카드 한 장을 추가로 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале шага взятия карты каждого игрока, если Воющая Шахта не повернута, тот игрок берет дополнительную карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da etapa de compra de cada jogador, se Mina Uivadora estiver desvirada, aquele jogador compra um card adicional.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每位牌手的抓牌步骤开始时，若嚎叫的矿井未横置，则该牌手额外抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每位玩家的抽牌步驟開始時，若嚎叫的礦井未橫置，該玩家額外抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP">
+    return (MTG():GetStep() == STEP_DRAW)
+    </TRIGGER>
+    <INTERVENING_IF>
+    if EffectSourceLKI():IsTapped() then
+    	return false
+    else
+    	return true
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if TriggerPlayer() ~= nil then   
+    	TriggerPlayer():DrawCards(1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

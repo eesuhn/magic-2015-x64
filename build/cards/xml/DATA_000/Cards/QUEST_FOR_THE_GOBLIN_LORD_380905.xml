@@ -1,0 +1,97 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="390">
+  <FILENAME text="QUEST_FOR_THE_GOBLIN_LORD_380905" />
+  <CARDNAME text="QUEST_FOR_THE_GOBLIN_LORD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Quest for the Goblin Lord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quête du Seigneur des gobelins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Búsqueda del Señor trasgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Suche nach dem Goblinherrscher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In Cerca del Signore dei Goblin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの王（おう）の探（たん）索（さく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 군주를 위한 탐험]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поиски Повелителя Гоблинов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Busca pelo Senhor dos Goblins]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[探索鬼怪领主]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[探索鬼怪領主]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380905" />
+  <ARTID value="126531" />
+  <ARTIST name="Jesper Ejsing" />
+  <CASTING_COST cost="{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A shrine to unchecked desire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Un autel consacré au désir débridé.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Un templo al deseo descontrolado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ein Schrein der unkontrollierten Begierde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un santuario per il desiderio incontrollato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無限の野望の寺院。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[거침 없는 욕망의 성소다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Святыня необузданного желания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um santuário ao desejo incontrolável.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不羁欲望的祭祠。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不羈欲望的祭祠。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a Goblin enters the battlefield under your control, you may put a quest counter on Quest for the Goblin Lord.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un gobelin arrive sur le champ de bataille sous votre contrôle, vous pouvez mettre un marqueur « quête » sur la Quête du Seigneur des gobelins.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un Trasgo entre al campo de batalla bajo tu control, puedes poner un contador de búsqueda sobre la Búsqueda del Señor trasgo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn ein Goblin unter deiner Kontrolle ins Spiel kommt, kannst du eine Quest-Marke auf die Suche nach dem Goblinherrscher legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un Goblin entra nel campo di battaglia sotto il tuo controllo, puoi mettere un segnalino ricerca su In Cerca del Signore dei Goblin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンが１体あなたのコントロール下で戦場に出るたび、あなたはゴブリンの王の探索の上に探索カウンターを１個置いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 조종하에 고블린이 전장에 들어올 때마다, 당신은 고블린 군주를 위한 탐험에 퀘스트 카운터 한 개를 올릴 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Гоблин выходит на поле битвы под вашим контролем, вы можете положить один жетон странствий на Поиски Повелителя Гоблинов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um Goblin entra no campo de batalha sob o seu controle, você pode colocar um marcador de busca em Busca pelo Senhor dos Goblins.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个鬼怪在你的操控下进战场时，你可以在探索鬼怪领主上放置一个探索指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個鬼怪在你的操控下進戰場時，你可以在探索鬼怪領主上放置一個探索指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return EffectSource() ~= nil and EffectSource():CountCounters(MTG():GetCountersType("Quest")) &lt; 5 and TriggerObject():GetSubType():Test( CREATURE_TYPE_GOBLIN ) 
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():GetCountersType("Quest"), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as Quest for the Goblin Lord has five or more quest counters on it, creatures you control get +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que la Quête du Seigneur des gobelins a au moins cinq marqueurs « quête » sur elle, les créatures que vous contrôlez gagnent +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras la Búsqueda del Señor trasgo tenga cinco o más contadores de búsqueda sobre ella, las criaturas que controlas obtienen +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange auf der Suche nach dem Goblinherrscher fünf oder mehr Quest-Marken liegen, erhalten Kreaturen, die du kontrollierst, +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che In Cerca del Signore dei Goblin ha cinque o più segnalini ricerca, le creature che controlli prendono +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの王の探索の上に探索カウンターが５個以上置かれているかぎり、あなたがコントロールするクリーチャーは＋２/＋０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 군주를 위한 탐험에 퀘스트 카운터가 다섯 개 이상 있는 한, 당신이 조종하는 생물들은 +2/+0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока на Поисках Повелителя Гоблинов есть не менее пяти жетонов странствий, существа под вашим контролем получают +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto Busca pelo Senhor dos Goblins tiver cinco ou mais marcadores de busca nele, as criaturas que você controla terão +2/+0.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要探索鬼怪领主上有五个或更多探索指示物，由你操控的生物便得+2/+0。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要探索鬼怪領主上有五個或更多探索指示物，由你操控的生物便得+2/+0。]]></LOCALISED_TEXT>
+    <COUNTER_REGISTRATION name="Quest" proliferate="11" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then 
+    	local number = EffectSource():CountCounters( MTG():GetCountersType("Quest") )
+    	if number &gt;= 5 then
+    		local chacteristics = FilteredCard():GetCurrentCharacteristics()
+    		chacteristics:Power_Add ( 2 )
+    		chacteristics:Toughness_Add( 0 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+  </STATIC_ABILITY>
+  <AI_COUNTER_SCORE type="Quest" score="200" max_counters="5" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_subtype="GOBLIN" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_OVERTIME_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_OVERTIME_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

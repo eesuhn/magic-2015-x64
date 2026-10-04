@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="487">
+  <FILENAME text="KITESAIL_APPRENTICE_374305" />
+  <CARDNAME text="KITESAIL_APPRENTICE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kitesail Apprentice]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Apprenti de voile volante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aprendiz de velacometa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lenkdrachensegler-Lehrling]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Apprendista di Velaliante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[帆（ほ）凧（だこ）の弟（で）子（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[견습 연비행사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Начинающий Кайтсейлер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Aprendiz de Aerovelismo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[航筝新手]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[航箏新手]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374305" />
+  <ARTID value="126601" />
+  <ARTIST name="Austin Hsu" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Carving lines through the sky, kite sailors map trails for the pilgrims below to follow.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dans les cieux, les marins des voiles tracent des pistes pour les pèlerins.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trazando líneas en el cielo, los navegantes de cometas crean mapas para que los peregrinos los sigan.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Lenkdrachensegler schwingen sich durch den Himmel und finden Wege für die Pilger, die ihnen am Boden folgen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Disegnando linee nel cielo, i velalianti segnalano ai pellegrini sottostanti i sentieri da seguire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[帆凧使いは空に線を描き、地上をついてくる巡礼者たちに道を示す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[연비행사들은 하늘을 가르며 순례자에게 길을 보여준다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Рассекая небо, кайтсейлеры чертят карты троп, по которым внизу пойдут пилигримы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ao esculpir linhas nos céus, os aerovelistas mapeiam as trilhas a serem seguidas pelos peregrinos abaixo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[乘筝者的航迹划过空中，好让底下的朝圣者跟随前进。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[乘箏者的航跡劃過空中，好讓底下的朝聖者跟隨前進。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As long as Kitesail Apprentice is equipped, it gets +1/+1 and has flying.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Tant que l’Apprenti de voile volante est équipé, il gagne +1/+1 et a le vol.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mientras el Aprendiz de velacometa esté equipado, obtiene +1/+1 y tiene la habilidad de volar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Solange der Lenkdrachensegler-Lehrling ausgerüstet ist, erhält er +1/+1 und hat Flugfähigkeit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fintanto che l’Apprendista di Velaliante è equipaggiato, prende +1/+1 e ha volare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[帆凧の弟子が装備しているかぎり、これは＋１/＋１の修整を受けるとともに飛行を持つ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[견습 연비행사가 장착한 상태인 한, 견습 연비행사는 +1/+1을 받고 비행을 가진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пока Начинающий Кайтсейлер снаряжен, он получает +1/+1 и имеет Полет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Enquanto Aprendiz de Aerovelismo estiver equipado, ele receberá +1/+1 e terá voar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只要航筝新手佩带武具，它便得+1/+1且具飞行异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只要航箏新手佩帶武具，它便得+1/+1且具飛行異能。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="7C">
+    if EffectSource() ~= nil then
+    	if EffectSource():CountAttachedEquipment() &gt; 0 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    if EffectSource() ~= nil then
+    	if EffectSource():CountAttachedEquipment() &gt; 0 then
+    		local characteristics = EffectSource():GetCurrentCharacteristics()
+    		characteristics:Bool_Set( CHARACTERISTIC_FLYING, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS max_amount="10" score_per_unit="40" resource_subtype="EQUIPMENT" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

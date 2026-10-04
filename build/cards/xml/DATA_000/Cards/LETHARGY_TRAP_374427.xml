@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="218">
+  <FILENAME text="LETHARGY_TRAP_374427" />
+  <CARDNAME text="LETHARGY_TRAP" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lethargy Trap]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piège à léthargie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Trampa de letargo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Müdigkeits-Falle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Trappola Letargica]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[無（む）気（き）力（りょく）の罠（わな）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무기력 함정]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Западня Летаргии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Armadilha de Letargia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[昏睡陷阱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[昏睡陷阱]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374427" />
+  <ARTID value="123569" />
+  <ARTIST name="Anthony Francisco" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Suddenly, Zurdi didn’t care about treasure, glory, food . . . or the drakes circling above.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Soudain, Zurdi ne se souciait plus du trésor, de la gloire, de la nourriture . . . ni des drakôns qui décrivaient des cercles au-dessus de lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[De pronto, a Zurdi no le importó el tesoro, la gloria, la comida… ni los dracos sobre su cabeza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Plötzlich waren Zurdi Schätze, Ruhm, Essen und sogar die über ihm kreisenden Sceadas egal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’improvviso, a Zurdi non interessavano più il tesoro, la gloria, il cibo... né i draghetti che volavano sopra di lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ザーディは突然、宝とか、名誉とか、食料とか、頭上で輪を描くドレイクとかがどうでもよくなった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주르디는 갑자기 보물이나 영광, 음식에 대한 관심이 사라짐을 느꼈다... 상공을 배회하는 드레이크조차 그의 관심을 끌지 못했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зурди вдруг перестал беспокоиться о сокровище, славе, еде... и даже о кружащих над ним дрейках.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[De repente, Zurdi não se importava mais com tesouros, glória, comida... ou com os dragonetes que o sobrevoavam em círculos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[突然间，组棣对什么宝藏，光荣，食物...或是头顶上盘旋的龙兽都不在乎了。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[突然間，組棣對什麼寶藏，光榮，食物...或是頭頂上盤旋的龍獸都不在乎了。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <SUB_TYPE metaname="Trap" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY qualifier="Alternate">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If three or more creatures are attacking, you may pay {U} rather than pay Lethargy Trap’s mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si au moins trois créatures attaquent, vous pouvez payer {U} à la place du coût de mana du Piège à léthargie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si tres o más criaturas están atacando, puedes pagar {U} en lugar de pagar el coste de maná de la Trampa de letargo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls drei oder mehr Kreaturen angreifen, kannst du {U} bezahlen, anstatt die Manakosten der Müdigkeits-Falle zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se tre o più creature stanno attaccando, puoi pagare {U} invece di pagare il costo di mana della Trappola Letargica.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[３体以上のクリーチャーが攻撃しているなら、あなたは無気力の罠のマナ・コストを支払うのではなく、{U}を支払ってもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공격생물이 세 개 이상이라면, 당신은 무기력 함정의 마나 비용이 아니라 {U}를 지불하여 무기력 함정을 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если атакует не менее трех существ, вы можете заплатить {U} вместо уплаты мана-стоимости Западни Летаргии.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se três ou mais criaturas estiverem atacando, você poderá pagar {U} em vez de pagar o custo de mana de Armadilha de Letargia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果有三个或更多生物进行攻击，你可以支付{U}，而不支付昏睡陷阱的法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果有三個或更多生物進行攻擊，你可以支付{U}，而不支付昏睡陷阱的魔法力費用。]]></LOCALISED_TEXT>
+    <ABILITY_TEXT tag="CARD_QUERY_PAY_U" />
+    <COST mana_cost="{U}" type="Mana" />
+    <AVAILABILITY>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_PLAYER_ATTACKED, OP_IS, EffectController())
+    return (filter:CountStopAt(3) == 3)
+    </AVAILABILITY>
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Attacking creatures get -3/-0 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures attaquantes gagnent -3/-0 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas atacantes obtienen -3/-0 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Angreifende Kreaturen erhalten -3/-0 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature attaccanti prendono -3/-0 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[攻撃クリーチャーはターン終了時まで－３/－０の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공격생물들은 턴종료까지 -3/-0을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Атакующие существа получают -3/-0 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas atacantes recebem -3/-0 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[进行攻击的生物得-3/-0直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[進行攻擊的生物得-3/-0直到回合結束。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_IS_ATTACKING, true )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( -3 )
+    	characteristics:Toughness_Add( -0 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_PAY_U">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{U} bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{U}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{U}를 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pagar {U}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{U}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{U}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COMBAT_TRICK_WHY_PLAY" removal_tag="HINT_SPELL_COMBAT_TRICK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="477">
+  <FILENAME text="GLORY_SEEKER_374275" />
+  <CARDNAME text="GLORY_SEEKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Glory Seeker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chercheur de gloire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Buscador de gloria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ruhmsucher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cacciatore di gloria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[栄（えい）光（こう）の探（たん）求（きゅう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영광을 추구하는 자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Искательница Славы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Perseguidor da Glória]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[荣耀追求者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[榮耀追求者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374275" />
+  <ARTID value="127422" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“There’s no contract to sign, no oath to swear. The enlistment procedure is to unsheathe your sword and point it at the enemy.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pas de contrat à signer, pas de serment à prêter. Considérez-vous recruté en dégainant votre épée et en la pointant vers l'ennemi. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No hay un contrato que firmar, ni juramento que hacer. El procedimiento de enrolamiento es sacar tu espada y apuntarla al enemigo”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Es gibt keinen Vertrag zum Unterzeichnen und keinen Eid zum Schwören. Die Einberufungsprozedur sieht so aus, dass du dein Schwert zückst und auf den Feind richtest.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non c’è alcun contratto da firmare, alcun giuramento da fare. L’arruolamento avviene sguainando la spada e puntandola contro il nemico.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「結ぶべき契約も、誓うべき誓約もない。入隊手続きは、剣を抜いて、敵に向けることだ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["서명할 계약도, 맹세할 서약도 없다. 칼을 뽑아 적에게 겨누는 것이 모병 절차의 전부다."]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не надо ни подписывать контрактов, ни присягать на верность. Чтобы быть зачисленным на службу, надо лишь вытащить меч из ножен и наставить его на врага».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não há contrato para assinar nem juramento a prestar. O procedimento de alistamento consiste em empunhar sua espada e apontá-la ao inimigo.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你不用签署合约、订立誓言。征兵程序只是拔出剑来指向敌人。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你不用簽署合約、訂立誓言。徵兵程序只是拔出劍來指向敵人。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

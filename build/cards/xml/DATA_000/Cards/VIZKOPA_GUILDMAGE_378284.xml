@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="682">
+  <FILENAME text="VIZKOPA_GUILDMAGE_378284" />
+  <CARDNAME text="VIZKOPA_GUILDMAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vizkopa Guildmage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ghildmage de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Maga del gremio de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vizkopa-Gildenmagierin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maga della Gilda di Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴィズコーパのギルド魔（ま）道（どう）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비즈코파의 길드 마도사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Маг Гильдии из Визкопы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mago de Guilda de Vizkopa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[伟柯帕公会法师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[偉柯帕公會法師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378284" />
+  <ARTID value="145194" />
+  <ARTIST name="Tyler Jacobson" />
+  <CASTING_COST cost="{W}{B}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{W}{B}: Target creature gains lifelink until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{W}{B} : La créature ciblée acquiert le lien de vie jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{W}{B}: La criatura objetivo gana la habilidad de vínculo vital hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{W}{B}: Eine Kreatur deiner Wahl erhält Lebensverknüpfung bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{W}{B}: Una creatura bersaglio ha legame vitale fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{W}{B}：クリーチャー１体を対象とする。それはターン終了時まで絆魂を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{W}{B}: 생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 생명연결을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{W}{B}: целевое существо получает Цепь жизни до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{W}{B}: A criatura alvo ganha vínculo com a vida até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}{W}{B}：目标生物获得系命异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}{W}{B}：目標生物獲得繫命異能直到回合結束。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{W}{B}" type="Mana" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_LIFELINK" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_LIFELINK, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ALLIED_ONLY" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{W}{B}: Whenever you gain life this turn, each opponent loses that much life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{W}{B} : À chaque fois que vous gagnez des points de vie ce tour-ci, chaque adversaire perd autant de points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{W}{B}: Siempre que ganes vidas este turno, cada oponente pierde esa misma cantidad de vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{W}{B}: Immer wenn du in diesem Zug Lebenspunkte dazuerhältst, verliert jeder Gegner ebenso viele Lebenspunkte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{W}{B}: Ogniqualvolta guadagni punti vita in questo turno, ogni avversario perde altrettanti punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{W}{B}：このターン、あなたがライフを得るたび、各対戦相手はそれぞれその点数に等しい点数のライフを失う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{W}{B}: 당신이 이 턴에 생명점을 얻을 때마다 각 상대는 그만큼의 생명점을 잃는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{W}{B}: каждый раз, когда вы получаете жизни в этом ходу, каждый оппонент теряет столько же жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{W}{B}: Toda vez que você ganhar pontos de vida neste turno, cada oponente perderá a mesma quantidade de pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}{W}{B}：本回合中，每当你获得生命时，每位对手均失去等量的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}{W}{B}：本回合中，每當你獲得生命時，每位對手均失去等量的生命。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{W}{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local delayDC = EffectDC():Make_Chest(0)
+    MTG():CreateDelayedTrigger(1, delayDC)
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_BURN_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <TRIGGERED_ABILITY resource_id="1">
+    <TRIGGER value="PLAYER_GAINED_LIFE" simple_qualifier="controller" />
+    <RESOLUTION_TIME_ACTION>
+    local amount = GetAmount()
+    if amount ~= nil then
+    	local numPlayer = MTG():GetNumberOfPlayers()
+    	for i = 0, (numPlayer-1) do
+    		local player = MTG():GetNthPlayer( i )
+    		if player ~= nil then
+    			if (player:GetTeam() ~= EffectController():GetTeam()) then
+    				player:LoseLife( amount)
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CLEANUP simple_cleanup="EndOfTurn" />
+    <AI_AVAILABILITY type="in_response" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{1}{W}{B}" base_score="350" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="35" resource_name="Life" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <HELP title="MORE_INFO_BADGE_TITLE_4" body="MORE_INFO_BADGE_BODY_4" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_GAIN_LIFELINK">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to gain lifelink.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire acquérir le lien de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que gane vínculo vital.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die Lebensverknüpfung erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che guadagna legame vitale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[絆魂を得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명연결을 얻을 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит Цепь жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para ganhar vínculo com a vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要获得系命异能的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要獲得繫命異能的生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

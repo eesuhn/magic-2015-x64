@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="109">
+  <FILENAME text="OBELISK_OF_JUND_381901" />
+  <CARDNAME text="OBELISK_OF_JUND" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Obelisk of Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Obélisque de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Obelisco de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Obelisk von Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Obelisco di Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジャンドのオベリスク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[준드의 오벨리스크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Обелиск Джанда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Obelisco de Jund]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇得碑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇得碑]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381901" />
+  <ARTID value="114996" />
+  <ARTIST name="Brandon Kitkouski" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Volcanic ash-winds batter it, climbing vines overwhelm it, dragonfire roasts it, and yet it still stands as a testament to a forgotten world.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il est battu par les vents de cendre, recouvert de lianes grimpantes, grillé par le feu des dragons et pourtant, il reste érigé, testament d'un monde oublié.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los vientos volcánicos los azotan, las viñas los atoran, el fuego de los dragones los quema y, sin embargo, allí están, como testimonio de un mundo olvidado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Vulkanische Aschenwinde schleifen ihn, Kletterranken überwuchern ihn, Drachenfeuer verbrennt ihn, und immer noch steht er als Zeugnis einer vergessenen Welt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Venti carichi di cenere vulcanica lo sferzano, rampicanti soffocanti lo aggrediscono, il fuoco dei draghi lo arrostisce, eppure rimane in piedi come testamento di un mondo dimenticato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[火山の灰交じりの風が叩き、蔦がその表面を覆い、竜が炎で焼き尽くしても、それは忘れられた世界の証拠として建ち続けている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[화산재를 맞고 담쟁이 덩굴에 뒤덮이고 용의 숨결에 타버려도 이 오벨리스크는 잊혀진 세상의 증거로 아직도 버티고 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Его обдувают суровые ветра, разносящие вулканический пепел, его оплетают ползучие лианы, его обугливает огненное дыхание дракона, и все же он стоит, словно памятник забытому миру.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mesmo assolado por ventos de cinzas vulcânicas, devorado por vinhas asfixiantes e tostado pelo fogo de dragões, ele permanece em pé, como testemunho de um mundo esquecido.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[历经火山酸风拍打，爬行藤蔓覆盖，巨龙火焰烧灼，它始终屹立不摇，代表属于某个遗忘世界的试炼。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歷經火山酸風拍打，爬行藤蔓覆蓋，巨龍火焰燒灼，它始終屹立不搖，代表屬於某個遺忘世界的試煉。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {B}, {R}, or {G} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {B}, {R} ou {G} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {B}, {R} o {G} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {B}, {R} oder {G}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {B}, {R} o {G} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{B}か{R}か{G}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {B}, {R} 또는 {G}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {B}, {R} или {G} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {B}, {R}, ou {G} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{B}，{R}，或{G}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{B}，{R}或{G}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{B/R/G}" />
+  </MANA_ABILITY>
+  <EXPLAIN play_tag="HINT_ARTIFACT_MANA_WHY_PLAY" removal_tag="HINT_ARTIFACT_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

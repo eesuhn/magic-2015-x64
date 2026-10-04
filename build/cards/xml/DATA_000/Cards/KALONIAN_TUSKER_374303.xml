@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="203">
+  <FILENAME text="KALONIAN_TUSKER_374303" />
+  <CARDNAME text="KALONIAN_TUSKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kalonian Tusker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Terrocorne kalonien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Colmilludo kaloniano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kalonischer Keiler]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zannuto di Kalonia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カロニアの大（だい）牙（が）獣（じゅう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[칼로니아의 엄니야수]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Калонский Клыкач]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali Kaloniano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[卡隆尼亚长牙野猪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[卡隆尼亞長牙野豬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374303" />
+  <ARTID value="147389" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“And all this time I thought we were tracking it.”
+—Juruk, Kalonian tracker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Dire que pendant tout ce temps, j'ai cru que nous étions après lui. »
+—Juruk, traqueur kalonien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Y yo que pensaba que, durante todo este tiempo, nosotros lo estábamos siguiendo a él”.
+—Juruk, rastreador kaloniano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Dabei dachten wir die ganze Zeit, wir wären die Verfolger.“
+—Juruk, kalonischer Spurensucher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“E per tutto questo tempo ho creduto fossimo noi a seguire lui.”
+—Juruk, battipista di Kalonia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「俺はてっきり俺達があいつを追いかけているものと思い込んでいたよ。」――カロニアの追跡者、ジュラク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["우리가 녀석을 추적하는 거 아니었나?"
+—칼로니아의 사냥꾼 주루크]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«А я-то думал, это мы на него охотимся».
+— Джурук, калонский охотник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“E todo esse tempo eu pensei que nós estivéssemos rastreando ele.”
+— Juruk, rastreador kaloniano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「一直以来，我都以为是我们在追猎它。」
+～卡隆尼亚追猎人裘鲁]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「一直以來，我都以為是我們在追獵它。」
+～卡隆尼亞追獵人裘魯]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="288">
+  <FILENAME text="ADAPTIVE_SNAPJAW_374486" />
+  <CARDNAME text="ADAPTIVE_SNAPJAW" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Adaptive Snapjaw]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Claquegueule évolutif]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mandibulatensa adaptativo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Anpassungsfähiger Schnappkiefer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mordifauce Adattiva]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[順（じゅん）応（のう）する跳（は）ね顎（あご）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[적응하는 덜컥턱]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Адаптирующийся Щелкозуб]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mandíbula Atroz Adaptável]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[适境猛颚兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[適境猛顎獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374486" />
+  <ARTID value="146288" />
+  <ARTIST name="Tomasz Jedruszek" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Eh, needs more toad.”
+—Gulistan, Simic biomancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Hmm, pas assez de crapaud. »
+—Gulistan, biomancien simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Eh, le hace falta más sapo”.
+—Gúlistan, biomante simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Hm, da muss mehr Kröte rein.“
+—Gulistan, Simic-Biomagier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Eh, ci vuole più rospo.”
+—Gulistan, biomante Simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あー、カエルがもっと要るな。」――シミックの生術師、グリスタン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["좀 더 두꺼비스러웠으면 좋겠어."
+—시믹 생명술사 굴리스탄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Э-э... надо добавить жаб».
+— Гулистан, биомант Симиков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Hmm, precisa de mais sapo.”
+— Gulistan, biomante Simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「呃，蟾蜍不够了。」
+～析米克生机术士顾里斯坦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「呃，蟾蜍不夠了。」
+～析米克生機術士顧里斯坦]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Lizard" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="6" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY priority="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Evolve]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Évolution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Evolucionar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Weiterentwicklung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evoluzione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[進化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[진화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Эволюция]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Evoluir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[进化]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[進化]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE )
+    </TRIGGER>
+    <INTERVENING_IF>
+    local triggerObject = TriggerObjectLKI()
+    local effectSource = EffectSource()
+    if triggerObject ~= nil and effectSource ~= nil then
+    	local triggerPower = triggerObject:GetCurrentCharacteristics():Power_Get()
+    	local triggerToughness = triggerObject:GetCurrentCharacteristics():Toughness_Get()
+    	
+    	local effectPower = effectSource:GetCurrentCharacteristics():Power_Get()
+    	local effectToughness = effectSource:GetCurrentCharacteristics():Toughness_Get()
+    	if (triggerPower &gt; effectPower) or (triggerToughness &gt; effectToughness) then
+    		return true
+    	end
+    end
+    return false
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	 local numCountersAdded = EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    	 EffectDC():Set_Int(0,numCountersAdded)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local countersAdded = EffectDC():Get_Int(0)
+    if countersAdded &gt;0 then
+    	MTG():FireTrigger( TRIGGER_EVOLVED, EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_EVOLVE" body="MORE_INFO_BODY_EVOLVE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,6 +1,8 @@
 # Generated: rebuild with port/build.sh
-/build/
+/build/*
 /dist/
+# ...except the card list extracted from the OBB (build/cards/extract_cards.py)
+!/build/cards/
 *.apk
 # ...except the game inputs, which are tracked in Git LFS (see .gitattributes)
 !/input/*.apk

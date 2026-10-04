@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="FROGMITE_382129" />
+  <CARDNAME text="FROGMITE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Frogmite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mitraine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ranácaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Frogmit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ranella]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[金（きん）属（ぞく）ガエル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[개구리진드기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лягушкарлик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Batracoide]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[小蛙兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[小蛙獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382129" />
+  <ARTID value="51145" />
+  <ARTIST name="Terese Nielsen" />
+  <CASTING_COST cost="{4}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At first, vedalken observers thought blinkmoths naturally avoided certain places. Then they realized those places were frogmite feeding grounds.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les observateurs vedalkens notèrent rapidement que les scintimites évitaient certaines zones — qui s'avérèrent être les terrains de chasse des mitraines.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al principio, los observadores vedalken creían que las polillas titilantes evitaban algunos lugares de forma natural. Luego se dieron cuenta de que esos lugares eran los terrenos de caza de los ranácaros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuerst hatten vedalkische Forscher den Eindruck, Blinkmotten würden aus natürlichen Gründen bestimmte Orte meiden. Dann stellten sie fest, dass sich genau an diesen Stellen Frogmit ernährt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio gli osservatori vedalken pensavano che i lampidotteri evitassero naturalmente certi luoghi. In seguito, si resero conto che quei luoghi erano i campi di caccia delle ranelle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[当初、ヴィダルケンの観察者は、ちらつき蛾はいくつかの場所に単に近寄らないだけだと考えていた。後に、そこは金属ガエルの餌場だと判明した。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[처음에 베달켄 관찰자들은 블링크마우스들이 본능적으로 특정 지역을 피한다고 생각했다. 그러나 그들은 곧 그 지역이 개구리진드기의 사냥터임을 파악했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сперва исследователи ведалкенов считали, что мерцмоли по каким-то причинам избегают определенных мест. Позже они поняли, что эти места — охотничьи угодья лягушкарлика.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início, os observadores vedalkeanos pensavam que os mosco-lumes evitavam certos lugares naturalmente. Depois, eles perceberam que aqueles lugares eram os campos de caça dos batracoides.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[一开始，维多肯族的观察者以为光蛾会自动避开某些地方。后来他们才知道那些地方是小蛙兽的觅食处所。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[一開始，維多肯族的觀察者以為光蛾會自動避開某些地方。後來他們才知道那些地方是小蛙獸的覓食場。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Frog" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Affinity for artifacts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Affinité pour les artefacts]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Afinidad por artefactos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Affinität zu Artefakten]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Affinità con gli artefatti]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[親和（アーティファクト）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법물체 친화]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Родство с артефактами]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Afinidade por artefatos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[神器共鸣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[神器共鳴]]></LOCALISED_TEXT>
+    <TRIGGER value="CONSIDERED_FOR_CAST" simple_qualifier="self" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	local filter = ClearFilter()
+    	
+    	filter:Add(FE_TYPE, OP_IS, CARD_TYPE_ARTIFACT)
+    	filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    	
+    	TriggerObject():DecreaseCost( filter:Count() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_AFFINITY" body="MORE_INFO_BODY_AFFINITY" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

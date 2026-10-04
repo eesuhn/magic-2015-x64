@@ -1,0 +1,169 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="15">
+  <FILENAME text="WARP_WORLD_388088" />
+  <CARDNAME text="WARP_WORLD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Warp World]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Distorsion du monde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deformar el mundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verformte Welt]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Deformare il Mondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歪（ゆが）んだ世（せ）界（かい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[세계의 변이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Искривленный Мир]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mundo Corrompido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[歪曲世相]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[歪曲世相]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388088" />
+  <ARTID value="89125" />
+  <ARTIST name="Ron Spencer" />
+  <CASTING_COST cost="{5}{R}{R}{R}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each player shuffles all permanents he or she owns into his or her library, then reveals that many cards from the top of his or her library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren’t put onto the battlefield on the bottom of his or her library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chaque joueur mélange tous les permanents qu’il possède à sa bibliothèque et révèle ensuite autant de cartes du dessus de sa bibliothèque. Chaque joueur met sur le champ de bataille toutes les cartes d’artefact, de créature et de terrain révélées de cette manière, fait ensuite de même pour toutes les cartes d’enchantement, et met ensuite toutes les cartes révélées de cette manière qui n’ont pas été mises sur le champ de bataille au-dessous de sa bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada jugador baraja todos los permanentes que le pertenezcan en su biblioteca, luego muestra esa misma cantidad de cartas de la parte superior de su biblioteca. Cada jugador pone en el campo de batalla todas las cartas de artefacto, criatura y tierra mostradas de esta manera, luego hace lo mismo para las cartas de encantamiento, luego pone todas las cartas mostradas de esta manera que no fueron puestas en el campo de batalla en la parte inferior de su biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jeder Spieler mischt alle bleibenden Karten, die er besitzt, in seine Bibliothek und deckt dann ebenso viele Karten oben von seiner Bibliothek auf. Jeder Spieler bringt alle auf diese Weise aufgedeckten Artefakte, Kreaturen und Länder ins Spiel, macht dies dann für Verzauberungen und legt alle auf diese Weise aufgedeckten, aber nicht ins Spiel gebrachten Karten unter seine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogni giocatore rimescola tutti i permanenti che possiede nel proprio grimorio, poi rivela altrettante carte dalla cima del proprio grimorio. Ogni giocatore mette sul campo di battaglia tutte le carte artefatto, creatura e terra rivelate in questo modo, poi mette sul campo di battaglia tutte le carte incantesimo rivelate in questo modo, poi mette tutte le carte rivelate in questo modo che non sono state messe sul campo di battaglia in fondo al proprio grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各プレイヤーは自分がオーナーであるすべてのパーマネントを自分のライブラリーに加えて切り直し、その後自分のライブラリーの一番上からその総数に等しい枚数のカードを公開する。各プレイヤーは、これにより公開されたすべてのアーティファクト・カードとクリーチャー・カードと土地・カードを戦場に出し、その後エンチャント・カードも同様に行い、その後これにより公開されて戦場に出されなかったすべてのカードを自分のライブラリーの一番下に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 플레이어는 자신이 조종하는 모든 지속물을 자신의 서고에 섞어 넣은 후, 자신의 서고 맨 위에서부터 그만큼의 카드를 공개한다. 각 플레이어는 이렇게 공개된 모든 마법물체, 생물 및 대지 카드를 전장에 놓고, 그 다음 부여마법 카드도 마찬가지로 전장에 놓은 후, 이렇게 공개된 카드 중 전장에 놓이지 않은 카드는 자신의 서고 맨 밑에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый игрок втасовывает все перманенты, владельцем которых он является, в свою библиотеку, затем показывает такое же количество карт с верха своей библиотеки. Каждый игрок кладет на поле битвы все карты артефактов, существ и земель, показанные таким образом, затем делает то же самое с картами чар, затем кладет в низ своей библиотеки все показанные таким образом карты, которые не были положены на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada jogador embaralha todas as permanentes que lhe pertencem no próprio grimório e revela uma quantidade equivalente de cards do topo do próprio grimório. Cada jogador coloca todos os cards de artefato, criatura e terreno revelados dessa maneira no campo de batalha, faz o mesmo com os cards de encantamento e, depois, coloca todos os cards revelados dessa maneira que não foram colocados no campo de batalha no fundo do próprio grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每位牌手把由他拥有的所有永久物洗回其牌库，然后从其牌库顶展示等量的牌。每位牌手把以此法展示的所有神器，生物，与地牌放进战场，然后把以此法展示的所有结界牌放进战场，然后将所有以此法展示且未放进战场的牌以任意顺序置于其牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每位玩家把由他擁有的所有永久物洗入其牌庫，然後從其牌庫頂展示等量的牌。每位玩家把以此法展示的所有神器，生物，與地牌放進戰場，然後把以此法展示的所有結界牌放進戰場，然後將所有以此法展示且未放進戰場的牌以任意順序置於其牌庫底。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_WARP_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    local countChest = EffectDC():Make_Chest(0)
+    for i = 0, numPlayers-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		local filter = ClearFilter()
+    		filter:Add(FE_OWNER, OP_IS, player)
+    		filter:Add(FE_IS_PERMANENT, true)
+    		
+    		countChest:Set_Int(i, filter:Count())
+    		
+    		filter:EvaluateObjects()
+    		
+    		for j = 0, filter:EvaluateObjects()-1 do
+    			local cardToMove = filter:GetNthEvaluatedObject(j)
+    			if cardToMove ~= nil then
+    				cardToMove:PutOnTopOfLibrary()
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local repCount = MTG():GetActionRepCount()
+    local topLevelChest = 0 
+    if repCount == 0 then
+    	topLevelChest = EffectDC():Make_Chest(1)
+    else
+    	topLevelChest = EffectDC():Get_Chest(1)
+    end
+    -- We need to shuffle here as the zone change from before is queued till the end of the RTA 
+    local player = MTG():GetNthPlayer(repCount)
+    if player ~= nil then
+    	player:ShuffleLibrary()
+    		
+    	-- get all of the cards to reveal for this player and pop them in a chest for later
+    	local numPermanentsForThisPlayer = EffectDC():Get_Chest(0):Get_Int(repCount)
+    	local chestForThisPlayer = topLevelChest:Make_Chest(repCount)
+    	for j = 0, numPermanentsForThisPlayer-1 do
+    		local currentCard = player:Library_GetNth(j)
+    		if currentCard ~= nil then
+    				chestForThisPlayer:Set_CardPtr(j, currentCard)
+    		else
+    			-- run out of cards in library so we can break out of this
+    			break
+    		end
+    	end
+    		-- time to do some revealin'
+    	local numPlayers = MTG():GetNumberOfPlayers()
+    		
+    	for k = 0, numPlayers-1 do
+    		local playerToReveal = MTG():GetNthPlayer(k)
+    		if playerToReveal ~= nil then
+    			playerToReveal:RevealDCToMe(chestForThisPlayer)
+    		end		
+    	end
+    	return true
+    else
+    	-- We have run out of players so time to end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    local topLevelChest = EffectDC():Get_Chest(1)
+    for i = 0, numPlayers-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		local playersCardDC = topLevelChest:Get_Chest(i)
+    		if playersCardDC ~= nil then
+    			local numCardsInDC = playersCardDC:Count()
+    			
+    			for j = 0, numCardsInDC-1 do
+    				local card = playersCardDC:Get_CardPtr(j)
+    				if card ~= nil then
+    					if card:GetCardType():Test(CARD_TYPE_CREATURE) or card:GetCardType():Test(CARD_TYPE_ARTIFACT) or card:GetCardType():Test(CARD_TYPE_LAND) then
+    						card:PutOntoBattlefield(player)
+    					end
+    				end
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    local topLevelChest = EffectDC():Get_Chest(1)
+    for i = 0, numPlayers-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		local playersCardDC = topLevelChest:Get_Chest(i)
+    		if playersCardDC ~= nil then
+    			local numCardsInDC = playersCardDC:Count()
+    			
+    			for j = 0, numCardsInDC-1 do
+    				local card = playersCardDC:Get_CardPtr(j)
+    				if card ~= nil then
+    					if card:GetCardType():Test(CARD_TYPE_ENCHANTMENT) then
+    						card:PutOntoBattlefield(player)
+    					end
+    				end
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local numPlayers = MTG():GetNumberOfPlayers()
+    local topLevelChest = EffectDC():Get_Chest(1)
+    for i = 0, numPlayers-1 do
+    	local player = MTG():GetNthPlayer(i)
+    	if player ~= nil then
+    		local playersCardDC = topLevelChest:Get_Chest(i)
+    		if playersCardDC ~= nil then
+    			local numCardsInDC = playersCardDC:Count()
+    			
+    			for j = 0, numCardsInDC-1 do
+    				local card = playersCardDC:Get_CardPtr(j)
+    				if card ~= nil then
+    					card:PutOnBottomOfLibrary()
+    				end
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0" />
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_WEIRD_WHY_PLAY" removal_tag="HINT_SPELL_WEIRD_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

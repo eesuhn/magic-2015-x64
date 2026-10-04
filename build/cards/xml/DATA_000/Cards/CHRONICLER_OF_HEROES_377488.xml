@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="125">
+  <FILENAME text="CHRONICLER_OF_HEROES_377488" />
+  <CARDNAME text="CHRONICLER_OF_HEROES" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chronicler of Heroes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chroniqueur de héros]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cronista de los héroes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Chronistin der Helden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Aedo degli Eroi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[英（えい）雄（ゆう）の記（き）録（ろく）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅기 이야기꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Летописец Героев]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cronista de Heróis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[英雄年代史家]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[英雄年代史家]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377488" />
+  <ARTID value="150829" />
+  <ARTIST name="John Stanko" />
+  <CASTING_COST cost="{1}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[She paints pictures with words, though not all pictures show the truth.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Elle esquisse des images avec des mots, mais toutes ne reflètent pas la vérité.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pinta imágenes con palabras, aunque no todos los cuadros muestran la verdad.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie malt Bilder mit Worten, doch nicht alle ihrer Gemälde zeigen die Wahrheit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Dipinge con le parole, anche se non tutti i suoi dipinti mostrano la verità.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女は言葉を用いて絵を描くが、すべての絵が真実を表しているわけではない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이야기꾼은 말로 그림을 그린다. 하지만 모든 그림이 진실은 아니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Она рисует картины словами, но не все картины правдивы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela desenha imagens com as palavras, embora nem todas as imagens mostrem a verdade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[她以言语描绘史诗画卷，但并非每幅画作都是历史写照。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[她以言語描繪史詩畫卷，但並非每幅畫作都是歷史寫照。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Wizard" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Chronicler of Heroes enters the battlefield, draw a card if you control a creature with a +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Chroniqueur de héros arrive sur le champ de bataille, piochez une carte si vous contrôlez une créature avec un marqueur +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Cronista de los héroes entre al campo de batalla, roba una carta si controlas una criatura con un contador +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Chronistin der Helden ins Spiel kommt, ziehe eine Karte, falls du eine Kreatur kontrollierst, auf der mindestens eine +1/+1-Marke liegt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Aedo degli Eroi entra nel campo di battaglia, pesca una carta se controlli una creatura con un segnalino +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[英雄の記録者が戦場に出たとき、あなたが＋１/＋１カウンターが置かれたクリーチャーをコントロールしているなら、カードを１枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅기 이야기꾼이 전장에 들어올 때, 당신이 +1/+1 카운터를 가진 생물을 조종하고 있다면, 카드 한 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Летописец Героев выходит на поле битвы, возьмите карту, если вы контролируете существо с жетоном +1/+1 на нем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Cronista de Heróis entrar no campo de batalha, compre um card se você controlar uma criatura com um marcador +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当英雄年代史家进战场时，如果你操控其上有+1/+1指示物的生物，则抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當英雄年代史家進戰場時，如果你操控其上有+1/+1指示物的生物，則抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_COUNTER, OP_HAS, MTG():PlusOnePlusOneCounters() )
+    local number = filter:CountStopAt(1)
+    if number == 1 then
+    	EffectController():DrawCards( 1 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

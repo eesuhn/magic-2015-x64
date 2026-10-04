@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="112">
+  <FILENAME text="ORACLE_OF_MUL_DAYA_380314" />
+  <CARDNAME text="ORACLE_OF_MUL_DAYA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Oracle of Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oracle de Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Oráculo Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Orakel von Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Oracolo di Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ムル・ダヤの巫（み）女（こ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[물 다야의 예언자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оракул Племени Мул Дайя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Oráculo de Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[慕达雅先知]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[慕達雅先知]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380314" />
+  <ARTID value="123639" />
+  <ARTIST name="Vance Kovacs" />
+  <CASTING_COST cost="{3}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may play an additional land on each of your turns.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez jouer un terrain supplémentaire pendant chacun de vos tours.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes jugar una tierra adicional en cada uno de tus turnos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du darfst in jedem deiner Züge ein zusätzliches Land spielen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi giocare una terra addizionale in ognuno dei tuoi turni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは自分の各ターンに]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 당신의 각 턴에 대지 한 개를 추가로 내려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете разыгрывать одну дополнительную землю в каждом из ваших ходов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode jogar um terreno adicional em cada um de seus turnos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你在自己的每回合中可以额外使用一个地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你在自己的每回合中可以額外使用一個地。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local player_characteristics = EffectController():GetCurrentCharacteristics()
+    player_characteristics:Int_Increment( PLAYER_INTCHARACTERISTIC_EXTRA_LAND_DROPS )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Play with the top card of your library revealed.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jouez avec la carte du dessus de votre bibliothèque révélée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Juega mostrando la primera carta de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die oberste Karte deiner Bibliothek ist offen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gioca con la prima carta del tuo grimorio rivelata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追加の土地を１つプレイしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드를 공개한 채로 게임을 진행한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Играйте с открытой верхней картой вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Jogue com o card do topo de seu grimório revelado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你以展示牌库顶牌的方式进行游戏。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你以展示牌庫頂牌的方式進行遊戲。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local characteristics = EffectController():GetCurrentCharacteristics()
+    characteristics:Bool_Set( PLAYER_CHARACTERISTIC_PLAY_WITH_TOP_CARD_OF_LIBRARY_REVEALED, 1 )
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may play the top card of your library if it’s a land card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez jouer la carte du dessus de votre bibliothèque si c’est une carte de terrain.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes jugar la primera carta de tu biblioteca si es una carta de tierra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst die oberste Karte deiner Bibliothek spielen, falls es eine Länderkarte ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi giocare la prima carta del tuo grimorio se è una carta terra.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番上のカードを公開したままプレイする。あなたのライブラリーの一番上のカードが土地・カードであるなら、あなたはそれをプレイしてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고 맨 위의 카드가 대지 카드라면 당신은 그 카드를 전장에 내려놓을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете разыграть верхнюю карту вашей библиотеки, если это карта земли.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode jogar o card do topo de seu grimório se ele for um card de terreno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果你的牌库顶牌是地牌，你可以使用之。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果你的牌庫頂牌是地牌，你可以使用之。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    local topOfLibrary = EffectController():Library_GetTop()
+    if topOfLibrary ~= nil then
+    	local cardType = topOfLibrary:GetCardType()
+    	if cardType:Test( CARD_TYPE_LAND ) then
+    		local characteristics = EffectController():GetCurrentCharacteristics()
+    		characteristics:Bool_Set( PLAYER_CHARACTERISTIC_CAN_PLAY_TOP_CARD_OF_LIBRARY, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

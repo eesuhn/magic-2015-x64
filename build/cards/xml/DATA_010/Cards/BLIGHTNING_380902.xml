@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="BLIGHTNING_380902" />
+  <CARDNAME text="BLIGHTNING" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blightning]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éclair de flétrissement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ruinámpago]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fahlschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Folgore Devastante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[荒（こう）廃（はい）稲（いな）妻（ずま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[황폐의 벼락]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Губительная Молния]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Detonar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[脑电击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腦電擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380902" />
+  <ARTID value="147654" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{1}{B}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In the spirit of inquiry, Tibalt applied a battery of agony spells. They yielded nothing on the vampire’s whereabouts, but the screams were reward enough.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Histoire de participer à l'interrogatoire, Tibalt appliqua une série de sorts de souffrance. Ils ne révélèrent rien sur la localisation du vampire, mais les cris le récompensèrent aisément.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Con fines investigadores, Tibalt aplicó una batería de hechizos de agonía. No aportaron nada acerca del paradero del vampiro, pero los gritos fueron recompensa suficiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bei der Befragung wandte Thibalt diverse Qual-Zaubersprüche an. Sie erbrachten zwar keine Hinweise zum Aufenthaltsort des Vampirs, doch die Schreie waren Lohn genug.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Animato dallo spirito della ricerca, Tibalt impiegò una pletora di incantesimi di agonia. Non rivelarono nulla sulla posizione del vampiro, ma le urla furono una ricompensa sufficiente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[探究心を満たすため、ティボルトは苦悶を与える数々の呪文を繰り出した。あの吸血鬼の所在についてはつかめなかったが、悲鳴だけでも十分な収穫といえた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[티발트는 호기심이 생겨 다양한 고통 주문을 적용했다. 그들은 그 흡혈귀의 소재를 몰랐지만 그들이 지르는 비명은 듣기에 좋았다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Допрашивая пленника, Тибальт прочитал несколько заклинаний агонии. Ему так и не удалось ничего узнать о местонахождении вампира, но крики жертвы уже стали для него достаточной наградой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No espírito de investigação, Tibalt aplicou uma série de mágicas agonizantes. Elas nada disseram sobre o paradeiro do vampiro, mas os gritos foram recompensas suficientes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在研究的精神下，提勃用了一系列苦痛咒语。尽管吸血鬼的下落仍不得而知，但是尖叫声就已是丰富成果。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在研究的精神下，提勃用了一系列苦痛咒語。儘管吸血鬼的下落仍不得而知，但是尖叫聲就已是豐富成果。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Blightning deals 3 damage to target player. That player discards two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Éclair de flétrissement inflige 3 blessures au joueur ciblé. Ce joueur se défausse de deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Ruinámpago hace 3 puntos de daño al jugador objetivo. Ese jugador descarta dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Fahlschlag fügt einem Spieler deiner Wahl 3 Schadenspunkte zu. Dieser Spieler wirft zwei Karten ab.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Folgore Devastante infligge 3 danni a un giocatore bersaglio. Quel giocatore scarta due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とする。荒廃稲妻はそのプレイヤーに３点のダメージを与える。そのプレイヤーはカードを２枚捨てる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명을 목표로 정한다. 황폐의 벼락은 그 플레이어에게 피해 3점을 입힌다. 그 플레이어는 카드 두 장을 버린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Губительная Молния наносит 3 повреждения целевому игроку. Тот игрок сбрасывает две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Detonar causa 3 pontos de dano ao jogador alvo. Aquele jogador descarta dois cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[脑电击对目标牌手造成3点伤害。该牌手弃两张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[腦電擊對目標玩家造成3點傷害。該玩家棄兩張牌。]]></LOCALISED_TEXT>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_TAKE_3_DISCARD_2" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 3, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 3, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_HAND, player )
+    player:SetItemCount( 2 )
+    for i = 0,(2-1) do
+    	player:SetItemPrompt (i, "CARD_QUERY_CHOOSE_CARD_TO_DISCARD" )
+    end
+    player:ChooseItems( EffectDC():Make_Targets(1) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local targetsDC = EffectDC():Get_Targets(1)
+    if player ~= nil and targetsDC ~= nil then 
+    	for i = 0,(2-1) do
+    		local target_card = EffectDC():Get_Targets(1):Get_CardPtr(i)
+    		if target_card ~= nil  then
+    			target_card:Discard()
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_TAKE_3_DISCARD_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to take 3 damage and discard two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui faire subir 3 blessures et se défausser de deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que reciba 3 puntos de daño y descarte dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der 3 Lebenspunkte verlieren und zwei Karten aus seiner Hand abwerfen soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che subisce 3 danni e scarta due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カードを２枚捨て３点のライフを失うプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 3점을 입고 카드 두 장을 버릴 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен получить 3 повреждения и сбросить две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para sofrer 3 pontos de dano e descartar dois cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手，以令其受到3点伤害并弃两张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家，使其受到3點傷害，然後棄兩張牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_DISCARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to discard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour vous en défausser.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine der Karten auf deiner Hand, die du abwerfen willst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da scartare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[捨てるカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[버릴 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для сброса.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para descartar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要弃掉的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來棄掉。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="FLESHBAG_MARAUDER_381883" />
+  <CARDNAME text="FLESHBAG_MARAUDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Fleshbag Marauder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Maraudeur sacpeau]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Merodeador bolsa de carne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Marodierender Fleischsack]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Predone Sacco di Carne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[肉（にく）袋（ぶくろ）の匪（ひ）賊（ぞく）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체로 짜맞춘 약탈자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Трупный Куль-Мародер]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Saqueador Saco-de-carne]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[肉囊劫掠者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[肉囊劫掠者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381883" />
+  <ARTID value="143391" />
+  <ARTIST name="Mark Zug" />
+  <CASTING_COST cost="{2}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grixis is a world where the only things found in abundance are death and decay. Corpses, whole or in part, are the standard currency among necromancers and demons.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Grixis est un monde où seules la mort et la décrépitude existent en abondance. Les cadavres, entiers ou en pièces, sont la monnaie d'échange des nécromanciens et des démons.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Grixis es un mundo donde lo único que hay en abundancia es muerte y podredumbre. Los cuerpos, enteros o en partes, son moneda de cambio entre nigromantes y demonios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Grixis ist eine Welt, auf der es nur Tod und Verfall im Überfluss gibt. Leichen, auch in Teilen, sind die Standardwährung bei Todesbeschwörern und Dämonen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Grixis è un mondo in cui le sole cose che abbondano sono la morte e la putrefazione. I cadaveri, interi o in parti, sono la moneta corrente tra demoni e necromanti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスに大量に存在するものは死と腐敗だけだ。死体は全身であれ一部であれ、屍術士や悪魔達の間では一般的な通貨である。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그릭시스는 죽음과 부패만이 가득 찬 세계이다. 사령술사와 악마들은 시체와 그 조각들을 화폐로 사용한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гриксис — это мир, где в изобилии есть лишь смерть и тлен. Трупы, целиком или кусками, — обычное средство платежа среди некромантов и демонов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Grixis é um mundo em que as únicas coisas abundantes são a morte e a decadência. Os cadáveres, inteiros ou em partes, são a moeda corrente dos necromantes e demônios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[格利极这世界盛产的只有死亡与腐败。死灵术士与恶魔所使用的交易标准是死尸，不论完整或是片段。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[格利極世界盛產的只有死亡與腐敗。死靈術士與惡魔所使用的交易標準是死屍，不論完整或是片段。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Fleshbag Marauder enters the battlefield, each player sacrifices a creature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Maraudeur sacpeau arrive sur le champ de bataille, chaque joueur sacrifie une créature.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Merodeador bolsa de carne entre al campo de batalla, cada jugador sacrifica una criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Marodierende Fleischsack ins Spiel kommt, opfert jeder Spieler eine Kreatur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Predone Sacco di Carne entra nel campo di battaglia, ogni giocatore sacrifica una creatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[肉袋の匪賊が戦場に出たとき、各プレイヤーはクリーチャーを１体生け贄に捧げる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[시체로 짜맞춘 약탈자가 전장에 들어올 때, 각 플레이어는 생물 한 개를 희생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Трупный Куль-Мародер выходит на поле битвы, каждый игрок жертвует существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Saqueador Saco-de-carne entra no campo de batalha, cada jogador sacrifica uma criatura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当肉囊劫掠者进战场时，每位牌手各牺牲一个生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當肉囊劫掠者進戰場時，每位玩家各犧牲一個生物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local n = MTG():GetActionRepCount()			
+    local num_players = MTG():GetNumberOfPlayers()
+    	
+    if (n &lt; num_players) then
+    	local player = MTG():GetNthPlayer(n)
+    	local filter = ClearFilter()
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    	filter:Add( FE_CONTROLLER, OP_IS, player )
+    	player:ChooseItem( "CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE", EffectDC():Make_Targets(n) )
+    		return true
+    else
+    	for i=0,(num_players-1) do
+    		local creature = EffectDC():Get_Targets(i):Get_CardPtr(0)
+    		if creature ~= nil then
+    			MTG():GetNthPlayer(i):Sacrifice( creature )
+    		end
+    	end
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_SACRIFICE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to sacrifice.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la sacrifier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para sacrificarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die geopfert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da sacrificare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[生け贄に捧げるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[희생할 생물을 한 개 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для пожертвования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para sacrificar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要牺牲的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來犧牲。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

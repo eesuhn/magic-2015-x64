@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="115">
+  <FILENAME text="BOLD_DEFENSE_382200" />
+  <CARDNAME text="BOLD_DEFENSE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bold Defense]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défense audacieuse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Defensa osada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mutige Verteidigung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Difesa Audace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[勇（ゆう）敢（かん）な防（ぼう）御（ぎょ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대담한 수비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Храбрая Оборона]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Defesa Destemida]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[果敢防卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[果敢防衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382200" />
+  <ARTID value="123620" />
+  <ARTIST name="Scott Chou" />
+  <CASTING_COST cost="{2}{W}" />
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <UTILITY_ABILITY qualifier="Kicker">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {3}{W}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[增幅{3}{W}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[增幅{3}{W}]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}{W}" type="Mana" />
+    <ABILITY_TEXT tag="KICKER_QUERY_BOLD_DEFENSE_KICKED" secondary_tag="KICKER_QUERY_BOLD_DEFENSE_UNKICKED" />
+  </UTILITY_ABILITY>
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +1/+1 until end of turn. If Bold Defense was kicked, instead creatures you control get +2/+2 and gain first strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +1/+1 jusqu’à la fin du tour. Si la Défense audacieuse a été kickée, à la place, les créatures que vous contrôlez gagnent +2/+2 et acquièrent l’initiative jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +1/+1 hasta el final del turno. Si la Defensa osada fue estimulada, en vez de eso, las criaturas que controlas obtienen +2/+2 y ganan la habilidad de dañar primero hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +1/+1 bis zum Ende des Zuges. Falls die Bonuskosten für Mutige Verteidigung bezahlt wurden, erhalten Kreaturen, die du kontrollierst, stattdessen +2/+2 und Erstschlag bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +1/+1 fino alla fine del turno. Se la Difesa Audace è stata potenziata, invece le creature che controlli prendono +2/+2 e hanno attacco improvviso fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、ターン終了時まで＋１/＋１の修整を受ける。勇敢な防御がキッカーされているなら場、代わりにあなたがコントロールするクリーチャーは、ターン終了時まで＋２/＋２の修整を受けるとともに先制攻撃を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 턴종료까지 +1/+1을 받는다. 대담한 수비의 키커 비용을 지불했다면, 당신이 조종하는 생물들은 턴종료까지 +2/+2을 받으며 선제공격을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +1/+1 до конца хода. Если Храбрая Оборона получила Усилитель, то вместо этого существа под вашим контролем получают +2/+2 и Первый удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +1/+1 até o final do turno. Se Defesa Destemida foi reforçada, em vez disso, as criaturas que você controla recebem +2/+2 e ganham iniciativa até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的生物得+1/+1直到回合结束。如果果敢防卫已增幅，则改为直到回合结束，由你操控的生物得+2/+2且获得先攻异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的生物得+1/+1直到回合結束。如果果敢防衛已增幅，則改為直到回合結束，由你操控的生物得+2/+2且獲得先攻異能。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource():WasKicked() then	
+    	EffectDC():Set_Int(1,1)
+    else
+    	EffectDC():Set_Int(1,0)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	if EffectDC():Get_Int(1) == 1 then
+    		characteristics:Power_Add( 2 )
+    		characteristics:Toughness_Add( 2 )
+    	else
+    		characteristics:Power_Add( 1 )
+    		characteristics:Toughness_Add( 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if EffectDC():Get_Int(1) == 1 then
+    	if FilteredCard() ~= nil then
+    		local characteristics = FilteredCard():GetCurrentCharacteristics()
+    		characteristics:Bool_Set( CHARACTERISTIC_FIRST_STRIKE, 1 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <HELP title="MORE_INFO_BADGE_TITLE_0" body="MORE_INFO_BADGE_BODY_0" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="KICKER_QUERY_BOLD_DEFENSE_UNKICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +1/+1 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +1/+1 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controles obtienen +1/+1 hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +1/+1 bis zum Ende des Zugs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +1/+1 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、ターン終了時まで＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 턴종료까지 +1/+1을 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +1/+1 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +1/+1 até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的生物得+1/+1直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的生物得+1/+1直到回合結束。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="KICKER_QUERY_BOLD_DEFENSE_KICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control get +2/+2 and gain first strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez gagnent +2/+2 et acquièrent l'initiative jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas obtienen +2/+2 y ganan la habilidad de dañar primero hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen, die du kontrollierst, erhalten +2/+2 und Erstschlag bis zum Ende des Zugs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli prendono +2/+2 e hanno attacco improvviso fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャーは、ターン終了時まで＋２/＋２の修整を受けるとともに先制攻撃を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물들은 턴종료까지 +2/+2를 받고 선제공격 능력을 얻습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Существа под вашим контролем получают +2/+2 и Первый удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla recebem +2/+2  e ganham iniciativa até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的生物得+2/+2且获得先攻异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的生物得+2/+2且獲得先攻異能直到回合結束。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

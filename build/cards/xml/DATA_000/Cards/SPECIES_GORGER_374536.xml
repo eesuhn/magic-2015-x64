@@ -1,0 +1,102 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="672">
+  <FILENAME text="SPECIES_GORGER_374536" />
+  <CARDNAME text="SPECIES_GORGER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Species Gorger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Avaleur d'espèces]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorador de especies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Artenverschlinger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divoraspecie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[種（しゅ）喰（く）らい]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[종족 포식자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожиратель Особей]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devorador de Espécies]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[噬种蛙兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[噬種蛙獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374536" />
+  <ARTID value="147747" />
+  <ARTIST name="Min Yum" />
+  <CASTING_COST cost="{3}{G}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We raised eelhawks to control the squidflies, then waspcrabs to prey on the eelhawks. Now what do we do with all these waspcrabs?”
+—Gulistan, Simic biomancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous avons créé les faucanguilles pour contrôler les calamouches, puis les craguêpes pour empêcher les faucanguilles de proliférer. Et maintenant, comment endiguer l'invasion de craguêpes ? »
+—Gulistan, biomancien simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Criamos halcoanguilas para controlar a las calamoscas, y después cangreavispas para cazar a las halcoanguilas. Pero, ¿qué vamos a hacer ahora con todas esas cangreavispas?”.
+—Gúlistan, biomante simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir haben Aalhabichte gezüchtet, um die Tintenfischfliegen unter Kontrolle zu bekommen, und dann Wespenkrebse, um die Aalhabichte zu dezimieren. Aber was machen wir jetzt mit all den Wespenkrebsen?“
+—Gulistan, Simic-Biomagier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Abbiamo creato delle anguille-falco per controllare i moscerini-calamaro, poi dei granchi-vespa che dovevano nutrirsi delle anguille-falco. Ora che ne facciamo di tutti questi granchi-vespa?”
+—Gulistan, biomante Simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々はイカバエの抑制策としてウナギタカを育て、今度はハチガニにウナギタカを捕食させた。さてこのハチガニをどうしたものか？」――シミックの生術師、グリスタン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["뱀장어매를 만들어서 오징어파리를 잡아먹게 하고 말벌게를 만들에서 뱀장어매를 잡아먹게 했어. 이제 남은 말벌게로 뭘 하지?"
+—시믹 생명술사 굴리스탄]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы вывели угрекоршунов, чтобы истребить кальмаромух, а затем осокрабов, чтобы справиться с нашествием угрекоршунов. И что нам теперь делать с расплодившимися осокрабами?»
+— Гулистан, биомант Симиков]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Nós criamos os enguifalcos para controlar as polvomoscas e, depois, os vespoguejos para caçarem os enguifalcos. Agora o que fazer com todos esses vespoguejos?”
+— Gulistan, biomante Simic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们饲养鳗鱼鹰是为了控制乌贼蝇数量，饲养黄蜂蟹是为了猎捕鳗鱼鹰。现在该拿这些黄蜂蟹怎么办？」
+～析米克生机术士顾里斯坦]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們飼養鰻魚鷹是為了控制烏賊蠅數量，飼養黃蜂蟹是為了獵捕鰻魚鷹。現在該拿這些黃蜂蟹怎麼辦？」
+～析米克生機術士顧里斯坦]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Frog" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="6" />
+  <TOUGHNESS value="6" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, return a creature you control to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, renvoyez une créature que vous contrôlez dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, regresa una criatura que controlas a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn deines Versorgungssegments eine Kreatur, die du kontrollierst, auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, fai tornare una creatura che controlli in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、あなたがコントロールするクリーチャー１体をオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 당신이 조종하는 생물 한 개를 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки верните существо под вашим контролем в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, devolva uma criatura que você controla para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，将一个由你操控的生物移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，將一個由你操控的生物移回其擁有者手上。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    local player = EffectController()
+    player:SetItemCount( 1 )
+    for i = 0,(1-1) do
+    	player:SetItemPrompt (i, "CARD_QUERY_CHOOSE_CREATURE_TO_PUT_INTO_HAND" )
+    end
+    player:ChooseItems( EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local card = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if card ~= nil then
+    	card:PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Bounce" amount="1" />
+  <SFX text="COMBAT_HYDRA_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="-150" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to put into its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour la mettre dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para ponerla en la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die auf die Hand ihres Besitzers gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da mettere in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーナーの手札に戻すクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소유자의 손으로 되돌릴 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое нужно положить в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para colocar na mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物，以将其置于其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物置入其擁有者手上。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_DRAWBACK_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

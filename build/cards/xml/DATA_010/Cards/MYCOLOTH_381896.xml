@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="202">
+  <FILENAME text="MYCOLOTH_381896" />
+  <CARDNAME text="MYCOLOTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mycoloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mycoloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Micolot]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Mykoloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fungoloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マイコロス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미콜로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Миколот]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Micoloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[真菌洛西]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[真菌洛西]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381896" />
+  <ARTID value="117004" />
+  <ARTIST name="Raymond Swanland" />
+  <CASTING_COST cost="{3}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Fungus" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Devour 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dévorement 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Devorar 2.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verschlingen 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Divorare 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食２]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пожирание 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Devorar 2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[吞噬2]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[吞噬2]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    local max_victims = filter:Count()
+    if max_victims &gt; 0 then
+    	EffectController():SetItemCount( max_victims )
+    	for i = 0,(max_victims-1) do
+    		EffectController():SetItemPrompt (i, "CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_2" )
+    	end
+    	
+    	EffectDC():Set_Int(1, max_victims)
+    	EffectController():ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local max_victims = EffectDC():Get_Int(1)
+    local devour_count = 0
+    		
+    for i=0,max_victims-1 do
+    	local victim = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if victim ~= nil then
+    		EffectController():Sacrifice(victim)
+    		devour_count = devour_count + 1
+    	end
+    end
+    		
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), devour_count*2 )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of your upkeep, put a 1/1 green Saproling creature token onto the battlefield for each +1/+1 counter on Mycoloth.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de votre entretien, mettez sur le champ de bataille un jeton de créature 1/1 verte Saprobionte pour chaque marqueur +1/+1 sur le Mycoloth.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo de tu mantenimiento, pon en el campo de batalla una ficha de criatura Saprolín verde 1/1 por cada contador +1/+1 sobre el Micolot.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zu Beginn deines Versorgungssegments für jede +1/+1-Marke auf dem Mykoloth einen 1/1 grünen Saproling-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del tuo mantenimento, metti sul campo di battaglia una pedina creatura Saprolingio 1/1 verde per ogni segnalino +1/+1 sul Fungoloth.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのアップキープの開始時に、マイコロスの上に置かれている＋１/＋１カウンター１個につき、緑の１/１の苗木・クリーチャー・トークンを１体場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 유지단 시작에, 미콜로스가 가진 +1/+1 카운터 개수만큼의 1/1 녹색 부생수 생물 토큰을 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале вашего шага поддержки положите на поле битвы одну фишку существа 1/1 зеленый Сапролинг за каждый жетон +1/+1 на Миколоте.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início de sua manutenção, coloque no campo de batalha uma ficha de criatura verde 1/1 do tipo Saprófita para cada marcador +1/+1 em Micoloth.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在你的维持开始时，真菌洛西上每有一个+1/+1指示物，便将一个1/1绿色腐生物衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在你的維持開始時，真菌洛西上每有一個+1/+1指示物，便將一個1/1綠色腐生物衍生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP" simple_qualifier="controller">
+    return MTG():GetStep() == STEP_UPKEEP
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local NumTokens = EffectSourceLKI():CountCounters(MTG():PlusOnePlusOneCounters())
+    if NumTokens &gt; 0 then
+    	MTG():PutTokensOntoBattlefield( "TOKEN_SAPROLING_1_1_G_377557", NumTokens, EffectController() ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SAPROLING_1_1_G_377557" />
+  <HELP title="MORE_INFO_TITLE_DEVOUR" body="MORE_INFO_BODY_DEVOUR" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WURMCOIL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_DEVOUR_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose any number of creatures to devour. This creature enters the battlefield with twice that many +1/+1 counters on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez n'importe quel nombre de créatures pour le dévorement. Cette créature arrive sur le champ de bataille avec deux fois ce nombre de marqueurs +1/+1 sur elle.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige cualquier cantidad de criaturas para devorar. Esta criatura entra al campo de batalla con el doble de esa cantidad de contadores +1/+1 sobre ella.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine beliebige Anzahl an Kreaturen, die verschlungen werden sollen. Diese Kreatur kommt mit doppelt so vielen +1/+1-Marken ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un qualsiasi numero di creature da divorare. Questa creatura entra nel campo di battaglia con un numero di segnalini +1/+1 pari al doppio delle creature divorate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[貪食するクリーチャーを望む数だけ選んでください。このクリーチャーは、その数の２倍の＋１/＋１カウンターが置かれた状態で戦場に出ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[포식할 생물을 원하는 만큼 고르십시오. 이 생물은 포식한 생물 수의 두 배만큼의 +1/+1 카운터를 가진 채로 전장에 들어옵니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите любое количество существ для Пожирания. Это существо выходит на поле битвы с количеством жетонов +1/+1 на нем, в два раза превышающим это число. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma quantidade qualquer de criaturas para devorar. Esta criatura entra no campo de batalha com o dobro deste número em marcadores +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择任意数量要吞噬的生物。此生物进战场时上面有该数量两倍的+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇任意數量的生物來吞噬。此生物進戰場時兩倍數量的+1/+1指示物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

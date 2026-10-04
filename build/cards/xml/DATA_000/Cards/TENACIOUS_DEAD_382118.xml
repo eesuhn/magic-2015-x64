@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="TENACIOUS_DEAD_382118" />
+  <CARDNAME text="TENACIOUS_DEAD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tenacious Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mort tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Muerto tenaz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Beharrlicher Toter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Morto Tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[執（しつ）拗（よう）な死（し）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[근성의 망자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Неуемный Мертвец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Morto Tenaz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[顽强亡者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[頑強亡者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382118" />
+  <ARTID value="147402" />
+  <ARTIST name="John Stanko" />
+  <CASTING_COST cost="{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Raising the bones of Hekjek the Mad proved far easier than getting them to lie back down.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le squelette d'Hekjek le Dément se releva sans peine. Lui faire retrouver le repos, en revanche, s'avéra plus ardu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Reanimar los huesos de Hekjek el loco resultó mucho más fácil que hacer que volviesen a descansar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wie sich zeigte, war es sehr viel einfacher, die Knochen von Hekjek dem Verrückten auferstehen zu lassen, als sie dazu zu bewegen, sich wieder hinzulegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rianimare le ossa di Hekjek il Pazzo si rivelò molto più facile che non rimetterle a riposo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[狂人ヘクジェックの骨を復活させるのは、その骨を再び寝かせるよりもはるかに簡単だった。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[정신나간 헤크제크의 뼈로 언데드를 만들기는 쉬웠다. 다시 죽이는 것은 어려웠다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оживить скелет Хекжека Безумного оказалось проще, чем заставить его упокоиться снова.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reerguer os ossos de Hekjek, o Louco, se provou muito mais fácil que fazê-los descansar novamente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[事实证明，复活狂人海克耶的骨骸比让它们躺回去要容易多了。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[事實證明，復活狂人海克耶的骨骸比讓它們躺回去要容易多了。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Skeleton" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Tenacious Dead dies, you may pay {1}{B}. If you do, return it to the battlefield tapped under its owner’s control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Mort tenace meurt, vous pouvez payer {1}{B}. Si vous faites ainsi, renvoyez-le sur le champ de bataille, engagé, sous le contrôle de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Muerto tenaz muera, puedes pagar {1}{B}. Si lo haces, regrésalo al campo de batalla girado bajo el control de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Beharrliche Tote stirbt, kannst du {1}{B} bezahlen. Falls du dies tust, bringe ihn getappt unter der Kontrolle seines Besitzers ins Spiel zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Morto Tenace muore, puoi pagare {1}{B}. Se lo fai, rimettilo sul campo di battaglia TAPpato sotto il controllo del suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[執拗な死者が死亡したとき、あなたは{1}{B}を支払ってもよい。そうしたなら、これをオーナーのコントロール下でタップ状態で戦場に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[근성의 망자가 죽을 때, 당신은 {1}{B}를 지불할 수 있다. 그렇게 한다면, 근성의 망자를 그 소유자의 조종 하에 탭된 채로 전장으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Неуемный Мертвец умирает, вы можете заплатить {1}{B}. Если вы это делаете, верните его на поле битвы повернутым под контролем его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Morto Tenaz morre, você pode pagar {1}{B}. Se fizer isso, devolva-o ao campo de batalha virado sob o controle de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当顽强亡者死去时，你可以支付{1}{B}。若你如此做，将它在其拥有者的操控下横置移回战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當頑強亡者死去時，你可以支付{1}{B}。若你如此作，將它在其擁有者之操控下橫置移回戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayManaCost("{1}{B}") then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_TENACIOUS_DEAD_ANSWER_RETURN" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_TENACIOUS_DEAD_ANSWER_DO_NOT_RETURN" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_TENACIOUS_DEAD_QUESTION" )
+    		EffectDC():Set_Int(0, 1)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local answer = EffectController():GetMultipleChoiceResult()
+    if answer == 0 and EffectDC():Get_Int(0) == 1 then
+    	EffectController():PayManaCost( "{1}{B}") 
+    	TriggerObject():PutOntoBattlefieldTapped()
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_TENACIOUS_DEAD_ANSWER_RETURN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Yes, pay {1}{B} and return Tenacious Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oui, payer {1}{B} et renvoyer le Mort tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sí, pagar {1}{B} y regresar el Muerto tenaz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ja, {1}{B} bezahlen und den Beharrlichen Toten zurückbringen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sì, paga {1}{B} e rimetti sul campo di battaglia il Morto Tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[はい、{1}{B}を支払って《執拗な死者》を戻します。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{B}를 지불하고 근성의 망자를 되돌립니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Да, заплатить {1}{B} и вернуть Неуемного Мертвеца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sim, pague {1}{B} e devolva Morto Tenaz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[是，支付{1}{B}并移回顽强亡者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[是，支付{1}{B}並移回頑強亡者]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_TENACIOUS_DEAD_ANSWER_DO_NOT_RETURN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[No, do not return Tenacious Dead]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Non, ne pas renvoyer le Mort tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No, no regresar el Muerto tenaz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nein, den Beharrlichen Toten nicht zurückbringen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[No, non rimettere sul campo di battaglia il Morto Tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[いいえ、《執拗な死者》を戻しません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[근성의 망자를 되돌리지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нет, не возвращать Неуемного Мертвеца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não, não devolva Morto Tenaz]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[否，不移回顽强亡者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[否，不移回頑強亡者]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_TENACIOUS_DEAD_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {1}{B} and return Tenacious Dead from your graveyard to the battlefield tapped?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aimeriez-vous payer {1}{B} et renvoyer, engagé, sur le champ de bataille le Mort tenace depuis votre cimetière ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {1}{B} y regresar el Muerto tenaz de tu cementerio al campo de batalla girado?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {1}{B} bezahlen und den Beharrlichen Toten aus deinem Friedhof getappt ins Spiel zurückbringen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {1}{B} e rimettere il Morto Tenace sul campo di battaglia TAPpato dal tuo cimitero?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{B}を支払って墓地から《執拗な死者》をタップ状態で戦場に戻しますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{B}를 지불하고 당신의 무덤에 있는 근성의 망자를 탭된 상태로 전장으로 되돌리시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {1}{B} и вернуть Неуемного Мертвеца из вашего кладбища на поле битвы повернутым?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja pagar {1}{B} e devolver Morto Tenaz de seu cemitério para o campo de batalha virado?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要支付{1}{B}并将顽强亡者从你的坟墓场横置移回战场吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要支付{1}{B}並將頑強亡者從你的墳墓場橫置移回戰場嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

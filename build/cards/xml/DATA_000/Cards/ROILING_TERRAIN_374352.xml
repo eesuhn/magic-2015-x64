@@ -1,0 +1,107 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="214">
+  <FILENAME text="ROILING_TERRAIN_374352" />
+  <CARDNAME text="ROILING_TERRAIN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Roiling Terrain]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Terrain victime du Roulis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Terreno enojado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Turbulentes Gelände]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Terreno Intorbidito]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[乱（らん）動（どう）する地（ち）形（けい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[울렁대는 대지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вздыбленная Земля]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Terreno Turbilhonante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[翻搅大地]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[翻攪大地]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374352" />
+  <ARTID value="126543" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{2}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The trembling lands ruptured, leaving an open door for things from below to emerge.”
+—Screed of the Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Les terres tremblantes éclatèrent, ouvrant la voie aux choses du dessous. »
+—Laïus des Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La tierra temblorosa se partió, dejando una puerta abierta para que emerjan cosas enterradas”.
+—Manuscritos de los Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das zitternde Land bekam Risse und ermöglichte es dadurch Wesen, aus dem Untergrund hervorzukommen.“
+—Geschichte von Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“La terra tremante si spezzò in più punti, lasciando porte aperte a qualunque cosa desiderasse uscire in superficie.”
+—Repertorio dei Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「揺れ動く地は裂け、地の下より現れるもののための扉を開いた。」
+――ムル・ダヤ録]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["요동치는 대지가 찢어지며 그 아래에 있는 자들이 나올 문을 열어 주었도다."
+—물 다야의 서약]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Дрожащая земля разверзлась, приоткрыв дверь для рвущихся наружу тварей».
+— Из эпоса эльфов Мул Дайя]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Os terrenos estremecidos partiram-se, deixando uma porta aberta para que todas as coisas subterrâneas emergissem.”
+— Anais de Mul Daya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「颤动大地裂开，底下的东西从这门口冒出来。」
+～慕达雅长文]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「顫動大地裂開，底下的東西從這門口冒出來。」
+～慕達雅長文]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Destroy target land, then Roiling Terrain deals damage to that land’s controller equal to the number of land cards in that player’s graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Détruisez le terrain ciblé. Le Terrain victime du Roulis inflige ensuite au contrôleur de ce terrain un nombre de blessures égal au nombre de cartes de terrain dans le cimetière de ce joueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Destruye la tierra objetivo, luego el Terreno enojado hace daño al controlador de esa tierra igual a la cantidad de cartas de tierra en el cementerio de ese jugador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerstöre ein Land deiner Wahl; dann fügt das Turbulente Gelände dem Beherrscher dieses Landes so viele Schadenspunkte zu, wie sich Länderkarten im Friedhof dieses Spielers befinden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Distruggi una terra bersaglio, poi il Terreno Intorbidito infligge danno al controllore di quella terra pari al numero di carte terra nel cimitero di quel giocatore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[土地１つを対象とし、それを破壊する。その後、乱動する地形はその土地のコントローラーに、そのプレイヤーの墓地にある土地カードの枚数に等しい点数のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[다른 플레이어의 대지 한 개를 목표로 정한다. 그 대지를 파괴한다. 울렁대는 대지는 그 플레이어의 무덤에 있는 대지 카드 수만큼의 피해를 그 대지의 조종자에게 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Уничтожьте целевую землю, затем Вздыбленная Земля наносит повреждения контролировавшему ту землю игроку, равные количеству карт земель на кладбище того игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Destrua o terreno alvo. Depois, Terreno Turbilhonante causa ao controlador daquele terreno dano igual à quantidade de cards de terreno no cemitério daquele jogador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[消灭目标地，然后翻搅大地对该地的操控者造成伤害，其数量等同于该牌手坟墓场中的地牌数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[消滅目標地，然後翻攪大地對該地的操控者造成傷害，其數量等同於該玩家墳墓場中的地牌數量。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_FIREBALL_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_LAND_TO_DESTROY" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then 
+    	local controller = target:GetPlayer()
+    	EffectDC():Set_PlayerPtr(1, controller)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then   
+    	target:Destroy(EffectSource())  
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local controller = EffectDC():Get_PlayerPtr(1)
+    if controller ~= nil then
+    	filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    	filter:SetZone( ZONE_GRAVEYARD, controller )
+    	local damage = filter:Count()
+    	EffectSourceLKI():DealDamageTo( damage, controller )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_DESTROY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to destroy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le détruire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para destruirla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das zerstört werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da distruggere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破壊する土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파괴할 대지 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю для уничтожения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para destruir.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个地来消灭。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地來消滅。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

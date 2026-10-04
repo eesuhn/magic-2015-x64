@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="391">
+  <FILENAME text="HALL_OF_TRIUMPH_382218" />
+  <CARDNAME text="HALL_OF_TRIUMPH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hall of Triumph]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mégaron du triomphe]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sala del triunfo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Halle des Triumphes]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Sala del Trionfo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[凱（がい）旋（せん）の間（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[승리의 전당]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Триумфальный Зал]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Salão do Triunfo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[凯旋大厅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[凱旋大廳]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382218" />
+  <ARTID value="152799" />
+  <ARTIST name="Ryan Yee" />
+  <CASTING_COST cost="{3}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Heroes act without thought of glory or reward. Accolades are a consequence, not a goal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les héros agissent sans songer à la gloire ou aux récompenses. Les gratifications sont une conséquence, pas un but.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los héroes actúan sin pensar en la gloria o las recompensas. Esos premios son consecuencias, no objetivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Helden handeln ohne Gedanken an Ruhm oder Belohnung. Anerkennung ist lediglich eine Folge, kein Ziel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gli eroi agiscono senza pensare alla gloria o alle ricompense. Le lodi sono una conseguenza, non un traguardo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[英雄は、栄光や報酬のことなど考えずに行動する。称賛とは結果であり、目的にあらず。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅은 영광이나 대가에 관계없이 행동한다. 포상은 결과일 뿐, 목적이 아니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Герои действуют, не думая о славе и о наградах. Почести — это следствие, а не цель.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os heróis agem sem pensar em glória ou recompensas. Gratificações são consequências, não objetivos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[英雄不是因为荣耀或奖励才出手的。获得荣誉是自然结果，而非目标。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[英雄不是因為榮耀或獎勵才出手的。獲得榮譽是自然結果，而非目標。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_query="1" linked_ability_group="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[As Hall of Triumph enters the battlefield, choose a color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au moment où le Mégaron du triomphe arrive sur le champ de bataille, choisissez une couleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En cuanto la Sala del triunfo entre al campo de batalla, elige un color.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sowie die Halle des Triumphes ins Spiel kommt, bestimme eine Farbe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Mentre la Sala del Trionfo entra nel campo di battaglia, scegli un colore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[凱旋の間が戦場に出るに際し、色を１色選ぶ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[승리의 전당이 전장에 들어올 때, 색 하나를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[При выходе Триумфального Зала на поле битвы выберите цвет.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conforme Salão do Triunfo entra no campo de batalha, escolha uma cor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[于凯旋大厅进战场时，选择一种颜色。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[於凱旋大廳進戰場時，選擇一種顏色。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ChooseColour( "CARD_QUERY_CHOOSE_COLOUR", false )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local chosenColour = GetChosenColour()
+    if chosenColour == COLOUR_WHITE then
+    	LinkedDC():Set_Int(0, 1)
+    elseif chosenColour == COLOUR_BLUE then
+    	LinkedDC():Set_Int(0, 2)
+    elseif chosenColour == COLOUR_BLACK then
+    	LinkedDC():Set_Int(0, 3)
+    elseif chosenColour == COLOUR_RED then
+    	LinkedDC():Set_Int(0, 4)
+    elseif chosenColour == COLOUR_GREEN then
+    	LinkedDC():Set_Int(0, 5)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <STATIC_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Creatures you control of the chosen color get +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les créatures que vous contrôlez de la couleur choisie gagnent +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Las criaturas que controlas del color elegido obtienen +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kreaturen der bestimmten Farbe, die du kontrollierst, erhalten +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le creature che controlli del colore scelto prendono +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするその選ばれた色のクリーチャーは＋１/＋１の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선택한 색을 가진 당신이 조종하는 생물은 +1/+1을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Находящиеся под вашим контролем существа выбранного цвета получают +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As criaturas que você controla da cor escolhida ganham +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[由你操控的该色生物得+1/+1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[由你操控的該色生物得+1/+1。]]></LOCALISED_TEXT>
+    <FILTER filter_id="0">
+    local chosenColourInt = LinkedDC():Get_Int(0)
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    if chosenColourInt == 1 then
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_WHITE )
+    elseif chosenColourInt == 2 then
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_BLUE )
+    elseif chosenColourInt == 3 then
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_BLACK )
+    elseif chosenColourInt == 4 then 
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_RED )
+    elseif chosenColourInt == 5 then
+    	filter:Add( FE_COLOUR, OP_IS, COLOUR_GREEN )
+    end
+    </FILTER>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <AI_BASE_SCORE score="750" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ARTIFACT_GLOBAL_SYNERGY_WHY_PLAY" removal_tag="HINT_ARTIFACT_GLOBAL_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

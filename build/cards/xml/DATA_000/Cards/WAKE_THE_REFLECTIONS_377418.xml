@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="120">
+  <FILENAME text="WAKE_THE_REFLECTIONS_377418" />
+  <CARDNAME text="WAKE_THE_REFLECTIONS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wake the Reflections]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éveil des reflets]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Despertar los reflejos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Spiegelungen erwecken]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Svegliare i Riflessi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[反（はん）射（しゃ）起（お）こし]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[환영 깨우기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробуждение Отражений]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Desperte os Reflexos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[映像觉醒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[映像覺醒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377418" />
+  <ARTID value="146823" />
+  <ARTIST name="Cynthia Sheppard" />
+  <CASTING_COST cost="{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“You see a bird, an oak, a packbeast. I see the potential for an army.”
+—Lalia, Selesnya dryad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Vous voyez un oiseau, un chêne, une bête de somme. Je vois une recrue potentielle pour notre armée. »
+—Lalia, dryade de Selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Tú ves un pájaro, un roble, una bestia de carga. Yo veo un ejército en potencia”.
+—Lalia, dríada selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Du siehst einen Vogel, eine Eiche, ein Packtier. Ich sehe das Potenzial für eine Armee.“
+—Lalia, Selesnija-Dryade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Tu vedi un uccello, una quercia, una bestia da soma. Io vedo un potenziale esercito.”
+—Lalia, driade di Selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あなたにとっては、ただの鳥や樫の木や荷役獣でしょう。私は彼らに、軍隊の可能性を見出します。」
+――セレズニアのドライアド、ラーリア]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["네 눈에는 그저 새와 나무, 그리고 탈짐승만 보이겠지. 내 눈에는 새로운 군대가 보여."
+—셀레스냐 드라이어드 랄리아]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Перед вами — птица, дуб, вьючное животное. Передо мной — будущая армия».
+— Лалия, дриада Селезнии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você vê um pássaro, um carvalho, uma besta de carga. Eu vejo um exército em potencial.”
+— Lalia, dríade Selesnya]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你看到的是一只鸟、一株橡树、一匹驮兽。我看到的则是成为一支军队的潜力。」
+～瑟雷尼亚树灵拉黎亚]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你看到的是一隻鳥、一株橡樹、一匹馱獸。我看到的則是成為一支軍隊的潛力。」
+～瑟雷尼亞樹靈拉黎亞]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Populate.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Peuplez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Repuebla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Führe Bevölkern durch.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Popola.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[居住を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[소집한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Используйте Заселение.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Povoe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[殖民。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[殖民。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_IS_TOKEN, true)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController() )
+    EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_TOKEN_TO_COPY", EffectDC():Make_Targets(0))
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cardToCopy = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if cardToCopy ~= nil then
+    	MTG():PutTokenCopiesOntoBattlefield( cardToCopy, 1, EffectController() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_POPULATE" body="MORE_INFO_BODY_POPULATE" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_TOKEN_TO_COPY">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a token to copy.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un jeton pour le copier.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una ficha para copiarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spielstein, der kopiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una pedina da copiare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[コピーするトークンを選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[복사할 토큰을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите фишку для копирования.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma ficha para copiar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要复制的衍生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要複製的衍生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

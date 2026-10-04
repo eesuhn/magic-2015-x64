@@ -1,0 +1,94 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="GRIXIS_PANORAMA_381887" />
+  <CARDNAME text="GRIXIS_PANORAMA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Grixis Panorama]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Panorama de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Panorama de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Panorama von Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Panorama di Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[グリクシスの全（ぜん）景（けい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그릭시스 파노라마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Панорама Гриксиса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Panorama de Grixis]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[格利极全景]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[格利極全景]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381887" />
+  <ARTID value="116199" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="" />
+  <TYPE metaname="Land" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <MANA_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Add {1} to your mana pool.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Ajoutez {1} à votre réserve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Agrega {1} a tu reserva de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Erhöhe deinen Manavorrat um {1}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Aggiungi {1} alla tua riserva di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：あなたのマナ・プールに{1}を加える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: {1}를 당신의 마나풀에 담는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: добавьте {1} в ваше хранилище маны.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Adicione {1} à sua reserva de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：加{1}到你的法术力池中。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：加{1}到你的魔法力池中。]]></LOCALISED_TEXT>
+    <PRODUCES amount="{1}" />
+  </MANA_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}, {T}, Sacrifice Grixis Panorama: Search your library for a basic Island, Swamp, or Mountain card and put it onto the battlefield tapped. Then shuffle your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}, {T}, sacrifiez le Panorama de Grixis : Cherchez dans votre bibliothèque une carte d’île, de marais ou de montagne de base et mettez-la sur le champ de bataille engagée. Mélangez ensuite votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}, {T}, sacrificar el Panorama de Grixis: Busca en tu biblioteca una carta de isla, pantano o montaña básica y ponla en el campo de batalla girada. Luego baraja tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}, {T}, opfere das Panorama von Grixis: Durchsuche deine Bibliothek nach einer Insel-, Sumpf- oder Gebirge-Standardlandkarte und bringe diese Karte getappt ins Spiel. Mische danach deine Bibliothek.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}, {T}, Sacrifica il Panorama di Grixis: Passa in rassegna il tuo grimorio per una carta Isola, Palude o Montagna base e mettila sul campo di battaglia TAPpata. Poi rimescola il tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}, {T}, グリクシスの全景を生け贄に捧げる：あなたのライブラリーから基本島カード１枚か基本沼カード１枚か基本山カード１枚を探し、それをタップ状態で戦場に出す。その後あなたのライブラリーを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}, {T}, 그릭시스 파노라마를 희생한다: 당신의 서고에서 기본 섬, 늪 또는 산 카드 한 장을 찾아 탭된 채로 전장에 놓는다. 그러고 나서 당신의 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}, {T}, пожертвуйте Панораму Гриксиса: найдите в вашей библиотеке карту базового Острова, Болота или Горы и положите ее на поле битвы повернутой. Затем перетасуйте вашу библиотеку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}, {T}, Sacrifique Panorama de Grixis: Procure em seu grimório por um card de terreno básico do tipo Ilha, Pântano ou Montanha e coloque-o no campo de batalha virado. Depois, embaralhe seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}，{T}，牺牲格利极全景：从你的牌库中搜寻一张基本的海岛，沼泽，或山脉牌，并将之横置进战场。然后将你的牌库洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}，{T}，犧牲格利極全景：從你的牌庫中搜尋一張基本的海島，沼澤，或山脈牌，並將之橫置進戰場。然後將你的牌庫洗牌。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    local subfilter = filter:AddSubFilter_Or()
+    	subfilter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_ISLAND)
+    	subfilter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_SWAMP)
+    	subfilter:Add(FE_SUBTYPE, OP_IS, LAND_TYPE_MOUNTAIN)
+    filter:SetZone( ZONE_LIBRARY, effectController )
+    	
+    effectController:ChooseItem( "CARD_QUERY_CHOOSE_LAND_ISLAND_SWAMP_MOUNTAIN_TO_PUT_ONTO_BATTLEFIELD", EffectDC():Make_Targets(0) )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutOntoBattlefieldTapped( EffectController() )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_MANAFIX_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_ISLAND_SWAMP_MOUNTAIN_TO_PUT_ONTO_BATTLEFIELD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an Island, Swamp, or Mountain to put onto the battlefield tapped.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une île, un marais ou une montagne à mettre sur le champ de bataille engagé(e).]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una isla, pantano o montaña para ponerla en el campo de batalla girada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Insel, einen Sumpf oder ein Gebirge, die, der bzw. das getappt ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un’Isola, una Palude o una Montagna da mettere sul campo di battaglia TAPpata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場にタップ状態で出す島か沼か山を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭된 상태로 전장에 놓을 섬이나 늪, 산을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите Остров, Болото или Гору, чтобы положить их на поле битвы повернутыми.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma Ilha, Pântano ou Montanha para colocar no campo de batalha virado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要横置进战场的海岛、沼泽或山脉。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要橫置進戰場的海島、沼澤或山脈。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_LAND_FETCH_WHY_PLAY" removal_tag="HINT_LAND_MANA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

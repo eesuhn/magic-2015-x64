@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="57">
+  <FILENAME text="MINOTAUR_ABOMINATION_378200" />
+  <CARDNAME text="MINOTAUR_ABOMINATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Minotaur Abomination]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Abomination minotaure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Abominación minotauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Minotaurus-Abscheulichkeit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Abominio Minotauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ミノタウルスの嫌（けん）悪（お）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[미노타우로스 변이체]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чудовищный Минотавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Abominação Minotauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牛头憎恶兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牛頭憎恨獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378200" />
+  <ARTID value="147443" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{4}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Look at that. Shuffling, wobbling, entrails placed haphazardly. It’s shameful. Who would let that kind of work flap about for all to see?”
+—Lestin, necromancer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Regardez-moi ça. Ça remue, ça titube, ça perd à moitié ses entrailles. Quelle honte. Qui peut bien laisser traîner un travail bâclé à ce point ? »
+—Lestin, nécromancien]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Mira eso. Un revoltijo de entrañas tremulosas puestas de cualquier modo. Es vergonzoso. ¿Quién dejaría que un trabajo como ese estuviese danzando a la vista de todos?”
+—Lestin, nigromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sieh sich das einer an. Schlurfend, schwankend, die Eingeweide wahllos hineingestopft. Es ist eine Schande. Wer lässt denn eine solche Arbeit vor aller Augen so herumschlackern?“
+—Lestin, Nekromant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Guardalo. Traballante, strascicato, le interiora messe a casaccio. È una vergogna. Chi lascerebbe in vista un lavoro tanto approssimativo?”
+—Lestin, necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「あれを見ろ。足を引き摺り、ふらふらとして、はらわたまで出鱈目に詰め込まれている。情けない話だ。あんな駄作を人前に出せるなんて、どんな神経の持ち主なんだ？」
+――屍術師レスティン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["저것 봐. 아무 데나 내장을 흘리며 비틀대는 꼴이라니, 한심하지 않나? 누가 만들었는지는 모르지만 망신이군."
+—사령술사 레스틴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вы только посмотрите на него. Шаркает, спотыкается, кишки запиханы куда попало. Стыд и позор! Как можно выпускать в мир такую мерзость? Засмеют же!»
+— Лестин, некромант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Olhe aquilo. Mancando, balançando de um lado para o outro, entranhas colocadas de qualquer jeito. É uma vergonha. Quem deixaria aquele tipo de trabalho passear por aí para todo mundo ver?”
+— Lestin, necromante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「瞧瞧这。拖步、摇晃、内脏乱摆。真难堪。有谁好意思拿这种作品出来丢人现眼？」
+～死灵术士列斯汀]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「瞧瞧這。拖步、搖晃、內臟亂擺。真難堪。有誰好意思拿這種作品出來丟人現眼？」
+～死靈術士列斯汀]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Minotaur" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="6" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

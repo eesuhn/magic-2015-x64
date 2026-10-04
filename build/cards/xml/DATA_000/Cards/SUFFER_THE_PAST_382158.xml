@@ -1,0 +1,118 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="583">
+  <FILENAME text="SUFFER_THE_PAST_382158" />
+  <CARDNAME text="SUFFER_THE_PAST" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Suffer the Past]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Subir le passé]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sufrir el pasado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Vergangene erleiden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Subire il Passato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[過（か）去（こ）の受（じゅ）難（なん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[과거의 고통]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Страдать Прошлым]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sofrer o Passado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[往事纠缠]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[往事糾纏]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382158" />
+  <ARTID value="127388" />
+  <ARTIST name="Trevor Claxton" />
+  <CASTING_COST cost="{X}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ulamog’s tentacles, their touch like burning ice, rummaged through his soul and stung his memories one by one.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le feu glacial des tentacules d'Ulamog fouaillait son âme et poignardait ses souvenirs un par un.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los tentáculos de Ulamog, con su tacto de hielo ardiente, vagaron por su alma y quemaron sus recuerdos uno a uno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ulamogs Tentakel, deren Berührung wie brennendes Eis war, durchsuchten seine Seele und zapften seine Erinnerungen eine nach der anderen an.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I tentacoli di Ulamog, dal tocco come ghiaccio bollente, frugarono nella sua anima e pungolarono i suoi ricordi uno per uno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ウラモグの触手は、触れれば燃える氷のようで、魂の中を漁り回り、記憶を一つ一つ突き刺していく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[불타는 얼음같은 울라목의 촉수는 그의 영혼을 뒤지며 기억 하나하나를 찔렀다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Щупальца Уламога, обжигающие словно лед, копошились в его душе и жалили воспоминания, одно за другим.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os tentáculos de Ulamog, com seu toque ardente como o gelo, vasculharam sua alma e fisgaram suas memórias uma a uma.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[钨拉莫的触手触感有如燃烧的冰，在其灵魂间翻捡，逐一刺激其记忆。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鎢拉莫的觸手觸感有如燃燒的冰，在其靈魂間翻撿，逐一刺激其記憶。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Exile X target cards from target player’s graveyard. For each card exiled this way, that player loses 1 life and you gain 1 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Exilez X cartes ciblées du cimetière du joueur ciblé. Pour chaque carte exilée de cette manière, ce joueur perd 1 point de vie et vous gagnez 1 point de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Exilia X cartas objetivo del cementerio del jugador objetivo. Por cada carta exiliada de esta manera, ese jugador pierde 1 vida y tú ganas 1 vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schicke X Karten deiner Wahl aus dem Friedhof eines Spielers deiner Wahl ins Exil. Für jede auf diese Weise ins Exil geschickte Karte verliert dieser Spieler 1 Lebenspunkt, und du erhältst 1 Lebenspunkt dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Esilia X carte bersaglio dal cimitero di un giocatore bersaglio. Per ogni carta esiliata in questo modo, quel giocatore perde 1 punto vita e tu guadagni 1 punto vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[プレイヤー１人を対象とし、そのプレイヤーの 墓地にあるカードＸ枚を対象とする。その後者を追放する。これにより追放されたカード１枚につき、その前者は１点のライフを失い、あなたは１点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[플레이어 한 명과 그 플레이어의 무덤에 있는 카드 X장을 목표로 정한다. 그 플레이어는 그 카드들을 추방한다. 이렇게 추방한 카드 한 장마다 그 플레이어는 생명 1점을 잃고 당신은 생명 1점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Изгоните X целевых карт из кладбища целевого игрока. За каждую карту, изгнанную таким образом, тот игрок теряет 1 жизнь, а вы получаете 1 жизнь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Exile X cards alvo do cemitério do jogador alvo. Para cada card exilado dessa maneira, aquele jogador perde 1 ponto de vida e você ganha 1 ponto de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将X张目标牌从目标牌手的坟墓场放逐。每以此法放逐一张牌，该牌手便失去1点生命且你获得1点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將X張目標牌從目標玩家的墳墓場放逐。每以此法放逐一張牌，該玩家便失去1點生命且你獲得1點生命。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_LOSE_LIFE" definition="0" compartment="0" count="1" dependency="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <TARGET tag="CARD_QUERY_CHOOSE_CARD_TO_EXILE" definition="1" compartment="1" depends_on_X="1">
+    MTG():SetTargetCount( GetEffectX() )
+    </TARGET>
+    <TARGET_DEFINITION id="1">
+    local firstTargetDC = EffectDC():Get_Targets(0)
+    if firstTargetDC ~= nil then
+    	local player = firstTargetDC:Get_PlayerPtr(0)
+    	local filter = ClearFilter()
+    	filter:SetZone(ZONE_GRAVEYARD, player)
+    end
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local creaturesToExileDC = EffectDC():Get_Targets(1)
+    if creaturesToExileDC ~= nil then
+    	local targetPlayer = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    	local numThingsToExile = creaturesToExileDC:Count()
+    	local exiledCount = 0
+    	for i = 0, (numThingsToExile-1) do 
+    		local cardToExile = creaturesToExileDC:Get_CardPtr(i)
+    		if cardToExile ~= nil then
+    			cardToExile:Exile()
+    			exiledCount = exiledCount+1
+    		end
+    	end
+    	targetPlayer:LoseLife(exiledCount)
+    	EffectController():GainLife(exiledCount)
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY type="in_response" response_target="1" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="400" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para exiliar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要放逐的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_LOSE_LIFE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to lose life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui faire perdre des points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que pierda vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der Lebenspunkte verlieren soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che perde punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ライフを失うプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명점을 잃을 플레이어를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен потерять жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para perder pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位要失去生命的牌手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位要失去生命值的玩家。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_BURN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

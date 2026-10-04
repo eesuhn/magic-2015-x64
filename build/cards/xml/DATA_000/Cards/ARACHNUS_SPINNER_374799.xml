@@ -1,0 +1,196 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="151">
+  <FILENAME text="ARACHNUS_SPINNER_374799" />
+  <CARDNAME text="ARACHNUS_SPINNER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Arachnus Spinner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fileuse arachnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aracnus hiladora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Arachnus-Spinner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Filatrice Arachnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アラクナスの紡（つむ）ぎ手（て）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[방직 거미]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Арахнус-Прядильщик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fiandeira Aracnus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[缠网蜘蛛]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[纏網蜘蛛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374799" />
+  <ARTID value="134139" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{5}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spider" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="5" />
+  <TOUGHNESS value="7" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Reach]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Portée]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Reichweite]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Raggiungere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[到達]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[대공]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Захват]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Alcance]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[延势]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[延勢]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_REACH" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Tap an untapped Spider you control: Search your graveyard and/or library for a card named Arachnus Web and put it onto the battlefield attached to target creature. If you search your library this way, shuffle it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Engagez une araignée dégagée que vous contrôlez : Cherchez dans votre cimetière et/ou votre bibliothèque une carte appelée Toile d’arachnus et mettez-la sur le champ de bataille attachée à une créature ciblée. Si vous avez cherché dans votre bibliothèque, mélangez-la.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Girar una Araña enderezada que controlas: Busca en tu cementerio y/o biblioteca una carta llamada Red de aracnus y ponla en el campo de batalla anexada a la criatura objetivo. Si buscas en tu biblioteca de esta manera, barájala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tappe eine ungetappte Spinne, die du kontrollierst: Durchsuche deinen Friedhof und/oder deine Bibliothek nach einer Karte namens Arachnusnetz und bringe sie an eine Kreatur deiner Wahl angelegt ins Spiel. Falls du auf diese Weise deine Bibliothek durchsuchst, mische sie danach.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[TAPpa un Ragno STAPpato che controlli: Passa in rassegna il tuo cimitero e/o grimorio per una carta chiamata Ragnatela Arachnus e mettila sul campo di battaglia assegnata a una creatura bersaglio. Se passi in rassegna il tuo grimorio in questo modo, rimescolalo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするアンタップ状態の蜘蛛を１体タップする：クリーチャー１体を対象とする。あなたの墓地やライブラリーから「アラクナスの蜘蛛の巣」という名前のカードを１枚探し、それを戦場に出してそのクリーチャーにつける。あなたがこれによりあなたのライブラリーからカードを探したなら、それを切り直す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 언탭된 거미를 탭한다: 생물 한 개를 목표로 정한다. 당신의 무덤 또는 서고에서 이름이 방직 거미줄인 카드 한 장을 찾아 그 생물에게 부착된 상태로 전장에 놓는다. 이런 식으로 서고를 찾을 경우, 서고를 섞는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поверните неповернутого Паука под вашим контролем: найдите на вашем кладбище и (или) в библиотеке карту с именем Паутина Арахнуса и положите ее на поле битвы, прикрепленной к целевому существу. Если вы ищете таким образом в вашей библиотеке, перетасуйте ее.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vire uma Aranha desvirada que você controla: Procure um card com o nome Teia de Aracnus no seu cemitério e/ou grimório e coloque-o no campo de batalha anexado à criatura alvo. Se procurar em seu grimório desta maneira, embaralhe-o.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[横置一个由你操控且未横置的蜘蛛：从你的坟墓场和／或牌库中搜寻一张名称为蛛缠网的牌，将之放进战场并结附在目标生物上。如果你以此法搜寻你的牌库，则将它洗牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[橫置一個由你操控且未橫置的蜘蛛：從你的墳墓場和／或牌庫中搜尋一張名稱為蛛纏網的牌，將之放進戰場並結附在目標生物上。如果你以此法搜尋你的牌庫，則將它洗牌。]]></LOCALISED_TEXT>
+    <COST type="Tap" definition="0" compartment="0" query_tag="CARD_QUERY_CHOOSE_CREATURE_TAP" item_count="1" is_complex="1" />
+    <COST_DEFINITION>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_SPIDER )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    filter:Add( FE_IS_TAPPED, false )
+    </COST_DEFINITION>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT" definition="0" compartment="4" count="1" is_complex="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local webDC = EffectDC():Make_Targets(1)
+    local filter = ClearFilter()
+    local effectController = EffectController()
+    -- simply searching the effect controller graveyard for a Web and popping it in a chest if the player wants that Web
+    filter:SetZone(ZONE_GRAVEYARD, effectController)
+    filter:Add(FE_CARD_NAME, OP_IS, "ARACHNUS_WEB")
+    effectController:ChooseItem( "CARD_QUERY_CHOOSE_ARACHNUS_WEB", webDC , QUERY_FLAG_UP_TO )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local graveyardDC = EffectDC():Get_Targets(1)
+    local libraryDC = EffectDC():Make_Targets(2)
+    if graveyardDC ~= nil then
+    	-- if we have a DC it is time to see what is in it
+    	local selectedWeb = graveyardDC:Get_CardPtr(0)
+    	if selectedWeb == nil then
+    		-- if we have not selected anything it is time to search the library
+    		local filter = ClearFilter()
+    		local effectController = EffectController()
+    		
+    		filter:SetZone(ZONE_LIBRARY, effectController)
+    		filter:Add(FE_CARD_NAME, OP_IS, "ARACHNUS_WEB")
+    		effectController:ChooseItem( "CARD_QUERY_CHOOSE_ARACHNUS_WEB", libraryDC )
+    			
+    		EffectDC():Set_Int(3, 1) -- set this flag so that we know that we need to shuffle the library
+    	end
+    else
+    	-- we do not have a DC yet so we still get to choose something
+    	local filter = ClearFilter()
+    	local effectController = EffectController()
+    		
+    	filter:SetZone(ZONE_LIBRARY, effectController)
+    	filter:Add(FE_CARD_NAME, OP_IS, "ARACHNUS_WEB")
+    	effectController:ChooseItem( "CARD_QUERY_CHOOSE_ARACHNUS_WEB", libraryDC, QUERY_FLAG_UP_TO )
+    			
+    	EffectDC():Set_Int(3, 1) -- set this flag so that we know that we need to shuffle the library
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(4)
+    if targetDC ~= nil then
+    	local target = targetDC:Get_CardPtr(0)
+    	
+    	if target ~= nil then
+    		local graveyardDC = EffectDC():Get_Targets(1)
+    		local libraryDC = EffectDC():Get_Targets(2)
+    		if graveyardDC ~= nil then
+    			local graveyardTarget = graveyardDC:Get_CardPtr(0)
+    			if  graveyardTarget ~= nil then
+    				graveyardTarget:PutOntoBattlefieldAttachedTo( EffectController(), target )
+    			end
+    		end  
+    		if libraryDC ~= nil then
+    			local libraryTarget = libraryDC:Get_CardPtr(0)
+    			if  libraryTarget ~= nil then
+    				libraryTarget:PutOntoBattlefieldAttachedTo( EffectController(), target )
+    			end
+    		end  
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectDC():Get_Int(3) == 1 then
+    	EffectController():ShuffleLibrary()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN is_removal="1" play_tag="HINT_ABILITY_REMOVAL_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY type="restriction" restriction_type="per_turn_limit" restriction_per_turn_limit="2" />
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TAP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to tap.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'engager.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para girarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die getappt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da TAPpare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭할 생물을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для поворота.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para virar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要横置的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來橫置。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARACHNUS_WEB">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an Arachnus Web to put onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une Toile d'arachnus pour la mettre sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una Red de aracnus para ponerla en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Arachnusnetz, das ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una Ragnatela Arachnus da mettere sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場に出す《アラクナスの蜘蛛の巣》を１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장에 놓을 아라크누스 거미줄을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите Паутину Арахнуса, чтобы положить ее на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma Teia de Aracnus para colocar no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放进战场的蛛缠网。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要放進戰場的蛛纏網。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_ARACHNUS_WEB">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose an Arachnus Web to put onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une Toile d'arachnus pour la mettre sur le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una Red de aracnus para ponerla en el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Arachnusnetz, das ins Spiel gebracht werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una Ragnatela Arachnus da mettere sul campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[戦場に出す《アラクナスの蜘蛛の巣》を１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전장에 놓을 아라크누스 거미줄을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите Паутину Арахнуса, чтобы положить ее на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma Teia de Aracnus para colocar no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要放进战场的蛛缠网。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個要放進戰場的蛛纏網。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_ENCHANT">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to enchant.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour l'enchanter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para encantarla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die verzaubert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura da incantare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントするクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 부여할 생물 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо для зачаровывания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para encantar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要结附的生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物來結附。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

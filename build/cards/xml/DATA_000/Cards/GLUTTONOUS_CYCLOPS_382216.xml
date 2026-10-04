@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="GLUTTONOUS_CYCLOPS_382216" />
+  <CARDNAME text="GLUTTONOUS_CYCLOPS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Gluttonous Cyclops]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cyclope glouton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cíclope glotón]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Gefräßiger Zyklop]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ciclope Ingordo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[暴（ぼう）食（しょく）するサイクロプス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[걸신들린 키클롭스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прожорливый Циклоп]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ciclope Glutão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[暴食独眼巨人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[暴食獨眼巨人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382216" />
+  <ARTID value="152852" />
+  <ARTIST name="Steve Prescott" />
+  <CASTING_COST cost="{5}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The cyclops had learned to never eat a shepherd. Instead he gently flung the “pit” aside to grow a new flock.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le cyclope savait qu'il ne fallait jamais manger les bergers. Alors il reposa le « noyau » du troupeau pour en faire pousser un nouveau.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El cíclope había aprendido que nunca debía comerse a un pastor. En vez de eso, arrojaba a un lado la “semilla” para que hiciera crecer un nuevo rebaño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Zyklop hatte gelernt, nie einen Hirten zu verschlingen. Wer sollte sonst die nächste Herde heranzüchten?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il ciclope aveva imparato a non divorare mai un pastore. Metteva invece delicatamente da parte il “nocciolo” per far crescere un nuovo gregge.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[サイクロプスは、羊飼いを食べないことを覚えた。そして「種」が新たな群れを育てるよう、それを優しく放り捨てた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키클롭스는 양치기를 먹으면 안 된다는 것을 깨달았다. 대신에 "씨"를 남겨 두어 새로운 양 떼를 키우게 하기로 했다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Циклоп знал, что пастуха есть не стоит. Он словно косточку отбросил его в сторону, чтобы бедняга смог вырастить новое стадо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O ciclope aprendeu a nunca comer um pastor. Em vez disso, ele separa com cuidado a "semente" para que gere um novo rebanho.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[独眼巨人学会了不再吃牧羊人。他将这个「小不点」温柔地扔到一旁，让他重新养一群羊。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[獨眼巨人學會了不再吃牧羊人。他將這個「小不點」溫柔地扔到一旁，讓他重新養一群羊。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cyclops" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{5}{R}{R}: Monstrosity 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{5}{R}{R} : Monstruosité 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{5}{R}{R}: Monstruosidad 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{5}{R}{R}: Monstrum 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{5}{R}{R}: Mostruosità 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{5}{R}{R}：怪物化３を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{5}{R}{R}: 괴수화 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{5}{R}{R}: Чудовищность 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{5}{R}{R}: Monstruosidade 3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{5}{R}{R}：蛮化3。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{5}{R}{R}：蠻化3。]]></LOCALISED_TEXT>
+    <SFX text="MONSTROUS_LUA_PLAY" />
+    <COST mana_cost="{5}{R}{R}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if effectSource ~= nil then
+    	if effectSource:IsMonstrous() == false then
+    		effectSource:AddCounters( MTG():PlusOnePlusOneCounters(), 3)
+    		effectSource:BecomeMonstrous(3)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AVAILABILITY>
+    return Object():IsMonstrous() == false 
+    </AVAILABILITY>
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_MONSTROSITY" body="MORE_INFO_BODY_MONSTROSITY" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

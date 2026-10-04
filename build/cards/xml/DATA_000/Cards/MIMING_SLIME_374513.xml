@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="MIMING_SLIME_374513" />
+  <CARDNAME text="MIMING_SLIME" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Miming Slime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Boue mimique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fango mímico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachahmender Schleim]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Melma Imitativa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[真（ま）似（ね）るスライム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[흉내내는 점액괴물]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Имитирующая Слизь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gosma Mimética]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[拟态黏泞]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[擬態黏濘]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374513" />
+  <ARTID value="146339" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We paid the Simic very well for this capability, but we should quickly recoup our expenses in saved wages.”
+—Milana, Orzhov prelate]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous avons payé les Simic au prix fort pour cette capacité, mais l'économie de main-d'œuvre induite devrait nous faire rapidement rentrer dans nos frais. »
+—Milana, prélate d'Orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Hemos pagado bien a los simic por esta capacidad, pero deberíamos cubrir gastos rápidamente gracias a los sueldos que nos ahorraremos”.
+—Milana, prelada orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Für diese Fähigkeit haben wir die Simic sehr gut bezahlt, aber wir sollten unsere Kosten schnell durch eingesparte Löhne wieder hereinbringen.“
+—Milana, Orzhov-Prälatin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Abbiamo dovuto pagare i Simic profumatamente per questa abilità, ma dovremmo recuperare le spese in fretta grazie al risparmio sugli stipendi.”
+—Milana, prelato Orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「シミック連合にはこの能力の対価としてかなりの額を支払ったけれど、人件費の削減分ですぐに元が取れるでしょう。」
+――オルゾフの僧院長、ミラーナ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["이 능력을 얻으려고 시믹에게 엄청난 돈을 지불했지만, 대신 임금 부담을 덜었으니 본전은 금방 뽑을 것입니다."
+—오르조브 고위 성직자 밀라나]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы немало заплатили Симикам за эту разработку, но рассчитываем быстро окупить затраты за счет экономии на жаловании».
+— Милана, прелат Орзовов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Pagamos muito bem aos Simic por esta capacidade, mas devemos recuperar rapidamente nossas despesas economizando com os salários.”
+— Milana, prelada Orzhov]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们为了这个能力支付了析米克丰厚报酬，但我们应能从省下的工资中迅速收回这项开支。」
+～欧佐夫神职者米拉娜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們為了這個能力支付了析米克豐厚報酬，但我們應能從省下的工資中迅速收回這項開支。」
+～歐佐夫神職者米拉娜]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put an X/X green Ooze creature token onto the battlefield, where X is the greatest power among creatures you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille un jeton de créature X/X verte Limon, X étant la force la plus élevée parmi les créatures que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla una ficha de criatura Cieno verde X/X, donde X es la mayor fuerza entre las criaturas que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe einen X/X grünen Schlammwesen-Kreaturenspielstein ins Spiel, wobei X die höchste Stärke unter den Kreaturen ist, die du kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia una pedina creatura Melma X/X verde, dove X è la forza maggiore tra le creature che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[緑のＸ/Ｘのウーズ・クリーチャー・トークンを１体戦場に出す。Ｘはあなたがコントロールするクリーチャーの中のパワーの最大値に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[X/X 녹색 점액괴물 생물 토큰 한 개를 전장에 놓는다. X는 당신이 조종하는 생물 중 공격력이 제일 높은 생물의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы одну фишку существа X/X зеленая Тина, где X — наибольшее значение силы среди существ под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha uma ficha de criatura verde X/X do tipo Lodo, sendo X o maior poder dentre as criaturas que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将一个X/X绿色流浆衍生生物放进战场，X为由你操控的生物中力量最大者的数值。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將一個X/X綠色流漿衍生生物放進戰場，X為由你操控的生物中力量最大者的數值。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    local numCreatures = filter:EvaluateObjects()
+    local highestPower = 0
+    for i = 0, (numCreatures-1) do 
+    	local currentCard = filter:GetNthEvaluatedObject(i)
+    	if currentCard ~= nil then
+    		local currentCardPower = currentCard:GetCurrentPower()
+    		if currentCardPower &gt; highestPower then
+    			highestPower = currentCardPower
+    		end
+    	end
+    end
+    MTG():PutPTTokensOntoBattlefield( "TOKEN_OOZE_S_S_G_377546", 1, EffectController(), highestPower, highestPower ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_OOZE_S_S_G_377546" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

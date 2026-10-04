@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="679">
+  <FILENAME text="ANGER_OF_THE_GODS_378212" />
+  <CARDNAME text="ANGER_OF_THE_GODS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Anger of the Gods]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Fureur des dieux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cólera de los dioses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Groll der Götter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Collera degli Dei]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神（かみ）々（がみ）の憤（ふん）怒（ぬ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신들의 진노]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гнев Богов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fúria dos Deuses]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[众神之怒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[眾神之怒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378212" />
+  <ARTID value="150855" />
+  <ARTIST name="Noah Bradley" />
+  <CASTING_COST cost="{1}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There was no reason to pray. This was already an act of the gods.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il n'y avait aucune raison de prier. C'était déjà un acte des dieux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No había motivo para rezar. Aquello ya era obra de los dioses.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Es gab keinen Grund zu beten. Dies war bereits ein Werk der Götter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Pregare sarebbe stato del tutto inutile. Si trattava già di un atto degli dei.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[祈る必要はどこにもなかった。神々の裁定はすでに下っていた。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[재앙을 일으킨 것이 신이거늘, 기도해 봐야 무슨 소용이 있겠는가?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Молиться не имело смысла, ведь это свершилось по воле богов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não havia motivo para rezar. Aquilo já era obra dos deuses.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[祈祷已了无意义。因为这就是天意。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[祈禱已了無意義。因為這就是天意。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Anger of the Gods deals 3 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Fureur des dieux inflige 3 blessures à chaque créature. Si une créature ayant subi des blessures de cette manière devait mourir ce tour-ci, exilez-la à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Cólera de los dioses hace 3 puntos de daño a cada criatura. Si una criatura que recibió daño de esta manera fuera a morir este turno, en vez de eso, exíliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Groll der Götter fügt jeder Kreatur 3 Schadenspunkte zu. Falls eine Kreatur, der auf diese Weise Schaden zugefügt wurde, in diesem Zug sterben würde, schicke sie stattdessen ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Collera degli Dei infligge 3 danni a ogni creatura. Se una creatura a cui è stato inflitto danno in questo modo sta per morire in questo turno, invece esiliala.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[神々の憤怒は各クリーチャーにそれぞれ３点のダメージを与える。このターン、これによりダメージを与えられたクリーチャーが死亡するなら、代わりにそれを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신들의 진노는 각 생물에게 피해 3점을 입힌다. 이렇게 피해를 입은 생물이 이 턴에 죽으려고 하면, 대신에 그 생물을 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гнев Богов наносит 3 повреждения каждому существу. Если существо, которому таким образом были нанесены повреждения, должно умереть в этом ходу, изгоните его вместо этого.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fúria dos Deuses causa 3 pontos de dano a cada criatura. Se uma criatura que sofreu dano dessa maneira morreria neste turno, em vez disso, exile-a.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[众神之怒对每个生物各造成3点伤害。如果本回合中曾以此法受到伤害的生物将死去，则改为将它放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[眾神之怒對每個生物各造成3點傷害。如果本回合中曾以此法受到傷害的生物將死去，則改為將它放逐。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_MAGMA_PLAY" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </FILTER>
+    <RESOLUTION_TIME_ACTION filter_id="0">
+    if (FilteredPlayer() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 3, FilteredPlayer() )
+    elseif (FilteredCard() ~= nil) then   
+    	EffectSourceLKI():DealDamageTo( 3, FilteredCard() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_STACK">
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_OBJECT" simple_qualifier="self" />
+    <CONTINUOUS_ACTION layer="8">
+    if SecondaryObject() ~= nil then
+    	SecondaryObject():GetCurrentCharacteristics():Bool_Set( CHARACTERISTIC_EXILE_IF_DIES, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <AI_BASE_SCORE score="1500" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_REMOVAL_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

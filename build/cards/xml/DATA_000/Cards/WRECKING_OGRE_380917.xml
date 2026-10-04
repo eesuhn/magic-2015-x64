@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="576">
+  <FILENAME text="WRECKING_OGRE_380917" />
+  <CARDNAME text="WRECKING_OGRE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Wrecking Ogre]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ogre ravageur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ogro de demolición]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abrissoger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogre da Demolizione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[破（は）壊（かい）のオーガ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[철거 오우거]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Огр-Крушитель]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ogro Demolidor]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[毁坏食人魔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[毀壞食人魔]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380917" />
+  <ARTID value="146555" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{4}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If no opponent can be found, ogres of the Bolrac Clan will often pick fights with buildings.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[En l'absence d'adversaire, il n'est pas rare de voir les ogres du clan Bolrac se défouler sur les bâtiments.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[A menudo, cuando no encuentran oponentes, los ogros del clan Bolrac se lían a golpes con los edificios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn kein Gegner zu finden ist, fangen die Oger des Bolrac-Clans gern mal Streit mit einem Gebäude an.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se non trovano avversari, gli ogre del Clan Bolrac se la prendono con gli edifici.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[敵が見つからない場合、ボーラク族のオーガはよく建物にケンカをふっかける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[볼락 부족 오우거들은 적이 없으면 건물이라도 때린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если больше подраться не с кем, огры из клана Болраков нередко затевают драки со зданиями.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se não conseguem encontrar oponentes, os ogros do Clã Bolrac de vez em quando puxam briga com qualquer construção.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[若找不到对手，波朗族的食人魔往往会挑战建筑物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[若找不到對手，波朗族的食人魔往往會挑戰建築物。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Ogre" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Double strike]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Double initiative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Daña dos veces.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Doppelschlag]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Doppio attacco]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[二段攻撃]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이단공격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Двойной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golpe duplo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[连击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[連擊]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_DOUBLE_STRIKE" />
+  </STATIC_ABILITY>
+  <ACTIVATED_ABILITY active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Bloodrush| — {3}{R}{R}, Discard Wrecking Ogre: Target attacking creature gets +3/+3 and gains double strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Coup de sang| — {3}{R}{R}, défaussez-vous de l’Ogre ravageur : La créature attaquante ciblée gagne +3/+3 et acquiert la double initiative jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Empujón| — {3}{R}{R}, descartar el Ogro de demolición: La criatura atacante objetivo obtiene +3/+3 y gana la habilidad de dañar dos veces hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Blutrausch| — {3}{R}{R}, wirf den Abrissoger ab: Eine angreifende Kreatur deiner Wahl erhält +3/+3 und Doppelschlag bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Impeto sanguinario| — {3}{R}{R}, Scarta l’Ogre da Demolizione: Una creatura attaccante bersaglio prende +3/+3 e ha doppio attacco fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|湧血| ― {3}{R}{R}, 破壊のオーガを捨てる：攻撃クリーチャー１体を対象とする。それはターン終了時まで＋３/＋３の修整を受けるとともに二段攻撃を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[혈기 — {3}{R}{R}, 철거 오우거를 버린다: 공격생물 한 개를 목표로 정한다. 그 생물은 턴종료까지 +3/+3을 받고 이단공격을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Прилив крови| — {3}{R}{R}, сбросьте Огра-Крушителя: целевое атакующее существо получает +3/+3 и Двойной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Impulso sanguinário| — {3}{R}{R}, Descarte Ogro Demolidor: A criatura atacante alvo recebe +3/+3 e ganha golpe duplo até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[血激～{3}{R}{R}，弃掉毁坏食人魔：直到回合结束，目标进行攻击的生物得+3/+3且获得连击异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[血激～{3}{R}{R}，棄掉毀壞食人魔：直到回合結束，目標進行攻擊的生物得+3/+3且獲得連擊異能。]]></LOCALISED_TEXT>
+    <COST mana_cost="{3}{R}{R}" type="Mana" />
+    <COST type="DiscardSelf" />
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_3_3_DOUBLESTRIKE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:Add( FE_IS_ATTACKING, true )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="7C">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Power_Add( 3 )
+    	characteristics:Toughness_Add( 3 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="6">
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	local characteristics = target:GetCurrentCharacteristics()
+    	characteristics:Bool_Set(CHARACTERISTIC_DOUBLE_STRIKE, 1)
+    end
+    </CONTINUOUS_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <DURATION simple_duration="UntilEOT" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_2" body="MORE_INFO_BADGE_BODY_2" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_BLOODRUSH" body="MORE_INFO_BODY_BLOODRUSH" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_3_3_DOUBLESTRIKE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +3/+3 and gain double strike until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +3/+3 et acquérir la double initiative jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +3/+3 y gane la habilidad de dañar dos veces hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die bis zum Ende des Zuges +3/+3 und Doppelschlag erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +3/+3 e ha doppio attacco fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ターン終了時まで＋３/＋３の修整を受け二段攻撃を得るクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[턴종료까지 +3/+3을 받고 이단공격 능력을 얻을 생물 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +3/+3 и Двойной удар до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +3/+3 e ganhar golpe duplo até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物得+3/+3且获得连击异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+3/+3且獲得連擊異能直到回合結束。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

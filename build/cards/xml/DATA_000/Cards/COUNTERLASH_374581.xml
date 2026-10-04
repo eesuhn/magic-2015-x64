@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="967">
+  <FILENAME text="COUNTERLASH_374581" />
+  <CARDNAME text="COUNTERLASH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counterlash]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrefouet]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contralátigo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zuckender Konter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Controsferzata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対（たい）抗（こう）激（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무효화의 채찍]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Встречный Выпад]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Chicotada Anuladora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反打]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反打]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374581" />
+  <ARTID value="139866" />
+  <ARTIST name="Austin Hsu" />
+  <CASTING_COST cost="{4}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Pathetic. Let me show you how it’s done.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Pathétique. Laissez-moi vous faire une démonstration. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Patético. Déjame mostrarte cómo se hace”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Erbärmlich. Ich zeig dir, wie das geht.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Patetico. Ti faccio vedere io come si fa.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「愚かな。正しいやり方を見せてやる。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“한심하군. 제대로 하는 방법을 보여주지.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Какое убожество! Смотрите и учитесь, как надо делать».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Patético. Deixe-me lhe mostrar como se faz.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「真没用。瞧瞧我是怎么作的。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「真沒用。瞧瞧我是怎麼作的。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Counter target spell. You may cast a nonland card in your hand that shares a card type with that spell without paying its mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Contrecarrez le sort ciblé. Vous pouvez lancer une carte non-terrain de votre main qui partage un type de carte avec ce sort sans payer son coût de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Contrarresta el hechizo objetivo. Puedes lanzar sin pagar su coste de maná una carta de tu mano que no sea de tierra y que comparta un tipo de carta con ese hechizo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Neutralisiere einen Zauberspruch deiner Wahl. Du kannst eine Karte aus deiner Hand, die kein Land ist und die einen Kartentyp mit dem Zauberspruch gemeinsam hat, wirken, ohne ihre Manakosten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Neutralizza una magia bersaglio. Puoi lanciare dalla tua mano una carta non terra che condivide un tipo di carta con quella magia senza pagare il suo costo di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪文１つを対象とし、それを打ち消す。あなたはあなたの手札にある、その呪文と共通のカード・タイプを持つ土地でないカード１枚を、それのマナ・コストを支払うことなく唱えてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주문 한 개를 목표로 정한다. 그 주문을 무효화한다. 당신은 당신의 손에서 무효화된 주문과 카드 유형을 공유하는, 대지가 아닌 카드 한 장을 마나비용의 지불 없이 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отмените целевое заклинание. Вы можете разыграть не являющуюся землей карту в вашей руке, у которой есть такой же тип карты, как у того заклинания, без уплаты ее мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anule a mágica alvo. Você pode conjurar da sua mão um card que não seja um terreno e que compartilhe um tipo de card com aquela mágica sem pagar seu custo de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反击目标咒语。你可以从你手上施放一张与该咒语有共通牌类别的非地牌，且不需支付其法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反擊目標咒語。你可以從你手上施放一張與該咒語有共通牌類別的非地牌，且不需支付其魔法力費用。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetZone( ZONE_STACK ) 
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if target ~= nil then
+    	EffectDC():Get_Targets(0):Protect_CardPtr(0)
+    	target:CounterSpell(EffectSource())
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_INTERSECTS, EffectDC():Get_Targets(0):Get_CardPtr(0))
+    filter:Add(FE_TYPE, OP_NOT, CARD_TYPE_LAND)
+    filter:SetZone(ZONE_HAND, EffectController())
+    MTG():ClearFilterMark()
+    local numObjects = filter:EvaluateObjects()
+    for i = 0, (numObjects-1) do
+    	local card = filter:GetNthEvaluatedObject(i)
+    	if EffectController():CanCastSpellForFree(card) then
+    		card:MarkForFilter()
+    	end
+    end
+    filter:SetMarkedObjectsOnly()
+    EffectController():ChooseItem( "CARD_QUERY_CHOOSE_A_CARD_TO_CAST_FOR_FREE", EffectDC():Make_Targets(1), QUERY_FLAG_MAY)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local cardToCast = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if cardToCast ~= nil then	
+    	EffectController():CastSpellForFree( cardToCast )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="1" />
+  <AI_BASE_SCORE score="1350" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_SPELL_TO_COUNTER">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a spell to counter.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un sort à contrecarrer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un hechizo para contrarrestar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Zauberspruch, der neutralisiert werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una magia da neutralizzare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[打ち消す呪文を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[무효화할 주문 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите заклинание для отмены.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma mágica para anular.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要反击的咒语。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個咒語來反擊。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_CARD_TO_CAST_FOR_FREE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to cast without paying its mana cost. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour la lancer sans payer son coût de mana. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para lanzarla sin pagar su coste de maná. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die gewirkt werden soll, ohne ihre Manakosten zu bezahlen. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da lanciare senza pagare il suo costo di mana. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マナ・コストを支払わずに唱えるカードを１枚選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마나 비용을 지불하지 않고 발동할 카드 한 장을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту, чтобы разыграть ее без уплаты ее мана-стоимости. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para conjurar sem pagar seu custo de mana. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张牌来施放，且不需支付其法术力费用。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來施放，且不需支付其魔法力費用。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_COUNTER_WHY_PLAY" removal_tag="HINT_SPELL_COUNTER_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

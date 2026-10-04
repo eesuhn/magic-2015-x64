@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="ANGELS_MERCY_374211" />
+  <CARDNAME text="ANGELS_MERCY" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Angel’s Mercy]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Miséricorde des anges]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Piedad del ángel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Erbarmen des Engels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Clemenza dell’Angelo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天（てん）使（し）の慈（じ）悲（ひ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[천사의 자비]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Милосердие Ангела]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Misericórdia de Anjo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[天使的慈悲]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[天使的慈悲]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374211" />
+  <ARTID value="121628" />
+  <ARTIST name="Andrew Robinson" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“She rose above me, and in that moment Varrik the Bloody died and I was born.”
+—Varrik the Just]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Elle a pris son essor. Varrik le Sanguinaire m'a alors donné le jour en cessant de vivre. »
+—Varrik le Juste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Ella se alzó ante mí, y en aquel momento Varrik el Sangriento murió y yo nací”.
+—Varrik el Justo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Sie schwebte über mich, und in diesem Moment starb Varrik der Blutige und ich wurde geboren.“
+—Varrik der Gerechte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Si elevò sopra di me e in quel momento Varrik il Sanguinario morì e nacqui io.”
+—Varrik il Giusto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「彼女が俺に微笑みかけた瞬間、血まみれヴァリクは死に、俺が生まれたのさ。」――義しき者ヴァリク]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“그녀가 내 위로 날아올랐을 때, 피투성이 바릭은 죽고 내가 태어났다.”
+—정의로운 바릭]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Она поднялась надо мной, и в этот миг Варрик Кровавый умер, и родился я».
+— Варрик Праведный]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["Ela se ergueu sobre mim, e naquele momento, Varrik, o Sanguinário, morreu e eu nasci." — Varrik, o Justo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「就在她降临的刹那，嗜血瓦黎死去，而我就此诞生。」
+～正义瓦黎]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「就在她降臨的刹那，嗜血瓦黎死去，而我就此誕生。」
+～正義瓦黎]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Instant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You gain 7 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous gagnez 7 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ganas 7 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du erhältst 7 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guadagni 7 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは７点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 생명 7점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы получаете 7 жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você ganha 7 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你获得7点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你獲得7點生命。]]></LOCALISED_TEXT>
+    <SFX text="CASTER_BUFF_PLAY" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(7 )
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+  <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  <AI_AVAILABILITY type="in_response" response_source="1" />
+  <AI_BASE_SCORE score="450" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_LIFEGAIN_WHY_PLAY" removal_tag="HINT_SPELL_LIFEGAIN_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="426">
+  <FILENAME text="PYXIS_OF_PANDEMONIUM_374770" />
+  <CARDNAME text="PYXIS_OF_PANDEMONIUM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pyxis of Pandemonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pyxide de pandémonium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pyxis del pandemónium]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Pyxis des Pandämoniums]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vaso del Pandemonio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[伏（ふく）魔（ま）殿（でん）のピュクシス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아수라장 보석함]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пиксида Пандемония]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pyxis do Pandemônio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[魔异盒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[魔異盒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374770" />
+  <ARTID value="150764" />
+  <ARTIST name="David Palumbo" />
+  <CASTING_COST cost="{1}" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <ACTIVATED_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{T}: Each player exiles the top card of his or her library face down.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{T} : Chaque joueur exile la carte du dessus de sa bibliothèque face cachée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{T}: Cada jugador exilia la primera carta de su biblioteca boca abajo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{T}: Jeder Spieler schickt die oberste Karte seiner Bibliothek verdeckt ins Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{T}: Ogni giocatore esilia a faccia in giù la prima carta del proprio grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{T}：各プレイヤーはそれぞれ自分のライブラリーの一番上のカードを裏向きで追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{T}: 각 플레이어는 자신의 서고 맨 위의 카드 한 장을 뒷면이 보이도록 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{T}: каждый игрок изгоняет верхнюю карту своей библиотеки рубашкой вверх.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{T}: Cada jogador exila o card do topo do próprio grimório com a face voltada para baixo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{T}：每位牌手面朝下地放逐其牌库顶牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{T}：每位玩家面朝下地放逐其牌庫頂牌。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_DISTORTION_PLAY" />
+    <COST type="TapSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local numberOfPlayers = MTG():GetNumberOfPlayers()
+    local effectSource = EffectSource()
+    if LinkedDC():Get_Int(0) == 0 then
+    	LinkedDC():Set_Int(0, 1)
+    end
+    for i = 0, (numberOfPlayers-1) do
+    	local player = MTG():GetNthPlayer(i)
+    	
+    	if player ~= nil then
+    		local topCard = player:Library_GetTop()
+    		if topCard ~= nil then
+    			local pysixChest = LinkedDC():Make_Chest(LinkedDC():Get_Int(0))
+    			
+    			pysixChest:Set_CardPtr(0, topCard)
+    			pysixChest:Protect_CardPtr(0)
+    			
+    			topCard:ExileFaceDown()
+    			topCard:NailOnto(effectSource)
+    			
+    		end
+    	end
+    	LinkedDC():Set_Int(0, (LinkedDC():Get_Int(0)+1) ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_MILL_WHY_PLAY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <ACTIVATED_ABILITY linked_ability_group="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{7}, {T}, Sacrifice Pyxis of Pandemonium: Each player turns face up all cards he or she owns exiled with Pyxis of Pandemonium, then puts all permanent cards among them onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{7}, {T}, sacrifiez le Pyxide de pandémonium : Chaque joueur retourne face visible toutes les cartes exilées par le Pyxide de pandémonium qu’il possède, puis met sur le champ de bataille toutes les cartes de permanent parmi elles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{7}, {T}, sacrificar el Pyxis del pandemónium: Cada jugador pone boca arriba todas las cartas exiliadas con el Pyxis del pandemónium de las que es propietario, luego pone en el campo de batalla todas las cartas de permanente que se encuentren entre ellas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{7}, {T}, opfere die Pyxis des Pandämoniums: Jeder Spieler deckt alle mit der Pyxis des Pandämoniums ins Exil geschickten Karten auf, die er besitzt, und bringt alle bleibenden Karten darunter ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{7}, {T}, Sacrifica il Vaso del Pandemonio: Ogni giocatore gira a faccia in su tutte le carte che possiede esiliate con il Vaso del Pandemonio, poi mette sul campo di battaglia tutte le carte permanente tra di esse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{7}, {T}, 伏魔殿のピュクシスを生け贄に捧げる：各プレイヤーはそれぞれ伏魔殿のピュクシスによって追放された自分がオーナーであるカードをすべて表向きにし、その後その中のすべてのパーマネント・カードを戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{7}, {T}, 아수라장 보석함을 희생한다: 각 플레이어는 아수라장 보석함에 의해 추방당한 카드 중 자신이 소유한 모든 카드를 앞면이 보이도록 뒤집은 후 그 중에서 지속물 카드를 모두 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{7}, {T}, пожертвуйте Пиксиду Пандемония: каждый игрок переворачивает рубашкой вниз все изгнанные Пиксидой Пандемония карты, владельцем которых является, затем кладет все находящиеся среди них карты перманентов на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{7}, {T}, Sacrifique Pyxis do Pandemônio: Cada jogador volta para cima a face de todos os cards exilados com Pyxis do Pandemônio dos quais seja dono e, depois, coloca no campo de batalha todos os cards de permanente dentre eles.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{7}，{T}，牺牲魔异盒：每位牌手将由其拥有，且以魔异盒放逐的所有牌翻回正面，然后将其中的所有永久物牌放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{7}，{T}，犧牲魔異盒：每位玩家將由其擁有，且以魔異盒放逐的所有牌翻回正面，然後將其中的所有永久物牌放進戰場。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_DISTORTION_PLAY" />
+    <COST mana_cost="{7}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    local numExiled = LinkedDC():Get_Int(0)
+    for i = 1,(numExiled) do
+    	
+    	local currentChest = LinkedDC():Get_Chest(i)
+    	
+    	if currentChest ~= nil then
+    		local currentCard = currentChest:Get_CardPtr(0)
+    		if currentCard ~= nil then
+    			currentCard:TurnFaceUp()
+    		
+    			if currentCard:GetCardType():IsPermanent() then
+    				currentCard:PutOntoBattlefield( currentCard:GetPlayer())
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_WEIRD_WHY_PLAY" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{7}" base_score="900" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="20" score_per_unit="50" resource_name="Mill" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ARTIFACT_ABILITY_WHY_PLAY" removal_tag="HINT_ARTIFACT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

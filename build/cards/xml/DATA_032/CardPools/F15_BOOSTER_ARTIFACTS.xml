@@ -1,0 +1,6 @@
+﻿<card_pool id="20" plane_id="7" content_booster_uid="7" steam_id_1="300941" booster_art_location="Art_Assets\\Textures\\Boosters\\F15_2_C\\" content_id="7">
+  <card name="DARKSTEEL_COLOSSUS_388074" id="369" />
+  <card name="MASTER_OF_ETHERIUM_381895" id="370" />
+  <card name="MYRSMITH_388095" id="371" />
+  <card name="SALVAGE_SLASHER_388073" id="372" />
+</card_pool>

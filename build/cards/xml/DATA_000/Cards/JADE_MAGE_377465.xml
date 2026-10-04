@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="489">
+  <FILENAME text="JADE_MAGE_377465" />
+  <CARDNAME text="JADE_MAGE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jade Mage]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mage du jade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mago de jade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jademagier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Maga di Giada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[翡（ひ）翠（すい）の魔（ま）道（どう）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[순녹의 마도사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Нефритовый Маг]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mago Jade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[翠玉法师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[翠玉法師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377465" />
+  <ARTID value="134157" />
+  <ARTIST name="Izzy" />
+  <CASTING_COST cost="{1}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“We are one with the wild things. Life blooms from our fingertips and nature responds to our summons.”
+—Jade creed]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nous ne faisons qu'un avec la nature. La vie fleurit au bout de nos doigts et la nature répond à nos appels. »
+—Crédo du jade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Somos uno con lo salvaje. La vida florece de nuestros dedos y la naturaleza responde a nuestra invocación”.
+—Credo de jade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wir sind mit den wilden Wesen eins. Das Leben strömt aus unseren Fingerspitzen, und die Natur erhört unsere Beschwörungen.“
+—Credo der Jademagier]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Siamo una cosa sola con gli esseri selvatici. La vita sboccia dalle nostra dita e la natura risponde alle nostre evocazioni.”
+—Dottrina di Giada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「我々は野生のものと共にある。生命は我々の指先より芽吹き、自然は我々の召喚に応える。」――翡翠の教義]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“우리는 자연과 하나다. 생명은 우리의 손끝에서 만개하며 자연은 우리의 부름에 응답한다.”
+—순녹의 교리]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мы едины со всем диким. Жизнь расцветает у нас под руками, и природа отвечает на наши призывы».
+— символ веры Нефритового ордена]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Vivemos em comunhão com a natureza. A vida floresce da ponta de nossos dedos e a natureza responde ao nosso chamado.”
+— Crença Jade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「我们与野物共存。生命自我们指尖绽放，大自然回应我们的召唤。」
+～翠玉信条]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「我們與野物共存。生命自我們指尖綻放，大自然回應我們的召喚。」
+～翠玉信條]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Human" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{G}: Put a 1/1 green Saproling creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{G} : Mettez sur le champ de bataille un jeton de créature 1/1 verte Saprobionte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{G}: Pon en el campo de batalla una ficha de criatura Saprolín verde 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{G}: Bringe einen 1/1 grünen Saproling-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{G}: Metti sul campo di battaglia una pedina creatura Saprolingio 1/1 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}：緑の１/１の苗木・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{G}: 1/1 녹색 묘목 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{G}: положите на поле битвы одну фишку существа 1/1 зеленый Сапролинг.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{G}: Coloque no campo de batalha uma ficha de criatura verde 1/1 do tipo Saprófita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{G}：将一个1/1绿色腐生物衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{G}：將一個1/1綠色腐生物衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{G}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_SAPROLING_1_1_G_350772", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <EXPLAIN play_tag="HINT_ABILITY_CREATURE_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{2}{G}" base_score="550" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="1" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="600" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SAPROLING_1_1_G_350772" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

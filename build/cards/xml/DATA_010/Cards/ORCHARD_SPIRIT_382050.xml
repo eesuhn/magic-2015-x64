@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="ORCHARD_SPIRIT_382050" />
+  <CARDNAME text="ORCHARD_SPIRIT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Orchard Spirit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Esprit du verger]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espíritu del huerto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Geist des Obsthains]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spirito del Frutteto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[果（か）樹（じゅ）園（えん）の霊（れい）魂（こん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[과수원 신령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дух Фруктового Сада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espírito do Pomar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[果园精怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[果園精靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382050" />
+  <ARTID value="138389" />
+  <ARTIST name="Howard Lyon" />
+  <CASTING_COST cost="{2}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Pick not the rotten fruit, but neither touch the best. Leave those as an offering for our unseen guests.”
+—Radwick, farmer of Gatstaf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ne ramassez pas les fruits pourris, mais ne touchez pas non plus aux plus beaux. Ce sont nos offrandes à nos invités invisibles. »
+—Radwick, fermier de Gatstaf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“No tomes la fruta podrida, pero tampoco tomes la mejor. Esas déjalas como una ofrenda para nuestros invitados invisibles”.
+—Radwick, granjero de Gatstaf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Pflücke weder die faulen Früchte noch die besten. Lasse sie als Gabe für unsere unsichtbaren Gäste zurück.“
+—Radwick, Bauer aus Gatztow]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Non cogliere la frutta marcia, ma la migliore non toccare. Lasciala per gli ospiti invisibili che la vengono a mangiare.”
+—Radwick, contadino di Gatstaf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「腐った果物は摘んじゃならんし、触りもせんのが一番だ。見えん客への捧げ物として残しておくがええ。」――ガツタフの農夫、ラドウィック]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["썩은 과일은 따지 마. 제일 좋은 과일에도 손대지 말고. 그것들은 보이지 않는 손님들에게 바치는 거야."
+—갓스타프의 농부 라드윅]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Не собирай гнилые плоды, но и самые лучшие не трогай. Оставь их как приношение нашим невидимым гостям».
+— Радвик, фермер из Гатстафа]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Não colha a fruta podre, tampouco a madura. Que sejam oferendas aos nossos hóspedes, invisíveis criaturas.”
+— Radwick, fazendeiro de Gatstaf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「别挑中烂果子，也别碰最好的。那些该留着奉献给我们看不见的客人。」
+～卡兹特农夫列维]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「別挑中爛果子，也別碰最好的。那些該留著奉獻給我們看不見的客人。」
+～卡茲特農夫列維]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Orchard Spirit can’t be blocked except by creatures with flying or reach.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Esprit du verger ne peut être bloqué que par des créatures avec le vol ou la portée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Espíritu del huerto no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Geist des Obsthains kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lo Spirito del Frutteto non può essere bloccato tranne che da creature con volare o raggiungere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[果樹園の霊魂は、飛行か到達を持つクリーチャーによってしかブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[과수원 신령은 비행이나 대공을 가진 생물에게만 방어될 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дух Фруктового Сада может быть заблокирован только существом с Полетом или Захватом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espírito do Pomar só pode ser bloqueada por criaturas com voar ou alcance.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[只有具飞行或延势异能的生物才能阻挡果园精怪。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[只有具飛行或延勢異能的生物才能阻擋果園精靈。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_CANT_BE_BLOCKED_EXCEPT_BY_CREATURES_WITH_FLYING_OR_REACH, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_5" body="MORE_INFO_BADGE_BODY_5" zone="ZONE_ANY" />
+  <SFX text="COMBAT_GREEN_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_GREEN_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

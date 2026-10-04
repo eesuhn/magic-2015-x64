@@ -1,0 +1,117 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="391">
+  <FILENAME text="GOBLIN_BUSHWHACKER_380309" />
+  <CARDNAME text="GOBLIN_BUSHWHACKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblin Bushwhacker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guérillero gobelin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guerrillero trasgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblin-Buschguerillero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Goblin in Agguato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの奇（き）襲（しゅう）隊（たい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 매복꾼]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблин-Партизан]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guerrilheiro Goblin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[开路鬼怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[開路鬼怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380309" />
+  <ARTID value="123548" />
+  <ARTIST name="Mark Tedin" />
+  <CASTING_COST cost="{R}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Goblin" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <UTILITY_ABILITY qualifier="Kicker">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kicker {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Kick {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Estímulo {R}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bonus {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Potenziamento {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[キッカー {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[키커 {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Усилитель {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Reforçar {R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[增幅{R}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[增幅{R}]]></LOCALISED_TEXT>
+    <COST mana_cost="{R}" type="Mana" />
+    <ABILITY_TEXT tag="KICKER_QUERY_GOBLIN_BUSHWHACKER_KICKED" secondary_tag="KICKER_QUERY_GOBLIN_BUSHWHACKER_UNKICKED" />
+  </UTILITY_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Goblin Bushwhacker enters the battlefield, if it was kicked, creatures you control get +1/+0 and gain haste until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Guérillero gobelin arrive sur le champ de bataille, s’il a été kické, les créatures que vous contrôlez gagnent +1/+0 et acquièrent la célérité jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Guerrillero trasgo entre al campo de batalla, si fue estimulado, las criaturas que controlas obtienen +1/+0 y ganan la habilidad de prisa hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Goblin-Buschguerillero ins Spiel kommt und falls seine Bonuskosten bezahlt wurden, erhalten Kreaturen, die du kontrollierst, bis zum Ende des Zuges +1/+0 und Eile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Goblin in Agguato entra nel campo di battaglia, se è stato potenziato, le creature che controlli prendono +1/+0 e hanno rapidità fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの奇襲隊が戦場に出たとき、これがキッカーされていた場合、あなたがコントロールするクリーチャーはターン終了時まで＋１/＋０の修整を受けるとともに速攻を得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 매복꾼이 전장에 들어올 때, 고블린 매복꾼의 키커 비용을 지불했다면, 당신이 조종하는 생물들은 턴종료까지 +1/+0을 받고 신속을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Гоблин-Партизан выходит на поле битвы, если он получил Усилитель, существа под вашим контролем получают +1/+0 и Ускорение до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Guerrilheiro Goblin entra no campo de batalha, se ele foi reforçado, as criaturas que você controla recebem +1/+0 e ganham ímpeto até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当开路鬼怪进战场时，若它已增幅，则直到回合结束，由你操控的生物得+1/+0且获得敏捷异能。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當開路鬼怪進戰場時，若它已增幅，由你操控的生物得+1/+0並獲得敏捷異能直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    return EffectSourceLKI():WasKicked()
+    </INTERVENING_IF>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_HASTE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <CONTINUOUS_ACTION layer="7C" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Power_Add( 1 )
+    	characteristics:Toughness_Add( 0 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{R}{R}" base_score="300" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="400" />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_KICKER" body="MORE_INFO_BODY_KICKER" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="KICKER_QUERY_GOBLIN_BUSHWHACKER_UNKICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Goblin Bushwhacker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez le Guérillero gobelin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza el Guerrillero trasgo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wirke den Goblin-Buschguerillero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia il Goblin in Agguato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《ゴブリンの奇襲隊》を唱える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 매복꾼을 발동하십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграйте Гоблина-Партизана.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjure Guerrilheiro Goblin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放开路鬼怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放開路鬼怪]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="KICKER_QUERY_GOBLIN_BUSHWHACKER_KICKED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cast Goblin Bushwhacker and give creatures you control +1/+0 and haste until the end of turn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lancez le Guérillero gobelin et donnez +1/+0 et la célérité aux créatures que vous contrôlez jusqu'à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lanza el Guerrillero trasgo y dales a las criaturas que controlas +1/+0 y la habilidad de prisa hasta el final del turno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wirke den Goblin-Buschguerillero und verleihe Kreaturen, die du kontrollierst, +1/+0 und Eile bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lancia il Goblin in Agguato e fornisci alle creature che controlli +1/+0 e rapidità fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[《ゴブリンの奇襲隊》を唱え、あなたのコントロールするクリーチャーにターン終了時まで＋１/＋０の修整とともに速攻を与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린 매복꾼을 발동하여 당신이 조종하는 모든 생물이 턴종료까지 +1/+0을 받고 신속 능력을 얻도록 하십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разыграйте Гоблина-Партизана и дайте существам под вашим контролем +1/+0 и Ускорение до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Conjure Guerrilheiro Goblin e dê +1/+0 e ímpeto às criaturas que você controla até o final do turno]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[施放开路鬼怪，并让由你操控的生物得+1/+0且获得敏捷异能直到回合结束]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[施放開路鬼怪，由你操控的生物得+1/+0且具敏捷異能，直到回合結束]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

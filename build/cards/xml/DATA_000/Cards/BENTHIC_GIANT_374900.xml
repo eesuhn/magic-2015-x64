@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="BENTHIC_GIANT_374900" />
+  <CARDNAME text="BENTHIC_GIANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Benthic Giant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Géant benthique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gigante bentónico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Benthischer Riese]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gigante di Benthic]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[水（みず）底（そこ）の巨（きょ）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[심해 거인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Глубоководный Гигант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gigante Bentônico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[深海巨人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[深海巨人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374900" />
+  <ARTID value="149048" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{5}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Some fates you can see coming for you, plain as day, and there’s nothing you can do about them.”
+—Callaphe the mariner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Parfois, le destin vient à votre rencontre en pleine lumière, et on ne peut rien y faire. »
+—Callaphe le marin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“A algunas fatalidades las ves venir claramente por ti y no hay nada que puedas hacer al respecto”.
+—Calafa, la marinera]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„So manches Schicksal sieht man deutlich auf sich zukommen, und kann es dennoch nicht abwenden.“
+—Kallaphe die Seefahrerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Talvolta puoi vedere chiaramente le Moire mentre decidono il tuo destino e non puoi fare nulla per fermarle.”
+—Callafe il marinaio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「運命とは時に日の光みたいなもんでね、明らかにこちらに向かって来ているのが見えているにもかかわらず、あたしらはそれに対して為す術がないのよ。」――船乗りのカラフィ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["가끔은 뻔히 보이는 운명조차 피할 수 없을 때가 있다."
+—뱃사람 칼라피]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Бывает так, что ты ясно видишь, как приближается твой рок, но ничего не можешь с этим поделать».
+— Каллафа Мореплавательница]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Alguns destinos você consegue ver se aproximando, claros como o dia, sem que haja nada que você possa fazer a respeito.”
+— Calafe, a marinheira]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你将清楚看到宿命的降临，却无能为力。」
+～水手卡莱斐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你將清楚看到宿命的降臨，卻無能為力。」
+～水手卡萊斐]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Giant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="5" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hexproof]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Défense talismanique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Antimaleficio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fluchsicher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Anti-malocchio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[呪禁]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[방호]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Порчеустойчивость]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Resistência a magia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[辟邪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[辟邪]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HEXPROOF" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_21" body="MORE_INFO_BADGE_BODY_21" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

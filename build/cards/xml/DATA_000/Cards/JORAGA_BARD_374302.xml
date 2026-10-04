@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="JORAGA_BARD_374302" />
+  <CARDNAME text="JORAGA_BARD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Joraga Bard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Barde de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bardo de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Barde aus Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bardo di Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジョラーガの吟（ぎん）遊（ゆう）詩（し）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조라가 음유시인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Джорагский Бард]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bardo de Joraga]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[玖瑞加吟游诗人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[玖瑞加吟遊詩人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374302" />
+  <ARTID value="123731" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Adventuring bards recite Chanter’s Epics, never-ending tales that keep their comrades’ minds alert to danger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les bardes itinérants racontent L'épopée du chanteur, des contes interminables qui maintiennent la vigilance de leurs camarades.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los bardos aventureros recitan los Cantos Épicos, historias interminables que mantienen las mentes de sus compañeros alertas al peligro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Barden auf Abenteuer zitieren gerne die Epen des Sängers, nie endende Geschichten, um ihre Kameraden vor Gefahren zu warnen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I bardi all’avventura recitano Le Epopee del Cantore, racconti interminabili che tengono vigili al pericolo le menti dei loro compagni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[冒険に出る吟遊詩人は「歌い手の叙事詩」を語る。それは仲間の意識を危険に向けて警戒させる、終わりの無い物語だ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[모험 중인 음유시인은 구도자의 서사시를 노래해 동료들이 항상 경계를 늦추지 않도록 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Барды-путешественники читают вслух «Эпос Сказителя» — нескончаемый сборник поэм, которые делают разум их товарищей чутким к опасности.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os bardos aventureiros recitam as Epopeias do Trovador, contos infinitos que mantêm a mente de seus companheiros alerta aos perigos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[喜爱历险的吟游诗人会吟诵《史诗选》，这些漫长无止境的故事能让同伴的心灵随时保持警觉。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[喜愛歷險的吟遊詩人會吟誦《史詩選》，這些漫長無止境的故事能讓同伴的心靈隨時保持警覺。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Rogue" />
+  <SUB_TYPE metaname="Ally" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Joraga Bard or another Ally enters the battlefield under your control, you may have Ally creatures you control gain vigilance until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Barde de Joraga ou qu’un autre allié arrive sur le champ de bataille sous votre contrôle, vous pouvez faire que les créatures Allié que vous contrôlez acquièrent la vigilance jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Bardo de Joraga u otro Aliado entre al campo de batalla bajo tu control, puedes hacer que las criaturas Aliado que controlas ganen la habilidad de vigilancia hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Barde aus Joraga oder ein anderer Verbündeter unter deiner Kontrolle ins Spiel kommt, kannst du Verbündete-Kreaturen, die du kontrollierst, Wachsamkeit bis zum Ende des Zuges dazuerhalten lassen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Bardo di Joraga o un altro Alleato entra nel campo di battaglia sotto il tuo controllo, puoi far guadagnare cautela alle creature Alleato che controlli fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジョラーガの吟遊詩人か他の同盟者が１体あなたのコントロール下で戦場に出るたび、あなたは「あなたがコントロールする同盟者・クリーチャーは、ターン終了時まで警戒を得る。」を選んでもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[조라가 음유시인 또는 다른 동맹이 당신의 조종하에 전장에 들어올 때마다, 당신은 당신이 조종하는 동맹 생물들이 턴종료까지 경계를 얻도록 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Джорагский Бард или другой Союзник выходит на поле битвы под вашим контролем, вы можете дать существам-Союзникам под вашим контролем Бдительность до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Bardo de Joraga ou outro Aliado entra no campo de batalha sob o seu controle, você pode fazer com que as criaturas do tipo Aliado que você controla ganhem vigilância até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当玖瑞加吟游诗人或另一个伙伴在你的操控下进战场时，你可以让由你操控的伙伴生物获得警戒异能直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當玖瑞加吟遊詩人或另一個伙伴在你的操控下進戰場時，你可以讓由你操控的伙伴生物獲得警戒異能直到回合結束。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetSubType():Test( CREATURE_TYPE_ALLY ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ALLY )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    </FILTER>
+    <CONTINUOUS_ACTION layer="6" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_VIGILANCE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_SYNERGY_WHY_PLAY" removal_tag="HINT_CREATURE_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

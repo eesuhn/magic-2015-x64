@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="30">
+  <FILENAME text="ZOMBIE_GOLIATH_374787" />
+  <CARDNAME text="ZOMBIE_GOLIATH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Zombie Goliath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Goliath zombie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Goliat zombie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zombie-Goliath]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Golia Zombie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゾンビの大（だい）巨（きょ）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[좀비 골리앗]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Зомби-Голиаф]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Golias Zumbi]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨硕灵俑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨碩殭屍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374787" />
+  <ARTID value="121625" />
+  <ARTIST name="E. M. Gist" />
+  <CASTING_COST cost="{4}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Removing the encumbrance of useless brain tissue grants several advantages: a slight increase in mobility, a response of revulsion and horror from the enemy, and, in the case of large specimens, room for passengers.”
+—Zul Ashur, lich lord]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Retirer le tissu cérébral inutile présente plusieurs avantages : une petite augmentation de rapidité, une réaction de révulsion et d'horreur chez l'ennemi et, dans le cas de spécimens de grande taille, un espace pour des passagers. »
+—Zul Ashur, seigneur liche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Remover el estorbo del tejido cerebral no usado otorga varias ventajas: un pequeño aumento de la movilidad, una respuesta de repulsión y horror del enemigo y, en el caso de los especímenes más grandes, espacio para pasajeros”.
+—Zul Ashur, señor liche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Das Entfernen von nutzlosen Hirnzellen ist mehrfach nützlich: deine Beweglichkeit wird erhöht, deine Feinde ekeln sich, und du schaffst sogar manchmal noch Platz für Passagiere.“
+—Zul Ashur, Lichfürst]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Rimuovere l’ingombro di tessuto cerebrale inutile fornisce parecchi vantaggi: un leggero miglioramento nella mobilità, una reazione di repulsione e orrore da parte del nemico e, nel caso di grossi esemplari, spazio per dei passeggeri.”
+—Zul Ashur, signore dei lich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「役立たずの脳の邪魔な部分を取り除くことは、いくつかの点において有益だ。機動性の向上、敵からの恐怖と嫌悪反応、そしてこと大型の種族においては、人員運搬用の空間にもなる。」
+――死者の王、ザル・アシュール]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["거추장스러운 뇌 조직을 없애버리면 여러 가지 이점이 있지. 기동력이 약간 좋아지고, 적들로부터 혐오감과 공포를 유발할 수 있으며, 대형 개체의 경우 탑승 공간이 마련되지."
+—리치 군주 줄 아슈르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Удаление обременительной и бесполезной мозговой ткани дает следующие преимущества: небольшое повышение подвижности, чувство отвращения и страха у врагов и, в случае крупных особей, место для пассажиров».
+— Зул Ашур, лорд-лич]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA["A remoção do estorvo do tecido cerebral inútil oferece diversas vantagens: uma leve melhoria na mobilidade, uma resposta de repulsa e horror por parte do inimigo, e, no caso de espécimes grandes, espaço para passageiros.”
+— Zul Ashur, senhor lich]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「把无用又占空间的脑部组织拿掉，能带来些好处：移动力略增，让敌人感到嫌恶与恐惧，并且若是大型样本，还能搭载乘员。」
+～巫妖领主祝亚许]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「把無用又佔空間的腦部組織拿掉，能帶來些好處：移動力略增，讓敵人感到嫌惡與恐懼，並且若是大型樣本，還能搭載乘員。」
+～巫妖領主祝亞許]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <SUB_TYPE metaname="Giant" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

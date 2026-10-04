@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="947">
+  <FILENAME text="REGATHAN_FIRECAT_374347" />
+  <CARDNAME text="REGATHAN_FIRECAT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Regathan Firecat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chatfeu regathan]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gato de fuego de Regatha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Regathanischer Feuerpanther]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Felino Infuocato di Regatha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[レガーサの火（ひ）猫（ねこ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[레가타 불고양이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Регатская Огненная Кошка]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Felino Ígneo Regathano]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[瑞格沙火焰猫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[瑞格沙火焰貓]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374347" />
+  <ARTID value="147425" />
+  <ARTIST name="Eric Velhagen" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[It stalks the Regathan highlands, leaving behind melted snow, scorched earth, and the charred corpses of would-be temple robbers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il hante les hauts plateaux de Regatha, laissant derrière lui un sillage de neige fondue, de terre brûlée et les corps calcinés de pillards de temple malchanceux.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Merodea por las altas tierras de Regatha, dejando tras de sí nieve fundida, tierra abrasada y los cadáveres carbonizados de supuestos saqueadores de templos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie lauern im Regathan-Hochland und hinterlassen geschmolzenen Schnee, verbrannte Erde und die verkohlten Kadaver von Möchtegern-Tempelräubern.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vaga per gli altopiani di Regatha, lasciando dietro di sé neve sciolta, terra bruciata e corpi carbonizzati di aspiranti profanatori di templi.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それはレガーサの高地を闊歩し、融けた雪と焦げた地面、そして捕食者となるはずだった生物の黒焦げの死体を残していく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[레가타 불고양이는 레가타 고산지대를 배회하는데, 이들이 지나간 자리는 눈이 녹고 땅이 그을리고 까맣게 탄 사원 도굴꾼의 시체가 생긴다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Она обитает в высокогорьях Регаты. Ее территорию можно распознать по проталинам с выжженной землей и обуглившимся трупам неудачливых расхитителей храмов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ele espreita nas terras altas Regathanas, deixando um rastro de neve derretida, terra queimada e cadáveres calcinados de supostos ladrões de templo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[它出没于瑞格沙高地，留下融雪，焦土，以及前来劫掠殿堂者的焦尸。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牠出沒於瑞格沙高地，留下融雪，焦土，以及前來劫掠殿堂者的焦屍。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <SUB_TYPE metaname="Cat" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="4" />
+  <TOUGHNESS value="1" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

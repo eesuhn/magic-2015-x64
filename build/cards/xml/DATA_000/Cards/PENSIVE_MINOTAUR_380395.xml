@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="216">
+  <FILENAME text="PENSIVE_MINOTAUR_380395" />
+  <CARDNAME text="PENSIVE_MINOTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pensive Minotaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Minotaure pensif]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Minotauro pensativo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nachdenklicher Minotaurus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Minotauro Meditabondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悲（かな）しげなミノタウルス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고민하는 미노타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Задумчивый Минотавр]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Minotauro Pensativo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[沉思牛头怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沉思牛頭怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380395" />
+  <ARTID value="152851" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The Champion and her companions marched through the night, but the battle was over before they arrived. In the middle of the carnage sat a solitary minotaur, lost in what seemed to the Champion to be thought.
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Championne et ses compagnons marchèrent toute la nuit, mais la bataille était déjà terminée à leur arrivée. Au milieu du carnage se tenait un minotaure solitaire, perdu dans ce qui parut être des pensées à la Championne.
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La Campeona y sus compañeros marcharon toda la noche, pero la batalla había terminado antes de que llegaran. En mitad de la carnicería estaba sentado un minotauro, perdido en lo que a la Campeona le parecieron pensamientos.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Auserwählte und ihre Gefährten marschierten die ganze Nacht hindurch, aber die Schlacht war schon vorüber, als sie ankamen. Inmitten des Blutbades saß ein einzelner Minotaurus und der Auserwählten schien es, als wäre er in Gedanken versunken.
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Campionessa e i suoi compagni marciarono per tutta la notte, ma la battaglia si concluse prima del loro arrivo. In mezzo alla carneficina sedeva un minotauro solitario, perso in qualcosa che alla Campionessa parve un pensiero.
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[女勇者とその従者たちは夜通しで行進を続けたが、彼女らが到着する前に戦いは終わっていた。殺戮の現場の中心に座っていたのは１体のミノタウルスであった。女勇者の目には、その者が何かを深く考え込んでいるかのように映った。
+――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용사와 동료들은 밤새 진군하였지만, 전투는 그들이 도착하기도 전에 끝났다. 대학살의 현장 한가운데에 있던 단 한 마리의 미노타우로스는 용사가 보기에 깊은 생각에 잠겨 있는 것처럼 보였다.
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Поборница и ее спутники шли всю ночь, но когда они прибыли на место, битва была уже закончена. Среди окровавленных тел сидел одинокий минотавр, погруженный в то, что показалось Поборнице раздумьями.
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A Campeã e seus companheiros marcharam durante a noite, mas a batalha terminou antes que chegassem. Em meio à carnificina, estava sentado um solitário minotauro, perdido no que pareciam ser pensamentos para a Campeã.
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[天尊和她的同伴连夜赶路，但是在他们赶到之前，战斗就结束了。一匹牛头怪孤独地坐在尸体中间，在天尊看来好像是思考出神了。
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[天尊和她的同伴連夜趕路，但是在他們趕到之前，戰鬥就結束了。一匹牛頭怪孤獨地坐在屍體中間，在天尊看來好像是思考出神了。
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Minotaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

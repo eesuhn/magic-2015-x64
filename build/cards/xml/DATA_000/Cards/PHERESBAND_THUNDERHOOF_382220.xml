@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="PHERESBAND_THUNDERHOOF_382220" />
+  <CARDNAME text="PHERESBAND_THUNDERHOOF" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pheres-Band Thunderhoof]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sabot-de-foudre du clan Phérès]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cascotrueno del clan Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Donnerhuf der Pheres-Herde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Zampatonante della Banda Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フィーリーズ団（だん）の雷（らい）鳴（めい）蹄（ひづめ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피레스 무리 천둥발굽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Громоног из Племени Ферий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Casco-de-trovão do Bando Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[斐力兹族雷蹄兵]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[斐力茲族雷蹄兵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382220" />
+  <ARTID value="152876" />
+  <ARTIST name="Christopher Moeller" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Flesh and bone or star and shadow. It makes no difference to my club.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Chair et os ou étoile et ombre. Mon gourdin ne fait pas la différence. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Carne y hueso o estrellas y sombra. A mi garrote le da lo mismo”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Fleisch und Knochen oder Stern und Schatten. Meine Keule kennt da keinen Unterschied.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Carne e ossa o stelle e ombra. Non fa differenza per la mia mazza.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「その対象が肉であれ、骨であれ、星であれ、影であろうが、私の棍棒にかかれば何だって関係ないさ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA['뼈와 살, 별과 그림자. 내 몽둥이 앞에서는 다 똑같은 것들이지.']]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Мускулы и кости или звезды и тень. Для моей дубины разницы нет».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Carne e osso ou estrelas e sombras. Não faz diferença para a minha clava.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「不管是凡间骨肉还是天界星影，对我的棍棒来说没有差别。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「不管是凡間骨肉還是天界星影，對我的棍棒來說沒有差別。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Heroic| — Whenever you cast a spell that targets Pheres-Band Thunderhoof, put two +1/+1 counters on Pheres-Band Thunderhoof.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Héroïque| — À chaque fois que vous lancez un sort qui cible le Sabot-de-foudre du clan Phérès, mettez deux marqueurs +1/+1 sur le Sabot-de-foudre du clan Phérès.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Heroísmo| — Siempre que lances un hechizo que haga objetivo al Cascotrueno del clan Feres, pon dos contadores +1/+1 sobre el Cascotrueno del clan Feres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Heroisch| — Immer wenn du einen Zauberspruch wirkst, der den Donnerhuf der Pheres-Herde als Ziel hat, lege zwei +1/+1-Marken auf den Donnerhuf der Pheres-Herde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Eroismo| — Ogniqualvolta lanci una magia che bersaglia la Zampatonante della Banda Feres, metti due segnalini +1/+1 sulla Zampatonante della Banda Feres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|英雄的| ― あなたがフィーリーズ団の雷鳴蹄を対象とする呪文を１つ唱えるたび、フィーリーズ団の雷鳴蹄の上に＋１/＋１カウンターを２個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영웅 — 당신이 피레스 무리 천둥발굽을 목표로 주문을 발동할 때마다, 피레스 무리 천둥발굽에 +1/+1 카운터 두 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Героизм| — Каждый раз, когда вы разыгрываете заклинание, целью которого является Громоног из Племени Ферий, положите два жетона +1/+1 на Громонога из Племени Ферий.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Heroico| — Toda vez que você conjurar uma mágica cujo alvo seja Casco-de-trovão do Bando Feres, coloque dois marcadores +1/+1 em Casco-de-trovão do Bando Feres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[勇行～每当你施放一个以斐力兹族雷蹄兵为目标的咒语时，在斐力兹族雷蹄兵上放置两个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[勇行～每當你施放一個以斐力茲族雷蹄兵為目標的咒語時，在斐力茲族雷蹄兵上放置兩個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol">
+    return TriggerObject():IsTargeting(EffectSource())
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_HEROIC" body="MORE_INFO_BODY_HEROIC" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

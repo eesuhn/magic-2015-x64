@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="571">
+  <FILENAME text="PALISADE_GIANT_382171" />
+  <CARDNAME text="PALISADE_GIANT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Palisade Giant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Géante des palissades]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Gigante de empalizada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Riesin der Palisaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Gigante della Palizzata]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[矢（や）来（らい）の巨（きょ）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[울타리 거인]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оградный Гигант]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gigante de Paliçada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[围栏巨人]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[圍欄巨人]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382171" />
+  <ARTID value="145937" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{4}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Refusing guild allegiances, she fights for those who can’t protect themselves.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Refusant toute allégeance à une guilde, elle combat pour ceux qui sont incapables de se protéger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Ajena a la lealtad hacia los gremios, lucha por aquellos que no pueden protegerse solos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Sie lehnt die Zugehörigkeit zu Gilden ab und kämpft für jene, die sich nicht selbst schützen können.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rifiutando di giurare fedeltà a una gilda, combatte per coloro che non possono proteggersi da soli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[彼女はギルドへの忠誠を拒否し、自らを守る力のない者のために戦っている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그녀는 길드에 대한 충성을 거부하며 스스로를 지킬 수 없는 자들을 위해 싸운다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Отказавшись от служения гильдии, она встала на сторону тех, кто не может защитить себя сам.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ela se recusa a fazer alianças com as guildas, e luta por aqueles que não podem se proteger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[她拒绝对公会誓诚，并为那些无法保护自己的人们而战。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[她拒絕對公會誓誠，並為那些無法保護自己的人們而戰。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Giant" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="7" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[All damage that would be dealt to you or another permanent you control is dealt to Palisade Giant instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Toutes les blessures qui devraient être infligées à vous ou à un autre permanent que vous contrôlez sont infligées à la Géante des palissades à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Todo el daño que se te fuera a hacer a ti o a otro permanente que controlas, en vez de eso, se le hace a la Gigante de empalizada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aller Schaden, der dir oder einer anderen bleibenden Karte, die du kontrollierst, zugefügt würde, wird stattdessen der Riesin der Palisaden zugefügt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutto il danno che verrebbe inflitto a te o a un altro permanente che controlli viene invece inflitto alla Gigante della Palizzata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたやあなたがコントロールする他のパーマネントに与えられるすべてのダメージは、代わりに矢来の巨人に与えられる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신 또는 당신이 조종하는 다른 지속물이 입으려고 하는 모든 피해는 울타리 거인에게 대신 입혀진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Все повреждения, которые должны быть нанесены вам или другому перманенту под вашим контролем, вместо этого наносятся Оградному Гиганту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Todo o dano que seria causado a você ou a outra permanente que você controla é, em vez disso, causado a Gigante de Paliçada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[所有将对你或另一个由你操控的永久物所造成的伤害，改为对围栏巨人造成之。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[所有將對你或另一個由你操控的永久物所造成的傷害，改為對圍欄巨人造成之。]]></LOCALISED_TEXT>
+    <TRIGGER value="PLAYER_TAKES_DAMAGE" pre_trigger="1">
+    return TriggerPlayer() == EffectController()
+    </TRIGGER>
+    <TRIGGER value="OBJECT_TAKES_DAMAGE" simple_qualifier="objectyoucontrol" pre_trigger="1" damage_type="all">
+    if TriggerObject() == EffectSource() then
+    	return false
+    else
+    	return true
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local damage = Damage()
+    if damage ~= nil then
+    	damage:RedirectAllTo( EffectSource() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1050" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

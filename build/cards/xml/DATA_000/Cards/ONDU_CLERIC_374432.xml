@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="121">
+  <FILENAME text="ONDU_CLERIC_374432" />
+  <CARDNAME text="ONDU_CLERIC" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ondu Cleric]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Clerc du Ondou]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Clérigo de Ondu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ondu-Kleriker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Chierico di Ondu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オンドゥの僧（そう）侶（りょ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[온두 성직자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Священник из Онду]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Clérigo de Ondu]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[昂度僧侣]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[昂度僧侶]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374432" />
+  <ARTID value="123556" />
+  <ARTIST name="Jim Murray" />
+  <CASTING_COST cost="{1}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[A cleric’s true balm is the confidence he inspires in his compatriots.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le véritable onguent du clerc est la confiance qu'il inspire à ses compatriotes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El verdadero bálsamo de un clérigo es la confianza que inspira en sus compatriotas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der beste Balsam eines Klerikers ist die Zuversicht, die er bei seinen Gefährten weckt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il vero balsamo di un chierico è la fiducia che ispira nei suoi compatrioti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[僧侶の真の薬とは、彼が仲間にもたらす信頼である。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[성직자는 자신의 동료에게 자신감을 불어넣을 때 보람을 느낀다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Истинный целебный бальзам священника — это уверенность, которую он вселяет в своих соотечественников.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O verdadeiro bálsamo de um clérigo é a segurança que ele inspira em seus compatriotas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[僧侣替同伴鼓起的信心，才是他的灵膏。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[僧侶替同伴鼓起的信心，才是他的靈膏。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Kor" />
+  <SUB_TYPE metaname="Cleric" />
+  <SUB_TYPE metaname="Ally" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Ondu Cleric or another Ally enters the battlefield under your control, you may gain life equal to the number of Allies you control.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que le Clerc du Ondou ou qu’un autre allié arrive sur le champ de bataille sous votre contrôle, vous pouvez gagner un nombre de points de vie égal au nombre d’alliés que vous contrôlez.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que el Clérigo de Ondu u otro Aliado entre al campo de batalla bajo tu control, puedes ganar una cantidad de vidas igual a la cantidad de Aliados que controlas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn der Ondu-Kleriker oder ein anderer Verbündeter unter deiner Kontrolle ins Spiel kommt, kannst du so viele Lebenspunkte dazuerhalten, wie du Verbündete kontrollierst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta il Chierico di Ondu o un altro Alleato entra nel campo di battaglia sotto il tuo controllo, puoi guadagnare punti vita pari al numero di Alleati che controlli.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オンドゥの僧侶か他の同盟者が１体戦場に出るたび、あなたはあなたがコントロールする同盟者の総数に等しい点数のライフを得てもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[온두 성직자 또는 다른 동맹이 당신의 조종하에 전장에 들어올 때마다, 당신은 당신이 조종하는 동맹의 수만큼 생명점을 얻을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Священник из Онду или другой Союзник выходит на поле битвы под вашим контролем, вы можете получить столько жизней, сколько Союзников находится под вашим контролем.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Clérigo de Ondu ou outro Aliado entra no campo de batalha sob o seu controle, você pode ganhar uma quantidade de pontos de vida igual ao número de Aliados que você controla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当昂度僧侣或另一个伙伴在你的操控下进战场时，你可以获得等同于由你操控之伙伴数量的生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當昂度僧侶或另一個伙伴在你的操控下進戰場時，你可以獲得等同於由你操控之伙伴數量的生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetSubType():Test( CREATURE_TYPE_ALLY ) and TriggerObject() ~= EffectSource()
+    </TRIGGER>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	local filter = ClearFilter()
+    	filter:Add( FE_SUBTYPE, OP_IS, CREATURE_TYPE_ALLY )
+    	filter:Add( FE_CONTROLLER, OP_IS, EffectController() )
+    	local number = filter:Count()
+    	EffectController():GainLife( number )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

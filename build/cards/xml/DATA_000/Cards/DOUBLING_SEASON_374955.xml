@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="491">
+  <FILENAME text="DOUBLING_SEASON_374955" />
+  <CARDNAME text="DOUBLING_SEASON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Doubling Season]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Saison de dédoublement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Temporada duplicadora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zeit der Verdopplung]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Stagione del Raddoppio]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[倍（ばい）増（ぞう）の季（き）節（せつ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[더불어 사는 계절]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Сезон Удвоения]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Temporada da Multiplicação]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[倍产旺季]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[倍產旺季]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374955" />
+  <ARTID value="134053" />
+  <ARTIST name="Chuck Lukacs" />
+  <CASTING_COST cost="{4}{G}" />
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an effect would put one or more tokens onto the battlefield under your control, it puts twice that many of those tokens onto the battlefield instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un effet devait mettre sur le champ de bataille au moins un jeton sous votre contrôle, il met sur le champ de bataille deux fois ce nombre de jetons à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un efecto fuera a poner una o más fichas en el campo de batalla bajo tu control, en vez de eso, pone en el campo de batalla el doble de esas fichas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Effekt einen oder mehrere Spielsteine unter deiner Kontrolle ins Spiel bringen würde, bringt er stattdessen doppelt so viele Spielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se un effetto sta per mettere sul campo di battaglia una o più pedine sotto il tuo controllo, mette invece sul campo di battaglia il doppio di quelle pedine.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[効果が１個以上のトークンがあなたのコントロール下で戦場に出すなら、代わりにそれはその２倍の数のトークンを戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어떤 효과가 한 개 이상의 토큰을 당신의 조종하에 전장에 놓으려 한다면, 그 대신에 그 두 배만큼의 토큰을 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если эффект должен положить одну или более фишек на поле битвы под вашим контролем, вместо этого он кладет на поле битвы в два раза больше таких фишек.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um efeito for colocar uma ou mais fichas no campo de batalha sob o seu controle, em vez disso, ele coloca no campo de batalha o dobro daquela quantidade de fichas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果某效应将把一个或数个衍生物在你的操控下放进战场，则改为将两倍数量的该类衍生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果某效應將把一個或數個衍生物在你的操控下放進戰場，則改為將兩倍數量的該類衍生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="PLAYER_PUT_TOKENS_INTO_PLAY" simple_qualifier="controller" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    SetAmount( GetAmount()*2)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If an effect would place one or more counters on a permanent you control, it places twice that many of those counters on that permanent instead.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un effet devait placer au moins un marqueur sur un permanent que vous contrôlez, il place deux fois ce nombre de marqueurs sur ce permanent à la place.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un efecto fuera a colocar uno o más contadores sobre un permanente que controlas, en vez de eso, coloca el doble de esos contadores sobre ese permanente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Effekt eine oder mehrere Marken auf eine bleibende Karte legen würde, die du kontrollierst, legt er stattdessen doppelt so viele Marken auf diese bleibende Karte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se un effetto sta per mettere su un permanente che controlli uno o più segnalini, mette invece su quel permanente il doppio di quei segnalini.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[効果があなたがコントロールするパーマネントの上にカウンターを置くなら、代わりにそれはその２倍の数をパーマネントの上に置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[어느 효과가 당신이 조종하는 지속물에 한 개 이상의 카운터를 올려놓으려고 한다면, 대신 그 효과는 그 숫자의 두 배만큼의 카운터를 그 지속물에 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если эффект должен поместить один или более жетонов на перманент под вашим контролем, вместо этого он помещает на тот перманент в два раза больше таких жетонов.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se um efeito for colocar um ou mais marcadores sobre uma permanente que você controla, em vez disso, ele colocará o dobro sobre aquela permanente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果某效应将在由你操控的永久物上放置一个或数个指示物，则改为在该永久物上放置两倍数量的该类指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果某效應將在由你操控的永久物上放置一個或數個指示物，則改為在該永久物上放置兩倍數量的該類指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="COUNTERS_CHANGED" simple_qualifier="objectyoucontrol" pre_trigger="1">
+    return GetAmount() &gt;0
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    SetAmount( GetAmount()*2)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="1200" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_ABILITY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

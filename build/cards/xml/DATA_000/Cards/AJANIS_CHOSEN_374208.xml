@@ -1,0 +1,129 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="122">
+  <FILENAME text="AJANIS_CHOSEN_374208" />
+  <CARDNAME text="AJANIS_CHOSEN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Ajani’s Chosen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élus d'Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elegido de Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ajanis Auserwählte]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Prescelti di Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[アジャニに選（えら）ばれし者（もの）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[아자니의 정예병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Избранники Аджани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolhidos de Ajani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[阿耶尼的精卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[阿耶尼的精衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374208" />
+  <ARTID value="147491" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{2}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“United, our roar will level mountains.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Ensemble, notre rugissement pulvérisera les montagnes. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Unidos, nuestro rugido arrasará montañas”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Vereint wird unser Gebrüll ganze Berge einebnen.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Insieme, il nostro ruggito spianerà le montagne.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「団結すれば、我らが咆哮は山をも更地にするだろう。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["집결하라 형제들이여! 눈앞의 산이 두려움에 떨도록 포효하라!"]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Единством наш прайд так силен, что его рык может горы сравнять с землей».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Unidos, nosso rugido derrubará montanhas.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「团结起来，我们的吼声将夷平高山。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「團結起來，我們的吼聲將夷平高山。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Cat" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever an enchantment enters the battlefield under your control, put a 2/2 white Cat creature token onto the battlefield. If that enchantment is an Aura, you may attach it to the token.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’un enchantement arrive sur le champ de bataille sous votre contrôle, mettez sur le champ de bataille un jeton de créature 2/2 blanche Chat. Si cet enchantement est une aura, vous pouvez l’attacher au jeton.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que un encantamiento entre al campo de batalla bajo tu control, pon en el campo de batalla una ficha de criatura Felino blanca 2/2. Si ese encantamiento es un aura, puedes anexarlo a la ficha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Verzauberung unter deiner Kontrolle ins Spiel kommt, bringe einen 2/2 weißen Katze-Kreaturenspielstein ins Spiel. Falls diese Verzauberung eine Aura ist, kannst du sie an den Spielstein anlegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta un incantesimo entra nel campo di battaglia sotto il tuo controllo, metti sul campo di battaglia una pedina creatura Felino 2/2 bianca. Se quell’incantesimo è un’Aura, puoi assegnarla alla pedina.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[エンチャントが１つあなたのコントロール下で戦場に出るたび、白の２/２の猫・クリーチャー・トークンを１体戦場に出す。そのエンチャントがオーラであるなら、あなたはそれをそのトークンにつけてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[부여마법이 당신의 조종하에 전장에 들어올 때마다, 2/2 백색 고양이 생물 토큰 한 개를 전장에 놓는다. 그 부여마법이 마법진이라면, 당신은 그것을 그 토큰에 붙일 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда чары выходят на поле битвы под вашим контролем, положите на поле битвы одну фишку существа 2/2 белая Кошка. Если те чары являются Аурой, вы можете прикрепить их к той фишке.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que um encantamento entrar no campo de batalha sob o seu controle, coloque no campo de batalha uma ficha de criatura branca 2/2 do tipo Felino. Se aquele encantamento for uma Aura, você poderá anexá-la à ficha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个结界在你的操控下进战场时，将一个2/2白色的猫衍生生物放进战场。若该结界是灵气，你可以将它结附在该衍生物上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個結界在你的操控下進戰場時，將一個2/2白色的貓衍生生物放進戰場。若該結界是靈氣，你可以將它結附在該衍生物上。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="objectyoucontrol" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY">
+    return TriggerObject():GetCardType():Test( CARD_TYPE_ENCHANTMENT )
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_CAT_2_2_W_369862", 1, EffectController(), EffectDC():Make_Chest(0) ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local triggerObject = TriggerObject()
+    local token = EffectDC():Get_Chest(0):Get_CardPtr(0)
+    if triggerObject~= nil then
+    	if triggerObject:GetSubType():Test(ENCHANTMENT_TYPE_AURA ) and triggerObject:CanAttachTo(token) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_AJANI_CHOSEN_ATTACH_AURA_TO_TOKEN" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_AJANI_CHOSEN_DO_NOT_ATTACH_AURA_TO_TOKEN" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_AJANI_CHOSEN_QUESTION", TriggerObject() )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local answer = EffectController():GetMultipleChoiceResult()
+    if answer == 0 then
+    	if TriggerObject() ~= nil then
+    		local token = EffectDC():Get_Chest(0):Get_CardPtr(0)
+    		if token ~= nil then
+    			TriggerObject():Attach(token) 
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CAT_2_2_W_369862" />
+  <SFX text="COMBAT_WHITE_MAGIC_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_WHITE_MAGIC_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_AJANI_CHOSEN_ATTACH_AURA_TO_TOKEN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Attach the Aura to the Cat token.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Attachez l'aura au jeton Chat.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Anexa el aura a la ficha de Felino.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Aura an den Katze-Spielstein anlegen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Assegna l'Aura alla pedina Felino.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーラを猫・トークンにつける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고양이 토큰에 마법진을 부착한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Прикрепите Ауру к фишке Кошки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Anexar a Aura à ficha de Felino.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将灵气结附于猫衍生物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將靈氣結附於貓衍生物。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_AJANI_CHOSEN_DO_NOT_ATTACH_AURA_TO_TOKEN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Leave the Aura where it is.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Laissez l'aura où elle se trouve.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Deja el aura donde está.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Aura lassen, wo sie ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lascia l'Aura dove si trova.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーラをその場に残す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 원래 있던 곳으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Оставьте Ауру там, где она находится.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deixar a Aura onde está.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将灵气留在原地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將靈氣留在原地。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_AJANI_CHOSEN_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to attach the Aura to the Cat token?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous attacher l'aura au jeton Chat ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres anexar el aura a la ficha de Felino?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du die Aura an den Katze-Spielstein anlegen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi assegnare l'Aura alla pedina Felino?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オーラを猫・トークンにつけますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마법진을 고양이 토큰에 부착하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите прикрепить Ауру к фишке Кошки?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de anexar a Aura à ficha de Felino?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想将灵气结附在猫衍生物上吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想將靈氣結附在貓衍生物上嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

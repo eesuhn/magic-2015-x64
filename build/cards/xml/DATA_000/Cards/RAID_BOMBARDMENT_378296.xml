@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="395">
+  <FILENAME text="RAID_BOMBARDMENT_378296" />
+  <CARDNAME text="RAID_BOMBARDMENT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Raid Bombardment]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bombardement d'assaut]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bombardeo de incursión]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bombardierungsüberfall]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bombardamento da Incursione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[略（りゃく）奪（だつ）の爆（ばく）撃（げき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[습격조 폭격]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Налет с Обстрелом]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bombardeio Surpresa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[突击轰炸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[突擊轟炸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378296" />
+  <ARTID value="127359" />
+  <ARTIST name="Matt Cavotta" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblins in the first wave of a fire raid always bemoan the aim of everyone else.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les gobelins de la première vague d'assaut se plaignent toujours de la précision des tirs de tous les autres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los trasgos de la primera oleada de una incursión de fuego siempre se lamentan de la puntería del resto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblins in der vordersten Reihe eines Feuerüberfalls beklagen oft das Zielvermögen der anderen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I goblin nella prima ondata di un’incursione a fuoco si lamentano sempre della mira di chiunque altro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ゴブリンの火の襲撃の第一波は、いつでも他の全員の狙いを嘆いている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[선두에서 돌격하는 고블린들은 다른 동료들의 조준이 형편 없음을 한탄한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблины в первой волне огневого нападения всегда жалуются на прицел всех остальных.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os goblins na primeira linha de fogo sempre se lamentam da mira dos outros.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[火攻第一波出阵的鬼怪，总会埋怨其他人的准头。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[火攻第一波出陣的鬼怪，總會埋怨其他人的準頭。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Enchantment" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control with power 2 or less attacks, Raid Bombardment deals 1 damage to defending player.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature de force inférieure ou égale à 2 que vous contrôlez attaque, le Bombardement d’assaut inflige 1 blessure au joueur défenseur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controlas con fuerza de 2 o menos ataque, el Bombardeo de incursión hace 1 punto de daño al jugador defensor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur mit Stärke 2 oder weniger, die du kontrollierst, angreift, fügt der Bombardierungsüberfall dem verteidigenden Spieler 1 Schadenspunkt zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli con forza pari o inferiore a 2 attacca, il Bombardamento da Incursione infligge 1 danno al giocatore in difesa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするパワーが２以下のクリーチャーが１体攻撃するたび、略奪の爆撃は防御プレイヤーに１点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 공격력 2 미만의 생물이 공격할 때마다, 습격조 폭격은 수비플레이어에게 피해 1점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под вашим контролем с силой 2 или меньше атакует, Налет с Обстрелом наносит 1 повреждение защищающемуся игроку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que a criatura que você controla com poder menor ou igual a 2 ataca, Bombardeio Surpresa causa 1 ponto de dano ao jogador defensor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个由你操控且力量等于或小于2的生物攻击时，突击轰炸对防御牌手造成1点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個由你操控且力量小於或等於2的生物攻擊時，突擊轟炸對防禦玩家造成1點傷害。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="objectyoucontrol">
+    return TriggerObject():GetCurrentCharacteristics():Power_Get() &lt;= 2
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local triggerPlayer = TriggerPlayer()
+    if triggerPlayer ~= nil then   
+    	EffectSourceLKI():DealDamageTo( 1, triggerPlayer )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="50" resource_name="Token" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

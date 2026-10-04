@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="111">
+  <FILENAME text="OBSTINATE_BALOTH_382071" />
+  <CARDNAME text="OBSTINATE_BALOTH" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Obstinate Baloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Baloth tenace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Báloth obstinado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eigensinniger Baloth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Baloth Testardo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[強（ごう）情（じょう）なベイロス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[완강한 발로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Строптивый Балот]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Baloth Obstinado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[顽强巴洛西]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[頑強巴洛西]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382071" />
+  <ARTID value="129158" />
+  <ARTIST name="Chris Rahn" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Obstinate Baloth enters the battlefield, you gain 4 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Baloth tenace arrive sur le champ de bataille, vous gagnez 4 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Báloth obstinado entre al campo de batalla, ganas 4 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Eigensinnige Baloth ins Spiel kommt, erhältst du 4 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Baloth Testardo entra nel campo di battaglia, guadagni 4 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[強情なベイロスが戦場に出たとき、あなたは４点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[완강한 발로스가 전장에 들어올 때, 당신은 생명 4점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Строптивый Балот выходит на поле битвы, вы получаете 4 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Baloth Obstinado entra no campo de batalha, você ganha 4 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当顽强巴洛西进战场时，你获得4点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當頑強巴洛西進戰場時，你獲得4點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():GainLife(4 )
+    </RESOLUTION_TIME_ACTION>
+    <AUTO_SKIP>
+    local effectController = EffectController()
+    if effectController:GetTeam():IsSharedLifeTotal() == true then
+    	if effectController:GetLifeTotal() &gt;= 30 then
+    		return true
+    	end
+    else
+    	if effectController:GetLifeTotal() &gt;= 20 then
+    		return true
+    	end
+    end	
+    return false
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Si un sort ou une capacité qu’un adversaire contrôle vous contraint à vous défausser du Baloth tenace, mettez-le sur le champ de bataille à la place de le mettre dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Si un hechizo o habilidad que controla un oponente te hace descartar el Báloth obstinado, ponlo en el campo de batalla en vez de ponerlo en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls ein Zauberspruch oder eine Fähigkeit, den bzw. die ein Gegner kontrolliert, dazu führt, dass du den Eigensinnigen Baloth abwirfst, bringe ihn ins Spiel, anstatt ihn auf deinen Friedhof zu legen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Se una magia o abilità controllata da un avversario ti fa scartare il Baloth Testardo, mettilo sul campo di battaglia invece di metterlo nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対戦相手がコントロールする呪文や能力によって、あなたが強情なベイロスを捨てるなら、これをあなたの墓地に置く代わりに戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[상대가 조종하는 주문이나 능력에 의해 당신이 완강한 발로스를 버릴 경우, 완강한 발로스를 무덤에 넣는 대신 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Если заклинание или способность под контролем оппонента заставляет вас сбросить Строптивого Балота, положите его на поле битвы вместо того, чтобы положить его на ваше кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Se uma mágica ou habilidade que um oponente controla fizer com que você descarte Baloth Obstinado, em vez de colocá-lo no seu cemitério, coloque-o no campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果由对手所操控的咒语或异能使得你弃掉顽强巴洛西，则改为将它放进战场，而非置入你的坟墓场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果由對手所操控的咒語或異能使得你棄掉頑強巴洛西，則改為將它放進戰場，而非置入你的墳墓場。]]></LOCALISED_TEXT>
+    <TRIGGER value="DISCARD" simple_qualifier="self" pre_trigger="1">
+    if TriggerPlayer() ~= nil then
+    	if (TriggerPlayer():GetTeam() ) ~= (EffectController():GetTeam() ) then 
+    		MTG():OverrideEvent()
+    		return true
+    	else
+    		return false
+    	end
+    else
+    	return false
+    end
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if  effectSource ~= nil then
+    	effectSource:PutOntoBattlefield( EffectController() )
+    end  
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="291">
+  <FILENAME text="WOOLLY_THOCTAR_381927" />
+  <CARDNAME text="WOOLLY_THOCTAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Woolly Thoctar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Thoctar laineux]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Thoctar lanudo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wolliges Thoktar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Thoctar Lanuto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[長（ちょう）毛（もう）のソクター]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[털복숭이 속타르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Шерстистый Токтар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Tóctar Lanoso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[粗茸索塔兽]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[粗茸索塔獸]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381927" />
+  <ARTID value="117002" />
+  <ARTIST name="Wayne Reynolds" />
+  <CASTING_COST cost="{R}{G}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[One of the most ferocious and deadly gargantuans, the thoctar never sees its worshippers, but it often awakens surrounded by gifts and sacrifices.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le thoctar, un des gargantuesques les plus féroces et les plus dangereux, ne voit jamais ses adorateurs, mais il s'éveille souvent entouré d'offrandes et de sacrifices.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El thoctar es una de las gargantúas más feroces y mortales; nunca ve a sus adoradores, pero siempre se despierta rodeado de regalos y sacrificios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Thoktar gehören zu den wildesten und tödlichsten Gargantuas und sehen daher nie ihre Anbeter, wachen aber oft umgeben von Geschenken und Opfergaben auf.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In quanto uno dei mastodonti più feroci e letali, il thoctar non vede mai i suoi veneratori, ma si sveglia spesso circondato da doni e sacrifici.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[最も凶暴で恐るべきガルガンチュアンであるソクターには崇拝者がつくことはない。しかし、目覚めたときに周りを贈り物や生け贄で囲まれていることは多々ある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[가르강튀아 중에서도 흉폭하고 거칠기로 유명한 속타르는 자신을 숭배하는 자들을 보지 못한다. 가끔 잠에서 깨면 공물과 제물이 놓여져 있을 뿐이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Один из наиболее свирепых и опасных исполинов, токтар никогда не видит своих почитателей, но зачастую пробуждается, окруженный дарами и приношениями.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Um dos mais ferozes e mortais gargantuas, o tóctar jamais vê seus adoradores, mas frequentemente acorda cercado de presentes e sacrifícios.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[索塔兽是最凶暴而致命的巨兽之一，他从来看不到自己的崇拜者，但醒来时身边经常围绕着礼物与祭牲。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[索塔獸是最兇暴而致命的巨獸之一，他從來看不到自己的崇拜者，但醒來時身邊經常圍繞著禮物與祭牲。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Beast" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="4" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

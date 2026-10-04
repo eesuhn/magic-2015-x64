@@ -1,0 +1,257 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="228">
+  <FILENAME text="PEREGRINATION_380305" />
+  <CARDNAME text="PEREGRINATION" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Peregrination]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pérégrinations]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Peregrinación]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wanderschaft]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Peregrinazione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[流（る）浪（ろう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[머나먼 여행길]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Странствие]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Romaria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[游历]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[遊歷]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380305" />
+  <ARTID value="152596" />
+  <ARTIST name="Jonas De Ro" />
+  <CASTING_COST cost="{3}{G}" />
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand. Shuffle your library, then scry 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherchez dans votre bibliothèque jusqu’à deux cartes de terrain de base, révélez ces cartes et mettez-en une sur le champ de bataille engagée, et l’autre dans votre main. Mélangez votre bibliothèque, puis regard 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Busca en tu biblioteca hasta dos cartas de tierra básica, muéstralas, pon una de ellas en el campo de batalla girada y la otra en tu mano. Baraja tu biblioteca, luego adivina 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Durchsuche deine Bibliothek nach bis zu zwei Standardland-Karten, zeige sie offen vor, bringe eine davon getappt ins Spiel und nimm die andere auf deine Hand. Mische deine Bibliothek und wende dann Hellsicht 1 an.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Passa in rassegna il tuo grimorio per trovare fino a due carte terra base, rivelale, mettine una sul campo di battaglia TAPpata e aggiungi l’altra alla tua mano. Rimescola il tuo grimorio, poi profetizza 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーから基本土地カードを最大２枚まで探し、それらを公開し、１枚をタップ状態で戦場に出し、もう１枚をあなたの手札に加える。あなたのライブラリーを切り直し、その後占術１を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 서고에서 기본 대지 카드 두 장을 찾아 공개한다. 그 중 한 장을 탭된 채로 전장에 놓고 나머지 카드는 당신의 손으로 가져간다. 당신의 서고를 섞고 점술 1을 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Найдите в вашей библиотеке не более двух карт базовых земель, покажите те карты и положите одну из них на поле битвы повернутой, а другую — в вашу руку. Перетасуйте вашу библиотеку, затем предскажите 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Procure até dois cards de terreno básico em seu grimório, revele-os e coloque um no campo de batalha virado e o outro na sua mão. Embaralhe seu grimório e depois use vidência 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[从你的牌库中搜寻至多两张基本地牌，展示这些牌，然后将一张横置进战场，另一张则置于你手上。将你的牌库洗牌，然后占卜1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[從你的牌庫中搜尋至多兩張基本地牌，展示這些牌，然後將一張橫置進戰場，另一張則置於你手上。將你的牌庫洗牌，然後占卜1。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_LAND )
+    filter:Add( FE_SUPERTYPE, OP_IS, SUPERTYPE_BASIC )
+    filter:SetZone( ZONE_LIBRARY, effectController)
+    effectController:SetItemCount( 2 )
+    effectController:SetItemPrompt( 0, "CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_THE_BATTLEFIELD_TAPPED" )
+    effectController:SetItemPrompt( 1, "CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND" )
+    effectController:ChooseItems( EffectDC():Make_Targets(0), QUERY_FLAG_UP_TO )
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(1)
+    if  target ~= nil then
+    	target:GuidedReveal( target:GetZone(), ZONE_HAND )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if  target ~= nil then
+    	target:PutOntoBattlefieldTapped( EffectController() )
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target = EffectDC():Get_Targets(0):Get_CardPtr(1)
+    if  target ~= nil then
+    	target:PutInHand()
+    end  
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():ShuffleLibrary()
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local rep_count = MTG():GetActionRepCount()
+    if rep_count == 0 then
+    	-------------------------------
+    	-- 1) ASK FIRST SCRY QUESTION
+    	-------------------------------
+    	local scry_value = 1
+    	-- Fill InputDC with top N cards of library
+    	local cards_found = 0
+    	local scryDC = EffectDC():Make_Chest(2)
+    	local scryInputDC = scryDC:Make_Chest(0)
+    	for i=0,scry_value-1 do
+    		local card = EffectController():Library_GetNth(i)
+    			
+    		if card ~= nil then
+    			scryInputDC:Set_CardPtr(cards_found, card)
+    				
+    			cards_found = cards_found + 1
+    		end
+    	end
+    	
+    	if cards_found == 0 then
+    		-- No cards in library, end
+    		return false
+    	end
+    	
+    	-- If scrying a single card, multiple choice it
+    	if scry_value == 1 or cards_found == 1 then
+    		local effectController = EffectController()
+    		if effectController ~= nil then
+    			effectController:BeginNewMultipleChoice()
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_TOP" )
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_BOTTOM", TRANSITION_BOTTOM_OF_LIBRARY )
+    			effectController:AskMultipleChoiceQuestion( "CARD_QUERY_SCRY_ONE_QUESTION", EffectController():Library_GetTop() )
+    		end
+    		return true
+    	end
+    	local scryTopDC = scryDC:Make_Chest(1)
+    	
+    	-- If scrying more than 1 card, we need a browser
+    	if cards_found &gt; 1 then
+    		-- Ask query
+    		EffectController():SetItemCount( cards_found )
+    			
+    		for i=0,cards_found-1 do
+    			EffectController():SetItemPrompt( i, "CARD_QUERY_SCRY_ONE" )
+    		end
+    			
+    		EffectController():ChooseItemsFromDC( scryInputDC, scryTopDC, QUERY_FLAG_UP_TO + QUERY_FLAG_ORDERED_SELECTION )
+    	end
+    	return true
+    elseif rep_count == 1 then
+    	-------------------------------
+    	-- 2) MOVE THE CARDS
+    	-------------------------------
+    	local scryDC = EffectDC():Get_Chest(2)
+    	-- Get old chests, and determine actual scry value
+    	local scryInputDC = scryDC:Get_Chest(0)
+    	local scry_value = scryInputDC:Count()
+    	if scry_value == 1 then
+    		local answer = EffectController():GetMultipleChoiceResult()
+    		if answer == 0 then
+    			-- Scryed the single top card to top, nothing to do
+    		end
+    		if answer == 1 then
+    			-- Scry the top card to the bottom
+    			scryInputDC:Get_CardPtr(0):PutOnBottomOfLibrary()
+    		end
+    	else
+    	
+    		local scryTopDC = scryDC:Get_Chest(1)
+    		local scry_top = scryTopDC:Count()
+    		if scry_value &gt; 1 and scry_top &lt; scry_value then
+    			-- Fill SecondInputDC with everything in InputDC not in TopDC ("what's left")
+    			for i=0,scry_value-1 do
+    				local card = scryInputDC:Get_CardPtr(i)
+    			
+    				for j=0,scry_top-1 do
+    					if card == scryTopDC:Get_CardPtr(j) then
+    						-- chosen, ignore
+    						card = nil
+    						break
+    					end
+    				end
+    			
+    				-- if not present in TopDC, move it to the bottom
+    				if card ~= nil then
+    					card:PutOnBottomOfLibrary()
+    				end
+    			end
+    		
+    			-- Move chosen cards to top of library so first
+    			-- card chosen ends up on top of the library
+    			for i=0,scry_top-1 do
+    				local card = scryTopDC:Get_CardPtr(i)
+    		
+    				if card ~= nil then
+    					card:PutOnTopOfLibrary()
+    				end
+    			end
+    		end
+    	end
+    	-- END
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <HELP title="MORE_INFO_TITLE_SCRY" body="MORE_INFO_BODY_SCRY" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_PUT_ONTO_THE_BATTLEFIELD_TAPPED">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to put onto the battlefield tapped. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le mettre sur le champ de bataille engagé. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para ponerla en el campo de batalla girada. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das getappt ins Spiel gebracht werden soll. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da mettere sul campo di battaglia TAPpata. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップ状態で戦場に出す土地を１つ選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭된 상태로 전장에 놓을 대지 한 개를 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю, чтобы положить ее на поле битвы повернутой. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para colocar no campo de batalha virado. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个地横置放进战场。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地橫置放進戰場。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_LAND_TO_PUT_INTO_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a land to put into your hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un terrain pour le mettre dans votre main.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una tierra para poner en tu mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme ein Land, das du auf deine Hand nimmst.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una terra da aggiungere alla tua mano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたの手札に戻す土地を１つ選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신의 손으로 가져갈 대지 한 개를 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите землю, которую нужно положить в вашу руку.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um terreno para colocar na sua mão.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要置于你手上的地。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個地置入你的手牌。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Select this card to put it on top of your library. Otherwise, it will be put on the bottom of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sélectionnez cette carte pour la mettre au-dessus de votre bibliothèque. Sinon, elle sera mise au-dessous de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Selecciona esta carta para ponerla en la parte superior de tu biblioteca. De lo contrario, irá al fondo de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wähle diese Karte aus, um sie auf deine Bibliothek zu legen. Andernfalls wird sie unter deine Bibliothek gelegt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Seleziona questa carta per metterla in cima al tuo grimorio. Altrimenti, verrà messa in fondo al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このカードを選び、ライブラリーの一番上に置く。そうしない場合、そのカードはライブラリーの一番下に置かれます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 카드를 선택하여 당신의 서고 맨 위에 놓으십시오. 그렇지 않으면, 그 카드는 당신의 서고 맨 밑에 넣어집니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите эту карту, чтобы положить ее на верх вашей библиотеки. В противном случае она будет положена в низ вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Selecione este card para colocá-lo no topo do seu grimório. Do contrário, ele será colocado no fundo do seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[如果你要将此牌置于你的牌库顶，请选择它。否则，它将被置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[如果你要將此牌置於你的牌庫頂，請選擇它。否則，它將置於你的牌庫底。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_BOTTOM">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bottom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessous]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番下]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 밑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В низ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库底]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫底]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_TOP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Top]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Parte superior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In cima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番上]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 위]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На верх]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Topo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库顶]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫頂]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to put this card on the top or bottom of your library?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous mettre cette carte au-dessus ou au-dessous de votre bibliothèque ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Vas a poner esta carta en la parte superior o en el fondo de tu biblioteca?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diese Karte auf oder unter deine Bibliothek legen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi mettere questa carta in cima o in fondo al tuo grimorio?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[そのカードをライブラリーの一番上に置きますか？　それとも一番下に置きますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 카드를 서고 맨 밑에 넣으시겠습니까? 아니면 맨 위에 놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите положить эту карту на верх или в низ вашей библиотеки?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de colocar este card no topo ou no fundo do seu grimório?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要将此牌置于你的牌库顶还是牌库底？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要將此牌置於你的牌庫頂還是牌庫底？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_RAMP_WHY_PLAY" removal_tag="HINT_SPELL_RAMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

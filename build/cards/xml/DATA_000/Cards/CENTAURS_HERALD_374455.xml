@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="CENTAURS_HERALD_374455" />
+  <CARDNAME text="CENTAURS_HERALD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Centaur’s Herald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Héraut du centaure]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Heraldo del centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Heroldin des Zentauren]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Messaggera del Centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケンタウルスの伝（でん）令（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[켄타우로스의 전령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вестница Кентавра]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arauto do Centauro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[半人马的传令使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[半人馬的傳令使]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374455" />
+  <ARTID value="145872" />
+  <ARTIST name="Howard Lyon" />
+  <CASTING_COST cost="{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The farther they go from Vitu-Ghazi, the less willing the crowd is to part for them.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Plus ils s'éloignent de Vitu-Ghazi, moins la foule est désireuse de les laisser passer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuanto más se alejaban de Vitu-Ghazi, menos dispuesta estaba la gente a abrirles paso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Je weiter sie sich von Vitu-Ghazi entfernen, desto unwilliger macht man ihnen Platz.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Più si allontanano da Vitu-Ghazi, più la folla è riluttante a parteggiare per loro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ヴィトゥ＝ガジーから遠く離れるにつれて、群衆はそこから離れがたく感じるのだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비투-가지로부터 멀어질수록 사람들이 그들을 위해 길을 비켜주는 경우가 줄어든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чем дальше они отходят от Виту-Гази, тем менее охотно расступается перед ними толпа.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quanto mais eles se afastam de Vitu-Ghazi, menos a multidão se dispõe a lhes dar passagem.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[他们离维图加基越远，就让群众越加忠贞。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[他們離維圖加基越遠，就讓群眾越加忠貞。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Scout" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="0" />
+  <TOUGHNESS value="1" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{G}, Sacrifice Centaur’s Herald: Put a 3/3 green Centaur creature token onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{G}, sacrifiez le Héraut du centaure : Mettez sur le champ de bataille un jeton de créature 3/3 verte Centaure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{G}, sacrificar la Heraldo del centauro: Pon en el campo de batalla una ficha de criatura Centauro verde 3/3.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{G}, opfere die Heroldin des Zentauren: Bringe einen 3/3 grünen Zentaur-Kreaturenspielstein ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{G}, Sacrifica la Messaggera del Centauro: Metti sul campo di battaglia una pedina creatura Centauro 3/3 verde.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}, ケンタウルスの伝令を生け贄に捧げる：緑の３/３のケンタウルス・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{G}, 켄타우로스의 전령을 희생한다: 3/3 녹색 켄타우로스 생물 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{G}, пожертвуйте Вестницу Кентавра: положите на поле битвы одну фишку существа 3/3 зеленый Кентавр.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{G}, Sacrifique Arauto do Centauro: Coloque no campo de batalha uma ficha de criatura verde 3/3 do tipo Centauro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{G}，牺牲半人马的传令使：将一个3/3绿色半人马衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{G}，犧牲半人馬的傳令使：將一個3/3綠色半人馬衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{G}" type="Mana" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_CENTAUR_3_3_G_377544", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_CREATURE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_ATTACKERS" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CENTAUR_3_3_G_377544" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

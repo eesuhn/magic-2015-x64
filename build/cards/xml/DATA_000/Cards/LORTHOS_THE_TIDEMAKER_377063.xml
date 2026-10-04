@@ -1,0 +1,149 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="129">
+  <FILENAME text="LORTHOS_THE_TIDEMAKER_377063" />
+  <CARDNAME text="LORTHOS_THE_TIDEMAKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Lorthos, the Tidemaker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Lorthos, le Faiseur de marées]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Lorthos, el creador de mareas]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lorthos, der Gezeitenmacher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lorthos, lo Spostamaree]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮（ちょう）汐（せき）を作（つく）るもの、ロートス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파도를 부르는 로토스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Лортос, Творец Приливов]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Lorthos, o Forma-maré]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[兴潮罗佐司]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[興潮羅佐司]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377063" />
+  <ARTID value="123706" />
+  <ARTIST name="Kekai Kotaki" />
+  <CASTING_COST cost="{5}{U}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Lorthos emerges from his deepwater realm, the tides bow to his will and the coastline cowers in his presence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand Lorthos surgit des profondeurs de son royaume, les marées se plient à ses désirs et la côte tremble en sa présence.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Lorthos emerge de su reino en las profundidades, las mareas se inclinan a su voluntad y la costa se acobarda ante su presencia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Lorthos aus seinem Tiefseereich auftaucht, fügt sich die Flut seinem Willen, und die Küste zieht sich zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando Lorthos emerge dal suo reame delle profondità, le maree si inchinano al suo volere e la costa si prostra alla sua presenza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ロートスが深海の王国から姿を現す時、潮流は彼の意志に頭を下げ、海岸は彼の存在に恐れおののく。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[심해에 있던 파도를 부르는 로토스가 부상하면 엄청난 파도가 일고 해안 지대 사람들은 두려움에 떤다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Лортос поднимается на поверхность из своего глубоководного царства, приливы подчиняются его воле, а побережье сжимается от страха.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Lorthos emerge de seu reino abissal, as marés curvam-se ao seu comando e o litoral encolhe-se em sua presença.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[罗佐司从其深海国度现身，潮浪为其意志而躬身行礼，海岸见其身形即畏缩奔逃。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[羅佐司從其深海國度現身，潮浪為其意志而躬身行禮，海岸見其身形即畏縮奔逃。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Octopus" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="8" />
+  <TOUGHNESS value="8" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Lorthos, the Tidemaker attacks, you may pay {8}. If you do, tap up to eight target permanents. Those permanents don’t untap during their controllers’ next untap steps.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que Lorthos, le Faiseur de marées attaque, vous pouvez payer {8}. Si vous faites ainsi, engagez jusqu’à huit permanents ciblés. Ces permanents ne se dégagent pas pendant les prochaines étapes de dégagement de leurs contrôleurs.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que Lorthos, el creador de mareas ataque, puedes pagar {8}. Si lo haces, gira hasta ocho permanentes objetivo. Esos permanentes no se enderezan durante el próximo paso de enderezar de sus controladores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn Lorthos der Gezeitenmacher angreift, kannst du {8} bezahlen. Falls du das tust, tappe bis zu acht bleibende Karten deiner Wahl. Diese bleibenden Karten enttappen nicht während des nächsten Enttappsegments ihrer Beherrscher.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta Lorthos, lo Spostamaree attacca, puoi pagare {8}. Se lo fai, TAPpa fino a otto permanenti bersaglio. Quei permanenti non STAPpano durante i prossimi STAP dei loro controllori.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[潮汐を作るもの、ロートスが攻撃するたび、最大８つまでのパーマネントを対象とする。あなたは{8}を支払ってもよい。そうしたなら、それらのパーマネントをタップする。それらのパーマネントは、それらのパーマネントのコントローラーの次のアンタップ・ステップにアンタップしない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[파도를 부르는 로토스가 공격할 때마다, 당신은 {8}을 지불할 수 있다. 그렇게 한다면, 지속물 여덟 개를 목표로 정한다. 그 지속물들을 탭한다. 그 지속물들은 조종자의 다음 언탭단에 언탭되지 않는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Лортос, Творец Приливов атакует, вы можете заплатить {8}. Если вы это делаете, поверните не более восьми целевых перманентов. Те перманенты не разворачиваются во время следующих шагов разворота контролирующих их игроков.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Lorthos, o Forma-Mmaré, ataca, você pode pagar {8}. Se fizer isso, vire até oito permanentes alvo. Essas permanentes não desviram durante a próxima etapa de desvirar de seus controladores.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当兴潮罗佐司攻击时，你可以支付{8}。若你如此作，横置至多八个目标永久物。这些永久物于其操控者的下一个重置步骤中不能重置。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當興潮羅佐司攻擊時，你可以支付{8}。若你如此作，橫置至多八個目標永久物。這些永久物於其操控者的下一個重置步驟中不能重置。]]></LOCALISED_TEXT>
+    <TRIGGER value="ATTACKING" simple_qualifier="self" />
+    <TARGET tag="CARD_QUERY_CHOOSE_PERMANENT_TO_TAP_AND_HOLD" definition="0" compartment="0" count="8" up_to="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_IS_PERMANENT, true )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayResourceCost(1) then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_LORTHOS_ANSWER_PAY_8" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_LORTHOS_ANSWER_DO_NOT_PAY_8" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_LORTHOS_QUESTION", TriggerObject() )
+    		EffectDC():Set_Int(1, 1)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local queryResult = EffectController():GetMultipleChoiceResult()
+    local questionFlag = EffectDC():Get_Int(1)
+    if questionFlag == 1 then
+    	if queryResult == 0 then
+    		if EffectController():CanPayResourceCost( 1 ) then
+    				EffectController():PayResourceCost( 1 )
+    				for i = 0,(8-1) do
+    				local target_card = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    				if target_card ~= nil then
+    					target_card:TapAndHold()
+    				end
+    			end
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <UTILITY_ABILITY resource_id="1" qualifier="Resource">
+    <COST mana_cost="{8}" type="Mana" />
+  </UTILITY_ABILITY>
+  <SFX text="COMBAT_STORM_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_STORM_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="1800" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PERMANENT_TO_TAP_AND_HOLD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a permanent to tap. It won’t untap during its controller’s next untap step.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un permanent pour l'engager. Il ne se dégagera pas pendant la prochaine étape de dégagement de son contrôleur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un permanente para girarlo. No se enderezará durante el próximo paso de enderezar de su controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine bleibende Karte, die getappt werden soll. Sie enttappt nicht während des nächsten Enttappsegments ihres Beherrschers.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un permanente da TAPpare. Non STAPperà durante il prossimo STAP del suo controllore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タップするパーマネントを１つ選んでください。 それは、それのコントローラーの次のアンタップ・ステップにアンタップしません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[탭할 지속물 한 개를 고르십시오. 그것은 조종자의 다음 언탭단에 언탭되지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите перманент для поворота. Он не развернется во время следующего шага разворота контролирующего его игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma permanente para virar. Ela não desvira durante a próxima etapa de desvirar de seu controlador.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个要横置的永久物。它于其操控者的下一个重置步骤中不会重置。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個永久物來橫置。它在其操控者的下一個重置步驟中不重置。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_LORTHOS_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {8} to tap up to eight permanents?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous payer {8} pour engager jusqu'à huit permanents ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {8} para girar hasta ocho permanentes?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {8} bezahlen, um bis zu acht bleibende Karten zu tappen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {8} per TAPpare fino a otto permanenti?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{8}を支払って最大８枚までのパーマネントをタップしますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{8}를 지불하여 지속물을 여덟 개까지 탭하시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {8} и повернуть не более восьми целевых перманентов?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de pagar {8} para virar até oito permanentes?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想要支付{8}来橫置至多八个永久物吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想要支付{8}來橫置至多八個永久物嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_LORTHOS_ANSWER_PAY_8">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pay {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Payez {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pagar {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{8} bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{8}を支払う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{8}를 지불하십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Заплатить {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pague {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[支付{8}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[支付{8}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_LORTHOS_ANSWER_DO_NOT_PAY_8">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne payez pas {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{8} nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{8}を支払わない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{8}를 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pague {8}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付{8}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付{8}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

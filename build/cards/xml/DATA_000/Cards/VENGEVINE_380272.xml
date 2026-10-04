@@ -1,0 +1,98 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="1129">
+  <FILENAME text="VENGEVINE_380272" />
+  <CARDNAME text="VENGEVINE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Vengevine]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vengeliane]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Parra vengadora]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Racheranke]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Liane Vendicative]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[復（ふく）讐（しゅう）蔦（づた）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[복수의 덩굴]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мстящий Лозовик]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trepadeira Vingativa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[复仇藤蔓]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[復仇藤蔓]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380272" />
+  <ARTID value="149981" />
+  <ARTIST name="Trevor Claxton" />
+  <CASTING_COST cost="{2}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Leave but a shred of root and it will return, bursting with vigor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Laissez juste un bout de racine et elle reviendra, pleine de vigueur.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Basta con que dejes un trozo de la raíz para que regrese, estallando con fuerza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Lass nur ein Fitzel ihrer Wurzel übrig, und sie kommt voller Vitalität zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Lascia anche solo un pezzetto di radice e torneranno, strapiene di vigore.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[それは放置された根の一欠片からですら復活し、活力をみなぎらせる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[그것은 뿌리 한 가닥만 남아도 다시 무성하게 자란다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стоит оставить малейший обрывок корешка, и он вернется, исполненный новых сил.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Basta um fragmento de raiz para que ela volte cheia de vigor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[就算只留下一小片根，它也会精神十足地再度冒出来。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[就算只留下一小片根，它也會精神十足地再度冒出來。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="M" />
+  <POWER value="4" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Haste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Célérité]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Prisa.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Rapidità]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[速攻]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[신속]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ускорение]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Ímpeto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[敏捷]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_HASTE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY active_zone="ZONE_GRAVEYARD">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you cast a spell, if it’s the second creature spell you cast this turn, you may return Vengevine from your graveyard to the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous lancez un sort, si c’est le deuxième sort de créature que vous lancez ce tour-ci, vous pouvez renvoyer sur le champ de bataille la Vengeliane depuis votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que lances un hechizo, si es el segundo hechizo de criatura que lanzaste este turno, puedes regresar la Parra vengadora de tu cementerio al campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du einen Zauberspruch wirkst und falls es der zweite Kreaturenzauber ist, den du in diesem Zug wirkst, kannst du die Racheranke aus deinem Friedhof ins Spiel zurückbringen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta lanci una magia, se è la seconda magia creatura che lanci in questo turno, puoi rimettere sul campo di battaglia le Liane Vendicative dal tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたが呪文を１つ唱えるたび、それがこのターンにあなたが唱えた２つ目のクリーチャー・呪文である場合、あなたはあなたの墓地にある復讐蔦を戦場に戻してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 주문을 발동할 때마다, 그 주문이 이 턴에 당신이 발동한 두 번째 생물 주문이라면, 당신은 복수의 덩굴을 당신의 무덤에서 전장으로 되돌릴 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы разыгрываете заклинание, если это второе заклинание существа, которое вы разыгрываете в этом ходу, вы можете вернуть Мстящего Лозовика из вашего кладбища на поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você conjura uma mágica, se for a segunda mágica de criatura que conjura neste turno, você pode devolver Trepadeira Vingativa de seu cemitério ao campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你施放咒语时，若这是你本回合施放的第二个生物咒语，你可以将复仇藤蔓从你的坟墓场移回战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你施放咒語時，若這是你本回合施放的第二個生物咒語，你可以將復仇藤蔓從你的墳墓場移回戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="SPELL_PLAYED" simple_qualifier="objectyoucontrol" />
+    <INTERVENING_IF ignore_resolution_check="1">
+    if TriggerObject():GetCardType():Test( CARD_TYPE_CREATURE ) then
+    	local interrogation = MTG():ClearInterrogationQuery()
+    	interrogation:SetType( CARD_TYPE_CREATURE )
+    	interrogation:SetPlayer( EffectController() )
+    	local num_creature_spells = interrogation:Count( INTERROGATE_SPELLS_CAST, INTERROGATE_THIS_TURN, 3 )
+    	
+    	if num_creature_spells == 2 then
+    		return true
+    	end
+    end
+    return false
+    </INTERVENING_IF>
+    <MAY />
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if  effectSource ~= nil then
+    	effectSource:PutOntoBattlefield( EffectController() )
+    end  
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="40" resource_name="Graveyard" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <HELP title="MORE_INFO_BADGE_TITLE_14" body="MORE_INFO_BADGE_BODY_14" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="450" zone="ZONE_GRAVEYARD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="215">
+  <FILENAME text="OPAL_LAKE_GATEKEEPERS_374533" />
+  <CARDNAME text="OPAL_LAKE_GATEKEEPERS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Opal Lake Gatekeepers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Gardiens des portes du Lac d'Opale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Porteros del Lago Ópalo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Torwächter des Opalsees]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardacancelli del Lago Opale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オパール湖（こ）の門（もん）番（ばん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오팔 호수 관문수호자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Привратники Опалового Озера]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Porteiros do Lago de Opala]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[清辉湖门卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[清輝湖門衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374533" />
+  <ARTID value="147786" />
+  <ARTIST name="Seb McKinnon" />
+  <CASTING_COST cost="{3}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Sentries guard Ravnica’s landmarks and outlying districts, unaware of these places’ import to the maze.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les sentinelles protègent les monuments et leurs circonscriptions en ignorant tout de leur importance au sein du labyrinthe.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los centinelas custodian los lugares importantes de Rávnica y sus distritos periféricos ajenos al hecho de que esos lugares forman parte del laberinto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wachposten behüten Ravnicas Denkmäler und äußere Distrikte, ohne sich der Bedeutung dieser Orte für das Labyrinth bewusst zu sein.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le sentinelle sorvegliano i monumenti e i distretti esterni di Ravnica, ignare del significato di questi luoghi per il labirinto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歩哨たちはラヴニカの史跡や辺境地を警備しているが、それらの場所が迷路にとってどれだけ重要かは把握していない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[라브니카의 명소와 외곽 지역의 보초들은 자신들이 지키는 곳에 미로의 해답이 숨겨져 있다는 것은 전혀 눈치채지 못하고 있다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стражники охраняют памятные места и отдаленные уголки Равники, не ведая о том, какую роль они играют в лабиринте.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sentinelas guardam os pontos de referência e os distritos mais distantes de Ravnica, ignorantes da importância desses lugares para o labirinto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[哨兵负责看守拉尼卡的地标和外围区域，却完全不知道这些地方对迷宫有多重要。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[哨兵負責看守拉尼卡的地標和外圍區域，卻完全不知道這些地方對迷宮有多重要。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vedalken" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="4" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Opal Lake Gatekeepers enters the battlefield, if you control two or more Gates, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand les Gardiens des portes du Lac d’Opale arrivent sur le champ de bataille, si vous contrôlez au moins deux portes, vous pouvez piocher une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando los Porteros del Lago Ópalo entren al campo de batalla, si controlas dos o más Portales, puedes robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Torwächter des Opalsees ins Spiel kommen und falls du zwei oder mehr Tore kontrollierst, kannst du eine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando i Guardacancelli del Lago Opale entrano nel campo di battaglia, se controlli due o più Cancelli, puoi pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[オパール湖の門番が戦場に出たとき、あなたが門を２つ以上コントロールしている場合、あなたはカードを１枚引いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[오팔 호수 관문수호자가 전장에 들어올 때, 당신이 관문을 두 개 이상 조종하고 있다면, 당신은 카드 한 장을 뽑을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Привратники Опалового Озера выходят на поле битвы, если под вашим контролем есть двое или более Врат, вы можете взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Porteiros do Lago de Opala entrar no campo de batalha, se você controlar dois ou mais Portões, poderá comprar um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当清辉湖门卫进战场时，若你操控两个或更多门，你可以抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當清輝湖門衛進戰場時，若你操控兩個或更多門，你可以抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local filter = ClearFilter()
+    filter:Add( FE_SUBTYPE, OP_IS, LAND_TYPE_GATE )
+    filter:Add( FE_CONTROLLER, OP_IS, EffectController())
+    local total = filter:Count()
+    if total &gt; 1 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+    <MAY />
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

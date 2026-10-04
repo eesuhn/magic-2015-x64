@@ -1,0 +1,163 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="217">
+  <FILENAME text="KALASTRIA_HIGHBORN_382195" />
+  <CARDNAME text="KALASTRIA_HIGHBORN" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Kalastria Highborn]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Patricienne des Kalastria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aristócrata Kalastria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hochgeborene Kalastria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nobile Kalastria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カラストリアの貴（き）人（じん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[칼라스트리아 귀족]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Аристократка из Рода Каластрия]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fidalga Kalastria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[卡列奇望族]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[卡列奇望族]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382195" />
+  <ARTID value="124406" />
+  <ARTIST name="D. Alexander Gregory" />
+  <CASTING_COST cost="{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Each of Malakir’s great families boasts a contingent of nulls appropriate to its rank in society.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chacune des grandes familles de Malakir affiche un contingent d'inféconds approprié à son rang dans la société.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cada una de las grandes familias de Malakir tiene un contingente de nulos adecuado con su rango en la sociedad.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jede der bedeutenden Familien von Malakir hat ein Kontingent an Nullen, das ihrem Rang in der Gesellschaft entspricht.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Tutte le famiglie nobili di Malakir si vantano di possedere un certo numero di nulli appropriato al loro livello sociale.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[マラキールの偉大なる一族は、その社会的地位に応じた虚身の部隊を自慢としている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[말라키르의 유력 가문들은 각각 지위에 맞는 하수인 부대를 운영한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждое из великих семейств Малакира имеет в своем распоряжении целую свиту вампиров-ничтожеств, подобающую его положению в обществе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cada uma das grandes famílias de Malakir orgulha-se de ter um contingente de nulos apropriado à sua posição na sociedade.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[马拉奇的每个大家族，都拥有与其社会地位相衬的大群躯壳随行。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[馬拉奇的每個大家族，都擁有與其社會地位相襯的大群軀殼隨行。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Vampire" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que la Patricienne des Kalastria ou qu’un autre vampire que vous contrôlez meurt, vous pouvez payer {B}. Si vous faites ainsi, le joueur ciblé perd 2 points de vie et vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que la Aristócrata Kalastria u otro Vampiro que controlas muera, puedes pagar {B}. Si lo haces, el jugador objetivo pierde 2 vidas y tú ganas 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn die Hochgeborene Kalastria oder ein anderer Vampir, den du kontrollierst, stirbt, kannst du {B} bezahlen. Falls du dies tust, verliert ein Spieler deiner Wahl 2 Lebenspunkte, und du erhältst 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta la Nobile Kalastria o un altro Vampiro che controlli muore, puoi pagare {B}. Se lo fai, un giocatore bersaglio perde 2 punti vita e tu guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[カラストリアの貴人かあなたがコントロールする他の吸血鬼が１体死亡するたび、プレイヤー１人を対象とする。あなたは{B}を支払ってもよい。そうしたなら、そのプレイヤーは２点のライフを失い、あなたは２点のライフを得る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[칼라스트리아 귀족이나 당신이 조종하는 다른 흡혈귀 생물이 죽을 때마다, 당신은 {B}를 지불할 수 있다. 당신이 그렇게 한다면 플레이어 한 명을 목표로 정한다. 그 플레이어는 생명 2점을 잃고 당신은 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда Аристократка из Рода Каластрия или другой Вампир под вашим контролем умирает, вы можете заплатить {B}. Если вы это делаете, целевой игрок теряет 2 жизни, а вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que Fidalga Kalastria ou outro Vampiro que você controla morre, você pode pagar {B}. Se fizer isso, o jogador alvo perderá 2 pontos de vida e você ganhará 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当卡列奇望族或由你操控的另一个吸血鬼死去时，你可以支付{B}。若你如此作，则目标牌手失去2点生命且你获得2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當卡列奇望族或由你操控的另一個吸血鬼死去時，你可以支付{B}。若你如此作，則目標玩家失去2點生命且你獲得2點生命。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="objectyoucontrol" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD">
+    return TriggerObject():GetSubType():Test( CREATURE_TYPE_VAMPIRE ) or TriggerObject() == EffectSource()
+    </TRIGGER>
+    <TARGET tag="CARD_QUERY_CHOOSE_PLAYER_LOSE_2_CONTROLLER_GAINS_2" definition="0" compartment="0">
+    if EffectController():CanPayManaCost("{B}") then
+    	MTG():SetTargetCount(1)
+    else
+    	MTG():SetTargetCount(0)
+    end
+    </TARGET>
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local effectController = EffectController()
+    if effectController ~= nil then
+    	if effectController:CanPayManaCost("{B}") then
+    		effectController:BeginNewMultipleChoice()   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_PAY_B" )   
+    		effectController:AddMultipleChoiceAnswer( "CARD_QUERY_ANSWER_DO_NOT_PAY_B" )   
+    		effectController:AskMultipleChoiceQuestion( "CARD_QUERY_QUESTION_KALASTRIA_HIGHBORN" )
+    		EffectDC():Set_Int(1, 1)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local targetDC = EffectDC():Get_Targets(0) 
+    if targetDC ~= nil then
+    	local target = targetDC:Get_PlayerPtr(0)
+    	local questionAskedFlag = EffectDC():Get_Int(1)
+    	if questionAskedFlag == 1 and target ~= nil then
+    		if EffectController():GetMultipleChoiceResult() ==0 then
+    			EffectController():PayManaCost("{B}")
+    			target:LoseLife( 2)
+    			EffectController():GainLife(2)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+    <AUTO_SKIP>
+    if EffectController():CanPayManaCost("{B}") then
+    	return false
+    else
+    	return true
+    end
+    </AUTO_SKIP>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="700" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="25" resource_subtype="VAMPIRE" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_PAY_B">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Yes, pay {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Oui, payez {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sí, pagar {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Ja, {B} bezahlen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Paga {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[はい、{B}を支払います。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}를 지불합니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Да, заплатить {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Sim, pague {B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[是的，支付{B}]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[是的，支付{B}]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_ANSWER_DO_NOT_PAY_B">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Do not pay {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ne payez pas {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No pagar {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B} nicht bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non pagare {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}を支払いません。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}를 지불하지 않습니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не платить {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não pague {B}.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[不支付{B}。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[不支付{B}。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_QUESTION_KALASTRIA_HIGHBORN">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to pay {B} and have target player lose 2 life and you gain 2 life?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Aimeriez-vous payer {B} et faire que le joueur ciblé perde 2 points de vie et que vous gagniez 2 points de vie ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres pagar {B} para que el jugador objetivo pierda 2 vidas y tú ganes 2 vidas?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du {B} bezahlen, um einen Spieler deiner Wahl 2 Lebenspunkte verlieren und dich 2 Lebenspunkte dazuerhalten zu lassen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi pagare {B} per far perdere 2 punti vita a un giocatore bersaglio e guadagnare 2 punti vita?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}を支払って、そのプレイヤーに２点のライフを失わせ、自分に２点のライフが入るようにしますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}를 지불하여 생명 2점을 잃을 플레이어를 목표로 정하고 생명 2점을 얻으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите заплатить {B}, заставить целевого игрока потерять 2 жизни и получить 2 жизни?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Deseja pagar {B} e fazer com que o jogador alvo perca 2 pontos de vida e que você ganhe 2 pontos de vida?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要支付{B}，并令目标牌手失去2点生命且你获得2点生命吗？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要支付{B}，並令目標玩家失去2點生命且你獲得2點生命嗎？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_PLAYER_LOSE_2_CONTROLLER_GAINS_2">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to lose 2 life. You gain 2 life.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour lui faire perdre 2 points de vie. Vous gagnez 2 points de vie.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que pierda 2 vidas. Gana 2 vidas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der 2 Lebenspunkte verlieren soll. Du erhältst 2 Lebenspunkte dazu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che perde 2 punti vita. Guadagni 2 punti vita.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[２点のライフを失うプレイヤーを１人選んでください。あなたは２点のライフを得ます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생명 2점을 잃을 플레이어 한 명을 고른다. 당신은 생명 2점을 얻는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен потерять 2 жизни. Вы получаете 2 жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para perder 2 pontos de vida. Você ganha 2 pontos de vida.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手失去2点生命。你获得2点生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來失去2點生命。你獲得2點生命。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

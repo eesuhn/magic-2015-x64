@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="579">
+  <FILENAME text="BIDENT_OF_THASSA_380289" />
+  <CARDNAME text="BIDENT_OF_THASSA" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bident of Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bident de Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Bidente de Tassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zweizack der Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Bidente di Thassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[タッサの二（ふた）叉（また）槍（やり）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[타사의 쌍지창]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Двузубец Тассы]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Bidente de Tassa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[塔萨的双叉戟]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[塔薩的雙叉戟]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380289" />
+  <ARTID value="149970" />
+  <ARTIST name="Yeong-Hao Han" />
+  <CASTING_COST cost="{2}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The wills of mortals shift as the tide ebbs and flows.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La volonté des mortels varie au rythme des marées.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La voluntad de los mortales cambia con el flujo y reflujo de la marea.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Wille der Sterblichen ändert sich mit dem Wechsel der Gezeiten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La volontà dei mortali è mutevole come la marea. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[定命の者の意志は、潮の満ち引きのごとく移ろいやすい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[필멸자들의 의지는 마치 밀물과 썰물처럼 흔들린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Воля смертных колеблется вместе с приливами и отливами.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As vontades dos mortais mudam como o vai e vem das marés.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[凡人的愿望如潮汐般多变。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[凡人的願望如潮汐般多變。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <SUPERTYPE metaname="Legendary" />
+  <TYPE metaname="Enchantment" />
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever a creature you control deals combat damage to a player, you may draw a card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois qu’une créature que vous contrôlez inflige des blessures de combat à un joueur, vous pouvez piocher une carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que una criatura que controlas haga daño de combate a un jugador, puedes robar una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn eine Kreatur, die du kontrollierst, einem Spieler Kampfschaden zufügt, kannst du eine Karte ziehen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta una creatura che controlli infligge danno da combattimento a un giocatore, puoi pescare una carta.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがコントロールするクリーチャー１体がプレイヤー１人に戦闘ダメージを与えるたび、あなたはカードを１枚引いてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 조종하는 생물이 플레이어에게 전투피해를 입힐 때마다, 당신은 카드 한 장을 뽑을 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда существо под вашим контролем наносит боевые повреждения игроку, вы можете взять карту.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que uma criatura que você controla causa dano de combate a um jogador, você pode comprar um card.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当一个由你操控的生物对任一牌手造成战斗伤害时，你可以抓一张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當一個由你操控的生物對任一玩家造成戰鬥傷害時，你可以抽一張牌。]]></LOCALISED_TEXT>
+    <TRIGGER value="SOURCE_DEALS_DAMAGE_TO_PLAYER" simple_qualifier="objectyoucontrol" damage_type="combat">
+    return TriggerObject():GetCardType():Test(CARD_TYPE_CREATURE)
+    </TRIGGER>
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(1)
+    </RESOLUTION_TIME_ACTION>
+    <MAY tag="CARD_QUERY_DRAW_A_CARD" always_prompt="1">
+    -- AI behaviour
+    if EffectController():Library_Count() &lt; 10 then
+    	return false
+    else
+    	return true
+    end
+    </MAY>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{U}, {T}: Creatures your opponents control attack this turn if able.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{U}, {T} : Les créatures que vos adversaires contrôlent attaquent ce tour-ci si possible.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{U}, {T}: Las criaturas que controlan tus oponentes atacan este turno si pueden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{U}, {T}: Kreaturen, die deine Gegner kontrollieren, greifen in diesem Zug an, falls möglich.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{U}, {T}: Le creature controllate dai tuoi avversari attaccano in questo turno, se possono farlo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{U}, {T}：対戦相手がコントロールするクリーチャーは、このターン可能なら攻撃する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{U}, {T}: 당신의 상대들이 조종하는 생물들은 가능하면 이 턴에 공격해야 한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{U}, {T}: существа под контролем ваших оппонентов атакуют в этом ходу, если могут.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{U}, {T}: As criaturas que seus oponentes controlam atacam neste turno se estiverem aptas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}{U}，{T}：由对手操控的生物本回合若能攻击，则必须攻击。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}{U}，{T}：由對手操控的生物本回合若能攻擊，則必須攻擊。]]></LOCALISED_TEXT>
+    <SFX text="GLOBAL_WARP_PLAY" />
+    <COST mana_cost="{1}{U}" type="Mana" />
+    <COST type="TapSelf" />
+    <FILTER filter_id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE  )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </FILTER>
+    <CONTINUOUS_ACTION layer="8" filter_id="0">
+    if FilteredCard() ~= nil then
+    	local characteristics = FilteredCard():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_MUST_ATTACK_EACH_TURN, 1 )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_COMBAT_TRICK_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_BEGIN_COMBAT" window_turn="their_turn" type="window" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="1200" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_PLAY" removal_tag="HINT_ENCHANTMENT_GLOBAL_SYNERGY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

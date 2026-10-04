@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="55">
+  <FILENAME text="DUSKDALE_WURM_369524" />
+  <CARDNAME text="DUSKDALE_WURM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Duskdale Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guivre de Valsoir]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sierpe del valle crepuscular]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Düstertal-Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Wurm di Valle Oscura]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[夕（ゆう）暮（ぐ）れ谷（だに）のワーム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[더스크데일 웜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Чащобный Вурм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vorme do Vale do Crepúsculo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[暮谷亚龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[暮谷亞龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="369524" />
+  <ARTID value="113643" />
+  <ARTIST name="Dan Dos Santos" />
+  <CASTING_COST cost="{5}{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Last time, it tore up the Wilt-Leaf, turned Mistmeadow into a mudhole, and made the river jump its banks. On the bright side, we were eating venison for weeks.”
+—Donal Alloway, cenn of Kinscaer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« La dernière fois, elle a détruit Feuilleterne, transformé Brumeprairie en mare de boue et fait déborder la rivière. D'un autre côté, on a mangé du gibier pendant des semaines. »
+—Donal Alloway, cenn de Kinscaër]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La última vez destruyó Hojas Marchitas, convirtió Pradera Brumosa en un cenagal e hizo al río inundarlo todo. El lado bueno fue que comimos carne de venado por semanas.”
+—Donal Alloway, cenn de Kinscaer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Beim letzten Mal hat er den Gilblaubwald aufgerissen, die Nebelwiese in ein Schlammloch verwandelt und den Fluss über die Ufer treten lassen. Die gute Seite war, dass wir danach noch wochenlang Wildbret zu essen hatten.“
+—Donal Alloway, Schulze von Kinscaer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“L'ultima volta, ha estirpato Foglia Secca, trasformato la Prateria Brumosa in una buca fangosa e fatto straripare il fiume. La cosa positiva è che abbiamo mangiato selvaggina per settimane.”
+—Donal Alloway, cenn di Kinscaer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「前の時は、こいつは萎れ葉を引き裂き、ミストメドウを泥穴に変え、川の水を岸へと打ち上げたんだ。良い点から言えば、我々はずっと鹿肉ばかり食えたんだな。」
+――キンザーの主、ドナル・アロウェイ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“지난번에 녀석이 윌트-리프를 쑥대밭으로 만들었지. 미스트메도우가 진창으로 변하고 강이 범람하더군. 그래도 몇 주 동안 사슴고기는 실컷 먹었어."
+—킨스케이르의 세엔 도날 알로웨이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«В прошлый раз он разворотил Темнолесье, превратил Туманолужье в грязную яму и заставил выйти из берегов целую реку. Хотя, благодаря этому, мы пополнили наши запасы оленины на много недель вперед».
+— Донал Аллоуэй, городской староста Кинсара]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Da última vez, ele estraçalhou Folha Seca, transformou Nevoplanície num atoleiro e fez o rio transbordar. O lado bom foi que comemos carne de cervo por semanas a fio.”
+— Donal Alloway, cenn de Kinscaer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「他上次让枯叶林天翻地覆，将雾牧地化为泥洞，使河流溃堤。从好的方面来想，我们连续几周都可享受野味。」
+～英刹园仕绅唐诺·欧洛威]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「他上次讓枯葉林天翻地覆，將霧牧地化為泥洞，使河流潰堤。從好的方面來想，我們連續幾周都可享受野味。」
+～英剎園仕紳唐諾·歐洛威]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Wurm" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="7" />
+  <TOUGHNESS value="7" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_TRAMPLE" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WURMCOIL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

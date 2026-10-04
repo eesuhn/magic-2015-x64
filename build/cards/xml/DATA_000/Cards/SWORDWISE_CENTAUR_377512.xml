@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="123">
+  <FILENAME text="SWORDWISE_CENTAUR_377512" />
+  <CARDNAME text="SWORDWISE_CENTAUR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Swordwise Centaur]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Centaure épéiste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Centauro sapientebélico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schwertkundige Zentaurin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Centaura Sapiente delle Lame]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケンタウルスの武（ぶ）芸（げい）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[노련한 켄타우로스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Кентавр, Мастер Меча]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Centauro Mestre da Espada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[擅剑半人马]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[擅劍半人馬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377512" />
+  <ARTID value="152051" />
+  <ARTIST name="Slawomir Maniak" />
+  <CASTING_COST cost="{G}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The girl who would become the Champion of the Sun hacked furiously at the practice dummy. At last she stopped, breathing heavily, and looked up at her instructor.
+“So much anger,” said the centaur. “I will teach you the ways of war, child. But first you must make peace with yourself.”
+—The Theriad]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Celle qui deviendrait la Championne du Soleil frappait avec acharnement le mannequin d'entraînement. Elle s'arrêta enfin, respira péniblement et leva les yeux vers son instructeur.
+« Toute cette colère, dit le centaure. Je vais t'apprendre l'art de la guerre, mon enfant. Mais tu dois d'abord être en paix avec toi-même. »
+—La Thériade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[La muchacha que se convertiría en la Campeona del sol golpeaba el muñeco de práctica con furia. Al fin se detuvo, jadeando, y alzó la vista para mirar a su instructor.
+“Cuánta ira”, dijo el centauro. “Te enseñaré el arte de la guerra, pequeña, pero antes debes hacer las paces contigo misma”.
+—La Theríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Das Mädchen, das die Auserwählte der Sonne werden würde, stach wild auf die Übungspuppe ein. Schließlich ließ sie von der Puppe ab und schaute völlig außer Atem zu ihrer Lehrerin auf.
+„So viel Wut“, sagte die Zentaurin. „Ich werde dir zeigen, wie man kämpft, Kind. Aber zuerst musst du mit dir selbst Frieden schließen.“
+—Die Theriaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La ragazza che sarebbe divenuta la Campionessa del Sole colpiva furiosamente il bersaglio da allenamento. Infine si fermò, il respiro affannato, e alzò lo sguardo verso la sua istruttrice.
+“Quanta ira”, disse la centaura. “Ti insegnerò l’arte della guerra, bambina. Ma prima dovrai raggiungere la pace con te stessa.”
+—La Theriade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[後に太陽の勇者となる少女は、必死に訓練用の人型に切りつけていた。そのうち動きを止め、肩で息をしながら彼女の教官の方を見上げた。ケンタウルスは言った。「何という激しい怒りか。娘よ、私がお前に兵法の何たるかを教えよう。だがその前に、お前は自分の心の平穏を保つことを学ばねばならぬ。」
+――「テーリアス」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[태양의 용사가 되고 싶어하던 소녀는 연습 인형을 상대로 격렬하게 검을 휘둘렀다. 소녀는 마침내 공격을 멈추고 거친 숨을 쉬며 스승의 얼굴을 보았다.
+켄타우로스는 말했다. “분노로 가득찼군.” “싸우는 방법을 알려주마. 하지만 먼저 내면의 평화를 얻어야 할 것이다.”
+—테리아드]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Девочка, которой суждено было стать Поборницей Солнца, яростно наносила удары мечом тренировочному манекену. Наконец она остановилась и посмотрела на своего учителя, тяжело дыша.
+«Столько злости, — сказал кентавр. Я научу тебя искусству войны, дитя. Но сперва ты должна примириться сама с собой».
+— Териада]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[A garota que se tornaria a Campeã do Sol investiu furiosamente contra o manequim de treinamento. Finalmente ela parou, ofegante, e olhou para seu treinador.
+“Tanta raiva”, disse o centauro. ”Eu lhe ensinarei as táticas da guerra, menina. Mas você deve fazer as pazes com você mesma primeiro.”
+— A Teríada]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[日后贵为旭日天尊的小女孩眼下正对练习假人宣泄怒火。最后她气喘吁吁地停下，抬头看着导师。
+「怒气太多，」半人马说。「孩子，我会教你作战的方式。但你先得学会如何不与自己开战。」
+～《塞洛亚特》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[日後貴為旭日天尊的小女孩眼下正對練習假人宣洩怒火。最後她氣喘吁吁地停下，抬頭看著導師。
+「怒氣太多，」半人馬說。「孩子，我會教妳作戰的方式。但妳先得學會如何不與自己開戰。」
+～《塞洛亞特》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,7 @@
+﻿<card_pool id="21" plane_id="7" content_booster_uid="8" steam_id_1="300950" booster_art_location="Art_Assets\\Textures\\Boosters\\F15_3_A\\" content_id="8">
+  <card name="FRONTIER_BIVOUAC_388078" id="373" />
+  <card name="MYSTIC_MONASTERY_388080" id="374" />
+  <card name="NOMAD_OUTPOST_388081" id="375" />
+  <card name="OPULENT_PALACE_388082" id="376" />
+  <card name="SANDSTEPPE_CITADEL_388083" id="377" />
+</card_pool>

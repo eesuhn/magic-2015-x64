@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="752">
+  <FILENAME text="MARITIME_GUARD_374993" />
+  <CARDNAME text="MARITIME_GUARD" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Maritime Guard]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Garde maritime]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Guardia marítimo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Maritimer Wächter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Guardia Marittima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[臨（りん）海（かい）の護（ご）衛（えい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[해양 근위병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Морской Страж]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Guarda Marinha]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[沿海守卫]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[沿海守衛]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374993" />
+  <ARTID value="129129" />
+  <ARTIST name="Allen Williams" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Once common in the Kapsho Seas, merfolk were hunted almost to extinction. They survived those dark days and emerged calculating and determined to endure.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Autrefois prospères dans les Mers de Kapsho, les ondins furent presque chassés jusqu'à l'extinction. Ils survécurent à ces jours sombres et en émergèrent fortement calculateurs et déterminés à se battre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Aunque una vez abundaron en los Mares de Kapsho, los tritones fueron llevados casi a la extinción. Sobrevivieron a esos días oscuros y emergieron determinados a perdurar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Früher waren Meerleute im Kapshomeer häufig anzutreffen, doch dann fast ausgerottet. Sie überlebten diese dunkle Zeit und gingen berechnender und zielgerichteter aus ihr hervor.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Un tempo molto diffusi nei Mari Kapsho, i tritoni furono cacciati fin quasi all’estinzione. Sopravvissero a quei giorni oscuri ed emersero calcolatori e determinati a resistere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[かつてはカプショ海でよく見かけたマーフォークは、狩られて絶滅しかけた。彼らはその暗黒の日々を生き延び、耐え忍ぶ利己的で断固とした姿を見せている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[캅쇼 해에서 인어는 매우 흔한 존재였으나, 지금은 멸종 위기에 처한 사냥감이다. 어려운 시대를 버텨낸 인하는 면밀한 계산성과 강력한 의지를 가진 존재가 되었다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда-то мерфолки населяли море Капшо, но были практически истреблены. Они сумели пережить те темные времена и возродились, став расчетливыми и стойкими к лишениям.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Outrora figuras comuns nos Mares de Kapsho, os tritões foram caçados quase até sua extinção. Mas eles sobreviveram àqueles dias sombrios e retornaram calculistas e determinados a permanecer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[人鱼在凯普萧海曾兴盛一时，却几遭猎捕殆尽。他们已度过这段黑暗时期，谨慎地坚定生存下去。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[人魚在凱普蕭海曾興盛一時，卻幾遭獵捕殆盡。他們已度過這段黑暗時期，謹慎地堅定生存下去。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" />
+  <SUB_TYPE metaname="Soldier" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_DEFENSIVE_WHY_PLAY" removal_tag="HINT_CREATURE_DEFENSIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

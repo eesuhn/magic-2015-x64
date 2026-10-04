@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="HELLFIRE_MONGREL_374418" />
+  <CARDNAME text="HELLFIRE_MONGREL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Hellfire Mongrel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Bâtard du feu de l'enfer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Mestizo fuego infernal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Höllenfeuer-Mischling]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Meticcio di Fuoco Infernale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地（じ）獄（ごく）火（び）の雑（ざっ）種（しゅ）犬（けん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[지옥불 잡종견]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Метис Адского Огня]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Mestiço Avérneo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[狱火猎犬]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[獄火獵犬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374418" />
+  <ARTID value="123720" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{2}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[There is no fondness between the hound and its master. There is only a common appreciation of the hunt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Il n'existe aucune affection entre le limier et son maître. rien qu'une passion commune pour la chasse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[No hay cariño entre el perro y el amo. Solo existe un aprecio común por la caza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zwischen Hund und Herrn gibt es keine Freundschaft. Nur die gemeinsame Liebe zur Jagd.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Non c’è alcun affetto tra il segugio e il suo padrone. C’è solo un comune apprezzamento della caccia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[猟犬と飼い主の間には優しさなど無い。狩りに対する共通認識があるだけだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주인과 개 사이에 좋은 감정은 없었다. 그저 사냥이 좋았을 뿐이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Между псом и его хозяином нет никакой привязанности. Есть лишь общее наслаждение охотой.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Não há nenhuma afeição entre o cão de caça e seu mestre. Há apenas uma apreciação comum pela caça.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[这猎犬与主人之间没有爱。他们只共享狩猎的热情。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[這獵犬與主人之間沒有愛。他們只共用狩獵的熱情。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <SUB_TYPE metaname="Hound" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[At the beginning of each opponent’s upkeep, if that player has two or fewer cards in hand, Hellfire Mongrel deals 2 damage to him or her.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Au début de l’entretien de chaque adversaire, si ce joueur a deux cartes ou moins dans sa main, le Bâtard du feu de l’enfer lui inflige 2 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Al comienzo del mantenimiento de cada oponente, si ese jugador tiene dos o menos cartas en su mano, el Mestizo fuego infernal le hace 2 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Falls zu Beginn des Versorgungssegments jedes deiner Gegner dieser Spieler zwei oder weniger Karten auf der Hand hat, fügt ihm der Höllenfeuer-Mischling 2 Schadenspunkte zu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[All’inizio del mantenimento di ogni avversario, se quel giocatore ha due o meno carte in mano, il Meticcio di Fuoco Infernale gli infligge 2 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[各対戦相手のアップキープの開始時に、そのプレイヤーの手札にあるカードが２枚以下の場合、地獄火の雑種犬はそのプレイヤーに２点のダメージを与える。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[각 상대의 유지단 시작에, 그 플레이어의 손에 카드가 2장 이하라면, 지옥불 잡종견은 그 플레이어에게 피해 2점을 입힌다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В начале шага поддержки каждого оппонента, если у того игрока две или менее карт в руке, Метис Адского Огня наносит ему 2 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[No início da manutenção de cada oponente, se aquele jogador tiver dois ou menos cards na mão, Mestiço Avérneo causará 2 pontos de dano a ele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在每位对手的维持开始时，若该牌手的手牌为两张或更少，则狱火猎犬对他造成2点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在每位對手的維持開始時，若該玩家的手牌為兩張或更少，則獄火獵犬對他造成2點傷害。]]></LOCALISED_TEXT>
+    <TRIGGER value="BEGINNING_OF_PLAYERS_STEP">
+    return (MTG():GetStep() == STEP_UPKEEP) and (TriggerPlayer():GetTeam() ~= EffectController():GetTeam())
+    </TRIGGER>
+    <INTERVENING_IF>
+    local number = TriggerPlayer():Hand_Count()
+    if number &lt;= 2 then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if ( EffectSourceLKI() ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 2, TriggerPlayer() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <SFX text="COMBAT_FIREBALL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FIREBALL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_ABILITY_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

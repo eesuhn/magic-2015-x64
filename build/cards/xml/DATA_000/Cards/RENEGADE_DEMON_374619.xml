@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="118">
+  <FILENAME text="RENEGADE_DEMON_374619" />
+  <CARDNAME text="RENEGADE_DEMON" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Renegade Demon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Démon renégat]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Demonio renegado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Abtrünniger Dämon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Demone Rinnegato]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[反（はん）逆（ぎゃく）の悪（あく）魔（ま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변절한 악마]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Демон-Отступник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Demônio Renegado]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[反叛恶魔]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[反叛惡魔]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374619" />
+  <ARTID value="141505" />
+  <ARTIST name="Tomasz Jedruszek" />
+  <CASTING_COST cost="{3}{B}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Have you ever cornered a wounded vampire? That’s a walk in the cathedral garden in comparison.”
+—Tristen, Cathar Marshal]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Avez-vous déjà acculé un vampire blessé ? En comparaison, c'est une balade dans les jardins de la cathédrale. »
+—Tristen, maréchal cathare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Alguna vez has acorralado a un vampiro herido? Es un paseo por el jardín de la catedral comparado con esto”.
+—Tristen, mariscal cátaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Hast du jemals einen verwundeten Vampir in die Enge getrieben? Das ist im Vergleich dazu wie ein Spaziergang im Garten der Kathedrale.“
+—Tristan, Katharer-Marschall]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Hai mai intrappolato un vampiro ferito? È una passeggiata nel giardino della cattedrale, a confronto.”
+—Tristen, Maresciallo Cataro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「手負いの吸血鬼を追い詰めたことはあるか？　それと比べりゃ庭で散歩してるようなもんだぜ。」――聖戦士の司令官、トリステン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“상처 입은 흡혈귀를 궁지에 몰아본 적이 있나? 이거에 비하면 그건 대성당에서 산책하는 수준이라고.”
+—카타르군 사령관 트리스텐]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Вы когда-нибудь загоняли в угол раненого вампира? По сравнению с этим, то — просто прогулка в храмовом саду».
+— Тристен, маршал катаров]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Você já encurralou um vampiro ferido? É fácil como tirar doce de criança, comparado a isso.”
+— Tristen, Marechal Cátaro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「你是否曾将受伤的吸血鬼逼至绝路？跟这相比，那就像在教堂花园里散步。」
+～护教军将官崔德]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「你是否曾將受傷的吸血鬼逼至絕路？跟這相比，那就像在教堂花園裡散步。」
+～護教軍將官崔德]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Demon" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="5" />
+  <TOUGHNESS value="3" />
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

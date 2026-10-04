@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="50">
+  <FILENAME text="AIR_ELEMENTAL_374207" />
+  <CARDNAME text="AIR_ELEMENTAL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Air Elemental]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Élémental d'air]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elemental de aire]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Luftelementar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Elementale dell'Aria]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[大（たい）気（き）の精（せい）霊（れい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[공기의 정령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Элементаль Воздуха]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Elemental do Ar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[大气元素]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[大氣元素]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374207" />
+  <ARTID value="101044" />
+  <ARTIST name="Kev Walker" />
+  <CASTING_COST cost="{3}{U}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The East Wind, an interloper in the dominions of Westerly Weather, is an impassive-faced tyrant with a sharp poniard held behind his back for a treacherous stab.”
+—Joseph Conrad, The Mirror of the Sea]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Le Vent d'Est, un intrus dans le domaine du Temps d'Ouest, est un tyran au visage impassible et qui cache dans son dos un poignard acéré pour frapper en traître. »
+—Joseph Conrad, Le Miroir de la mer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“El viento del este, un entrometido en los dominios del clima del oeste, es un tirano impasible con una daga afilada guardada en su espalda lista para una estocada traicionera.”
+—Joseph Conrad, El espejo del mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der Ostwind ist ein Eindringling im Reich des Wetters des Westens; er ist ein Tyrann mit ungerührtem Blick, der hinter dem Rücken den Dolch schon bereit zum verräterischen Stoß hält.“
+—Joseph Conrad, Spiegel der See]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il Vento dell'Est, un intruso nei domini del Clima di Ponente, è un tiranno dal volto impassibile, con un pugnale affilato tenuto dietro la schiena, pronto per una stilettata a tradimento.”
+—Joseph Conrad, Lo Specchio del Mare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「ウェスタリーの気候の支配の中に潜り込む東風は無感情な暴君で、鋭い短剣を背中に隠し、不意の一撃を狙っている。」
+――ジョゼフ・コンラッド、
+「海の鏡」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["서부 날씨의 지배권에 침입하는 동풍은 비수를 등에 감춘 무표정한 폭군이다."
+—조셉 콘라드의 "바다의 거울"에서 발췌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Восточный Ветер, делающий набеги на владения Западного, тот — бесстрастный тиран и держит за спиной острый кинжал, готовясь нанести предательский удар».
+— Джозеф Конрад, «Зеркало морей»]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O vento leste, um intruso nos domínios do clima ocidental, é um tirano impassível com um punhal afiado oculto às costas pronto para um golpe traiçoeiro.”
+— Joseph Conrad, Espelho do Mar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「东风闯入西风时令统治区，犹如背藏利刃、面容冷漠的暴君，准备要背节行刺。」
+～约瑟夫康拉德，《如镜的大海》]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「東風闖入西風時令統治區，猶如背藏利刃、面容冷漠的暴君，準備要背節行刺。」
+～約瑟夫康拉德，《如鏡的大海》]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elemental" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_STORM_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_STORM_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

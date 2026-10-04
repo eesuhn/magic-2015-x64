@@ -1,0 +1,73 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="391">
+  <FILENAME text="SKELETAL_WURM_382156" />
+  <CARDNAME text="SKELETAL_WURM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Skeletal Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Guivre squelettique]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Sierpe esquelética]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Skelettierter Wurm]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Wurm Scheletrico]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[骸（がい）骨（こつ）のワーム]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[해골 웜]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скелетный Вурм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Vorme Esquelético]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[骷髅亚龙]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[骷髏亞龍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382156" />
+  <ARTID value="127250" />
+  <ARTIST name="Zoltan Boros &amp; Gabor Szikszai" />
+  <CASTING_COST cost="{7}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Necromancers are judged by the most powerful undead they’ve ever created. There are those who have animated just a single being, yet are considered the pinnacle of their dark craft.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les nécromanciens sont jugés en fonction des morts-vivants les plus puissants qu'ils ont jamais créés. Il y en a qui n'en ont animé qu'un, et qui sont pourtant considérés comme le pinacle de leur sombre art.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Se juzga a los nigromantes por el muerto viviente más poderoso que han creado. Algunos han animado a un único ser y, aun así, se considera que han alcanzado la cima de su oscuro oficio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nekromagier werden an dem mächtigsten Untoten gemessen, den sie je erschaffen haben. Es gibt daher welche, die zu den Großmeistern ihrer Zunft gerechnet werden, obwohl sie erst ein einziges Wesen wiederbelebt haben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I necromanti vengono giudicati per i non morti più potenti che abbiano mai creato. Vi sono alcuni che hanno animato un solo essere, ma sono considerati l’apogeo della loro arte oscura.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[屍術師は、これまでに生み出してきた最も強力なアンデッドでその力を測られる。たとえただ一匹を生み出したに過ぎなくても、闇の術の頂点を極めたとして知られる者すらいる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사령술사들은 자신이 창조한 가장 강력한 언데드가 무엇인지에 따라 실력이 평가된다. 딱 하나만 창조해도 사령술사의 정점이라 불리는 자들도 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[О мастерстве некромантов судят по наиболее могущественной нежити, которую им удалось создать. Есть и такие, кто вдохнул жизнь в одно-единственное существо, но все равно считаются непревзойденными мастерами своего темного ремесла.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os necromantes são julgados de acordo com o poder dos mortos-vivos que criam. Alguns animaram apenas um único ser, mas são considerados o pináculo de sua arte sombria.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[死灵术士的力量判准，就是所制造的最强不死生物。有些只转生过一个，就在这黑暗技艺界间被公认为顶尖好手。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[死靈術士的力量判準，就是所製造的最強不死生物。有些只轉生過一個，就在這黑暗技藝界間被公認為頂尖好手。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Skeleton" />
+  <SUB_TYPE metaname="Wurm" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="7" />
+  <TOUGHNESS value="6" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{B}: Regenerate Skeletal Wurm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{B} : Régénérez la Guivre squelettique.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{B}: Regenera la Sierpe esquelética.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{B}: Regeneriere den Skelettierten Wurm.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{B}: Rigenera il Wurm Scheletrico.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{B}：骸骨のワームを再生する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{B}: 해골 웜을 재생한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{B}: регенерируйте Скелетного Вурма.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{B}: Regenere Vorme Esquelético.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{B}：重生骷髅亚龙。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{B}：再生骷髏亞龍。]]></LOCALISED_TEXT>
+    <COST mana_cost="{B}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():GiveRegeneration()
+    end 
+    </RESOLUTION_TIME_ACTION>
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+    <AI_MODIFIERS combat_immunity="1" />
+    <EXPLAIN play_tag="HINT_ABILITY_REGENERATE_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" window_in_combat="1" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+    <AI_AVAILABILITY type="restriction" restriction_type="no_regeneration_shield" />
+  </ACTIVATED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_REGENERATE" body="MORE_INFO_BODY_REGENERATE" zone="ZONE_ANY" />
+  <SFX text="COMBAT_WURMCOIL_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="450" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="775">
+  <FILENAME text="MERCURIAL_PRETENDER_378479" />
+  <CARDNAME text="MERCURIAL_PRETENDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mercurial Pretender]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Prétendant mercuriel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Impostor mercurial]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wandelbarer Täuscher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Usurpatore Volubile]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[気（き）紛（まぐ）れな詐（さ）称（しょう）者（しゃ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[변덕스러운 참칭왕]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Переменчивый Самозванец]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Pretendente Volátil]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[善变冒名客]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[善變冒名客]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378479" />
+  <ARTID value="155349" />
+  <ARTIST name="Izzy" />
+  <CASTING_COST cost="{4}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The king went off to find himself. Imagine his terror when he succeeded.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le roi cherchait à se trouver. Imaginez sa terreur quand il réussit.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El rey partió para encontrarse a sí mismo. Imagina su horror cuando tuvo éxito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der König zog aus, sich selbst zu finden. Man stelle sich seinen Schrecken vor, als es ihm gelang.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il re partì per trovare se stesso. Immaginate il suo terrore quando ci riuscì.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[王は自分を探しに出かけていった。それに成功した時に彼が味わった恐怖を想像してみるといい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[왕은 자기 자신을 찾으러 떠났다. 그가 성공했을 경우 겪을 공포를 생각해 봐라.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Король отправился в путь, чтобы найти себя. Ужас охватил его, когда ему это удалось.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[O rei saiu para se encontrar. Imagine seu terror quando ele realmente conseguiu.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[国王立志要找到自我。可以想象当他真看到自我时会有多恐惧。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[國王立志要找到自我。可以想像當他真看到自我時會有多恐懼。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Shapeshifter" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="0" />
+  <TOUGHNESS value="0" />
+  <TRIGGERED_ABILITY replacement_query="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[You may have Mercurial Pretender enter the battlefield as a copy of any creature you control except it gains “{2}{U}{U}: Return this creature to its owner’s hand.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vous pouvez faire que le Prétendant mercuriel arrive sur le champ de bataille comme une copie d’une créature que vous contrôlez, excepté qu’il acquiert « {2}{U}{U} : Renvoyez cette créature dans la main de son propriétaire. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Puedes hacer que el Impostor mercurial entre al campo de batalla como una copia de cualquier criatura que controlas, excepto que gana “{2}{U}{U}: Regresa esta criatura a la mano de su propietario”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Du kannst den Wandelbaren Täuscher als Kopie einer beliebigen Kreatur, die du kontrollierst, ins Spiel bringen, außer dass er „{2}{U}{U}: Bringe diese Kreatur auf die Hand ihres Besitzers zurück“ erhält.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi far entrare l’Usurpatore Volubile nel campo di battaglia come una copia di qualsiasi creatura che controlli, tranne che ha “{2}{U}{U}: Fai tornare questa creatura in mano al suo proprietario”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたは気紛れな詐称者を、これが「{2}{U}{U}：このクリーチャーをオーナーの手札に戻す。」を得ることを除き、あなたがコントロールするいずれかのクリーチャーのコピーとして戦場に出してもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신은 변덕스러운 참칭왕이 "{2}{U}{U}: 이 생물을 소유자의 손으로 되돌린다."를 가진 채 당신이 조종하는 아무 생물의 복사본으로 전장에 들어오도록 할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы можете заставить Переменчивого Самозванца выйти на поле битвы в качестве копии любого существа под вашим контролем, но при этом он получает способность «{2}{U}{U}: верните это существо в руку его владельца».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Você pode fazer com que Pretendente Volátil entre no campo de batalha como uma cópia de qualquer criatura que você controla, com a exceção que ela ganha “{2}{U}{U}: Devolva essa criatura para a mão de seu dono.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你可以使善变冒名客当成任一由你操控之生物的复制品来进入战场，但它额外获得「{2}{U}{U}：将此生物移回其拥有者手上。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你可以使善變冒名客當成任一由你操控之生物的複製品來進入戰場，但它額外獲得「{2}{U}{U}：將此生物移回其擁有者手上。」]]></LOCALISED_TEXT>
+    <SFX text="PRETENDER_TRIGGER_LUA_PLAY" />
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    filter:SetZone( ZONE_BATTLEFIELD )  
+    filter:Add(FE_CONTROLLER, OP_IS, EffectController())
+    EffectController():ChooseItem( "CARD_QUERY_CHOOSE_CREATURE_TO_CLONE", EffectDC():Make_Targets(0), QUERY_FLAG_MAY )
+    --Clone effect
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    if ( target_creature ~= nil ) then   
+    	target_creature:StoreCopiableValues(EffectDC():Make_Chest(1))	-- this grabs the copiable values from the target and puts them into a datachest
+    	EffectSource():UseCopiableValues(EffectDC():Get_Chest(1))		-- this needs to be here to refire any other transition triggers (e.g. devour)
+    	EffectDC():Protect_CardPtr( COMPARTMENT_ID_EFFECT_SOURCE )          -- this stops the effect from being wiped when we complete the zonechange
+    end
+    --Clone effect
+    </RESOLUTION_TIME_ACTION>
+    <CONTINUOUS_ACTION layer="1">
+    if EffectSource() ~= nil and EffectDC():Get_Chest(1) ~= nil then
+    	EffectSource():UseCopiableValues(EffectDC():Get_Chest(1))
+    	EffectSource():GetCurrentCharacteristics():GrantAbility(1)
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+    <AI_AVAILABILITY type="in_response" />
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY resource_id="1">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{U}{U}: Return this creature to its owner’s hand.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{U}{U} : Renvoyez cette créature dans la main de son propriétaire.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{U}{U}: Regresa esta criatura a la mano de su propietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{U}{U}: Bringe diese Kreatur auf die Hand ihres Besitzers zurück.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{U}{U}: Fai tornare questa creatura in mano al suo proprietario.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{U}{U}：このクリーチャーをオーナーの手札に戻す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{U}{U}: 이 생물을 소유자의 손으로 되돌린다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{U}{U}: верните это существо в руку его владельца.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{U}{U}: Devolva esta criatura para a mão de seu dono.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{U}{U}：将此生物移回其拥有者手上。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{U}{U}：將此生物移回其擁有者手上。]]></LOCALISED_TEXT>
+    <SFX text="PRETENDER_ABILITY_LUA_PLAY" />
+    <COST mana_cost="{2}{U}{U}" type="Mana" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():PutInHand()
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_REBUY_ETB_WHY_PLAY" />
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL cost="{2}{U}{U}" base_score="500" />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="1300" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <AI_BASE_SCORE score="1200" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -8,13 +8,14 @@ how it is built.
 The project builds one APK that runs Magic 2015 (32-bit ARM, NativeActivity, 2015) on
 64-bit-only devices, which cannot run 32-bit code at all. It is ZettaBridge, an ARM32→ARM64 translator app, plus our fixes, with
 the game and its OBB bundled inside. What is tracked is what we wrote: `zettabridge/` (the
-translator, including all the Magic 2015 fixes) and `port/` (game patches and build scripts).
+translator, including all the Magic 2015 fixes), `port/` (game patches and build scripts) and
+`build/cards/` (the card list extracted from the OBB, with its extractor).
 `input/` holds the game files (APK and OBB) in Git LFS: `.gitattributes` routes `input/**` to
 LFS, so git stores only pointers, and `.gitignore` re-allows `input/*.apk` past its `*.apk` rule.
 Everything else is generated, third-party or private, and git-ignored:
 
 - `zettabridge/third_party/dynarmic/` and `zettabridge/sysroot/` come from `port/setup.sh`.
-- `build/` and `dist/` come from `port/build.sh`; `zettabridge/build/` holds the native build.
+- The rest of `build/`, and `dist/`, come from `port/build.sh`; `zettabridge/build/` holds the native build.
 - `keys/` holds the signing key.
 
 ## Commands
@@ -22,6 +23,7 @@ Everything else is generated, third-party or private, and git-ignored:
 ```
 port/setup.sh [--force]        # fetch dynarmic (pinned + zettabridge/third_party/patches) and the sysroot
 SKIP_GUEST=1 port/build.sh     # dist/Magic2015-64-bit.apk (drop SKIP_GUEST after guest/ changes)
+build/cards/extract_cards.py   # decrypt the OBB's card XMLs into build/cards/ (cards.json, cards.csv, xml/)
 port/java-truststore.sh        # once, when Gradle/sdkmanager fail with PKIX errors (TLS inspection)
 ```
 
@@ -83,7 +85,7 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 
 ## Rules
 
-- Never commit `keys/`, `build/`, `dist/`, `zettabridge/build/`, Dynarmic, the sysroot,
+- Never commit `keys/`, `build/` (except `build/cards/`), `dist/`, `zettabridge/build/`, Dynarmic, the sysroot,
   or any APK, OBB or keystore outside `input/`. Anything added under `input/` must go through
   LFS: check `git lfs status` shows it as `LFS`, not `Git`.
 - Keep the signing key: updates signed with a different key need an uninstall, which loses the

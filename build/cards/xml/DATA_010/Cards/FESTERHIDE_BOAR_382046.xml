@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="393">
+  <FILENAME text="FESTERHIDE_BOAR_382046" />
+  <CARDNAME text="FESTERHIDE_BOAR" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Festerhide Boar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sanglier peautride]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Jabalí lomo pútrido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Schwärenpelz-Wildschwein]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cinghiale dalla Pelle Purulenta]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ただれ皮（がわ）の猪（いのしし）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[곪은가죽 멧돼지]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гнилошкурый Вепрь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Javali da Pele Supurante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[溃伤野猪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[潰傷野豬]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="382046" />
+  <ARTID value="138361" />
+  <ARTIST name="Nils Hamm" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Bury your dead deep. The boars are hungriest while the corpse is still warm.”
+—Paulin, trapper of Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Enterrez profondément vos morts. Les sangliers sont encore plus affamés quand le cadavre est encore chaud. »
+—Paulin, trappeur de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Que entierren profundo a sus muertos. Los jabalíes tienen más hambre mientras el cuerpo está caliente”.
+—Paulin, trampero de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Vergrabt eure Toten tief. Die Wildschweine sind am hungrigsten, solange die Leiche noch warm ist.“
+—Paulin, Fallensteller im Dämmerwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Seppellite in profondità i vostri morti. I cinghiali sono più famelici mentre il corpo è ancora caldo.”
+—Paulin, trappolatore di Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「死体は深くに埋めろ。死体が暖かい内は、猪は最も飢えている。」――ソンバーワルドの罠師、パーリン]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["시체를 땅 깊숙히 묻어라. 곪은가죽 멧돼지는 시체가 식기도 전에 달려든다."
+—솜버왈드의 덫사냥꾼 폴린]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Закапывайте покойников поглубже. Вепри особенно голодны, пока труп еще не остыл».
+— Паулин, капканщик из Сомбервальда]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Enterrem seus mortos bem fundo. Os javalis sentem mais fome quando os cadáveres ainda estão quentes.”
+— Paulin, armadilheiro de Somberwald]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「将逝者埋深点。野猪最爱吃还有余温的尸体。」
+～松柏森布陷人堡霖]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「將逝者埋深點。野豬最愛吃還有餘溫的屍體。」
+～松柏森佈陷人堡霖]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Boar" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trample]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piétinement]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrolla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Verursacht Trampelschaden]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Travolgere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トランプル]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[돌진]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Пробивной удар]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Atropelar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[践踏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[踐踏]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_TRAMPLE" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_TRANSITION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Morbid| — Festerhide Boar enters the battlefield with two +1/+1 counters on it if a creature died this turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Morbidité| — Le Sanglier peautride arrive sur le champ de bataille avec deux marqueurs +1/+1 sur lui si une créature est morte ce tour-ci.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Necrario| — El Jabalí lomo pútrido entra al campo de batalla con dos contadores +1/+1 sobre él si una criatura murió este turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Morbide| — Das Schwärenpelz-Wildschwein kommt mit zwei +1/+1-Marken ins Spiel, falls in diesem Zug eine Kreatur gestorben ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Morboso| — Il Cinghiale dalla Pelle Purulenta entra nel campo di battaglia con due segnalini +1/+1 se è morta una creatura in questo turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|陰鬱| ― このターンにクリーチャーが死亡していたなら、ただれ皮の猪は＋１/＋１カウンターが２個置かれた状態で戦場に出る。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[사망 — 이 턴에 생물이 죽었다면, 곪은가죽 멧돼지는 +1/+1 카운터 두 개를 가진 채로 전장에 들어온다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Болезненность| — Гнилошкурый Вепрь выходит на поле битвы с двумя жетонами +1/+1 на нем, если в этом ходу умерло существо.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Mórbido| — Javali da Pele Supurante entra no campo de batalha com dois marcadores +1/+1 se uma criatura tiver morrido neste turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[丧心～如果本回合有生物死去，溃伤野猪进战场时上面有两个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[喪心～如果本回合有生物死去，潰傷野豬進戰場時上面有兩個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_TRANSITION" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" from_zone="ZONE_ANY" />
+    <INTERVENING_IF>
+    local interrogation = MTG():ClearInterrogationQuery()
+    interrogation:SetType( CARD_TYPE_CREATURE )
+    interrogation:SetFromZone( ZONE_BATTLEFIELD )
+    interrogation:SetToZone( ZONE_GRAVEYARD )
+    if interrogation:Test( INTERROGATE_CARDS_MOVED_ZONE, INTERROGATE_THIS_TURN ) then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 2)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_TITLE_MORBID" body="MORE_INFO_BODY_MORBID" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PIERCE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PIERCE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="150" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

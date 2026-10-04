@@ -1,0 +1,243 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="771">
+  <FILENAME text="BOLT_OF_KERANOS_381962" />
+  <CARDNAME text="BOLT_OF_KERANOS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bolt of Keranos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Éclair de Kéranos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Rayo de Keranos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Blitz des Keranos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fulmine di Keranos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ケラノスの稲（いな）妻（ずま）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[케레노스의 벼락]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разряд Керана]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Raio de Queranos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[刻拉诺斯的电击]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[刻拉諾斯的電擊]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381962" />
+  <ARTID value="152047" />
+  <ARTIST name="Karl Kopinski" />
+  <CASTING_COST cost="{1}{R}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[The breakthroughs granted by Keranos, god of epiphany, can be surprisingly literal.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les percées accordées par Kéranos, dieu des Épiphanies, peuvent être étonnamment littérales.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando Keranos, dios de la epifanía, está de tan mal humor que suelta rayos y relámpagos, resulta más literal de lo previsto.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Keranos, Gott der Eingebung, neue Wege offenbart, dann ist das oft sehr wörtlich zu nehmen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Le intuizioni concesse da Keranos, dio delle rivelazioni, possono essere letteralmente folgoranti.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[天啓の神、ケラノスにより賜る現状打破は、時には驚くほど言葉通りな形となって実現することもある。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[직관의 신 케레노스의 힘으로 번뜩이는 아이디어를 떠올릴 때는 조심해야 한다. 정말로 번뜩일 수도 있기 때문이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Керан, бог прозрения, помогает исследователям пробить барьеры — иногда в буквальном смысле.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[As descobertas concedidas por Queranos, deus da epifania, podem ser surpreendentemente literais.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[灵思之神刻拉诺斯赐予的思考突破，有可能直白得惊人。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[靈思之神刻拉諾斯賜予的思考突破，有可能直白得驚人。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bolt of Keranos deals 3 damage to target creature or player. Scry 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[L’Éclair de Kéranos inflige 3 blessures à une cible, créature ou joueur. Regard 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Rayo de Keranos hace 3 puntos de daño a la criatura o jugador objetivo. Adivina 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Blitz des Keranos fügt einer Kreatur oder einem Spieler deiner Wahl 3 Schadenspunkte zu. Hellsicht 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Fulmine di Keranos infligge 3 danni a una creatura o a un giocatore bersaglio. Profetizza 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャー１体かプレイヤー１人を対象とする。ケラノスの稲妻はそれに３点のダメージを与える。占術１を行う。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물 또는 플레이어 하나를 목표로 정한다. 케레노스의 벼락은 그 목표에 피해 3점을 입힌다. 점술 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Разряд Керана наносит 3 повреждения целевому существу или игроку. Предскажите 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Raio de Queranos causa 3 pontos de dano à criatura ou ao jogador alvo. Vidência 1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[刻拉诺斯的电击对目标生物或牌手造成3点伤害。占卜1。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[刻拉諾斯的電擊對目標生物或玩家造成3點傷害。占卜1。]]></LOCALISED_TEXT>
+    <SFX text="TARGET_LIGHTNING_PLAY" />
+    <TARGET tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_CARDS + FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_creature = EffectDC():Get_Targets(0):Get_CardPtr(0)
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    if ( target_creature ~= nil ) then
+    	EffectSourceLKI():DealDamageTo( 3, target_creature )
+    elseif ( target_player ~= nil ) then   
+    	EffectSourceLKI():DealDamageTo( 3, target_player )
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION repeating="1">
+    local rep_count = MTG():GetActionRepCount()
+    if rep_count == 0 then
+    	-------------------------------
+    	-- 1) ASK FIRST SCRY QUESTION
+    	-------------------------------
+    	local scry_value = 1
+    	-- Fill InputDC with top N cards of library
+    	local cards_found = 0
+    	local scryDC = EffectDC():Make_Chest(1)
+    	local scryInputDC = scryDC:Make_Chest(0)
+    	for i=0,scry_value-1 do
+    		local card = EffectController():Library_GetNth(i)
+    			
+    		if card ~= nil then
+    			scryInputDC:Set_CardPtr(cards_found, card)
+    				
+    			cards_found = cards_found + 1
+    		end
+    	end
+    	
+    	if cards_found == 0 then
+    		-- No cards in library, end
+    		return false
+    	end
+    	
+    	-- If scrying a single card, multiple choice it
+    	if scry_value == 1 or cards_found == 1 then
+    		local effectController = EffectController()
+    		if effectController ~= nil then
+    			effectController:BeginNewMultipleChoice()
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_TOP" )
+    			effectController:AddMultipleChoiceAnswer( "CARD_QUERY_SCRY_ONE_BOTTOM", TRANSITION_BOTTOM_OF_LIBRARY )
+    			effectController:AskMultipleChoiceQuestion( "CARD_QUERY_SCRY_ONE_QUESTION", EffectController():Library_GetTop() )
+    		end
+    		return true
+    	end
+    	local scryTopDC = scryDC:Make_Chest(1)
+    	
+    	-- If scrying more than 1 card, we need a browser
+    	if cards_found &gt; 1 then
+    		-- Ask query
+    		EffectController():SetItemCount( cards_found )
+    			
+    		for i=0,cards_found-1 do
+    			EffectController():SetItemPrompt( i, "CARD_QUERY_SCRY_TOP" )
+    		end
+    			
+    		EffectController():ChooseItemsFromDC( scryInputDC, scryTopDC, QUERY_FLAG_UP_TO + QUERY_FLAG_ORDERED_SELECTION )
+    	end
+    	return true
+    elseif rep_count == 1 then
+    	-------------------------------
+    	-- 2) MOVE THE CARDS
+    	-------------------------------
+    	local scryDC = EffectDC():Get_Chest(1)
+    	-- Get old chests, and determine actual scry value
+    	local scryInputDC = scryDC:Get_Chest(0)
+    	local scry_value = scryInputDC:Count()
+    	if scry_value == 1 then
+    		local answer = EffectController():GetMultipleChoiceResult()
+    		if answer == 0 then
+    			-- Scryed the single top card to top, nothing to do
+    		end
+    		if answer == 1 then
+    			-- Scry the top card to the bottom
+    			scryInputDC:Get_CardPtr(0):PutOnBottomOfLibrary()
+    		end
+    	else
+    	
+    		local scryTopDC = scryDC:Get_Chest(1)
+    		local scry_top = scryTopDC:Count()
+    		if scry_value &gt; 1 and scry_top &lt; scry_value then
+    			-- Fill SecondInputDC with everything in InputDC not in TopDC ("what's left")
+    			for i=0,scry_value-1 do
+    				local card = scryInputDC:Get_CardPtr(i)
+    			
+    				for j=0,scry_top-1 do
+    					if card == scryTopDC:Get_CardPtr(j) then
+    						-- chosen, ignore
+    						card = nil
+    						break
+    					end
+    				end
+    			
+    				-- if not present in TopDC, move it to the bottom
+    				if card ~= nil then
+    					card:PutOnBottomOfLibrary()
+    				end
+    			end
+    		
+    			-- Move chosen cards to top of library so first
+    			-- card chosen ends up on top of the library
+    			for i=0,scry_top-1 do
+    				local card = scryTopDC:Get_CardPtr(i)
+    		
+    				if card ~= nil then
+    					card:PutOnTopOfLibrary()
+    				end
+    			end
+    		end
+    	end
+    	-- END
+    	return false
+    end
+    </RESOLUTION_TIME_ACTION>
+    <AI_SIMPLIFIED_TARGETING compartment="0" hint="HINT_ENEMY_ONLY" />
+  </SPELL_ABILITY>
+  <DECKBUILDING_METADATA defensive="0.5" />
+  <HELP title="MORE_INFO_TITLE_SCRY" body="MORE_INFO_BODY_SCRY" zone="ZONE_ANY" />
+  <AI_BASE_SCORE score="900" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_DEAL_3_DAMAGE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature or player to deal 3 damage to.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature ou un joueur pour lui infliger 3 blessures.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura o jugador para hacerle 3 puntos de daño.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur oder einen Spieler, der oder dem 3 Schadenspunkte zugefügt werden sollen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura o un giocatore a cui infliggere 3 danni.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[３点のダメージを与えるクリーチャー１体かプレイヤー１人を選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피해 3점을 입을 생물 한 개나 플레이어 한 명을 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо или игрока, которому нужно нанести 3 повреждения.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura ou um jogador para causar 3 pontos de dano.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物或牌手，以对其造成3点伤害。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物或玩家來對其造成3點傷害。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_BOTTOM">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Bottom]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessous]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Unter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In fondo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番下]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 밑]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В низ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Fundo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库底]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫底]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_TOP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Top]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Dessus]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Parte superior]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Auf]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In cima]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[一番上]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[맨 위]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[На верх]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Topo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[牌库顶]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[牌庫頂]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_ONE_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to put this card on the top or bottom of your library?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous mettre cette carte au-dessus ou au-dessous de votre bibliothèque ?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Vas a poner esta carta en la parte superior o en el fondo de tu biblioteca?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du diese Karte auf oder unter deine Bibliothek legen?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi mettere questa carta in cima o in fondo al tuo grimorio?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[そのカードをライブラリーの一番上に置きますか？　それとも一番下に置きますか？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[이 카드를 서고 맨 밑에 넣으시겠습니까? 아니면 맨 위에 놓으시겠습니까?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите положить эту карту на верх или в низ вашей библиотеки?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de colocar este card no topo ou no fundo do seu grimório?]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你要将此牌置于你的牌库顶还是牌库底？]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你要將此牌置於你的牌庫頂還是牌庫底？]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_SCRY_TOP">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Select cards to put them on top of your library. The rest will be put on the bottom of your library.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Sélectionner des cartes pour les mettre au-dessus de votre bibliothèque. Le reste sera mis au-dessous de votre bibliothèque.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Selecciona cartas para ponerlas en la parte superior de tu biblioteca. Las demás irán al fondo de tu biblioteca.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wähle Karten, die du auf deine Bibliothek legen willst. Der Rest wird unter deine Bibliothek gelegt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Seleziona le carte da mettere in cima al tuo grimorio. Le altre verranno messe in fondo al tuo grimorio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたのライブラリーの一番下に置くカードを選んでください。残りはあなたのライブラリーの一番下に置かれます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[서고 맨 위에 놓을 카드를 고르십시오. 나머지 카드는 서고 맨 밑에 놓여집니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карты, которые нужно положить на верх вашей библиотеки. Остальные карты будут положены в низ вашей библиотеки.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Selecione os cards para colocá-los no topo do seu grimório. O restante será colocado no fundo do seu grimório.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择要置于你牌库顶的牌。其余牌将置于你的牌库底。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇要置於你的牌庫頂的牌。其餘牌將置於你的牌庫底。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_BURN_WHY_PLAY" removal_tag="HINT_SPELL_REMOVAL_WHY_REMOVE" is_removal="true" />
+</CARD_V2>

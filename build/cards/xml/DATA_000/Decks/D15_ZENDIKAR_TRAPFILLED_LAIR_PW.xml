@@ -1,0 +1,26 @@
+﻿<DECK personality="D15_ZEN_TRAPS__PERSONALITY.XML" deck_box_image="locked" deck_box_image_locked="locked" icon="" cheat_menu_filter_deck_type="Standard" cheat_menu_filter_datapool="D15 Zendikar" content_pack="4" never_available="true" uid="235" is_blue="true" is_red="true" name_tag="D15_TRAPS_DECKNAME" land_pool_name="D15_ZENDIKAR_LAND_POOL">
+  <CARD name="MOUNTAIN_380523" deckOrderId="0" />
+  <CARD name="MOUNTAIN_380523" deckOrderId="1" />
+  <CARD name="MOUNTAIN_380523" deckOrderId="2" />
+  <CARD name="ISLAND_380519" deckOrderId="3" />
+  <CARD name="WHIPLASH_TRAP_374447" deckOrderId="4" />
+  <CARD name="STONE_IDOL_TRAP_374411" deckOrderId="5" />
+  <CARD name="INFERNO_TRAP_374419" deckOrderId="6" />
+  <CARD name="STONE_IDOL_TRAP_374411" deckOrderId="7" />
+  <CARD name="LETHARGY_TRAP_374427" deckOrderId="8" />
+  <CARD name="ISLAND_380519" deckOrderId="9" />
+  <CARD name="STONE_IDOL_TRAP_374411" deckOrderId="10" />
+  <CARD name="LAVABALL_TRAP_374426" deckOrderId="11" />
+  <CARD name="STONE_IDOL_TRAP_374411" deckOrderId="12" />
+  <CARD name="MOUNTAIN_380523" deckOrderId="13" />
+  <CARD name="ISLAND_380519" deckOrderId="14" />
+  <CARD name="MOUNTAIN_380523" deckOrderId="15" />
+  <CARD name="MOUNTAIN_380523" deckOrderId="16" />
+  <CARD name="LAVABALL_TRAP_374426" deckOrderId="17" />
+  <CARD name="MOUNTAIN_380523" deckOrderId="18" />
+  <CARD name="LAVABALL_TRAP_374426" deckOrderId="19" />
+  <CARD name="LAVABALL_TRAP_374426" deckOrderId="20" />
+  <CARD name="WHIPLASH_TRAP_374447" deckOrderId="21" />
+  <CARD name="RUNEFLARE_TRAP_374883" deckOrderId="22" />
+  <CARD name="BLAZE_374907" deckOrderId="23" />
+</DECK>

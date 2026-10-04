@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="957">
+  <FILENAME text="WALKING_CORPSE_374395" />
+  <CARDNAME text="WALKING_CORPSE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Walking Corpse]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cadavre ambulant]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cadáver ambulante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wandelnde Leiche]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cadavere Ambulante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[歩（ある）く死（し）骸（がい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[걸어다니는 시체]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ходячий Труп]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cadáver Ambulante]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[行尸]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[行屍]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374395" />
+  <ARTID value="138432" />
+  <ARTIST name="Igor Kieryluk" />
+  <CASTING_COST cost="{1}{B}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Feeding a normal army is a problem of logistics. With zombies, it is an asset. Feeding is why they fight. Feeding is why they are feared.”
+—Jadar, ghoulcaller of Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Nourrir une armée normale revient à résoudre un problème de logistique. Avec des zombies, pas de problème, bien au contraire. Ils combattent pour se nourrir. C'est même pour ça qu'on les redoute. »
+—Jadar, meneur de goule de Néphalie]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“La alimentación de un ejército normal supone un problema de logística. Con los zombies, es una ventaja. Su alimentación es aquello por lo que luchan. Su alimentación es aquello por lo que se les teme”.
+—Jadar, llamamuertos de Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Eine herkömmliche Armee verköstigen zu müssen ist eine Frage der Logistik. Bei Zombies ist das eher ein Vorteil. Ihr Hunger ist der Grund, warum sie kämpfen. Ihr Hunger ist der Grund, warum man sie fürchtet.“
+—Jadar, Ghulrufer aus Nefalen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Sfamare un esercito normale è un problema di logistica. Con gli zombie, è un vantaggio. La fame è il motivo per cui combattono. La fame è il motivo per cui sono temuti.”
+—Jadar, evocaghoul di Nephalia]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「普通の軍隊の場合、食糧確保には輸送が必要だ。ゾンビの場合、それが強みになる。奴らは食うために戦い、食うから恐れられる。」
+――ネファリアのグール呼び、ジャダー]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA["살아있는 군대에게 식량 부족이 골치아픈 문제지만 좀비에게는 오히려 긍정적인 요소이다. 허기는 좀비들이 싸우는 이유이며, 적들이 그들을 두려워하는 원인이기 때문이다."
+—네팔리아의 악귀소환술사 자다르]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Для обычной армии пища — это проблема снабжения. Для армии зомби — тактическое преимущество. Их пища — это то, почему они сражаются. Их пища — это то, почему их боятся».
+— Джадар, призыватель упырей из Нефалии]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“A alimentação de um exército normal é um problema de logística. A alimentação de zumbis é uma vantagem. Eles lutam para comer. E são temidos por isso.”
+— Jadar, invocador de carniçais de Nefália]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「正常的军队要考虑食粮补给的问题。而这正是灵俑部队的优点。他们因进食而战。也因进食而被人惧怕。」
+～涅非利亚尸鬼牧者贾达]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「正常的軍隊要考慮食糧補給的問題。而這正是殭屍部隊的優點。他們因進食而戰。也因進食而被人懼怕。」
+～涅非利亞屍鬼牧者賈達]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Zombie" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="2" />
+  <TOUGHNESS value="2" />
+  <SFX text="COMBAT_CLAW_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CLAW_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

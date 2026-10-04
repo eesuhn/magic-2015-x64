@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="110">
+  <FILENAME text="DRAGON_FODDER_380918" />
+  <CARDNAME text="DRAGON_FODDER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Dragon Fodder]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Chair à dragon]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Carnada para dragones]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Drachenfutter]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spuntino del Drago]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ドラゴンの餌（えさ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[용의 먹이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Драконий Корм]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Forragem de Dragão]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[巨龙食粮]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[巨龍食糧]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380918" />
+  <ARTID value="115021" />
+  <ARTIST name="Jaime Jones" />
+  <CASTING_COST cost="{1}{R}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Goblins journey to the sacrificial peaks in pairs so that the rare survivor might be able to relate the details of the other’s grisly demise.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les gobelins se rendent sur les pics sacrificiels par deux pour que l'éventuel survivant puisse relater les détails de l'horrible fin de l'autre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los trasgos viajan a los picos de sacrificio en parejas, de manera tal que si hay un superviviente pueda contar los detalles del fallecimiento del otro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Goblins wandern immer zu zweit zu den Gipfeln der Opferung, damit der gelegentliche Überlebende vom Untergang des anderen berichten kann.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I goblin viaggiano fino alle vette sacrificali in coppia così che i rari sopravvissuti siano in grado di riferire i dettagli della macabra dipartita del compagno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[贄の峠へと旅に出るとき、ゴブリンは必ず二人で行く。稀に、生き残った方が、もう一方の悲惨な最期を語ることができるかもしれないからだ。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[고블린들은 희생의 봉우리로 갈 때는 꼭 짝을 지어서 움직인다. 혹시라도 한명이 살아남았을 경우 죽은 쪽의 최후를 상세히 전달하기 위해서다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Гоблины всегда отправляются к местам жертвоприношения парами, чтобы выживший счастливчик смог поведать о страшной кончине товарища.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os goblins fazem a travessia até os picos do sacrifício em pares, de forma que um eventual sobrevivente possa contar os detalhes do horripilante fim do outro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[鬼怪前往牺牲山峰的旅程总是两两结伴同行，好让极幸运的生还者能讲述另一人的悲惨死法。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[鬼怪前往犧牲山峰的旅程總是兩兩結伴同行，好讓極幸運的生還者能講述另一人的悲慘死法。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Put two 1/1 red Goblin creature tokens onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Mettez sur le champ de bataille deux jetons de créature 1/1 rouge Gobelin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Pon en el campo de batalla dos fichas de criatura Trasgo rojas 1/1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bringe zwei 1/1 rote Goblin-Kreaturenspielsteine ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Metti sul campo di battaglia due pedine creatura Goblin 1/1 rosse.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[赤の１/１のゴブリン・クリーチャー・トークンを２体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[1/1 적색 고블린 생물 토큰 두 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Положите на поле битвы две фишки существа 1/1 красный Гоблин.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Coloque no campo de batalha duas fichas de criatura vermelhas 1/1 do tipo Goblin.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[将两个1/1红色鬼怪衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[將兩個1/1紅色鬼怪衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_GOBLIN_1_1_R_350762", 2, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </SPELL_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_GOBLIN_1_1_R_350762" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_SPELL_CREATURE_WHY_PLAY" removal_tag="HINT_SPELL_CREATURE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="574">
+  <FILENAME text="RESOLUTE_ARCHANGEL_378475" />
+  <CARDNAME text="RESOLUTE_ARCHANGEL" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Resolute Archangel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Archange de la résolution]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arcángel resuelto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Entschlossener Erzengel]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Arcangelo Risoluto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[毅（き）然（ぜん）たる大（だい）天（てん）使（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[단호한 대천사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Непоколебимый Архангел]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Arcanjo Resoluto]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坚毅大天使]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[堅毅大天使]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378475" />
+  <ARTID value="155348" />
+  <ARTIST name="Anthony Palumbo" />
+  <CASTING_COST cost="{5}{W}{W}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Cut it down, bury it in snow, put it to the torch. The rose will still bloom again.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Coupez-la, recouvrez-la de neige, brûlez-la avec une torche. La rose refleurira quand même.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Córtala, entiérrala en la nieve o quémala con la antorcha. La rosa seguirá floreciendo de nuevo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Zerhacke sie, begrabe sie unter Schnee, brenne sie nieder. Die Rose wird doch wieder blühen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Puoi reciderla, seppellirla nella neve, darla alle fiamme, ma una rosa rifiorirà sempre.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[たとえ切り倒され、雪に埋められ、火を付けられたとしても薔薇は再び花咲くでしょう。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[자르든 눈에 묻히든 불에 타든 장미는 항상 다시 피어난다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Ты можешь срезать ее, засыпать снегом, предать огню. Роза зацветет вновь.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Corte-a, enterre-a na neve, incinere-a. A rosa florescerá novamente.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[纵将玫瑰连根砍下，埋入雪中，付之一炬，它还会再度盛开。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[縱將玫瑰連根砍下，埋入雪中，付之一炬，它還會再度盛開。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Angel" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Resolute Archangel enters the battlefield, if your life total is less than your starting life total, it becomes equal to your starting life total.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Archange de la résolution arrive sur le champ de bataille, si votre total de points de vie est inférieur à votre total de points de vie de départ, il devient égal à votre total de points de vie de départ.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Arcángel resuelto entre al campo de batalla, si tu total de vidas es menor que tu total de vidas inicial, se convierte en la misma cantidad que tu total de vidas inicial.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Entschlossene Erzengel ins Spiel kommt und falls dein Lebenspunktestand unter deiner Startlebenspunktezahl liegt, wird dein Lebenspunktestand gleich deiner Startlebenspunktezahl.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Arcangelo Risoluto entra nel campo di battaglia, se i tuoi punti vita sono minori dei tuoi punti vita iniziali, diventano pari ai tuoi punti vita iniziali.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[毅然たる大天使が戦場に出たとき、あなたのライフの総量がゲーム開始時のライフの総量未満である場合、あなたのライフの総量はゲーム開始時のライフの総量と同じになる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[단호한 대천사가 전장에 들어올 때, 당신의 생명총점이 시작 생명총점보다 적다면, 당신의 생명총점은 시작 생명총점과 같아진다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Непоколебимый Архангел выходит на поле битвы, если ваше количество жизней меньше вашего начального количества жизней, оно становится равным вашему начальному количеству жизней.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Arcanjo Resoluto entra no campo de batalha, se o seu total de pontos de vida for menor do que o seu total inicial, ele se torna igual ao seu total inicial.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当坚毅大天使进战场时，若你的总生命小于你的起始总生命，则此数值成为等同于你的起始总生命。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當堅毅大天使進戰場時，若你的總生命小於你的起始總生命，則此數值成為等同於你的起始總生命。]]></LOCALISED_TEXT>
+    <SFX text="RESOLUTE_LUA_PLAY" />
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <INTERVENING_IF>
+    local playerLifeTotal = EffectController():GetLifeTotal()
+    local startingLifeTotal = EffectController():GetStartingLifeTotal()
+    if playerLifeTotal &lt; startingLifeTotal then
+    	return true
+    else
+    	return false
+    end
+    </INTERVENING_IF>
+    <RESOLUTION_TIME_ACTION>
+    local startingLifeTotal = EffectController():GetStartingLifeTotal()
+    EffectController():SetLifeTotal(startingLifeTotal)
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Life" amount="1" />
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Flying" amount="1" />
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_ANGEL_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_ANGEL_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

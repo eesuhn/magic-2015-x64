@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="390">
+  <FILENAME text="MISCHIEF_AND_MAYHEM_380913" />
+  <CARDNAME text="MISCHIEF_AND_MAYHEM" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Mischief and Mayhem]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Malice et confusion]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Travesuras y maldades]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Aufruhr und Chaos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Caos e Distruzione]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[悪（いた）戯（ずら）と騒（そう）乱（らん）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[장난스러운 아수라장]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Хулиганство и Хаос]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Travessuras e Caos]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[胡闹破坏]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[胡鬧破壞]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="380913" />
+  <ARTID value="152597" />
+  <ARTIST name="Zack Stella" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“The false god Xenagos treats the whole world as his rollick site. If his whims are left unchecked, Theros will be reduced to rubble and ashes.”
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Xénagos le faux dieu considère le monde entier comme son terrain de jeu. Si ses caprices ne sont pas maîtrisés, Theros ne sera plus que cendres et décombres. »
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Xenagos, el falso dios, ve el mundo como su salón de fiestas particular. Si no satisfacen sus caprichos, Theros quedará reducido a escombros y cenizas”.
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Der falsche Gott Xenagos betrachtet die ganze Welt nur als Bühne für seine Ausschweifungen. Falls seinen Launen nicht Einhalt geboten wird, wird Theros bald in Schutt und Asche liegen.“
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Il falso dio Xenagos considera il mondo intero come il regno dei suoi bagordi. Se i suoi capricci rimangono incontrollati, Theros verrà ridotto a un cumulo di ceneri e macerie.”
+—Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「邪神ゼナゴスは、この世界を自分のための遊戯場として扱っている。あの者の身勝手を捨て置けば、いずれテーロスは瓦礫と灰塵だけの世界となってしまうだろう。」――エルズペス]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“거짓된 신 제나고스에게 세상은 놀이터에 불과하다. 그의 변덕을 막지 못한다면 테로스는 잿더미 폐허가 될 것이다.”
+—엘스페스]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Бог-самозванец Ксенаг считает весь мир местом своей гулянки. Если не сдержать в узде его капризы, Терос будет разрушен до основания».
+— Элспет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“O falso deus Xenagos trata o mundo todo como se fosse seu quintal. Se seus caprichos não forem reprimidos, Theros será reduzida a escombros e cinzas.”
+— Elspeth]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「伪神谢纳戈斯将整个世界当作狂欢场。如任其肆意妄为，塞洛斯将化为废墟残烬。」
+～艾紫培]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「偽神謝納戈斯將整個世界當作狂歡場。如任其恣意妄為，塞洛斯將化為廢墟殘燼。」
+～艾紫培]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Sorcery" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <SPELL_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Up to two target creatures each get +4/+4 until end of turn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jusqu’à deux créatures ciblées gagnent chacune +4/+4 jusqu’à la fin du tour.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Hasta dos criaturas objetivo obtienen +4/+4 cada una hasta el final del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bis zu zwei Kreaturen deiner Wahl erhalten +4/+4 bis zum Ende des Zuges.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Fino a due creature bersaglio prendono +4/+4 fino alla fine del turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[クリーチャーを最大２体まで対象とする。それらはターン終了時までそれぞれ＋４/＋４の修整を受ける。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[생물을 최대 둘까지 목표로 정한다. 그 생물들은 턴종료까지 각각 +4/+4를 받는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Не более двух целевых существ получают по +4/+4 до конца хода.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Até duas criaturas alvo recebem +4/+4 cada uma até o final do turno.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[至多两个目标生物各得+4/+4直到回合结束。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[至多兩個目標生物各得+4/+4直到回合結束。]]></LOCALISED_TEXT>
+    <TARGET tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4" definition="0" compartment="0" count="2" up_to="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:Add( FE_TYPE, OP_IS, CARD_TYPE_CREATURE )
+    </TARGET_DEFINITION>
+    <CONTINUOUS_ACTION layer="7C">
+    for i = 0, (1) do
+    	local target = EffectDC():Get_Targets(0):Get_CardPtr(i)
+    	if target ~= nil then
+    		local characteristics = target:GetCurrentCharacteristics()
+    		characteristics:Power_Add( 4 )
+    		characteristics:Toughness_Add( 4 )
+    	end
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+  </SPELL_ABILITY>
+  <AI_BASE_SCORE score="1800" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CREATURE_TO_GET_4_4">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a creature to get +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une créature pour lui faire gagner +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una criatura para que obtenga +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Kreatur, die +4/+4 erhalten soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una creatura che prende +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[＋４/＋４の修整を受けるクリーチャーを１体選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[+4/+4를 받을 생물 한 개를 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите существо, которое получит +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha uma criatura para receber +4/+4.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一个生物得+4/+4。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一個生物得+4/+4。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_SPELL_PUMP_WHY_PLAY" removal_tag="HINT_SPELL_PUMP_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

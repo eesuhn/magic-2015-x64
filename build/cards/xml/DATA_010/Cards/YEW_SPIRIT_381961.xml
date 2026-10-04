@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="113">
+  <FILENAME text="YEW_SPIRIT_381961" />
+  <CARDNAME text="YEW_SPIRIT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Yew Spirit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Esprit de l'if]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Espíritu del tejo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Eibengeist]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Spirito del Tasso]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[イチイの精（せい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[주목나무 신령]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Дух Тиса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espírito do Teixo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[紫杉精怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[紫杉精靈]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381961" />
+  <ARTID value="139828" />
+  <ARTIST name="Dan Scott" />
+  <CASTING_COST cost="{4}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“I wonder what dwelled in the primordial forests before humans existed.”
+—Elder Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Je me demande ce qui résidait dans ces forêts primaires avant la venue des humains. »
+—Doyenne Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“Me pregunto qué moraba en los bosques primigenios antes de que existieran los humanos”.
+—Anciana Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Ich frage mich, was in den Urwäldern gelebt hat, bevor es die Menschen gab.“
+—Rimhild die Weise]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Chissà cosa abitava le foreste primordiali prima della nascita dell’uomo.”
+—Rimheit l’Anziana]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「人間が生まれる前、原初の森には何が住んでいたんじゃろうか。」――古老リムハイト]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[“인간이 나타나기 전의 원시림에서는 무엇이 살았는지 궁금하군.”
+—장로 림하이트]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Интересно, кто обитал в древних лесах задолго до рождения человека?»
+— старейшина Римхайт]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Eu me pergunto o que existia nas florestas primordiais antes dos humanos.”
+— Anciã Rimheit]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「不知道人类存在以前，这原始森林住着怎样的居民。」
+～长老琳海]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「不知道人類存在以前，這原始森林住著怎樣的居民。」
+～長老琳海]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Spirit" />
+  <SUB_TYPE metaname="Treefolk" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{2}{G}{G}: Yew Spirit gets +X/+X until end of turn, where X is its power.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{2}{G}{G} : L’Esprit de l’if gagne +X/+X jusqu’à la fin du tour, X étant sa force.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{2}{G}{G}: El Espíritu del tejo obtiene +X/+X hasta el final del turno, donde X es su fuerza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{2}{G}{G}: Der Eibengeist erhält +X/+X bis zum Ende des Zuges, wobei X gleich seiner Stärke ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{2}{G}{G}: Lo Spirito del Tasso prende +X/+X fino alla fine del turno, dove X è la sua forza.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{2}{G}{G}：イチイの精はターン終了時まで＋Ｘ/＋Ｘの修整を受ける。Ｘはこれのパワーに等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{2}{G}{G}: 주목나무 신령은 턴종료까지 +X/+X를 얻는다. X는 주목나무 신령의 공격력이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{2}{G}{G}: Дух Тиса получает +X/+X до конца хода, где X — значение его силы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{2}{G}{G}: Espírito do Teixo recebe +X/+X até o final do turno, sendo X igual ao seu poder.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{2}{G}{G}：紫杉精怪得+X/+X直到回合结束，X为其力量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{2}{G}{G}：紫杉精靈得+X/+X直到回合結束，X為其力量。]]></LOCALISED_TEXT>
+    <COST mana_cost="{2}{G}{G}" type="Mana" />
+    <CONTINUOUS_ACTION layer="7C">
+    local effectSource = EffectSource()
+    if effectSource ~= nil then
+    	local characterisitics = effectSource:GetCurrentCharacteristics()
+    	local pttoAdd = characterisitics:Power_Get()
+    	characterisitics:Power_Add( pttoAdd )
+    	characterisitics: Toughness_Add( pttoAdd )
+    end
+    </CONTINUOUS_ACTION>
+    <DURATION simple_duration="UntilEOT" />
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <SFX text="COMBAT_GAEA_ATTACK" power_boundary_min="1" power_boundary_max="-1" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

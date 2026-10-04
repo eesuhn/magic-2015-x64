@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="117">
+  <FILENAME text="JACES_MINDSEEKER_374301" />
+  <CARDNAME text="JACES_MINDSEEKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Jace’s Mindseeker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Cherche-esprit de Jace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Buscamentes de Jace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Jaces Gedankenforscher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Cercamente di Jace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジェイスの精（せい）神（しん）追（お）い]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[제이스의 정신추적자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мыслеискатель Джейса]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Caça-mentes de Jace]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[杰斯的觅灵影]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[傑斯的覓靈影]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374301" />
+  <ARTID value="147476" />
+  <ARTIST name="Greg Staples" />
+  <CASTING_COST cost="{4}{U}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Fish" />
+  <SUB_TYPE metaname="Illusion" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="4" />
+  <TOUGHNESS value="4" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Flying]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Vol]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vuela.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Fliegend]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Volare]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[비행]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Полет]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Voar]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[飞行]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[飛行]]></LOCALISED_TEXT>
+    <SFX text="TARGET_PLASMA_PLAY" />
+    <INTRINSIC characteristic="CHARACTERISTIC_FLYING" />
+  </STATIC_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Jace’s Mindseeker enters the battlefield, target opponent puts the top five cards of his or her library into his or her graveyard. You may cast an instant or sorcery card from among them without paying its mana cost.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Cherche-esprit de Jace arrive sur le champ de bataille, l’adversaire ciblé met les cinq cartes du dessus de sa bibliothèque dans son cimetière. Vous pouvez lancer une carte d’éphémère ou de rituel parmi elles sans payer son coût de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Buscamentes de Jace entre al campo de batalla, el oponente objetivo pone las cinco primeras cartas de su biblioteca en su cementerio. Puedes lanzar una carta de instantáneo o de conjuro que se encuentre entre ellas sin pagar su coste de maná.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Jaces Gedankenforscher ins Spiel kommt, legt ein Gegner deiner Wahl die obersten fünf Karten seiner Bibliothek auf seinen Friedhof. Du kannst eine Spontanzauber- oder Hexerei-Karte davon wirken, ohne ihre Manakosten zu bezahlen.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Cercamente di Jace entra nel campo di battaglia, un avversario bersaglio mette nel suo cimitero le prime cinque carte del suo grimorio. Puoi lanciare una carta istantaneo o stregoneria scelta tra esse senza pagare il suo costo di mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[ジェイスの精神追いが戦場に出たとき、プレイヤー１人を対象とする。そのプレイヤーは、自分のライブラリーの一番上から５枚のカードを自分の墓地に置く。あなたはその中にあるインスタント・カード１枚かソーサリー・カード１枚を、そのマナ・コストを支払うことなく唱えてもよい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[제이스의 정신추적자가 전장에 들어올 때, 상대 한 명을 목표로 정한다. 그 상대는 자신의 서고 맨 위의 카드 다섯 장을 자신의 무덤에 넣는다. 당신은 그렇게 무덤에 들어간 순간마법이나 집중마법 카드 한 장을 마나 비용을 지불하지 않고 발동할 수 있다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Мыслеискатель Джейса выходит на поле битвы, целевой оппонент кладет пять верхних карт своей библиотеки на свое кладбище. Вы можете разыграть находящуюся среди них карту мгновенного заклинания или волшебства без уплаты ее мана-стоимости.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Caça-mentes de Jace entra no campo de batalha, o oponente alvo coloca os cinco cards do topo do grimório dele no próprio cemitério. Você pode conjurar uma mágica instantânea ou feitiço dentre eles sem pagar seu custo de mana.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当杰斯的觅灵影进战场时，目标对手将其牌库顶的五张牌置入其坟墓场。你可以施放其中的一张瞬间或法术牌，且不需支付其法术力费用。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當傑斯的覓靈影進戰場時，目標玩家將其牌庫頂的五張牌置入其墳墓場。你可以施放其中的一張瞬間或巫術牌，且不需支付其魔法力費用。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_TARGET" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local targetPlayer = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local answerDC = EffectDC():Make_Targets(2)
+    local queryDC = EffectDC():Make_Chest(1)
+    local cardsToSelect = 0
+    if targetPlayer ~= nil then
+    	for i = 0, 4 do
+    		local card = targetPlayer:Library_GetNth(0)
+    		if card ~= nil then
+    			queryDC:Set_CardPtr(i, card)
+    			queryDC:Protect_CardPtr(i)
+    			card:PutInGraveyard()
+    			if card:GetCardType():Test(CARD_TYPE_SORCERY) or card:GetCardType():Test(CARD_TYPE_INSTANT) then
+    				if EffectController():CanCastSpellForFree( card ) then	
+    					cardsToSelect = cardsToSelect+1
+    				else
+    					queryDC:QueryUnselect_CardPtr(i)
+    				end
+    			else
+    				queryDC:QueryUnselect_CardPtr(i)
+    			end
+    		else
+    			break	
+    		end
+    	end
+    end
+    EffectController():ChooseItemFromDC( "CARD_QUERY_DJINN_OF_WISHES_QUESTION", queryDC, answerDC, QUERY_FLAG_MAY)
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    local chosenDC = EffectDC():Get_Targets(2)
+    if chosenDC ~= nil then
+    	local cardToCast = chosenDC:Get_CardPtr(0)
+    	if cardToCast ~= nil then	
+    		EffectController():CastSpellForFree( cardToCast )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_BADGE_TITLE_10" body="MORE_INFO_BADGE_BODY_10" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PLASMA_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PLASMA_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_TARGET">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to target.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur à cibler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para hacerlo objetivo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler als Ziel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore da bersagliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[対象のプレイヤーを１人選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[목표로 정할 플레이어 한 명을 고른다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите целевого игрока.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador alvo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手为目标。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家為目標。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_DJINN_OF_WISHES_QUESTION">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Would you like to play this card without paying its mana cost? If you do not, the card will remain exiled.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Voulez-vous jouer cette carte sans payer son coût de mana ? Si vous ne le faites pas, la carte restera exilée.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[¿Quieres jugar esta carta sin pagar su coste de maná? Si no lo haces, la carta permanecerá exiliada.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Möchtest du die Karte spielen, ohne ihre Manakosten zu bezahlen? Falls nicht, bleibt die Karte im Exil.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Vuoi giocare questa carta senza pagare il suo costo di mana? Se non lo fai, la carta rimarrà esiliata.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[このカードを、マナ・コストを支払わずに唱えますか？唱えない場合、カードは追放されます。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[마나 비용을 지블하지 않고 이 카드를 플레이하시겠습니까? 그러지 않으면 이 카드는 추방된 상태로 남게 됩니다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вы хотите разыграть эту карту без уплаты ее мана-стоимости? Если нет, карта останется в изгнании.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Gostaria de jogar este card sem pagar seu custo de mana? Caso não o faça, o card permanecerá exilado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你想使用这张牌且不支付其法术力费用吗？如果你不使用它，该牌将持续被放逐。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你想使用這張牌且不支付其魔法力費用嗎？如果你不使用它，該牌將持續被放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

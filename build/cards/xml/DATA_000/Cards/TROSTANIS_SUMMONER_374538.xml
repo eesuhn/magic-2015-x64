@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="119">
+  <FILENAME text="TROSTANIS_SUMMONER_374538" />
+  <CARDNAME text="TROSTANIS_SUMMONER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trostani’s Summoner]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Invocatrice de Trostani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Invocadora de Trostani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trostanis Beschwörerin]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Evocatrice di Trostani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トロスターニの召（しょう）喚（かん）士（し）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[트로스타니의 소환사]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Вызывательница Тростани]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Invocador de Trostani]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[卓塔妮的召唤师]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[卓塔妮的召喚師]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374538" />
+  <ARTID value="146666" />
+  <ARTIST name="Howard Lyon" />
+  <CASTING_COST cost="{5}{G}{W}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Elf" />
+  <SUB_TYPE metaname="Shaman" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Trostani’s Summoner enters the battlefield, put a 2/2 white Knight creature token with vigilance, a 3/3 green Centaur creature token, and a 4/4 green Rhino creature token with trample onto the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Invocatrice de Trostani arrive sur le champ de bataille, mettez sur le champ de bataille un jeton de créature 2/2 blanche Chevalier avec la vigilance, un jeton de créature 3/3 verte Centaure et un jeton de créature 4/4 verte Rhinocéros avec le piétinement.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Invocadora de Trostani entre al campo de batalla, pon en el campo de batalla una ficha de criatura Caballero blanca 2/2 con la habilidad de vigilancia, una ficha de criatura Centauro verde 3/3 y una ficha de criatura Rinoceronte verde 4/4 con la habilidad de arrollar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn Trostanis Beschwörerin ins Spiel kommt, bringe einen 2/2 weißen Ritter-Kreaturenspielstein mit Wachsamkeit, einen 3/3 grünen Zentaur-Kreaturenspielstein und einen 4/4 grünen Nashorn-Kreaturenspielstein, der Trampelschaden verursacht, ins Spiel.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando l’Evocatrice di Trostani entra nel campo di battaglia, metti sul campo di battaglia una pedina creatura Cavaliere 2/2 bianca con cautela, una pedina creatura Centauro 3/3 verde e una pedina creatura Rinoceronte 4/4 verde con travolgere.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トロスターニの召喚士が戦場に出たとき、警戒を持つ白の２/２の騎士・クリーチャー・トークンを１体、緑の３/３のケンタウルス・クリーチャー・トークンを１体、トランプルを持つ緑の４/４のサイ・クリーチャー・トークンを１体戦場に出す。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[트로스타니의 소환사가 전장에 들어올 때, 경계를 가진 2/2 백색 기사 토큰 한 개, 3/3 녹색 켄타우로스 토큰 한 개, 돌진을 가진 4/4 녹색 코뿔소 토큰 한 개를 전장에 놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Вызывательница Тростани выходит на поле битвы, положите на поле битвы одну фишку существа 2/2 белый Рыцарь с Бдительностью, одну фишку существа 3/3 зеленый Кентавр и одну фишку существа 4/4 зеленый Носорог с Пробивным ударом.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Invocador de Trostani entrar no campo de batalha, coloque no campo de batalha uma ficha de criatura branca 2/2 do tipo Cavaleiro com vigilância, uma ficha de criatura verde 3/3 do tipo Centauro e uma ficha de criatura verde 4/4 do tipo Rinoceronte com atropelar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当卓塔妮的召唤师进战场时，将一个2/2白色，具警戒异能的骑士衍生生物，一个3/3绿色半人马衍生生物，和一个4/4绿色，具践踏异能的犀牛衍生生物放进战场。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當卓塔妮的召喚師進戰場時，將一個2/2白色，具警戒異能的騎士衍生生物，一個3/3綠色半人馬衍生生物，和一個4/4綠色，具踐踏異能的犀牛衍生生物放進戰場。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_CENTAUR_3_3_G_377544", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_KNIGHT_2_2_W_V_377545", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    MTG():PutTokensOntoBattlefield( "TOKEN_RHINO_4_4_G_T_377547", 1, EffectController() ) 
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_RHINO_4_4_G_T_377547" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_KNIGHT_2_2_W_V_377545" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_CENTAUR_3_3_G_377544" />
+  <HELP title="MORE_INFO_BADGE_TITLE_1" body="MORE_INFO_BADGE_BODY_1" zone="ZONE_ANY" />
+  <HELP title="MORE_INFO_BADGE_TITLE_13" body="MORE_INFO_BADGE_BODY_13" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BLUNT_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLUNT_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="2100" zone="ZONE_HAND" />
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

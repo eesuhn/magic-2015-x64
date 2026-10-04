@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="126">
+  <FILENAME text="PHERESBAND_TROMPER_377513" />
+  <CARDNAME text="PHERESBAND_TROMPER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Pheres-Band Tromper]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Piaffeur du clan Phérès]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Arrollador del clan Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trampler der Pheres-Herde]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Battitore della Banda Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[フィーリーズ団（だん）の精（せい）鋭（えい）兵（へい）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[피레스무리 발굽병]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скакун из Племени Ферий]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Trompador do Bando Feres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[斐力兹族重跺者]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[斐力茲族重跺者]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="377513" />
+  <ARTID value="152054" />
+  <ARTIST name="Volkan Baga" />
+  <CASTING_COST cost="{3}{G}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Trompers are the most feared warriors of the Pheres Band. Anger is their lifeblood. It sustains them and gives them purpose.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Les piaffeurs sont les guerriers les plus redoutés du clan Phérès. La colère est leur essence vitale. Elle les nourrit et leur donne un but.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Los arrolladores son los guerreros más temibles del clan Feres. La ira es la fuerza vital que los mantiene e inspira.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Trampler sind die am meisten gefürchteten Krieger der Pheres-Herde. Durch ihre Adern fließt Wut. Sie gibt ihnen Kraft und treibt sie an.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[I battitori sono i guerrieri più temuti della Banda Feres. L’ira è la linfa vitale che li alimenta e li guida al loro scopo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[精鋭兵はフィリーズ団の中でも最も恐れられている戦士たちである。その血は怒りに満ちており、それが彼らに活力と目的を与えている。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[발굽병들은 피레스 무리에서 가장 무시무시한 전사들이다. 그들의 힘의 원천은 분노다. 분노가 그들을 지탱하고 그들의 삶에 목적을 준다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Скакуны — самые устрашающие воины племени Ферий. Гнев придает им силы. Он поддерживает их и дает им цель в жизни.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Os trompadores são os guerreiros mais temidos do Bando Feres. A raiva é sua força vital. É o que os sustenta e lhes dá propósito.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[重跺者是斐力兹族最令人生畏的战士。愤怒是他们的活力泉源，维系其生命，也赋予动力。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[重跺者是斐力茲族最令人生畏的戰士。憤怒是他們的活力泉源，維繫其生命，也賦予動力。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Centaur" />
+  <SUB_TYPE metaname="Warrior" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="3" />
+  <TOUGHNESS value="3" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[|Inspired| — Whenever Pheres-Band Tromper becomes untapped, put a +1/+1 counter on it.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[|Inspiration| — À chaque fois que le Piaffeur du clan Phérès devient dégagé, mettez un marqueur +1/+1 sur lui.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[|Inspiración| — Siempre que el Arrollador del clan Feres se enderece, pon un contador +1/+1 sobre él.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[|Inspiriert| — Immer wenn der Trampler der Pheres-Herde enttappt wird, lege eine +1/+1-Marke auf ihn.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[|Ispirazione| — Ogniqualvolta il Battitore della Banda Feres viene STAPpato, metti un segnalino +1/+1 su di esso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[|神啓| ― フィーリーズ団の精鋭兵がアンタップ状態になるたび、これの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[영감 — 피레스무리 발굽병이 언탭될 때마다, 피레스무리 발굽병에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[|Одухотворение| — Каждый раз, когда Скакун из Племени Ферий становится развернутым, положите на него один жетон +1/+1.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[|Inspirado| — Toda vez que Trompador do Bando Feres for desvirado, coloque um marcador +1/+1 nele.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[启悟～每当斐力兹族重跺者成为未横置时，在其上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[啟悟～每當斐力茲族重跺者成為未橫置時，在其上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="BECAME_UNTAPPED" simple_qualifier="self" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TITLE_INSPIRED" body="MORE_INFO_BODY_INSPIRED" zone="ZONE_ANY" />
+  <SFX text="COMBAT_CHOP_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_CHOP_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="203">
+  <FILENAME text="COURIERS_CAPSULE_381876" />
+  <CARDNAME text="COURIERS_CAPSULE" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Courier’s Capsule]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Capsule du messager]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cápsula del mensajero]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Kapsel des Kuriers]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Capsula del Corriere]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[急（きゅう）使（し）の薬（やく）包（ほう）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[전령의 보관함]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Капсула Гонца]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Cápsula do Mensageiro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[讯使坠盒]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[訊使墜盒]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="381876" />
+  <ARTID value="114926" />
+  <ARTIST name="Andrew Murray" />
+  <CASTING_COST cost="{1}{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[In ages past, Esper couriers bore messages written on ornate scrolls. The medium has grown more sophisticated, but the principle remains the same.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Jadis, les messagers d'Esper transportaient des messages écrits sur des parchemins ornés. L'objet est devenu plus sophistiqué, mais le principe reste le même.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[En eras pasadas, los mensajeros de Esper llevaban mensajes escritos en pergaminos adornados. El medio es ahora mucho más sofisticado, pero el principio es el mismo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[In vergangenen Zeiten überbrachten Kuriere in Esper verzierte Schriftrollen. Das Medium hat sich verändert, das Prinzip ist das gleiche geblieben.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[In passato, i corrieri di Esper recavano messaggi scritti su pergamene decorate. Lo strumento è diventato più sofisticato, ma il principio è rimasto lo stesso.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[過去何世代もの間、エスパーの急使は飾り立てられた巻物に書かれた書簡を運んでいた。その後、手段はより洗練されていったが、書かれる内容は変わりがない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[예전에 에스퍼 전령들은 장식된 두루마리에 적힌 메시지를 옮겼다. 두루마리는 더 복잡하게 변했지만 기본은 변하지 않았다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[В стародавние времена эсперские гонцы переносили послания, написанные на богато украшенных свитках. Теперь устройство стало более сложным, но принцип остался прежним.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nas eras passadas, os mensageiros de Esper levavam mensagens escritas em pergaminhos decorados. O meio tornou-se mais sofisticado, mas os princípios permanecem os mesmos.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[在很久以前，艾斯波讯使身上携带的是写在华美卷轴上的讯息。承载讯息的东西已更加精致，但原理依旧相同。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[在很久以前，艾斯波訊使身上攜帶的是寫在華美卷軸上的訊息。承載訊息的東西已更加精緻，但原理依舊相同。]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Artifact" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{1}{U}, {T}, Sacrifice Courier’s Capsule: Draw two cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{1}{U}, {T}, sacrifiez la Capsule du messager : Piochez deux cartes.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{1}{U}, {T}, sacrificar la Cápsula del mensajero: Roba dos cartas.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{1}{U}, {T}, opfere die Kapsel des Kuriers: Ziehe zwei Karten.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{1}{U}, {T}, Sacrifica la Capsula del Corriere: Pesca due carte.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{1}{U}, {T}, 急使の薬包を生け贄に捧げる：カードを２枚引く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{1}{U}, {T}, 전령의 보관함을 희생한다: 카드 두 장을 뽑는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{1}{U}, {T}, пожертвуйте Капсулу Гонца: возьмите две карты.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{1}{U}, {T}, Sacrifique Cápsula do Mensageiro: Compre dois cards.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{1}{U}，{T}，牺牲讯使坠盒：抓两张牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{1}{U}，{T}，犧牲訊使墜盒：抽兩張牌。]]></LOCALISED_TEXT>
+    <COST mana_cost="{1}{U}" type="Mana" />
+    <COST type="TapSelf" />
+    <COST type="SacrificeSelf" />
+    <RESOLUTION_TIME_ACTION>
+    EffectController():DrawCards(2)
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_END_OF_TURN" window_turn="their_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_1" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY window_step="STEP_MAIN_2" window_turn="my_turn" type="window" />
+    <AI_AVAILABILITY type="in_response" response_source="1" />
+  </ACTIVATED_ABILITY>
+  <AI_BASE_SCORE score="600" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_DRAW_CARDS_WHY_PLAY" removal_tag="HINT_DRAW_CARDS_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

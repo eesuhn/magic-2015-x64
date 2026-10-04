@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="588">
+  <FILENAME text="TRITON_SHORESTALKER_378471" />
+  <CARDNAME text="TRITON_SHORESTALKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triton Shorestalker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Pisteur des côtes triton]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Vigilacostas tritónido]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tritonier-Küstenschleicher]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Marinide Braccacoste]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トリトンの岸（きし）忍（しの）び]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[트리톤 해안추적자]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тритон, Береговой Охотник]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Talassido Vigia-costa]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[岸袭屈东]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[岸襲屈東]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378471" />
+  <ARTID value="152810" />
+  <ARTIST name="Svetlin Velinov" />
+  <CASTING_COST cost="{U}" />
+  <FLAVOURTEXT>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[“Who will miss you, drywalker? A wife? A child? Perhaps they will blame the sea for your fate, and teach future generations to stay far away from it.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[« Et à qui manqueras-tu, pied-sec ? Une épouse ? Un enfant ? Peut-être blâmeront-ils la mer pour ta mort, et apprendront-ils aux générations futures à rester à l'écart des vagues. »]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[“¿Quién te añorará, pisatierra? ¿Una esposa? ¿Un hijo? Quizá culpen al mar de tu destino y enseñen a las nuevas generaciones a no acercarse a él”.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[„Wer soll dich schon vermissen, Trockenläufer? Deine Frau? Dein Kind? Vielleicht denken sie, die See hätte dich verschlungen, und werden ihren Nachkommen einschärfen, sich von ihr fernzuhalten.“]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[“Chi ti piangerà, piediasciutti? Una moglie? Un figlio? Forse accuseranno il mare della tua fine e insegneranno alle generazioni future a tenersene lontani.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[「お前がいなくなることで悲しむものは誰か、陸歩きよ？お前の妻か？お前の子か？彼らがお前の悲運の原因として海を責め、そして後に続く者たちに海には近づかぬよう教えるようになるやもしれぬ。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA['누가 널 그리워하겠는가, 마른땅을 걷는 자여? 아내? 자식? 네 죽음을 바다 탓으로 돌리며 후손들에게 바다에 접근하지 말라고 가르치겠지.']]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[«Кто будет по тебе скучать, сухопутный? Жена? Ребенок? Быть может, они будут винить море в том, что случилось с тобой, и научат своих потомков держаться от него подальше».]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[“Quem vai sentir sua falta, pé-seco? Uma esposa? Um filho? Talvez eles culpem o mar pelo seu destino e ensinem as futuras gerações a ficarem longe dele.”]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[「地上人，谁会思念你？妻子？孩子？或许他们会将你的命运归咎于大海，教导后世子孙远离它。」]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[「地上人，誰會思念你？妻子？孩子？或許他們會將你的命運歸咎於大海，教導後世子孫遠離它。」]]></LOCALISED_TEXT>
+  </FLAVOURTEXT>
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Merfolk" />
+  <SUB_TYPE metaname="Rogue" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="C" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <STATIC_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Triton Shorestalker can’t be blocked.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Le Pisteur des côtes triton ne peut pas être bloqué.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[El Vigilacostas tritónido no puede ser bloqueado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Der Tritonier-Küstenschleicher kann nicht geblockt werden.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Il Marinide Braccacoste non può essere bloccato.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[トリトンの岸忍びはブロックされない。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[트리톤 해안추적자는 방어당할 수 없다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Тритон, Береговой Охотник не может быть заблокирован.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Talassido Vigia-costa não pode ser bloqueado.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[岸袭屈东不能被阻挡。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[岸襲屈東不能被阻擋。]]></LOCALISED_TEXT>
+    <CONTINUOUS_ACTION layer="8">
+    if EffectSource() ~= nil then
+    local characteristics = EffectSource():GetCurrentCharacteristics()
+    	characteristics:Bool_Set( CHARACTERISTIC_UNBLOCKABLE, 1 )
+    end
+    </CONTINUOUS_ACTION>
+  </STATIC_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS min_amount="6" max_amount="15" score_per_unit="50" resource_type="ENCHANTMENT" resource_subtype="AURA" amount_consumed="1" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <SFX text="COMBAT_BLADE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BLADE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <EXPLAIN play_tag="HINT_CREATURE_EVASIVE_WHY_PLAY" removal_tag="HINT_CREATURE_EVASIVE_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

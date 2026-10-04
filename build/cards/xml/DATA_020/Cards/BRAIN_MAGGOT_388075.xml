@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="6">
+  <FILENAME text="BRAIN_MAGGOT_388075" />
+  <CARDNAME text="BRAIN_MAGGOT" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Brain Maggot]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Ver de cervelle]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Larva cerebral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Hirnmade]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Larva Cerebrale]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[脳（のう）蛆（うじ）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[뇌 구더기]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Мозговой Червь]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Verme Cerebral]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[坏脑蛆]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[壞腦蛆]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="388075" />
+  <ARTID value="153098" />
+  <ARTIST name="Min Yum" />
+  <CASTING_COST cost="{1}{B}" />
+  <TYPE metaname="Enchantment" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Insect" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Brain Maggot enters the battlefield, target opponent reveals his or her hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand le Ver de cervelle arrive sur le champ de bataille, l’adversaire ciblé révèle sa main et vous y choisissez une carte non-terrain. Exilez cette carte jusqu’à ce que le Ver de cervelle quitte le champ de bataille.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando la Larva cerebral entre al campo de batalla, el oponente objetivo muestra su mano y tú eliges de ahí una carta que no sea tierra. Exilia esa carta hasta que la Larva cerebral deje el campo de batalla.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn die Hirnmade ins Spiel kommt, zeigt ein Gegner deiner Wahl die Karten auf seiner Hand offen vor, und du bestimmst eine Karte darunter, die kein Land ist. Schicke diese Karte ins Exil, bis die Hirnmade das Spiel verlässt.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando la Larva Cerebrale entra nel campo di battaglia, un avversario bersaglio rivela la sua mano e tu scegli una carta non terra da essa. Esilia quella carta finché la Larva Cerebrale non lascia il campo di battaglia.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[脳蛆が戦場に出たとき、対戦相手１人を対象とする。そのプレイヤーは自分の手札を公開し、あなたはその中から土地でないカードを１枚選ぶ。脳蛆が戦場を離れるまで、そのカードを追放する。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[뇌 구더기가 전장에 들어올 때, 상대를 목표로 정한다. 그 상대는 자신의 손을 공개하고 당신은 그 중 대지가 아닌 카드 하나를 선택한다. 뇌 구더기가 전장을 떠날 때까지 그 카드를 추방한다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Мозговой Червь выходит на поле битвы, целевой оппонент показывает свою руку, и вы выбираете из нее не являющуюся землей карту. Изгоните ту карту до тех пор, пока Мозговой Червь не покинет поле битвы.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Verme Cerebral entra no campo de batalha, o oponente alvo revela a própria mão e você escolhe um card dela que não seja um terreno. Exile aquele card até Verme Cerebral deixar o campo de batalha.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当坏脑蛆进战场时，目标对手展示其手牌且你选择其中一张非地牌。放逐该牌，直到坏脑蛆离开战场为止。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當壞腦蛆進戰場時，目標對手展示其手牌且你選擇其中一張非地牌。放逐該牌，直到壞腦蛆離開戰場為止。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_END" simple_qualifier="self" to_zone="ZONE_BATTLEFIELD" />
+    <TARGET tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_REVEAL_HAND" definition="0" compartment="0" count="1" />
+    <TARGET_DEFINITION id="0">
+    local filter = ClearFilter()
+    filter:SetFilterType( FILTER_TYPE_PLAYERS )
+    filter:Add( FE_TEAM, OP_NOT, EffectController():GetTeam() )
+    </TARGET_DEFINITION>
+    <RESOLUTION_TIME_ACTION>
+    local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    local numPlayers = MTG():GetNumberOfPlayers()
+    if EffectSource() ~= nil then
+    	for i = 0, (numPlayers-1) do 
+    		local player = MTG():GetNthPlayer(i)
+    		
+    		if player ~= target_player and player ~= EffectController() then
+    		target_player:RevealHand(player)
+    		end
+    	end
+    else
+    	
+    	for i = 0, (numPlayers-1) do 
+    		local player = MTG():GetNthPlayer(i)
+    		
+    		if player ~= target_player then
+    		target_player:RevealHand(player)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	local target_player = EffectDC():Get_Targets(0):Get_PlayerPtr(0)
+    	if target_player ~= nil then
+    		local filter = ClearFilter()
+    		filter:SetZone( ZONE_HAND, target_player )
+    		filter:Add(FE_TYPE, OP_NOT, CARD_TYPE_LAND)
+    		EffectController():ChooseItem( "CARD_QUERY_CHOOSE_CARD_TO_EXILE", EffectDC():Make_Targets(1) )
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	if EffectDC():Get_Targets(1) ~= nil then
+    		local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    		if target ~= nil then 
+    			EffectDC():Get_Targets(1):Protect_CardPtr(0)
+    			target:Exile()  
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	if EffectDC():Get_Targets(1) ~= nil then
+    		local target = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    		local source = EffectSource()
+    		if target ~= nil and source ~= nil then
+    			target:NailOnto(source)
+    		end
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <DURATION>
+    return (EffectSource() == nil)
+    </DURATION>
+    <EXPIRY_ACTION>
+    local cardToReturn = EffectDC():Get_Targets(1):Get_CardPtr(0)
+    if cardToReturn ~= nil then
+    	cardToReturn:QueueZoneChange(ZONE_HAND, cardToReturn:GetOwner())
+    end
+    </EXPIRY_ACTION>
+  </TRIGGERED_ABILITY>
+  <HELP title="MORE_INFO_TYPE_ENCHANTMENT_CREATURE_TITLE" body="MORE_INFO_TYPE_ENCHANTMENT_CREATURE_BODY" zone="ZONE_ANY" />
+  <SFX text="COMBAT_PESTS_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_PESTS_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="600" zone="ZONE_HAND" />
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_A_PLAYER_TO_REVEAL_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a player to reveal his or her hand. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez un joueur pour qu'il révèle sa main. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige un jugador para que revele su mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme einen Spieler, der die Karten auf seiner Hand offen vorzeigt. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli un giocatore che rivela la sua mano. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[手札を公開させるプレイヤーを１人選んでください。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[손을 공개할 플레이어 한 명을 고른다. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите игрока, который должен показать свою руку. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um jogador para que este revele a própria mão. ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一位牌手来使其展示手牌。 ]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一位玩家來使其展示手牌。 ]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <QUERYTEXT tag="CARD_QUERY_CHOOSE_CARD_TO_EXILE">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Choose a card to exile.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Choisissez une carte pour l'exiler.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Elige una carta para exiliar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Bestimme eine Karte, die ins Exil geschickt werden soll.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Scegli una carta da esiliare.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[追放するカードを１枚選んでください。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[추방할 카드를 한 장 고르십시오.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Выберите карту для изгнания.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Escolha um card para exilar.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[选择一张要放逐的牌。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[選擇一張牌來放逐。]]></LOCALISED_TEXT>
+  </QUERYTEXT>
+  <EXPLAIN play_tag="HINT_CREATURE_ETB_WHY_PLAY" removal_tag="HINT_CREATURE_LTB_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

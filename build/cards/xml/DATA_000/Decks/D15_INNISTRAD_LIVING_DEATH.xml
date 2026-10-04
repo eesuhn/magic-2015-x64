@@ -1,0 +1,35 @@
+﻿<DECK personality="D15_INN_LIVING_DEATH_PERSONALITY.XML" deck_box_image="locked" deck_box_image_locked="locked" icon="" cheat_menu_filter_deck_type="Standard" cheat_menu_filter_datapool="D15 Innistrad" content_pack="0" never_available="true" uid="9" is_black="true" name_tag="D15_LIVING_DEATH_DECKNAME" land_pool_name="D15_INNISTRAD_LAND_POOL">
+  <BASICLAND name="Swamp" quantity="28" />
+  <CARD name="SCATHE_ZOMBIES_387320" deckOrderId="0" />
+  <CARD name="SCATHE_ZOMBIES_387320" deckOrderId="1" />
+  <CARD name="SCATHE_ZOMBIES_387320" deckOrderId="2" />
+  <CARD name="SCATHE_ZOMBIES_387320" deckOrderId="3" />
+  <CARD name="WALKING_CORPSE_374395" deckOrderId="4" />
+  <CARD name="WALKING_CORPSE_374395" deckOrderId="5" />
+  <CARD name="WALKING_CORPSE_374395" deckOrderId="6" />
+  <CARD name="WALKING_CORPSE_374395" deckOrderId="7" />
+  <CARD name="CARRION_CROW_374664" deckOrderId="8" />
+  <CARD name="CARRION_CROW_374664" deckOrderId="9" />
+  <CARD name="CARRION_CROW_374664" deckOrderId="10" />
+  <CARD name="CARRION_CROW_374664" deckOrderId="11" />
+  <CARD name="WARPATH_GHOUL_374811" deckOrderId="12" />
+  <CARD name="WARPATH_GHOUL_374811" deckOrderId="13" />
+  <CARD name="WARPATH_GHOUL_374811" deckOrderId="14" />
+  <CARD name="WARPATH_GHOUL_374811" deckOrderId="15" />
+  <CARD name="POLLUTED_DEAD_380159" deckOrderId="16" />
+  <CARD name="POLLUTED_DEAD_380159" deckOrderId="17" />
+  <CARD name="POLLUTED_DEAD_380159" deckOrderId="18" />
+  <CARD name="POLLUTED_DEAD_380159" deckOrderId="19" />
+  <CARD name="GHOULRAISER_374269" deckOrderId="20" />
+  <CARD name="GHOULRAISER_374269" deckOrderId="21" />
+  <CARD name="ROTTING_FENSNAKE_374573" deckOrderId="22" />
+  <CARD name="ROTTING_FENSNAKE_374573" deckOrderId="23" />
+  <CARD name="ROTTING_FENSNAKE_374573" deckOrderId="24" />
+  <CARD name="ROTTING_FENSNAKE_374573" deckOrderId="25" />
+  <CARD name="MASS_OF_GHOULS_380152" deckOrderId="26" />
+  <CARD name="MASS_OF_GHOULS_380152" deckOrderId="27" />
+  <CARD name="MASS_OF_GHOULS_380152" deckOrderId="28" />
+  <CARD name="MASS_OF_GHOULS_380152" deckOrderId="29" />
+  <CARD name="MAALFELD_TWINS_374613" deckOrderId="30" />
+  <CARD name="MAALFELD_TWINS_374613" deckOrderId="31" />
+</DECK>

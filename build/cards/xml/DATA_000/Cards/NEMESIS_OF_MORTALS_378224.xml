@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="592">
+  <FILENAME text="NEMESIS_OF_MORTALS_378224" />
+  <CARDNAME text="NEMESIS_OF_MORTALS" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nemesis of Mortals]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Némésis des mortels]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Némesis de los mortales]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Nemesis der Sterblichen]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Nemesi dei Mortali]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[定（じょう）命（みょう）の者（もの）の宿（しゅく）敵（てき）]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[필멸자의 적]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Бич Смертных]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nêmesis dos Mortais]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[生灵宿敌]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[生靈宿敵]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="378224" />
+  <ARTID value="150797" />
+  <ARTIST name="Mathias Kollros" />
+  <CASTING_COST cost="{4}{G}{G}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Snake" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="U" />
+  <POWER value="5" />
+  <TOUGHNESS value="5" />
+  <TRIGGERED_ABILITY replacement_effect="1" active_zone="ZONE_HAND">
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Nemesis of Mortals costs {1} less to cast for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[La Némésis des mortels coûte {1} de moins à lancer pour chaque carte de créature dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuesta {1} menos lanzar la Némesis de los mortales por cada carta de criatura en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Die Nemesis der Sterblichen kostet beim Wirken für jede Kreaturenkarte in deinem Friedhof {1} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[La Nemesi dei Mortali costa {1} in meno per essere lanciata per ogni carta creatura nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[定命の者の宿敵を唱えるためのコストは、あなたの墓地にあるクリーチャー・カード１枚につき{1}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[필멸자의 적은 당신의 무덤에 있는 생물 카드 한 장당 발동하는 데 {1}가 덜 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Стоимость разыгрывания Бича Смертных уменьшается на {1} за каждую карту существа на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Nêmesis dos Mortais custa {1} a menos para ser conjurada para cada card de criatura no seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[你坟墓场中每有一张生物牌，生灵宿敌便减少{1}来施放。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[你墳墓場中每有一張生物牌，生靈宿敵便減少{1}來施放。]]></LOCALISED_TEXT>
+    <TRIGGER value="CONSIDERED_FOR_CAST" simple_qualifier="self" pre_trigger="1" />
+    <RESOLUTION_TIME_ACTION>
+    if TriggerObject() ~= nil then
+    	local filter = ClearFilter()
+    	
+    	filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    	filter:SetZone(ZONE_GRAVEYARD, EffectController())
+    	TriggerObject():DecreaseCost( filter:Count() )
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <ACTIVATED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[{7}{G}{G}: Monstrosity 5. This ability costs {1} less to activate for each creature card in your graveyard.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[{7}{G}{G} : Monstruosité 5. Cette capacité coûte {1} de moins à activer pour chaque carte de créature dans votre cimetière.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[{7}{G}{G}: Monstruosidad 5. Cuesta {1} menos activar esta habilidad por cada carta de criatura en tu cementerio.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[{7}{G}{G}: Monstrum 5. Das Aktivieren dieser Fähigkeit kostet für jede Kreaturenkarte in deinem Friedhof {1} weniger.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[{7}{G}{G}: Mostruosità 5. Questa abilità costa {1} in meno per essere attivata per ogni carta creatura nel tuo cimitero.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[{7}{G}{G}：怪物化５を行う。この能力を起動するためのコストは、あなたの墓地にあるクリーチャー・カード１枚につき{1}少なくなる。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[{7}{G}{G}: 괴수화 5. 이 능력은 당신의 무덤에 있는 생물 카드 한 장당 발동하는 데 {1}가 덜 든다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[{7}{G}{G}: Чудовищность 5. Стоимость активации этой способности уменьшается на {1} за каждую карту существа на вашем кладбище.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[{7}{G}{G}: Monstruosidade 5. Esta habilidade custa {1} a menos para ser ativada para cada card de criatura no seu cemitério.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[{7}{G}{G}：蛮化5。你坟墓场中每有一张生物牌，此异能便减少{1}来起动。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[{7}{G}{G}：蠻化5。你墳墓場中每有一張生物牌，此異能便減少{1}來起動。]]></LOCALISED_TEXT>
+    <SFX text="MONSTROUS_LUA_PLAY" />
+    <COST mana_cost="{7}{G}{G}" type="Mana" />
+    <COST_MODIFICATION>
+    local filter = ClearFilter()
+    filter:Add(FE_TYPE, OP_IS, CARD_TYPE_CREATURE)
+    filter:SetZone(ZONE_GRAVEYARD, EffectController() )
+    MTG():DecreaseCurrentCost( filter:Count() )
+    </COST_MODIFICATION>
+    <RESOLUTION_TIME_ACTION>
+    local effectSource = EffectSource()
+    if effectSource ~= nil then
+    	if effectSource:IsMonstrous() == false then
+    		effectSource:AddCounters( MTG():PlusOnePlusOneCounters(), 5)
+    		effectSource:BecomeMonstrous(5)
+    	end
+    end
+    </RESOLUTION_TIME_ACTION>
+    <EXPLAIN play_tag="HINT_ABILITY_PUMP_WHY_PLAY" />
+    <AI_AVAILABILITY window_step="STEP_DECLARE_BLOCKERS" type="window" />
+    <AI_AVAILABILITY type="in_response" response_target="1" />
+    <AVAILABILITY>
+    return Object():IsMonstrous() == false 
+    </AVAILABILITY>
+  </ACTIVATED_ABILITY>
+  <DECKBUILDING_ACTIVATION_LEVEL base_score="0">
+    <DECKBUILDING_SYNERGY_BONUS score_per_unit="40" resource_name="Graveyard" />
+  </DECKBUILDING_ACTIVATION_LEVEL>
+  <DECKBUILDING_ACTIVATION_LEVEL />
+  <HELP title="MORE_INFO_TITLE_MONSTROSITY" body="MORE_INFO_BODY_MONSTROSITY" zone="ZONE_ANY" />
+  <SFX text="COMBAT_FANG_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_FANG_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="300" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_VANILLA_WHY_PLAY" removal_tag="HINT_CREATURE_VANILLA_WHY_REMOVE" is_removal="false" />
+</CARD_V2>

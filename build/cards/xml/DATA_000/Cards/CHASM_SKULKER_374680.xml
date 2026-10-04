@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<CARD_V2 ExportVersion="863">
+  <FILENAME text="CHASM_SKULKER_374680" />
+  <CARDNAME text="CHASM_SKULKER" />
+  <TITLE>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Chasm Skulker]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Indolent des gouffres]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Acechador del abismo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Tiefsee-Lauerer]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Furtivo del Baratro]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地（じ）割（わ）れ潜（ひそ）み]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[틈새살이]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Таящийся в Разломе]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Espreitador do Abismo]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[深峡潜怪]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[深峽潛怪]]></LOCALISED_TEXT>
+  </TITLE>
+  <MULTIVERSEID value="374680" />
+  <ARTID value="155320" />
+  <ARTIST name="Jack Wang" />
+  <CASTING_COST cost="{2}{U}" />
+  <TYPE metaname="Creature" />
+  <SUB_TYPE metaname="Squid" />
+  <SUB_TYPE metaname="Horror" />
+  <EXPANSION value="DPI" />
+  <RARITY metaname="R" />
+  <POWER value="1" />
+  <TOUGHNESS value="1" />
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[Whenever you draw a card, put a +1/+1 counter on Chasm Skulker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[À chaque fois que vous piochez une carte, mettez un marqueur +1/+1 sur l’Indolent des gouffres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Siempre que robes una carta, pon un contador +1/+1 sobre el Acechador del abismo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Immer wenn du eine Karte ziehst, lege eine +1/+1-Marke auf den Tiefsee-Lauerer.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Ogniqualvolta peschi una carta, metti un segnalino +1/+1 sul Furtivo del Baratro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[あなたがカードを１枚引くたび、地割れ潜みの上に＋１/＋１カウンターを１個置く。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[당신이 카드를 뽑을 때마다, 당신은 틈새살이에 +1/+1 카운터 한 개를 올려놓는다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Каждый раз, когда вы берете карту, положите один жетон +1/+1 на Таящегося в Разломе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Toda vez que você comprar um card, coloque um marcador +1/+1 em Espreitador do Abismo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[每当你抓一张牌时，在深峡潜怪上放置一个+1/+1指示物。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[每當你抽一張牌時，在深峽潛怪上放置一個+1/+1指示物。]]></LOCALISED_TEXT>
+    <TRIGGER value="DREW_CARD" simple_qualifier="controller" to_zone="ZONE_ANY" from_zone="ZONE_ANY" />
+    <RESOLUTION_TIME_ACTION>
+    if EffectSource() ~= nil then
+    	EffectSource():AddCounters( MTG():PlusOnePlusOneCounters(), 1)
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <TRIGGERED_ABILITY>
+    <LOCALISED_TEXT LanguageCode="en-US"><![CDATA[When Chasm Skulker dies, put X 1/1 blue Squid creature tokens with islandwalk onto the battlefield, where X is the number of +1/+1 counters on Chasm Skulker.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="fr-FR"><![CDATA[Quand l’Indolent des gouffres meurt, mettez sur le champ de bataille X jetons de créature 1/1 bleue Calamar avec la traversée des îles, X étant le nombre de marqueurs +1/+1 sur l’Indolent des gouffres.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="es-ES"><![CDATA[Cuando el Acechador del abismo muera, pon en el campo de batalla X fichas de criatura Calamar azules 1/1 con la habilidad de cruzar islas, donde X es la cantidad de contadores +1/+1 sobre el Acechador del abismo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="de-DE"><![CDATA[Wenn der Tiefsee-Lauerer stirbt, bringe X 1/1 blaue Kalmar-Kreaturenspielsteine mit Inseltarnung ins Spiel, wobei X die Anzahl an +1/+1-Marken auf dem Tiefsee-Lauerer ist.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="it-IT"><![CDATA[Quando il Furtivo del Baratro muore, metti sul campo di battaglia X pedine creatura Calamaro 1/1 blu con passa-Isole, dove X è il numero di segnalini +1/+1 sul Furtivo del Baratro.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="jp-JA"><![CDATA[地割れ潜みが死亡したとき、島渡りを持つ青の１/１のイカ・クリーチャー・トークンをＸ体戦場に出す。Ｘは地割れ潜みの上に置かれた＋１/＋１カウンターの総数に等しい。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ko-KR"><![CDATA[틈새살이가 죽을 때, 섬잡입이 있는 1/1 청색 오징어 생물 토큰 X개를 전장에 놓는다. X는 틈새살이에 올려진 +1/+1 카운터 개수이다.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="ru-RU"><![CDATA[Когда Таящийся в Разломе умирает, положите на поле битвы X фишек существа 1/1 синий Кальмар со Знанием Островов, где X — количество жетонов +1/+1 на Таящемся в Разломе.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="pt-BR"><![CDATA[Quando Espreitador do Abismo morrer, coloque no campo de batalha X fichas de criatura azuis 1/1 do tipo Lula com travessia de ilha, sendo X o número de marcadores +1/+1 em Espreitador do Abismo.]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-CN"><![CDATA[当深峡潜怪死去时，将X个1/1蓝色，具海岛行者异能的乌贼衍生生物放进战场，X为深峡潜怪上+1/+1指示物的数量。]]></LOCALISED_TEXT>
+    <LOCALISED_TEXT LanguageCode="zh-HK"><![CDATA[當深峽潛怪死去時，將X個1/1藍色，具海島行者異能的烏賊衍生生物放進戰場，X為深峽潛怪上+1/+1指示物的數量。]]></LOCALISED_TEXT>
+    <TRIGGER value="ZONECHANGE_BEGIN" simple_qualifier="self" to_zone="ZONE_GRAVEYARD" from_zone="ZONE_BATTLEFIELD" />
+    <RESOLUTION_TIME_ACTION>
+    local NumTokens = EffectSourceLKI():CountCounters(MTG():PlusOnePlusOneCounters())
+    if NumTokens &gt; 0 then
+    	MTG():PutTokensOntoBattlefield( "TOKEN_SQUID_1_1_U_IW_377564", NumTokens, EffectController() ) 
+    end
+    </RESOLUTION_TIME_ACTION>
+  </TRIGGERED_ABILITY>
+  <DECKBUILDING_SYNERGY_RESOURCE resource_name="Token" amount="2" />
+  <TOKEN_REGISTRATION reservation="1" type="TOKEN_SQUID_1_1_U_IW_377564" />
+  <HELP title="MORE_INFO_BADGE_TITLE_17" body="MORE_INFO_BADGE_BODY_17" zone="ZONE_ANY" />
+  <SFX text="COMBAT_BITE_LARGE_ATTACK" power_boundary_min="4" power_boundary_max="-1" />
+  <SFX text="COMBAT_BITE_SMALL_ATTACK" power_boundary_min="1" power_boundary_max="3" />
+  <AI_BASE_SCORE score="900" zone="ZONE_BATTLEFIELD" />
+  <EXPLAIN play_tag="HINT_CREATURE_ABILITY_WHY_PLAY" removal_tag="HINT_CREATURE_DRAWBACK_WHY_REMOVE" is_removal="false" />
+</CARD_V2>
