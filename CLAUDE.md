@@ -27,7 +27,11 @@ port/setup.sh [--force]        # fetch dynarmic (pinned + zettabridge/third_part
 SKIP_GUEST=1 port/build.sh     # dist/Magic2015-64-bit.apk (drop SKIP_GUEST after guest/ changes)
 build/cards/extract_cards.py   # decrypt the OBB's card data into build/cards/ (cards.canonical.json, cards.json, cards.csv, xml/)
 port/java-truststore.sh        # once, when Gradle/sdkmanager fail with PKIX errors (TLS inspection)
+git lfs install --local && git lfs pull   # fresh clone: input/ holds only pointers until this runs
 ```
+
+`port/setup.sh`, `git lfs pull`, `port/java-truststore.sh` and `port/build.sh` need the sandbox
+disabled: they write git hooks or the system temp folder, and Gradle binds a local socket.
 
 ### Changing ZettaBridge
 
@@ -45,7 +49,7 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 - Stop it with `adb -e emu kill`.
 - Commands that start the emulator or talk to adb need the sandbox disabled.
 - Install with `adb -e install -r dist/Magic2015-64-bit.apk`. Space is tight: about 1.6 GB per install, and an update needs another 1.6 GB while it runs.
-- The first launch shows the game's "Unknown issue with Google Play services" dialog. Tap OK. The intro video needs taps to skip.
+- The first launch asks for "Nearby devices" (Allow is at 1265,589), then shows the game's "Unknown issue with Google Play services" dialog. Tap OK. The intro video needs taps to skip.
 - The user often drives the game UI. Ask them to navigate (for example to the Tutorial screen) rather than scripting long tap sequences. A badly timed tap during loading can trigger an ANR.
 - The back gesture can't be faked with `input swipe`; SystemUI ignores it. Use stepwise `input motionevent DOWN/MOVE/UP` from the screen edge.
 - Screen coordinates follow the current rotation: landscape is 2400x1080.
@@ -73,6 +77,22 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
   The unlock is `assets/opera-fan`: `purchase.db` with every IAP marked purchased. The game
   restores it into the host's data folder, so `BundledGame.seedUnlocks` applies it to the plugin
   data folder instead, once per install.
+- **Change game logic in `libDuels.so`, not the OBB.** The UI logic is compiled Lua 5.1 (`.lol`)
+  inside the OBB, and every entry is RSA-signed, so it cannot be edited. Its string constants are
+  readable, and the `Obb` class in `build/cards/extract_cards.py` decrypts any entry. The Lua calls
+  into native `lua_*` bindings, which keep their symbols in `libDuels.so`.
+  - Patches go in `LIBDUELS_PATCHES` in `port/tools.py`: each has an offset, the original bytes and
+    the new bytes, which are checked.
+  - The code is Thumb, and file offsets equal addresses. Disassemble with the NDK's
+    `llvm-objdump -d --triple=thumbv7-linux-androideabi`.
+- **Multiplayer gates.** The tutorial is required because it gives the starter deck. Beating the
+  Innistrad boss was also required, but `lua_HasPlayerBeatenInnistradBoss` is patched to pass;
+  it also gated the expansion content in the deck builder and collection.
+- **Ad-hoc multiplayer is classic Bluetooth in Java** (`BluetoothConnection`,
+  `BluetoothDeviceSelect`). The host manifest declares the Bluetooth permissions, and
+  `BundleActivity` asks for "Nearby devices" once per install, before the game starts. The game
+  sends its own Bluetooth address to its network code, but since Android 6 apps get
+  `02:00:00:00:00:00` instead of the real one. A match between two phones has not been tested yet.
 - **Back handling.** The game handles Back only in `onKeyDown`/`onKeyUp`; its `onBackPressed` is empty.
   - Predictive back is off (`enableOnBackInvokedCallback=false`).
   - `GuestBackKeys` stretches a synthesized gesture Back to 100 ms, because the game samples the button once per frame.
@@ -91,6 +111,8 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
   or any APK, OBB or keystore outside `input/`. Anything added under `input/` must go through
   LFS: check `git lfs status` shows it as `LFS`, not `Git`.
 - Keep the signing key: updates signed with a different key need an uninstall, which loses the
-  user's progress.
+  user's progress. The original key was lost. The current one (`CN=Local Mod`, SHA-256
+  `43fc3935…25938d`) was made on 2026-10-05, so an install signed with the old key must be
+  uninstalled once. Never print, read out or publish the key or its password.
 - ZettaBridge is the user's own code. Builds contain the copyrighted game: personal use only; do
   not publish them. Dynarmic and its externals keep their own licences.
