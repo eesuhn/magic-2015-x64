@@ -12,6 +12,11 @@
   builder and collection, which is now available from the start. Multiplayer still needs the
   tutorial, which gives the starter deck.
 
+### Profile
+
+- New installs start with the player named "Planewalker" and the equipped deck named "Started"
+  instead of the repack's "user" and "Колода". Existing saves are not changed.
+
 ## v1.0.0 (2026-10-04)
 
 First release. Source only: the APK contains the copyrighted game, so build it yourself (see

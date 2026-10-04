@@ -77,6 +77,13 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
   The unlock is `assets/opera-fan`: `purchase.db` with every IAP marked purchased. The game
   restores it into the host's data folder, so `BundledGame.seedUnlocks` applies it to the plugin
   data folder instead, once per install.
+- **The starting profile is `files/p1.profile` in `assets/opera-fan`.** `seedUnlocks` installs it
+  only when the game has no profile yet. `PROFILE_PATCHES` in `tools.py` renames the player to
+  "Planewalker" and the deck to "Started" at build time.
+  - The profile is RollingXOR'ed: plain[i] = c[i] ^ c[i-1], and the first byte is kept as is.
+  - Names are UTF-32LE in fixed 16-character slots: the player at 0x1694, the deck at 0x16D4.
+  - The game checks no checksum. The live save is `files/p1.profile` in the plugin data folder;
+    force-stop the game before editing it.
 - **Change game logic in `libDuels.so`, not the OBB.** The UI logic is compiled Lua 5.1 (`.lol`)
   inside the OBB, and every entry is RSA-signed, so it cannot be edited. Its string constants are
   readable, and the `Obb` class in `build/cards/extract_cards.py` decrypts any entry. The Lua calls

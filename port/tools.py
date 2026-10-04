@@ -7,7 +7,8 @@
   tools.py game-apk ORIG_APK OUT_APK LIB_DIR
       The game APK as ZettaBridge runs it: the original (targetSdk 17, which the guest linker
       relies on), its v1 signature removed, with every lib/armeabi-v7a/*.so from LIB_DIR replacing
-      or joining the original libraries, and classes.dex patched (see patch_dex).
+      or joining the original libraries, classes.dex patched (see patch_dex) and the starting
+      profile renamed (see PROFILE_PATCHES).
 
   tools.py inject APK OUT_APK ARCNAME=FILE ...
       Copies APK and adds each FILE uncompressed at ARCNAME, streamed (the OBB is 1.5 GB). Does
@@ -19,6 +20,7 @@
       Fails unless every uncompressed .so and .obb entry starts on a 16 KiB boundary.
 """
 import hashlib
+import io
 import struct
 import os
 import zlib
@@ -96,6 +98,48 @@ def patch_dex(data):
     return bytes(data)
 
 
+# The repack's unlock snapshot, assets/opera-fan (a zip), carries the starting profile,
+# files/p1.profile, which BundledGame.seedUnlocks installs only when the game has none yet. The
+# profile is RollingXOR'ed (plain[i] = c[i] ^ c[i-1], first byte as is); its names are wchar_t
+# (UTF-32LE) in fixed 16-character slots. Each patch is (offset in the decoded profile, original
+# name, new name, what it is).
+PROFILE_SLOT = 64
+PROFILE_PATCHES = [
+    (0x1694, "user", "Planewalker", "player name"),
+    (0x16D4, "\u041a\u043e\u043b\u043e\u0434\u0430", "Started", "equipped deck name"),  # "Koloda"
+]
+
+
+def patch_profile(data):
+    plain = bytearray(data[:1]) + bytearray(data[i] ^ data[i - 1] for i in range(1, len(data)))
+    for offset, old, new, what in PROFILE_PATCHES:
+        if len(new) >= PROFILE_SLOT // 4:
+            sys.exit("p1.profile: %s %r is longer than %d characters" % (what, new, PROFILE_SLOT // 4 - 1))
+        at = bytes(plain[offset:offset + PROFILE_SLOT]).decode("utf-32-le").rstrip("\0")
+        if at == new:
+            continue
+        if at != old:
+            sys.exit("p1.profile: unexpected %s %r at 0x%x (not the v1.4.4959 androeed build?)" % (what, at, offset))
+        plain[offset:offset + PROFILE_SLOT] = new.encode("utf-32-le").ljust(PROFILE_SLOT, b"\0")
+        print("p1.profile: %s set to %r" % (what, new))
+    out = bytearray(plain[:1])
+    for i in range(1, len(plain)):
+        out.append(plain[i] ^ out[i - 1])
+    return bytes(out)
+
+
+def patch_unlock_snapshot(data):
+    """assets/opera-fan with its files/p1.profile patched; every other entry is copied as is."""
+    out = io.BytesIO()
+    with zipfile.ZipFile(io.BytesIO(data)) as zi, zipfile.ZipFile(out, "w") as zo:
+        for info in zi.infolist():
+            body = zi.read(info)
+            if info.filename == "files/p1.profile":
+                body = patch_profile(body)
+            zo.writestr(info, body)
+    return out.getvalue()
+
+
 PAGE = 16384
 ALIGNMENT_EXTRA_ID = 0xD935  # Android's zip alignment extra field (apksig, zipalign -p)
 
@@ -140,6 +184,9 @@ def game_apk(orig, out, lib_dir):
                 continue
             if info.filename == "classes.dex":
                 copy_entry(zi, zo, info, patch_dex(zi.read(info)))
+                continue
+            if info.filename == "assets/opera-fan":
+                copy_entry(zi, zo, info, patch_unlock_snapshot(zi.read(info)))
                 continue
             copy_entry(zi, zo, info)
         for arcname, path in libs.items():
