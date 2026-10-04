@@ -1,9 +1,13 @@
 package com.zettabridge.launcher;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.util.TypedValue;
@@ -15,6 +19,9 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Home-screen entry of a single-game build. When this APK carries a bundled game it is installed
  * on first launch (BundledGame) and then started directly; later launches go straight to the
@@ -25,6 +32,9 @@ import android.widget.TextView;
  */
 public class BundleActivity extends Activity {
     private static final String TAG = "zb-bundle";
+    private static final String PREFS = "zb-bundle";
+    private static final String PREF_ASKED_BLUETOOTH = "asked-bluetooth";
+    private static final int REQUEST_BLUETOOTH = 1;
 
     // Process-wide preparation state, guarded by LOCK.
     private static final Object LOCK = new Object();
@@ -37,6 +47,7 @@ public class BundleActivity extends Activity {
     private TextView status;
     private ProgressBar bar;
     private Button retry;
+    private String pendingLaunch;
 
     @Override
     protected void onCreate(Bundle state) {
@@ -174,10 +185,47 @@ public class BundleActivity extends Activity {
 
     private void launch(String pkg) {
         if (isFinishing() || isDestroyed()) return;
+        if (requestBluetooth()) {
+            pendingLaunch = pkg;
+            return;
+        }
         startActivity(PluginSwitchActivity.intent(this, pkg));
         // The game runs in its own (guest) task; leaving this one behind would show the app twice
         // in Recents.
         finishAndRemoveTask();
+    }
+
+    /**
+     * Asks once per install for the Bluetooth permissions behind the game's ad-hoc multiplayer.
+     * The game predates runtime permissions and never asks, so without this every Bluetooth call
+     * is denied. Returns true while the request is showing; the game starts when it is answered,
+     * whatever the answer. A refusal can be undone in the app's settings (Nearby devices).
+     */
+    private boolean requestBluetooth() {
+        SharedPreferences prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
+        if (prefs.getBoolean(PREF_ASKED_BLUETOOTH, false)) return false;
+        String[] wanted = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+                ? new String[] {
+                        Manifest.permission.BLUETOOTH_SCAN,
+                        Manifest.permission.BLUETOOTH_CONNECT,
+                        Manifest.permission.BLUETOOTH_ADVERTISE }
+                : new String[] { Manifest.permission.ACCESS_FINE_LOCATION };
+        List<String> missing = new ArrayList<>();
+        for (String permission : wanted) {
+            if (checkSelfPermission(permission) != PackageManager.PERMISSION_GRANTED) missing.add(permission);
+        }
+        prefs.edit().putBoolean(PREF_ASKED_BLUETOOTH, true).apply();
+        if (missing.isEmpty()) return false;
+        requestPermissions(missing.toArray(new String[0]), REQUEST_BLUETOOTH);
+        return true;
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] results) {
+        if (requestCode != REQUEST_BLUETOOTH || pendingLaunch == null) return;
+        String pkg = pendingLaunch;
+        pendingLaunch = null;
+        launch(pkg);
     }
 
     private int dp(int value) {

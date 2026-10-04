@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Multiplayer
+
+- Ad-hoc (Bluetooth) multiplayer was blocked: the app targets Android 15 but declared no
+  Bluetooth permissions, and the game predates runtime permissions. The app now declares them and
+  asks for "Nearby devices" once, before the game starts.
+
 ## v1.0.0 (2026-10-04)
 
 First release. Source only: the APK contains the copyrighted game, so build it yourself (see
