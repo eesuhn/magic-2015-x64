@@ -1,6 +1,10 @@
 # Changelog
 
-## Unreleased
+## v1.1.0 (2026-10-05)
+
+Multiplayer works, and new installs start with every card and a ready-made deck. Source only, like
+v1.0.0. Installing over a v1.0.0 build keeps your save, which this release does not change: the
+starting profile below applies only to new installs.
 
 ### Multiplayer
 
@@ -18,6 +22,17 @@
   instead of the repack's "user" and "Колода". Existing saves are not changed.
 - New installs start with every card at its copy limit, including the 34 cards that came only
   from booster packs, and with the Dragonfire deck (`decks/rakdos-dragonfire.txt`).
+
+### Cards and decks
+
+- `build/cards/` holds the card list decrypted from the OBB (`extract_cards.py`). The canonical
+  catalog includes the game's own deck rules: deck size, copy limits by rarity, card pools.
+- `decks/` holds decks built from that catalog: a `.txt` list and a `.md` write-up each, starting
+  with Rakdos Dragonfire.
+- The `m15-deck-builder` Claude Code skill (`.claude/skills/`) builds and checks decks against
+  those rules. Its `install_deck.py` writes a list into a save as a real in-game deck: into the
+  emulator's live save with `--adb`, or into a save file. `STARTING_DECKS` in `port/tools.py`
+  adds a deck to every build's starting profile.
 
 ## v1.0.0 (2026-10-04)
 
