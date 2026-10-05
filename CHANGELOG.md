@@ -1,6 +1,9 @@
 # Changelog
 
-## Unreleased
+## v1.2.0 (2026-10-06)
+
+A native 32-bit build, for devices that can run 32-bit code. Source only. The 64-bit build is
+unchanged from v1.1.1.
 
 ### 32-bit build
 
@@ -8,8 +11,10 @@
   fixes, for devices that run 32-bit code. It runs natively, without ZettaBridge. The fixes are the
   `libDuels.so` patches, the Bluetooth override, the promo removal and the starting profile. The
   package stays `com.stainlessgames.D15` and the OBB stays outside the APK. The manifest adds the
-  location permission Bluetooth discovery needs and raises `minSdkVersion` to 21. The 64-bit
-  build is unchanged.
+  location permission Bluetooth discovery needs and raises `minSdkVersion` to 21. Installing it
+  over the repack needs one uninstall, which deletes that install's progress and OBB folder (see
+  [README.md](README.md#32-bit-build)). Checked statically (manifest, signature, patches,
+  starting profile), not yet on a device: the emulator cannot run 32-bit code.
 
 ## v1.1.1 (2026-10-05)
 

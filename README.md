@@ -11,7 +11,7 @@ The build produces **one APK** (`dist/Magic2015-64-bit.apk`, ~1.6 GB). It is
 code to 64-bit at run time, with the game and its OBB bundled inside and a set of fixes so this
 particular game works.
 
-> **[Latest release: v1.1.1](https://github.com/eesuhn/magic-2015-x64/releases/latest)**
+> **[Latest release: v1.2.0](https://github.com/eesuhn/magic-2015-x64/releases/latest)**
 >
 > Releases are **source only**. The APK contains the copyrighted game, so it is not distributed:
 > build it yourself as described below, for personal use.
