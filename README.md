@@ -32,6 +32,9 @@ card unlocked and a ready-made deck.
 
 See [CHANGELOG.md](CHANGELOG.md) for each change.
 
+For devices that *can* run 32-bit code (most tablets and older phones), there is also a
+[native 32-bit build](#32-bit-build): the game itself with the same game fixes, no translator.
+
 ## Requirements
 
 - macOS on Apple Silicon (the scripts use the macOS NDK and Homebrew).
@@ -81,6 +84,36 @@ starts with:
 
 An existing save is never replaced.
 
+## 32-bit build
+
+```
+port/build-x32.sh        # → dist/Magic2015-32-bit.apk (~8 MB)
+```
+
+This is the game APK itself, patched, for devices with 32-bit ARM support. It runs natively, so it
+is faster than the 64-bit build there. It needs only the game APK, the signing key, build-tools
+and the `android-35` platform: no NDK, ZettaBridge or `port/setup.sh`. It carries:
+- the `libDuels.so` patches (multiplayer without the Innistrad boss, the EGL fallback);
+- the Bluetooth override (`port/overrides/`), so it can play the 64-bit build;
+- the promo removal;
+- the starting profile: "Planewalker", every card, the "Started" and "Dragonfire" decks.
+
+Its manifest gains a location permission, which Bluetooth discovery needs since Android 6, and
+`minSdkVersion` 21 (the overrides make it multidex). The x86 libraries are dropped, so the
+patched ARM `libDuels.so` always runs. The ZettaBridge fixes are not needed natively.
+
+The package stays `com.stainlessgames.D15`, so the OBB is not bundled. Install:
+
+```
+adb uninstall com.stainlessgames.D15     # once, only if another signature is installed (the repack)
+adb install -r dist/Magic2015-32-bit.apk # Android 14+: add --bypass-low-target-sdk-block
+adb shell mkdir -p /sdcard/Android/obb/com.stainlessgames.D15
+adb push input/com.stainlessgames.D15/main.4959.com.stainlessgames.D15.obb /sdcard/Android/obb/com.stainlessgames.D15/
+```
+
+The repack is signed with another key, so the first install over it needs that uninstall. The
+uninstall deletes the game's progress and its OBB folder. Later builds update in place.
+
 ## Decks
 
 `decks/` holds decks built from the game's own card data (`build/cards/`). Each has a `.txt` list
@@ -105,6 +138,7 @@ zettabridge/         ZettaBridge itself (from upstream d6066b9) with the fixes i
 port/
   setup.sh           fetches Dynarmic and the sysroot
   build.sh           builds dist/Magic2015-64-bit.apk
+  build-x32.sh       builds dist/Magic2015-32-bit.apk (native, for 32-bit-capable devices)
   tools.py           game APK patches (libDuels, classes.dex, starting profile), save
                      editing (GameProfile) and APK packaging/alignment
   sles/sles_stub.c   silent OpenSL ES for the 32-bit guest

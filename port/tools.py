@@ -11,6 +11,12 @@
       classes.dex in front of the game's own dex, classes.dex patched (see patch_dex) and the starting
       profile renamed, fully unlocked and given STARTING_DECKS (see patch_profile).
 
+  tools.py native-apk ORIG_APK OUT_APK LIB_DIR OVERRIDES_DEX
+      The same, built to install on its own for 32-bit devices (build-x32.sh): the lib/x86
+      libraries dropped, so the patched armeabi-v7a libDuels.so always runs, and the manifest
+      given the permissions Bluetooth discovery needs and minSdk 21 (see patch_native_manifest).
+      Unsigned and not aligned.
+
   tools.py inject APK OUT_APK ARCNAME=FILE ...
       Copies APK and adds each FILE uncompressed at ARCNAME, streamed (the OBB is 1.5 GB). Does
       the alignment itself: uncompressed data on 4 bytes, .so files and *.obb on 16 KiB pages
@@ -335,7 +341,137 @@ def copy_entry(zi, zo, info, data=None):
         zo.writestr(out, data)
 
 
-def game_apk(orig, out, lib_dir, overrides_dex=None):
+# The native 32-bit APK (build-x32.sh) is the game itself, not run by ZettaBridge, so its own
+# manifest is what Android sees. Since Android 6, Bluetooth discovery reports no devices to an app
+# without a location permission, and the game declares none; with targetSdk 17 they are granted at
+# install. minSdk becomes 21 because the overrides make the APK multidex, which Dalvik (Android 4)
+# cannot load.
+NATIVE_PERMISSIONS = ["android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION"]
+NATIVE_MIN_SDK = 21
+ANDROID_NS = "http://schemas.android.com/apk/res/android"
+
+
+class BinaryXml:
+    """Just enough of Android's binary XML (AndroidManifest.xml) to add elements and set attributes."""
+
+    def __init__(self, data):
+        if struct.unpack_from("<HH", data, 0) != (0x0003, 8):
+            sys.exit("AndroidManifest.xml: not binary XML")
+        pool_size = struct.unpack_from("<I", data, 12)[0]
+        count, styles, self.flags, start, _ = struct.unpack_from("<IIIII", data, 16)
+        if styles:
+            sys.exit("AndroidManifest.xml: string pool with styles is not supported")
+        pool = data[8:8 + pool_size]
+        self.strings = [self._read_string(pool, start + off)
+                        for off in struct.unpack_from("<%dI" % count, pool, 28)]
+        self.chunks = []
+        at = 8 + pool_size
+        while at < len(data):
+            size = struct.unpack_from("<I", data, at + 4)[0]
+            self.chunks.append(bytearray(data[at:at + size]))
+            at += size
+
+    def _read_string(self, pool, at):
+        if self.flags & 0x100:  # UTF-8: char count, byte count, bytes
+            for _ in range(2):
+                n = pool[at]
+                at += 1
+                if n & 0x80:
+                    n = (n & 0x7F) << 8 | pool[at]
+                    at += 1
+            return bytes(pool[at:at + n]).decode("utf-8")
+        n = struct.unpack_from("<H", pool, at)[0]
+        at += 2
+        if n & 0x8000:
+            n = (n & 0x7FFF) << 16 | struct.unpack_from("<H", pool, at)[0]
+            at += 2
+        return bytes(pool[at:at + 2 * n]).decode("utf-16-le")
+
+    def _encode_string(self, s):
+        if self.flags & 0x100:
+            raw = s.encode("utf-8")
+            if len(s) > 0x7F or len(raw) > 0x7F:
+                sys.exit("AndroidManifest.xml: long UTF-8 strings are not supported")
+            return bytes([len(s), len(raw)]) + raw + b"\0"
+        if len(s) > 0x7FFF:
+            sys.exit("AndroidManifest.xml: string too long")
+        return struct.pack("<H", len(s)) + s.encode("utf-16-le") + b"\0\0"
+
+    def string(self, s):
+        """Index of s in the string pool, appended if missing (after the resource map's strings)."""
+        if s not in self.strings:
+            self.strings.append(s)
+        return self.strings.index(s)
+
+    def elements(self, name):
+        """(chunk index, start element chunk) of every element called name."""
+        return [(i, c) for i, c in enumerate(self.chunks)
+                if struct.unpack_from("<H", c, 0)[0] == 0x0102
+                and self.strings[struct.unpack_from("<I", c, 20)[0]] == name]
+
+    def attributes(self, chunk):
+        """{(namespace, name): attribute offset in chunk}."""
+        start, size, count = struct.unpack_from("<HHH", chunk, 24)
+        out = {}
+        for i in range(count):
+            at = 16 + start + i * size
+            ns, name = struct.unpack_from("<II", chunk, at)
+            out[(self.strings[ns] if ns != 0xFFFFFFFF else None, self.strings[name])] = at
+        return out
+
+    def set_int(self, chunk, name, value):
+        at = self.attributes(chunk)[(ANDROID_NS, name)]
+        if chunk[at + 15] not in (0x10, 0x11):  # TYPE_INT_DEC, TYPE_INT_HEX
+            sys.exit("AndroidManifest.xml: %s is not an integer" % name)
+        struct.pack_into("<I", chunk, at + 16, value)
+
+    def string_value(self, chunk, name):
+        at = self.attributes(chunk).get((ANDROID_NS, name))
+        return self.strings[struct.unpack_from("<I", chunk, at + 16)[0]] if at is not None and chunk[at + 15] == 0x03 else None
+
+    def add_permission(self, permission):
+        """Adds <uses-permission android:name=permission/>, modelled on the last one. False if present."""
+        uses = self.elements("uses-permission")
+        if any(self.string_value(c, "name") == permission for _, c in uses):
+            return False
+        last, template = uses[-1]
+        end = next(i for i in range(last + 1, len(self.chunks)) if struct.unpack_from("<H", self.chunks[i], 0)[0] == 0x0103)
+        start = bytearray(template)
+        at = self.attributes(start)[(ANDROID_NS, "name")]
+        index = self.string(permission)
+        struct.pack_into("<I", start, at + 8, index)  # raw value
+        struct.pack_into("<I", start, at + 16, index)  # typed value (TYPE_STRING)
+        self.chunks[end + 1:end + 1] = [start, bytearray(self.chunks[end])]
+        return True
+
+    def encode(self):
+        data = b"".join(self._encode_string(s) for s in self.strings)
+        offsets, pos = [], 0
+        for s in self.strings:
+            offsets.append(pos)
+            pos += len(self._encode_string(s))
+        data += b"\0" * (-len(data) % 4)
+        start = 28 + 4 * len(self.strings)
+        pool = struct.pack("<HHIIIIII", 0x0001, 28, start + len(data), len(self.strings), 0, self.flags, start, 0)
+        pool += struct.pack("<%dI" % len(offsets), *offsets) + data
+        body = pool + b"".join(bytes(c) for c in self.chunks)
+        return struct.pack("<HHI", 0x0003, 8, 8 + len(body)) + body
+
+
+def patch_native_manifest(data):
+    xml = BinaryXml(data)
+    (_, uses_sdk), = xml.elements("uses-sdk")
+    xml.set_int(uses_sdk, "minSdkVersion", NATIVE_MIN_SDK)
+    print("AndroidManifest.xml: minSdkVersion %d" % NATIVE_MIN_SDK)
+    for permission in NATIVE_PERMISSIONS:
+        if xml.add_permission(permission):
+            print("AndroidManifest.xml: %s added" % permission)
+    return xml.encode()
+
+
+def game_apk(orig, out, lib_dir, overrides_dex=None, native=False):
+    """With native, the APK is built to install as it is (native_apk): only armeabi-v7a, whose
+    libDuels.so is the patched one, and the manifest patched (patch_native_manifest)."""
     libs = {"lib/armeabi-v7a/" + name: os.path.join(lib_dir, name)
             for name in sorted(os.listdir(lib_dir)) if name.endswith(".so")}
     with zipfile.ZipFile(orig) as zi, zipfile.ZipFile(out, "w") as zo:
@@ -349,6 +485,11 @@ def game_apk(orig, out, lib_dir, overrides_dex=None):
             zo.writestr(info, open(overrides_dex, "rb").read())
         for info in zi.infolist():
             if SIGNATURE_FILE.match(info.filename) or info.filename in libs:
+                continue
+            if native and info.filename.startswith("lib/x86/"):
+                continue
+            if native and info.filename == "AndroidManifest.xml":
+                copy_entry(zi, zo, info, patch_native_manifest(zi.read(info)))
                 continue
             if info.filename == "classes.dex":
                 dex = patch_dex(zi.read(info))
@@ -413,6 +554,8 @@ if __name__ == "__main__":
         patch_libduels(*args)
     elif cmd == "game-apk":
         game_apk(*args)
+    elif cmd == "native-apk":
+        game_apk(*args, native=True)
     elif cmd == "inject":
         inject(args[0], args[1], args[2:])
     elif cmd == "check-align":

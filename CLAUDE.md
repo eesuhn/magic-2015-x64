@@ -25,6 +25,7 @@ Everything else is generated, third-party or private, and git-ignored:
 ```
 port/setup.sh [--force]        # fetch dynarmic (pinned + zettabridge/third_party/patches) and the sysroot
 SKIP_GUEST=1 port/build.sh     # dist/Magic2015-64-bit.apk (drop SKIP_GUEST after guest/ changes)
+port/build-x32.sh              # dist/Magic2015-32-bit.apk: the game itself, patched, for 32-bit-capable devices
 build/cards/extract_cards.py   # decrypt the OBB's card data into build/cards/ (cards.canonical.json, cards.json, cards.csv, xml/)
 port/java-truststore.sh        # once, when Gradle/sdkmanager fail with PKIX errors (TLS inspection)
 git lfs install --local && git lfs pull   # fresh clone: input/ holds only pointers until this runs
@@ -59,6 +60,16 @@ AVD `android16`: Android 16 arm64. Apple Silicon has no AArch32, so it is a fait
 
 ## Facts that are easy to get wrong
 
+- **There are two builds.** `build.sh` makes the 64-bit one (ZettaBridge, package
+  `com.zettabridge.magic2015`) for the phone. `build-x32.sh` makes the native 32-bit one for the
+  user's tablet. It is `tools.py native-apk`, the same `game_apk` with `native=True`, and keeps the
+  package `com.stainlessgames.D15`. It shares the game fixes: `LIBDUELS_PATCHES`, `DEX_PATCHES`,
+  `port/overrides/` and the starting profile. It also patches the manifest (`patch_native_manifest`:
+  location permissions, minSdk 21) and drops `lib/x86`. Game fixes should reach both builds;
+  ZettaBridge-only fixes (OpenSL stub, file window, back pacing, `seedUnlocks`) do not apply to
+  the 32-bit one. There the repack's own `DuelsLoader.SmartDataRestoreForYou` unpacks
+  `assets/opera-fan`, writing only files that are missing. The emulator cannot run the 32-bit
+  build (no AArch32), so it is tested on the tablet.
 - **The game derives paths from the host package.** Inside ZettaBridge, `getPackageName()` is
   `com.zettabridge.magic2015`.
   - The OBB the game opens is `Android/obb/com.zettabridge.magic2015/main.4959.com.zettabridge.magic2015.obb`.

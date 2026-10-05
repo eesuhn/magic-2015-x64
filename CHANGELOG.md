@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### 32-bit build
+
+- `port/build-x32.sh` builds `dist/Magic2015-32-bit.apk`: the game itself with the port's game
+  fixes, for devices that run 32-bit code. It runs natively, without ZettaBridge. The fixes are the
+  `libDuels.so` patches, the Bluetooth override, the promo removal and the starting profile. The
+  package stays `com.stainlessgames.D15` and the OBB stays outside the APK. The manifest adds the
+  location permission Bluetooth discovery needs and raises `minSdkVersion` to 21. The 64-bit
+  build is unchanged.
+
 ## v1.1.1 (2026-10-05)
 
 Ad-hoc multiplayer now gets past joining. Source only. Update both phones: a v1.1.0 phone cannot
